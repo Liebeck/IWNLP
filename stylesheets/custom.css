@@ -1,0 +1,34 @@
+header ul.anchors 
+{
+	border: 0px;
+	background:none;
+	box-shadow: none;
+	list-style: disc;
+	margin-bottom: 10px;
+	height: auto;
+}
+
+header ul.anchors li
+{
+	width:auto;
+	float: none;
+	border-right: 0px;
+	border: 0px;
+	height: auto;
+	margin-left: 20px;
+}
+
+header ul.anchors li a
+{
+	font-size: 13px;
+	padding-top: 0px;
+	text-align:left;
+	color: black;
+	font-weight: bold;
+	height: auto;
+}
+
+p.view
+{
+	margin-bottom:5px;
+}
