@@ -32,3 +32,12 @@ p.view
 {
 	margin-bottom:5px;
 }
+section a
+{
+	text-decoration:underline;
+}
+.noMarginBottom
+{
+margin-bottom:0px;
+}
+ 
