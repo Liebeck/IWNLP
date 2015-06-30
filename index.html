@@ -100,6 +100,9 @@ This picture demonstrates the workflow of IWNLP:
 </li>
 <li>
 <b>I think I've found an error in IWNLP. What can I do?</b><br />
+<p class="noMarginBottom">
+Open an <a href="https://github.com/Liebeck/IWNLP/issues" target="_bank">issue on Github</a>, explaining what error you have encountered and result you would have expected instead. Please link the corresponding wiktionary article and the output produced by the parser. If you are able to add a unit test, feel free to submit a pull request.
+</p>
 <!-- TODO -->
 </li>
 <li>
@@ -116,9 +119,9 @@ This picture demonstrates the workflow of IWNLP:
 	<li>IWNLP.Lemmatizer
 		<ul class="noMarginBottom">
 			<li><b>IWNLP.Lemmatizer</b>: Reads the parsed XML output from IWNLP.Parser, generates a mapping for lemmatization and saves it as XML file.</li>
-			<li><b>IWNLP.Lemmatizer.Converter</b>: Reads CoNLL2009 files and converts them into classes from IWNLP.Lemmatizer.Models</li>
-			<li><b>IWNLP.Lemmatizer.Predictor</b>: Reads the files from converted corpora and uses IWNLP and external NLP Tools, such as TreeTagger, <a href="https://code.google.com/p/mate-tools/" target="_blank">Mate Tools</a> and Morphy. Due to license issues, we do <b>not</b> redistribute their code. As a result, you won't be able to compile this project. Nevertheless, it shows you how we accessed the 3rd party components as a black box.</li>
-			<li><b>IWNLP.Lemmatizer.Evaluation</b>: Project that reads the output XML files from IWNLP.Lemmatizer.Predictor and compares the results with gold lemmas.</li>
+			<li><b>IWNLP.Lemmatizer.Converter</b>: Reads CoNLL2009 files and converts them into classes from IWNLP.Lemmatizer.Models<br /><a href="examples/example1.xml">Example format</a></li>
+			<li><b>IWNLP.Lemmatizer.Predictor</b>: Reads the files from converted corpora and uses IWNLP and external NLP Tools, such as <a href="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/" target="_blank">TreeTagger</a>, <a href="https://code.google.com/p/mate-tools/" target="_blank">Mate Tools</a> and <a href="http://www.wolfganglezius.de/doku.php?id=cl:morphy" target="_blank">Morphy</a> to predict lemmas. Due to license issues, we do <b>not</b> redistribute their code or their models. As a result, you won't be able to compile this project. Nevertheless, it shows you how we accessed the 3rd party components as a black box.<br />The predictor produces output files in <a href="examples/example2.xml">this format</a>.</li>
+			<li><b>IWNLP.Lemmatizer.Evaluation</b>: Project that reads the output XML files from IWNLP.Lemmatizer.Predictor and compares the results with gold lemmas.<br /><a href="examples/example2.xml">Example format with predicted lemmas</a></li>
 			<li><b>IWNLP.Lemmatizer.Models</b>: Class library containing POCOs for IWNLP.Lemmatizer.Converter, IWNLP.Lemmatizer.Predictor and IWNLP.Lemmatizer.Evaluation</li>
 		</ul>
 	</li>
@@ -129,6 +132,13 @@ This picture demonstrates the workflow of IWNLP:
 <!-- TODO -->
 <!-- <br />It is easy to reproduce our results for IWNLP (set a path to the XML file), Morphy (set a path to the CSV file) and for TreeTagger (set a path to the .exe and the German model). Mate Tools is integrated more closely into our NLP pipeline (we wrote a wrapper and ported it from Java to C#). Therefore, you should use Mate Tools as a Java Implementation or ask us for help with the IKVM.Net port. -->
 <!-- As mentioned before, you won't be able to compile IWNLP.Lemmatizer.Predictor. You need to use your own implementation of Mate Tools to reproduce all of our results.-->
+<!-- 
+- wiktionary dump XXX
+- Tigercorpus
+- tuba dz
+- hdt
+- mate tools and treetagger, annotate the corpora. Save the results into a XML file (see <a href="examples/example2.xml">this format example</a>) and run IWNLP.Lemmatizer.Evaluation
+-->
 </li>
 </ul>
 
