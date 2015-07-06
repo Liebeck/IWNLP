@@ -1,0 +1,68 @@
+﻿== Güterzug ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Güterzug
+|Nominativ Plural=die Güterzüge
+|Genitiv Singular=des Güterzugs&lt;br /&gt;des Güterzuges
+|Genitiv Plural=der Güterzüge
+|Dativ Singular=dem Güterzug
+|Dativ Plural=den Güterzügen
+|Akkusativ Singular=den Güterzug
+|Akkusativ Plural=die Güterzüge
+|Bild=Güterzug in Lintorf.jpg|300px|1|ein ''Güterzug''
+}}
+
+{{Worttrennung}}
+:Gü·ter·zug, {{Pl.}} Gü·ter·zü·ge
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈɡyːtɐˌʦuːk}}, {{Pl.}} {{Lautschrift|ˈɡyːtɐˌʦyːɡə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Eisenbahnzug zum Transport von Gütern aller Art (und nicht Personen)
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus ''[[Gut]]'', [[Umlaut]] plus [[Fugenelement]] ''[[-er]]'' und ''[[Zug]]''
+
+{{Gegenwörter}}
+:[1] [[Personenzug]]
+
+{{Oberbegriffe}}
+:[1] [[Zug]], [[Eisenbahn]]
+
+{{Beispiele}}
+:[1] Durch Göttingen fahren jeden Tag viele ''Güterzüge.''
+:[1] „Ein langer ''Güterzug'' der Canadian Pacific gleitet neben der Straße her.“&lt;ref&gt;{{Literatur | Autor= Geert Mak | Titel-P= Amerika! |TitelErg= Auf der Suche nach dem Land der unbegrenzten Möglichkeiten | Verlag= Siedler | Ort=München | Jahr= 2013 | ISBN= 978-3-88680-0023-6}}, Seite 264.&lt;/ref&gt;
+:[1] „Seit dem Sommer 1945 passieren unaufhörlich ''Güterzüge'' die schlesischen Bahnhöfe.“&lt;ref&gt;{{Literatur | Autor=Hans-Dieter Rutsch |Herausgeber= |Titel= Aus Mechthild wurde Magda |Sammelwerk= Als die Deutschen weg waren. Was nach der Vertreibung geschah: Ostpreußen, Schlesien, Sudetenland | Verlag= Rowohlt Taschenbuch Verlag | Ort= Rheinbek | Jahr=2013 | Auflage= 6. | Seiten= 25-83, Zitat Seite 65.| ISBN= 978-3-499-62204-5}}&lt;/ref&gt;
+:[1] „Im ersten Waggon des ''Güterzugs'', gleich hinter dem Tender, liegt ein Mensch auf Stroh.“&lt;ref&gt;{{Literatur | Autor= E. W. Heine | Titel= Kaiser Wilhelms Wal|TitelErg= Geschichten aus der Weltgeschichte |Verlag= C. Bertelsmann Verlag | Ort= München |Jahr= 2013| Seiten = 117.|ISBN= 978-3-570-10148-3|}}&lt;/ref&gt;
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|cargo train}}, {{Ü|en|freighttrain}}, {{Ü|en|wagon train}}
+*{{fi}}: [1] {{Ü|fi|tavarajuna}}
+*{{fr}}: [1] {{Ü|fr|train de marchandises}} {{m}}
+*{{ru}}: [1] {{Ü|ru|товарный поезд}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|godståg}} {{n}}
+*{{es}}: [1] {{Ü|es|tren de carga}} {{m}}, {{Ü|es|tren de mercancías}} {{m}}, {{Ü|es|tren carguero}}
+*{{tr}}: [1] {{Ü|tr|yük katarı}}, {{Ü|tr|yük treni}}
+*{{hu}}: [1] {{Ü|hu|tehervonat}}
+}}
+
+{{Referenzen}}
+:[*] {{Lit-Duden: Rechtschreibung|A=25}}, „Güterzug“, Seite 510.
+:[1] {{Wikipedia|Güterzug}}
+:[1] {{Ref-Duden|Güterzug}}
+:[1] {{Ref-DWDS|Güterzug}}
+:[1] {{Ref-Canoo|Güterzug}}
+:[1] {{Ref-UniLeipzig|Güterzug}}
+
+{{Quellen}}
+
+[[ko:Güterzug]]
+[[pt:Güterzug]]
+[[sv:Güterzug]]
+[[zh:Güterzug]]

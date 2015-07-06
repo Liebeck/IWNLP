@@ -1,0 +1,23 @@
+﻿== knien (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+
+{{Deutsch Verb schwach untrennbar|bek|n|i|e|n|bekniet|vp=|zp=0|gerund=
+|2. Singular Imperativ Präsens Aktiv=beknie
+|2. Plural Imperativ Präsens Aktiv=bekniet
+|2. Singular Indikativ Präsens Aktiv=bekniest
+|2. Singular Konjunktiv Präsens Aktiv=bekniest
+|3. Singular Indikativ Präsens Aktiv=bekniet
+|3. Singular Konjunktiv Präsens Aktiv=bekniet
+|2. Plural Indikativ Präsens Aktiv=bekniet
+|1. Singular Indikativ Präteritum Aktiv=bekniete
+|2. Singular Indikativ Präteritum Aktiv=beknietest
+|3. Singular Indikativ Präteritum Aktiv=bekniete
+|1. Plural Indikativ Präteritum Aktiv=beknieten
+|2. Plural Indikativ Präteritum Aktiv=beknietet
+|3. Plural Indikativ Präteritum Aktiv=beknieten
+|1. Singular Konjunktiv Präteritum Aktiv=bekniete
+|2. Singular Konjunktiv Präteritum Aktiv=beknietest
+|3. Singular Konjunktiv Präteritum Aktiv=bekniete
+|1. Plural Konjunktiv Präteritum Aktiv=beknieten
+|2. Plural Konjunktiv Präteritum Aktiv=beknietet
+|3. Plural Konjunktiv Präteritum Aktiv=beknieten
+}}

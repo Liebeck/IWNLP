@@ -1,0 +1,167 @@
+﻿{{Siehe auch|[[afrikaans]]}}
+== Afrikaans ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=(das) Afrikaans
+|Nominativ Plural=—
+|Genitiv Singular=des Afrikaans
+|Genitiv Plural=—
+|Dativ Singular=(dem) Afrikaans
+|Dativ Plural=—
+|Akkusativ Singular=(das) Afrikaans
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:Af·ri·kaans, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌafʀiˈkaːns}}, {{Lautschrift|ˌafʀiˈkaːnts}}
+:{{Hörbeispiele}} {{Audio|De-Afrikaans.ogg|Afrikaans}}
+
+{{Bedeutungen}}
+:[1] aus [[niederländisch]]en [[Dialekt]]en entstandene Sprache der [[Bure]]n und nichtweißer Volksgruppen in der [[Republik Südafrika]] und im heutigen [[Namibia]]
+
+{{Abkürzungen}}
+:[1] ''ISO 639-1:'' [[af]], ''ISO 639-2:'' [[afr]]
+
+{{Herkunft}}
+:von {{af.}} ‚[[#Afrikaans (Afrikaans)|Afrikaans]]‘ „[[Afrikanisch]]“
+
+{{Synonyme}}
+:[1] ''[[veraltet]]:'' [[Kapholländisch]]
+
+{{Oberbegriffe}}
+:[1] [[westgermanische Sprache]], [[germanische Sprache]], [[indogermanische Sprache]], [[Sprache]]
+
+{{Beispiele}}
+:[1] Sprechen Sie ''Afrikaans?''
+:[1] Etwa 95 % des Wortschatzes des ''Afrikaans'' stammen aus dem Niederländischen.<ref>{{Wikipedia|Afrikaans}}</ref>
+
+{{Wortbildungen}}
+:[[afrikaans]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{ar}}: [1] {{Üxx|ar|afrīqāniya|أفريقانية}}
+*{{hy}}: [1] {{Üxx|hy|Ap`rik`ana|Ափրիքանա}}
+*{{az}}: [1] {{Ü|az|afrikaans}} / {{Ü|az|африкаанс}}
+*{{eu}}: [1] Afrikaans
+*{{br}}: [1] Afrikaans
+*{{bg}}: [1] {{Üxx|bg|afrikanski|африкански}}
+*{{da}}: [1] {{Ü|da|afrikaans}}
+*{{en}}: [1] {{Ü|en|Afrikaans}}
+*{{eo}}: [1] {{Ü|eo|Afrikanso}}, {{Ü|eo|Afrikansa lingvo}}
+*{{et}}: [1] {{Ü|et|afrikaani keel}}
+*{{fo}}: [1] {{Ü|fo|afríska}}
+*{{fi}}: [1] {{Ü|fi|afrikaans}}
+*{{fr}}: [1] {{Ü|fr|afrikaans}} {{m}}
+*{{el}}: [1] {{Üxx|el|Afrikánika|Αφρικάνικα}} {{nPl.}}
+*{{he}}: [1] {{Üxx|he|aprikans|אפריקאנס}}
+*{{hi}}: [1] {{Üxx|hi|aphrīkāṁs|अफ्रीकांस}}
+*{{id}}: [1] „([[bahasa]]) {{Ü|id|Afrika}}“
+*{{ga}}: [1] {{Ü|ga|Afracáinis}}
+*{{zu}}: [1] {{Ü|zu|Isafrikansi}}
+*{{is}}: [1] {{Ü|is|afríkanska}}
+*{{it}}: [1] {{Ü|it|afrikaans}}
+*{{ja}}: [1] {{Üxx|ja|afurikānsu-go|アフリカーンス語}}
+*{{ca}}: [1] {{Ü|ca|afrikaans}}
+*{{hr}}: [1] {{Ü|hr|afrikaans}}
+*{{ku}}: [1] {{Ü|ku|Efrîqî}}
+*{{lv}}: [1] {{Ü|lv|Afrikandu}}
+*{{lt}}: [1] {{Ü|lt|Afrikansas}}
+*{{ms}}: [1]  „([[bahasa]]) {{Ü|ms|Afrika}}“
+*{{mt}}: [1] {{Ü|mt|Afrikans}}
+|Ü-rechts=
+*{{mk}}: [1] {{Üxx|mk|afrikanski|африкански}}
+*{{ne}}: [1] {{Üxx|ne|aphrikālī|अफ्रिकाली}}
+*{{nl}}: [1] {{Ü|nl|Afrikaans (Niederländisch)|Afrikaans}} {{n}}
+*{{no}}: [1] {{Ü|no|afrikaans}}
+*{{hsb}}: [1] {{Ü|hsb|afrikaanšćina}}, {{Ü|hsb|afrikaans}}
+*{{oc}}: [1] {{Ü|oc|africans}}
+*{{fa}}: [1] {{Üxx|fa|afrīqāī|آفريقايى}}
+*{{pl}}: [1] {{Ü|pl|afrykanerski}} {{m}}, {{Ü|pl|afrikaans#afrikaans (Polnisch)|afrikaans}} {{m}}
+*{{pt}}: [1] {{Ü|pt|Africano}}
+*{{ro}}: [1] {{Ü|ro|afrikaans}}
+*{{ru}}: [1] {{Üxx|ru|afrikaans|африкаанс}}
+*{{sv}}: [1] {{Ü|sv|afrikaans}}
+*{{sr}}: [1] {{Üxx|sr|[[afrički]]|афрички}}
+*{{sk}}: [1] {{Ü|sk|afrikánsky}}
+*{{sl}}: [1] {{Ü|sl|afrikaans}}, {{Ü|sl|afrikanščina}}
+*{{es}}: [1] {{Ü|es|afrikaans}}
+*{{sw}}: [1] {{Ü|sw|Kiafrikans}}
+*{{ta}}: [1] {{Üxx|ta|āppirikkāṉsa|ஆப்பிரிக்கான்ஸ}}
+*{{tt}}: [1] {{Üxx|tt|[[afrikants]]|африканц}}
+*{{th}}: [1] {{Üxx|th||ภาษาอัฟริกาน}}, {{Üxx|th||ภาษาอัฟริกันส์}}
+*{{cs}}: [1] {{Ü|cs|Afrikánština}} {{f}}, {{Ü|cs|afrikánský}} (Adj.)
+*{{tr}}: [1] {{Ü|tr|Afrikanca}}, {{Ü|tr|Afrikaanca}}
+*{{uk}}: [1] {{Üxx|uk|afrykans|африканс}}
+*{{hu}}: [1] {{Ü|hu|afrikánsz}}
+*{{ur}}: [1] {{Üxx|ur|īfrīkānz|ايفريکانز}}
+*{{vi}}: [1] {{Ü|vi|Tiếng Hà lan ở Kếp}}
+*{{cy}}: [1] {{Ü|cy|Affricaneg}}
+*{{fy}}: [1] {{Ü|fy|Afrikaansk}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Afrikaans}}
+:[1] {{Ref-DWDS|Afrikaans}}
+:[*] {{Ref-Canoo|Afrikaans}}
+:[1] {{Ref-UniLeipzig|Afrikaans}}
+:[1] {{Ref-wissen.de|Wörterbuch|Afrikaans}}
+:[1] {{Ref-wissen.de|Fremdwort|Afrikaans}}
+:[1] {{Ref-wissen.de|Lexikon|Afrikaans}}
+:[1] {{Ref-Duden|Afrikaans}}
+:[1] {{Lit-Glück: Metzler-Lexikon Sprache|A=4}}, Seite 17.
+:[1] [[Wiktionary:Afrikaans]]
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[afrikanisch]]
+
+[[Kategorie:Fremdwort]]
+
+[[af:Afrikaans]]
+[[ast:Afrikaans]]
+[[ca:Afrikaans]]
+[[cs:Afrikaans]]
+[[cy:Afrikaans]]
+[[da:Afrikaans]]
+[[el:Afrikaans]]
+[[en:Afrikaans]]
+[[es:Afrikaans]]
+[[et:Afrikaans]]
+[[fa:Afrikaans]]
+[[fi:Afrikaans]]
+[[fr:Afrikaans]]
+[[gu:Afrikaans]]
+[[hi:Afrikaans]]
+[[hr:Afrikaans]]
+[[hu:Afrikaans]]
+[[id:Afrikaans]]
+[[is:Afrikaans]]
+[[it:Afrikaans]]
+[[km:Afrikaans]]
+[[ko:Afrikaans]]
+[[ku:Afrikaans]]
+[[lb:Afrikaans]]
+[[li:Afrikaans]]
+[[lt:Afrikaans]]
+[[mg:Afrikaans]]
+[[my:Afrikaans]]
+[[nds:Afrikaans]]
+[[nl:Afrikaans]]
+[[no:Afrikaans]]
+[[pl:Afrikaans]]
+[[pt:Afrikaans]]
+[[ro:Afrikaans]]
+[[ru:Afrikaans]]
+[[sv:Afrikaans]]
+[[sw:Afrikaans]]
+[[ta:Afrikaans]]
+[[tl:Afrikaans]]
+[[tr:Afrikaans]]
+[[uz:Afrikaans]]
+[[vi:Afrikaans]]

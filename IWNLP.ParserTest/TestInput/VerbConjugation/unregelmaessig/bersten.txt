@@ -1,0 +1,4 @@
+﻿== bersten (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Abgeleitete Verben|[[aufbersten]], [[zerbersten]]}}
+
+{{Deutsch Verb unregelmäßig|2=berst|3=barst|4=bärst|5=geborsten|6=birst|7=e2|8=i|Hilfsverb=sein|vp=nein|zp=sie_sind|gerund=nein|Imperativ (ihr)=berstet}}

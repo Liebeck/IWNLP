@@ -1,0 +1,2 @@
+﻿== beißen (Konjugation) ({{Verbkonjugation|Deutsch}})==
+{{Deutsch Verb unregelmäßig|2=beiß|3=biss|4=biss|5=gebissen|7=-s|vp=ja|zp=ja|gerund=ja}}

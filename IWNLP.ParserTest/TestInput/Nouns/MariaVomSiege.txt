@@ -1,0 +1,56 @@
+﻿== Maria vom Siege ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Wortverbindung|Deutsch}}, {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular= (die) Maria vom Siege
+|Nominativ Plural=—
+|Genitiv Singular= (der) Maria vom Siege
+|Genitiv Plural=—
+|Dativ Singular= (der) Maria vom Siege
+|Dativ Plural=—
+|Akkusativ Singular= (die) Maria vom Siege
+|Akkusativ Plural=—
+|Bild 1=Bermatingen Pfarrkirche Maria vom Siege 2.jpg|160px|2|“Maria vom Siege“ in der Pfarrkirche von Bermatingen
+|Bild 2=NtraSradelasVictorias0001.JPG|160px|2|“Maria vom Siege“ bei einer Prozession in Lima, Peru
+}}
+
+{{Worttrennung}}
+: Ma·ria vom Sie·ge, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|maˈʀiːa fɔm ˈziːɡə}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''Katholische [[Religion]]:'' ein Ehrentitel Marias, der auf den Sieg [[w:Pius V.|Papst Pius V.]] (1566 – 1572) und der [[w:Heilige Liga (1571)|Heiligen Liga von 1571]] in der [[w:Seeschlacht von Lepanto|Seeschlacht von Lepanto]] gegen die Türken zurückgeht
+:[2] ''[[Kunstgeschichte]]:'' ein spezieller Topos der Mariendarstellung, bei dem die Muttergottes auf einer Mondsichel oder auf einem von einer Schlange umwundenen Erdball steht und das Jesuskind in den Armen hält
+
+{{Herkunft}}
+:Wortverbindung aus dem Eigennamen ''[[Maria]]'' und dem Substantiv ''[[Sieg]]'' verbunden durch die Präposition ''[[vom]]''
+
+:Der Ehrentitel „Maria vom Siege“ geht auf den Sieg  [[w:Pius V.|Papst Pius V.]] (1566 – 1572) und der [[w:Heilige Liga (1571)|Heiligen Liga von 1571]]  in der [[w:Seeschlacht von Lepanto|Seeschlacht von Lepanto]] gegen die Türken zurück. [[w:Gregor XIII.|Papst Gregor XIII.]] stiftete im Folgejahr  das Gedenkfest gleichen Namens, das am ersten Sonntag im Oktober begangen wurde. Schon 1573 wurde der Gedenktag in „Rosenkranzfest“ umbenannt. Seit 1913 wird dieses Fest jeweils am 07. Oktober gefeiert. Die Kunstgeschichte bezeichnet mit ''Maria vom Siege''   einen speziellen Topos der Mariendarstellung, bei dem die Muttergottes auf einer Mondsichel steht und das Jesuskind in den Armen hält.  Um das Haupt Mariens sind meist zwölf Sterne (für die Zwölf Stämme Israels) angeordnet; die gesamte Figur ist meist von einem Strahlenkranz umgeben. Ab dem 17. Jahrhundert ändert sich die Darstellung. Zum Motiv tritt der von einer Schlange umwundene Erdball hinzu. Maria setzt ihren Fuß auf den Kopf der Schlange, ein Gestus der symbolisch als der Sieg über die Erbsünde gedeutet wird.<ref>nach: Wikipedia „Maria vom Siege“ und P.W. Hartmann, Das grosse Kunstlexikon, Artikel „Mondsichelmadonna“</ref> Eine weitere Bedeutung dieses Topos ist das große Zeichen, die apokalyptische Gestalt einer Frau: [[Offenbarung des Johannes]] 12, 1 ff: Eine Frau mit der Sonne bekleidet, der Mond zu ihren Füßen und auf ihrem Haupt ein Kranz von zwölf Sternen.
+
+{{Synonyme}}
+:[2] Maria auf der Mondsichel, Mondsichelmadonna, Madonna im Strahlenkranz, Lichtverklärte Madonna , Unsere liebe Frau vom Sieg
+
+{{Beispiele}}
+:[1] Das Fest "''Maria vom Siege''" wurde bereits im Jahr 1573 in "Rosenkranzfest" umbenannt.
+:[2] „Über dem Haupt Marias sind oft zwölf Sterne kranzförmig angeordnet, als Hinweis auf die zwölf Stämme Israels. Häufig ist die ganze Gestalt von einem Strahlenkranz umgeben. Darauf beziehen sich die früher gleichfalls üblichen Termini für das Motiv: "Madonna im Strahlenkranz" und "Lichtverklärte Madonna". Das Sujet wird aber auch "''Maria vom Siege''" bzw. "Unsere liebe Frau vom Sieg" genannt.“<ref> P.W. Hartmann, Das grosse Kunstlexikon, Artikel „Mondsichelmadonna“ </ref>
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1, 2] {{Ü|en|Our Lady of Victories}}
+|Ü-rechts=
+*{{es}}: [1, 2] {{Ü|es|Nuestra Señora de las Victorias}}
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Maria vom Siege}}
+:[1] [http://www.kirche-in-not.de/kirchengeschichte/2009/05-01-maria-mutter-europas "Maria - Mutter Europas" (Hilfswerk Kirche-in-Not)] (dort eine kurze Abhandlung zum Marientitel und -fest "Maria vom Siege")
+:[1] [http://www.heiligenlexikon.de/Stadler/Maria.html "Maria" in Stadlers - Vollständiges Heiligenlexikon] (dort eine kurze Abhandlung zum Marientitel und -fest "Maria vom Siege")
+:[2] [http://www.beyars.com/kunstlexikon/lexikon_6070.html "Mondsichelmadonna" In: P.W. Hartmann, Das grosse Kunstlexikon] (dort auch "Maria vom Siege")
+
+{{Quellen}}
+
+[[Kategorie:Wortverbindung]]

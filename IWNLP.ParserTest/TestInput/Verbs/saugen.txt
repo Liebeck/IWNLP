@@ -1,0 +1,98 @@
+﻿== saugen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=sauge
+|Gegenwart_du=saugst
+|Gegenwart_er, sie, es=saugt
+|1.Vergangenheit_ich=saugte<br />(sog)
+|Konjunktiv II_ich=saugte<br />(söge)
+|Imperativ Singular=saug!
+|Imperativ Plural=saugt!
+|Partizip II=gesaugt<br />(gesogen)
+|Hilfsverb=haben
+}}
+
+{{Anmerkung}}
+:unregelmäßige Konjugation (in Klammern) nicht in allen Zusammenhängen
+
+{{Worttrennung}}
+:sau·gen; {{Prät.}} saug·te, sog; {{Part.}} ge·saugt, ge·so·gen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈzaʊ̯ɡn̩}}; {{Prät.}} {{Lautschrift|ˈzaʊ̯ktə}}, {{Lautschrift|zoːk}}; {{Part.}} {{Lautschrift|ɡəˈzaʊ̯kt}}, {{Lautschrift|ɡəˈzoːɡn̩}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|aʊ̯ɡn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] etwas heran oder in sich hinein [[befördern]], indem [[Unterdruck]] geschaffen wird
+:[2] ein saugendes Gerät betätigen
+
+{{Herkunft}}
+:[[mittelhochdeutsch]] ''sūgen'', [[althochdeutsch]] ''sūgan'', verwandt mit ''[[saufen]]'' <ref>{{Ref-Duden|saugen}}</ref>
+
+{{Synonyme}}
+:[1] [[lutschen]], [[nuckeln]], [[schlürfen]], [[ziehen]]
+
+{{Gegenwörter}}
+:[1] [[spucken]], [[speien]], [[blasen]], [[pusten]], [[blasen]]
+
+{{Unterbegriffe}}
+:[1] [[aussaugen]], [[einsaugen]], [[festsaugen]], [[leersaugen]], [[vollsaugen]] 
+:[2] [[ansaugen]], [[absaugen]], [[fortsaugen]], [[staubsaugen]], [[wegsaugen]]
+
+{{Beispiele}}
+:[1] Das Kalb ''sog'' heftig am Euter.
+:[2] Hast du schon Staub ''gesaugt?''
+
+{{Redewendungen}}
+:[[sich etwas aus den Fingern saugen]]
+
+{{Wortbildungen}}
+:[[Blutsauger]], [[Laubsauger]], [[säugen]], [[Sauger]], [[Saugglocke]], [[Sog]], [[Staubsauger]], [[Saugnapf]], [[Saugwurm]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|suck}}
+*{{fr}}: [1] {{Ü|fr|sucer}}
+*{{it}}: [1] {{Ü|it|succhiare}}
+*{{nl}}: [1] {{Ü|nl|zuigen}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|ssać}}
+*{{ru}}: [1] {{Üt|ru|сосать|sosátʹ}}
+*{{sv}}: [1] {{Ü|sv|suga}}
+*{{es}}: [1] {{Ü|es|succionar}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|saugen}}
+:[1, 2] {{Ref-DWDS|saugen}}
+:[1, 2] {{Ref-Canoo|saugen}}
+:[1, 2] {{Ref-UniLeipzig|saugen}}
+:[1, 2] {{Ref-FreeDictionary|saugen}}
+:[1, 2] {{Ref-Duden}}
+
+{{Quellen}}
+
+[[chr:saugen]]
+[[cs:saugen]]
+[[el:saugen]]
+[[en:saugen]]
+[[es:saugen]]
+[[fi:saugen]]
+[[fr:saugen]]
+[[hr:saugen]]
+[[hu:saugen]]
+[[id:saugen]]
+[[io:saugen]]
+[[it:saugen]]
+[[ko:saugen]]
+[[ku:saugen]]
+[[li:saugen]]
+[[mg:saugen]]
+[[no:saugen]]
+[[pl:saugen]]
+[[ru:saugen]]
+[[sv:saugen]]
+[[tr:saugen]]
+[[zh:saugen]]

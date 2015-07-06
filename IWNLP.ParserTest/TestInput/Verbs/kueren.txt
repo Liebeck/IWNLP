@@ -1,0 +1,75 @@
+﻿{{Siehe auch|[[Küren]]}}
+== küren ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=küre
+|Gegenwart_du=kürst
+|Gegenwart_er, sie, es=kürt
+|1.Vergangenheit_ich=kor (''veraltet''), kürte
+|Partizip II=gekoren (''veraltet''), gekürt
+|Konjunktiv II_ich=kürte
+|Imperativ Singular=kür(e)!
+|Imperativ Plural=kürt!
+|Hilfsverb=haben
+}}
+
+{{Nebenformen}}
+:in der Gegenwart auch die Nebenform [[kiesen]] (veraltet)
+
+{{Worttrennung}}
+:kü·ren, {{Prät.}} kür·te, {{Part.}} ge·kürt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈkyːʀən}}, {{Prät.}} {{Lautschrift|ˈkyːɐ̯tə}}, {{Part.}} {{Lautschrift|ɡəˈkyːɐ̯t}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|yːʀən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] (''veraltet''): [[allgemein]] [[auswählen]], eine [[Entscheidung]] [[treffen]]
+:[2] [[jemand|jemanden]] einen [[Titel]] [[verleihen]], eine [[Auszeichnung]] [[vergeben]], [[meist]] von einer [[Jury]]
+:[3] einen [[Kaiser]] [[wählen]] [[Kurfürsten]]
+
+{{Herkunft}}
+:Die [[Ableitung]] ''küren'' zum Substantiv {{ahd.}} ''churi,'' {{mhd.}} ''kür'' ist seit dem 17. Jahrhundert belegt.<ref name="duden-etym">{{Lit-Duden: Herkunftswörterbuch|A=3}}, Stichwort: „Kür“.</ref> Pfeifer datiert das Verb ins Mittelhochdeutsche, also etwas früher.<ref>{{Literatur|Autor=Wolfgang Pfeifer [Leitung]|Titel=Etymologisches Wörterbuch des Deutschen|Auflage=2. durchgesehene und erweiterte|Verlag=Deutscher Taschenbuch Verlag|Ort=München|Jahr=1993|ISBN=3-423-03358-4}}, Stichwort „Kür“.</ref>Aus einer indoger. Wurzel *geus- und verwandt mit [[gustatorisch]].<ref>[http://www.etymonline.com/index.php?term=gusto&allowed_in_frame=0 Online Etymology Dictionary]</ref>
+
+{{Synonyme}}
+:[1] [[wählen]], [[auswählen]], [[erwählen]]
+:[2] [[nominieren]], [[auszeichnen]]
+
+{{Beispiele}}
+:[1] „So rennet nun alles in vollem Galopp / Und kürt sich im Saale sein Plätzchen“ (Goethe, Hochzeitslied)
+:[2] Zur deutschen Weinkönigin wurde diesmal eine junge Pfälzerin gekürt.
+
+{{Charakteristische Wortkombinationen}}
+:[2] zum ... des Jahres (Monats,...) küren; zum besten ... küren; zur schönsten ...küren
+
+{{Wortbildungen}}
+:[[Kür]], [[erküren]], [[krüsch]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|choose}}, [2] {{Ü|en|elect}}
+*{{fr}}: [1] {{Ü|fr|choisir}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|utvälja}}; [2, 3] {{Ü|sv|utkora}}
+*{{es}}: [1] {{Ü|es|seleccionar}}, [2] {{Ü|es|nominar}}
+*{{cs}}: [1] {{Ü|cs|volit}}, {{Ü|cs|zvolit}}
+}} <!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Editierfensters -->
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|küren}}
+:[1] {{Ref-DWDS|küren}}
+:[1] {{Ref-Canoo|küren}}
+:[1] {{Ref-UniLeipzig|küren}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[führen]], [[kuren]], [[rühren]]
+
+[[en:küren]]
+[[id:küren]]
+[[ko:küren]]
+[[mg:küren]]
+[[zh:küren]]

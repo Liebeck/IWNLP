@@ -1,0 +1,47 @@
+﻿== weiterhelfen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=helfe weiter
+|Gegenwart_du=hilfst weiter
+|Gegenwart_er, sie, es=hilft weiter
+|1.Vergangenheit_ich=half weiter
+|Konjunktiv II_ich=hülfe weiter<br />''selten:'' hälfe weiter
+|Imperativ Singular=hilf weiter!
+|Imperativ Plural=helft weiter!
+|Partizip II=weitergeholfen
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:wei·ter·hel·fen, {{Prät.}} half wei·ter, {{Part.}} wei·ter·ge·hol·fen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈvaɪ̯tɐˌhɛlfn̩}}, {{Prät.}} {{Lautschrift|ˌhalf ˈvaɪ̯tɐ}}, {{Part.}} {{Lautschrift|ˈvaɪ̯tɐɡəˌhɔlfn̩}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] behilflich sein, einem Ziel näher zu kommen
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen}}
+
+{{Absatz}}
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|weiterhelfen}}
+:[1] {{Ref-DWDS|weiterhelfen}}
+:[1] {{Ref-FreeDictionary|weiterhelfen}}
+:[1] {{Ref-Duden|weiterhelfen}}
+:[1] {{Ref-wissen.de|Wörterbuch|weiterhelfen}}
+:[*] {{Ref-Canoo|weiterhelfen}}
+:[*] {{Ref-UniLeipzig|weiterhelfen}}

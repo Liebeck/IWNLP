@@ -1,0 +1,92 @@
+﻿== Ablaß ({{Sprache|Deutsch}}) ==
+{{Anmerkung}}
+:Die Schreibung des Toponyms und des Nachnamens ist nicht veraltet.
+{{Alte Schreibweise|Ablass|Reform 1996}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{n}}, {{Wortart|Toponym|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=(das) Ablaß
+|Nominativ Plural=—
+|Genitiv Singular=(des) Ablaß
+|Genitiv Plural=—
+|Dativ Singular=(dem) Ablaß
+|Dativ Plural=—
+|Akkusativ Singular=(das) Ablaß
+|Akkusativ Plural=—
+}}
+{{Artikel Toponym}}
+
+{{Worttrennung}}
+:Ab·laß, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈapˌlas}}
+:{{Hörbeispiele}} {{Audio|De-Ablaß.ogg}}
+
+{{Bedeutungen}}
+:[1] Ortsteil von [[Sornzig-Ablaß]] im Landkreis [[Torgau-Oschatz]] ([[Sachsen]])
+
+{{Beispiele}}
+:[1] ''Ablaß'' liegt in Sachsen.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Ablaß}}
+:[1] {{Ref-UniLeipzig|Ablaß}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=<small>(der/die)</small> Ablaß
+|Nominativ Plural=<small>(die)</small> Ablaß<br><small>(die)</small> Ablaßens
+|Genitiv Singular=<small>(des/der)</small> Ablaß’
+|Genitiv Plural=<small>(der)</small> Ablaß<br><small>(der)</small> Ablaßens
+|Dativ Singular=<small>(dem/der)</small> Ablaß
+|Dativ Plural=<small>(den)</small> Ablaß<br><small>(den)</small> Ablaßens
+|Akkusativ Singular=<small>(den/die)</small> Ablaß
+|Akkusativ Plural=<small>(die)</small> Ablaß<br><small>(die)</small> Ablaßens
+}}
+
+{{Worttrennung}}
+:Ab·laß, {{Pl.}} Ab·laß, Ab·la·ßens
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈapˌlas}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ein [[Nachname]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen}}
+
+{{Bekannte Namensträger}}
+* [[w:Bruno Ablaß|Bruno Ablaß]] (1866–1942), deutscher Politiker
+* [[w:Werner E. Ablaß|Werner E. Ablaß]] (*1946), deutscher Politiker
+
+{{Referenzen}}
+:[1] {{Wikipedia|Ablaß}}
+:[1] {{Ref-MetaGenealogy}}
+
+{{Ähnlichkeiten}}
+:[[Ablass]], [[Atlas]]
+
+[[Kategorie:Eigenname]]
+
+[[en:Ablaß]]
+[[is:Ablaß]]
+[[ko:Ablaß]]
+[[nl:Ablaß]]
+[[pl:Ablaß]]
+[[ru:Ablaß]]
+[[zh:Ablaß]]

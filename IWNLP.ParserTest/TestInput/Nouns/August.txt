@@ -1,0 +1,417 @@
+﻿== August ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der August
+|Nominativ Plural=die Auguste
+|Genitiv Singular=des Augusts<br />des Augustes
+|Genitiv Plural=der Auguste
+|Dativ Singular=dem August<br />dem Auguste
+|Dativ Plural=den Augusten
+|Akkusativ Singular=den August
+|Akkusativ Plural=die Auguste
+}}
+
+{{Worttrennung}}
+:Au·gust, {{Pl.}} Au·gus·te
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aʊ̯ˈɡʊst}}, {{Pl.}} {{Lautschrift|aʊ̯ˈɡʊstə}}
+:{{Hörbeispiele}} {{Audio|De-August.ogg|August}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|ʊst|Deutsch}}
+
+{{Bedeutungen}}
+:[1] der [[achte]], 31 [[Tag]]e umfassende [[Monat]] im [[Jahr]]
+
+{{Abkürzungen}}
+:[1] [[Aug.]], 8., 08., VIII.
+
+{{Herkunft}}
+:im Jahre 8 [[v. Chr.]] nach dem römischen [[Kaiser]] [[Augustus]] benannt, da er in diesem Monat sein erstes [[Konsulat]] angetreten hatte
+
+{{Synonyme}}
+:[1] [[Achte]]r, [[Ährenmonat]], [[Erntemonat]], [[Ernting]], [[Sichelmonat]]
+
+{{Gegenwörter}}
+:[1] [[Januar]] / [[Jänner]], [[Februar]] / [[Feber]], [[März]], [[April]], [[Mai]], [[Juni]], [[Juli]], [[September]], [[Oktober]], [[November]], [[Dezember]]
+
+{{Oberbegriffe}}
+:[1] [[Monat]], [[Sommermonat]]
+
+{{Beispiele}}
+:[1] Der ''August'' folgt auf den Juli.
+
+{{Wortbildungen}}
+:[[Augusttag]], [[Augustwoche]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|Augustus}}
+*{{sq}}: [1] {{Ü|sq|gusht}}
+*{{ar}}: [1] {{Üxx|ar|ʾuġusṭus|أغُسطس}}, ''[[Irak]], [[Syrien]]:'' {{Üxx|ar|āb|آب}}
+*{{az}}: [1] {{Ü|az|avqust}}
+*{{ast}}: [1] {{Ü|ast|agostu}}
+*{{ay}}: [1] {{Ü|ay|agustu}}
+*{{eu}}: [1] {{Ü|eu|abuztu}}
+*{{bn}}: [1] {{Üxx|bn|agast|অগস্ত}}
+*{{bs}}: [1] {{Ü|bs|august}}
+*{{br}}: [1] {{Ü|br|miz Eost}}
+*{{bg}}: [1] {{Üxx|bg|avgust|август}}
+*{{rmr}}: [1] {{Ü|rmr|querosto}}
+*{{zh}}: [1] {{Üxx|zh|bāyuè|八月}}
+*{{da}}: [1] {{Ü|da|august}}
+*{{en}}: [1] {{Ü|en|August}}
+*{{eo}}: [1] {{Ü|eo|aŭgusto}}
+*{{et}}: [1] {{Ü|et|august}}
+*{{fo}}: [1] {{Ü|fo|august}}
+*{{fj}}: [1] {{Ü|fj|Okosita}}
+*{{fi}}: [1] {{Ü|fi|elokuu}}
+*{{fr}}: [1] {{Ü|fr|août}} {{m}}
+*{{fur}}: [1] {{Ü|fur|avost}} {{m}}
+*{{gl}}: [1] {{Ü|gl|agosto}}
+*{{ka}}: [1] {{Üxx|ka|agvist’o|აგვისტო}}
+*{{el}}: [1] {{Üxx|el|Aúgoustos|Αύγουστος}}
+*{{gn}}: [1] {{Ü|gn|yasypoapy}}
+*{{gu}}: [1] {{Üxx|gu|ôgasT|ઑગસ્ટ્}}
+*{{he}}: [1] {{Üxx|he|ogúst|אבגוסט}}
+*{{hi}}: [1] {{Üxx|hi|agast|अगस्त}}
+*{{id}}: [1] {{Ü|id|Augustus}}
+*{{ia}}: [1] {{Ü|ia|augusto}}
+*{{ga}}: [1] {{Ü|ga|Lúnasa}}
+:*{{sga}}: [1] {{Ü|sga|Lughnasadh}}
+*{{zu}}: [1] {{Ü|zu|Uncwaba}}
+*{{is}}: [1] {{Ü|is|ágústmánuður}}
+*{{it}}: [1] {{Ü|it|agosto}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|はちがつ, hachigatsú|八月}}
+*{{yi}}: [1] {{Üxx|yi|oygust|אױגוסט}} {{m}}
+*{{kk}}: [1] {{Üxx|kk|tamye|тамыэ}}
+*{{csb}}: [1] {{Ü|csb|zélnik}}
+*{{ca}}: [1] {{Ü|ca|agost}}
+*{{ky}}: [1] {{Üxx|ky|[[avgust]]|август}}
+*{{sw}}: [1] {{Ü|sw|agosti}}
+*{{ko}}: [1] {{Üxx|ko|pal.wol|팔월}}
+*{{co}}: [1] {{Ü|co|agostu}}
+*{{hr}}: [1] {{Ü|hr|kolovoz}}
+*{{ku}}: [1] {{Ü|ku|Tebax}}, {{Ü|ku|gelawêj}}
+*{{lld}}: [1] {{Ü|lld|agost}}
+*{{la}}: [1] {{Ü|la|Augustus}}
+*{{li}}: [1] {{Ü|li|augustus}}
+*{{ln}}: [1] {{Ü|ln|ogusiti}}
+*{{lt}}: [1] {{Ü|lt|rugpjūtis}}
+*{{lb}}: [1] {{Ü|lb|August}}
+*{{mg}}: [1] {{Ü|mg|agositra}}
+|Ü-rechts=
+*{{ms}}: [1] {{Ü|ms|bulan Ogos}}
+*{{mt}}: [1] {{Ü|mt|Awissu}}
+*{{mi}}: [1] {{Ü|mi|Ākuhata}}, {{Ü|mi|Here turi kōkā}}, {{Ü|mi|Kaiwaka}}, {{Ü|mi|Kauawhi}}, {{Ü|mi|Māngere}}
+*{{mr}}: [1] {{Üxx|mr|ôgasT|ऑगस्ट}}
+*{{mn}}: [1] {{Üxx|mn|najmdugaar sar|наймдугаар сар}}
+*{{nl}}: [1] {{Ü|nl|augustus}} {{m}}, {{Ü|nl|oogstmaand}} {{m}}
+:*{{vls}}:[1] {{Ü|vls|ogustus}}
+*{{se}}: [1] {{Ü|se|borgemánnu}}
+*{{no}}: [1] {{Ü|no|august}}
+*{{nov}}: [1] {{Ü|nov|auguste}}
+*{{oc}}: [1] {{Ü|oc|agost}} {{m}}, {{Ü|oc|aost}} {{m}}
+*{{pa}}: [1] {{Üxx|pa|agassat|ਅਗਸ੍ਸਤ}}
+*{{pap}}: [1] {{Ü|pap|augustus}}
+*{{fa}}: [1] {{Üxx|fa|ūt|اوت}}
+*{{pl}}: [1] {{Ü|pl|sierpień}}
+*{{pt}}: [1] {{Ü|pt|agosto}} {{m}}
+*{{qu}}: [1] {{Ü|qu|situwa}}
+*{{rm}}: [1] {{Ü|rm|avust}}
+*{{ro}}: [1] {{Ü|ro|august}}
+*{{ru}}: [1] {{Üxx|ru|avgust|август}}, {{m}}
+*{{sm}}: [1] {{Ü|sm|'Aokuso}}
+*{{sa}}: [1] {{Üxx|sa|agastamāsa|अगस्तमास}}
+*{{gd}}: [1] {{Ü|gd|Lùnasdal}}
+*{{sv}}: [1] {{Ü|sv|augusti}}
+*{{sr}}: [1] {{Üxx|sr|[[avgust]]|август}}
+*{{sn}}: [1] {{Ü|sn|nyamavhuvhu}}
+*{{sk}}: [1] {{Ü|sk|august}}
+*{{sl}}: [1] {{Ü|sl|avgúst}}
+*{{so}}: [1] {{Ü|so|ogost}}
+*{{wen}}:
+*{{dsb}}: [1] {{Ü|dsb|awgust}}
+*{{hsb}}: [1] {{Ü|hsb|awgust}}
+*{{es}}: [1] {{Ü|es|agosto}} {{m}}
+*{{st}}: [1] {{Ü|st|Phato}}
+*{{tl}}: [1] {{Ü|tl|Agosto}}
+*{{tt}}: [1] {{Üxx|tt|avgust|август}}
+*{{th}}: [1] {{Üxx|th||เดือนสิงหาคม}}, {{Üxx|th|síng háá khohm|สิงหาคม}}
+*{{ti}}: [1] {{Ü|ti|nehàsie}}
+*{{tpi}}: [1] {{Ü|tpi|Ogas}}
+*{{cs}}: [1] {{Ü|cs|srpen}}
+*{{ce}}: [1] {{Ü|ce|avgust}}
+*{{cv}}: [1] {{Üxx|cv|şurla|ҫурла}}
+*{{tr}}: [1] {{Ü|tr|ağustos}}
+*{{tk}}: [1] {{Ü|tk|awgust}}
+*{{ug}}: [1] {{Üxx|ug|â´ûgh´ûst|ئاؤغؤست}}
+*{{uk}}: [1] {{Üxx|uk|serpen’|серпень}}
+*{{hu}}: [1] {{Ü|hu|augusztus}}
+*{{ur}}: [1] {{Üxx|ur|<!--?g?st-->|اگست}}
+*{{uz}}: [1] {{Ü|uz|avgust}}
+*{{vi}}: [1] {{Ü|vi|tháng tám}}
+*{{cy}}: [1] {{Ü|cy|Awst}}
+*{{wa}}: [1] {{Ü|wa|aous'}}, {{Ü|wa|awousse}}
+*{{be}}: [1] {{Üxx|be|žniven’|жнівень}}
+*{{fy}}: [1] {{Ü|fy|augustus}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|August}}
+:[1] {{Ref-DWDS|August}}
+:[1] {{Ref-Canoo|August}}
+:[1] {{Ref-UniLeipzig|August}}
+
+{{Monate (Deutsch)}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{Wortart|Vorname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=August
+|Nominativ Plural=—
+|Genitiv Singular=Augusts
+|Genitiv Plural=—
+|Dativ Singular=August
+|Dativ Plural=—
+|Akkusativ Singular=August
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:Au·gust
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈaʊ̯ɡʊst}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] männlicher [[Vorname]]
+
+{{Herkunft}}
+:[1] von [[lateinisch]]: [[Augustus]]
+
+{{Kurzformen}}
+:[1] [[Gust]]
+
+{{Koseformen}}
+:[1] [[Gustel]], [[Gustl]]
+
+{{Weibliche Namensvarianten}}
+:[1] [[Augusta]], [[Auguste]]
+
+{{Namensvarianten}}
+:[1] [[Augustin]]
+
+{{Bekannte Namensträger}}
+:[1] [[w:August der Starke|August der Starke]]
+
+{{Beispiele}}
+:[1] ''August'' singt sehr gern und wurde dadurch bekannt.
+
+{{Wortbildungen}}
+:[1] [[dummer August]], [[Grüßaugust]], [[Pflaumenaugust]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|Augustus}}
+*{{fr}}: [1] {{Ü|fr|Auguste}}
+|Ü-rechts=
+*{{la}}: [1] {{Ü|la|Augustus}}, {{Ü|la|Augustinus}}
+*{{pl}}: [1] {{Ü|pl|August}} {{m}}
+|Dialekttabelle=
+*Bairisch: []
+*Elsässisch: []
+|D-rechts=
+*Kölsch: [1] [[Aujuss]]
+*Schwäbisch: []
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|August}}
+:[1] {{Lit-Burkart: Vornamen}}, „August“, Seite 56f.
+
+== August ({{Sprache|Englisch}}) ==
+=== {{Wortart|Substantiv|Englisch}} ===
+
+{{Englisch Substantiv Übersicht
+|Singular=the August
+|Plural=the Augusts
+}}
+
+{{Worttrennung}}
+:Au·gust, {{Pl.}} Au·gusts
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈɔːɡəst}}, {{Pl.}} {{Lautschrift|ˈɔːɡəsts}}
+:{{Hörbeispiele}} {{Audio|En-us-August.ogg|August (amerikanisch)}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] [[#August (Deutsch)|August]]: der achte Monat des Jahres
+
+{{Oberbegriffe}}
+:[1] [[month]]
+
+{{Beispiele}}
+:[1] I'm leaving in ''August.''
+::Ich fahre im August weg.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{de}}: [1] [[August]]
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=en|August}}
+:[1] {{Ref-Leo|en|August}}
+:[1] {{Ref-Pons|en|August}}
+:[1] {{Ref-MWD|August}}
+:[1] {{Ref-Dictionary|August}}
+:[1] {{Ref-dictcc|en|August}}
+
+== August ({{Sprache|Polnisch}}) ==
+=== {{Wortart|Substantiv|Polnisch}}, {{m}}, {{Wortart|Vorname|Polnisch}} ===
+
+{{Polnisch Substantiv Übersicht
+|Nominativ Singular=August
+|Genitiv Singular=Augusta
+|Dativ Singular=Augustowi
+|Akkusativ Singular=Augusta
+|Instrumental Singular=Augustem
+|Lokativ Singular=Auguście
+|Vokativ Singular=Auguście
+|Nominativ Plural=Augustowie
+|Genitiv Plural=Augustów
+|Dativ Plural=Augustom
+|Akkusativ Plural=Augustów
+|Instrumental Plural=Augustami
+|Lokativ Plural=Augustach
+|Vokativ Plural=Augustowie
+}}
+
+{{Worttrennung}}
+:Au·gust, {{Pl.}} Au·gus·to·wie
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈawɡust}}, {{Pl.}} {{Lautschrift|awɡusˈtɔvʲɛ}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] männlicher Vorname; August
+
+{{Herkunft}}
+:seit der Mitte des 14. Jahrhunderts bezeugte [[Entlehnung]] aus dem [[lateinisch]]en [[Beiname]]n ''{{Ü|la|Augustus}}''<ref>{{Lit-PWN: Słownik imion|A=3}}, Seite 63.</ref>
+
+{{Weibliche Namensvarianten}}
+:[1] [[Augusta]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=pl}}
+
+{{Koseformen}}
+:[1] [[Gucio]], [[Gustek]], [[Gutek]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+:{{Übersetzungen umleiten|1|August|1}} {{m}}
+|Ü-rechts=
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=pl|August (imię)}}
+:[1] {{Lit-PWN: Słownik imion|A=3}}, Seite 63.
+:[*] {{Ref-SO-PWN|August}}
+
+{{Quellen|}}
+
+=== {{Wortart|Deklinierte Form|Polnisch}} ===
+
+{{Worttrennung}}
+:Au·gust
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈawɡust}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Grammatische Merkmale}}
+*Genitiv Plural des Susbtantivs '''[[Augusta]]'''
+
+{{Grundformverweis Dekl|Augusta}}
+
+{{Ähnlichkeiten}}
+:[[Aufguss]], [[Ausguss]]
+
+[[ang:August]]
+[[ast:August]]
+[[az:August]]
+[[br:August]]
+[[ca:August]]
+[[co:August]]
+[[cs:August]]
+[[csb:August]]
+[[cy:August]]
+[[da:August]]
+[[el:August]]
+[[en:August]]
+[[eo:August]]
+[[es:August]]
+[[et:August]]
+[[eu:August]]
+[[fi:August]]
+[[fr:August]]
+[[ga:August]]
+[[gl:August]]
+[[hr:August]]
+[[hu:August]]
+[[hy:August]]
+[[id:August]]
+[[io:August]]
+[[is:August]]
+[[it:August]]
+[[ja:August]]
+[[ka:August]]
+[[kk:August]]
+[[kl:August]]
+[[km:August]]
+[[ko:August]]
+[[ku:August]]
+[[la:August]]
+[[lb:August]]
+[[li:August]]
+[[lt:August]]
+[[lv:August]]
+[[mg:August]]
+[[mk:August]]
+[[ml:August]]
+[[mn:August]]
+[[ms:August]]
+[[my:August]]
+[[nl:August]]
+[[nn:August]]
+[[no:August]]
+[[oc:August]]
+[[om:August]]
+[[pl:August]]
+[[ps:August]]
+[[pt:August]]
+[[ro:August]]
+[[ru:August]]
+[[scn:August]]
+[[simple:August]]
+[[sm:August]]
+[[so:August]]
+[[sr:August]]
+[[sv:August]]
+[[sw:August]]
+[[tg:August]]
+[[th:August]]
+[[tn:August]]
+[[tr:August]]
+[[uk:August]]
+[[uz:August]]
+[[vi:August]]
+[[vo:August]]
+[[zh:August]]
+[[zh-min-nan:August]]

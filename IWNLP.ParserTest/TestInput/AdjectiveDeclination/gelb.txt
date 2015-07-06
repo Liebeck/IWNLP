@@ -1,0 +1,6 @@
+﻿== gelb (Deklination) ({{Adjektivdeklination|Deutsch}}) ==
+{{Deklinationsseite Adjektiv
+|Positiv-Stamm=gelb
+|Komparativ-Stamm=gelber
+|Superlativ-Stamm=gelbst
+}}

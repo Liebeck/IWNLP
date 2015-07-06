@@ -1,0 +1,80 @@
+﻿== verheeren ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=
+|Gegenwart_du=
+|Gegenwart_er, sie, es=verheert
+|1.Vergangenheit_ich=
+|Konjunktiv II_ich=
+|Imperativ Singular=
+|Imperativ Plural=
+|Partizip II=verheert
+|Hilfsverb=haben
+|Bild 1=Zerstoerter Wald Erndtebrueck.jpg|thumb|1|''verheerter'' [[Wald]] in Erndtebrück-Schameder nach [[Orkan]] Kyrill am 19. Januar 2007
+|Bild 2=Hiroshima autograph Tibbets.jpg|thumb|1|''verheertes'' [[Hiroshima]] nach [[Atombombenabwurf]] am 6. August 1945
+}}
+
+{{Worttrennung}}
+:ver·hee·ren, {{Prät.}} ver·heer·te, {{Part.}} ver·heert
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|…}}, {{Prät.}} {{Lautschrift|…}}, {{Part.}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] veraltet für: [[verwüsten]], [[zerstören]] oder [[vernichten]] durch [[Krieg]], infolge eines [[Überfall|Überfalls]] eines [[Heer|Heeres]], heute auch infolge einer [[Naturkatastrophe|Naturkatastrophen]], z.B. eines [[Tsunami|Tsunamis]], eines [[Erdbeben|Erdbebens]] oder eines [[Hurrikan|Hurrikans]] 
+
+{{Herkunft}}
+:mittelhochdeutsch verhern, althochdeutsch farheriōn, eigentlich = mit einem Heer überziehen, zu mittelhochdeutsch her(e)n, herjen, althochdeutsch heriōn = verwüsten, raufen, plündern, zu mittelhochdeutsch her(e), althochdeutsch heri
+
+{{Synonyme}}
+:[1] [[verwüsten]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[ausrauben]], [[brandschatzen]], [[brennen]], [[morden]], [[sengen]], [[vernichten]], [[wüten]], [[demolieren]], [[destruieren]], [[kaputtmachen]], [[niederwalzen]], [[zerbomben]], [[zermalmen]], [[zerschießen]]
+
+{{Gegenwörter}}
+:[1] [[aufbauen]], [[erschaffen]]
+
+{{Oberbegriffe}}
+:[1] [[zerstören]]
+
+{{Unterbegriffe}}
+:[1] 
+
+{{Beispiele}}
+:[1] Am 24. Oktober 1648 endete der [Dreißigjährige] Krieg in Deutschland. [...] Die Kriegshandlungen selbst, aber auch die durch sie verursachten Hungersnöte und Seuchen ''verheerten'' und entvölkerten ganze Landstriche.<ref>{{Wikipedia|Dreißigjähriger_Krieg|oldid=138042994}}</ref>
+:[1] Es sind keine V-1 oder V-2, die deutschen Lenkwaffen Wernher von Brauns, die im Zweiten Weltkrieg London ''verheerten''; die wenigen, die es bis zum Einschlag schaffen, richten nur geringen Schaden an.<ref>{{Per-Zeit Online | Online=http://www.zeit.de/politik/ausland/2014-07/israel-gaza-konflikt-antisemitismus | Autor=Theo Sommer | Titel= Gaza-Offensive - Mitleid ist kein Antisemitismus | TitelErg=Ohne Frage hat Israel ein Recht auf Selbstverteidigung. Doch wenn ein Land dermaßen die Verhältnismäßigkeit missachtet, muss es sich Kritik gefallen lassen. | Nummer= | Tag=29 | Monat=07 | Jahr=2014 | Zugriff=2015-01-31 | Kommentar= }}</ref>
+:[1] Orkan Kyril ''verheerte'' am 19. Januar 2007 ganze Wälder in den Deutschen Mittelgebirgen. 
+:[1] [Dieses intellektuelle Vakuum wird von einem verantwortunglosen Konservativismus gefüllt], der bereit ist, ganze Volkswirtschaften zu ''verheeren'' und ganze Nationen pleitegehen zu lassen, nur weil das seinen ideologischen Verbohrtheiten entspricht.<ref>{{Per-taz Online | Online=http://www.taz.de/!76617/ | Autor=Robert Misik | Titel=Konservative zweifeln an ihren Analysen - Aus Erfahrung klüger | TitelErg=Führende Konservative wie Frank Schirrmacher "beginnen zu glauben, dass die Linke recht hat". Mal sehen, wie weit ihre Einsicht trägt. | Tag=20 | Monat=08 | Jahr=2012 | Zugriff=2015-01-31 | Kommentar=Ein Kommentar }}</ref> 
+
+{{Wortbildungen}}
+:[[Verheerung]], [[verheerend]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|devastate}}, {{Ü|en|ravage}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|verheeren}}
+:[1] {{Ref-DWDS|verheeren}}
+:[1] {{Ref-Canoo|verheeren}}
+:[1] {{Ref-UniLeipzig|verheeren}}
+:[1] {{Ref-FreeDictionary|verheeren}}
+:[1] {{Ref-Duden|verheeren}}
+:[1] {{Ref-wissen.de|Wörterbuch|verheeren}}
+:[*] {{Ref-wissen.de|Synonym|verheeren}}
+:[1] {{Ref-PONS|verheeren}}
+:[*] {{Ref-OWID|elexiko|288021}}
+
+{{Quellen|}}
+
+[[et:verheeren]]
+[[io:verheeren]]
+[[zh:verheeren]]

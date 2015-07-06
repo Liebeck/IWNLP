@@ -1,0 +1,128 @@
+﻿{{siehe auch|[[tsunami]]}}
+== Tsunami ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=der Tsunami
+|Nominativ Singular 2=die Tsunami
+|Nominativ Plural 1=die Tsunamis
+|Nominativ Plural 2=die Tsunami
+|Genitiv Singular 1=des Tsunamis
+|Genitiv Singular 2=der Tsunami
+|Genitiv Plural 1=der Tsunamis
+|Genitiv Plural 2=der Tsunami
+|Dativ Singular 1=dem Tsunami
+|Dativ Singular 2=der Tsunami
+|Dativ Plural 1=den Tsunamis
+|Dativ Plural 2=den Tsunami
+|Akkusativ Singular 1=den Tsunami
+|Akkusativ Singular 2=die Tsunami
+|Akkusativ Plural 1=die Tsunamis
+|Akkusativ Plural 2=die Tsunami
+|Bild=2004-tsunami.jpg|250px|1|auftreffender ''Tsunami''
+}}
+
+{{Worttrennung}}
+:Tsu·na·mi, {{Pl.1}} Tsu·na·mis, {{Pl.2}} Tsu·na·mi
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ʦuˈnaːmi}}, {{Pl.1}} {{Lautschrift|ʦuˈnaːmis}}, {{Pl.2}} {{Lautschrift|ʦuˈnaːmi}}
+:{{Hörbeispiele}} {{Audio|De-Tsunami.ogg|Tsunami}}, {{Pl.1}} {{Audio|De-Tsunamis2.ogg|Tsunamis oder Tsunami}}
+:{{Reime}} {{Reim|aːmi|Deutsch}}
+
+{{Bedeutungen}}
+:[1] eine [[seismisch]]e [[Meereswoge]], die überwiegend durch [[Seebeben]], also durch [[unterseeisch]]e [[Erdbeben]] ausgelöst wird
+
+{{Herkunft}}
+:von ''[[japanisch]]:'' [[津波]] oder [[津浪]] (つなみ, [[Hilfe:Hepburn-shiki|Hepburn]]: ''tsunami,'' [[Hilfe:Kunrei-shiki|Kunrei]]: ''tunami''), „Hafenwelle“ (siehe {{Wikipedia|Tsunami}}) {{Herkunft unbelegt}}
+
+{{Oberbegriffe}}
+:[1] [[Welle]], [[Woge]], [[Flutwelle]], [[Naturkatastrophe]]
+
+{{Unterbegriffe}}
+:[1] [[Binnentsunami]]
+
+{{Beispiele}}
+:[1] Beim ''Tsunami'' von Weihnachten 2004 kamen Hunderttausende ums Leben.
+:[1] „Stillstehende Züge gehören für Holländer nun mal zu den Schicksalsschlägen, die über die Menschheit hereinbrechen wie ''Tsunamis'' oder Taubenschwärme.“<ref> Annette Birschel: ''Mordsgouda. Als Deutsche unter Holländern.'' Ullstein, Berlin 2011, Zitat Seite 101. ISBN 978-3-548-28201-5.</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|tsoenami}}
+*{{ar}}: [1] {{Üt|ar|تسونامي|tsūnāmī}}
+*{{bs}}: [1] {{Ü|bs|cunami}}
+*{{bg}}: [1] {{Üt|bg|цунами|tsunami}}
+*{{zh-tw}}: [1] {{Üt|zh|海嘯|hǎixiào}}
+*{{zh-cn}}: [1] {{Üt|zh|海啸|hǎixiào}}
+:*{{nan}}: [1] {{Ü|nan|hái-tiòng}}
+*{{en}}: [1] {{Ü|en|tsunami#tsunami (Englisch)|tsunami}}
+*{{eo}}: [1] {{Ü|eo|cunamo}}
+*{{fi}}: [1] {{Ü|fi|tsunami}}
+*{{fr}}: [1] {{Ü|fr|tsunami#tsunami (Französisch)|tsunami}} {{m}}
+*{{el}}: [1] {{Üt|el|τσουνάμι|tsounámi}} {{n}}
+*{{gu}}: [1] {{Üt|gu|ત્સુનામી|tsunāmī}}
+*{{he}}: [1] {{Üt|he|צונמי|tzunami}}
+*{{hi}}: [1] {{Üt|hi|सूनामी|sūnāmī}}
+*{{it}}: [1] {{Ü|it|tsunami#tsunami (Italienisch)|tsunami}} {{m}}
+*{{ga}}: [1] {{Ü|ga|súnámaí}}
+*{{ja}}: [1] {{Üt|ja|津波|つなみ, tsunami}}
+*{{ca}}: [1] {{Ü|ca|tsunami#tsunami (Katalanisch)|tsunami}} {{m}}
+*{{ko}}: [1] {{Üt|ko|해일|haeil}}
+*{{hr}}: [1] {{Ü|hr|cunami}}
+*{{ku}}: [1] {{Ü|ku|tsunamî}}
+*{{lv}}: [1] {{Ü|lv|cunami}}
+|Ü-rechts=
+*{{lt}}: [1] {{Ü|lt|cunamis}}
+*{{mi}}: [1] {{Ü|mi|parawhenua}}
+*{{mr}}: [1] {{Üt|mr|त्सुनामी|tsunāmī}}
+*{{mk}}: [1] {{Üt|mk|цунами|cunami}}
+*{{no}}:
+:*{{nb}}: [1] {{Ü|nb|tsunami}} {{m}}
+:*{{nn}}: [1] {{Ü|nn|tsunami}} {{m}}
+*{{fa}}: [1] {{Üt|fa|سونامی|sunāmi}}
+*{{pl}}: [1] {{Ü|pl|tsunami#tsunami (Polnisch)|tsunami}} {{n}}
+*{{pt}}: [1] {{Ü|pt|tsunami#tsunami (Portugiesisch)|tsunami}} {{m}}
+*{{ro}}: [1] {{Ü|ro|tsunami#tsunami (Rumänisch)|tsunami}} {{n}}
+*{{ru}}: [1] {{Üt|ru|цунами|tsunami}} {{n}}
+*{{sk}}: [1] {{Ü|sk|cunami}}
+*{{sl}}: [1] {{Ü|sl|cunami}}
+*{{es}}: [1] {{Ü|es|maremoto}}
+*{{ta}}: [1] {{Üt|ta|சுனாமி|cuṉāmi}}, {{Üt|ta|ஆழிப்பேரலை|āḻippēralai}}
+*{{th}}: [1] {{Üt|th|คลื่นสึนามิ|khleùùn sèunaamī}}
+*{{cs}}: [1] {{Ü|cs|tsunami#tsunami (Tschechisch)|tsunami}} {{n}}, {{Ü|cs|cunami}} {{n}}
+*{{uk}}: [1] {{Üt|uk|цунамі|tsunami}}
+*{{vi}}: [1] {{Ü|vi|sóng thần}}
+*{{be}}: [1] {{Üt|be|цунамі|cunami}}
+*{{fy}}: [1] {{Ü|fy|tsûnamy}}
+|Dialekttabelle=
+*Schlesisch:
+|D-rechts=
+*Niedersächsisch: [1] vleuigolve
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Tsunami}}
+:[1] {{Ref-DWDS|Tsunami}}
+:[1] {{Ref-Duden|Tsunami}}
+:[1] {{Ref-Canoo|Tsunami}}
+:[1] {{Ref-UniLeipzig|Tsunami}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Zuname]], [[Zunahme]]
+
+[[Kategorie:Japanismus]]
+
+[[cs:Tsunami]]
+[[en:Tsunami]]
+[[fi:Tsunami]]
+[[fr:Tsunami]]
+[[hu:Tsunami]]
+[[io:Tsunami]]
+[[ja:Tsunami]]
+[[ku:Tsunami]]
+[[mg:Tsunami]]
+[[pl:Tsunami]]
+[[ru:Tsunami]]
+[[zh:Tsunami]]

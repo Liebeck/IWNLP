@@ -1,0 +1,63 @@
+﻿== überführen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=überführe
+|Gegenwart_du=überführst
+|Gegenwart_er, sie, es=überführt
+|1.Vergangenheit_ich=überführte
+|Partizip II=[1, 2] übergeführt<br />[3] überführt
+|Konjunktiv II_ich=überführte
+|Imperativ Singular=überführe!
+|Imperativ Plural=überführt!
+|Hilfsverb=haben
+|Weitere_Konjugationen=überführen (Konjugation)
+}}
+
+{{Worttrennung}}
+:über·füh·ren, {{Prät.}} über·führ·te, {{Part.}} über·führt, über·ge·führt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌyːbɐˈfyːʀən}}, {{Prät.}} {{Lautschrift|ˌyːbɐˈfyːɐ̯tə}}, {{Part.}} {{Lautschrift|ˌyːbɐˈfyːɐ̯t}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|yːʀən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] eine Person oder Sache unter amtlicher Aufsicht an einen anderen Ort bringen
+:[2] etwas, oft unter Anwendung eines bewährten Verfahrens aus einer in eine andere bestimmte, standardisierte Form bringen
+:[3] einem Täter eine Tat nachweisen
+
+{{Beispiele}}
+:[1] Der Verhaftete wurde nach Berlin ''übergeführt.''
+:[1] Die sterblichen Überreste wurden an den Heimatort ''übergeführt.''
+:[2] ''Überführen'' Sie die Gleichung aus der Normalform in die Scheitelpunktform!
+:[2] Der Prototyp wurde in die Serienproduktion ''übergeführt.''
+:[3] Der Bürgermeister wurde der Lüge ''überführt.''
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{no}}: [1] {{Ü|no|overføre}}
+*{{sv}}: [1] {{Ü|sv|överföra}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1, 3] {{Ref-Grimm|überführen}}
+:[1–3] {{Ref-DWDS|überführen}}
+:[3] {{Ref-Canoo|überführen}}
+:[1, 3] {{Ref-UniLeipzig|überführen}}
+:[1–3] {{Ref-FreeDictionary|überführen}}
+:[1, 2] {{Ref-Duden|überführen_transportieren_bringen}}
+:[3] {{Ref-Duden|überführen_nachweisen_beweisen}}
+
+{{Ähnlichkeiten}}
+:[[überfahren]]<!--gemeinsame konjugierte Formen: überführe[n]-->
+
+[[fi:überführen]]
+[[id:überführen]]
+[[io:überführen]]
+[[ko:überführen]]
+[[zh:überführen]]

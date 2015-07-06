@@ -1,0 +1,293 @@
+﻿{{auch|tag}}
+== Tag ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Tag
+|Nominativ Plural=die Tage
+|Genitiv Singular=des Tags<br />des Tages
+|Genitiv Plural=der Tage
+|Dativ Singular=dem Tag<br />dem Tage
+|Dativ Plural=den Tagen
+|Akkusativ Singular=den Tag
+|Akkusativ Plural=die Tage
+}}
+
+{{Worttrennung}}
+:Tag, {{Pl.}} Ta·ge
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|taːk}}, {{Pl.}} {{Lautschrift|ˈtaːɡə}}
+:{{Hörbeispiele}} {{Audio|De-Tag.ogg}} {{Audio|De-Tag(de).ogg|''Deutschland:'' Tag}}, {{Audio|De-at-Tag.ogg|''Österreich:'' Tag}}, {{Pl.}} {{Audio|De-Tage.ogg|Tage}}
+:{{Reime}} {{Reim|aːk|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Zeitraum zwischen Sonnenaufgang und Sonnenuntergang
+:[2] Zeitspanne von 24 Stunden
+:[3] {{nur Pl.|:}} Zeitraum, den jemand durchlebt oder erlebt
+:[4] {{nur Pl.|:}} [[Menstruation]]
+:[5] in den [[bergmännisch]]en [[Ausdruck|Ausdrücken]] ''zu Tage'', ''über Tage'' und ''unter Tage'' die [[Erde|Erd]][[oberfläche]]
+:[6] {{va.|:}} [[Versammlung]], [[Tagung]]; heute nur in Wortverbindungen ([[Reichstag]], [[Bundestag]], [[Landtag]], [[Kreistag]], [[Kirchentag]], [[Katholikentag]], [[Parteitag]], [[Gewerkschaftstag]])
+
+{{Herkunft}}
+:{{gmh}} ''tac, tag;'' {{goh}} ''tag;'' [[altsächsisch]] ''dag.'' Aus [[germanisch]] ''*dagaz (die Hitze, später: der Tag<ref>[http://www.etymonline.com/index.php?allowed_in_frame=0&search=fever&searchmode=term Online Etymology Dictionary]</ref>),'' [[indogermanisch]] ''*agh-'' (= Tag) + obskures ''d-''<ref name="dwds.de">[http://www.dwds.de/?qu=Tag  „Etymologisches Wörterbuch des Deutschen (nach Pfeifer)“]</ref>
+
+{{Gegenwörter}}
+:[1] [[Nacht]]
+:[2] [[Jahr]], [[Monat]], [[Stunde]], [[Woche]]
+
+{{Oberbegriffe}}
+:[1–4] [[Zeitabschnitt]]
+
+{{Unterbegriffe}}
+:[1] [[Apriltag]], [[Dezembertag]], [[Novembertag]]  
+:[1] [[Frühlingstag]], [[Herbsttag]], [[Sommertag]], [[Wintertag]]  
+:[1] [[Regentag]], [[Sonnentag]]  
+:[2] Anti-Drogen-Tag, [[Arbeitstag]], [[Brückentag]], [[Brustkrebstag]], [[Bundesländertag]], [[Feiertag]], Ferientag, [[Festtag]], [[Geburtstag]], [[Gedenktag]], [[Gründungstag]], [[Hochzeitstag]], [[Hundetag]], [[Jahrestag]], [[Jakobikirtag]], [[Jubeltag]], [[Kennenlerntag]], [[Kirtag]], [[Krebstag]], [[Kriegstag]], [[Menschenrechtstag]], [[Namenstag]], [[Nikolaustag]], [[Ostertag]], [[Pfingsttag]], [[Reisetag]], [[Rotkreuztag]], [[Ruhetag]], [[Schultag]], [[SI-Tag]], [[Stefanietag]], [[Todestag]], [[Urlaubstag]], [[Verhandlungstag]], [[Vortag]], [[Wahltag]], [[Weihnachtstag]], [[Weltdrogentag]], [[Weltkrebstag]], [[Weltmeisterschaftstag]]/[[WM-Tag]], [[Weltmenschtag]], [[Weltnichtrauchertag]], [[Weltspartag]], [[Werktag]], [[Wochentag]], [[Zahltag]]
+:[2] [[Jupiter-Tag]], [[Marstag]], [[Merkurtag]], [[Neptun-Tag]], [[Saturn-Tag]], [[Uranus-Tag]], [[Venustag]]
+:[6] [[Bundestag]], [[Landtag]], [[Reichstag]], [[Städtetag]]
+:[?] ''astronomisches Entfernungsmaß:'' [[Lichttag]]
+
+{{Beispiele}}
+:[1] Während des ''Tages'' scheint die Sonne.
+:[1] „Es ist einfacher als jemals zuvor, semantisch komplexe Inhalte mit XML-Tags zu erstellen, ohne ''Tage'' damit zubringen zu müssen, die Anwendung der Software zu erlernen, Wochen, sich mit einem Standard vertraut zu machen, Monate, diesen Standard zu integrieren, und Jahre, entsprechende Support-Möglichkeiten zu erarbeiten.““<ref>{{Internetquelle | url=http://www.adobe.com/ | titel=Adobe FrameMaker XML Author 12 / Resonanz | hrsg=Adobe | datum=2014 | archiv-url=http://www.adobe.com/at/products/framemakerxmlauthor/reviews_awards.html | archiv-datum=2014 | zugriff=2014-11-03 | sprache=Deutsch | format=HTML }}</ref>
+:[2] Die Woche hat sieben ''Tage.''
+:[2] „Ein Jupiter-''Tag'' ist nur 9,84 Stunden lang. Um alles wie auf der Erde erledigen zu können, müsste man alles fast 3 Mal so schnell tun.“<ref>{{Internetquelle | url=http://www.planeten-finden.de/ | titel=Wie lang ist ein Jupiter-Tag? | hrsg=Planeten-finden.de | datum=2004 | archiv-url=http://www.planeten-finden.de/planet_jupiter.shtml | archiv-datum=2004 | zugriff=2014-10-31 | sprache=Deutsch | format=HTML }}</ref>
+:[2] „Würde eine Raumsonde zur Erde gleiten, um nach Lebewesen zu suchen, wären die ersten konkreten Lebenszeichen in einer Höhe von etwa 20 km zu finden, und zwar Mikroben, Sporen und Pollenkörner, die vom Wind dorthin befördert wurden. Haben sie solche Höhen erreicht, kann es ''Tage'' oder gar Wochen dauern, bis sie zurück zum Boden treiben.“<ref>{{Literatur | Titel=Das große Arena Lexikon der Natur| Auflage=1. | Verlag=Arena Verlag GmbH | Ort=Würzburg | Jahr=2005 | ISBN=3-401-05780-4| Seiten=16 }}</ref>
+:[3] Wir hatten ab dem Zeitpunkt des Bekanntwerdens einen ''Tag'' lang Zeit bekommen, um das Problem zu lösen.
+:[3] Die ''Tage'' der Jugend sind unwiederbringlich.
+:[4] Sie hat ihre ''Tage.''
+:[4] Während ihrer ''Tage'' ist sie immer schlecht gelaunt.
+:[5] Er malocht (arbeitet) unter ''Tage.''
+
+{{Redewendungen}}
+:[[Unterschied wie Tag und Nacht]], [[Es ist noch nicht aller Tage Abend]], [[Die Sonne bringt es an den Tag]], [[Guten Tag]]!, [[bis ans Ende ihrer Tage]], [[ein Geheimnis zu Tage fördern]], [[Tag ein, Tag aus]], [[den Tag nicht vor dem Abend loben]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] am [[helllicht]]en Tag(e)
+:[2] [[eines Tages]], [[Tag der offenem Tür]]
+
+{{Wortbildungen}}
+:{{Wortbildung|Adjektive}}
+:[1] [[halbtags]], [[tagein]], [[tagaus]], [[tageshell]], [[taghell]], [[tags]], [[tagsüber]], [[untertags]]
+:[2] [[heutzutage]], [[tageweise]], [[täglich]], [[vierzehntägig]]
+:[5] [[obertägig]], [[untertägig]]
+:{{Wortbildung|Substantive}}
+:[1] [[Tagedieb]], [[Tagesanbruch]], [[Tagescreme]], [[Tagesdecke]], [[Tagesende]], [[Tagesschicht]], [[Tagestemperatur]], [[Tagewerk]], [[Tagfalter]], [[Tagschicht]], [[Tagtraum]], [[Tagundnachtgleiche]]
+:[2] [[Eintagsfliege]], [[Kompanietagesbefehl]], [[Tageblatt]], [[Tagebuch]], [[Tagegeld]], [[Tagelohn]], [[Tagelöhner]], [[Tagesablauf]], [[Tagesabrechnung]], [[Tagesabschluss]] [[Tagesbedarf]], [[Tagesbefehl]], [[Tagesbericht]], [[Tagesbilanz]], [[Tagesdarlehen]], [[Tagesdosis]], [[Tagesdurchschnitt]], [[Tageseinkommen]], [[Tagesgericht]], [[Tagesgeschäft]], [[Tagesgespräch]], [[Tageshandel]], [[Tageshoroskop]], [[Tageskarte]], [[Tageslicht]], [[Tagesmarsch]], [[Tagesordnung]], [[Tagesplan]], [[Tagesvisum]], [[Tageszeit]], [[Tageszeitung]], [[Taglilie]], [[Tagsatzung]], [[Tagwerk]]
+:[5] [[Tagebau]]
+:[6] [[Tagegeld]], [[Tagesordnung]], [[Tagung]]
+:{{Wortbildung|Verben}}
+:[1, 6] [[tagen]], [[vertagen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{grc}}: [1, 2] {{Üxx|grc|hēmera|ἡμέρα}} {{f}}
+*{{ar}}: [1] {{Üxx5|ar|jaum(un)|يَوْمٌ|يوم}} {{m}}; [2] {{Üxx5|ar|naha:r(un)|نَهَارٌ|نهار}} {{m}}
+*{{hy}}: [1] {{Üxx|hy|ōr|օր}}
+*{{ay}}: [2] {{Ü|ay|uru}}
+*{{bs}}: [1] {{Ü|bs|dan}} {{m}}
+*{{bg}}: [1, 2] {{Üxx|bg|den|ден}} {{m}}
+*{{zh}}: [1, 2] {{Üxx|zh|rì|日}}
+*{{da}}: [1–3] {{Ü|da|dag}}
+*{{en}}: [1–3] {{Ü|en|day}}; [4] {{Ü|en|period}}
+*{{eo}}: [1–3] {{Ü|eo|tago}}; [2] {{Ü|eo|diurno}}, {{Ü|eo|tagnokto}}
+*{{et}}: [1, 2] {{Ü|et|ööpäev}}
+*{{fi}}: [1, 2] {{Ü|fi|päivä}}
+*{{fr}}: [1–3] {{Ü|fr|jour}} {{m}}; [4] {{Ü|fr|règle}} (''les règles'')
+*{{gn}}: [2] {{Ü|gn|ára}}
+*{{he}}: [1, 2] {{Üxx|he|jom|יום}}
+*{{io}}: [1] {{Ü|io|jorno}}; [2] {{Ü|io|dio}}
+*{{id}}: [1] {{Ü|id|hari}}
+*{{ia}}: [1, 2] {{Ü|ia|die}}, {{Ü|ia|jorno}}
+*{{ga}}: [1, 2] {{Ü|ga|lá}} {{m}}
+*{{is}}: [1] {{Ü|is|dagur}}
+*{{it}}: [1–3] {{Ü|it|giorno}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|ひる, hiru|昼}}, {{Üxx|ja|ひるま, hiruma|昼間}}
+*{{ca}}: [1, 2] {{Ü|ca|dia}} {{m}}, ''literarisch:'' {{Ü|ca|jorn}}
+*{{ko}}: [1] {{Üxx|ko|nal|날}}
+*{{hr}}: [1] {{Ü|hr|dan}} {{m}}
+*{{ku}}: [1] {{Ü|ku|roj}}
+*{{la}}: [1–3] {{Ü|la|dies}} {{m}}; [6] {{Ü|la|conventus}} {{m}} ''Gen.: conventūs'', {{Ü|la|concilium}} {{n}}
+*{{lv}}: [1] {{Ü|lv|diena}} {{f}}
+*{{lt}}: [1] {{Ü|lt|diena}} {{f}}
+*{{mt}}: [1] {{Ü|mt|jum}}
+*{{mk}}: [1] {{Üxx|mk|den|ден}} {{m}}
+|Ü-rechts=
+*{{lus}}: [1] {{Ü|lus|chhùn}}; [1, 2] {{Ü|lus|ní}}
+*{{nah}}: [1] {{Ü|nah|tonalli}}
+*{{nds}}: [1–6] {{Ü|nds|Dag}} {{Lautschrift|daχ}}, ''Pl.'' Daag, Dage
+*{{nl}}: [1-3] {{Ü|nl|dag}}
+*{{no}}: [1] {{Ü|no|dag}} {{m}}; [2] {{Ü|no|døgn}} {{n}};
+*{{nov}}: [1] {{Ü|nov|jorne}}; [2] {{Ü|nov|die}}
+*{{oc}}: [1, 2] {{lit.|:}} {{Ü|oc|jorn}} {{m}}, ''Verlauf des Tages:'' {{Ü|oc|jornada}} {{f}}
+*{{fa}}: [1] {{Üxx5|fa|ruz|رٌوزْ|روز}}
+*{{pox}}: [1] {{Ü|pox|dôn}} {{m}}
+*{{pl}}: [1, 2] {{Ü|pl|dzień}} {{m}}; [2] {{Ü|pl|doba}} {{f}}
+*{{pt}}: [1–3] {{Ü|pt|dia}} {{m}}
+*{{ro}}: [1] {{Ü|ro|zi}} {{f}}
+*{{ru}}: [1, 2] {{Üxx|ru|den&nbsp;ʲ|день}} {{m}}; [2] {{Üxx|ru|sutki|сутки}}
+*{{sv}}: [1] {{Ü|sv|dag}} {{u}}; [2] {{Ü|sv|dygn}} {{n}}
+*{{sr}}: [1] {{Üxx|sr|dan|дан}} {{m}}
+*{{sk}}: [1–3] {{Ü|sk|deň}} {{m}}; [4] {{Ü|sk|perioda}} {{f}}
+*{{sl}}: [1-3] {{Ü|sl|dan}} {{m}}
+*{{wen}}:
+:*{{dsb}}: [1] {{Ü|dsb|źeń}} {{m}}
+:*{{hsb}}: [1] {{Ü|hsb|dźeń}} {{m}}
+*{{es}}: [1–3] {{Ü|es|día}} {{m}}
+*{{sw}}: [1] {{Ü|sw|siku}}
+*{{tt}}: [1] {{Üxx|tt|kön|көн}}
+*{{th}}: [1] {{Üxx|th|wan|วัน}}
+*{{cs}}: [1–3] {{Ü|cs|den}} {{m}}; [4] {{Ü|cs|perioda}} {{f}}
+*{{tr}}: [1] {{Ü|tr|gündüz}}; [2–3] {{Ü|tr|gün}}
+*{{uk}}: [1] {{Üxx|uk|den&nbsp;ʲ|день}} {{m}}
+*{{hu}}: [1–4] {{Ü|hu|nap}}
+*{{vo}}: [2] {{Ü|vo|del}}
+*{{cy}}: [1] {{Ü|cy|dydd}} {{m}}
+*{{be}}: [1] {{Üxx|be|dzen’|дзень}} {{m}}
+*{{fy}}: [1] {{Ü|fy|dei}}
+|Dialekttabelle=
+*Bairisch: [?] [[Dåg]], [[Doch]]
+*Hamburgisch: [1–9] {{Lautschrift|taχ}}, ''Pl.'' {{Lautschrift|ˈtɑːɡɨ}}
+|D-rechts=
+*Obersächsisch: [?] [[Dag]]
+*Rheinisch: [?] [[Tach]]
+}}
+
+{{Referenzen}}
+:[1–3] {{Wikipedia|Tag}}
+:[4] {{Wikipedia|Menstruation}}
+:[5] {{Wikipedia|Tag (Bergbau)}}
+:[1–3, 5] {{Ref-Grimm|Tag}}
+:[1–6] {{Ref-DWDS|Tag}}
+:[1, 2] {{Ref-Canoo|Tag}}
+:[*] {{Ref-UniLeipzig|Tag}}
+:[1–4] {{Ref-FreeDictionary|Tag}}
+:[1-4] {{Ref-Duden|Tag Zeit Zeiteinheit}}
+:[1, 2, 4-6] {{Ref-wissen.de|Wörterbuch|Tag}}
+:[*] {{Ref-wissen.de|Synonym|Tag}}
+:[*] {{Ref-wissen.de|Herkunft|Tag}}
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{nm}} ===
+
+{{überarbeiten|das Wort mit der Bedeutung 3 sollte ggf. einen eigenen Abschnitt bekommen, da es ein anderes [[Geschlecht]] (''[[Genus]]'') hat, siehe auch [http://www.duden.de/rechtschreibung/Tag_Schluss_Musik_Jazz Duden]|Deutsch}}
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=<small>[1, (2), 4]</small> das Tag<br/><small>[3]</small> der Tag
+|Nominativ Plural= die Tags
+|Genitiv Singular=des Tags
+|Genitiv Plural=der Tags
+|Dativ Singular=dem Tag
+|Dativ Plural=den Tags
+|Akkusativ Singular=<small>[1, (2), 4]</small> das Tag<br/><small>[3]</small> den Tag<!-- von oben (der Tag) übernommen -->
+|Akkusativ Plural=die Tags
+|Bild=Tag in Malmö.jpg|238px|4|ein ''Tag'' an einer Mauer in Malmö
+}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|tɛk}}, {{Lautschrift|tæɡ}}, {{Pl.}} {{Lautschrift|tɛks}}, {{Lautschrift|tæɡz}}
+:{{Hörbeispiele}} {{Audio|De-Tag(en).ogg|Tag}}, {{Pl.}} {{Audio|De-Tags.ogg|Tags}}
+:{{Reime}} {{Reim|aːk|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[sichtbar]]es [[Zeichen]] zur [[Datenstrukturierung|Daten-]] oder [[Textstrukturierung]] in [[Auszeichnungssprache]]n wie [[HTML]]
+:[2] [[elektronisch]] lesbare [[Kennzeichen]] an [[Objekt]]en zwecks [[Inventarisierung]] oder zur [[Unterstützung]] der [[Beförderung]], meist als so genannten [[RFID-Tag]]
+:[3] {{Kontext|Musik}} angehängter [[Schluss]] bei [[Jazzstück]]en
+:[4] {{Kontext|Hiphop-Kultur}} ein mit [[Graffiti]] speziell gestalteter [[Namensschriftzug]], [[Signum]], [[Kürzel]]
+
+{{Herkunft}}
+:[1, 3] englisch ''{{Ü|en|tag}}'' für „[[Schild]]([[Schildchen|chen]])“, „[[Etikett]]“ oder „([[Kennzeichen|Kenn]])[[Zeichen|zeichen]]“, sowie „[[Anhänger]]“ oder „[[Anhängsel]]“<ref name="Duden: Tag (Strukturelement, Markierung)">{{Ref-Duden|Tag_Strukturelement_Markierung|Tag (Strukturelement, Markierung)}}</ref><ref name="Duden: Tag (Schluss, Musik, Jazz)">{{Ref-Duden|Tag_Schluss_Musik_Jazz|Tag (Schluss, Musik, Jazz)}}</ref>
+:[4] englisch ''{{Ü|en|tag}}'' für „Anhänger“, „[[Schild]]([[Schildchen|chen]])“ oder Ähnliches,<ref name="Duden: Tag (Strukturelement, Markierung)"/><ref name="Duden: Tag (Schluss, Musik, Jazz)"/> siehe auch „[[taggen]]“;<ref>{{Ref-Duden|taggen}}</ref> von mittelenglisch ''{{Ü|enm|tagge}}'', aus dem Nordischen {{QS Herkunft|unbelegt}}<!-- mittelenglisch und nordisch ist nicht belegt, aber glaubhaft -->
+
+{{Synonyme}}
+:[1] [[Marke]], [[Markierung]], [[Auszeichnung]]
+
+{{Oberbegriffe}}
+:[1] [[Element]]
+
+{{Unterbegriffe}}
+:[1] [[HTML-Tag]], [[XML-Tag]]
+:[2] [[RFID-Tag]]
+
+{{Beispiele}}
+:[1] Webdokumente werden mit Hilfe von HTML-''Tags'' formatiert.
+:[1] „Es ist einfacher als jemals zuvor, semantisch komplexe Inhalte mit XML-''Tags'' zu erstellen, ohne Tage damit zubringen zu müssen, die Anwendung der Software zu erlernen, Wochen, sich mit einem Standard vertraut zu machen, Monate, diesen Standard zu integrieren, und Jahre, entsprechende Support-Möglichkeiten zu erarbeiten.““<ref>{{Internetquelle | url=http://www.adobe.com/ | titel=Adobe FrameMaker XML Author 12 / Resonanz | hrsg=Adobe | datum=2014 | archiv-url=http://www.adobe.com/at/products/framemakerxmlauthor/reviews_awards.html | archiv-datum=2014 | zugriff=2014-11-03 | sprache=Deutsch | format=HTML }}</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1, 2] {{Ü|en|tag}}
+*{{fr}}: [4] {{Ü|fr|tag}} {{m}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|tag}} {{n}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Tag (Informatik)}}
+:[1–4] {{Wikipedia|Tag (Begriffsklärung)}}
+:[1, (2, 4)] {{Ref-Duden|Tag_Strukturelement_Markierung|Tag (Strukturelement, Markierung)}}
+:[3] {{Ref-Duden|Tag_Schluss_Musik_Jazz|Tag (Schluss, Musik, Jazz)}}
+:[1] {{Lit-Abel: Cybersl@ng|A=1999}}, Seite 102.
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Gag]], [[Hag]], [[lag]], [[mag]], [[sag]], [[Tab]], [[tac]], [[Tal]], [[Talg]], [[tan]], [[Tang]], [[Tat]], [[tat]], [[Tau]], [[wag]]}}
+
+[[Kategorie:Anglizismus]]
+
+[[af:Tag]]
+[[ast:Tag]]
+[[az:Tag]]
+[[bg:Tag]]
+[[br:Tag]]
+[[ca:Tag]]
+[[chr:Tag]]
+[[cs:Tag]]
+[[cy:Tag]]
+[[da:Tag]]
+[[el:Tag]]
+[[en:Tag]]
+[[es:Tag]]
+[[et:Tag]]
+[[eu:Tag]]
+[[fa:Tag]]
+[[fi:Tag]]
+[[fr:Tag]]
+[[ga:Tag]]
+[[gl:Tag]]
+[[hr:Tag]]
+[[hu:Tag]]
+[[id:Tag]]
+[[io:Tag]]
+[[it:Tag]]
+[[ja:Tag]]
+[[ka:Tag]]
+[[ko:Tag]]
+[[ku:Tag]]
+[[la:Tag]]
+[[lb:Tag]]
+[[li:Tag]]
+[[lo:Tag]]
+[[lt:Tag]]
+[[lv:Tag]]
+[[mg:Tag]]
+[[mn:Tag]]
+[[nah:Tag]]
+[[nds:Tag]]
+[[nl:Tag]]
+[[no:Tag]]
+[[oc:Tag]]
+[[pl:Tag]]
+[[pt:Tag]]
+[[ru:Tag]]
+[[sm:Tag]]
+[[sv:Tag]]
+[[sw:Tag]]
+[[th:Tag]]
+[[tl:Tag]]
+[[tr:Tag]]
+[[uk:Tag]]
+[[uz:Tag]]
+[[wa:Tag]]
+[[za:Tag]]
+[[zh:Tag]]

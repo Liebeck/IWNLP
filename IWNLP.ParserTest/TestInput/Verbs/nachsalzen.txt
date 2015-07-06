@@ -1,0 +1,46 @@
+﻿== nachsalzen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=salze nach
+|Gegenwart_du=salzt nach
+|Gegenwart_er, sie, es=salzt nach
+|1.Vergangenheit_ich=salzte nach
+|Konjunktiv II_ich=salzte nach
+|Imperativ Singular=salz nach!<br />salze nach!
+|Imperativ Plural=salzt nach!
+|Partizip II=nachgesalzen<br />''selten:'' nachgesalzt
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:nach·sal·zen, {{Prät.}} salz·te nach, {{Part.}} nach·ge·sal·zen, nach·ge·salzt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈnaːχˌzalʦn̩}}, {{Prät.}} {{Lautschrift|ˌzalʦtə ˈnaːχ}}, {{Part.}} {{Lautschrift|ˈnaːχɡəˌzalʦn̩}}, {{Lautschrift|ˈnaːχɡəˌzalʦt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}, {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ein Gericht nach dem Servieren nachträglich noch einmal salzen
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=de}}
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[*] {{Ref-DWDS|nachsalzen}}
+:[*] {{Ref-Canoo|nachsalzen}}
+:[*] {{Ref-UniLeipzig|nachsalzen}}
+:[1] {{Ref-FreeDictionary|nachsalzen}}
+:[1] {{Ref-Duden|nachsalzen}}
+:[1] {{Ref-wissen.de|Wörterbuch|nachsalzen}}
+:[1] {{Ref-PONS|nachsalzen}}

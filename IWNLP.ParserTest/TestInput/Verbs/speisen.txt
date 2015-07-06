@@ -1,0 +1,79 @@
+﻿{{siehe auch|[[Speisen]]}}
+== speisen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=speise
+|Gegenwart_du=speist
+|Gegenwart_er, sie, es=speist
+|1.Vergangenheit_ich=speiste
+|Partizip II=gespeist<br />gespiesen
+|Konjunktiv II_ich=speiste
+|Imperativ Singular=speise!
+|Imperativ Plural=speiset!
+|Hilfsverb=haben
+|Weitere_Konjugationen=speisen (Konjugation)
+}}
+
+{{Anmerkung}}
+:Die Form ''gespiesen'' des [[Partizip Perfekt|Partizips Perfekt]] wird nur in der Schweiz verwendet (im übertragenen Sinne oder mundartlich).<ref>{{Ref-Duden|speisen}}</ref>
+
+{{Worttrennung}}
+:spei·sen, {{Komp.}} speis·te, {{Part.}} ge·speist, ge·spie·sen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʃpaɪ̯zn̩}}, {{Prät.}} {{Lautschrift|ˈʃpaɪ̯stə}}, {{Part.}} {{Lautschrift|ɡəˈʃpaɪ̯st}}, {{Lautschrift|ɡəˈʃpiːzn̩}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|aɪ̯zn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[essen]], Nahrung zu sich nehmen
+:[2] mit Nahrung [[versorgen]], [[verpflegen]]
+:[3] mit etwas versorgen, etwas [[zuführen]]
+
+{{Herkunft}}
+:mittelhochdeutsch ''spīsen''<ref>{{Lit-Duden: Herkunftswörterbuch|A=5 (neu bearbeitet)}}, Stichwort ''Speise''.</ref>
+
+{{Synonyme}}
+:[1] ''siehe auch:'' [[WikiSaurus:Verben des Essens und Speisens]]
+
+{{Beispiele}}
+:[1] Wir ''speisten'' im Extrazimmer.
+:[2] Das Kloster ''speiste'' die Armen.
+:[3] Die Nebenflüsse ''speisen'' den Stausee.
+:[3] „In der Folge verfestigte sich zudem die Auffassung, dass das Ptolemäische Mondgebirge nicht mit dem Kilimandscharo identisch sei und dass an diesem Berg auch kein Fluss entspringe, der einen der großen afrikanischen Binnenseen ''speisen'' konnte.“<ref>{{Literatur | Autor= Christof Hamann, Alexander Honold | Titel= Kilimandscharo |TitelErg= Die deutsche Geschichte eines afrikanischen Berges | Verlag=Klaus Wagenbach Verlag | Ort=Berlin | Jahr= 2011 | ISBN= 978-3-8031-3634-3}}, Seite 66. </ref>
+
+{{Wortbildungen}}
+:[1] [[verspeisen]]
+:[3] [[einspeisen]]
+:[[Speiselokal]], [[Speiseraum]], [[Speisesaal]], [[Speisezimmer]], [[Speisung]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|dine}}, [1–3] {{Ü|en|feed}}
+*{{fr}}: [1] {{Ü|fr|dîner}}, [2] {{Ü|fr|nourrir}},  [3] {{Ü|fr|alimenter}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|äta}}; [2, 3] {{Ü|sv|mata}}
+*{{es}}: [1] {{Ü|es|}}
+*{{cs}}: [1] {{Ü|cs|jíst}} [3] {{Ü|cs|napájet}}
+}}
+
+{{Referenzen}}
+:[1–3] {{Ref-Grimm|speisen}}
+:[1–3] {{Ref-DWDS|speisen}}
+:[1] {{Ref-Canoo|speisen}}
+:[1] {{Ref-UniLeipzig|speisen}}
+
+{{Quellen}}
+
+[[chr:speisen]]
+[[en:speisen]]
+[[eo:speisen]]
+[[fr:speisen]]
+[[io:speisen]]
+[[ko:speisen]]
+[[ku:speisen]]
+[[mg:speisen]]
+[[pl:speisen]]
+[[sv:speisen]]
+[[zh:speisen]]

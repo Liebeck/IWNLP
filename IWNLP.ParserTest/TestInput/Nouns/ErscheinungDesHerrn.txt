@@ -1,0 +1,51 @@
+﻿== Erscheinung des Herrn ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}}, {{Wortart|Wortverbindung|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=<small>(die)</small> Erscheinung des Herrn
+|Nominativ Plural=-
+|Genitiv Singular=<small>(der)</small> Erscheinung des Herrn
+|Genitiv Plural=-
+|Dativ Singular=<small>(der)</small> Erscheinung des Herrn
+|Dativ Plural=-
+|Akkusativ Singular=<small>(die)</small> Erscheinung des Herrn
+|Akkusativ Plural=-
+}}
+
+{{Worttrennung}}
+:Er·schei·nung des Herrn, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] katholisches Hochfest am 6. Januar ([[liturgisch]]e Bezeichnung)
+
+{{Synonyme}}
+:[1] [[Dreikönig]], [[Epiphanie]]
+
+{{Oberbegriffe}}
+:[1] [[Hochfest]], [[Tag]]
+
+{{Beispiele}}
+:[1] „In der römisch-katholischen Kirche werden an ''Erscheinung des Herrn'' traditionell Kreide (für den Haussegen an Dreikönig ‚Christus mansionem benedicat‘), Weihrauch (im Gedenken an die Geschenke durch die Weisen aus dem Morgenland), sowie das Dreikönigswasser (im Gedenken der Taufe Jesu im Jordan) gesegnet.“<ref>{{Wikipedia|Erscheinung des Herrn|oldid=126176321}}</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Erscheinung des Herrn}}
+:[*] {{Ref-DWDS|Erscheinung des Herrn}}
+:[1] {{Ref-UniLeipzig|Erscheinung+des+Herrn}}
+
+{{Quellen}}
+
+[[fr:Erscheinung des Herrn]]
+[[ru:Erscheinung des Herrn]]

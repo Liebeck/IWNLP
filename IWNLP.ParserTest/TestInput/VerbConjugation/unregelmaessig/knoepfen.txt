@@ -1,0 +1,2 @@
+﻿== knöpfen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb regelmäßig|knö|p|f|e|n|geknöpft|vp=vp3|zp=zp3|Partizip veraltet=geknöpfet|veraltet=0}}

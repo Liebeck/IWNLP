@@ -1,0 +1,122 @@
+﻿== leiden ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=leide
+|Gegenwart_du=leidest
+|Gegenwart_er, sie, es=leidet
+|1.Vergangenheit_ich=litt
+|Partizip II=gelitten
+|Konjunktiv II_ich=litte
+|Imperativ Singular=leide!<br />''selten:'' leid!
+|Imperativ Plural=leidet!
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:lei·den, {{Prät.}} litt, {{Part.}} ge·lit·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈlaɪ̯dn̩}}, {{Prät.}} {{Lautschrift|lɪt}}, {{Part.}} {{Lautschrift|ɡəˈlɪtn̩}}
+:{{Hörbeispiele}} {{Audio|De-leiden.ogg}}, {{Audio|De-at-Leiden.ogg|spr=at}}
+:{{Reime}} {{Reim|aɪ̯dn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] starke [[psychisch]]e oder [[physisch]]e Schmerzen verspüren
+:[2] ''nur in wenigen Wendungen:'' [[mögen]], gern haben
+
+{{Synonyme}}
+:[1] [[sich quälen]], [[durchmachen]], [[ertragen]], [[aushalten]]
+:[2] [[mögen]], ''nur verneinend:'' [[ausstehen]]
+
+{{Gegenwörter}}
+:[1] [[genießen]]
+:[2] [[hassen]]
+
+{{Beispiele}}
+:[1] Sie ''litt'' lange Zeit unter schlimmen Kopfschmerzen.
+:[1] Wir ''leiden'' mit dir.
+:[1] „Ich hatte so viel ''gelitten'', ich war ein finsterer und trauriger Mensch geworden.“<ref>{{Literatur | Autor=Yann Martel | Titel=Schiffbruch mit Tiger | Auflage=12. | Übersetzer=Manfred Allié, Gabriele Kempf-Allié | Verlag=Fischer Taschenbuch Verlag | Ort=München |Jahr=2007 | ISBN=978-3956156658 |Seiten=17}}</ref>
+:[2] Ich kann ihn einfach nicht ''leiden!''
+:[2] ''veraltend:'' Er ist in seiner Gruppe gut ''gelitten.''
+:[2] „Das sind dann die Tage, an denen die Einwohner fremdeln und sich fragen, wie lange sie hier ''gelitten'' sind.“<ref>{{Literatur|Autor=Tilman Bünz|Titel=Wer das Weite sucht|TitelErg=Skandinavien für Fortgeschrittene|Verlag=btb Verlag|Ort= München|Jahr=2012|Seiten=143.|ISBN= 978-3-442-74359-9|}}</ref>
+:[2] „Man hat nicht das Gefühl, daß karnevalistische Leute einander ''leiden'' können.“<ref>{{Literatur|Autor=Irmgard Keun|Titel=Kind aller Länder|TitelErg=Roman|Verlag=Deutscher Taschenbuch Verlag|Ort= München|Jahr=1989|ISBN=3-423-45369-7}}, Seite 102. Erste Ausgabe 1938.</ref>
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[an]] / [[unter]] etw. leiden, an [[Hunger]] leiden, an [[Migräne]] leiden, an [[Qual]]en leiden
+:[2] jemanden leiden können
+
+{{Wortbildungen}}
+:[1] [[durchleiden]], [[erleiden]], [[leidend]], [[Leid]], [[Leiden]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{eu}}: [1] {{Ü|eu|sufritu}}, {{Ü|eu|jasan}}
+*{{en}}: [1] {{Ü|en|suffer}}
+*{{eo}}: [1] {{Ü|eo|suferi}}
+*{{ja}}: [1] {{Üt|ja|苦しむ|くるしむ, kurushimu}}; [2] （誰かが）{{Üt|ja|好きだ|すきだ, suki da}}
+*{{lv}}: [1] {{Ü|lv|ciest}}
+*{{lt}}: [1] {{Ü|lt|kentėti}}
+|Ü-rechts=
+*{{nl}}: [1] {{Ü|nl|lijden}}
+*{{no}}: [1] {{Ü|no|lide}}
+*{{sv}}: [1] {{Ü|sv|lida}}; [2] {{Ü|sv|tåla}}
+*{{es}}: [1] {{Ü|es|sufrir}}, {{Ü|es|padecer}}; [2] {{Ü|es|soportar}}
+*{{cs}}: [1] {{Ü|cs|trpět}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|leiden}}
+:[1, 2] {{Ref-DWDS|leiden}}
+:[1, 2] {{Ref-Canoo|leiden}}
+:[1, 2] {{Ref-UniLeipzig|leiden}}
+:[1, 2] {{Ref-FreeDictionary|leiden}}
+:[1, 2] {{Ref-Duden|leiden}}
+
+{{Quellen|}}
+
+{{2x----}}
+
+== leiden ({{Sprache|Niederländisch}}) ==
+=== {{Wortart|Verb|Niederländisch}} ===
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈlɛi̯dən}}, {{Lautschrift|ˈlɛi̯də}}
+:{{Hörbeispiele}} {{Audio|Nl-leiden.ogg}}
+
+{{Bedeutungen}}
+:[1] [[leiten]], [[führen]]
+
+{{Ü-Tabelle|Ü-links=
+*{{de}}: [1] [[leiten]], [[führen]]
+|Ü-rechts=
+}}
+
+{{Ähnlichkeiten}}
+:[[beiden]], [[Leiden]] ''(Substantiv),'' [[meiden]]
+
+[[az:leiden]]
+[[br:leiden]]
+[[chr:leiden]]
+[[cs:leiden]]
+[[el:leiden]]
+[[en:leiden]]
+[[eo:leiden]]
+[[fi:leiden]]
+[[fr:leiden]]
+[[hu:leiden]]
+[[id:leiden]]
+[[io:leiden]]
+[[ja:leiden]]
+[[ko:leiden]]
+[[ku:leiden]]
+[[lv:leiden]]
+[[mg:leiden]]
+[[mn:leiden]]
+[[nl:leiden]]
+[[no:leiden]]
+[[pl:leiden]]
+[[ru:leiden]]
+[[sv:leiden]]
+[[wa:leiden]]
+[[zh:leiden]]

@@ -1,0 +1,70 @@
+﻿== aussaugen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=sauge aus
+|Gegenwart_du=saugst aus
+|Gegenwart_er, sie, es=saugt aus
+|1.Vergangenheit_ich=sog aus, saugte aus
+|Partizip II=ausgesogen, ausgesaugt
+|Konjunktiv II_ich=söge aus, saugte aus
+|Imperativ Singular=sauge aus!
+|Imperativ Plural=saug(e)t aus!
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:aus·sau·gen, {{Prät.}} sog aus, saug·te aus, {{Part.}} aus·ge·so·gen, aus·ge·saugt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈaʊ̯sˌzaʊ̯ɡn̩}}, {{Prät.}} {{Lautschrift|ˌzoːk ˈaʊ̯s}}, {{Lautschrift|ˌzaʊ̯ktə ˈaʊ̯s}}, {{Part.}} {{Lautschrift|ˈaʊ̯sɡəˌzoːɡn̩}}, {{Lautschrift|ˈaʊ̯sɡəˌzaʊ̯kt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Einen Stoff mittels Luftdruck aus einem anderen Stoff entfernen
+:[2] Eine Person/Land arm machen
+
+{{Herkunft}}
+: Ableitung zum Verb [[saugen]] mit dem Präfix (Derivatem) [[aus-]] 
+
+{{Synonyme}}
+:[1] [[auspumpen]], [[entleeren]], [[evakuieren]]
+:[2] [[ausbeuten]], [[auslaugen]], [[auslutschen]], [[ausnutzen]], [[auffressen]], [[auspressen]]
+
+{{Gegenwörter}}
+:[1] [[abfüllen]], [[aufblasen]], [[auffüllen]], [[aussaufen]], [[betanken]], [[einfüllen]], [[füllen]]
+:[2] [[bereichern]]
+
+{{Oberbegriffe}}
+:[1] [[saugen]]
+
+{{Unterbegriffe}}
+:[1] [[heraussaugen]]
+
+{{Beispiele}}
+:[1] Er biss in die Traube, ''saugte'' sie genüsslich ''aus'' und warf die Hülle fort.
+:[2] Die Abgaben an den Fürsten ''saugten'' das Land aus.
+
+{{Wortbildungen}}
+:[1] [[Aussaugung]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{sv}}: [1, 2] {{Ü|sv|suga ut}}; [2] {{Ü|sv|utsuga}}
+}}
+
+{{Referenzen}}
+:[1, 2] {{Ref-Grimm|aussaugen}}
+:[1, 2] {{Ref-DWDS|aussaugen}}
+:[2] {{Ref-Canoo|aussaugen}}
+:[1, 2] {{Ref-UniLeipzig|aussaugen}}
+:[1] {{Ref-FreeDictionary|aussaugen}}
+:[1, 2] {{Ref-Duden|aussaugen}}
+
+[[ko:aussaugen]]
+[[ru:aussaugen]]
+[[zh:aussaugen]]

@@ -1,0 +1,123 @@
+﻿{{überarbeiten|Der eintrag überschneidet sich mit dem Eintrag [[keiner]], sollte überdacht werden--[[Benutzer:Tragopogon|Tragopogon]] <small>([[User talk:Tragopogon|Diskussion]])</small> 18:26, 11. Apr. 2013 (MESZ)|Deutsch}}
+== kein ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Indefinitpronomen|Deutsch}} ===
+
+{{Pronomina-Tabelle
+|Nominativ Singular m=kein
+|Nominativ Singular f=keine
+|Nominativ Singular n=kein
+|Nominativ Plural=keine
+|Genitiv Singular m=keines
+|Genitiv Singular f=keiner
+|Genitiv Singular n=keines
+|Genitiv Plural=keiner
+|Dativ Singular m=keinem
+|Dativ Singular f=keiner
+|Dativ Singular n=keinem
+|Dativ Plural=keinen
+|Akkusativ Singular m=keinen
+|Akkusativ Singular f=keine
+|Akkusativ Singular n=kein
+|Akkusativ Plural=keine
+|Weitere Formen=
+}}
+
+{{Worttrennung}}
+:kein, kei·ne, kei·ner
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|kaɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-kein.ogg}}, {{Audio|De-keine.ogg|keine}}, {{Audio|De-keiner.ogg|keiner}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Bedeutungen}}
+:[1] in Verbindung mit Substantiven bezeichnet es die ''„Null“''
+:[2] kann [[niemand]] ersetzen: keiner sprach, keiner weiß etwas
+
+{{Symbole}}
+:[1, 2] ''in medizinischen handschriftlichen Dokumentationen'' [[ø]]
+
+{{Synonyme}}
+:[1] [[null]]
+:[2] [[niemand]]
+
+{{Sinnverwandte Wörter}}
+:[2] [[keinerlei]]
+
+{{Gegenwörter}}
+:[1, 2] [[alle]], [[jemand]], [[einige]], [[manche]]
+
+{{Beispiele}}
+:[1] Wir haben ''keine'' Äpfel mehr.
+:[1] ''kein'' Stück, ''kein'' Grund zur Klage, ''keine'' Ursache
+:[2] Sie waren alle Feiglinge: ''keiner'' wagte etwas zu sagen.
+
+{{Redewendungen}}
+:[1] in keinster Weise<!-- sogar in gepflegter Umgebung: Süddeutsche Zeitung vom 19.02.2011 Seite 13 "All dies funktioniert und wird durch Börsenfusionen oder sinkende Gewinnmargen von Börsen in keinster Weise bedroht." -->
+
+{{Charakteristische Wortkombinationen}}
+:[1] {{Audio|De-kein Problem.ogg|->}} ''kein'' [[Problem]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|no}}, {{Ü|en|none}}, [2] {{Ü|en|nobody}}
+*{{fr}}: [1] {{Ü|fr|ne … pas de}}, [2] {{Ü|fr|personne … ne}}, {{Ü|fr|aucun … ne}}
+*{{ca}}: [1] {{Ü|ca|cap}}
+*{{oc}}: [1] {{Ü|oc|degun}}
+*{{nl}}: [1] {{Ü|nl|geen}}
+|Ü-rechts=
+*{{pl}}: [1, 2] {{Ü|pl|żaden}}
+*{{ru}}: [1] {{Ü|ru|никакой}}; [2] {{Ü|ru|никто}}
+*{{sv}}: [1] {{Ü|sv|ingen}}, {{Ü|sv|inget}}, [2] {{Ü|sv|ingen}}
+*{{dsb}}: [1, 2] {{Ü|dsb|žeden}}
+*{{hsb}}: [1, 2] {{Ü|hsb|žadyn}}
+*{{es}}: [1] {{Ü|es|no}}, {{Ü|es|ningún}}, [2] {{Ü|es|ninguno}}
+*{{cs}}: [1] {{Ü|cs|žádný}}, [2] {{Ü|cs|nikdo}}
+*{{tr}}: [1] {{Ü|tr|hiç}}
+|Dialekttabelle=
+*Mitteldeutsch:
+**Rheinfränkisch:
+***{{pfl}}: {{f}}'','' {{n}}: {{Lautschrift|kɛː}}, {{Lautschrift|kɛ̃ː}}, {{m}}'','' {{n}}: {{Lautschrift|kɛn}}
+***Hessisch: kaan, kern
+**Ostmitteldeutsch: keen, gain
+*Düsseldorferisch: ki
+|D-rechts=
+*Oberdeutsch:
+**{{als}}: kai, kaine, kai / chai, chaine , chai
+***Schwäbisch: koi, koin
+**{{bar}}: koa
+*{{nds}}:
+}}
+
+{{Referenzen}}
+:[1, 2] {{Ref-Grimm|kein}}
+:[1, 2] {{Ref-DWDS|kein}}
+:[1] {{Ref-Canoo|kein}}
+:[1, 2] {{Ref-UniLeipzig|kein}}
+{{Ähnlichkeiten 1|[[klein]]|Homophone=[[Kain]]|Anagramme=[[knie]], [[Knie]]|spr=de}}
+
+[[br:kein]]
+[[chr:kein]]
+[[cs:kein]]
+[[en:kein]]
+[[eo:kein]]
+[[es:kein]]
+[[et:kein]]
+[[fi:kein]]
+[[fj:kein]]
+[[fr:kein]]
+[[hu:kein]]
+[[id:kein]]
+[[io:kein]]
+[[ko:kein]]
+[[ku:kein]]
+[[lb:kein]]
+[[mg:kein]]
+[[nl:kein]]
+[[pl:kein]]
+[[pt:kein]]
+[[ru:kein]]
+[[sv:kein]]
+[[uk:kein]]
+[[vo:kein]]
+[[zh:kein]]

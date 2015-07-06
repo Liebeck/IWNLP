@@ -1,0 +1,145 @@
+﻿{{Wort der Woche|31|2010}}
+== St. Vincent und die Grenadinen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}}, {{Wortart|Wortverbindung|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=(das) St. Vincent und die Grenadinen
+|Nominativ Plural=—
+|Genitiv Singular=<small>(des St. Vincent und der Grenadinen)</small><br /><small>(des St. Vincents und der Grenadinen)</small><br /><small>St. Vincents und der Grenadinen</small><br />von St. Vincent und die Grenadinen
+|Genitiv Plural=—
+|Dativ Singular=<small>(dem) St. Vincent und den Grenadinen</small><br />(dem) St. Vincent und die Grenadinen
+|Dativ Plural=—
+|Akkusativ Singular=(das) St. Vincent und die Grenadinen
+|Akkusativ Plural=—
+|Bild 1=LocationSaintVincentAndTheGrenadines.png|250px|1|Lage des Staates ''St. Vincent und die Grenadinen''
+|Bild 2=Flag of Saint Vincent and the Grenadines.svg|250px|1|die Flagge des Staates ''St. Vincent und die Grenadinen''
+}}
+{{Artikel Toponym}}
+
+{{Anmerkung|zur Flexion}}
+:Der [[w:Ständiger Ausschuss für geographische Namen|Ständige Ausschuss für geographische Namen]] gibt in seiner [http://141.74.33.52/stagn/Portals/0/110426_STAATENNAMEN_11.pdf#page=12 Liste der Staatennamen und ihrer Ableitungen im Deutschen] bezüglich des Staates ''St. Vincent und die Grenadinen'' an, dass der Artikel „die“ bei der Flexion der Bezeichnung nicht dekliniert werden solle. Es soll also beispielsweise „von St. Vincent und die Grenadinen“ und nicht „St. Vincents und der Grenadinen“ benutzt werden. Der sonst übliche [[Genitivus possessivus]] sei zu vermeiden.<ref>Ständiger Ausschuss für geographische Namen: „[http://141.74.33.52/stagn/Portals/0/110426_STAATENNAMEN_11.pdf#page=12 Liste der Staatennamen und ihrer Ableitungen im Deutschen]“</ref> Wie eine Reihe der unten aufgeführten Beispielsätze zeigt, werden jedoch selbst in Texten offizieller Stellen die in der Flexionstabelle kleiner dargestellten, flektierten Formen verwendet.
+
+{{Anmerkung|zum Numerus}}
+:Obwohl der Name des Staates aus zwei Elementen besteht und das zweite dieser Elemente im [[Plural]] steht, wird er als Singularform im Neutrum aufgefasst, was die Zitate bei den Beispielsätzen zeigen.
+
+{{Worttrennung}}
+:St. Vin·cent und die Gre·na·di·nen, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌsntˈvɪnsənt ʔʊnt diː ˌɡʀenaˈdiːnən}}
+:{{Hörbeispiele}}  {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Inselstaat in der [[Karibik]], der aus der Insel [[St. Vincent]] und den 32 Inseln der nördlichen [[Grenadinen]] besteht
+
+{{Abkürzungen}}
+:[1] ''[[Kfz]]-Kennzeichen:'' [[WV]], ''Internet:'' [[VC]], ''Alpha-3-Code:'' [[VCT]], ''olympisch:'' [[VIN]]
+
+{{Herkunft}}
+:Die Insel ''[[St. Vincent]]'' wurde am 22. Januar 1498 angesteuert, also am Tag des [[w:Vinzenz von Valencia|Heiligen Vinzenz]], und hat daher ihren Namen.<ref name=Kastner/> Vom Klangbild her liegt es nahe, dass die [[Grenadinen]] den Namen ''[[Grenada]]s'' übernommen haben, dies stellt jedoch nur eine Vermutung dar.<ref name=Kastner>{{Lit-Kastner: Von Aachen bis Zypern}}, „Saint Vincent und die Grenadinen“, Seite 273.</ref>
+
+{{Beispiele}}
+:[1] ''St. Vincent und die Grenadinen'' hat offiziell keine Armee.
+:[1] „Das Abkommen über Informationsaustausch zwischen Deutschland und ''St. Vincent und den Grenadinen'' gewährt deutschen Finanzbehörden Zugang zu Informationen, die zur Durchführung des deutschen Steuerrechts erforderlich sind.“<ref>Bundesministerium der Finanzen: „[http://www.bundesfinanzministerium.de/DE/Presse/Pressemitteilungen/Finanzpolitik/2010/03/20103003__PM17.html Informationsaustausch in Steuersachen mit St. Vincent und den Grenadinen]“, 30.03.2010</ref>
+:[1] „Das Liechtensteiner Parlament hat am Donnerstag elf neue Steuerabkommen genehmigt. Behandelt wurden die Veträge [sic!] mit Belgien, den Niederlanden, Frankreich, Irland, Deutschland, Andorra, Monaco, ''St. Vincent und den Grenadinen,'' Antigua und Barbuda sowie mit St. Kitts und Nevis.“<ref>swissinfo.ch: „[http://www.swissinfo.ch/ger/news/newsticker/wirtschaft/LI/Parlament_von_Liechtenstein_billigt_elf_neue_Steuerabkommen_%28AF%29.html?cid=8732172 Parlament von Liechtenstein billigt elf neue Steuerabkommen]“, 22. April 2010</ref>
+:[1] „Da sich Österreich jedoch zur Erfüllung des neuen OECD-Standards hinsichtlich steuerliche Transparenz und Amtshilfebereitschaft (Bankauskünfte) verpflichtet hat, erscheint der Abschluss eines Abkommens über den Informationsaustausch in Steuersachen mit ''St. Vincent und den Grenadinen'' auch im österreichischen Interesse gelegen.“<ref name="Parlament">Parlament der Republik Österreich: „[http://www.parlament.gv.at/PG/DE/XXIV/I/I_00506/fnameorig_173365.html Bericht des Finanzausschusses über die Regierungsvorlage (447 der Beilagen): Abkommen zwischen der Republik Österreich und St. Vincent und den Grenadinen über den Informationsaustausch in Steuersachen]“, 25.11.2009</ref>
+:[1] „Mit ''St. Vincent und den Grenadinen'' besteht aufgrund des Steueroasencharakters ''St. Vincents und der Grenadinen'' kein Doppelbesteuerungsabkommen auf dem Gebiete der Steuern vom Einkommen und Vermögen.“<ref name="Parlament"/>
+:[1] „Das marktwirtschaftlich orientierte ''St. Vincent und die Grenadinen'' gehört zu den weniger entwickelten und hoch verschuldeten Staaten der Region.“<ref name=AA>Auswärtiges Amt: [http://www.auswaertiges-amt.de/diplo/de/Laenderinformationen/StVincentUndDieGrenadinen/Wirtschaft.html St. Vincent und die Grenadinen – Wirtschaftslage und Wirtschaftsstruktur]</ref>
+:[1] „''St. Vincent und die Grenadinen'' verfügt über einen kleinen Finanzdienstleistungssektor.“<ref name=AA/>
+:[1] „''St. Vincent und die Grenadinen'' setzt Hoffnungen auf eine vertiefte regionale wirtschaftliche Integration, die insbesondere mit der Einrichtung der CSME (Caribbean Single Market and Economy) verbunden werden.“<ref name=AA/>
+:[1] „''St. Vincent und die Grenadinen'' ist Mitglied der OECS (Organisation Ostkaribischer Staaten) und Mitglied der OECS-Währungsunion, die durch die ostkaribische Zentralbank (ECCB) koordiniert wird.“<ref name=AA/>
+:[1] „''St. Vincent und die Grenadinen'' ist einer von den inzwischen nur noch 23 Staaten, die mit Taiwan und nicht mit der VR China diplomatische Beziehungen unterhalten.“<ref>Michael Turzynski: ''100 Länder nebenbei,'' 2009, [http://books.google.de/books?id=tGUtblgVtngC&pg=PA154&dq=%22St.+Vincent+und+die+Grenadinen%22+Taiwan&hl=de&ei=__zaS7PCK4___Abkqbi9Dw&sa=X&oi=book_result&ct=result&resnum=3&ved=0CEEQ6AEwAjgK#v=onepage&q=%22St.%20Vincent%20und%20die%20Grenadinen%22%20Taiwan&f=false S. 152]</ref>
+
+{{Wortbildungen}}
+:[[Vincenter]], [[Vincenterin]], [[vincentisch]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|St. Vincent en die Grenadines}}
+*{{sq}}: [1] {{Ü|sq|Shën Vincenti dhe Grenadinet}}
+*{{ar}}: [1] {{Üt|ar|سانت فنسنت والجرنادينز|Sānt Fins?nt w-al-ǧr?nādīnz}}
+*{{az}}: [1] {{Ü|az|Sent-Vinsent və Qrenadina}}
+*{{eu}}: [1] {{Ü|eu|Saint Vincent eta Grenadinak}}
+*{{bs}}: [1] {{Ü|bs|Sveti Vincent i Grenadini}}
+*{{br}}: [1] {{Ü|br|Sant Visant hag an Inizi Granadinas}}
+*{{ceb}}: [1] {{Ü|ceb|Saint Vincent ug ang Grenadines}}
+*{{zh-tw}}: [1] {{Üt|zh|聖文森特和格林納丁斯|Shèng Wénsēntè hé Gélínnàdingsi}}
+*{{zh-cn}}: [1] {{Üt|zh|圣文森特和格林纳丁斯|Shèng Wénsēntè hé Gélínnàdingsi}}
+*{{da}}: [1] {{Ü|da|Saint Vincent og Grenadinerne}}
+*{{en}}: [1] {{Ü|en|Saint Vincent and the Grenadines}}
+*{{eo}}: [1] {{Ü|eo|Sankta Vincento kaj Grenadinoj}}
+*{{et}}: [1] {{Ü|et|Saint Vincent ja Grenadiinid}}
+*{{fo}}: [1] {{Ü|fo|St Vinsent og Grenadinoyggjar}}
+*{{fi}}: [1] {{Ü|fi|Saint Vincent ja Grenadiinid}}
+*{{fr}}: [1] {{Ü|fr|Saint-Vincent-et-les Grenadines}}
+*{{gl}}: [1] {{Ü|gl|San Vicente e Granadinas}}
+*{{el}}: [1] {{Üt|el|Άγιος Βικέντιος και Γρεναδίνες|Ágios Vikéntios kai Grenadínes}}
+*{{ht}}: [1] {{Ü|ht|Sen Vensan ak Grenadin}}
+*{{io}}: [1] {{Ü|io|Santa Vincent e Grenadini}}
+*{{id}}: [1] {{Ü|id|Saint Vincent dan Grenadines}}
+*{{ga}}: [1] {{Ü|ga|San Uinseann agus na Greanáidíní}}
+*{{is}}: [1] {{Ü|is|Sankti Vinsent og Grenadíneyjar}}
+*{{it}}: [1] {{Ü|it|Saint Vincent e Grenadine}}
+*{{ja}}: [1] {{Üt|ja|セントヴィンセントおよびグレナディーン諸島|Sento Vinsento oyobi Gurenadīn shotō}}
+*{{jv}}: [1] {{Ü|jv|Saint Vincent lan Grenadines}}
+*{{ca}}: [1] {{Ü|ca|Saint Vincent i les Grenadines}}
+*{{rw}}: [1] {{Ü|rw|Mutagatifu Visenti na Gerenadine}}
+*{{kw}}: [1] {{Ü|kw|Sen Vinsent ha'n Ynysow Grenadinek}}
+|Ü-rechts=
+*{{hr}}: [1] {{Ü|hr|Sveti Vincent i Grenadini}}
+*{{ku}}: [1] {{Ü|ku|Saint Vincent û giravên Grenadîn}}
+*{{la}}: [1] {{Ü|la|Sanctus Vincentius et Granatinae}}
+*{{lv}}: [1] {{Ü|lv|Sentvinsenta un Grenadīnas}}
+*{{lt}}: [1] {{Ü|lt|Sent Vinsentas ir Grenadinai}}
+*{{mt}}: [1] {{Ü|mt|Saint Vincent u l-Grenadini}}
+*{{gv}}: [1] {{Ü|gv|Noo Winsen as ny Grenadeenyn}}
+*{{nah}}: [1] {{Ü|nah|San Vicente huan Granaditēcatl}}
+*{{nl}}: [1] {{Ü|nl|Saint Vincent en de Grenadines}}
+*{{oc}}: [1] {{Ü|oc|Sant Vincenç e las Grenadinas}}
+*{{om}}: [1] {{Ü|om|Seenti Viinsenti fi Giranadiinsi}}
+*{{pl}}: [1] {{Ü|pl|Saint Vincent i Grenadyny}} ''Pl.''
+*{{pt}}: [1] {{Ü|pt|São Vicente e Granadinas}}
+*{{ro}}: [1] {{Ü|ro|Sfântul Vicențiu și Grenadinele}}
+*{{ru}}: [1] {{Üt|ru|Сент-Винсент и Гренадины|Sent-Winsent i Grenadiny}}
+*{{gd}}: [1] {{Ü|gd|Naomh Bhionsant agus Eileanan Greanadach}}
+*{{sv}}: [1] {{Ü|sv|Saint Vincent och Grenadinerna}}
+*{{sco}}: [1] {{Ü|sco|Saunt Vincent an the Grenadines}}
+*{{sl}}: [1] {{Ü|sl|Sveti Vincent in Grenadini}}
+*{{es}}: [1] {{Ü|es|San Vicente y las Granadinas}}
+*{{sw}}: [1] {{Ü|sw|Saint Vincent na Grenadini}}
+*{{su}}: [1] {{Ü|su|Saint Vincent jeung Grénadin}}
+*{{tl}}: [1] {{Ü|tl|San Vicente at ang Kagranadinahan}}
+*{{tet}}: [1] {{Ü|tet|Saun Visente no Granadinas}}
+*{{cs}}: [1] {{Ü|cs|Svatý Vincenc a Grenadiny}}
+*{{tr}}: [1] {{Ü|tr|Saint Vincent ve Grenadinler}}
+*{{uk}}: [1] {{Üt|uk|Сент-Вінсент і Ґренадини|Sent-Winsent i Grenadyny}}
+*{{hu}}: [1] {{Ü|hu|Saint Vincent és a Grenadine-szigetek}}
+*{{uz}}: [1] {{Ü|uz|Sent Vinsent va Grenadinlar}}
+*{{vi}}: [1] {{Ü|vi|Saint Vincent và Grenadines}}
+*{{vo}}: [1] {{Ü|vo|Saluda-Vinsenteän e Grenadineäns}}
+*{{cy}}: [1] {{Ü|cy|Saint Vincent a'r Grenadines}}
+*{{fy}}: [1] {{Ü|fy|Sint-Finsint en de Grenadinen}}
+*{{yo}}: [1] {{Ü|yo|Saint Vincent àti àwọn Grẹnadínì}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|St. Vincent und die Grenadinen}}
+:[1] {{Ref-Duden|St__Vincent_und_die_Grenadinen}}
+:[1] {{Ref-Länderverzeichnis|97}}.
+:[1] {{Lit-Duden: Rechtschreibung|A=25}}, „St. Vincent und die Grenadinen“, Seite 1035
+
+{{Quellen}}
+{{Staaten Nordamerika (Deutsch)}}
+
+[[Kategorie:Toponym (Deutsch)]]
+
+[[en:St. Vincent und die Grenadinen]]
+[[fi:St. Vincent und die Grenadinen]]
+[[fr:St. Vincent und die Grenadinen]]
+[[hu:St. Vincent und die Grenadinen]]
+[[nn:St. Vincent und die Grenadinen]]
+[[pl:St. Vincent und die Grenadinen]]
+[[pt:St. Vincent und die Grenadinen]]
+[[ru:St. Vincent und die Grenadinen]]
+[[tr:St. Vincent und die Grenadinen]]

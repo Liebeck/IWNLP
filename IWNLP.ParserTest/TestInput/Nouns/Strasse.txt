@@ -1,0 +1,27 @@
+﻿== Strasse ({{Sprache|Deutsch}}) ==
+{{Schweizer und Liechtensteiner Schreibweise|Straße}}
+
+{{----}}
+
+=== {{Wortart|Deklinierte Form|Deutsch}} ===
+
+{{Worttrennung}}
+:Stras·se
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʃtʀasə}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Grammatische Merkmale}}
+*{{Dativ-e}} Dativ Singular des Substantivs '''[[Strass]]'''
+*Nominativ Plural des Substantivs '''[[Strass]]'''
+*Genitiv Plural des Substantivs '''[[Strass]]'''
+*Akkusativ Plural des Substantivs '''[[Strass]]'''
+
+{{Grundformverweis|Strass}}
+
+{{Ähnlichkeiten}}
+:[[Trasse]], [[Gasse]]
+
+[[en:Strasse]]
+[[fr:Strasse]]

@@ -1,0 +1,115 @@
+﻿{{Siehe auch|[[Kriegen]]}}
+== kriegen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=kriege, krich
+|Gegenwart_du=kriegst
+|Gegenwart_er, sie, es=kriegt
+|1.Vergangenheit_ich=kriegte
+|Partizip II=gekriegt
+|Konjunktiv II_ich=kriegte
+|Imperativ Singular=krieg(e)!
+|Imperativ Plural=kriegt!
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:krie·gen, {{Prät.}} krieg·te, {{Part.}} ge·kriegt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈkʀiːɡŋ̍}}, {{Prät.}} {{Lautschrift|ˈkʀiːktə}}, {{Part.}} {{Lautschrift|ɡəˈkʀiːkt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|iːɡn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''[[umgangssprachlich]]:'' [[bekommen]], [[erhalten]]
+:[2] ''[[umgangssprachlich]]:'' zu [[fassen]] bekommen, [[habhaft]] werden
+:[3] ''veraltend:'' [[Krieg]] [[führen]]
+
+{{Herkunft}}
+:von [[Krieg]] (ursprünglich: sich etwas durch Krieg aneignen)<ref>[https://www.duden.de/rechtschreibung/kriegen_bekaempfen_befehden Duden]</ref><ref>[http://woerterbuchnetz.de/DWB/?lemma=kriegen Wörterbuchnetz]</ref>
+
+{{Sinnverwandte Wörter}}
+:[1] [[erhalten]], [[bekommen]]
+:[2] [[erwischen]], [[schnappen]], sich [[kaufen]], [[festnehmen]], ''substantiviert in'': [[Kriegen]] spielen
+:[3] Krieg führen, (sich) [[bekriegen]]
+
+{{Gegenwörter}}
+:[1] [[abgeben]], [[verlieren]], [[verschenken]]
+:[2] [[laufen lassen]]
+
+{{Unterbegriffe}}
+:[1] [[abkriegen]], [[herauskriegen]], [[herkriegen]], [[herumkriegen]], [[hinkriegen]], [[rauskriegen]], [[rumkriegen]], [[unterkriegen]], [[wiederkriegen]], [[zurückkriegen]]
+:[2] [[einkriegen]]
+:[3] [[bekriegen]], [[kleinkriegen]]
+
+{{Beispiele}}
+:[1] Nimm, was du ''kriegen'' kannst.
+:[1] Wie viel Geld ''kriegst'' du eigentlich?
+:[1] Meinen die wirklich Madonna ''kriegt'' einen Oscar?
+:[1] ''Kriegen'' wir dieses Jahr eigentlich noch einen richtigen Sommer?
+:[1] Stopp! Ich ''krich'' gleich ne Krise! Was hast du da eben gesagt?
+:[1] Hauptsache ich ''krich'' gleich ´n Ass.
+:[2] Ich ''krieg’'' dich schon noch!
+:[2] ''Krieg'' mich doch, wenn du kannst!
+:[2] Wir sind uns alle sicher, dass Sie den Verräter ''kriegen.''
+:[3] Indessen ''kriegte'' Oesterreich ganz alleine in Italien. 
+
+{{Redewendungen}}
+:[[ein paar kriegen]]; [[krieg mich, ich bin der Frieden]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[es]] nicht über sich ''kriegen'', [[Kind]]er ''kriegen'', ''Kriegen'' [[spielen]], [[zuviel]] ''kriegen'', einen [[Anfall]] ''kriegen'', sich nicht mehr unter [[Kontrolle]] ''kriegen'', eine [[Krise]] ''kriegen'', eine [[Grippe]] ''kriegen'', eine [[Erkältung]] ''kriegen'', [[Krebs]] ''kriegen'', [[jemand]]en zu [[fassen]] ''kriegen''
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1, 2] {{Ü|en|get}}, [1] {{Ü|en|come down with}} (''eine Krankheit''), {{Ü|en|have}} (''einen Herzinfakt''); [2] {{Ü|en|catch}}
+*{{fr}}: [1] {{Ü|fr|recevoir}}; [2] {{Ü|fr|attraper}}, ''ugs.:'' {{Ü|fr|se choper}}
+*{{ja}}: [1] {{Üt|ja|貰う|もらう, morau}}
+*{{ca}}: [1] {{Ü|ca|agafar}}
+*{{no}}: [1] {{Ü|no|få}}; [3] {{Ü|no|krige}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|dostawać}}
+*{{ru}}: [1] {{Ü|ru|получать}}; [2] {{Ü|ru|хватать}}; [3] {{Ü|ru|вести войну}}
+*{{sv}}: [1] {{Ü|sv|få}}; [2] {{Ü|sv|få tag i}}, {{Ü|sv|få tag på}}; [3] {{Ü|sv|kriga}}, {{Ü|sv|föra krig}}
+*{{es}}: [1] {{Ü|es|obtener}}, {{Ü|es|recibir}}, [2] {{Ü|es|pillar}}
+|Dialekttabelle=
+*Mitteldeutsch:
+**Hessisch: [?] kriche, krigge
+**{{pfl}}: {{Lautschrift|ˈkʀɪɡə}}, ''Part&nbsp;II:'' {{Lautschrift|kʀɪkt}}
+|D-rechts=
+*Oberdeutsch:
+**{{bar}}: griang
+** Schwäbisch: griaga
+*{{nds}}: [1, 2] {{Ü|nds|kriggen}}
+*Norddeutsche Aussprache des Schriftdeutschen: [1, 2] {{Prät.}} {{Lautschrift|kχɪçtə}}, {{Part.}} {{Lautschrift|ɡəˈkχɪçt}}
+}}
+
+{{Referenzen}}
+:[1–3] {{Ref-Grimm|kriegen}}
+:[1, 2] {{Ref-DWDS|kriegen}}
+:[1] {{Ref-UniLeipzig|kriegen}}
+:[*] {{Ref-Canoo|kriegen}}
+
+{{Quellen|}}
+
+{{Ähnlichkeiten}}
+:[[bekriegen]], [[Krieg]], [[Krieger]]
+
+[[chr:kriegen]]
+[[cs:kriegen]]
+[[el:kriegen]]
+[[en:kriegen]]
+[[eo:kriegen]]
+[[fi:kriegen]]
+[[fr:kriegen]]
+[[io:kriegen]]
+[[ko:kriegen]]
+[[ku:kriegen]]
+[[mg:kriegen]]
+[[no:kriegen]]
+[[pl:kriegen]]
+[[ru:kriegen]]
+[[sv:kriegen]]
+[[zh:kriegen]]

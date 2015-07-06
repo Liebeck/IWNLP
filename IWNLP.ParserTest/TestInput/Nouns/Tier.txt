@@ -1,0 +1,296 @@
+﻿== Tier ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Tier
+|Nominativ Plural=die Tiere
+|Genitiv Singular=des Tiers<br />des Tieres
+|Genitiv Plural=der Tiere
+|Dativ Singular=dem Tier<br />dem Tiere
+|Dativ Plural=den Tieren
+|Akkusativ Singular=das Tier
+|Akkusativ Plural=die Tiere
+|Bild=Animals.gif|200px|1|Tier
+}}
+
+{{Veraltete Schreibweisen}}
+:[[Thier]]
+
+{{Worttrennung}}
+:Tier, {{Pl.}} Tie·re
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|tiːɐ̯}}, {{Pl.}} {{Lautschrift|ˈtiːʀə}}
+:{{Hörbeispiele}} {{Audio|De-Tier.ogg|Tier}}, {{Pl.}} {{Audio|De-Tiere.ogg|Tiere}}
+:{{Reime}} {{Reim|iːɐ̯|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[eukaryot]]ische [[Lebewesen]], die ihre Energie nicht durch [[Photosynthese]] gewinnen und [[Sauerstoff]] zur [[Atmung]] benötigen, aber keine [[Pilze]] sind
+:[2] ''[[Jägersprache]]:'' [[Hirschkuh]]
+
+{{Herkunft}}
+:[1] von {{gmh.}} ‚[[tier]], [[dier]]‘, {{goh.}} ‚[[tior]], [[tëor]]‘ {{gem.}} ‚[[*deuza-]] {{n}}‘ „wildes Tier“ – vermutlich zur {{ine.}}en [[Wurzel]] ‚[[*dheu-]]‘ „[[blasen]], [[atmen]]“ im Kontext „atmendes [[Wesen]], [[Lebewesen]]“ (analog zu {{lat.}} ‚{{Ü|la|animal}}‘ „Tier“ zu ‚{{Ü|la|anima}}‘ „[[Seele]]“). Das Wort ist seit dem 8. Jahrhundert belegt.<ref> Wolfgang Pfeifer [Leitung]: ''Etymologisches Wörterbuch des Deutschen.'' 2. durchgesehene und erweiterte Auflage. Deutscher Taschenbuch Verlag, München 1993. Stichwort: ''Tier.'' ISBN 3-423-03358-4. </ref>
+:[2] spezialisierte Beibehaltung der älteren Bedeutung „[[Wildtier]], [[Wild]]“, ähnlich {{en.}} ‚[[deer]]‘
+
+{{Synonyme}}
+:[1] {{ugs.|:}} [[Biest]], [[Viech]]
+:[2] [[Hinde]], [[Hindin]]
+
+{{Gegenwörter}}
+:[1] [[Pflanze]], [[Pilz]]
+
+{{Verkleinerungsformen}}
+:[[Tierchen]]
+
+{{Oberbegriffe}}
+:[1] [[Eukaryot]], [[Lebewesen]]
+
+{{Unterbegriffe}}
+:[1] [[Schwamm]], [[Wurm]], <!-- Klassen usw. --> [[Amöbe]], [[Amphibium]], [[Egel]], [[Fisch]], [[Insekt]], [[Koralle]], [[Krebs]], [[Milbe]], [[Muschel]], [[Polyp]], [[Qualle]], [[Reptil]], [[Säugetier]], [[Schnecke]], [[Seegurke]], [[Seeigel]], [[Seestern]], [[Skorpion]], [[Spinne]], [[Tausendfüßler]], [[Tintenfisch]], [[Vogel]]
+:[1] [[Arbeitstier]], [[Flugtier]], [[Haustier]], [[Jungtier]], [[Leittier]], [[Nützling]], [[Nutztier]], [[Reittier]], [[Säugetier]], [[Schädling]], [[Schmusetier]], [[Ungetier]], [[Untier]], [[Weichtier]], [[Wild]], [[Wildtier]], [[Wirbeltier]], [[Zugtier]]
+:[1] ''übertragen:'' [[Fabeltier]], [[Kuscheltier]], [[Plüschtier]], [[Stofftier]], [[Votivtier]], [[Wappentier]]
+:[2] [[Rentier]]
+
+{{Beispiele}}
+:[1] Der Löwe ist der König der ''Tiere.''
+:[2] Der Platzhirsch bewachte ein Rudel von zehn ''Tieren.''
+
+{{Redewendungen}}
+:[[das Tier im Manne]]
+:ein [[hohes Tier]]/[[großes Tier]] - Eine Person von großem Ansehen, hohem Rang.
+:[[Mensch und Tier]]
+
+{{Wortbildungen}}
+:[[tierisch]], [[tierlieb]]
+:[[Tierart]], [[Tierarzt]], [[Tierblut]], [[Tierfänger]], [[Tierfreund]], [[Tiergarten]], [[Tiergestalt]], [[Tierhaltung]], [[Tierhandlung]], [[Tierheim]], [[Tierklinik]], [[Tierkohle]], [[Tierkunde]], [[Tierliebe]], [[Tierpark]], [[Tierpfleger]], [[Tierquäler]], [[Tierquälerei]], [[Tierreich]], [[Tierschutz]], [[Tierschützer]], [[Tierspur]], [[Tiertransport]], [[Tierversuch]], [[Tierverwertung]], [[Tierwelt]], [[Tierzucht]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+{{Übersetzungen umleiten|2|Hirschkuh|}}
+*{{af}}: [1] {{Ü|af|dier}}, {{Ü|af|bees}}
+*{{ain}}: [1] {{Ü|ain|Cikoikip}}
+*{{sq}}: [1] {{Ü|sq|kafshë}}
+*{{ofs}}: [1] {{Ü|ofs|diār}}
+*{{grc}}: [1] {{Üxx|grc|thḗr|θήρ}}, {{Üxx|grc|zṓon|ζῷον}}
+<!--odt *Alt-{{nl}}: [1] {{Ü|nl|dier}} -->
+*{{non}}: [1] {{Ü|non|dýr}}
+*{{goh}}: [1] {{Ü|goh|tior}}
+*{{osx}}: [1] {{Ü|osx|dior}}
+*{{amu}}: [1] {{Ü|amu|kió'}}
+*{{ar}}: [1] {{Üxx|ar|al-hayawān|الحيوان}} {{m}}
+*{{an}}: [1] {{Ü|an|animal}} {{m}}
+*{{hy}}: [1] {{Üxx|hy|kendani|կենդանի}}, ‌{{Üxx|hy|gazan|գազան}}
+*{{az}}: [1] {{Üxx|az|heyvan|حيوان}}
+*{{ast}}: [1] {{Ü|ast|animal}}
+*{{ay}}: [1] {{Ü|ay|uywa}}
+*{{bm}}: [1] {{Ü|bm|bagan}}
+*{{eu}}: [1] {{Ü|eu|animalia}}
+*{{bn}}: [1] {{Üxx|bn|jānoẏār|জানোয়ার}}
+*{{bs}}: [1] {{Ü|bs|životinja}} {{f}}
+*{{br}}: [1] {{Ü|br|loen}} {{m}}, {{Ü|br|aneval}} {{m}}
+*{{bg}}: [1] {{Üxx|bg|životno|животно}} {{n}}
+*{{chr}}: [1] {{Üxx|chr|ganatlai|ᎦᎾᏝᎢ}}
+*{{zh}}:
+:*{{zh-tw}}: [1] {{Üxx|zh|dòngwù|動物}}
+:*{{zh-cn}}: [1] {{Üxx|zh|dòngwù|动物}}
+:*{{nan}}: [1] {{Ü|nan|tōng-bu̍t}}
+*{{da}}: [1] {{Ü|da|dyr}}
+*{{en}}: [1] {{Ü|en|animal}}, {{Ü|en|beast}}
+:*{{ang}}: [1] {{Ü|ang|dēor}}, {{Ü|ang|nyten}}
+:*{{simple}}: [1] {{Ü|simple|animal}}, {{Ü|simple|beast}}
+*{{eo}}: [1] {{Ü|eo|animalo}}, {{Ü|eo|besto}}
+*{{et}}: [1] {{Ü|et|loom}}
+*{{fo}}: [1] {{Ü|fo|djór}}, {{Ü|fo|dýr}} {{n}}
+*{{fi}}: [1] {{Ü|fi|eläin}}
+*{{frp}}: [1] {{Ü|frp|animâl}}
+*{{fr}}: [1] {{Ü|fr|animal}} {{m}}, {{Ü|fr|bête}}, ''Normannisch:'' animâ
+*{{fy}}: [1] {{Ü|fy|dier}}, {{Ü|fy|bist}}
+*{{gl}}: [1] {{Ü|gl|animal}}
+*{{ka}}: [1] {{Üxx|ka|tskhoveli|ცხოველი}}
+*{{got}}: [1] {{Üxx|got|dius|𐌳𐌹𐌿𐍃}} {{n}}
+*{{el}}: [1] {{Üxx|el|zóo|ζώο}} {{n}}, {{Üxx|el|ktínos|κτήνος}} {{m}}, {{Üxx|el|thirío|θηρίο}} {{n}}
+*{{gn}}: [1] {{Ü|gn|tymba}}, {{Ü|gn|mymba}}
+*{{gu}}: [1] {{Üxx|gu|janāvar|જનાવર}}
+*{{ht}}: [1] {{Ü|ht|animal}}
+*{{haw}}: [1] {{Ü|haw|holoholona}}
+*{{he}}: [1] {{Üxx|he|h'ay|חיה}}, {{Üxx|he|ba‘al khayim|בעל חיים}} {{m}}
+*{{hi}}: [1] {{Üxx|hi|paśu|पशु}}, {{Üxx|hi|haivān|हैवान}}, {{Üxx|hi|jānavar|जानवर}}
+*{{io}}: [1] {{Ü|io|animalo}}
+*{{id}}: [1] {{Ü|id|hewan}}, {{Ü|id|binatang}}
+*{{ia}}: [1] {{Ü|ia|animal}}, {{Ü|ia|bestia}}
+*{{iu}}: [1] {{Üxx|iu|uumajuq|ᐆᒪᔪᖅ}}
+*{{ik}}: [1] {{Ü|ik|aŋusalluq}}, {{Ü|ik|aġnasalluq}}
+*{{ga}}: [1] {{Ü|ga|ainmhí}}
+*{{xh}}: [1] {{Ü|xh|isilwanyana}}
+*{{zu}}: [1] {{Ü|zu|isilwane}}, {{Ü|zu|inkomo}}
+*{{is}}: [1] {{Ü|is|dýr}} {{n}}
+*{{it}}: [1] {{Ü|it|animale}} {{m}}, {{Ü|it|bestia}} {{f}}
+*{{ja}}: [1] {{Üxx|ja|どうぶつ, dōbutsu|動物}}, {{Üxx|ja|animaru|アニマル}}, {{Üxx|ja|いきもの, ikimono|生き物}}
+*{{yi}}: [1] {{Üxx|yi||חיה}}
+*{{km}}: [1] {{Üxx|km|sat[v]|សត្វ}}
+*{{pam}}: [1] {{Ü|pam|animal}}
+*{{kk}}: [1] {{Üxx|kk|ajuan|айуан}}
+*{{ca}}: [1] {{Ü|ca|animal}} {{m}}, {{Ü|ca|bèstia}} {{f}}
+*{{rw}}: [1] {{Ü|rw|koko}}, {{Ü|rw|nyamaswa}}
+*{{sw}}: [1] {{Ü|sw|mnyama}}
+*{{ko}}: [1] {{Üxx|ko|dong.mul|동물}}, {{Üxx|ko|chim.seung|짐승}}
+*{{kw}}: [1] {{Ü|kw|best}}
+*{{hr}}: [1] {{Ü|hr|životinja}} {{f}}
+*{{ku}}: [1] {{Ü|ku|ajal}}, {{Ü|ku|heywan}}, {{Ü|ku|sewal}}
+:*{{kmr}}: [1] {{Ü|ku|heywan}}
+*{{la}}: [1] {{Ü|la|animal}}, {{Ü|la|bēstia}}, {{Ü|la|fera}}
+*{{lv}}: [1] {{Ü|lv|dzīvnieki}}
+*{{lt}}: [1] {{Ü|lt|žvėris}}, {{Ü|lt|gyvūnas}}
+|Ü-rechts=
+*{{lmo}}: [1] {{Ü|lmo|animale}}, {{Ü|lmo|bestia}}
+*{{lb}}: [1] {{Ü|lb|Déier}} {{m}}
+*{{mg}}: [1] {{Ü|mg|biby}}
+*{{ms}}: [1] {{Ü|ms|binatang}} (بيناتڠ), {{Ü|ms|haiwan}}
+*{{ml}}: [1] {{Üxx|ml|mrugam|മൃഗം}}
+*{{mt}}: [1] {{Ü|mt|annimal}} {{m}}
+*{{gv}}: [1] {{Ü|gv|baagh}}
+*{{arn}}: [1] {{Ü|arn|kujiñ}}
+*{{mr}}: [1] {{Üxx|mr|janāvar|जनावर}}
+*{{gmh}}: [1] {{Ü|gmh|tier}}
+*{{nah}}: [1] {{Ü|nah|yōlcatl}}
+*{{ne}}: [1] {{Üxx|ne|janāvar|जनावर}}
+*{{nds}}: [1] [[Nordniedersächsisch]] {{Ü|nds|Deert}}, {{Ü|nds|Diert}}, {{Ü|nds|Deer}}; {{Ü|nds|Beest}}, {{Ü|nds|Beist}}
+*{{nl}}: [1] {{Ü|nl|dier}} {{n}}, {{Ü|nl|beest}} {{n}}
+:*{{vls}}: [1] {{Ü|vls|dier}}
+*{{se}}: [1] {{Ü|se|eal'li}}
+*{{no}}:
+:*{{nb}}: [1] {{Ü|nb|dyr}} {{n}}
+:*{{nn}}: [1] {{Ü|nn|dyr}} {{n}}
+*{{nov}}: [1] {{Ü|nov|animale}}
+*{{oc}}: [1] {{Ü|oc|animal}} {{m}}
+*{{om}}: [1] {{Ü|om|korma}}
+*{{pi}}: [1] {{Üxx|pi|tiracchānagata|तिरच्छानगत}}, {{Üxx|pi|tiracchāna|तिरच्छान}}, jīvī
+*{{pa}}: [1] {{Üxx|pa|haivān|ਹੈਵਾਨ}}
+*{{pap}}: [1] {{Ü|pap|animal}}, {{Ü|pap|bestia}}
+*{{fa}}: [1] {{Üxx|fa|ḥayvān|حیوان}}, {{Üxx|fa|ǧānvar|جانور}}
+*{{pl}}: [1] {{Ü|pl|zwierzę}} {{n}}, ''umgangssprachlich:'' {{Ü|pl|zwierzak}} {{m}}; ''wild:'' {{Ü|pl|zwierz}} {{m}}
+*{{pt}}: [1] {{Ü|pt|animal}}{{m}}, {{Ü|pt|alimária}} {{f}}, {{Ü|pt|besta}} {{f}}, {{Ü|pt|bicho}} {{m}},  ''Brasilien:'' [1] {{Ü|pt|animal}} {{m}}
+*{{qu}}: [1] {{Ü|qu|uywa}}, {{Ü|qu|watku}}
+*{{rhg}}: [1] {{Ü|rhg|focú}}, {{Ü|rhg|januar}}
+*{{ro}}: [1] {{Ü|ro|animal}} {{m}}, {{Ü|ro|fiară}} {{f}}
+*{{ru}}: [1] {{Üxx|ru|živótnoe|животное}}, {{Üxx|ru|zver’|зверь}} {{m}}
+*{{sa}}: [1] {{Üxx|sa|paśu|पशु}}, {{Üxx|sa|mṛga|मृग}}, {{Üxx|sa|vanacara|वनचर}}
+*{{sc}}: [1] {{Ü|sc|bestia}}
+*{{gd}}: [1] {{Ü|gd|beathach}} {{m}}, {{Ü|gd|ainmhidh}} {{m}}
+*{{sv}}: [1] {{Ü|sv|djur}} {{n}}, {{Ü|sv|best}} {{u}}
+*{{sr}}: [1] {{Üxx|sr|[[životinja]]|животиња}} {{f}}; {{Üxx|sr|[[zver]]|звер}} {{f}}
+*{{sh}}: [1] {{Ü|sh|životinja}} {{f}}
+*{{tn}}: [1] {{Ü|tn|sebatana}}, {{Ü|tn|phologolo}}
+*{{sn}}: [1] {{Ü|sn|chipfuyo}}
+*{{ss}}: [1] {{Ü|ss|sí-lwane}}
+*{{scn}}: [1] {{Ü|scn|armalu}}, {{Ü|scn|armali}}, {{Ü|scn|nnimali}}
+*{{sk}}: [1] {{Ü|sk|zviera}} {{n}}, {{Ü|sk|živočích}} {{m}}
+*{{sl}}: [1] {{Ü|sl|žival}} {{f}}, {{Ü|sl|zver}} {{f}}
+*{{so}}: [1] {{Ü|so|xayawaan}}
+*{{wen}}:
+:*{{dsb}}: [1] {{Ü|dsb|zwěrje}} {{n}}
+:*{{hsb}}: [1] {{Ü|hsb|zwěrjo}} {{n}}
+*{{es}}: [1] {{Ü|es|animal}} {{m}}, {{Ü|es|bestia}} {{f}}
+*{{srn}}: [1] {{Ü|srn|meti}}
+*{{st}}: [1] {{Ü|st|phoofolo}}
+*{{tg}}: [1] {{Üxx|tg|hajvon|ҳайвон}}, {{Üxx|tg|çonvar|ҷонвар}}
+*{{tl}}: [1] {{Ü|tl|hayop}}
+*{{ta}}: [1] {{Üxx|ta|vilaṅku|விலங்கு}}
+*{{te}}: [1] {{Üxx|te|jantuvu|జంతువు}}
+*{{th}}: [1] {{Üxx|th|sât[w]|สัตว์}}
+*{{txh}}: [1] {{Ü|txh|zéri-}}
+*{{bo}}: [1] {{Üxx|bo|rnga bran|རྔ་བྲན་}}
+*{{tox}}: [1] {{Ü|tox|mar}}
+*{{cs}}: [1] {{Ü|cs|zvíře}} {{n}}, {{Ü|cs|živočich}}
+*{{ce}}: [1] {{Üxx|ce|dijnat|дийнат}}
+*{{tr}}: [1] {{Ü|tr|hayvan}} {{n}}
+*{{tk}}: [1] {{Ü|tk|haяwan}}
+*{{ak}}: [1] {{Ü|ak|aboa}}
+*{{uk}}: [1] {{Üxx|uk|tvaryna|тварина}} {{f}}, {{Üxx|uk|zvir|звір}} {{m}}
+*{{hu}}: [1] {{Ü|hu|állat}}
+*{{ur}}: [1] {{Üxx|ur|ǧān?w?r|جانور}}, {{Üxx|ur|ḥ?y?wān|حیوان}}
+*{{vec}}: [1] {{Ü|vec|animal}}, {{Ü|vec|bestia}}
+*{{vi}}: [1] {{Ü|vi|động vật}}, {{Ü|vi|thú vật}}
+*{{vo}}: [1] {{Ü|vo|nim}}
+*{{cy}}: [1] {{Ü|cy|mil}} {{m}}, {{Ü|cy|anifail}}
+*{{wa}}: [1] {{Ü|wa|biesse}}
+*{{be}}: [1] {{Üxx|be|žyvioła|жывёла}}, {{Üxx|be|žyviolina|жывёліна}}, {{Üxx|be|zver|звер}}
+*{{wo}}: [1] {{Ü|wo|mala}}, {{Ü|wo|rab}}
+|Dialekttabelle=
+*[[Bairisch]]: [[Viech]]
+*[[Elsässisch]]: [[Tier]]
+*[[Hessisch]]: [1] [[Viech]], [[Déier]]
+*[[Kölsch]]: [1] [[Deer]], [[Dier]]
+*{{li}}: [1] [[Dier]], [[Deer]]
+*Lippisch ([[w:Ostwestfälisch|Ostwestfälisch]]): [1] [[Tier]]
+*[[w:Mecklenburgisch|Mecklenburgisch]]: [1] [[Diert]], [[Dier]]
+*Mölmsch ([[w:Mülheim an der Ruhr|Mülheim/Ruhr]]): [1] [[Dier]]
+*[[Obersächsisch]]: [1] [[Dier]], [[Viech]], [[Biest]]
+|D-rechts=
+*[[Ostfälisch]]:
+**Hildesheimer Platt: [1] [[Dâiă]]
+**nördliches Ostfälisch: [1] [[Dâiăt]], [[Bâist]]
+**Oker-Mundart: [1] [[Dȅiă]], [[Dȅiăt]]
+**östliches Ostfälisch: [1] [[Dâiăt]], [[Dâiă]], [[Dîă]]
+*[[w:Ostfriesisches Platt|Ostfriesisch]]: [1] [[Deer]], [[Deert]]
+*{{pdt}}: [1] [[Tiea]]
+*Schwäbisch: [[Viech]]
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Tier}}
+:[1] {{Ref-Grimm|Thier, Tier|id=GT03376}} '', ersteres ist eine veraltete Schreibweise''
+:[1, 2] {{Ref-DWDS|Tier}}
+:[1] {{Ref-Canoo|Tier}}
+:[1] {{Ref-UniLeipzig|Tier}}
+:[1, 2] {{Lit-Duden: Universalwörterbuch|A=6}}, Stichwort „Tier“.
+:[1, 2] {{Ref-Duden}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Bier]], [[Gier]], [[hier]], [[Pier]], [[schier]], [[Stier]], [[stier]], [[Teer]], [[Tiber]], [[tief]], [[tier]], [[Tiger]], [[Timer]], [[Trier]], [[Tür]], [[Vier]], [[vier]], [[Zier]]|Anagramme=[[reit]], [[riet]]}}
+
+[[ast:Tier]]
+[[az:Tier]]
+[[br:Tier]]
+[[ca:Tier]]
+[[chr:Tier]]
+[[cs:Tier]]
+[[cy:Tier]]
+[[da:Tier]]
+[[el:Tier]]
+[[en:Tier]]
+[[es:Tier]]
+[[et:Tier]]
+[[fi:Tier]]
+[[fj:Tier]]
+[[fr:Tier]]
+[[ga:Tier]]
+[[gv:Tier]]
+[[he:Tier]]
+[[hr:Tier]]
+[[hu:Tier]]
+[[id:Tier]]
+[[io:Tier]]
+[[is:Tier]]
+[[it:Tier]]
+[[ja:Tier]]
+[[ko:Tier]]
+[[ku:Tier]]
+[[kw:Tier]]
+[[lb:Tier]]
+[[li:Tier]]
+[[lo:Tier]]
+[[lt:Tier]]
+[[mg:Tier]]
+[[nah:Tier]]
+[[nl:Tier]]
+[[no:Tier]]
+[[pl:Tier]]
+[[pt:Tier]]
+[[ro:Tier]]
+[[ru:Tier]]
+[[sv:Tier]]
+[[tl:Tier]]
+[[tr:Tier]]
+[[zh:Tier]]

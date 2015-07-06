@@ -1,0 +1,88 @@
+﻿== Vertretung ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Vertretung
+|Nominativ Plural=die Vertretungen
+|Genitiv Singular=der Vertretung
+|Genitiv Plural=der Vertretungen
+|Dativ Singular=der Vertretung
+|Dativ Plural=den Vertretungen
+|Akkusativ Singular=die Vertretung
+|Akkusativ Plural=die Vertretungen
+}}
+
+{{Worttrennung}}
+:Ver·tre·tung, {{Pl.}} Ver·tre·tun·gen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌfɛɐ̯ˈtʀeːtʊŋ}}, {{Pl.}} {{Lautschrift|ˌfɛɐ̯ˈtʀeːtʊŋən}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|eːtʊŋ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Person, die jemanden vorübergehend vertritt
+::[a] Person oder Gruppe von Personen, Delegation, deren Aufgabe es ist, jemanden, etwas zu vertreten
+:[2] Sitz einer Vertretung
+:[3] ''[[Sport]]:'' delegierte Mannschaft, Riege oder Ähnliches
+:[4] 
+::[a] Vermittlung des Verkaufes für ein [[Unternehmen]]; Handelsvertretung
+::[b] Niederlassung eines Unternehmens, Repräsentanz
+:[5] ''[[Rechtswissenschaft]]:'' das Handeln einer Person (Vertreter beziehungsweise Stellvertreter) für eine andere Person (Vertretener), welche die rechtlichen Folgen dieses Handelns treffen
+
+{{Herkunft}}
+:[[Nominalisierung]] des Verbes ''[[vertreten]]'' mit dem Substantivierungssuffix ''[[-ung]]''
+
+{{Synonyme}}
+:[1] [[Stellvertretung]]
+:[2] [[Interessenvertretung]], [[Repräsentanz]], [[Repräsentation]]
+:[3] [[Ersatz]], [[Ersatzmann]], [[Ersatzfrau]], [[Stellvertreter]], [[Stellvertreterin]], [[Vertreter]], [[Vertreterin]], [[Substitut]], [[Substitutin]]
+:[4] [[Abordnung]], [[Delegation]], [[Deputation]], [[Gesandtschaft]], [[Legation]], [[Mission]]
+
+{{Beispiele}}
+:[1] Sie muss die ''Vertretung'' einer erkrankten Kollegin vorübergehend übernehmen.
+:[1] Der Arzt hat zurzeit eine ''Vertretung,'' weil er im Urlaub ist.
+:[2] Auf dem "Silicon Valley" haben viele Firmen wie Google, Intel oder Yahoo ihre ''Vertretungen'' errichtet.
+:[3] Die deutsche ''Vertretung'' siegte 10:0.
+:[4] Eine ''Vertretung'' der Firma ist in China eröffnen worden.
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''Vertretung'' übernehmen; haben; sein; befugen; besetzen; organisieren; regeln; beauftragen
+:[1] für ''Vertretung'' sorgen
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{ar}}: [1] {{Ü|ar|التمثيل}}
+*{{ch}}: [1] {{Ü|ch|代表}}
+*{{en}}: [1] {{Ü|en|representative}}; [1]{{Ü|en|proxy}}
+*{{fr}}: [1] {{Ü|fr|représentation}} {{f}}
+*{{ka}}: [1] {{Ü|ka|წარმომადგენლობა}} (tsarmomadgenloba)
+*{{he}}: [1] {{Ü|he|נציגות}} (nezigot)
+*{{it}}: [1] {{Ü|it|rappresentazione}}
+|Ü-rechts=
+*{{ja}}: [1] {{Ü|ja|表現}} (hyōgen)
+*{{yi}}: [1] {{Ü|yi|פאַרטרעטונג}} (vartreteng)
+*{{la}}: [1] {{Ü|la|repraesentatio}}
+*{{nl}}: [1] {{Ü|nl|representatie}}; [1] {{Ü|nl|vertegenwoordiging}}
+*{{pl}}: [1] {{Ü|pl|reprezentacja}}
+*{{es}}: [1] {{Ü|es|representación}}
+*{{sv}}: [1] {{Ü|sv|representation}}
+}}
+
+{{Referenzen}}
+:[5] {{Wikipedia|Vertretung}}
+:[1–4] {{Ref-DWDS|Vertretung}}
+:[1, 4] {{Ref-Canoo|Vertretung}}
+:[1–4] {{Ref-UniLeipzig|Vertretung}}
+:[1] {{Ref-FreeDictionary|Vertretung}}
+
+{{Referenzen prüfen|Deutsch}}
+
+[[el:Vertretung]]
+[[en:Vertretung]]
+[[fi:Vertretung]]
+[[hu:Vertretung]]
+[[io:Vertretung]]
+[[mg:Vertretung]]
+[[pl:Vertretung]]
+[[zh:Vertretung]]

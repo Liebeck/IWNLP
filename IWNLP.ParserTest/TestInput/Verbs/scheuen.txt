@@ -1,0 +1,71 @@
+﻿== scheuen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=scheue
+|Gegenwart_du=scheust
+|Gegenwart_er, sie, es=scheut
+|1.Vergangenheit_ich=scheute
+|Partizip II=gescheut
+|Konjunktiv II_ich=scheute
+|Imperativ Singular=scheue!
+|Imperativ Plural=scheut! <br /> ''poetisch:'' scheuet!
+|Hilfsverb=haben
+|Weitere_Konjugationen=scheuen (Konjugation)
+}}
+
+{{Worttrennung}}
+:scheu·en, {{Prät.}} scheu·te, {{Part.}} ge·scheut
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʃɔɪ̯ən}}, {{Prät.}} {{Lautschrift|ˈʃɔɪ̯tə}}, {{Part.}} {{Lautschrift|ɡəˈʃɔɪ̯t}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|ɔɪ̯ən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{trans.|:}} etwas aus Angst vermeiden ''oder'' meiden
+::[a] {{trans.|:}} etwas ''aus irgendwelchen Gründen'' vermeiden ''oder'' meiden
+:[2] {{refl.|:}} ''sich scheuen vor etwas'': etwas (aus Angst oder anderen Gründen) vermeiden
+
+{{Beispiele}}
+:[1] Das Pferd ''scheut'' vor dem Hindernis.
+:[1a] Der Junge ist faul, er ''scheut'' die Arbeit, wo er nur kann.
+:[2] Wir ''scheuen'' uns davor, ihm Unannehmlichkeiten zu bereiten.
+:[2] Er ''scheut'' sich vor der Arbeit.
+
+{{Sprichwörter}}
+:[1] [[Gebranntes Kind scheut das Feuer]] – Wer einmal einen Schaden hatte, fürchtet sich vor allen Anzeichen von dessen Wiederholung.
+
+{{Charakteristische Wortkombinationen}}
+:[1a] Keine Mühe scheuen.
+
+{{Wortbildungen}}
+:[[Abscheu]], [[Scheu]], [[Scheusal]], [[zurückscheuen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{brit.|:}} to {{Ü|en|fight shy}} of something; to {{Ü|en|shrink}} from something
+*{{eo}}: [1] {{Ü|eo|timeviti}}
+*{{fr}}: [1] {{Ü|fr|reculer}} devant
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|fuggire}}
+*{{sv}}: [1, 2] {{Ü|sv|sky}}
+*{{es}}: [1] {{Ü|es|rehuir}}, {{Ü|es|huir}} de algo, {{Ü|es|desbocarse}}, {{Ü|es|tener miendo}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|scheuen}}
+:[1] {{Ref-Canoo|scheuen}}
+:[1] {{Ref-UniLeipzig|scheuen}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{Ähnlichkeiten}}
+:[[schauen]], [[scheuern]], [[scheuchen]]
+
+[[el:scheuen]]
+[[fr:scheuen]]
+[[id:scheuen]]
+[[io:scheuen]]
+[[ko:scheuen]]
+[[zh:scheuen]]

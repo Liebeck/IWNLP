@@ -1,0 +1,95 @@
+﻿== Fetus ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Fetus
+|Nominativ Plural 1=die Feten
+|Nominativ Plural 2=die Fetusse
+|Genitiv Singular=des Fetus<br />''selten:'' des Fetusses
+|Genitiv Plural 1=der Feten
+|Genitiv Plural 2=der Fetusse
+|Dativ Singular=dem Fetus
+|Dativ Plural 1=den Feten
+|Dativ Plural 2=den Fetussen
+|Akkusativ Singular=den Fetus
+|Akkusativ Plural 1=die Feten
+|Akkusativ Plural 2=die Fetusse
+}}
+
+{{Anmerkung}}
+:Sowohl den [[Genitiv]] [[Singular]] ''Fetusses'' als auch die [[Pluralform]]en ''Fetusse'' [[deklarieren|deklariert]] der Duden als selten.<ref name="Duden">{{Ref-Duden|Fetus}}</ref>
+
+{{Nebenformen}}
+:[[Fötus]]
+
+{{Worttrennung}}
+:Fe·tus, {{Pl.1}} Fe·ten, {{Pl.2}} Fe·tus·se
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈfeːtʊs}}, {{Pl.1}} {{Lautschrift|ˈfeːtn̩}}, {{Pl.2}} {{Lautschrift|ˈfeːtʊsə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|eːtʊs|Deutsch}}
+
+{{Bedeutungen}}
+:[1] das ungeborene [[Kind]] während der [[Schwangerschaft]], nachdem es [[innere Organe]] gebildet hat (etwa nach dem dritten Monat einer Schwangerschaft)
+
+{{Herkunft}}
+:von [[lateinisch]]: ''{{Ü|la|fetus}} / {{Ü|la|foetus}}'' „das Zeugen, die Geburt, das Junge“<ref name="Duden"/><ref>[http://www.albertmartin.de/latein/?q=fetus&con=0 Online Latein Wörterbuch Albert Martin]</ref><ref>http://de.pons.eu/dict/search/results/?q=fetus&l=dela&in=ac_undefined&lf=de</ref>
+
+{{Synonyme}}
+:[1] [[Ungeborenes]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Embryo]] (4. Schwangerschaftswoche bis Ende 4. Schwangerschaftsmonat)
+
+{{Oberbegriffe}}
+:[1] [[Leibesfrucht]]
+
+{{Kurzformen}}
+:[1] [[Fet]]
+
+{{Beispiele}}
+:[1] Bei einer Fehlgeburt stirbt der ''Fetus.''
+
+{{Wortbildungen}}
+:[[fetal]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{zh-tw}}: [1] {{Üt|zh|胎兒|tāiér}}
+*{{zh-cn}}: [1] {{Üt|zh|胎儿|tāiér}}
+*{{da}}: [1] {{Ü|da|foster}}
+*{{en}}: [1] {{Ü|en|fetus}}, {{Ü|en|foetus}}
+*{{et}}: [1] {{Ü|et|loode}}
+*{{fi}}: [1] {{Ü|fi|sikiö}}
+*{{fr}}: [1] {{Ü|fr|fœtus}} {{m}}
+*{{el}}: [1] {{Üt|el|έμβρυο|émbryo}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|feto}} {{m}}
+*{{ja}}: [1] {{Üt|ja|胎児|taiji}}
+*{{nl}}: [1] {{Ü|nl|foetus}}
+*{{pl}}: [1] {{Ü|pl|płód}} {{m}}
+*{{pt}}: [1] {{Ü|pt|feto}} {{m}}
+*{{sv}}: [1] {{Ü|sv|foster}}
+*{{es}}: [1] {{Ü|es|feto}} {{m}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Fetus}}
+:[1] {{Ref-DWDS|Fetus}}
+:[1] {{Ref-Duden|Fetus}}
+:[1] {{Ref-Canoo|Fetus}}
+:[1] {{Ref-UniLeipzig|Fetus}}
+:[1] {{Ref-FreeDictionary|Fetus}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Fete]], [[fotus]]
+
+[[Kategorie:Latinismus]]
+
+[[fr:Fetus]]
+[[nl:Fetus]]
+[[ru:Fetus]]
+[[zh:Fetus]]

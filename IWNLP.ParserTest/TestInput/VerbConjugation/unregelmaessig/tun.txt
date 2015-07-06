@@ -1,0 +1,6 @@
+﻿== tun (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|2=tu|3=tat|4=tät|5=getan|10=tun|vp=sie_werden|zp=sie_sind|gerund=ja
+|Indikativ Präsens (ich)=tue<br />ich tu<ref>umgangssprachlich</ref>}}
+
+<br />''Anmerkung:''<br />
+<references />

@@ -1,0 +1,110 @@
+﻿== Händel ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=—
+|Nominativ Plural=die Händel
+|Genitiv Singular=—
+|Genitiv Plural=der Händel
+|Dativ Singular=—
+|Dativ Plural=den Händeln
+|Akkusativ Singular=—
+|Akkusativ Plural=die Händel
+}}
+
+{{Worttrennung}}
+:{{kSg.}}, {{Pl.}} Hän·del
+
+{{Aussprache}}
+:{{IPA}} {{Pl.}} {{Lautschrift|ˈhɛndl̩}}
+:{{Hörbeispiele}} {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|ɛndl̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''gehoben:'' Streit, Streitigkeiten, wobei das Wort selbst impliziert, dass bei dem Streit [[Handgreiflichkeiten]] nicht gänzlich ausgeschlossen sind
+
+{{Herkunft}}
+:Ableitung vom Substantiv „[[Hand]]“
+
+{{Synonyme}}
+:[a] ''allgemein: ''[[Auseinandersetzung]], [[Clinch]], [[Differenz]], [[Entzweiung]], [[Fehde]], [[Gestreite]], [[Gezänk]], [[Gezanke]], [[Hader]], [[Knatsch]], [[Knies]], [[Krach]], [[Querele]], [[Reibereien]], [[Streiterei]], [[Streitigkeit]] beziehungsweise [[Streitigkeiten]], [[Stunk]], [[Zank]], [[Zankerei]], [[Zerwürfnis]], [[Zoff]], [[Zwist]], [[Zwietracht]], [[Zwistigkeit]]
+:[b] ''ausschließlich mit Worten ausgetragener Streit:'' [[Disput]], [[Dissens]], [[Kontroverse]], [[Wortgefecht]], [[Wortstreit]], ([[heftig]]er) [[Wortwechsel]], ''verhüllend:'' [[Meinungsverschiedenheit]]
+:[c] ''Militär:'' [[Krieg]], [[Scharmützel]]
+
+{{Gegenwörter}}
+:[a] ''allgemein:'' [[Einheit]], [[Einhelligkeit]], [[Einigkeit]], [[Einklang]], [[Einmütigkeit]], [[Eintracht]], [[Einvernehmen]], [[Einverständnis]], [[Gleichgesinntheit]], [[Gleichklang]], [[Harmonie]], [[Übereinstimmung]]
+:[b] [[Konsens]]
+:[c] ''Militär:'' [[Frieden]]
+
+{{Oberbegriffe}}
+:[1] [[Streit]], [[Feindschaft]]
+
+{{Beispiele}}
+:[1] Die Brüder mussten ihre ''Händel'' ausgerechnet vor ihrem Vater austragen.
+:[1] Sie hatten einige ''Händel'' miteinander.
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''Händel'' miteinander haben; ''Händel'' (vor jemandem) (miteinander) austragen
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{sv}}: [1] {{Ü|sv|mellanhavande}}, {{Ü|sv|träta}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|Händel}}
+:[1] {{Ref-DWDS|Händel}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=der Händel <br /><small>(Händel)</small>
+|Nominativ Singular 2=die Händel<br /> <small>(Händel)</small>
+|Nominativ Plural=die Händels
+|Genitiv Singular 1=des Händel/<br />des Händels<br /><small>(Händels)</small>
+|Genitiv Singular 2=der Händel<br /><small>(Händels)</small>
+|Genitiv Plural=der Händels
+|Dativ Singular 1=dem Händel<br /><small>(Händel)</small>
+|Dativ Singular 2=der Händel<br /><small>(Händel)</small>
+|Dativ Plural=den Händels
+|Akkusativ Singular 1=den Händel<br /><small>(Händel)</small>
+|Akkusativ Singular 2=die Händel<br /><small>(Händel)</small>
+|Akkusativ Plural=die Händels
+}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈhɛndl̩}}, {{Pl.}} {{Lautschrift|ˈhɛndl̩s}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|ɛndl̩|Deutsch}}
+
+{{Herkunft}}
+:Der Nach- bzw. Familienname könnte zum einen auf eine Variante von [[Heindel]] zurückgehen, zum andern könnte es sich um einen Übernamen zu dem mittelhochdeutschen ''handel'' (im Sinne von Handel, Handlungsweise oder Streitsache) handeln.{{QS Herkunft|unbelegt}}
+
+{{Bekannte Namensträger}}
+:[1] [[w:Georg Friedrich Händel|Georg Friedrich Händel]]
+
+{{Beispiele}}
+:[1] Hast du Herrn ''Händel'' gesehen?
+:[1] Wusstest du, dass Jürgen der [[Stiefsohn]] von Herrn und Frau ''Händel'' ist?
+:[1] Herrn ''Händels'' Tochter ist zu Besuch bei uns.
+:[1] Ich habe lange nicht mehr ''Händels'' Wassermusik gehört.
+
+{{Referenzen}}
+:[1] {{Wikipedia|Händel (Begriffsklärung)}}
+
+{{Ähnlichkeiten}}
+:[[Hänsel]], [[Handel]], [[Hantel]], [[Hendl]], [[Heindel]]
+
+[[Kategorie:Eigenname]]
+
+[[en:Händel]]
+[[eo:Händel]]
+[[fi:Händel]]
+[[ko:Händel]]
+[[sv:Händel]]

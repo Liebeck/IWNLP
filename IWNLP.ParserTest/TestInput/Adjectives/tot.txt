@@ -1,0 +1,146 @@
+﻿== tot ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Adjektiv|Deutsch}} ===
+
+{{Deutsch Adjektiv Übersicht
+|Positiv=tot
+|Komparativ=toter<br />töter
+|Superlativ=am totesten<br />am tötesten
+|Bild=Ratte überfahren HD.JPG|220px|1|Die überfahrene Ratte ist ''tot.''
+}}
+
+{{Steigerbarkeit Adjektiv}}
+
+{{Worttrennung}}
+:tot, {{Komp.}} to·ter, tö·ter {{Sup.}} am to·tes·ten, am tö·tes·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|toːt}}; {{Komp.}} {{Lautschrift|ˈtoːtɐ}}, {{Lautschrift|ˈtøːtɐ}}; {{Sup.}} {{Lautschrift|ˈtoːtəstn̩}}, {{Lautschrift|ˈtøːtəstn̩}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|oːt|Deutsch}}
+
+{{Bedeutungen}}
+:[1] nicht (mehr) lebend
+
+{{Synonyme}}
+:[1] [[leblos]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[verblichen]], [[verschieden]], [[verstorben]], [[abgestorben]], [[nekrotisch]]
+
+{{Gegenwörter}}
+:[1] [[lebend]], [[lebendig]], [[vital]]
+
+{{Beispiele}}
+:[1] Newton ist ''tot,'' Einstein ist gestorben – und mir ist auch schon ganz schlecht.
+
+{{Redewendungen}}
+:[[tote Hose]]
+
+{{Wortbildungen}}
+:''Adjektive/Adverbien:'' [[halbtot]], [[hirntot]], [[mausetot]], [[scheintot]], [[untot]]
+:''Substantive:'' [[Tötung]], [[toter Briefkasten]], [[Totgeburt]]
+:''Verben:'' [[abtöten]], [[töten]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|dead}}
+*{{fi}}: [1] {{Ü|fi|kuollut}}
+*{{fr}}: [1] {{Ü|fr|mort}}
+*{{el}}: [1] {{Üxx|el|pethaménos|πεθαμένος}}, {{Üxx|el|nekrós|νεκρός}}
+*{{ku}}: [1] {{Ü|ku|mirî}}
+*{{lv}}: [1] {{Ü|lv|miris}}
+*{{nds}}: [1] {{Ü|nds|doot}}
+*{{nl}}: [1] {{Ü|nl|dood}}
+|Ü-rechts=
+*{{pt}}: [1] {{Ü|pt|morto}}
+*{{ru}}: [1] {{Üxx|ru|mjortwuij|мёртвый}}, {{Üxx|ru|umerschij|умерший}}
+*{{sc}}: [1] {{Ü|sc|mortu}}
+*{{sv}}: [1] {{Ü|sv|död}}
+*{{es}}: [1] {{Ü|es|muerto}}, {{Ü|es|inánime}}, {{Ü|es|inanimado}}, {{Ü|es|sin vida}}, {{Ü|es|fallecido}}, {{Ü|es|marchito}}
+*{{cs}}: [1] {{Ü|cs|mrtvý}}
+*{{tr}}: [1] {{Ü|tr|ölü}}
+|Dialekttabelle=
+*{{als}}
+**Schwäbisch: daod, dod
+*Bairisch: doud
+*Berlinerisch:
+*Erzgebirgisch: duud
+|D-rechts=
+*Kölsch: [1] dut
+*Saarländisch:
+*Wienerisch: [[hinich]]
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|tot}}
+:[1] {{Ref-DWDS|tot}}
+:[1] {{Ref-Canoo|tot}}
+:[1] {{Ref-UniLeipzig|tot}}
+
+== tot ({{Sprache|Niederländisch}}) ==
+=== {{Wortart|Präposition|Niederländisch}} ===
+
+{{Worttrennung}}
+:tot
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|tɔt}}
+:{{Hörbeispiele}} {{Audio|Nl-tot.ogg|tot}}
+
+{{Bedeutungen}}
+:[1] bis
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=Niederländisch}}
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{de}}: [1] [[bis]]
+|Ü-rechts=
+}}
+
+{{Referenzen}}
+:[1] {{Ref-VanDale|tot}}
+
+{{Ähnlichkeiten}}
+:[[Tod]], [[total]], [[Totem]], [[tôt]]
+
+[[ca:tot]]
+[[chr:tot]]
+[[cs:tot]]
+[[el:tot]]
+[[en:tot]]
+[[es:tot]]
+[[et:tot]]
+[[fi:tot]]
+[[fj:tot]]
+[[fr:tot]]
+[[hu:tot]]
+[[hy:tot]]
+[[id:tot]]
+[[ie:tot]]
+[[io:tot]]
+[[kn:tot]]
+[[ko:tot]]
+[[ku:tot]]
+[[li:tot]]
+[[lt:tot]]
+[[mg:tot]]
+[[my:tot]]
+[[nah:tot]]
+[[nl:tot]]
+[[oc:tot]]
+[[pl:tot]]
+[[pt:tot]]
+[[ro:tot]]
+[[ru:tot]]
+[[sh:tot]]
+[[simple:tot]]
+[[sv:tot]]
+[[ta:tot]]
+[[tr:tot]]
+[[uk:tot]]
+[[uz:tot]]
+[[vi:tot]]
+[[wa:tot]]
+[[zh:tot]]

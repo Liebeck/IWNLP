@@ -1,0 +1,1 @@
+﻿Content of dewiktionary-20141027-pages-articles.xml

@@ -1,0 +1,82 @@
+﻿== Thor ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{Wortart|Eigenname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=Thor
+|Nominativ Plural=—
+|Genitiv Singular=Thors
+|Genitiv Plural=—
+|Dativ Singular=Thor
+|Dativ Plural=—
+|Akkusativ Singular=Thor
+|Akkusativ Plural=—
+|Bild=Johann Heinrich Füssli 011.jpg|200px|1|Johann Heinrich Füssli, Der Kampf des ''Thor'' mit der Schlange des Midgard, 1788
+}}
+
+{{Worttrennung}}
+:Thor, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|toːɐ̯}}, {{Gen.}} {{Lautschrift|toːɐ̯s}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] skandinavische Form des Namens [[Donar]] (= ein [[germanisch]]er [[Gott]])
+
+{{Herkunft}}
+:altisländisch ''Þórr,'' [[Althochdeutsch|ahd.]] ''Donar,'' gemeingermanisch Þunraz „Donner“
+
+{{Synonyme}}
+:[1] [[Donar]]
+
+{{Oberbegriffe}}
+:[1] [[Gottheit]]
+
+{{Beispiele}}
+:[1] ''Thor'' war der erste Sohn des Gottes Odin.
+
+{{Wortbildungen}}
+:[1] [[Thursday]] (englisch für [[Donnerstag]])
+:[1] [[Thorsten]], [[Thorben]]
+
+{{Absatz}}
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{osx}}: [1] {{Ü|osx|Thunaer}}
+*{{ang}}: [1] {{Ü|ang|þunor}}
+*{{goh}}: [1] {{Ü|goh|Donar}}
+*{{non}}: [1] {{Ü|non|Þórr}}
+|Ü-rechts=
+*Urnordisch: [1] [[þunraR]]
+*{{en}}: [1] {{Ü|en|Thor}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Thor}}
+:[*] {{Ref-Canoo|Thor}}
+:[1] {{Ref-UniLeipzig|Thor}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Alte Schreibweise|Tor|seit der Reform von 1901}}
+
+{{Ähnlichkeiten}}
+:[[Tor]]
+:''Anagramme:'' [[Hort]]
+
+[[el:Thor]]
+[[en:Thor]]
+[[et:Thor]]
+[[fr:Thor]]
+[[is:Thor]]
+[[li:Thor]]
+[[no:Thor]]
+[[pl:Thor]]
+[[ru:Thor]]
+[[sh:Thor]]
+[[simple:Thor]]
+[[sr:Thor]]
+[[sv:Thor]]

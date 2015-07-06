@@ -1,0 +1,68 @@
+﻿== alles ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Indefinitpronomen|Deutsch}} (mit adjektivischer Deklination) ===
+{{Pronomina-Tabelle|
+ Wer oder was? (Einzahl m)=aller
+|Wer oder was? (Einzahl f)=alle
+|Wer oder was? (Einzahl n)=alles
+|Wer oder was? (Mehrzahl)=alle
+|Wessen? (Einzahl m)=alles<br />allen
+|Wessen? (Einzahl f)=aller
+|Wessen? (Einzahl n)=alles<br />allen
+|Wessen? (Mehrzahl)=aller
+|Wem? (Einzahl m)=allem
+|Wem? (Einzahl f)=aller
+|Wem? (Einzahl n)=allem
+|Wem? (Mehrzahl)=allen
+|Wen? (Einzahl m)=allen
+|Wen? (Einzahl f)=alle
+|Wen? (Einzahl n)=alles
+|Wen? (Mehrzahl)=alle
+}}
+
+{{Worttrennung}}
+:al·les
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈaləs}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|aləs|Deutsch}}
+
+{{Grammatische Merkmale}}
+*Genitiv Singular Maskulinum des Indefinitpronomens '''[[all]]'''
+
+*Nominativ Singular Neutrum des Indefinitpronomens '''[[all]]'''
+*Genitiv Singular Neutrum des Indefinitpronomens '''[[all]]'''
+*Akkusativ Singular Neutrum des Indefinitpronomens '''[[all]]'''
+
+{{Grundformverweis|all}}
+
+{{Ähnlichkeiten}}
+:[[Alls]], [[als]], [[allez]], [[altes]], [[Arles]]
+
+[[br:alles]]
+[[chr:alles]]
+[[cs:alles]]
+[[el:alles]]
+[[en:alles]]
+[[fi:alles]]
+[[fj:alles]]
+[[fr:alles]]
+[[gd:alles]]
+[[hu:alles]]
+[[id:alles]]
+[[io:alles]]
+[[is:alles]]
+[[it:alles]]
+[[ja:alles]]
+[[ku:alles]]
+[[li:alles]]
+[[mg:alles]]
+[[nl:alles]]
+[[no:alles]]
+[[pl:alles]]
+[[pt:alles]]
+[[ru:alles]]
+[[sv:alles]]
+[[ta:alles]]
+[[th:alles]]
+[[zh:alles]]

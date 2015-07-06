@@ -1,0 +1,76 @@
+﻿== erkälten ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=erkälte mich
+|Gegenwart_du=erkältest dich
+|Gegenwart_er, sie, es=erkältet sich
+|1.Vergangenheit_ich=erkältete mich
+|Partizip II= sich erkältet
+|Konjunktiv II_ich=erkältete mich
+|Imperativ Singular=erkälte dich! ''(selten)''
+|Imperativ Plural=erkältet euch! ''(selten)''
+|Hilfsverb=haben
+|Weitere_Konjugationen=erkälten (Konjugation)
+}}
+
+{{Worttrennung}}
+:er·käl·ten, {{Prät.}} er·käl·te·te, {{Part.}} er·käl·tet
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɛɐ̯ˈkɛltən}}, {{Prät.}} {{Lautschrift|ɛɐ̯ˈkɛltətə}}, {{Part.}} {{Lautschrift|ɛɐ̯ˈkɛltət}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|ɛltn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''reflexiv:'' sich eine [[Erkältung]] zuziehen
+
+{{Herkunft}}
+:Das reflexiv gebrauchte Verb ist eine Ableitung vom Substantiv ''Kälte,'' das wiederum vom Adjektiv ''kalt'' abgeleitet ist, und bedeutet ''sich durch Kälteeinwirkung eine Infektion zuziehen''.
+
+{{Synonyme}}
+:[1] eine Erkältung/einen Schnupfen bekommen; eine Erkältung/einen Schnupfen kriegen; sich eine Erkältung/einen [[Husten]]/einen [[Schnupfen]] zuziehen; [[enrhümiert]] sein; Husten/Schnupfen bekommen; sich [[verkühlen]]; sich [[verkälten]]
+
+{{Oberbegriffe}}
+:sich [[anstecken]], [[erkranken]]
+
+{{Unterbegriffe}}
+:[1] [[husten]], [[niesen]]
+
+{{Beispiele}}
+:[1] Er ''erkältete'' sich.
+:[1] Du wirst dich noch ''erkälten,'' wenn du ohne Schal aus dem Haus gehst.
+
+{{Charakteristische Wortkombinationen}}
+:[1] sich ~, weil/wenn ~
+
+{{Wortbildungen}}
+:[[Erkältung]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [to catch cold] {{Ü|en|}}
+*{{fr}}: [] {{Ü|fr|}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|förkyla sig}}, {{Ü|sv|bli förkyld}}
+*{{es}}: [1] {{Ü|es|resfriarse}}
+*{{hu}}: [1] {{Ü|hu|megfázik}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|erkälten}}
+:[1] {{Ref-DWDS|erkälten}}
+:[1] {{Ref-Canoo|erkälten}}
+:[1] {{Ref-UniLeipzig|erkälten}}
+
+{{Ähnlichkeiten}}
+:[[erkalten]]
+
+[[en:erkälten]]
+[[fi:erkälten]]
+[[hu:erkälten]]
+[[io:erkälten]]
+[[ko:erkälten]]
+[[ku:erkälten]]
+[[pl:erkälten]]
+[[zh:erkälten]]

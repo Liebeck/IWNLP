@@ -1,0 +1,5 @@
+﻿== stehen (Konjugation), Hilfsverb haben ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|2=steh|3=stand|4=ständ|5=gestanden|7=em|9=stünd|vp=sie_werden|zp=sie_sind|gerund=ja}}
+{{----}}
+== stehen (Konjugation), Hilfsverb sein ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|2=steh|3=stand|4=ständ|5=gestanden|7=em|9=stünd|vp=es_wird|zp=es_ist|gerund=nein|Hilfsverb=sein}}

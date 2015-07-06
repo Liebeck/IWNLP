@@ -1,0 +1,322 @@
+﻿== April ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der April
+|Nominativ Plural=die Aprile
+|Genitiv Singular=des April<br>des Aprils
+|Genitiv Plural=der Aprile
+|Dativ Singular=dem April
+|Dativ Plural=den Aprilen
+|Akkusativ Singular=den April
+|Akkusativ Plural=die Aprile
+}}
+
+{{Worttrennung}}
+:''empfohlen:'' April, {{Pl.}} ''selten:'' Apri·le
+:''alle:'' Ap·ril, {{Pl.}} ''selten:'' Ap·ri·le
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aˈpʀɪl}}, {{Pl.}} {{Lautschrift|aˈpʀɪlə}}
+:{{Hörbeispiele}} {{Audio|De-April.ogg|April}}, {{Pl.}} {{Audio|De-Aprile.ogg|Aprile}}
+:{{Reime}} {{Reim|ɪl|Deutsch}}
+
+{{Bedeutungen}}
+:[1] der vierte Monat des Gregorianischen Kalenders
+
+{{Abkürzungen}}
+:[1] [[Apr.]], 4., 04., IV.
+
+{{Herkunft}}
+:von dem lateinischen Substantiv [[Aprilis]] {{QS Herkunft|unbelegt}}
+
+{{Synonyme}}
+:[1] [[Vierte]]r, ''veraltet:'' [[Launing]], [[Grasmond]], [[Ostermonat]], [[Ostermond]], [[Wandelmonat]]
+
+{{Gegenwörter}}
+:[1] [[Januar]] / [[Jänner]], [[Februar]] / [[Feber]], [[März]], [[Mai]], [[Juni]], [[Juli]], [[August]], [[September]], [[Oktober]], [[November]], [[Dezember]]
+
+{{Oberbegriffe}}
+:[1] [[Monat]]
+
+{{Beispiele}}
+:[1] Der ''April'' folgt auf den März.
+
+{{Redewendungen}}
+:[1] [[April, April!]] = „reingefallen!“
+:[1] [[jemanden in den April schicken]] jemanden am 1. April hereinlegen
+
+{{Sprichwörter}}
+:[1] [[April, April, der weiß nicht, was er will]]
+
+{{Wortbildungen}}
+:[[aprilfrisch]], [[Aprilschauer]], [[Aprilscherz]], [[Apriltag]], [[Aprilwetter]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|april}}
+*{{sq}}: [1] {{Ü|sq|prill}}
+*{{ar}}: [1] {{Üxx|ar|nīsān|نيسان}}
+*{{az}}: [1] {{Ü|az|aprel}}
+*{{ast}}: [1] {{Ü|ast|abril}}
+*{{ay}}: [1] {{Ü|ay|jupha llamay phajjsi}}
+*{{bar}}: [1] {{Ü|bar|Abbrui}}
+*{{eu}}: [1] {{Ü|eu|apiril}}
+*{{bn}}: [1] {{Üxx|bn|epril|এপ্রিল্}}
+*{{bs}}: [1] {{Ü|bs|april}}
+*{{br}}: [1] {{Ü|br|Ebrel}}
+*{{bg}}: [1] {{Üxx|bg|april|април}}
+*{{zh}}: [1] {{Üxx|zh|sìyuè|四月}}
+*{{da}}: [1] {{Ü|da|april}}
+*{{en}}: [1] {{Ü|en|April}}
+*{{eo}}: [1] {{Ü|eo|aprilo}}
+*{{et}}: [1] {{Ü|et|aprill}}
+*{{fo}}: [1] {{Ü|fo|apríl}}
+*{{fj}}: [1] {{Ü|fj|Epereli}}
+*{{fi}}: [1] {{Ü|fi|huhtikuu}}
+*{{fr}}: [1] {{Ü|fr|avril}}
+*{{gl}}: [1] {{Ü|gl|abril}}
+*{{ka}}: [1] {{Üxx|ka|ap'rili|აპრილი}}
+*{{el}}: [1] {{Üxx|el|Aprílios|Απρίλιος}}
+*{{gn}}: [1] {{Ü|gn|jasyrundy}}
+*{{gu}}: [1] {{Üxx|gu|epril|એપ્રિલ્}}
+*{{he}}: [1] {{Üxx|he|april|אפריל}}
+*{{hi}}: [1] {{Üxx|hi|epril|एप्रिल}}
+*{{id}}: [1] {{Ü|id|april}}
+*{{ia}}: [1] {{Ü|ia|april}}
+*{{ga}}: [1] {{Ü|ga|Aibreán}}
+*{{zu}}: [1] {{Ü|zu|I-ephuleli}}
+*{{is}}: [1] {{Ü|is|aprílmánuður}}
+*{{it}}: [1] {{Ü|it|aprile}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|しがつ, shigatsu|四月}}
+*{{kk}}: [1] {{Üxx|kk|[[kökek]]|көкек}}
+*{{csb}}: [1] {{Ü|csb|łżëkwiôt}}
+*{{ca}}: [1] {{Ü|ca|abril}}
+*{{ky}}: [1] {{Üxx|ky|[[aprel]]|апрелъ}}
+*{{ko}}: [1] {{Üxx|ko|sa.wol|사월}}
+*{{co}}: [1] {{Ü|co|aprile}}
+*{{hr}}: [1] {{Ü|hr|travanj}}
+*{{ku}}: [1] {{Ü|ku|nîsan}}
+*{{la}}: [1] {{Ü|la|aprilis}}
+*{{lv}}: [1] {{Ü|lv|aprîlis}}
+*{{li}}: [1] {{Ü|li|aprèl}}
+*{{ln}}: [1] {{Ü|ln|avril}}
+*{{lt}}: [1] {{Ü|lt|balandis}}
+*{{lb}}: [1] {{Ü|lb|Abrëll}}
+*{{mg}}: [1] {{Ü|mg|aprily}}
+|Ü-rechts=
+*{{ms}}: [1] {{Ü|ms|bulan April}}
+*{{mt}}: [1] {{Ü|mt|April}}
+*{{gv}}: [1] {{Ü|gv|Averil}}
+*{{mi}}: [1] {{Ü|mi|Āperira}}, {{Ü|mi|Ngahuru mātahi}}, {{Ü|mi|Paenga whāwhā}}
+*{{mr}}: [1] {{Üxx|mr|epril|एप्रिल}}
+*{{mn}}: [1] {{Üxx|mn|dörövdügeer sar|дөрөвдүгээр сар}}
+*{{nl}}: [1] {{Ü|nl|april}} {{m}}, {{Ü|nl|grasmaand}} {{m}}, {{Ü|nl|paasmaand}} {{m}}, {{Ü|nl|eiermaand}} {{m}}
+*{{dsb}}: [1] {{Ü|dsb|apryl}}
+*{{no}}: [1] {{Ü|no|april}}
+*{{nov}}: [1] {{Ü|nov|aprile}}
+*{{hsb}}: [1] {{Ü|hsb|apryl}}, {{ugs.|:}} {{Ü|hsb|haperleja}}
+*{{oc}}: [1] {{Ü|oc|abril}} {{m}}, {{Ü|oc|abrial}} {{m}}, ''[[aranesisch]]:'' {{Ü|oc|abriu}} {{m}}
+*{{pa}}: [1] {{Üxx|pa|aiparil|ਐਪਰਿਲ}}
+*{{fa}}: [1] {{Üxx|fa|avrîl|آوريل}}
+*{{pl}}: [1] {{Ü|pl|kwiecień}}
+*{{pt}}: [1] {{Ü|pt|abril}}
+*{{qu}}: [1] {{Ü|qu|ayriwa}}
+*{{rm}}: [1] {{Ü|rm|avrigl}}
+*{{ro}}: [1] {{Ü|ro|aprilie}}
+*{{ru}}: [1] {{Üxx|ru|aprél|апрель}} {{m}}
+*{{sm}}: [1] {{Ü|sm|'Aperila}}
+*{{sa}}: [1] {{Üxx|sa|āṅglavarṣasya caturthamāsaḥ|आंग्लवर्षस्य चतुर्थमासः}}
+*{{gd}}: [1] {{Ü|gd|Giblean}}
+*{{sv}}: [1] {{Ü|sv|april}}
+*{{sr}}: [1] {{Üxx|sr|[[april]]|април}}
+*{{st}}: [1] {{Ü|st|Mmesa}}
+*{{sn}}: [1] {{Ü|sn|kubvumbi}}
+*{{sk}}: [1] {{Ü|sk|apríl}}
+*{{sl}}: [1] {{Ü|sl|april}}
+*{{so}}: [1] {{Ü|so|abriil}}
+*{{es}}: [1] {{Ü|es|abril}}
+*{{sw}}: [1] {{Ü|sw|aprili}}
+*{{tl}}: [1] {{Ü|tl|Abril}}
+*{{tt}}: [1] {{Üxx|tt|äpril|апрелъ}}
+*{{th}}: [1] {{Üxx|th|meh sáá yohn|เมษายน}}
+*{{ti}}: [1] {{Ü|ti|miazia}}
+*{{cs}}: [1] {{Ü|cs|duben}}
+*{{cv}}: [1] {{Üxx|cv|aka|ака}}
+*{{tr}}: [1] {{Ü|tr|nisan}}
+*{{tk}}: [1] {{Ü|tk|aprel}}
+*{{ug}}: [1] {{Üxx|ug|āprīl|ئاپريل}}
+*{{uk}}: [1] {{Üxx|uk|kwiten|квітень}}
+*{{hu}}: [1] {{Ü|hu|április}}
+*{{ur}}: [1] {{Üxx|ur|aprīl|اپريل}}
+*{{uz}}: [1] {{Ü|uz|aprel'}}
+*{{cy}}: [1] {{Ü|cy|Ebrill}}
+*{{wa}}: [1] {{Ü|wa|avri}}
+*{{fy}}: [1] {{Ü|fy|april}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|April}}
+:[1] {{Ref-Grimm|april}}
+:[1] {{Ref-DWDS|April}}
+:[1] {{Ref-Canoo|April}}
+:[1] {{Ref-UniLeipzig|April}}
+:[1] {{Ref-FreeDictionary|April}}
+:[1] {{Wikiquote|April}}
+:[1] {{Wikisource|April}}
+
+{{Monate (Deutsch)}}
+
+== April ({{Sprache|Englisch}}) ==
+=== {{Wortart|Substantiv|Englisch}} ===
+
+{{Englisch Substantiv Übersicht
+|Singular=April
+|Plural=—
+}}
+
+{{Worttrennung}}
+:, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{Audio|En-us-April.ogg|April (amerikanisch)}}
+
+{{Bedeutungen}}
+:[1] der Monat [[April]]; der vierte Monat des Gregorianischen Kalenders
+
+{{Gegenwörter}}
+:[1] [[January]], [[February]], [[March]], [[May]], [[June]], [[July]], [[August]], [[September]], [[October]], [[November]], [[December]]
+
+{{Oberbegriffe}}
+:[1] [[month]]
+
+{{Beispiele}}
+:[1] ''April'' is the fourth month of the year.
+::Der ''April'' ist der vierte Monat des Jahres.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{de}}: [1] [[April]] {{m}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|avril}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=en|April}}
+:[1] {{Ref-Leo|en|April}}
+:[1] {{Ref-Pons|en|April}}
+:[1] {{Ref-MWD|April}}
+:[1] {{Ref-Dictionary|April}}
+:[1] {{Ref-dictcc|en|April}}
+
+=== {{Wortart|Substantiv|Englisch}}, {{f}}, {{Wortart|Vorname|Englisch}} ===
+
+{{Worttrennung}}
+:April
+
+{{Bedeutungen}}
+:[1] [[englisch]]er weiblicher [[Vorname]]
+
+{{Herkunft}}
+:[1] abgeleitet vom Monatsnamen
+
+{{Alternative Schreibweisen}}
+:[1] [[Apryl]]
+
+{{Weibliche Wortformen}}
+:[1] [[Avril]]
+
+{{Bekannte Namensträger}}
+:[1] [[w:April Grace|April Grace]], [[w:April Stevens|April Stevens]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=en}}
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{fr}}: [1] {{Ü|fr|Avril}}
+|Ü-rechts=
+}}
+
+{{Referenzen}}
+:[1] {{Ref-behindthename|April}}
+:[1] {{Wikipedia|spr=en|April (disambiguation)}}
+:[1] {{Ref-babynamespedia|April}}
+
+[[af:April]]
+[[ang:April]]
+[[ar:April]]
+[[ast:April]]
+[[az:April]]
+[[be:April]]
+[[ca:April]]
+[[cs:April]]
+[[csb:April]]
+[[cy:April]]
+[[da:April]]
+[[el:April]]
+[[en:April]]
+[[eo:April]]
+[[es:April]]
+[[et:April]]
+[[eu:April]]
+[[fa:April]]
+[[fi:April]]
+[[fr:April]]
+[[fy:April]]
+[[ga:April]]
+[[gl:April]]
+[[hr:April]]
+[[hu:April]]
+[[hy:April]]
+[[id:April]]
+[[io:April]]
+[[is:April]]
+[[it:April]]
+[[ja:April]]
+[[ka:April]]
+[[kk:April]]
+[[kl:April]]
+[[km:April]]
+[[kn:April]]
+[[ko:April]]
+[[ku:April]]
+[[la:April]]
+[[lb:April]]
+[[li:April]]
+[[ln:April]]
+[[lo:April]]
+[[lt:April]]
+[[lv:April]]
+[[mg:April]]
+[[mk:April]]
+[[ml:April]]
+[[mn:April]]
+[[my:April]]
+[[nah:April]]
+[[nl:April]]
+[[nn:April]]
+[[no:April]]
+[[oc:April]]
+[[om:April]]
+[[pl:April]]
+[[pt:April]]
+[[ro:April]]
+[[ru:April]]
+[[simple:April]]
+[[sk:April]]
+[[sm:April]]
+[[so:April]]
+[[sv:April]]
+[[sw:April]]
+[[ta:April]]
+[[tg:April]]
+[[th:April]]
+[[ti:April]]
+[[tr:April]]
+[[uk:April]]
+[[uz:April]]
+[[vo:April]]
+[[zh:April]]
+[[zh-min-nan:April]]

@@ -1,0 +1,6 @@
+﻿{{Abgeleitete Verben|[[verdreschen]]}}
+== dreschen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|2=dresch|3=drosch|4=drösch|5=gedroschen|6=drisch|8=i|vp=sie_werden|zp=sie_sind|gerund=ja}}
+{{----}}
+== dreschen (Konjugation), veraltet ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|2=dresch|3=drasch|4=dräsch|5=gedroschen|6=drisch|8=i|Indikativ Präteritum Aktiv Alternativform (du)=draschest|vp=sie_werden|zp=sie_sind|gerund=ja}}

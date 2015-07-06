@@ -1,0 +1,64 @@
+﻿== Firewall ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{fm}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Firewall
+|Nominativ Plural=die Firewalls
+|Genitiv Singular=der Firewall
+|Genitiv Plural=der Firewalls
+|Dativ Singular=der Firewall
+|Dativ Plural=den Firewalls
+|Akkusativ Singular=die Firewall
+|Akkusativ Plural=die Firewalls
+}}
+
+{{Worttrennung}}
+:Fire·wall, {{Pl.}} Fire·walls
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈfaɪ̯ɐˌvɔːl}}, {{Pl.}} {{Lautschrift|ˈfaɪ̯ɐˌvɔːls}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ein System aus Software- und Hardwarekomponenten, das den Zugriff zwischen verschiedenen Rechnernetzen beschränkt, um ein Sicherheitskonzept umzusetzen
+
+{{Herkunft}}
+:Von gleichbedeutend englisch [[firewall]], eigentlich die [[Brandmauer]] in Gebäuden, die den Übergriff des Feuers von einem Gebäudeteil auf den anderen verhindern soll.
+
+{{Oberbegriffe}}
+:[1] [[Sicherheitsmaßnahme]]
+
+{{Beispiele}}
+:[1] Die ''Firewall'' trennt das Verwaltungsnetz vom Hauptnetz des Unternehmens.
+:[1] Der ''Firewall'' trennt das Verwaltungsnetz vom Hauptnetz des Unternehmens.
+
+{{Charakteristische Wortkombinationen}}
+:durch eine Firewall [[schützen]]
+
+{{Wortbildungen}}
+:[[Firewallprogramm]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|firewall}}
+*{{fr}}: [1] {{Ü|fr|pare-feu}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|brandvägg}}
+*{{es}}: [1] {{Ü|es|cortafuegos}} {{m}} ''Plural''
+*{{ru}}: [1] {{Ü|ru|файрволл}}, {{Ü|ru|брандмауэр}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Firewall}}
+:[*] {{Ref-Canoo|Firewall}}
+:[1] {{Ref-UniLeipzig|Firewall}}
+
+[[Kategorie:Anglizismus]]
+
+[[en:Firewall]]
+[[fi:Firewall]]
+[[fr:Firewall]]
+[[hu:Firewall]]
+[[ru:Firewall]]
+[[sv:Firewall]]
+[[zh:Firewall]]

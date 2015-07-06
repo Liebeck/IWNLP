@@ -1,0 +1,62 @@
+﻿== Nussknacker ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Nussknacker
+|Nominativ Plural=die Nussknacker
+|Genitiv Singular=des [[Nussknackers]]
+|Genitiv Plural=der Nussknacker
+|Dativ Singular=dem Nussknacker
+|Dativ Plural=den [[Nussknackern]]
+|Akkusativ Singular=den Nussknacker
+|Akkusativ Plural=die Nussknacker
+|Bild=Nut cracker.jpg|250px|1|Nussknacker
+}}
+
+{{Veraltete Schreibweisen}}
+:[[Nußknacker]]
+
+{{Worttrennung}}
+:Nuss·kna·cker, {{Pl.}} Nuss·kna·cker
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈnʊsknakɐ}}, {{Pl.}} {{Lautschrift|ˈnʊsknakɐ}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ein [[Instrument]], eine [[Vorrichtung]] oder [[Werkzeug]] zum [[knacken|Knacken]] von [[Nüssen]], die meist als [[Figur]] [[künstlerisch]] oder [[kunsthandwerklich]] gestaltet sein kann
+
+{{Beispiele}}
+:[1] Ich knacke jetzt mit dem ''Nussknacker'' die Walnüsse.
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{sq}}: [1] {{Ü|sq|arrëthyese}} {{f}}
+*{{en}}: [1] {{Ü|en|nutcracker}}
+*{{eo}}: [1] {{Ü|eo|nuksorompilo}}
+*{{fr}}: [1] {{Ü|fr|casse-noix}} {{m}}
+*{{it}}: [1] {{Ü|it|schiaccianoci}} {{m}}
+*{{ca}}: [1] {{Ü|ca|trencanous}} {{m}}
+|Ü-rechts=
+*{{nl}}: [1] {{Ü|nl|notenkraker}} {{m}}
+*{{pt}}: [1] {{Ü|pt|quebra-nozes}} {{m}}
+*{{rm}}: [1] {{Ü|rm|rumpanuschs}} {{m}}, {{Ü|rm|smatganuschs}} {{m}}
+*{{sv}}: [1] {{Ü|sv|nötknäckare}}
+*{{es}}: [1] {{Ü|es|cascanueces}} {{m}}
+*{{tr}}: [1] {{Ü|tr|çıkarma araçlarının}}
+*{{vec}}: [1] {{Ü|vec|schissanose}} {{m}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Nussknacker}}
+:[1] {{Ref-Canoo|Nussknacker}}
+:[1] {{Ref-UniLeipzig|Nussknacker}}
+:[1] {{Ref-DWDS|Nußknacker}}
+:[1] {{Ref-FreeDictionary|Nussknacker}}
+
+[[en:Nussknacker]]
+[[fi:Nussknacker]]
+[[hu:Nussknacker]]
+[[io:Nussknacker]]
+[[zh:Nussknacker]]

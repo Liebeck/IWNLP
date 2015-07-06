@@ -1,0 +1,219 @@
+﻿{{Siehe auch|aas}}
+== Aas ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Aas
+|Nominativ Plural 1=die Aase
+|Nominativ Plural 2=die Äser
+|Genitiv Singular=des Aases
+|Genitiv Plural 1=der Aase
+|Genitiv Plural 2=der Äser
+|Dativ Singular=dem Aas <br />dem Aase
+|Dativ Plural 1=den Aasen
+|Dativ Plural 2=den Äsern
+|Akkusativ Singular=das Aas
+|Akkusativ Plural 1=die Aase
+|Akkusativ Plural 2=die Äser
+|Bild=Black Vulture.jpg|220px|1,2| ''Aas'' fressender Rabengeier
+}}
+
+{{Anmerkung}}
+:Die Pluralform »Aase« wird heute nur in der ersten Bedeutung gebraucht, »Äser« hingegen heute nur in der vierten und fünften Bedeutung.<ref>{{Lit-Duden: Universalwörterbuch|A=6}}, Seite 77.</ref> Früher wurde jedoch auch in der ersten Bedeutung die Pluralform »Äser« verwendet.<ref>{{Ref-Adelung|Aas}}</ref>
+
+{{Worttrennung}}
+:Aas, {{Pl.1}} Aa·se, {{Pl.2}} Äser
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aːs}}, {{Pl.1}} {{Lautschrift|ˈaːzə}}, {{Pl.2}} {{Lautschrift|ˈɛːzɐ}}
+:{{Hörbeispiele}} {{Audio|De-Aas.ogg|Aas}}, {{Pl.1}} {{Audio|De-Aase.ogg|Aase}}, {{Pl.2}} {{Audio|De-Äser.ogg|Äser}}
+:{{Reime}} {{Reim|aːs|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''nur Plural 1:'' [[tot]]er und meist [[verwesen]]der [[Tierkörper]]
+:[2] ''ohne [[Plural]]:'' [[Fleisch]] eines [[tot]]en, [[verwesend]]en [[Tierkörper]]s
+:[3] ''[[veraltet]]:'' Fleisch, das zum Anlocken von Tieren ausgelegt wird
+:[4] ''nur Plural 2, {{ugs.}}, salopp, derb, beleidigend:'' [[hinterhältig]]e [[Person]], [[gemein]]er [[Mensch]]; ''insbesondere berlinisch auch als Anrede:'' [[Personenbezeichnung]] mit breiter Bedeutung, als [[Schimpfwort]], [[misstrauisch]]-[[abweisend]] bis [[anerkennend]]<ref>http://www.berliner-woerterbuch.de/Begriff/Aas</ref>
+:[5] ''nur Plural 2, [[umgangssprachlich]], [[abwertend]]:'' ein [[Tier]], das nicht hört
+
+{{Herkunft}}
+:[1–3] :Zugrunde liegt die [[indoeuropäisch]]e Wurzel ''*ed-'' „essen, fressen“ (vergleiche ''[[essen]],'' vergleiche auch [[litauisch]] ''{{Ü|lt|ḕdesis}}'' „Fraß, Köder“, [[russisch]] ''{{Ü|ru|jasá}}'' und [[altbulgarisch]] ''jasli'' „Krippe“).<ref name="Pfeifer">{{Lit-Pfeifer: Etymologisches Wörterbuch|A=1|V=Akademie-Verlag}} „Aas“, Seite 1</ref><ref name="Kluge">{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Seite 2</ref><ref name ="Walde">{{Lit-Walde: Lateinisches etymologisches Wörterbuch|A=2|Seitenzahl=n289}}, „ēsca“, Seite 260.</ref> Auf diese gehen sowohl [[mittelhochdeutsch]] ''ās'', [[mittelniederländisch]] ''aes,'' [[niederländisch]] ''{{Ü|nl|aas}}'' (von indoeuropäisch ''ēdsom''), [[altenglisch]] ''ǣs'' (über [[westgermanisch]] ''*ǣsa-'') „Aas, als Fraß vornehmlich der Greifvögel, Köder“<ref name=Kluge/> als auch [[lateinisch]] ''{{Üt|la|esca|ēsca}}'' „Speise, Futter, Köder“ (von indoeuropäisch ''*ēdskā'')<ref name="Walde"/> zurück, ebenso  [[althochdeutsch]] (9. Jahrhundert) ''āʒ'', [[altsächsisch]], [[mittelniederdeutsch]], [[altnordisch]] ''āt'', mittelniederländisch ''aet,'' altenglisch ''ǣt'' „Speise, Nahrung, Viehfutter“ (vergleiche ''[[äsen]]''), wie auch altslawisch ''obĕdʐ,'' russisch ''{{Üt|ru|obéd|oбeӘ}}'' „Mittagessen“.<ref name="Pfeifer"/> Die beiden mittelhochdeutschen Formen ''āz'' und ''ās'' fallen im [[Frühneuhochdeutsch]]en<ref name="Pfeifer"/> oder im [[Spätmittelhochdeutsch]]en<ref name="Kluge"/> zu ''as'' „Tiernahrung, Kadaver“ zusammen, wobei sich die heutige Bedeutung durchsetzte, weil bei [[Homonym]]en in der Regel die anstößigere Bedeutung stärker ist. Die Bedeutung „Speise“ ist aber noch in ''[[Obst]]'' und ''[[Aser]]'' „Speisesack des Jägers“ bzw. „Inhalt des Speisesacks, Mahlzeit“<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, „Aser“, Seite 64</ref> enthalten.<ref name="Kluge"/>
+:Verwandt ist niederländisch ''{{Ü|nl|lokaas}}'' „Köder“.<ref>{{Lit-Bluhme: Etymologisches Wörterbuch}} „Aas“, Seite 139</ref>
+
+:[4] Die Verwendung als Schimpfwort ist bereits im 12. Jahrhundert belegt.<ref name="Pfeifer"/>
+
+{{Synonyme}}
+:[1] [[Kadaver]], [[Luder]], [[Tierkadaver]], [[Tierleiche]]
+:[2] [[Kadaverfleisch]], [[Moderfleisch]], [[Verwesendes]]
+:[3] [[Köder]], [[Köderfleisch]], [[Lockmittel]]
+
+{{Gegenwörter}}
+:[2, 3] [[Frischfleisch]]
+
+{{Unterbegriffe}}
+:[3] [[Lockaas]]
+:[4] [[Rabenaas]]
+
+{{Beispiele}}
+:[1] Hinter dem Busch fanden wir ein stark verwestes ''Aas.''
+:[1] Die ''Aase'' verbreiteten bereits einen widerlichen Gestank.
+:[2] Der Tyrannosaurus Rex ernährte sich vielleicht von ''Aas.''
+:[3] Das ''Aas'' ist ausgelegt.
+:[4] Das ''Aas'' hat mich reingelegt.
+:[4] „Das magere böse ''Aas'' liest in der Küche das Kuvert, steckt es ins Feuer; den Zettel zerknautscht sie, schmeißt ihn in den Müllkasten.“<ref>{{Literatur | Autor= Alfred Döblin | Titel= Berlin Alexanderplatz | TitelErg= Die Geschichte vom Franz Biberkopf |Verlag= Deutscher Taschenbuch Verlag| Ort=  München|Jahr= 1965| Seiten= 185.|ISBN= 3-423-00295-6|}} Erstveröffentlichung 1929.</ref>
+:[4] Stirb, du ''Aas!''
+:[4] ''berlinisch:'' Det is ′n falschet ''Aas'' — Das ist ein hinterhältiger Mensch.
+:[4] ''berlinisch:'' Dir ''Aas'' kenn' ick! — Dich kenne ich, du führst doch was im Schilde.
+:[4] ''berlinisch:'' Du bist ′n ''Aas'' uf de Jeije. — Du bist super.
+:[5] Ich wollte das Pferd füttern und da hat mich das ''Aas'' in die Hand gebissen.
+
+{{Redewendungen}}
+:''[[ein Aas auf der Bassgeige sein]],'' ''[[ein As auf der Bassgeige sein]]'' -
+:''[[faules Aas]]'' -
+:''[[feines Aas]]'' -
+:''[[freches Aas]]'' -
+:''[[kein Aas]]'' - [[niemand]]
+:''[[olles Aas]]'' -
+:''[[schlaues Aas]]'' -
+
+{{Sprichwörter}}
+:[[wo aber ein Aas ist, da sammeln sich die Geier|wo aber ein ''Aas'' ist, da sammeln sich die Geier]]; ''auch:'' [[wo Aas ist, da sammeln sich die Geier|wo ''Aas'' ist, da sammeln sich die Geier]]; [[wo Aas ist, da versammeln sich die Raben|wo ''Aas'' ist, da versammeln sich die Raben]]; [[wo ein Aas ist, da sammeln sich die Geier|wo ein ''Aas'' ist, da sammeln sich die Geier]]; [[wo das Aas ist, da sammeln sich die Geier|wo das ''Aas'' ist, da sammeln sich die Geier]]; [[wo ein Aas ist, da sammeln sich die Geier|wo ein ''Aas'' ist, da sammeln sich die Geier]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''Aas'' [[anrühren]], [[stinkend]]es Aas
+:[2] ''Aas'' [[fressen]], [[faul]]es ''Aas,'' [[sich]] von ''Aas'' [[ernähren]]
+:[3] mit ''Aas'' [[anlocken]], mit ''Aas'' [[anludern]]
+:[4] [[fein]]es ''Aas,'' [[frech]]es ''Aas,'' so ein ''Aas''
+
+{{Wortbildungen}}
+:[[Aasbande]], [[Aasblume]], [[Aasdach]], [[aasen]], [[aasfarbig]], [[Aasfliege]], [[aasfressend]], [[Aasfresser]], [[Aasgeier]], [[Aasgeruch]], [[Aasgestank]], [[Aasgrube]], [[Aasjäger]], [[Aasjägerei]], [[aasig]], [[Aasinsekt]], [[Aaskäfer]], [[Aasknochen]], [[Aaskopf]], [[Aaskrähe]], [[Aasrabe]], [[Aasseite]], [[Aasstück]], [[Aastier]], [[Aasvogel]], [[äsen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|aas}}
+*{{bs}}: [1] {{Ü?|bs|lešina}} {{f}}
+*{{bg}}: [1] {{Ü|bg|мърша}} {{f}}
+*{{da}}: [1] {{Ü|da|ådsel}}
+*{{en}}: [1] {{Ü|en|carrion}}, {{Ü|en|carcass}}; [3] {{Ü|en|bait}}; [4] {{Ü|en|beast}}, {{Ü|en|swine}}
+*{{eo}}: [1] {{Ü|eo|kadavraĵo}}, {{Ü|eo|putraĵo}}; [4] {{Ü|eo|fiulo}}; {{Ü|eo|kanajlo}}
+*{{fr}}: [1, 4] {{Ü|fr|charogne}} {{f}}; [4] {{Ü|fr|salaud}} {{m}}, {{Ü|fr|salope}} {{f}}
+*{{el}}: [1] {{Üt|el|ψοφίμι|psofími}} {{n}}
+*{{is}}: [1] {{Ü|is|hræ}}
+*{{it}}: [1, 4] {{Ü|it|carogna}} {{f}}; [4] {{Ü|it|vigliacco}} {{m}}
+*{{ja}}: [1] {{Ü|ja|死骸}}、{{Ü|ja|屍骸}}; [3]　{{Ü|ja|おとり}}、{{Ü|ja|餌}}; [4] {{Ü|ja|腐}}, {{Ü|ja|野郎}}
+*{{ca}}: [1] {{Ü|ca|carronya}} {{f}}
+*{{la}}: [1] {{Ü|la|cadaver}}; [4] {{Ü|la|morticinus}}; {{Ü|la|corpus putrefactum}}
+*{{lv}}: [1] {{Ü|lv|maita}}, {{Ü|lv|sprāgonis}}
+*{{nl}}: [1, 4] {{Ü|nl|aas}}; [1] {{Ü|nl|kreng}}
+|Ü-rechts=
+*{{no}}: [1] {{Ü|no|åtsel}} {{n}}, [3] {{Ü|no|åte}} {{n}}
+*{{pl}}: [1] {{Ü|pl|padlina}} {{f}}, {{Ü|pl|ścierwo}} {{n}}; [2] {{Ü|pl|ścierwo}} {{n}}; [3] {{Ü|pl|przynęta}} {{f}}; [4] {{Ü|pl|ścierwo}} {{n}}, {{Ü|pl|kanalia}} {{f}}, {{Ü|pl|drań}} {{m}}
+*{{rm}}: [1] {{Ü|rm|capiergna}} {{f}}; [3] {{Ü|rm|coga}} {{f}}
+*{{ro}}: [1] {{Ü|ro|cadavru}} {{n}}, {{Ü|ro|hoit}} {{n}}, {{Ü|ro|stârv}} {{n}} [3] {{Ü|ro|momeală}} {{f}}, [4] {{Ü|ro|golan}} {{m}}
+*{{ru}}: [1] {{Ü|ru|падаль}}; [4] {{Ü|ru|падло}}
+*{{sv}}: [1] {{Ü|sv|as}}; [3] {{Ü|sv|bete}}; [4] {{Ü|sv|as}}, {{Ü|sv|knöl}}
+*{{sr}}: [1] {{Üt|sr|леш|}}, [3] {{Üt|sr|мамац|}}, [4] {{Üt|sr|лешинар|}}
+*{{sk}}: [1] {{Ü|sk|zdochlina}} {{f}}
+*{{sl}}: [1] {{Ü|sl|mrhovina}} {{f}}
+*{{es}}: [1] {{Ü|es|carroña}}, {{Ü|es|cadáver}}
+*{{cs}}: [1] {{Ü|cs|zdechlina}}, {{Ü|cs|mršina}}; [4] {{Ü|cs|mrcha}}
+*{{tr}}: [1] {{Ü|tr|leş}}
+*{{hu}}: [1, 4] {{Ü|hu|dög}}
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Aas}}
+:[1, 3, 4] {{Ref-Grimm|Aas}}
+:[1, 2] {{Ref-Adelung|Aas}}
+:[2, 4] {{Ref-DWDS|Aas}}
+:[2, 4] {{Ref-Canoo|Aas}}
+:[2, 4] {{Ref-UniLeipzig|Aas}}
+:[1, 2, 4] {{Ref-FreeDictionary|Aas}}
+:[1, 2, 4, 5] {{Ref-Duden|Aas}}
+:[1, 2, 4, 5] {{Lit-Duden: Universalwörterbuch|A=6}}, Seite 77.
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=<small>(der/die)</small> Aas
+|Nominativ Plural=<small>(die)</small> Aas<br><small>(die)</small> Aasens
+|Genitiv Singular=<small>(des/der)</small> Aas’
+|Genitiv Plural=<small>(der)</small> Aas<br><small>(der)</small> Aasens
+|Dativ Singular=<small>(dem/der)</small> Aas
+|Dativ Plural=<small>(den)</small> Aas<br><small>(den)</small> Aasens
+|Akkusativ Singular=<small>(den/die)</small> Aas
+|Akkusativ Plural=<small>(die)</small> Aas<br><small>(die)</small> Aasens
+}}
+
+{{Worttrennung}}
+:Aas, {{Pl.}} Aa·sens
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aːs}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|aːs|Deutsch}}
+
+{{Bedeutungen}}
+:[1] unterdurchschnittlich häufig auftretender, [[deutsch]]er [[Familienname]], [[Nachname]] (häufigstes Vorkommen in Deutschland in der Kreisstadt Erlangen in Bayern)
+
+{{Bekannte Namensträger}}
+:[1] {{Wikipedia|Jan Einar Aas}}
+:[1] {{Wikipedia|Roald Aas}}
+
+{{Beispiele}}
+:[1] Hast du Herrn ''Aas'' getroffen?
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+|Ü-rechts=
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|AAS}}
+:[1] {{Ref-UniLeipzig|Aas}}
+:[1] {{Ref-MetaGenealogy}}
+
+=== {{Wortart|Deklinierte Form|Deutsch}} ===
+
+{{Worttrennung}}
+:Aas
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aˈʔas}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|as|Deutsch}}
+
+{{Grammatische Merkmale}}
+*Genitiv Singular des Substantivs '''[[Aa]]'''
+
+{{Grundformverweis Dekl|Aa}}
+
+{{Ähnlichkeiten 1|[[Aal]], [[Aar]], [[als]], [[Ars]], [[As]], [[Ass]], [[aus]], [[das]], [[Gas]], [[las]], [[Maas]], [[was]]|Homophone=[[aß]]}}
+
+[[ar:Aas]]
+[[ca:Aas]]
+[[chr:Aas]]
+[[cs:Aas]]
+[[el:Aas]]
+[[en:Aas]]
+[[eo:Aas]]
+[[et:Aas]]
+[[fi:Aas]]
+[[fr:Aas]]
+[[hu:Aas]]
+[[is:Aas]]
+[[it:Aas]]
+[[ko:Aas]]
+[[ku:Aas]]
+[[mg:Aas]]
+[[nds:Aas]]
+[[no:Aas]]
+[[pl:Aas]]
+[[ro:Aas]]
+[[ru:Aas]]
+[[sv:Aas]]
+[[th:Aas]]
+[[tr:Aas]]
+[[zh:Aas]]

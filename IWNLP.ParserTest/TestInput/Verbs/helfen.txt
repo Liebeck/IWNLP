@@ -1,0 +1,142 @@
+﻿{{erweitern|Bedeutung [2] und [3] belegen|Deutsch}}
+== helfen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=helfe
+|Gegenwart_du=hilfst
+|Gegenwart_er, sie, es=hilft
+|1.Vergangenheit_ich=half
+|Partizip II=geholfen
+|Konjunktiv II_ich=hülfe<br />''selten:'' hälfe
+|Imperativ Singular=hilf!
+|Imperativ Plural=helft!
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:hel·fen, {{Prät.}} half, {{Part.}} ge·hol·fen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈhɛlfn̩}}, {{Prät.}} {{Lautschrift|half}}, {{Part.}}{{Lautschrift|ˌɡəˈhɔlfn̩}}
+:{{Hörbeispiele}} {{Audio|De-helfen.ogg}}, {{Audio|De-at-helfen.ogg|helfen (österreichisch)}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|ɛlfn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] (mit Dativ, seltener mit Akkusativ) jemandem das Tun einer Sache durch Übernehmen bestimmter Teile ermöglichen oder erleichtern
+:[2] ''von Medizin und Magie:'' [[wirken]], [[wirksam]] sein
+:[3] ''reflexiv:'' ein schwierig erscheinendes Problem durch einen guten Einfall auf einfache Weise lösen
+
+{{Herkunft}}
+:[1] {{gmh.}} ''helfen,'' {{goh.}} ''helfan.'' Aus [[germanisch]] ''*help-a-'' („helfen“) {{QS Herkunft|unbelegt}}
+
+{{Synonyme}}
+:[1] [[beitragen]], [[unterstützen]], [[zur Seite stehen]], [[Hilfe leisten]]
+:[2] [[wirken]]
+:[3] [[behelfen]]
+
+{{Gegenwörter}}
+:[1] [[im Stich lassen]]
+:[2] [[hindern]]
+
+{{Beispiele}}
+:[1] Lass mich dir ''helfen,'' dann geht es schneller.
+:[2] Nimm Fixauxilin, das ''hilft'' sofort!
+:[2] „In alten Zeiten, als das Wünschen noch ''geholfen'' hat …“ – ''(Anfang mehrerer Märchen der Brüder Grimm)''
+:[3] „Der Rabe Ralf, dem niemand half, half sich allein.“<ref>Christian Morgenstern, Alle Galgenlieder</ref>
+:[3] Dumm kann der Mensch sein, er muss sich nur zu ''helfen'' wissen.
+
+{{Redewendungen}}
+:[[jemandem auf die Sprünge helfen]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] sich ''helfen'' [[lassen]]
+
+{{Wortbildungen}}
+:[[abhelfen]], [[aufhelfen]], [[aushelfen]], [[behelfen]], [[Helfer]], [[Helferin]], [[Hilfe]], [[herabhelfen]], [[heraufhelfen]], [[heraushelfen]], [[hereinhelfen]], [[hinabhelfen]], [[hinaufhelfen]], [[hinaushelfen]], [[hineinhelfen]], [[mithelfen]], [[nachhelfen]], [[verhelfen]], [[weiterhelfen]], [[zurückhelfen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{hy}}: [1] {{Üt|hy|օգնել|ōgnel}}
+*{{eu}}: [1] {{Ü|eu|lagundu}}
+*{{my}}: [1] {{Üt|my|ကူညီ|}}
+*{{zh}}:
+**{{zh-tw}}: [1] {{Üt|zh|幫助|bāngzhù}}
+**{{zh-cn}}: [1] {{Üt|zh|帮助|bāngzhù}}
+*{{en}}: [1] {{Ü|en|help}}
+*{{eo}}: [1] {{Ü|eo|helpi}}
+*{{et}}: [1] {{Ü|et|aitama}}
+*{{fi}}: [1] {{Ü|fi|auttaa}}
+*{{fr}}: [1] {{Ü|fr|aider}}
+*{{fr}}: [3] {{Ü|fr|débrouiller}}
+*{{el}}: [1] {{Üt|el|βοηθώ|voithó}}
+*{{he}}: [1] {{Üt|he|לעזור|la'asor}}
+*{{id}}: [1] {{Ü|id|menolong}}
+*{{is}}: [1] {{Ü|is|hjálpa}}
+*{{it}}: [1] {{Ü|it|aiutare}}
+*{{ja}}: [1] {{Üt|ja|助ける|たすける, tasukeru}}
+*{{ca}}: [1] {{Ü|ca|ajudar}}
+*{{la}}: [1] {{Ü|la|adiuvare}}
+|Ü-rechts=
+*{{lv}}: [1] {{Ü|lv|palīdzēt}}
+*{{nl}}: [1] {{Ü|nl|helpen}}
+*{{no}}: [1, 2] {{Ü|no|hjelpe}}
+*{{oc}}: [1] {{Ü|oc|ajudar}}
+*{{pl}}: [1] {{Ü|pl|pomagać}}
+*{{pt}}: [1] {{Ü|pt|ajudar}}, {{Ü|pt|auxiliar}}
+*{{rm}}: [1] {{Ü|rm|gidar}}
+*{{ru}}: [1] {{Üt|ru|помoгать|pomogatʹ}}
+*{{sa}}: [1] {{Üt|sa|उपकारं करोति|कृ}}
+*{{sv}}: [1, 2] {{Ü|sv|hjälpa}}
+*{{sl}}: [1] {{Ü|sl|pomagati}}
+*{{wen}}:
+**{{dsb}}: [1] {{Ü|dsb|pomogaś}}
+**{{hsb}}: [1] {{Ü|hsb|pomhać}}
+*{{es}}: [1] {{Ü|es|ayudar}}
+*{{sw}}: [1] {{Ü|sw|kusaidia}}
+*{{te}}: [1] {{Üt|te|సహాయపడు|sahaayapaDu}}, {{Üt|te|సాయపడు|saayapaDu}}
+*{{cs}}: [1] {{Ü|cs|pomoct}}, {{Ü|cs|pomáhat}}
+*{{tr}}: [1] {{Ü|tr|yardım etmek}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|helfen}}
+:[1] {{Ref-DWDS|helfen}}
+:[1] {{Ref-canoo|helfen}}
+:[1] {{Ref-UniLeipzig|helfen}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{Quellen|}}
+
+{{Ähnlichkeiten 1|[[Elfen]], [[Hefen]], [[Hilfen]]|Anagramme=[[fehlen]], [[flehen]]}}
+
+[[az:helfen]]
+[[br:helfen]]
+[[chr:helfen]]
+[[cs:helfen]]
+[[da:helfen]]
+[[el:helfen]]
+[[en:helfen]]
+[[eu:helfen]]
+[[fi:helfen]]
+[[fj:helfen]]
+[[fr:helfen]]
+[[hu:helfen]]
+[[id:helfen]]
+[[io:helfen]]
+[[it:helfen]]
+[[ja:helfen]]
+[[ko:helfen]]
+[[ku:helfen]]
+[[mg:helfen]]
+[[nds:helfen]]
+[[nl:helfen]]
+[[no:helfen]]
+[[oc:helfen]]
+[[pl:helfen]]
+[[pt:helfen]]
+[[ru:helfen]]
+[[sv:helfen]]
+[[tr:helfen]]
+[[zh:helfen]]

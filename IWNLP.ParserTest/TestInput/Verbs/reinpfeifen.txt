@@ -1,0 +1,46 @@
+﻿== reinpfeifen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=pfeife mir rein
+|Gegenwart_du=pfeifst dir rein
+|Gegenwart_er, sie, es=pfeift sich rein
+|1.Vergangenheit_ich=(''ungebräuchlich'')
+|Partizip II=reingepfiffen
+|Konjunktiv II_ich=(''ungebräuchlich'')
+|Imperativ Singular=pfeif dir rein!
+|Imperativ Plural=pfeift euch rein!
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:rein·pfei·fen
+
+{{Bedeutungen}}
+:[1] ''reflexiv, salopp:'' ein [[Nahrungsmittel]] oder ein [[Getränk]] [[konsumieren]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[reinziehen]]
+
+{{Oberbegriffe}}
+:[1] [[zu sich nehmen]]
+
+{{Beispiele}}
+:[1] Im Urlaub hab ich mir mal vier ganze Pizzas hintereinander ''reingepfiffen.''
+:[1] Während des Fußballspiels ''pfiff'' ich ''mir'' ganze vier Flaschen Oettinger ''rein.''
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|ingollare}}
+*{{es}}: [1] {{Ü|es|}}
+}} <!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Bearbeitungsfensters -->
+
+{{Referenzen}}
+:[1] {{Ref-UniLeipzig|reinpfeifen}}
+<!-- Achtung, hier bitte die Umlaute ersetzen: ä= %E4, Ä= %C4, ö= %F6, Ö= %D6, ü= %FC, Ü= %DC, ß= %DF -->
+
+[[ko:reinpfeifen]]

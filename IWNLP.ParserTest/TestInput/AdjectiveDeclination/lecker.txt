@@ -1,0 +1,7 @@
+﻿== lecker (Deklination) ({{Adjektivdeklination|Deutsch}}) ==
+{{Deklinationsseite Adjektiv
+|Positiv-Stamm=lecker
+|Komparativ-Stamm=leckerer
+|Komparativ-Stamm-ohne-e=leckrer
+|Superlativ-Stamm=leckerst
+}}

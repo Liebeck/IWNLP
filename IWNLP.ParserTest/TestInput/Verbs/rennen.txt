@@ -1,0 +1,115 @@
+﻿== rennen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=renne
+|Gegenwart_du=rennst
+|Gegenwart_er, sie, es=rennt
+|1.Vergangenheit_ich=rannte
+|Partizip II=gerannt
+|Konjunktiv II_ich=rennte
+|Imperativ Singular=renn!<br />renne!
+|Imperativ Plural=rennt!
+|Hilfsverb=sein
+|Weitere_Konjugationen=rennen (Konjugation)
+}}
+
+{{Worttrennung}}
+:ren·nen, {{Prät.}} rann·te, {{Part.}} ge·rannt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʀɛnən}}, {{Prät.}} {{Lautschrift|ˈʀantə}}, {{Part.}} {{Lautschrift|ɡəˈʀant}}
+:{{Hörbeispiele}} {{Audio|De-rennen.ogg}}
+:{{Reime}} {{Reim|ɛnən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{intrans.|:}} sich schnell zu Fuß fortbewegen, schnell [[laufen]]
+
+{{Herkunft}}
+:[[Althochdeutsch]] ''rennen'' „laufen [[machen]]“, [[Kausativ]] zu [[rinnen]] <ref>{{Ref-Duden|rennen}}</ref>
+
+{{Sinnverwandte Wörter}}
+:[1] [[breschen]], [[eilen]], [[fegen]], [[flitzen]], [[hasten]], [[hetzen]], [[jagen]], [[preschen]], [[rasen]], [[sausen]], [[sprinten]], [[spurten]], [[stürmen]], [[stürzen]], [[wetzen]]
+
+{{Gegenwörter}}
+:[1] [[bummeln]], [[schleichen]], [[trödeln]]
+
+{{Oberbegriffe}}
+:[1] [[fortbewegen]]
+
+{{Unterbegriffe}}
+:[1] [[endspurten]], [[wetzen]], [[wieseln]]
+
+{{Beispiele}}
+:[1] So schnell wie Maik ''rennt'' niemand bei uns in der Klasse.
+
+{{Charakteristische Wortkombinationen}}
+:[1] hinterher ''rennen''; um die [[Wette]] ''rennen,'' um sein Leben ''rennen''
+
+{{Wortbildungen}}
+:[[abrennen]], [[anrennen]], [[ausrennen]], [[berennen]], [[davonrennen]], [[durcheinanderrennen]], [[durchrennen]], [[einrennen]], [[entgegenrennen]], [[festrennen]], [[fortrennen]], [[heraufrennen]], [[herausrennen]], [[hereinrennen]], [[herumrennen]], [[herunterrennen]], [[hinaufrennen]], [[hinausrennen]], [[hineinrennen]], [[hinrennen]], [[hinterherrennen]], [[hinüberrennen]], [[hinunterrennen]], [[hochrennen]], [[losrennen]], [[nachrennen]], [[überrennen]], [[umherrennen]], [[verrennen]], [[vorbeirennen]], [[vorrennen]], [[wegrennen]], [[wettrennen]], [[zurückrennen]]
+:[[Gerenne]], [[Rennauto]], [[Rennbahn]], [[Rennboot]], [[Rennen]], [[Renner]], [[Rennfahrer]], [[Rennklasse]], [[Rennläufer]], [[Rennleitung]], [[Rennmaschine]], [[Rennpferd]], [[Rennpiste]], [[Rennplatz]], [[Rennrad]], [[Rennreifen]], [[Rennsattel]], [[Rennschlitten]], [[Rennschuh]], [[Rennsport]], [[Rennstall]], [[Rennstrecke]], [[Rennwagen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{ar}}: [1] {{Üt|ar|ركض|}}
+*{{zh}}: [1] {{Üt|zh|跑|pǎo}}
+*{{en}}: [1] {{Ü|en|run}}, {{Ü|en|race}}, {{Ü|en|sprint}}
+*{{fr}}: [1] {{Ü|fr|courir}}
+*{{it}}: [1] {{Ü|it|correre}}
+*{{ja}}: [1] {{Üt|ja|走る|はしる, hashiru}}
+*{{crh}}: [1] {{Ü|crh|cuvurmaq}}
+*{{la}}: [1] {{Ü|la|currere}}
+*{{lv}}: [1] {{Ü|lv|skriet}}
+|Ü-rechts=
+*{{nl}}: [1] {{Ü|nl|rennen}}, {{Ü|nl|hollen}}
+*{{pl}}: [1] {{Ü|pl|pędzić}}
+*{{pt}}: [1] {{Ü|pt|correr}}
+*{{ru}}: [1] {{Üt|ru|бежать|nežát'}}, {{Üt|ru|мчаться|mčát'sja}}
+*{{sv}}: [1] {{Ü|sv|springa}}
+*{{sl}}: [1] {{Ü|sl|teči}}
+*{{es}}: [1] {{Ü|es|correr}}
+*{{tr}}: [1] {{Ü|tr|koşmak}}
+*{{hu}}: [1] {{Ü|hu|fut}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|rennen}}
+:[1] {{Ref-DWDS|rennen}}
+:[1] {{Ref-Duden|rennen}}
+:[1] {{Ref-canoo|rennen}}
+:[1] {{Ref-UniLeipzig|rennen}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[regnen]], [[rinnen]], [[trennen]]|Homophone=[[rännen]]}}
+
+[[az:rennen]]
+[[br:rennen]]
+[[chr:rennen]]
+[[cs:rennen]]
+[[el:rennen]]
+[[en:rennen]]
+[[es:rennen]]
+[[eu:rennen]]
+[[fi:rennen]]
+[[fr:rennen]]
+[[hu:rennen]]
+[[id:rennen]]
+[[io:rennen]]
+[[ja:rennen]]
+[[ko:rennen]]
+[[ku:rennen]]
+[[li:rennen]]
+[[lt:rennen]]
+[[lv:rennen]]
+[[mg:rennen]]
+[[nl:rennen]]
+[[no:rennen]]
+[[pl:rennen]]
+[[pt:rennen]]
+[[ru:rennen]]
+[[sw:rennen]]
+[[tr:rennen]]
+[[vi:rennen]]
+[[zh:rennen]]

@@ -1,0 +1,2 @@
+﻿== antun (Konjugation) ({{Verbkonjugation|Deutsch}})==
+{{Deutsch Verb unregelmäßig|1=an|2=tu|3=tat|4=tät|5=getan|10=tun|vp=ja|zp=ja|gerund=ja}}

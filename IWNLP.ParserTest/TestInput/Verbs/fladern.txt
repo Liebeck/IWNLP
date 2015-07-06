@@ -1,0 +1,106 @@
+﻿== fladern ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}}, Ostmittelbairisch ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=fladere
+|Gegenwart_du=fladerst
+|Gegenwart_er, sie, es=fladert
+|1.Vergangenheit_ich=<small>(fladerte)</small>
+|Partizip II=gefladert<br />''dialektal auch:'' g'fladert
+|Konjunktiv II_ich=fladerte
+|Imperativ Singular=flader!
+|Imperativ Plural=fladert!
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:fla·dern, fla·der
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|flaːdɐn}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''österreichisch,'' {{ugs.|:}} stehlen, berauben
+
+{{Herkunft}}
+:möglicherweise von [[Rotwelsch]] „fladdern“ = „[[waschen]]“ oder [[Mittelhochdeutsch]] „vladeren" = „[[flattern]], sich [[hin und her]] bewegen"
+
+{{Synonyme}}
+:[1] [[flauchen]], ''hochdeutsch:'' [[stehlen]], [[berauben]], [[entwenden]]; ''norddeutsch:'' [[fleddern]] (= [[plündern]])
+
+{{Beispiele}}
+:[1] Das Radl ist sicher ''gefladert.''
+
+{{Wortbildungen}}
+:[[Fladerer]] ([[Fladerin]])
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|rob}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{sv}}: [1] {{Ü|sv|stjäla}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-OEWBRetti|fladern}}
+
+{{----}}
+
+{{erweitern|Belege|Deutsch}}
+=== {{Wortart|Verb|Deutsch}}, Erzgebirgisch ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=flader
+|Gegenwart_du=fladersd<br />fladerschd
+|Gegenwart_er, sie, es=fladerd
+|1.Vergangenheit_ich=-
+|Partizip II=gefladerd<br />g'fladerd
+|Konjunktiv II_ich=dad fladern
+|Imperativ Singular=flader!
+|Imperativ Plural=fladerd!
+|Hilfsverb=homm
+}}
+
+{{Worttrennung}}
+:fla·dern
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|flaːdəˠn}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''erzgebirgisch:'' kräftig werfen
+:[2] ''erzgebirgisch:'' fegen<ref>Irmtraut Susanka: ''Wie mir drham geredt homm.'' Verlag des Kaadner Heimatbriefs. Seite 124.</ref>
+
+{{Synonyme}}
+:[1] [[schmeißen]], [[schleudern]], [[werfen]], umgangssprachlich auch [[fledern]]
+:[2] [[kehren]], [[fegen]]
+
+{{Beispiele}}
+:[1] ''Flader'' mol die Dosch net esu in der Eck!
+::''Wirf'' die Tasche mal nicht so in die Ecke!"
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|fling}}, [2] {{Ü|en|sweep}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{sv}}: [1] {{Ü|sv|slänga}}; [2] {{Ü|sv|sopa}}
+}}
+
+{{Referenzen}}
+:[1]
+
+{{Quellen|}}
+
+{{Ähnlichkeiten}}
+:[[Fladen]]
+
+[[en:fladern]]
+[[ko:fladern]]
+[[mg:fladern]]
+[[ru:fladern]]

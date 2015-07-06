@@ -1,0 +1,107 @@
+﻿{{Siehe auch|[[Senden]]}}
+== senden ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=sende
+|Gegenwart_du=sendest
+|Gegenwart_er, sie, es=sendet
+|1.Vergangenheit_ich=sendete<br />sandte
+|Partizip II=gesendet<br />gesandt
+|Konjunktiv II_ich=sendete
+|Imperativ Singular=sende!<br />send!
+|Imperativ Plural=sendet!
+|Hilfsverb=haben
+|Weitere_Konjugationen=senden (Konjugation)
+}}
+
+{{Anmerkung|zu sendete/sandte}}
+:Grundsätzlich gilt: Grüße können sowohl gesendet als auch gesandt werden, denn bei dem Verb senden stehen im Präteritum und im zweiten Partizip regelmäßig gebildete Formen neben unregelmäßigen Formen: senden – sendete/sandte – gesendet/gesandt.
+
+:In der Bedeutung ''„schicken”'' sind beide Formen gebräuchlich, wobei (die Formen) sandte/gesandt etwas häufiger verwendet werden. Gleiches gilt auch für die zusammengesetzten Verben absenden, entsenden, übersenden, versenden, zurücksenden, zusenden etc.: „Sie sandten/sendeten Urlaubsgrüße”, „das gestern versandte/versendete Päckchen”, „Wann wurde der Brief abgesandt/abgesendet?”.
+
+:Im Bereich der Technik, d. h. in der Bedeutung „(im Fernsehen, über eine Funkanlage o. Ä.) ''ausstrahlen''”, werden dagegen nur die Formen mit „e” gebraucht: „Die Liveübertragung wurde im dritten Programm gesendet”, „Sie sendeten alle fünf Minuten ein Signal”.<ref>http://www.duden.de/deutsche_sprache/sprachberatung/newsletter/archiv.php?id=141#was</ref>
+
+{{Worttrennung}}
+:sen·den, {{Prät.}} sen·de·te; sand·te, {{Part.}} ge·sen·det; ge·sandt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈzɛndn̩}}, {{Prät.}} {{Lautschrift|ˈzɛndətə}}, {{Lautschrift|ˈzantə}}, {{Part.}} {{Lautschrift|ɡəˈzɛndət}}, {{Lautschrift|ɡəˈzant}}
+:{{Hörbeispiele}} {{Audio|De-senden.ogg}}, {{Audio|De-at-senden.ogg|senden (Österreich)}}
+:{{Reime}} {{Reim|ɛndn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{trans.|:}} etwas [[übermitteln]]
+:[2] {{trans.|:}} eine [[Sendung]] [[ausstrahlen]]
+
+{{Herkunft}}
+:[[Erbwort]] von [[mittelhochdeutsch]] ''{{Ü|gmh|senden}},'' das im Präteritum sowohl mit als auch ohne Umlaut gebraucht wurde, zu [[althochdeutsch]] ''{{Ü|goh|senten}}.'' Dabei handelte es sich ursprünglich um eine Ableitung aus dem [[germanisch]]en Verb ''*sinþan'' „[[reisen]]“ mit der Bedeutung „reisen machen“.<ref>{{Ref-wissen.de|Herkunft|senden}}</ref>
+
+{{Synonyme}}
+:[1] [[schicken]]
+:[2] [[aussenden]], [[ausstrahlen]]
+
+{{Beispiele}}
+:[1] ''Senden'' Sie uns Ihr Feedback.<ref name="Internet">Internetbeleg</ref>
+:[2] Selber einen Radiostream ins Internet zu ''senden'' ist gar nicht so schwer […]<ref name="Internet"/>
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''mit [[Akkusativobjekt]]:'' eine [[Nachricht]], einen [[Brief]], ein [[Paket]] ''senden''
+
+{{Wortbildungen}}
+:''[[Konversion]]en:'' [[gesandt]], [[gesendet]], [[Senden]], [[sendend]]
+:''[[Substantiv]]e:'' [[Sendbote]], [[Sendeanlage]], [[Sendeanstalt]], [[Sendeantenne]], [[Sendebereich]], [[Sendeeinrichtung]], [[Sendefolge]], [[Sendegebiet]], [[Sendegerät]], [[Sendehaus]], [[Sendekanal]], [[Sendeleistung]], [[Sendeleiter]], [[Sendemast]], [[Sendeminute]], [[Sendepause]], [[Sendeplan]], [[Sendeplatz]], [[Sendeprogramm]], [[Sender]], [[Senderaum]], [[Senderecht]], [[Sendereihe]], [[Sendesaal]], [[Sendeschluss]], [[Sendestation]], [[Sendestelle]], [[Sendestörung]], [[Sendestrahl]], [[Sendezeichen]], [[Sendezeit]], [[Sendezentrale]], [[Sendling]], [[Sendschreiben]], [[Sendung]] 
+:''[[Verb]]en:'' [[absenden]], [[aussenden]], [[einsenden]], [[entsenden]], [[nachsenden]], [[übersenden]], [[versenden]], [[zurücksenden]], [[zusenden]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{eu}}: [1, 2] {{Ü|eu|bidali}}, [2] {{Ü|eu|igorri}}
+*{{da}}: [1] {{Ü|da|sende}}
+*{{en}}: [1] {{Ü|en|send}}; [2] {{Ü|en|broadcast}}
+*{{fi}}: [1, 2] {{Ü|fi|lähettää}}
+*{{fr}}: [1] {{Ü|fr|envoyer}}
+*{{id}}: [1] {{Ü|id|kirim}}
+|Ü-rechts=
+*{{ja}}: [1] {{Üt|ja|送る|おくる, okuru}}
+*{{ca}}: [1] {{Ü|ca|enviar}}, {{Ü|ca|trametre}}
+*{{ru}}: [1] {{Ü|ru|слать}}, {{Ü|ru|посылать}}; [2] {{Ü|ru|передавать}}
+*{{sv}}: [1] {{Ü|sv|sända}}
+*{{es}}: [1] {{Ü|es|enviar}}, [2] {{Ü|es|emitir}}
+*{{cs}}: [1] {{Ü|cs|posílat}}, [2] {{Ü|cs|vysílat}}
+|Dialekttabelle=
+*Alemannisch: senda
+|D-rechts=
+*Ostmitteldeutsch:
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|senden}}
+:[1, 2] {{Ref-DWDS|senden}}
+:[1, 2] {{Ref-Canoo|senden}}
+:[1, 2] {{Ref-UniLeipzig|senden}}
+:[1, 2] {{Ref-FreeDictionary|senden}}
+:[1, 2] {{Ref-Duden|senden}}
+:[1, 2] {{Ref-wissen.de|Synonym|senden}}
+:[1, 2] {{Ref-wissen.de|Wörterbuch|senden}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Lenden]], [[Sand]], [[Sender]], [[wenden]]}}
+
+[[chr:senden]]
+[[el:senden]]
+[[en:senden]]
+[[fi:senden]]
+[[fr:senden]]
+[[hu:senden]]
+[[id:senden]]
+[[io:senden]]
+[[ja:senden]]
+[[ko:senden]]
+[[ku:senden]]
+[[mg:senden]]
+[[oc:senden]]
+[[pl:senden]]
+[[pt:senden]]
+[[ru:senden]]
+[[zh:senden]]

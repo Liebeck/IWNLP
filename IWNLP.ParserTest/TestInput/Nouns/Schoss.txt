@@ -1,0 +1,49 @@
+﻿== Schoss ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Schoss
+|Nominativ Plural=die Schosse
+|Genitiv Singular=des Schosses
+|Genitiv Plural=der Schosse
+|Dativ Singular=dem Schoss
+|Dativ Plural=den Schossen
+|Akkusativ Singular=den Schoss
+|Akkusativ Plural=die Schosse
+}}
+
+{{Worttrennung}}
+:Schoss, {{Pl.}} Schos·se
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ʃɔs}}, {{Pl.}} {{Lautschrift|ˈʃɔsə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|ɔs|Deutsch}}
+
+{{Bedeutungen}}
+:[1] langer, gerader, meist junger [[Trieb]] einer [[Pflanze]]
+
+{{Beispiele}}
+:[1] Bei der richtigen Pflege von Obstgehölzen sollten einjährige ''Schosse'' weitgehend entfernt werden.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}} <!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters -->
+
+{{Referenzen}}
+:[1] {{Wikipedia|Schoss}}
+:[1] {{Ref-DWDS|Schoss}}
+:[1] {{Ref-Canoo|Schoss}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+{{Schweizer und Liechtensteiner Schreibweise|Schoß}}
+
+[[io:Schoss]]
+[[zh:Schoss]]

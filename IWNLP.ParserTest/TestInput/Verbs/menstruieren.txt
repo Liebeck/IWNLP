@@ -1,0 +1,63 @@
+﻿{{Wort der Woche|19|2013}}
+== menstruieren ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=menstruiere
+|Gegenwart_du=menstruierst
+|Gegenwart_er, sie, es=menstruiert
+|1.Vergangenheit_ich=menstruierte
+|Partizip II=menstruiert
+|Konjunktiv II_ich=menstruierte
+|Imperativ Singular=menstruiere! ''(selten gebraucht)''<br />menstruier! ''(selten gebraucht)''
+|Imperativ Plural=menstruiert! ''(selten gebraucht)''
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:mens·t·ru·ie·ren, {{Prät.}} mens·t·ru·ier·te, {{Part.}} mens·t·ru·iert
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|mɛnstʀuˈiːʀən}}, {{Prät.}} {{Lautschrift|mɛnstʀuˈiːɐ̯tə}}, {{Part.}} {{Lautschrift|mɛnstʀuˈiːɐ̯t}}
+:{{Hörbeispiele}} {{Audio|De-menstruieren.ogg}}, {{Prät.}} {{Audio|De-menstruierte.ogg|menstruierte}}, {{Part.}} {{Audio|De-menstruiert.ogg|menstruiert}}
+:{{Reime}} {{Reim|iːʀən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{intrans.|:}} die [[Monatsblutung]], [[Menstruation]] haben
+
+{{Herkunft}}
+:Das Verb ''menstruieren'' wurde im 19. Jahrhundert aus dem gleichbedeutenden [[spätlateinisch]]en ''{{Ü|la|menstruare}}'' entlehnt, das vom Adjektiv ''{{Ü|la|menstruus}}'' ‚[[monatlich]]‘ abgeleitet ist.<ref>{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, „menstruieren“, Seite 862.</ref>
+
+{{Beispiele}}
+:[1] „Sie ist allerdings vollkommen verwirrt, als sie zum ersten Mal ''menstruiert,'' weil es rot ist und nicht blau. Durch die Reklame im Fernsehen über Monatsbinden, bei denen Röhrchen mit blauer Flüssigkeit zu Demonstrationszwecken verwendet werden, glaubte sie, es müsse blau sein.“<ref>{{Literatur|Seiten=58|Online={{GBS|cIiF9o3AoacC|PA58|Hervorhebung=menstruiert}}|Autor=Martine F. Delfos|Titel-P=»Wie meinst du das?«|TitelErg=Gesprächsführung mit Jugendlichen|Jahr=2007|Verlag=Beltz Verlag|Ort=Weinheim/Basel|ISBN=978-3-407-22181-0}}.</ref>
+:[1] „Mitte der sechziger Jahre geborene Mädchen ''menstruierten'' erstmals im Schnitt mit 13,5 Jahren, Ende der Siebziger geborene Mädchen mit 12,2 Jahren.“<ref>{{Per-Focus Online | Online=http://www.focus.de/auto/ratgeber/unterwegs/studie-immer-frueher-sex_aid_192412.html | Autor=Simone Varga | Titel=STUDIE: Immer früher Sex | Tag=9 | Monat= 7| Jahr=2001 | Zugriff=2012-06-03 }}</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|menstruate}}
+*{{eo}}: [1] {{Ü|eo|menstrui}}
+*{{fr}}: [1] {{Ü|fr|avoir ses règles}}
+*{{ia}}: [1] {{Ü|ia|menstruar}}
+*{{io}}: [1] {{Ü|io|menstruar}}
+*{{ja}}: [1] {{Üt|ja|生理中である|せいりちゅうである, seirichū dearu}}
+|Ü-rechts=
+*{{la}}: [1] {{Ü|la|menstruare}}
+*{{nl}}: [1] {{Ü|nl|menstrueren}}
+*{{ru}}: [1] {{Üt|ru|менструировать|menstruírovat'}}
+*{{sv}}: [1] {{Ü|sv|menstruera}}
+*{{es}}: [1] {{Ü|es|menstruar}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Duden|menstruieren}}
+:[1] {{Ref-wissen.de|Fremdwort|menstruieren}}
+:[1] {{Ref-wissen.de|Wörterbuch|menstruieren}}
+:[1] {{Ref-FreeDictionary|menstruieren}}
+:[*] {{Ref-Canoo|menstruieren}}
+:[*] {{Ref-UniLeipzig|menstruieren}}
+
+{{Quellen|}}
+
+[[en:menstruieren]]
+[[io:menstruieren]]
+[[zh:menstruieren]]

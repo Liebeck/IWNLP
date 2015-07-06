@@ -1,0 +1,124 @@
+﻿== Tun ({{Sprache|Deutsch}}) ==
+
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Tun
+|Nominativ Plural=die Tune
+|Genitiv Singular=des Tuns<br />des Tunes
+|Genitiv Plural=der Tune
+|Dativ Singular=dem Tun<br />dem Tune
+|Dativ Plural=den Tunen
+|Akkusativ Singular=den Tun
+|Akkusativ Plural=die Tune
+}}
+
+{{Alternative Schreibweisen}}
+:Thun
+
+{{Worttrennung}}
+: Tun, {{Pl.}} Tu·ne
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|tuːn}}, {{Pl.}} {{Lautschrift|ˈtuːnə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|uːn|Deutsch}}
+
+{{Bedeutungen}}
+:[1] großer und schneller, als Speisefisch beliebter Meeresfisch ''(Thunnus)''
+
+{{Synonyme}}
+:[1] [[Thunfisch]]
+
+{{Beispiele}}
+:[1] Das ist ein ''Tun.''
+
+{{Wortbildungen}}
+:Tunfang<!--bewusst nicht wikifiziert-->
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+:siehe [[Thunfisch]]
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Thunfische}}
+:[1] {{Ref-Grimm|thun, ''m.''|id=GT04053}}
+:[1] {{Ref-Canoo|Tun}}
+:[1] {{Ref-UniLeipzig|Thun}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Tun
+|Nominativ Plural=—
+|Genitiv Singular=des Tuns
+|Genitiv Plural=—
+|Dativ Singular=dem Tun
+|Dativ Plural=—
+|Akkusativ Singular=das Tun
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:Tun, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|tuːn}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|uːn|Deutsch}}
+
+{{Bedeutungen}}
+:[1] absichtliche Ausführung oder Unterlassung
+
+{{Herkunft}}
+:[[Substantivierung]] des Verbs [[tun]] (=[[Konversion]])
+
+{{Synonyme}}
+:[1] [[Handlungsweise]]
+
+{{Gegenwörter}}
+:[1] ''andere Substantivierungen von [[tun]]:'' [[Tätigkeit]], [[Tat]]
+
+{{Oberbegriffe}}
+:[1] [[Handlung]]
+
+{{Beispiele}}
+:[1] Dein ''Tun'' wird nicht ohne Folgen bleiben.
+
+{{Redewendungen}}
+: Tun und Lassen, sinnvolles Tun
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|doings}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|actividades}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Tun}}
+:[1] {{Ref-Grimm|thun, ''n.''|id=GT04053}}
+:[1] {{Ref-DWDS|Tun}}
+:[1] {{Ref-Canoo|Tun}}
+:[1] {{Ref-UniLeipzig|Tun}}
+
+{{Ähnlichkeiten}}
+:[[tun]]
+
+[[chr:Tun]]
+[[en:Tun]]
+[[fi:Tun]]
+[[fr:Tun]]
+[[hu:Tun]]
+[[io:Tun]]
+[[ku:Tun]]
+[[mg:Tun]]
+[[no:Tun]]
+[[pl:Tun]]
+[[ru:Tun]]
+[[tr:Tun]]

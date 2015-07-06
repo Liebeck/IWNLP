@@ -1,0 +1,71 @@
+﻿== Miami ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=<small>(das)</small> Miami
+|Nominativ Plural=—
+|Genitiv Singular=<small>(des Miami)<br>(des Miamis)</small><br>Miamis
+|Genitiv Plural=—
+|Dativ Singular=<small>(dem)</small> Miami
+|Dativ Plural=—
+|Akkusativ Singular=<small>(das)</small> Miami
+|Akkusativ Plural=—
+|Bild=Skyline Miami.jpg|220px|1|die Skyline von ''Miami''
+}}
+
+{{Artikel Toponym}}
+
+{{Worttrennung}}
+:Mi·a·mi, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|maɪˈ̯ɛmɪ}}, ''angliziert:'' {{Lautschrift|maɪˈ̯æmɪ}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Stadt im US-Bundesstaat [[Florida]]
+
+{{Oberbegriffe}}
+:[1] [[Stadt]]
+
+{{Beispiele}}
+:[1] ''Miami'' liegt am Miami River.
+:[1] ''das Miami'' der 30er Jahre
+
+{{Charakteristische Wortkombinationen}}
+:[[nach]] ''Miami,'' [[in]] ''Miami,'' [[aus]] ''Miami''
+
+{{Wortbildungen}}
+:[[Miami-Dade County]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{zh-tw}}: [1] {{Üxx|zh|Màiāmì|麥阿密}}
+*{{zh-cn}}: [1] {{Üxx|zh|Màiāmì|麦阿密}}
+*{{en}}: [1] {{Ü|en|Miami}}
+*{{fi}}: [1] {{Ü|fi|Miami}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|Miami}}
+*{{it}}: [1] {{Ü|it|Miami}}
+*{{nl}}: [1] {{Ü|nl|Miami}}
+*{{cs}}: [1] {{Ü|cs|Miami}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Miami}}
+:[1] {{Ref-UniLeipzig|Miami}}
+:[1] {{Ref-Duden|Miami}}
+:[*] {{Ref-Canoo|Miami}}
+
+[[cs:Miami]]
+[[en:Miami]]
+[[et:Miami]]
+[[fi:Miami]]
+[[fr:Miami]]
+[[hu:Miami]]
+[[pl:Miami]]
+[[ru:Miami]]
+[[sh:Miami]]
+[[ta:Miami]]
+[[zh:Miami]]

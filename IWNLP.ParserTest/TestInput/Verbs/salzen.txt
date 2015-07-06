@@ -1,0 +1,70 @@
+﻿== salzen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=salze
+|Gegenwart_du=salzt
+|Gegenwart_er, sie, es=salzt
+|1.Vergangenheit_ich=salzte
+|Partizip II=gesalzen, gesalzt
+|Konjunktiv II_ich=salzte
+|Imperativ Singular=salz(e)
+|Imperativ Plural=salzt
+|Hilfsverb=haben
+|Weitere_Konjugationen=salzen (Konjugation)
+}}
+
+{{Worttrennung}}
+:sal·zen, {{Prät.}} salz·te, {{Part.}} ge·sal·zen, auch: ge·salzt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈzalʦn̩}}, {{Prät.}} {{Lautschrift|ˈzalʦtə}}, {{Part.}} {{Lautschrift|ɡəˈzalʦən}}, {{Lautschrift|ɡəˈzalʦt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|alʦn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[Salz]] beigeben, mit Salz würzen
+:[2] mit Salz konservieren
+
+{{Gegenwörter}}
+:[2] [[kandieren]]
+
+{{Oberbegriffe}}
+:[1] [[würzen]]
+:[2] [[konservieren]]
+
+{{Beispiele}}
+:[1] Bratkartoffeln muss man etwas ''salzen.''
+:[2] Fisch wird zwecks Konservierung ''gesalzen.''
+
+{{Wortbildungen}}
+:[1] [[nachsalzen]], [[ungesalzen]], [[versalzen]]
+:[2] [[einsalzen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|salt}}
+*{{fr}}: [1, 2] {{Ü|fr|saler}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|po-solić}}
+*{{sv}}: [1, 2] {{Ü|sv|salta}}
+*{{es}}: [1, 2] {{Ü|es|salar}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|salzen}}
+:[1] {{Ref-Grimm|salzen}}
+:[1] {{Ref-DWDS|salzen}}
+:[1] {{Ref-Canoo|salzen}}
+:[1] {{Ref-UniLeipzig|salzen}}
+
+[[el:salzen]]
+[[en:salzen]]
+[[fi:salzen]]
+[[id:salzen]]
+[[io:salzen]]
+[[ko:salzen]]
+[[nah:salzen]]
+[[oc:salzen]]
+[[pl:salzen]]
+[[zh:salzen]]

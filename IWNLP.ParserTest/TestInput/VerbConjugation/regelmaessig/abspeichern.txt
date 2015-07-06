@@ -1,0 +1,2 @@
+﻿== abspeichern (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb regelmäßig|Infinitiv=einteilig|Nebensatzkonjugation=einteilig|Teil 1=ab|spei|ch|e|r|n|abgespeichert|zp=zp3|vp=vp3|veraltet=0}}

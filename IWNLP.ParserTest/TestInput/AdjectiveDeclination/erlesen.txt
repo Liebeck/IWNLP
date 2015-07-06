@@ -1,0 +1,10 @@
+﻿== erlesen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|2=erles|3=erlas|4=erläs|5=erlesen|6=erlies|7=-s|8=i|vp=ja|zp=ja|gerund=ja}}
+
+== erlesen (Deklination) ({{Adjektivdeklination|Deutsch}}) ==
+
+{{Deklinationsseite Adjektiv
+|Positiv-Stamm=erlesen
+|Komparativ-Stamm=erlesener
+|Superlativ-Stamm=erlesenst
+}}

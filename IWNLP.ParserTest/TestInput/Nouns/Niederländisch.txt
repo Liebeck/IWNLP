@@ -1,0 +1,107 @@
+﻿== Niederländisch ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=(das) Niederländisch
+|Nominativ Singular 2=das Niederländische
+|Nominativ Plural=—
+|Genitiv Singular 1=(des) Niederländischs
+|Genitiv Singular 2=des Niederländischen
+|Genitiv Plural=—
+|Dativ Singular 1=(dem) Niederländisch
+|Dativ Singular 2=dem Niederländischen
+|Dativ Plural=—
+|Akkusativ Singular 1=(das) Niederländisch
+|Akkusativ Singular 2=das Niederländische
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:Nie·der·län·disch, {{Sg.2}} das Nie·der·län·di·sche, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈniːdɐˌlɛndɪʃ}}, das {{Lautschrift|ˈniːdɐˌlɛndɪʃə}}
+:{{Hörbeispiele}} {{Audio|De-Niederländisch.ogg|Niederländisch}}
+
+{{Bedeutungen}}
+:[1] die in den [[Niederlande]]n und [[Flandern]] gesprochene [[westgermanisch]]e [[Sprache]] des [[Niederdeutsch]]en
+
+{{Abkürzungen}}
+:[1] [[Nl.]], ''ISO 639-1:'' [[nl]], ''ISO 639-2:'' [[dut]], [[nld]], ''ISO 639-3:'' [[nld]]
+
+{{Herkunft}}
+:[[Substantivierung]] des Adjektivs ''[[niederländisch]]''
+
+{{Synonyme}}
+:[1] {{ugs.|:}} [[Holländisch]], [[Flämisch]]
+
+{{Oberbegriffe}}
+:[1] [[westgermanische Sprache]]
+
+{{Beispiele}}
+:[1] Sprechen Sie ''Niederländisch?''
+:[1] Wie heißt das auf ''Niederländisch?''
+:[1] Wie kann ich mein ''Niederländisch'' verbessern?
+:[1] Das ''Niederländische'' ist mit dem Rheinischen verwandt.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|Nederlands}}
+*{{ar}}: [1] {{Üxx|ar|hūlandiya|هولندية}}
+*{{zh-tw}}: [1] {{Üxx|zh|Hélán yǔ|菏蘭語}}
+*{{zh-cn}}: [1] {{Üxx|zh|Hélán yǔ|菏兰语}}
+*{{da}}: [1] {{Ü|da|nederlandsk}}
+*{{en}}: [1] {{Ü|en|Dutch}}
+*{{et}}: [1] {{Ü|et|hollandi keel}}
+*{{fi}}: [1] {{Ü|fi|hollanti}}, {{Ü|fi|hollannin kieli}}
+*{{fr}}: [1] {{Ü|fr|néerlandais}}
+*{{el}}: [1] {{Üxx|el|Ollandiká|Ολλανδικά}} {{nPl.}}
+*{{he}}: [1] {{Üxx|he|holandit|הולנדית}}
+*{{hi}}: [1] {{Üxx|hi|Ḍaca bhāṣā|डच भाषा}}
+*{{id}}: [1] {{Ü|id|bahasa Belanda}}
+*{{ja}}: [1] {{Üxx|ja|''Oranda''-go|オランダ語}}
+|Ü-rechts=
+*{{ko}}: [1] {{Üxx|ko|Nedeollandeu-eo|네덜란드어}}
+*{{kw}}: [1] {{Ü|kw|Iseldiryek}}
+*{{nl}}: [1] {{Ü|nl|Nederlands}}
+*{{dsb}}: [1] {{Ü|dsb|nižozemšćina}}
+*{{se}}: [1] {{Ü|se|hollánddagiella}}
+*{{hsb}}: [1] {{Ü|hsb|nižozemšćina}}, {{Ü|hsb|hollandšćina}}
+*{{ru}}: [1] {{Üxx|ru|niderlandskij jazyk|нидерландский язык}}
+*{{sv}}: [1] {{Ü|sv|nederländska}}, {{Ü|sv|holländska}}
+*{{sl}}: [1] {{Ü|sl|nizozemščina}}
+*{{es}}: [1] {{Ü|es|neerlandés}}
+*{{cs}}: [1] {{Ü|cs|nizozemština}} {{f}}
+*{{tr}}: [1] {{Ü|tr|Hollandaca}}, {{Ü|tr|Flemenkçe}}
+*{{hu}}: [1] {{Ü|hu|Holland}}
+*{{fy}}: [1] {{Ü|fy|Nederlânsk}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Niederländische Sprache}}
+:[1] [[Wiktionary:Niederländisch]]
+:[1] {{Ref-Canoo|Niederländisch}}
+:[1] {{Ref-UniLeipzig|Niederländisch}}
+
+[[da:Niederländisch]]
+[[en:Niederländisch]]
+[[eu:Niederländisch]]
+[[fi:Niederländisch]]
+[[fr:Niederländisch]]
+[[hi:Niederländisch]]
+[[hu:Niederländisch]]
+[[hy:Niederländisch]]
+[[it:Niederländisch]]
+[[ko:Niederländisch]]
+[[ku:Niederländisch]]
+[[lb:Niederländisch]]
+[[lt:Niederländisch]]
+[[nah:Niederländisch]]
+[[nl:Niederländisch]]
+[[pl:Niederländisch]]
+[[ru:Niederländisch]]
+[[sv:Niederländisch]]
+[[tg:Niederländisch]]
+[[tr:Niederländisch]]
+[[zh:Niederländisch]]
+[[zh-min-nan:Niederländisch]]

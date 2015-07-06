@@ -1,0 +1,124 @@
+﻿{{Siehe auch|[[Dunkel]]}}
+== dunkel ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Adjektiv|Deutsch}} ===
+
+{{Deutsch Adjektiv Übersicht
+|Positiv=dunkel
+|Komparativ=dunkler
+|Superlativ=am dunkelsten
+}}
+
+{{Worttrennung}}
+:dun·kel, {{Komp.}} dunk·ler, {{Sup.}} am dun·kels·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈdʊŋkl̩}}, {{Lautschrift|ˈdʊŋkəl}}, {{Komp.}} {{Lautschrift|ˈdʊŋklɐ}}, {{Sup.}} {{Lautschrift|ˈdʊŋkl̩stn̩}}, {{Lautschrift|ˈdʊŋkəlstən}}
+:{{Hörbeispiele}} {{Audio|De-dunkel.ogg}}, {{Audio|De-at-dunkel.ogg|dunkel (österreichisch)}}, {{Komp.}} {{Audio|}}, {{Sup.}} {{Audio|}}
+:{{Reime}} {{Reim|ʊŋkl̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ohne oder wenig [[Licht]], [[lichtlos]]
+:[2] im [[Farbton]] mehr oder weniger kräftig
+:[3] ''[[Musik]], [[Stimme]]:'' tief tönend
+:[4] ''im übertragenen Sinne:'' [[unbestimmt]], [[ungewiss]]
+:[5] ''[[abwertend]]:'' verdächtig, zwielichtig
+:[6] düster, unerfreulich, trostlos
+:[7] ''[[Linguistik]]:'' [[Phonetik|phonetisches]] Merkmal der hinteren [[Vokal]]e
+
+{{Herkunft}}
+:althochdeutsch ''[[tunkal]],'' mittelhochdeutsch ''[[tunkel]]''
+
+{{Synonyme}}
+:[1] [[finster]]
+:[3] [[tief]]
+
+{{Gegenwörter}}
+:[1] [[hell]], [[licht]]
+:[2] [[blass]], [[pastell]]
+:[3, 7] [[hell]]
+
+{{Unterbegriffe}}
+:[1] [[halbdunkel]], [[stockdunkel]], [[tiefdunkel]]
+:[2] [[dunkelblau]], [[dunkelblond]], [[dunkelgrau]], [[dunkelgrün]], [[dunkelrot]]
+
+{{Beispiele}}
+:[1] Im Winter wird es früher ''dunkel.''
+:[2] Das ''dunkle'' Rot gefällt mir besser.
+:[3] Ihre Stimme hat eine ''dunkle'' Färbung.
+:[4] „Ich habe eine ''dunkle'' Ahnung...“
+:[5] Dieses Geld kommt aus ''dunklen'' Kanälen.
+:[6] Selbst in seiner ''dunkelsten'' Stunde verlor er nie den Lebensmut.
+:[7] [uː] und [oː] sind ''dunkle'' Vokale.
+:[7] „Neben der Klasse der hinteren (''dunklen'') und vorderen (hellen) Vokalphoneme tritt als dritte Klasse die der labialen vorderen Vokalphoneme, die in der Systemdarstellung zwischen den vorderen und hinteren angeordnet werden.“<ref>Gottfried Meinhold, Eberhard Stock: ''Phonologie der deutschen Gegenwartssprache.'' 2., durchgesehene Auflage. VEB Bibliographisches Institut, Leipzig 1982, Seite 95.</ref>
+
+{{Redewendungen}}
+:[[ein dunkler Punkt]]
+:[[ein Sprung ins Dunkle]]
+:[[dunkel wie im Arsch]]
+:[[im Dunkeln ist gut munkeln]]
+:[[im Dunkeln tappen]]
+
+{{Wortbildungen}}
+:[[Dunkel]], [[dunkeln]], [[Dunkelheit]], [[Dunkeladaption]], [[Dunkelfeld]], [[dunkelhäutig]], [[Dunkelkammer]], [[Dunkelreaktion]], [[Dunkelverarbeitung]], [[Dunkelziffer]],
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|dark}}, [7] {{Ü|en|grave}}
+*{{eo}}: [1] {{Ü|eo|malluma}}
+*{{fi}}: [1] {{Ü|fi|tumma}}
+*{{fr}}: [1] {{Ü|fr|foncé}}, {{Ü|fr|ténébreux}}, {{Ü|fr|sombre}}
+*{{ja}}: [1] {{Üxx|ja|くらい, kurai|暗い}}
+*{{ca}}: [1, 2] {{Ü|ca|fosc}}
+*{{lus}}:[1, 2] {{Ü|lus|thim}}, [5] {{Ü|lus|mûk}}
+*{{oc}}: [1, 2] {{Ü|oc|escur}}
+|Ü-rechts=
+*{{pl}}: [1, 2] {{Ü|pl|ciemny}}
+*{{sv}}: [1] {{Ü|sv|mörk}}, {{Ü|sv|skum}}; [2] {{Ü|sv|mörk-}}, {{Ü|sv|mörk}}, {{Ü|sv|dunkel}}; [3] {{Ü|sv|mörk}}; [4] {{Ü|sv|dunkel}}; [5] {{Ü|sv|dunkel}}, {{Ü|sv|skum}}; [6] {{Ü|sv|mörk}}, {{Ü|sv|dyster}}
+*{{es}}: [1] {{Ü|es|oscuro}} {{m}}, {{Ü|es|oscura}} {{f}}
+*{{cs}}: [1, 2] {{Ü|cs|tmavý}}; [3] {{Ü|cs|zvučný}}
+*{{tr}}: [1] {{Ü|tr|karanlık}}
+*{{hu}}: [1] {{Ü|hu|sötét}}
+|Dialekttabelle=
+*Bairisch: [?] [[dumpa]]
+|D-rechts=
+*Ostmitteldeutsch:
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|dunkel}}
+:[1, 4] {{Ref-Grimm|dunkel}}
+:[1–5] {{Ref-DWDS|dunkel}}
+:[1, 3, 4] {{Ref-Canoo|dunkel}}
+:[1, 2, 4–6] {{Ref-UniLeipzig|dunkel}}
+:[7] Hadumod Bußmann: ''Lexikon der Sprachwissenschaft.'' 3., aktualisierte und erweiterte Auflage. Kröner, Stuttgart 2002. Stichwort: „Dunkel vs. Hell“. ISBN 3-520-45203-0.
+:[7] Helmut Glück (Hrsg.), unter Mitarbeit von Friederike Schmöe: ''Metzler Lexikon Sprache.'' Dritte, neubearbeitete Auflage, Stichwort: „Dunkel“. Metzler, Stuttgart/ Weimar 2005. ISBN 978-3-476-02056-7.
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Dünkel]], [[Runkel]]
+
+[[ar:dunkel]]
+[[chr:dunkel]]
+[[el:dunkel]]
+[[en:dunkel]]
+[[et:dunkel]]
+[[eu:dunkel]]
+[[fi:dunkel]]
+[[fj:dunkel]]
+[[fr:dunkel]]
+[[hu:dunkel]]
+[[io:dunkel]]
+[[ja:dunkel]]
+[[ko:dunkel]]
+[[ku:dunkel]]
+[[mg:dunkel]]
+[[pl:dunkel]]
+[[pt:dunkel]]
+[[ru:dunkel]]
+[[sv:dunkel]]
+[[tl:dunkel]]
+[[tr:dunkel]]
+[[uz:dunkel]]
+[[vi:dunkel]]
+[[zh:dunkel]]

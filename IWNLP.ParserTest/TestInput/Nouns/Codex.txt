@@ -1,0 +1,26 @@
+﻿== Codex ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Codex
+|Nominativ Plural =die Codices
+|Genitiv Singular=des Codex
+|Genitiv Plural =der Codices
+|Dativ Singular=dem Codex
+|Dativ Plural =den Codices
+|Akkusativ Singular=den Codex
+|Akkusativ Plural =die Codices
+}}
+
+{{Alternative Schreibweisen}}
+:[[Kodex]]
+
+{{Beispiele}}
+:[4] „Die ''Codices'' wurden von Spezialisten abgefaßt - den Tlacuilos - und von Spezialisten interpretiert und vorgetragen - den Tlamatinis.“<ref>Harald Haarmann: ''Universalgeschichte der Schrift.'' Campus-Verlag, Frankfurt/New York 1990, Seite 45. ISBN 3-593-34346-0. </ref>
+:[4] „Dafür stößt er auf einen prächtigen, illustrierten ''Codex.''“<ref>Ernst Doblhofer: ''Die Entzifferung alter Schriften und Sprachen.'' Reclam, Stuttgart 1993, Seite 50. ISBN 3-15-008854-2.</ref>
+
+{{Quellen}}
+
+{{Lemmaverweis|Kodex}}
+
+[[ko:Codex]]

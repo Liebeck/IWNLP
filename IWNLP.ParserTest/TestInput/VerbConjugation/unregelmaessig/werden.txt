@@ -1,0 +1,5 @@
+﻿== werden (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Anmerkung}}
+:Als Hilfsverb lautet das Partizip Perfekt „worden“ und als Vollverb „geworden“!
+----
+{{Deutsch Verb unregelmäßig| 2=werd|3=wurde|4=würd|5=geworden|6=wir|7=e|8=in|Hilfsverb=sein|vp=nein|zp=nein|gerund=nein}}

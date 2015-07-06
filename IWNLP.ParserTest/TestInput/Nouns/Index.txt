@@ -1,0 +1,132 @@
+﻿== Index ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=der Index
+|Nominativ Singular 2=der Index
+|Nominativ Singular 3=der Index
+|Nominativ Plural 1=die Indizes<br />die Indices
+|Nominativ Plural 2=die Indexe
+|Genitiv Singular 1=des Index
+|Genitiv Singular 2=des Indexes
+|Genitiv Singular 3=des Indicis
+|Genitiv Plural 1=der Indizes<br />der Indices
+|Genitiv Plural 2=der Indexe
+|Dativ Singular 1=dem Index
+|Dativ Singular 2=dem Index<br />dem Indexe
+|Dativ Singular 3=dem Indici<br>dem Indice
+|Dativ Plural 1=den Indizes<br />den Indices<br>den Indicibus
+|Dativ Plural 2=den Indexen
+|Akkusativ Singular 1=den Index
+|Akkusativ Singular 2=den Index
+|Akkusativ Singular 3=den Indicem
+|Akkusativ Plural 1=die Indizes<br />die Indices
+|Akkusativ Plural 2=die Indexe
+}}
+
+{{Worttrennung}}
+:In·dex, {{Pl.1}} In·di·zes, In·di·ces, {{Pl.2}} In·de·xe (biologisch)
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈɪndɛks}}, {{Pl.1}} {{Lautschrift|ˈɪndiʦeːs}}, {{Pl.2}} {{Lautschrift|ˈɪndɛksə}}
+:{{Hörbeispiele}} {{Audio|De-at-Index.ogg|Index (österreichisch)}}, {{Pl.1}} {{Audio|De-at-Indizes.ogg|Indizes (österreichisch)}}, {{Pl.2}} {{Audio|De-at-Indexe.ogg|Indexe (österreichisch)}}
+
+{{Bedeutungen}}
+:[1] Register
+::[1a] alphabetisches Stichwortverzeichnis
+::[1b] graphische Übersicht (z.B. der Abdeckung eines Gebietes mit Kartenblättern)
+:[2] {{Kontext|Wirtschaft}} statistischer Messwert, der wirtschaftliche Veränderungen anzeigt
+:[3] hoch- oder tiefgestelltes Kennzeichen zur Unterscheidung
+::[3a] {{Kontext|Mathematik|Naturwissenschaft}} gleichartiger Größen
+::[3b] von Homographen o.&nbsp;Ä.
+:[4] {{Kontext|Medizin}} [[Zeigefinger]]
+:[5]  Liste(n) von [[Medien]] (Bücher, Filme, etc.), die nicht erscheinen dürfen
+:[6] {{Kontext|Linguistik}} Zeichen, das auf Individuen verweist
+:[7] {{Kontext|Linguistik}} Maßzahl für die typologische Charakterisierung einer Sprache
+:[8] Stundenangabe auf einem [[Zifferblatt]]; beispielsweise in Punkt- oder Strichform
+
+{{Herkunft}}
+:entlehnt von lateinisch ''{{Ü|la|index}}'' "[[Verzeichnis]], [[Register]], [[Katalog]]", dieses unter Einfluss von ''{{Ü|la|indicare}}'' "[[anzeigen]], [[bekanntmachen]]" zu ''{{Ü|la|indicere}}'' "[[ansagen]], [[bekanntmachen]]", zu ''{{Ü|la|dicere}}'' "[[sagen]], [[sprechen]]"
+
+{{Synonyme}}
+:[1a] [[Register]]
+:[1b] [[Kartenindex]], [[Indexblatt]]
+:[6] [[indexikalisches Zeichen]]
+
+{{Gegenwörter}}
+:[6] [[Ikon]], [[Symbol]]
+:[8] [[Zahl]], [[Ziffer]]
+
+{{Oberbegriffe}}
+:[6] [[Zeichen]]
+:[8] [[Zeichen]]
+
+{{Unterbegriffe}}
+:[2] [[Aktienindex]], [[Mode-Index]]
+:[3a] [[Vulkanexplosivitätsindex]]
+:[7] [[Synthese-Index]]
+
+{{Beispiele}}
+:[1] Alle relevanten Begriffe findest du im ''Index'' des Buches.
+:[1] „Meine Aufgabe war, einen mnemotechnischen ''Index'' zu meinem Inspirationsatlas zu entwickeln.“<ref>{{Literatur| Autor= Henry Miller |Titel= Sexus | Verlag= Rowohlt |Ort= Reinbek |Jahr = 1974 |ISBN= 3-498-09282-0 |Seiten= 299}}.</ref>
+:[5] Viele ge­walt­ver­herr­li­chende Videospiele stehen auf dem ''Index.''
+:[6] Namen wie "Peter" gehören zum Zeichentyp ''Index.''
+:[7] „Die ''Indizes'' von Greenberg-Krupa, durch die einige morphologische Eigenschaften numerisch ausgedrückt werden, sind folgende...“<ref>Gabriel Altmann, Werner Lehfeldt: ''Allgemeine Sprachtypologie. Prinzipien und Meßverfahren.'' Fink, München 1973, Seite 39. ISBN 3-7705-0938-2.</ref>
+
+{{Charakteristische Wortkombinationen}}
+:[5] auf dem Index stehen
+
+{{Wortbildungen}}
+:{{Wortbildung|Adjektive|:}} [6] [[indexikalisch]]
+:{{Wortbildung|Substantive|:}} [[Indexierung]]
+:{{Wortbildung|Adjektive|:}} [[indizieren]], [[indiziert]] sein
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{ar}}: [1] {{Üxx5|ar|dali:l(un)|دَلِيلٌ|دليل}} {{m}}
+*{{zh}}: [1] {{Üxx|zh|suǒyǐn|索引}}
+*{{en}}: [1] {{Ü|en|index}}
+*{{fr}}: [1] {{Ü|fr|index}}
+*{{it}}: [1] {{Ü|it|indice}}
+*{{la}}: [1] {{Ü|la|index}}
+*{{nl}}: [1] {{Ü|nl|index}}
+*{{no}}:
+*:{{nb}}: [1] {{Ü|nb|index}} {{m}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|indeks}}
+*{{pt}}: [1] {{Ü|pt|índice}}
+*{{ru}}: [1] {{Üxx|ru|indeks|индекс}}
+*{{sv}}: [1–3, 5-6] {{Ü|sv|index}} {{u}}; [4] {{Ü|sv|pekfinger}} {{n}}
+*{{es}}: [1] {{Ü|es|índice}}
+*{{tr}}: [1] {{Ü|tr|dizin}}, {{Ü|tr|indeks}}; [3] {{Ü|tr|endeks}}, {{Ü|tr|indis}}; [4] {{Ü|tr|işaret parmağı}}
+}}
+
+{{Referenzen}}
+:[1–6] {{Wikipedia|Index}}
+:[1a, 2, 3a, 5] {{Ref-DWDS|Index}}
+:[1] {{Ref-Canoo|Index}}
+:[2, 3a, 4] {{Ref-UniLeipzig|Index}}
+:[6] Hadumod Bußmann: ''Lexikon der Sprachwissenschaft.'' 3., aktualisierte und erweiterte Auflage. Kröner, Stuttgart 2002. Stichwort: „Index“. ISBN 3-520-45203-0.
+:[6] Helmut Glück (Hrsg.), unter Mitarbeit von Friederike Schmöe: ''Metzler Lexikon Sprache.'' Dritte, neubearbeitete Auflage, Stichwort: „Index“. Metzler, Stuttgart/ Weimar 2005. ISBN 978-3-476-02056-7.
+:[6] Theodor Lewandowski: ''Linguistisches Wörterbuch''. 4., neu bearbeitete Auflage Quelle & Meyer, Heidelberg 1985, Stichwort: „Index“. ISBN 3-494-02050-7.
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[indem]], [[Inder]], [[indes]]
+
+[[Kategorie:Fremdwort]]
+
+[[chr:Index]]
+[[en:Index]]
+[[fi:Index]]
+[[fr:Index]]
+[[hu:Index]]
+[[io:Index]]
+[[ko:Index]]
+[[mg:Index]]
+[[pl:Index]]
+[[ru:Index]]
+[[sv:Index]]
+[[tr:Index]]
+[[zh:Index]]

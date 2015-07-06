@@ -1,0 +1,53 @@
+﻿== irgendwelche ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Indefinitpronomen|Deutsch}}, {{m}}, {{f}}, {{n}} ===
+
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=irgendwelcher
+|Wer oder was? (Einzahl f)=''irgendwelche''
+|Wer oder was? (Einzahl n)=irgendwelches
+|Wer oder was? (Mehrzahl)=''irgendwelche''
+|Wessen? (Einzahl m)=irgendwelches</br>irgendwelchen
+|Wessen? (Einzahl f)=irgendwelcher
+|Wessen? (Einzahl n)=irgendwelches</br>irgendwelchen
+|Wessen? (Mehrzahl)=irgendwelcher
+|Wem? (Einzahl m)=irgendwelchem
+|Wem? (Einzahl f)=irgendwelcher
+|Wem? (Einzahl n)=irgendwelchem
+|Wem? (Mehrzahl)=irgendwelchen
+|Wen? (Einzahl m)=irgendwelchen
+|Wen? (Einzahl f)=''irgendwelche''
+|Wen? (Einzahl n)=irgendwelches
+|Wen? (Mehrzahl)=''irgendwelche''
+}}
+
+{{Worttrennung}}
+:ir·gend·wel·che, {{Pl.}} ir·gend·wel·che
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈɪʁɡn̩tˌvɛlçə}}, {{Pl.}} {{Lautschrift|ˈɪʁɡn̩tˌvɛlçə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] etwas mit bestimmten, aber nicht näher spezifizierten Eigenschaften
+
+{{Beispiele}}
+:[1] Hast du schon ''irgendwelche'' Prominenten getroffen?
+:[1] Da vorne stehen ''irgendwelche'' Bäume. Kannst du erkennen, um welche Art es sich handelt?
+:[1] „Wenn ich sehr schnell gefahren bin, sind mir immerzu ''irgendwelche'' Viecher ins Gesicht und manchmal sogar direkt ins Auge geflogen.“<ref>{{Literatur | Autor= Hanns-Josef Ortheil | Titel= Die Moselreise | TitelErg= Roman eines Kindes| Auflage= 1. | Verlag= btb Verlag | Ort= München |Jahr= 2012| Seiten= 139.|ISBN= 978-3-442-74417-6}} Entstanden 1963.</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|irgendwelche}}
+:[1] {{Ref-Duden|irgendwelch}}
+:[1] {{Ref-Canoo|irgendwelche}}
+
+{{Quellen}}
+
+[[br:irgendwelche]]
+[[pl:irgendwelche]]

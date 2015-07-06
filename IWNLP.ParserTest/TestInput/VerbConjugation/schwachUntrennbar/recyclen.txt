@@ -1,0 +1,19 @@
+﻿== recyclen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb schwach untrennbar|recy|c|l|e|n|recyclet|2. Singular Imperativ Präsens Aktiv=recycle
+|2. Plural Imperativ Präsens Aktiv=recyclet
+|2. Singular Indikativ Präsens Aktiv=recyclest
+|3. Singular Indikativ Präsens Aktiv=recyclet
+|2. Plural Indikativ Präsens Aktiv=recyclet
+|1. Singular Indikativ Präteritum Aktiv=recyclete
+|1. Singular Konjunktiv Präteritum Aktiv=recyclete
+|2. Singular Indikativ Präteritum Aktiv=recycletest
+|2. Singular Konjunktiv Präteritum Aktiv=recycletest
+|3. Singular Indikativ Präteritum Aktiv=recyclete
+|3. Singular Konjunktiv Präteritum Aktiv=recyclete
+|1. Plural Indikativ Präteritum Aktiv=recycleten
+|1. Plural Konjunktiv Präteritum Aktiv=recycleten
+|2. Plural Indikativ Präteritum Aktiv=recycletet
+|2. Plural Konjunktiv Präteritum Aktiv=recycletet
+|3. Plural Indikativ Präteritum Aktiv=recycleten
+|3. Plural Konjunktiv Präteritum Aktiv=recycleten
+}}

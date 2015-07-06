@@ -1,0 +1,56 @@
+﻿== Deichgraf ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Deichgraf
+|Nominativ Plural=die Deichgrafen
+|Genitiv Singular=des Deichgrafen<br />des Deichgrafs<ref>Die Form ist heute ungebräuchlich, kommt aber insbesondere bei Theodor Storm vor: [http://books.google.de/books?id=Y6Vq0aZcVmYC&pg=PA94&dq=Deichgrafs&as_brr=3&client=firefox-a Der Schimmelreiter]</ref>
+|Genitiv Plural=der Deichgrafen
+|Dativ Singular=dem Deichgrafen
+|Dativ Plural=den Deichgrafen
+|Akkusativ Singular=den Deichgrafen
+|Akkusativ Plural=die Deichgrafen
+}}
+
+{{Worttrennung}}
+:Deich·graf, {{Pl.}} Deich·gra·fen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈdaɪ̯çˌɡʀaːf}}, {{Pl.}} {{Lautschrift|ˈdaɪ̯çˌɡʀaːfn̩}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] „Der Deichgraf ist der Vorsteher eines Deichverbandes; dieser errichtete die Deiche und hält sie instand.“<ref name="db"> Deutsche Bahn (DB): Faltblatt: Ihr Reiseplan IC 2314 ''Deichgraf'' von Westerland (Sylt) nach Stuttgart, gültig ab August 2008 </ref>
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus den Substantiven ''[[Deich]]'' und ''[[Graf]]''
+
+{{Synonyme}}
+:[1] [[Deichgräf]], [[Deichhauptmann]], [[Deichvorsteher]]
+
+{{Beispiele}}
+:[1] „Eine zentrale Figur in [[w:Theodor Storm|Theodor Storms]] Erzählung »Der Schimmelreiter« ist der ''Deichgraf'' Hauke Hansen.“ <ref name="db"/>
+:[1] „Meine Mutter schüttelte den Kopf, und der ''Deichgraf'', den massigen Oberkörper über den Tisch beugend: Er muß einschreiten, Jens muß da einschreiten.“<ref>{{Literatur|Autor= Siegfried Lenz|Titel=Die Deutschstunde|TitelErg =Roman|Verlag=C. W. Niemeyer|Ort=Hameln|Jahr= 1989|ISBN= 3-87585-884-0}}, Seite 245. Erstveröffentlichung 1968.</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Deichgraf}}
+:[1] {{Ref-Grimm|Deichgraf}}
+:[1] {{Ref-DWDS|Deichgraf}}
+:[1] {{Ref-Canoo|Deichgraf}}
+:[1] {{Ref-UniLeipzig|Deichgraf}}
+
+{{Quellen|}}
+
+{{Ähnlichkeiten}}
+:[[Deichgräf]]
+
+[[ko:Deichgraf]]

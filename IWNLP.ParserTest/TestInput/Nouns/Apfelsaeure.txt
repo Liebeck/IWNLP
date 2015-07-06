@@ -1,0 +1,25 @@
+﻿== Apfelsäure ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Apfelsäure
+|Nominativ Plural= —
+|Genitiv Singular=der Apfelsäure
+|Genitiv Plural= —
+|Dativ Singular=der Apfelsäure
+|Dativ Plural= —
+|Akkusativ Singular=die Apfelsäure
+|Akkusativ Plural= —
+}}
+
+{{Worttrennung}}
+:Ap·fel·säu·re, {{kPl.}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|Apfelsäure}}
+
+{{Lemmaverweis|Äpfelsäure}}
+
+[[io:Apfelsäure]]
+[[ko:Apfelsäure]]
+[[sv:Apfelsäure]]

@@ -1,0 +1,128 @@
+﻿== Teppich ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Teppich
+|Nominativ Plural=die Teppiche
+|Genitiv Singular=des Teppichs<br />{{va.|:}} des Teppiches
+|Genitiv Plural=der Teppiche
+|Dativ Singular=dem Teppich<br />{{va.|:}} dem Teppiche
+|Dativ Plural=den Teppichen
+|Akkusativ Singular=den Teppich
+|Akkusativ Plural=die Teppiche
+|Bild=Hamedan rug.JPG|200px|1|Teppich
+}}
+
+{{Worttrennung}}
+:Tep·pich, {{Pl.}} Tep·pi·che
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈtɛpɪç}}, {{Pl.}} {{Lautschrift|ˈtɛpɪçə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|ɛpɪç|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Fußbodenbelag aus [[Stoff]]
+:[2] Wandschmuck aus [[Stoff]]
+:[3] ''pfälzisch, schwäbisch:'' dünne Stoffdecke, Sofadecke
+
+{{Herkunft}}
+:Mittelhochdeutsch ''tep[p]ich,'' althochdeutsch ''tep[p]ih,'' von gleichbedeutend lateinisch {{Ü|la|tapetum}}. Weitere Herkunft: über griechisch (''tápes,'' ''tápīs'') wohl aus südasiatischen Sprachen entlehnt.<ref>{{Lit-Duden: Herkunftswörterbuch|A=3}}: „Teppich“, Seite 843</ref>
+
+{{Synonyme}}
+:[1] [[Matte]], [[Bodenbelag]]
+
+{{Oberbegriffe}}
+:[1] [[Bodenbelag]]; [[Textilie]], [[Einrichtungsgegenstand]], [[Möbelstück]], [[Innenarchitektur]], [[Architektur]], [[Kultur]]
+:[2] [[Wandbehang]]
+:[3] [[Stoffdecke]], [[Sofadecke]]
+
+{{Unterbegriffe}}
+:[1] [[Bettvorleger]], [[Brücke]], [[Flickenteppich]], [[Gebetsteppich]], [[Läufer]], [[Perserteppich]], [[Umrahmung]], [[Gobelin]]
+
+{{Beispiele}}
+:[1] Ich muss heute noch den ''Teppich'' ausklopfen.
+:[1] Für den Präsidenten wurde ein roter ''Teppich'' ausgerollt.
+:[3] Mir ist es ein bisschen kalt, gibst du mir bitte den ''Teppich?''
+
+{{Redewendungen}}
+:[1] [[auf dem Teppich bleiben]] (sachlich/realistisch bleiben)
+:[1] etwas [[unter den Teppich kehren]] (etwas verbergen)
+
+{{Charakteristische Wortkombinationen}}
+:[1] der [[fliegende Teppich]]
+:[1] der [[rote Teppich]]
+
+{{Wortbildungen}}
+:[[Bombenteppich]], [[Gebetsteppich]], [[Ölteppich]], [[Teppichboden]], [[Teppichfliese]], [[Teppichhändler]], [[Teppichkehrer]], [[Teppichkehrmaschine]], [[Teppichklopfer]], [[Teppichknüpfer]], [[Teppichstange]], [[Teppichhändler]], [[Wandteppich]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{bg}}: [1] {{Üt|bg|килим|kilim}}
+*{{zh}}: [1] {{Üt|zh|地毯|dìtǎn}}
+*{{da}}: [1] {{Ü|da|tæppe}}
+*{{en}}: [1] {{Ü|en|carpet}}
+*{{eo}}: [1] {{Ü|eo|tapiŝo}}
+*{{fi}}: [1] {{Ü|fi|matto}}
+*{{fr}}: [1] {{Ü|fr|tapis}}
+*{{id}}: [1] {{Ü|id|karpet}}
+*{{it}}: [1] {{Ü|it|tappeto}} {{m}}; [2] (Wand) {{Ü|it|arazzo}} {{m}}
+*{{ja}}: [1] {{Üt|ja|絨毯|じゅうたん, jūtan}}, {{Üt|ja|カーペット|kāpetto}}
+*{{la}}: [1] {{Ü|la|stragulum}}, {{Ü|la|tapetum}}
+|Ü-rechts=
+*{{mi}}: [1] {{Ü|mi|kâpeti}}
+*{{nl}}: [1] {{Ü|nl|tapijt}}, {{Ü|nl|vloerkleed}}
+*{{pl}}: [1] {{Ü|pl|dywan}}
+*{{pt}}: [1] {{Ü|pt|tapete}} {{m}}
+*{{ru}}: [1] {{Üt|ru|ковёр|kowjór}}
+*{{sv}}: [1] {{Ü|sv|matta}}
+*{{sr}}: [1] {{Üt|sr|тепих|tepih}}, {{Üt|sr|ћилим|ćilim}}
+*{{es}}: [1] (Boden) {{Ü|es|alfombra}}; [2] (Wand) {{Ü|es|tapiz}}
+*{{cs}}: [1, 2] {{Ü|cs|koberec}}
+*{{tr}}: [1] (Gebetsteppich) {{Ü|tr|kilim}}
+*{{hu}}: [1] {{Ü|hu|szőnyeg}}
+|Dialekttabelle=
+*Alemannisch:
+*Bairisch:
+|D-rechts=
+*{{nds}}:
+*Schwäbisch: Debbich
+*Thüringisch-Obersächsisch: Debbsch
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Teppich}}
+:[1, 2] {{Ref-DWDS|Teppich}}
+:[1] {{Ref-Canoo|Teppich}}
+:[1, 2] {{Ref-UniLeipzig|Teppich}}
+:[1, 2] {{Ref-FreeDictionary|Teppich}}
+:[1] {{Ref-Duden|Teppich}}
+:[1, 2] {{Ref-wissen.de|Wörterbuch|Teppich}}
+:[1, 2] {{Ref-wissen.de|Lexikon|Teppich}}
+:[3] {{Wikipedia|Schwäbischer Dialekt#Wortschatz|Schwäbischer Dialekt}}
+:[1, 2] {{Ref-Adelung|Teppich}}
+:[*] {{Literatur | Autor=Heinrich Braun | Titel=Deutsch-orthographisches Wörterbuch | TitelErg=sammt einem Verzeichniße, wie man die ausländischen Wörter, die zum öftesten vorkommen, gut deutsch geben könne | Verlag=akademischer Bücherverlag | Ort=München | Jahr=1767 | Seiten=218 | Online=[http://books.google.de/books?id=QJdEAAAAcAAJ&hl=de&pg=PA218#v=onepage&q&f=false Google Books] | Zugriff=2015-03-18}}
+
+{{Quellen}}
+
+[[ca:Teppich]]
+[[chr:Teppich]]
+[[cs:Teppich]]
+[[en:Teppich]]
+[[fi:Teppich]]
+[[fr:Teppich]]
+[[hr:Teppich]]
+[[hu:Teppich]]
+[[io:Teppich]]
+[[it:Teppich]]
+[[ko:Teppich]]
+[[ku:Teppich]]
+[[mg:Teppich]]
+[[no:Teppich]]
+[[pl:Teppich]]
+[[pt:Teppich]]
+[[ru:Teppich]]
+[[sv:Teppich]]
+[[th:Teppich]]
+[[tr:Teppich]]
+[[zh:Teppich]]

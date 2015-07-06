@@ -1,0 +1,59 @@
+﻿== piken ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=pike
+|Gegenwart_du=pikst
+|Gegenwart_er, sie, es=pikt
+|1.Vergangenheit_ich=pikte
+|Partizip II=gepikt
+|Konjunktiv II_ich=pikte
+|Imperativ Singular=pik!, pike!
+|Imperativ Plural=pikt!
+|Hilfsverb=haben
+|Weitere_Konjugationen=piken (Konjugation)
+}}
+
+{{Worttrennung}}
+:pi·ken, {{Prät.}} pik·te, {{Part.}} ge·pikt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|piːkən}}, {{Prät.}} {{Lautschrift|piːktə}}, {{Part.}} {{Lautschrift|ɡəpiːkt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|iːkn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[punktuell]] mit einer Spitze leichten Schmerz zufügen
+
+{{Synonyme}}
+:[1] [[piksen]], [[stechen]]
+
+{{Beispiele}}
+:[1] Der Kaktus ''pikt'' ganz schön.
+
+{{Sprichwörter}}
+:[1] [[wer nie sein Brot im Bette aß, weiß nicht, wie Krümel piken]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{sv}}: [1] {{Ü|sv|sticka}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|piken}}
+:[1] {{Ref-Duden|piken}}
+:[1] {{Ref-Canoo|piken}}
+:[1] {{Ref-UniLeipzig|piken}}
+:[1] {{Ref-FreeDictionary|piken}}
+
+{{Ähnlichkeiten}}
+:[[picken]], [[biegen]], [[büken]]
+
+[[en:piken]]
+[[io:piken]]
+[[sv:piken]]
+[[zh:piken]]

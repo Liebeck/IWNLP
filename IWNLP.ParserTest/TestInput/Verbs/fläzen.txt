@@ -1,0 +1,61 @@
+﻿== fläzen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=fläze
+|Gegenwart_du=fläzt<br />fläzest
+|Gegenwart_er, sie, es=fläzt
+|1.Vergangenheit_ich=fläzte
+|Partizip II=gefläzt
+|Konjunktiv II_ich=fläzte
+|Imperativ Singular=fläz(e)!
+|Imperativ Plural=fläzt!
+|Hilfsverb=haben
+|Weitere_Konjugationen=fläzen (Konjugation)
+}}
+
+{{Worttrennung}}
+:flä·zen, {{Prät.}} fläz·te, {{Part.}} ge·fläzt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈflɛːʦn̩}}, {{Prät.}} {{Lautschrift|ˈflɛːʦtə}}, {{Part.}} {{Lautschrift|ɡəˈflɛːʦt}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Reime}} {{Reim|ɛːʦn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{ugs.|:}} sich unmanierlich entspannt hinlegen; in nachlässiger Haltung halb sitzen, halb liegen; sich halb setzen, halb legen
+
+{{Herkunft}}
+:von [[Fläz]] „grober, flegelhafter Mensch“, zuerst 1611 bei [[w:Christoph Helvig|Christoph Helvig]], abgeleitet vom Namen des Theologen und Polemikers [[w:Matthias Flacius|Matthias Flacius]]<ref>Meyers Großes Konversations-Lexikon, Band 6. Leipzig 1906, S. 667: Eintrag [http://www.zeno.org/Meyers-1905/A/Fl%C3%A4z „Fläz“]</ref>
+
+{{Sinnverwandte Wörter}}
+:[1] sich [[hinlümmeln]], [[hinflegeln]]
+
+{{Beispiele}}
+:[1] Die Lagerleiter ''fläzten'' sich auf ihre Matten, anstatt zu arbeiten.
+:[1] Wie schön, wenn man sich zu Hause ganz ungeniert vor den Fernseher ''fläzen'' kann.
+:[1] Sich auf dem Stuhl ''fläzend,'' eine Kippe im Mundwinkel, bot er das beabsichtigte provokative Bild.
+
+{{Charakteristische Wortkombinationen}}
+:[1] sich auf die [[Couch]] ''fläzen,'' sich auf einen [[Stuhl]] ''fläzen,'' sich in einen [[Sessel]] ''fläzen,'' sich ins [[Sofa]] ''fläzen,'' sich vor den [[Fernseher]] ''fläzen''
+
+{{Wortbildungen}}
+:[[fläzig]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|flop}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{sv}}: [1] {{Ü|sv|fläka ut sig}} (ugs.)
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|fläzen}}
+:[1] {{Ref-Canoo|fläzen}}
+:[1] {{Ref-UniLeipzig|fläzen}}
+
+{{Quellen}}
+
+[[ko:fläzen]]

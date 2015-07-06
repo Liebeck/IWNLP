@@ -1,0 +1,2 @@
+﻿== Rad fahren (Konjugation), Hilfsverb sein ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|Rad&nbsp;|2=fahr|3=fuhr|4=führ|5=gefahren|6=fähr|Hilfsverb=sein|vp=es_wird|zp=nein|gerund=nein|Wv=ja}}

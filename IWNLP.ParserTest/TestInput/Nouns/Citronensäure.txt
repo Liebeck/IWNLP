@@ -1,0 +1,24 @@
+﻿== Citronensäure ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Citronensäure
+|Nominativ Plural=—
+|Genitiv Singular=der Citronensäure
+|Genitiv Plural=—
+|Dativ Singular=der Citronensäure
+|Dativ Plural=—
+|Akkusativ Singular=die Citronensäure
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:Ci·tro·nen·säu·re, {{kPl.}}
+
+{{Grammatische Merkmale}}
+*Alternative Schreibweise von [[Zitronensäure]]
+
+{{Lemmaverweis|Zitronensäure}}
+
+[[ru:Citronensäure]]
+[[sv:Citronensäure]]

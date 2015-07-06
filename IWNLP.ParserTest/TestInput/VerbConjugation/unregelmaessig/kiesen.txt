@@ -1,0 +1,7 @@
+﻿== kiesen (Konjugation), unregelmäig ({{Verbkonjugation|Deutsch}}) ==
+{{Anmerkung}}
+:Die Formen „Imperativ Präsens Aktiv“ sowie „Indikativ und Konjunktiv Präsens Aktiv“ sind ungebräuchlich!
+{{Deutsch Verb unregelmäßig|2=kies|3=kor|4=kör|5=gekoren|7=-s|vp=ja|zp=ja|gerund=nein}}
+{{----}}
+== kiesen (Konjugation), regelmäßig ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb schwach untrennbar|ki|e|s|e|n|gekiest|vp=vp3|zp=zp3|gerund=}}

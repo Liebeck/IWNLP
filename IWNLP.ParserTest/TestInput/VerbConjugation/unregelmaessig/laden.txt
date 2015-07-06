@@ -1,0 +1,3 @@
+﻿== laden (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Abgeleitete Verben|[[abladen]], [[aufladen]], [[entladen]], [[überladen]], [[verladen]], [[zuladen]]}}
+{{Deutsch Verb unregelmäßig|2=lad|3=lud|4=lüd|5=geladen|6=läd|7=e|vp=sie_werden|zp=sie_sind|gerund=ja|Indikativ Präteritum Aktiv Alternativform (du)=ludest}}

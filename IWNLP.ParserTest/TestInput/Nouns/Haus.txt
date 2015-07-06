@@ -1,0 +1,270 @@
+﻿{{Wort der Woche|46|2006}}
+== Haus ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Haus
+|Nominativ Plural=die Häuser
+|Genitiv Singular=des Hauses
+|Genitiv Plural=der Häuser
+|Dativ Singular=dem Haus&lt;br /&gt;dem Hause
+|Dativ Plural=den Häusern
+|Akkusativ Singular=das Haus
+|Akkusativ Plural=die Häuser
+|Bild 1=Schiller Weimar.jpg|mini|1|[[w:Friedrich von Schiller|Schiller]]-''Haus'' in Weimar
+|Bild 2=Auenstein-fachwerk2.jpg|mini|1|ein ''Haus'' in Fachwerkbauweise
+|Bild 3=Wiki pogodinskaya izba moscow.jpg|mini|1|aus Holz gebautes ''Haus'' in Russland
+|Bild 4=Leamouth riverside building 1.jpg|mini|1|ein ''Haus'' im modernen Baustil
+}}
+
+{{Worttrennung}}
+:Haus, {{Pl.}} Häu·ser
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|haʊ̯s}}, {{Pl.}} {{Lautschrift|ˈhɔɪ̯zɐ}}
+:{{Hörbeispiele}} {{Audio|De-Haus.ogg|Haus‎}}, {{Pl.}} {{Audio|De-Häuser.ogg|Häuser‎}}
+:{{Reime}} {{Reim|aʊ̯s|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[Gebäude]], [[Räumlichkeit]], [[Unterkunft]]
+:[2] die [[Gemeinschaft]] der [[Mensch]]en, die unter einem Dach zusammen leben, wohnen oder arbeiten
+:[3] der [[Unterhaltung]] dienendes Gebäude
+:[4] {{Kontext|Astrologie}} [[Tierkreiszeichen]]
+:[5] Herrscherhaus
+:[6] [[Firma]], [[Unternehmen]]
+:[7] {{scherzh.}} [[Freund]]
+:[8] {{ugs.|:}} Gehäuse der [[Schnecke]]
+:[9] Gasthaus oder [[Gaststätte]]
+
+{{Herkunft}}
+:{{gmh.}}, {{goh.}} ''hūs,'' wie gotisch ''-hūs,'' von germanisch ''*hūsa'' „Haus“. Weitere Herkunft unklar. Das Wort ist seit dem 8. Jahrhundert belegt.&lt;ref&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Haus“, Seite 397.&lt;/ref&gt;
+
+{{Synonyme}}
+:[3] [[Etablissement]]
+:[5] [[Herrscherhaus]]
+:[8] [[Schneckenhaus]]
+:[9] [[Gasthaus]]
+
+{{Sinnverwandte Wörter}}
+:[5] [[Adelshaus]], [[Fürstenhaus]], [[Königshaus]]
+:[9] [[Gaststätte]], [[Restaurant]]
+
+{{Verkleinerungsformen}}
+:[1] [[Häuschen]], [[Häuslein]], [[Häusel]], [[Häusl]], [[Häusle]]
+
+{{Oberbegriffe}}
+:[1] [[Bauwerk]], [[Gebäude]], [[Liegenschaft]]
+:[2] [[Gemeinschaft]], [[Gesellschaft]]
+:[3] [[Unterhaltung]]
+:[4] [[Geburtsbild]]
+:[5] [[Monarchie]]
+:[6] [[Firma]], [[Wirtschaft]]
+:[7] [[Freund]], [[Mensch]]
+
+{{Unterbegriffe}}
+:[1] [[Amtshaus]], [[Ärztehaus]], [[Badehaus]], [[Bauernhaus]], [[Blockhaus]], [[Bürohaus]], [[Fachwerkhaus]], [[Farmhaus]], [[Fertighaus]], [[Führerhaus]], [[Gartenhaus]], [[Geburtshaus]], [[Geschäftshaus]], [[Gutshaus]], [[Haupthaus]], [[Heimathaus]], [[Heizhaus]], [[Herrenhaus]], [[Hinterhaus]], [[Holzhaus]], [[Irrenhaus]], [[Kartenhaus]], [[Kühlhaus]], [[Kurhaus]], [[Lagerhaus]], [[Landhaus]], [[Langhaus]], [[Lehmhaus]], [[Leichenschauhaus]], [[Mehrgenerationenhaus]], [[Nebenhaus]], [[Niedrigenergiehaus]], [[Pfarrhaus]], [[Privathaus]], [[Punkthaus]], [[Puppenhaus]], [[Reihenhaus]], [[Rundhaus]], [[Schutzhaus]], [[Stadthaus]], [[Steinhaus]], [[Strandhaus]], [[Sudhaus]], [[Tierschutzhaus]], [[Traumhaus]], [[Treppenhaus]], [[Vorderhaus]], [[Wikingerhaus]], [[Wohnhaus]]
+:[3] [[Ballhaus]], [[Festspielhaus]], [[Freudenhaus]], [[Hurenhaus]], [[Konzerthaus]], [[Laufhaus]],  [[Lichtspielhaus]], [[Opernhaus]], [[Spielhaus]], [[Theaterhaus]]
+:[4] [[Fische]], [[Jungfrau]], [[Krebs]], [[Löwe]], [[Schütze]], [[Skorpion]], [[Steinbock]], [[Stier]], [[Waage]], [[Wassermann]], [[Widder]], [[Zwillinge]]
+:[4] [[Erstes Haus]], [[Zweites Haus]], [[Drittes Haus]], [[Viertes Haus]], [[Fünftes Haus]], [[Sechstes Haus]], [[Siebentes Haus]], [[Achtes Haus]], [[Neuntes Haus]], [[Zehntes Haus]], [[Elftes Haus]], [[Zwölftes Haus]]
+:[6] [[Autohaus]], [[Aktionshaus]], [[Auktionshaus]], [[Bankhaus]], [[Brauhaus]], [[Einrichtungshaus]], [[Freudenhaus]], [[Gästehaus]], [[Gartenhaus]], [[Handelshaus]], [[Kaffeehaus]], [[Kaufhaus]], [[Kulturhaus]], [[Medienhaus]], [[Möbelhaus]], [[Modehaus]], [[Parkhaus]], [[Radiohaus]], [[Schlachthaus]], [[Schuhhaus]], [[Versandhaus]], [[Versteigerungshaus]], [[Warenhaus]], [[Weinhaus]], [[Wirtshaus]]
+
+{{Beispiele}}
+:[1] Das ''Haus'' steht im Grünen.
+:[1] Kommst du mit nach ''Hause?''
+:[1] Mein ''Haus'' wird gerade renoviert.
+:[1] Sie ist durchaus in der Lage, ein großes ''Haus'' zu führen ''(z.B. als Hauswirtschafterin)''.
+:[2] Sie kam aus gutem ''Hause.''
+:[2] Dies ist ein ehrenwertes ''Haus.''
+:[3] Er ist durchaus in der Lage, ein großes ''Haus'' zu leiten ''(z.B. als Intendant)''.
+:[4] Jedes der zwölf astrologischen ''Häuser'' entspricht einem bestimmten Bereich des alltäglichen Lebens, auf denen die Energie eines Planeten zum Ausdruck kommt.
+:[5] Man sieht es ihm nicht an, aber er kommt aus einem königlichen ''Haus.''
+:[6] „Tut mir Leid, aber der Chef ist gerade nicht im ''Hause.'' Kann ich ihm etwas ausrichten?“
+:[7] Na, altes ''Haus,'' wie geht's?
+:[8] Die Schnecke trägt ihr ''Haus'' mit sich.
+:[9] Dieses Gericht ist eine Spezialität des ''Hauses.''
+:[9] Das geht auf Kosten des ''Hauses.''
+
+{{Redewendungen}}
+:[1] [[Haus und Hof]] ([[versaufen]], [[verspielen]], [[vertrinken]]); ''Haus'' und [[Herd]]; ''Haus'' der offenen Tür; frei ''Haus''; ''Häuser'' auf jemanden bauen; das / sein ''Haus'' bestellen; jemandem das ''Haus'' [[einlaufen]] / [[einrennen]]; jemandem das ''Haus'' verbieten; ein großes / offenes ''Haus'' führen; das ''Haus'' hüten; mit der Tür ins ''Haus'' fallen; etwas steht (jemandem) ins ''Haus''; jemandem ins ''Haus'' geschneit kommen / [[platzen]] / [[schneien]]; komm du (mir) nur nach ''Hause!''; sich über die ''Häuser'' [[hauen]]; um die ''Häuser'' ziehen; von ''Haus(e)'' aus; auf einem [[Gebiet]] / in etwas zu ''Hause'' sein; nach [[Art]] des ''Hauses''; [[die Axt im Haus erspart den Zimmermann]] (die [[Ehescheidung]] / den [[Scheidungsrichter]]); der Herr im ''Hause'' sein; wenn die [[Katze]] aus dem ''Haus'' ist, [[tanzen]] die Mäuse (auf dem Tisch); hinter dem [[Mond]] zu ''Hause'' sein; du hast wohl deinen Mund zu ''Hause'' [[gelassen]]?; ein öffentliches ''Haus''; [[Postkarte]] genügt, komme ins ''Haus''; seine [[Schussstiefel]] zu ''Hause'' gelassen haben; [[bar]] auf den [[Tisch]] des ''Hauses''; auf den Tisch des ''Hauses'' kommen; etwas auf den Tisch des ''Hauses'' legen; sich ([[ganz]]) wie zu ''Hause'' [[fühlen]]; von ''Haus'' zu ''Haus''; Ist der schwarze Mann zu / im ''Haus?'' ([[Einleitungssatz]] eines Kinderspiels)
+
+{{Sprichwörter}}
+:Die Axt im ''Haus'' erspart den Zimmermann.
+:Ein ''Haus'' ist leichter angezündet als gelöscht.
+:Ein ''Haus'' kann nicht zwei Hunde nähren.
+:Es ist kein ''Haus'' ohn' eine Maus.
+:Lässt du einen ins ''Haus'' kommen, er kommt dir bald in die Stube.
+:Mein ''Haus'' ist mein Schloss. (''englisch:'' My home is my castle.)
+:Narren bauen ''Häuser'' und Weise kaufen sie.
+:Nord, Ost, Süd, West, | Zu ''Haus'' ist's am best.
+:Was du hast in deinem ''Haus,'' | das plaudre nicht vor Herren aus.
+
+{{Charakteristische Wortkombinationen}}
+:[1] ein abbruchreifes / abgelegenes / altes / armseliges / baufälliges / eingestürztes / einsames / einsturzgefährdetes / festes / großes / hässliches / hellhöriges / kleines / mehrstöckiges / modernes / schmales / sauberes / schönes / stilles / stilvolles / unterkellertes / väterliches / verkommenes / verwinkeltes / verwittertes / weißes ''Haus''; ein ''Haus'' [[abbrechen]] / [[abreißen]] / [[anstreichen]] / [[bauen]] / [[besetzen]] / [[besichtigen]] / [[besitzen]] / [[betreten]] / [[bewohnen]] / [[beziehen]] / [[eindecken]] / [[einreißen]] / [[einrichten]] / [[einrüsten]] / [[erben]] / [[errichten]] / [[gewinnen]] / [[kaufen]] / [[mieten]] / [[niederreißen]] / [[renovieren]] / [[restaurieren]] / [[streichen]] / [[umbauen]] / [[unterkellern]] / [[vererben]] / [[verkaufen]] / [[vermieten]] / [[verputzen]]; in ein ''Haus'' [[einziehen]] / [[gehen]] / [[treten]] / [[ziehen]]; in ein ''Haus'' [[eindringen]]; ([[täglich]]) ([[um]] ... [[Uhr]]) aus dem ''Haus'' gehen / [[müssen]]; das ''Haus'' ([[immer]] / [[manchmal]] / [[regelmäßig]] / [[stets]] um ... Uhr [[verlassen]]; aus einem ''Haus'' [[ausziehen]] / [[kommen]]; von ''Haus'' zu ''Haus'' gehen / laufen / ziehen; (sich) ein ''Haus'' [[ansehen]] / [[aussuchen]]; zu ''Hause'' arbeiten / [[bleiben]] / [[schlafen]] / sein; ist [[jemand]] / [[niemand]] zu ''Hause?''; jemanden / niemanden ins ''Haus'' lassen / [[holen]]; jemanden (zu sich) / etwas ins ''Haus'' [[bestellen]] / kommen lassen; (noch) zu ''Hause'' (bei den [[Eltern]]) leben; jemanden aus dem ''Haus'' [[jagen]]; jemanden durchs / ins ''Haus'' [[führen]]; jemandem sein / das ''Haus'' [[öffnen]], [[verbieten]]; [[rund]] ... [[Euro]] ([[monatlich]] / [[täglich]] / [[wöchentlich]]) ([[mit]]) nach ''Haus'' bringen; jemanden nach ''Haus'' [[begleiten]] / bringen; etwas / jemanden zu ''Hause'' abliefern; jemanden / etwas nach ''Hause'' schicken; etwas ins ''Haus'' schicken; (von einer [[Reise]] / vom [[Auslandsaufenthalt]]) nach ''Hause'' [[zurückkehren]]; ((für)einige Zeit) von zu ''Hause'' [[ausziehen]] / [[fortbleiben]] / [[weggehen]]; ein (eigenes) ''Haus'' (am [[Strand]] / an der [[See]] / auf dem [[Land]](e) / auf einer [[Insel]] / auf [[Teneriffa]] / im [[Grünen]] / im [[Wald]] / in den Bergen / in der [[Stadt]]) [[besitzen]] / [[bewohnen]] / [[haben]]; ''Haus'' an ''Haus'' wohnen; das ''Haus'' steht leer / steht zum [[Verkauf]]; das ''Haus'' befindet sich (an der) [[Ecke]] ...straße, ... straße; das ''Haus'' am Ende der [[Straße]]; geradewegs auf ein ''Haus'' [[zusteuern]]; ein ''Haus'' ([[günstig]]) [[schießen]]; das ''Haus'' hüten (müssen); das ''Haus'' brennt / wird gelöscht; die [[Schwelle]] des ''Hauses'' (nicht) [[überschreiten]] / [[übertreten]]; die [[Dame]] / der [[Herr]] des ''Hauses''; etwas für zu ''Hause'' [[mitnehmen]]; [[sich]] [[auf]] zu ''Hause'' freuen; die Kinder sind ([[längst]]) aus dem ''Haus''; [[außer]] ''Haus'' sein / [[essen]]; bei dieser [[Hitze]] / [[Kälte]] gehe ich nicht aus dem ''Haus''; ([[endlich]]) nach ''Hause'' kommen;
+:[2] ein ehrenwertes / friedliches / lautes / ruhiges / stilles ''Haus''; das ''Haus'' war [[vollzählig]] [[anwesend]] / [[versammelt]]; das ganze ''Haus'' lief auf die Straße / kam zusammen; aus einem anständigen / bürgerlichen / guten / kleinbürgerlichen ''Haus'' kommen / [[stammen]]; von ''Haus'' aus (sehr) arm / [[begütert]] / gut [[betucht]] sein; ich wünsche Ihnen und Ihrem ''Haus'' alles Gute; herzliche Grüße von ''Haus'' zu ''Haus''; in den besten / ersten ''Häusern'' (der Stadt) aus- und [[eingehen]] / [[verkehren]]; sich wie zu ''Hause'' (bei Muttern) fühlen; wieder zu ''Hause'' sein;
+:ein gastfreies ''Haus'' haben; ein großes ''Haus'' [[führen]] / [[leiten]]
+:[3] das große / kleine ''Haus'' (des Theaters) war ausverkauft; das (ganze) ''Haus'' klatschte [[Beifall]]; ein volles ''Haus'' / volle ''Häuser'' haben; vor leerem / ausverkauftem ''Haus'' [[spielen]]; ''Haus'' Seeblick; das erste / beste ''Haus'' am Platz(e) (sein); das ''Haus'' des Herrn besuchen;
+:[5] im ''Hause'' Davids; ein Angehöriger des ''Hauses'' Habsburg / Hohenzollern; vom kaiserlichen / königlichen ''Haus'' [[abstammen]]
+:[6] die Geschäftsfreunde des ''Hauses'' [[einladen]]; der [[Chef]] / [[Junior]] / [[Juniorchef]] ist / arbeitet [[zurzeit]] nicht im ''Haus(e)'' / ist außer Haus; sich (zurzeit) (nicht) im ''Hause'' aufhalten; ein [[Sekt]], ein [[Bier]] aus dem ''Hause'' ...;
+:[7] (Na,) (du) altes ''Haus,'' (wie geht es dir?); ein (ganz)gelehrtes / fideles / flottes ''Haus'' sein
+:[9] ein [[Gruß]] des ''Hauses'', der [[Ruf]] des ''Hauses'', [[Wein]] des ''Hauses''
+
+{{Wortbildungen}}
+:{{Wortbildung|Adjektive|:}} [[aushäusig]], [[behaust]], [[hausbacken]], [[hauseigen]], [[hausgemacht]], [[haushoch]], [[hausintern]], [[häuslich]], [[hausschlachten]]
+:{{Wortbildung|Substantive|:}} [[Freihauslieferung]], [[Gehäuse]], [[Hausadresse]], [[Hausangestellte]], [[Hausanschluss]], [[Hausanstrich]], [[Hausanzug]], [[Hausarbeit]], [[Hausapotheke]], [[Hausarrest]], [[Hausarzt]], [[Hausaufgabe]], [[Hausaufsatz]], [[Hausball]], [[Hausbar]], [[Hausbau]], [[Hausbesetzer]], [[Hausbesitzer]], [[Hausbesorger]], [[Hausbesuch]], [[Hausbewohner]], [[Hausbock]], [[Hausboot]], [[Hausbrand]], [[Hausbriefkasten]], [[Hausbuch]], [[Hausbursche]], [[Hausdach]], [[Hausdame]], [[Hausdiener]], [[Hausdrachen]], [[Hausdurchsuchung]], [[Hausecke]], [[Hauseigentümer]], [[Hauseingang]], [[Hauseinweihung]], [[Hauser]], [[Hausnetz]], [[Häuserblock]], [[Häuserfront]], [[Häuserkampf]], [[Häusermeer]], [[Häuserreihe]], [[Häuserzeile]], [[Hausfassade]], [[Hausflur]], [[Hausfrau]], [[Hausfreund]], [[Hausfriede]]/[[Hausfrieden]], [[Hausfront]], [[Hausgast]], [[Hausgesinde]], [[Hausgebrauch]], [[Hausgeburt]], [[Hausgehilfe]], [[Hausgemeinschaft]], [[Haushalt]], [[Haushalter]]/[[Haushälter]], [[Hausherr]], [[Haushofmeister]], [[Haushund]], [[Hauskatze]], [[Hauskauf]], [[Hauskleid]], [[Hauskreis]], [[Hauslehrer]], [[Häusler]], [[Hausleute]], [[Häuslichkeit]], [[Hausmacherart]], [[Hausmacherwurst]], [[Hausmacht]], [[Hausmann]], [[Hausmantel]], [[Hausmärchen]], [[Hausmarke]], [[Hausmaus]], [[Hausmeier]], [[Hausmeister]], [[Hausmiete]], [[Hausmittel]], [[Hausmusik]], [[Hausmütterchen]], [[Hausname]], [[Hausnummer]], [[Hausordnung]], [[Hauspersonal]], [[Hauspflege]], [[Hauspost]], [[Hausputz]], [[Hausrat]], [[Hausrohrpost]], [[Haussammlung]], [[Hausschaf]], [[Hausschlachtung]], [[Hausschlüssel]], [[Hausschuh]], [[Hausschwalbe]], [[Hausschwamm]], [[Hausschwein]], [[Haussegen]], [[Hausspatz]], [[Haussperling]], [[Hausstand]], [[Hausstaub]], [[Hausstrecke]], [[Haussuchung]], [[Haustarif]], [[Haustechnik]], [[Haustier]], [[Haustiger]], [[Haustür]], [[Haustyrann]], [[Hausübung]], [[Hausumgebung]], [[Hausurne]], [[Hausverbot]], [[Hausverkauf]], [[Hausverkäufer]], [[Hausverputz]], [[Hausverstand]], [[Hausverwalter]], [[Hausverwaltung]], [[Hausvorstand]], [[Hauswand]], [[Hauswart]], [[Hauswesen]], [[Hauswirt]], [[Hauswirtschaft]], [[Hauswurz]], [[Hauszelt]], [[Hauszins]], Haus(-zu)-Haus-[[Verkehr]], [[Nachhauseweg]]
+:{{Wortbildung|Verben|:}} [[behausen]], [[hausen]], [[hausieren]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{egy}}: [1] {{Ü|egy|per}}
+*{{akk}}: [1, 3] {{Üxx|akk|bītu|𒂍}}
+*{{sq}}: [1, 3] {{Ü|sq|shtëpi}}
+*{{grc}}: [1, 3] {{Üxx|grc|oikos|οἶκος}} {{m}}
+*{{ar}}: [1, 3] {{Üxx5|ar|bayt(un)|بَيْتْ|بيت}}
+*{{az}}: [1] {{Ü|az|ev}}
+*{{ay}}: [1] {{Ü|ay|uta}}
+*{{eu}}: [1] {{Ü|eu|etxe}}
+*{{br}}: [1] {{Ü|br|ti}}
+*{{bg}}: [1, 3] {{Üxx|bg||къща}} {{f}}
+*{{zh}}: [1] {{Üxx|zh|fángzi|房子}}
+*{{da}}: [1] {{Ü|da|hus}} {{n}}
+*{{en}}: [1, 3, 4, 6, 7] {{Ü|en|house}}; [6] {{Ü|en|business}}, {{Ü|en|shop}}
+*{{eo}}: [1] {{Ü|eo|domo}}; [2] {{Ü|eo|hejmo}}
+*{{fi}}: [1] {{Ü|fi|talo}}
+*{{fr}}: [1] {{Ü|fr|maison}} {{f}}, ''Normannisch:'' maisoun
+*{{fur}}: [1] {{Ü|fur|cjase}}
+*{{gl}}: [1] {{Ü|gl|casa}}
+*{{ka}}: [1] {{Üxx|ka||სახლი}}
+*{{el}}: [1] {{Üxx|el|spiti|σπίτι}} {{n}}
+*{{gn}}: [1] {{Ü|gn|óga}}
+*{{he}}: [1, 3] {{Üxx|he|beit|בית}}
+*{{hi}}: [1] {{Üxx|hi|makān|मकान}} {{m}}, {{Üxx|hi|ghar|घर}}
+*{{id}}: [1] {{Ü|id|rumah}}
+*{{ga}}: [1] {{Ü|ga|teach}}
+*{{is}}: [1] {{Ü|is|hús}}
+*{{it}}: [1] {{Ü|it|casa}} {{f}}, {{Ü|it|edificio}} {{f}}; [2] {{Ü|it|establishment}} {{f}}; [4] {{Ü|it|casa (astrologica)}} {{f}}; [5] {{Ü|it|stirpe}} {{f}},{{Ü|it|ditta}} {{f}}
+*{{ja}}: [1] {{Üxx|ja|いえ, ie / うち, uchi|家}}, {{Üxx|ja|かたく, kataku|家宅}}, {{Üxx|ja|かおく, kaoku|家屋}}, {{Üxx|ja|biru|ビル}}
+*{{yi}}: [1] {{Ü|yi|הויז}}, {{Ü|yi|שטוּב}}; [5] {{Ü|yi|הױף}}
+*{{ca}}: [1] {{Ü|ca|casa}} {{f}}, {{Ü|ca|edifici}} {{m}}
+*{{sw}}: [1] {{Ü|sw|nyumba}}
+*{{ko}}: [1] {{Üxx|ko|jip|집}}
+*{{hr}}: [1, 4, 5] {{Ü|hr|kuća}} {{f}}; [2] {{Ü|hr|dom}} {{m}}; [7] {{Ü|hr|kuća stara}} {{f}}
+*{{ku}}: [1] {{Ü|ku|mal}}
+*{{la}}: [1] {{Ü|la|domus}} {{f}}, {{Ü|la|villa}} {{f}}, [1, 3] {{Ü|la|aedes}} {{fPl.}}
+*{{lt}}: [1] {{Ü|lt|namas}}
+|Ü-rechts=
+*{{lb}}: [1] {{Ü|lb|Haus}}
+*{{ms}}: [1] {{Ü|ms|rumah}}
+*{{mt}}: [1] {{Ü|mt|dar}}
+*{{gv}}: [1] {{Ü|gv|thie}}
+*{{nah}}: [1] {{Ü|nah|chāntli}}
+*{{nds}}: [1] {{Ü|nds|Huus}} {{n}}
+*{{nl}}: [1, 2, 3, 5] {{Ü|nl|huis}}; [4] {{Ü|nl|twaalf huizen}}; [6] {{Ü|nl|thuis}}; {{Ü|nl|zaak}}; [7] {{Ü|nl|ouwe rakker}}, {{Ü|nl|oude knakker}}
+*{{no}}: [1, 2] {{Ü|no|hus}} {{n}}
+*{{nn}}: [1, 2] {{Ü|nn|hus}}
+*{{oc}}: [1] {{Ü|oc|ostal}} {{m}}
+*{{ps}}: [1] {{Ü|ps|کور}}
+*{{pl}}: [1, 2, 3, 5, 6] {{Ü|pl|dom}} {{m}};
+*{{pt}}: [1] {{Ü|pt|casa}} {{f}}
+*{{qu}}: [1] {{Ü|qu|wasi}}
+*{{rom}}:
+:*{{rmy}}: [1] {{Ü|rmy|Kher}}
+*{{ro}}: [1] {{Ü|ro|casa}} {{f}}
+*{{ru}}: [1] {{Üxx|ru|dom|дом}} {{m}}
+*{{gd}}: [1] {{Ü|gd|taigh}}
+*{{sv}}: [1] {{Ü|sv|hus}} {{n}}
+*{{sco}}: [1] {{Ü|sco|hoose}}
+*{{sk}}: [1] {{Ü|sk|dom}} {{m}}
+*{{sl}}: [1] {{Ü|sl|hiša}} {{f}}
+*{{hsb}}: [1] {{Ü|hsb|dom}} {{m}}
+*{{es}}: [1] {{Ü|es|casa}} {{f}}, {{Ü|es|edificio}} {{m}}; [4] {{Ü|es|casa (astrológica)}} {{f}}; [5] {{Ü|es|estirpe}} {{f}}
+*{{sux}}: [1, 2] {{Üxx|sux|é|𒂍}}
+*{{su}}: [1] {{Ü|su|imah}}
+*{{tl}}: [1] {{Ü|tl|tahanan}}
+*{{cs}}: [1, 4] {{Ü|cs|dům}} {{m}}
+*{{tr}}: [1-3] {{Ü|tr|ev}}; [4] {{Ü|tr|burç}}; [5] {{Ü|tr|aile}}; [6] {{Ü|tr|firma}}, {{Ü|tr|iş}}; [7] {{Ü|tr|adam}}; [8] {{Ü|tr|salyangoz kabuğu}}; [8] {{Ü|tr|restoran}}
+*{{tyv}}: [1] {{Üxx|tyv|bažyņ|бажың}}
+*{{uk}}: [1] {{Üxx|uk|budynok|будинок}}
+*{{hu}}: [1] {{Ü|hu|ház}}
+*{{vi}}: [1] {{Ü|vi|nhà}}
+*{{cy}}: [1] {{Ü|cy|tŷ}} {{m}}
+*{{ps}}: [1] {{Üxx|ps|kohr|کور}}
+|Dialekttabelle=
+*{{als}}:
+**Höchstalemannisch: {{Lautschrift|huːz̊}}
+**Vorarlbergerisch: [1] Hus, Hüsle (verniedlichend), [[Hütte|Hütta]] (abwertend)
+|D-rechts=
+*{{ksh}}: [1] Huus
+*Moselfränkisch:
+**Wäller Platt (Westerwald): [1] (abwertend für ein kleines Haus) [[Hauwiddche]]
+}}
+
+{{Referenzen}}
+:[1–5] {{Wikipedia|Haus (Begriffsklärung)}}
+:[1] {{Wikipedia|Haus}}
+:[?] {{Ref-Grimm|Haus}}
+:[1, 2, 3, 5, 7, 8] {{Ref-DWDS|Haus}}
+:[1, 2, 4–7] {{Ref-Duden|Haus}}
+:[1, 4, 5] {{Ref-Canoo|Haus}}
+:[1, 4, 5] {{Ref-UniLeipzig|Haus}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Ahaus]], [[aus]], [[Baus]], [[Daus]], [[Gaus]], [[Hais]], [[Hals]], [[Hans]], [[Hase]], [[Hass]], [[Hast]], [[hau]], [[Haue]], [[haust]], [[Hausse]], [[Haut]], [[Heus]], [[House]], [[HUS]], [[Laus]], [[Maus]], [[raus]], [[Saus]]
+
+[[ar:Haus]]
+[[bg:Haus]]
+[[br:Haus]]
+[[ca:Haus]]
+[[chr:Haus]]
+[[cs:Haus]]
+[[da:Haus]]
+[[el:Haus]]
+[[en:Haus]]
+[[eo:Haus]]
+[[et:Haus]]
+[[eu:Haus]]
+[[fa:Haus]]
+[[fi:Haus]]
+[[fj:Haus]]
+[[fr:Haus]]
+[[ga:Haus]]
+[[gl:Haus]]
+[[gv:Haus]]
+[[hr:Haus]]
+[[hu:Haus]]
+[[hy:Haus]]
+[[io:Haus]]
+[[it:Haus]]
+[[ja:Haus]]
+[[kn:Haus]]
+[[ko:Haus]]
+[[ku:Haus]]
+[[kw:Haus]]
+[[ky:Haus]]
+[[la:Haus]]
+[[lb:Haus]]
+[[li:Haus]]
+[[lo:Haus]]
+[[lt:Haus]]
+[[lv:Haus]]
+[[mg:Haus]]
+[[nah:Haus]]
+[[nds:Haus]]
+[[nl:Haus]]
+[[no:Haus]]
+[[oc:Haus]]
+[[pl:Haus]]
+[[pt:Haus]]
+[[ru:Haus]]
+[[sm:Haus]]
+[[sv:Haus]]
+[[sw:Haus]]
+[[ta:Haus]]
+[[th:Haus]]
+[[tr:Haus]]
+[[uz:Haus]]
+[[vec:Haus]]
+[[zh:Haus]]

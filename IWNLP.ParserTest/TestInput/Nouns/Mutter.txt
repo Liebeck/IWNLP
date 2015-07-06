@@ -1,0 +1,382 @@
+﻿== Mutter ({{Sprache|Deutsch}}) ==
+{{überarbeiten|Beispiele für 3,4,6 und 7 ergänzen, alle Bedeutungen belegen|Deutsch}}
+=== {{Wortart|Substantiv|Deutsch}}, {{f}}, ''Mütter'' ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Mutter
+|Nominativ Plural=die Mütter
+|Genitiv Singular=der Mutter
+|Genitiv Plural=der Mütter
+|Dativ Singular=der Mutter
+|Dativ Plural=den Müttern
+|Akkusativ Singular=die Mutter
+|Akkusativ Plural=die Mütter
+|Bild=William-Adolphe Bouguereau (1825-1905) - Rest (1879).jpg|200px|1|''Mutter'' mit Kindern: Le Repos, von William Adolphe Bouguereau (1879)
+}}
+
+{{Worttrennung}}
+:Mut·ter, {{Pl.}} Müt·ter
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}, {{Pl.}} {{Lautschrift|ˈmʏtɐ}}
+:{{Hörbeispiele}} {{Audio|De-Mutter.ogg|Mutter}}, {{Audio|De-at-Mutter.ogg|die Mutter (österreichisch)}}, {{Pl.1}} {{Audio|De-Mütter.ogg|Mütter}}
+:{{Reime}} {{Reim|ʊtɐ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[weiblich]]es [[Elternteil]]; eine [[Frau]], welche [[Kind]]er [[geboren]] hat
+:[2] [[Muttertier]]
+:[3] ''technisch:'' [[Matrize]]
+:[4] ''umgangssprachlich:'' [[Muttergesellschaft]]
+:[5] als [[Anrede]] von [[Würdenträgerin]]nen in [[Religion]]en
+:[6] das auf die [[Spindel]] [[aufgefädelt]]e, [[linear]] bewegte [[Teil]]
+:[7] eine [[Pressvorlage]] für [[Schallplatte]]n
+:[8] ''figurativ:'' übergeordnete, fruchtbare [[Instanz]] von herausragender Bedeutung
+:[9] Als herausragend und charakteristisch empfundener Vertreter einer Gattung, oft scherzhaft oder salopp
+
+{{Herkunft}}
+:aus dem ''[[althochdeutsch]]en'' Wort „[[muoter]]“  - Mutter {{QS Herkunft|unbelegt}} {{QS Herkunft|unzureichend}}
+
+{{Synonyme}}
+:[1] [[Alte]] (''salopp''), [[Erziehungsberechtigte]], [[Mama]], [[Mami]], [[Mammi]], [[Mutti]], [[Muttl]], [[Muttel]], [[Muttchen]], [[Ma]]
+:[2] [[Muttertier]]
+:[3] [[Gussform]], [[Mutterform]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Erzeugerin]]
+
+{{Gegenwörter}}
+:[1] [[Kind]], [[Sohn]], [[Tochter]], [[Vater]]
+:[2] [[Junges]]
+:[3] [[Patrize]]
+:[4] [[Tochter]]
+
+{{Männliche Wortformen}}
+:[1] [[Vater]]
+
+{{Verkleinerungsformen}}
+:[1] [[Mütterchen]], [[Mütterlein]], [[Muttchen]]
+
+{{Oberbegriffe}}
+:[1, 2] [[Elternteil]]
+:[3] [[Form]]
+:[4] [[Unternehmen]]
+
+{{Unterbegriffe}}
+:[1] [[Brautmutter]], [[Großmutter]], [[Hausmutter]], [[Kindesmutter]], [[Königinmutter]], [[Landesmutter]], [[Leihmutter]], [[Muttergottes]], [[Nährmutter]], [[Perlmutter]], [[Pflegemutter]], [[Puffmutter]], [[Rabenmutter]], [[Schwiegermutter]], [[Schmerzensmutter]], [[Stammmutter]], [[Stiefmutter]], [[Straßenstrichmutter]], [[Urgroßmutter]], [[Urmutter]], [[Wehmutter]], [[Ziehmutter]]
+:[2] [[Bärenmutter]], [[Löwenmutter]], [[Rabenmutter]], [[Wolfsmutter]]
+:[3] [[Gießmutter]]
+
+{{Beispiele}}
+:[1] Sie ist die ''Mutter'' von zwei Kindern.
+:[2] Die ''Mutter'' warf soeben sechs Junge.
+:[3]
+:[4]
+:[5] ''Mutter'' Theresa war Ordensschwester und Friedensnobelpreisträgerin.
+:[5] »Wenn ich vorstellen darf, das ist ''Mutter'' Margarete, unsere Klostervorsteherin.«
+:[6]
+:[7]
+:[8] Mutter Natur, Mutter Erde
+:[9] salopp: Die Mutter der Nation (etwa Mutter Beimer aus der Lindenstraße), scherzhaft: Die Mutter aller Filme (siehe etwa {{Wikipedia|Hot Shots!}})
+
+{{Redewendungen}}
+:''[[Mutter der Kompanie]]'' - Feldwebel
+:''[[wie eine Mutter ohne Brust]]'' -
+:''[[bei Mutter Grün schlafen]]'' - im Freien übernachten
+:''[[Mütterchen Russland]]'' - russische Nationalallegorie (Матушка-Россия, Mátuschka-Rossíja)
+:''[[Mutter Erde]]''
+:''[[Mutter Natur]]''
+
+{{Sprichwörter}}
+:''[[Vorsicht ist die Mutter der Porzellankiste]]'' - Porzellan ist zerbrechlich und muss mit Vorsicht behandelt werden
+
+{{Charakteristische Wortkombinationen}}
+: Adjektive: [[alleinerziehend]]e, [[alleinstehend]]e, [[leiblich]]e, [[jung]]e, [[berufstätig]]e, [[ledig]]e, [[krank]]e, [[tot]]e ''Mutter''
+: Verben: [[erzählen]], [[fragen]], [[sagen]], [[rufen]], [[schimpfen]], [[sterben]], [[weinen]]
+:Nomen: [[Ehefrau]], [[Großmutter]], [[Hausfrau]], [[Kind]], [[Schwester]], [[Sohn]], [[Tochter]], [[Vater]]
+
+{{Wortbildungen}}
+:[1] [[Aalmutter]], [[bemuttern]], [[mütterlich]], [[Müttersterblichkeit]], [[Mütterzentrum]], [[mutterlos]], [[mutterseelenallein]], [[Gebärmutter]], [[Mutterband]], [[Mutterboden]], [[Muttererde]], [[Mutterfreuden]], [[Müttergenesungswerk]], [[Muttergestein]], [[Mutterglück]], [[Muttergottes]], [[Mutterhaus]], [[Mutterherz]], [[Mutterkomplex]], [[Mutterkorn]], [[Mutterkreuz]], [[Mutterkuchen]], [[Mutterleib]], [[Muttermal]], [[Muttermilch]], [[Muttermund]], [[Mutterpflanze]], [[Mutterrecht]], [[Mutterschaft]], [[Mutterschiff]], [[Muttersprache]], [[Muttertag]], [[Muttersöhnchen]], [[Mutterwitz]], [[Rabenmutter]], [[Tagesmutter]]
+:[2] [[Mutterschaf]], [[Muttertier]]
+:[4] [[Mutterorganisation]], [[Mutterkirche]], [[Mutterpartei]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{akk}}: [1, 2, 5] {{Üxx|akk|ummu|𒌝𒈬}}
+*{{sq}}: [1] {{Ü|sq|nënë}}
+*{{grc}}: [1] {{Üxx|grc|mētēr|μήτηρ}} {{f}}
+*{{ar}}: [1] {{Arab|ام|v=أُمّ|d=ʾumm|Ü}} {{f}}
+*{{hy}}: [1] {{Üxx|hy|mayr|մայր}}
+*{{az}}: [1] {{Ü|az|ana}}
+*{{eu}}: [1] {{Ü|eu|ama}}
+*{{bbc}}: [1] {{Ü|bbc|inang}}
+*{{br}}: [1] {{Ü|br|mamm}}
+*{{bg}}: [1] {{Üxx|bg|majka|майка}} {{f}}
+*{{da}}: [1] {{Ü|da|moder}} {{f}}
+*{{en}}: [1] {{Ü|en|mWen}}
+*{{eo}}: [1] {{Ü|eo|patrino}}
+*{{et}}: [1] {{Ü|et|ema}}
+*{{fo}}: [1] {{Ü|fo|móðir}}
+*{{fi}}: [1] {{Ü|fi|äiti}}, [2, 4] {{Ü|fi|emo}}
+*{{fr}}: [1] {{Ü|fr|mère}} {{f}}
+*{{ka}}: [1] {{Üxx|ka|deda|დედა}}
+*{{el}}: [1] {{Üxx|el|mitéra|μητέρα}} {{f}}
+*{{gn}}: [1] {{Ü|gn|sy}}
+*{{haw}}: [1] {{Ü|haw|makuahine}}
+*{{he}}: [1] {{Hebr|אם|v=אֵם|d-heb=ʾēm|Ü}} {{f}}, ''[[Anrede]]:'' {{Hebr|אימא|v=אִמָּא|d-heb=ʾīmāʾ|Ü}} {{f}}
+*{{hi}}: [1] {{Üxx|hi|mātā|माता}} {{f}}, {{Üxx|hi|mām̐|मूल}} {{f}}, {{Üxx|hi|māṁ|मां}} {{f}}
+*{{io}}: [1] {{Ü|io|matro}}
+*{{id}}: [1] {{Ü|id|ibu}}, {{Ü|id|bunda}}, {{Ü|id|ibunda}}, {{Ü|id|emak}}
+*{{ia}}: [1] {{Ü|ia|matre}}
+*{{ga}}: [1] {{Ü|ga|máthair}} {{f}}
+*{{is}}: [1] {{Ü|is|mamma}} {{f}}, {{Ü|is|móðir}} {{f}}
+*{{it}}: [1] {{Ü|it|madre}} {{f}}
+*{{ja}}: [1] {{Üxx|ja|はは, haha|母}}, {{Üxx|ja|おかあさん, okāsan|お母さん}}
+*{{yi}}: [1] {{Hebr|מוטער|d-yid=muter|Ü}} {{f}}, {{Hebr|מאַמע|d-yid=mame|Ü}} {{f}}, ''verniedlichend:'' {{Hebr|מאַמעלע|d-yid=mamele|Ü}} {{f}}
+*{{kn}}: [1] {{Üxx|kn|am'ma|ಅಮ್ಮ}}, {{Üxx|kn|avva|ಅವ್ವ}}, {{Üxx|kn|mātara|ಮಾತರ}}, {{Üxx|kn|mātr̥|ಮಾತೃ}}, {{Üxx|kn|tāyi|ತಾಯಿ}},
+*{{ca}}: [1] {{Ü|ca|mare}} {{f}}
+*{{ko}}: [1] {{Üxx|ko|eomeoni|어머니}}, {{Üxx|ko|mochin|모친}}, {{Üxx|ko|eomi|어미}}, {{Üxx|ko|eomeom|어멈}}
+|Ü-rechts=
+*{{hr}}: [1] {{Ü|hr|majka}} {{f}}
+*{{ku}}: [1] {{Ü|ku|dê}}
+*{{la}}: [1] {{Ü|la|mater}} {{f}}
+*{{lv}}: [1] {{Ü|lv|māte}} {{f}}
+*{{lt}}: [1] {{Ü|lt|motina}} {{f}}
+*{{ml}}: [1] {{Üxx|ml|am'ma|അമ്മ}}, {{Üxx|ml|mātāvu|മാതാവു}}
+*{{ne}}: [1] {{Üxx|ne|aamaa|आमा}}
+*{{nl}}: [1] {{Ü|nl|moeder}} {{f}}
+*{{no}}: [1] {{Ü|no|mor}} {{u}}, {{Ü|no|moder}}
+*{{oc}}: [1] {{Ü|oc|maire}} {{f}}, ''[[aranesisch]]:'' {{Ü|oc|mair}} {{f}}
+*{{ps}}: [1] {{Ü|ps|مور}} {{f}}
+*{{fa}}: [1] {{Farsi|مادر|v=مادَر|d=mādär|Ü}}, {{Farsi|ماد|d=mād|Ü}}, {{Farsi|مام|d=mām|Ü}}, {{Farsi|ماما|d=māmā|Ü}}, {{Farsi|مامی|d=māmī|Ü}}, {{Farsi|مار|d=mār|Ü}}, {{Farsi|مارو|d=mārū|Ü}}, {{Farsi|ام|d=ʾomm|Ü}}; ''[[mundartlich]]:'' {{Farsi|مای|d=māy|Ü}}, ''Zand und Pazand:'' {{Farsi|ان|d=ʾän|Ü}}; ''[[Anrede]]:'' {{Farsi|ننم|d=nänäm|Ü}}, {{Farsi|ننه جان|d=nänä-ǧān|Ü}}; ''[[weiblich]]es [[Elternteil]]:'' {{Farsi|والد|d=wāled|Ü}}
+*{{pl}}: [1, 2] {{Ü|pl|matka}} {{f}}
+*{{pt}}: [1] {{Ü|pt|mãe}} {{f}}
+*{{ro}}: [1] {{Ü|ro|mamă}} {{f}}
+*{{ru}}: [1] {{Üxx|ru|matʹ|мать}} {{f}}, {{Üxx|ru|mama|мама}} {{f}}
+*{{sa}}: [1] {{Üxx|sa|mātṛ|मातृ}} {{f}}
+*{{gd}}: [1] {{Ü|gd|màthair}} {{m}}
+*{{st}}: [1] {{Ü|st|mme}}
+*{{sv}}: [1] {{Ü|sv|mor}} {{u}}, {{Ü|sv|moder}} {{u}}, {{Ü|sv|mamma}} {{u}}; [2] {{Ü|sv|moder}} {{u}}, {{Ü|sv|hona}} {{u}}; [3] {{Ü|sv|matris}}; [4] {{Ü|sv|moderbolag}} {{n}}; [5] {{Ü|sv|moder}} {{u}}; [7] {{Ü|sv|matris}}
+*{{sk}}: [1] {{Ü|sk|matka}} {{f}}, {{Ü|sk|mať}} {{f}}, {{Ü|sk|mama}} {{f}}, {{Ü|sk|mamka}} {{f}}, {{Ü|sk|mamička}} {{f}}
+*{{sl}}: [1] {{Ü|sl|mati}} {{f}}
+*{{es}}: [1] {{Ü|es|madre}} {{f}}
+*{{ta}}: [1] {{Üxx|ta||அம்மா}}, {{Üxx|ta|tāy|தாய்}}
+*{{cs}}: [1] {{Ü|cs|matka}} {{f}}, {{Ü|cs|máti}} {{f}}, {{Ü|cs|máma}} {{f}}, {{Ü|cs|maminka}} {{f}}, {{Ü|cs|mamička}} {{f}}, {{Ü|cs|mamka}} {{f}}, {{Ü|cs|mutra}} {{f}}
+*{{tr}}: [1, 2] {{Ü|tr|anne}}
+*{{uk}}: [1] {{Üxx|uk|máty|мати}} {{f}}
+*{{hu}}: [1] {{Ü|hu|anya}}
+*{{vo}}: [1] {{Ü|vo|mot}}
+*{{cy}}: [1] {{Ü|cy|mam}} {{f}}
+*{{be}}: [1] {{Üxx|be|maci|маці}} {{f}}
+|Dialekttabelle=
+*Mitteldeutsch:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**Kölsch: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**Thüringisch-Obersächsisch:
+***Meißnisch: [?] Muddor
+***Osterländisch: [?] Muddor
+|D-rechts=
+*Oberdeutsch:
+**{{als}}:
+***Hochalemannisch: Mueter, Mueder
+***Schwäbisch:Muader, Muadr / Mudder, Muddr
+****Ostschwäbisch: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Referenzen}}
+:[1, 8, 9] {{Wikipedia|Mutter}}
+:[1] {{Ref-Canoo|Mutter}}
+:[1] {{Ref-DWDS|Mutter}} (Mutter¹, Mutter²)
+:[1] {{Ref-UniLeipzig|Mutter}}
+:[8] {{Wikipedia|Mutter Natur}}
+
+{{Referenzen prüfen|Deutsch}}
+
+{{Verwandte (Deutsch)}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{f}}, {{Wortart|Eigenname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=Mutter
+|Nominativ Plural=—
+|Genitiv Singular=Mutters
+|Genitiv Plural=—
+|Dativ Singular=Muttern
+|Dativ Plural=—
+|Akkusativ Singular=Muttern
+|Akkusativ Plural=—
+}}
+{{Anmerkung}}
+:Insbesondere in der norddeutschen Umgangssprache werden manche [[Gattungsbezeichnung]]en aus dem Bereich der Familie ([[Vater]], Mutter…) wie [[Eigenname]]n behandelt.<ref name=Duden/> Man benutzt sie dann ohne Artikel und bildet den Genitiv mit ''-s,'' Dativ und Akkusativ mit ''-n.''<ref name=Duden>{{Lit-Duden: Grammatik|A=6}}, Seite 243.</ref>
+
+{{Worttrennung}}
+:Mut·ter, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''[[landschaftlich]]'' {{ugs.|;}} ''besonders [[norddeutsch]]:'' (eigene) [[Mutter#Mutter (Deutsch) 1|Mutter]] ''(die mit „Mutter“ bezeichnet wird und nicht unter Verwendung ihres [[Name]]ns)''
+
+{{Synonyme}}
+:[1] [[Mama]], [[Mutti]]
+
+{{Beispiele}}
+:[1] Ich kann leider nicht zu ''Mutters'' Geburtstag kommen.
+:[1] ''Muttern'' habe ich den ganzen Tag noch nicht gesehen.
+
+{{Redewendungen}}
+:[[wie bei Muttern|wie bei ''Muttern'']] - wie zu Hause
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}} <!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters -->
+
+{{Referenzen}}
+:[1] {{Literatur|Online={{GBS|jY1JuA2adzUC|PA121|Hervorhebung=Mutters}}|Seiten=121|Titel=Deutsche Morphologie|Herausgeber=Elke Hentschel, Petra M. Vogel|Jahr=2009|ISBN=978-3-11-018562-1|Verlag=Walter de Gruyter GmbH&nbsp;&&nbsp;Co. KG|Ort=Berlin}}.
+:[1] {{Lit-Duden: Grammatik|A=6}}, Seite 243.
+
+{{Quellen|}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Mutter
+|Nominativ Plural=die Muttern
+|Genitiv Singular=der Mutter
+|Genitiv Plural=der Muttern
+|Dativ Singular=der Mutter
+|Dativ Plural=den Muttern
+|Akkusativ Singular=die Mutter
+|Akkusativ Plural=die Muttern
+|Bild=Hex nut.JPG|200px|1|''Mutter''
+}}
+
+{{Worttrennung}}
+:Mut·ter, {{Pl.}} Mut·tern
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}, {{Pl.}} {{Lautschrift|ˈmʊtɐn}}
+:{{Hörbeispiele}} {{Audio|De-Mutter.ogg|Mutter}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|ʊtɐ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''kurz für:'' [[Schraubenmutter]], welche das Gegenstück zu der [[Schraube]] bildet
+
+{{Herkunft}}
+:aufgrund der Funktion als Schraubengegenstück ''Mutter'' genannt, was an dem synonymen Wort ''[[Schraubenmutter]]'' verdeutlicht wird
+
+{{QS Herkunft|unzureichend}}
+
+{{Synonyme}}
+:[1] [[Schraubenmutter]]
+
+{{Gegenwörter}}
+:[1] [[Schraube]]
+
+{{Oberbegriffe}}
+:[1] [[Eisenware]]
+
+{{Unterbegriffe}}
+:[1] [[Blindnietmutter]], [[Einschlagmutter]], [[Flügelmutter]], [[Ganzmetallmutter]], [[Gegenmutter]], [[Hutmutter]], [[Käfigmutter]], [[Kontermutter]], [[Kreuzlochmutter]], [[Kronenmutter]], [[Lochmutter]], [[Nutmutter]], [[Radmutter]], [[Rändelmutter]], [[Ringmutter]], [[Rohrmutter]], [[Rundmutter]], [[Schlitzmutter]], [[Schweißmutter]], [[Sechskantmutter]], [[Sicherungsmutter]], [[Spannschlossmutter]], [[Stellmutter]], [[T-Nut-Mutter]], [[Überwurfmutter]], [[Vierkantmutter]], [[Zapfenmutter]], [[Zweilochmutter]]
+
+{{Beispiele}}
+:[1] Er brauchte lange, um die richtige ''Mutter'' zu finden, die auf die Schraube passt.
+
+{{Wortbildungen}}
+:[1] [[Mutternschlüssel]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|nut}}
+*{{eo}}: [1] {{Ü|eo|ŝraŭbingo}}
+*{{fi}}: [1] {{Ü|fi|mutteri}}
+*{{fr}}: [1] {{Ü|fr|écrou}} {{m}}
+*{{it}}: [1] {{Ü|it|dado}}
+*{{ja}}: [1] {{Üxx|ja|natto|ナット}}
+*{{kk}}: [1] {{Ü|kk|cомын}}
+*{{ca}}: [1] {{Ü|ca|femella}}
+*{{hr}}: [1] {{Ü|hr|matica}}
+*{{la}}: [1] {{Ü|la|scrofa}}
+|Ü-rechts=
+*{{nl}}: [1] {{Ü|nl|moer}}
+*{{pl}}: [1] {{Ü|pl|nakrętka}}
+*{{pt}}: [1] {{Ü|pt|porca}}
+*{{ru}}: [1] {{Üxx|ru|gájka|гайка}} {{f}}
+*{{sa}}: [1] {{Üxx|sa|mātṛ|मातृ}} {{f}}
+*{{sv}}: [1] {{Ü|sv|mutter}}
+*{{sh}}: [1] {{Ü|sh|navrtka}}
+*{{es}}: [1] {{Ü|es|tuerca}} {{f}}
+*{{cs}}: [1] {{Ü|cs|matka}} {{f}}
+*{{tr}}: [1] {{Ü|tr|civata somunu}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Mutter (Technik)}}
+
+{{Ähnlichkeiten}}
+:[[Butter]], [[Cutter]], [[Futter]], [[Kutter]], [[Luther]], [[Lutter]], [[munter]], [[Muster]], [[Putter]]
+
+[[af:Mutter]]
+[[az:Mutter]]
+[[br:Mutter]]
+[[bs:Mutter]]
+[[ca:Mutter]]
+[[chr:Mutter]]
+[[cs:Mutter]]
+[[da:Mutter]]
+[[el:Mutter]]
+[[en:Mutter]]
+[[es:Mutter]]
+[[et:Mutter]]
+[[eu:Mutter]]
+[[fi:Mutter]]
+[[fj:Mutter]]
+[[fr:Mutter]]
+[[fy:Mutter]]
+[[gl:Mutter]]
+[[hr:Mutter]]
+[[hu:Mutter]]
+[[hy:Mutter]]
+[[id:Mutter]]
+[[io:Mutter]]
+[[it:Mutter]]
+[[ja:Mutter]]
+[[ko:Mutter]]
+[[ku:Mutter]]
+[[li:Mutter]]
+[[lo:Mutter]]
+[[lt:Mutter]]
+[[lv:Mutter]]
+[[mg:Mutter]]
+[[mk:Mutter]]
+[[nds:Mutter]]
+[[nl:Mutter]]
+[[no:Mutter]]
+[[oc:Mutter]]
+[[pl:Mutter]]
+[[pt:Mutter]]
+[[ro:Mutter]]
+[[ru:Mutter]]
+[[sk:Mutter]]
+[[sq:Mutter]]
+[[sv:Mutter]]
+[[th:Mutter]]
+[[tr:Mutter]]
+[[uk:Mutter]]
+[[uz:Mutter]]
+[[zh:Mutter]]
+[[zh-min-nan:Mutter]]

@@ -1,0 +1,4 @@
+﻿== bringen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Abgeleitete Verben|[[anbringen]], [[abbringen]], [[aufbringen]], [[beibringen]], [[herabbringen]], [[heranbringen]], [[heraufbringen]], [[herunterbringen]], [[hinaufbringen]], [[hinausbringen]], [[hinabbringen]], [[umbringen]], [[verbringen]]}}
+
+{{Deutsch Verb unregelmäßig|2=bring|3=brachte|4=brächt|5=gebracht|8=n|vp=ja|zp=ja|gerund=ja}}

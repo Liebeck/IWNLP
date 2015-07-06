@@ -1,0 +1,176 @@
+﻿{{Wort der Woche|32|2010}}
+== Joghurt ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{n}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=der Joghurt
+|Nominativ Singular 2=das Joghurt
+|Nominativ Singular 3=die Joghurt
+|Nominativ Plural=die Joghurts
+|Genitiv Singular 1=des Joghurts
+|Genitiv Singular 2=des Joghurts
+|Genitiv Singular 3=der Joghurt
+|Genitiv Plural=der Joghurts
+|Dativ Singular 1=dem Joghurt
+|Dativ Singular 2=dem Joghurt
+|Dativ Singular 3=der Joghurt
+|Dativ Plural=den Joghurts
+|Akkusativ Singular 1=den Joghurt
+|Akkusativ Singular 2=das Joghurt
+|Akkusativ Singular 3=die Joghurt
+|Akkusativ Plural=die Joghurts
+|Bild=Cacik-1.jpg|215px|1|ein Schälchen türkischen ''Joghurts''
+}}
+
+{{Anmerkung}}
+:In Deutschland ist der [[männlich]]e Artikel am gebräuchlichsten; der [[sächlich]]e ist eher selten. In der Schweiz und in Österreich wird der sächliche [[Artikel]] vornehmlich verwendet, wobei in Ostösterreich - und hier insbesondere der Gegend um Wien - auch noch selten umgangssprachlich der [[weiblich]]e Artikel  verwendet wird.<ref name="VWD">Vergleiche {{Lit-Ammon: Variantenwörterbuch|A=1}}, Seite 374</ref><ref>{{Lit-Duden: Universalwörterbuch|A=6}}, Seite 907</ref>
+
+{{Alternative Schreibweisen}}
+:[[Jogurt]], [[Yoghurt]]
+
+{{Worttrennung}}
+:Jo·ghurt, {{Pl.}} Jo·ghurts
+
+{{Aussprache}}
+:{{IPA}} ''[[Deutschland]], [[Schweiz]]:'' {{Lautschrift|'jo?g??t}}, {{Pl.}} {{Lautschrift|'jo?g???}}<ref name="VWD"/>
+::''[[Österreich]]:'' {{Lautschrift|'jo?k??t}}, {{Pl.}} {{Lautschrift|'jo?k??ts}}<ref name="VWD"/>
+:{{Hörbeispiele}} 
+:deutsch: {{Audio|De-Joghurt.ogg}}, {{Pl.}} {{Audio|De-Joghurts.ogg|Joghurts}}
+:österreichisch: {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Dickmilchprodukt, welches aus eingedickter, [[pasteurisiert]]er [[Milch]] gewonnen wird, in der durch [[speziell]]e [[Milchsäurebakterie]]n eine Teilgärung hervorgerufen wurde
+
+{{Herkunft}}
+:seit dem 20. Jahrhundert bezeugt; [[Entlehnung]] aus dem [[Türkisch]]en: ''{{Ü|tr|yogurt}}'' „[[Dickmilch]], [[gegoren]]e [[Milch]]“; dies ist ein [[Denominativ]] von ''{{Ü|tr|yogun}}'' „[[dicht]], [[dickflüssig]]“<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Seite 453.</ref><ref>{{Lit-Duden: Großes Fremdwörterbuch|A=4}}, Seite 669.</ref>
+
+{{Sinnverwandte Wörter}}
+:[1] [[Airag]], [[Ayran]], [[Buttermilch]], [[Dadiah]], [[Dickmilch]], [[Kefir]], [[Kumys]], [[Laban]], [[Labné]], [[Lassi]], [[Sauermilch]], [[Stockmilch]], [[Ymer]]
+
+{{Gegenwörter}}
+:[1] [[Molke]], [[Quark]]
+
+{{Oberbegriffe}}
+:[1] [[Milcherzeugnis]], [[Milchprodukt]], [[Molkereierzeugnis]]
+
+{{Unterbegriffe}}
+:[1] [[Bio-]]Joghurt, [[Erdbeerjoghurt]], [[Fruchtjoghurt]], [[Functional-Food]]-Joghurt, [[Himbeerjoghurt]], [[Kaffeejoghurt]], [[Kokosjoghurt]], [[Magerjoghurt]], [[Magermilchjoghurt]], [[Naturjoghurt]], [[Nougatjoghurt]], [[Rahmjoghurt]], [[Sahnejoghurt]], [[Schokojoghurt]], [[Sojajoghurt]], [[Stracciatellajoghurt]], [[Trinkjoghurt]], [[Vanillejoghurt]], [[Vollmilchjoghurt]]
+
+{{Beispiele}}
+:[1] ''Deutschland:'' „Diese Produkte kennt fast jeder: die "Müller-Milch", den "''Joghurt'' mit Ecke" oder den "Froop-Frucht auf ''Joghurt''".“<ref>{{Per-taz Online | Online=http://www.taz.de/index.php?id=archivseite&dig=2005/07/27/a0111 | Autor=Hanna Gersmann | Titel=Müller-Milch sahnt Steuergelder ab | Tag=27 | Monat=Juli | Jahr=2005 }}</ref>
+:[1] ''[[Österreich]]:'' „Die ''Joghurt'' stammt aus dem Orient und entsteht durch die Gerinnung von Milch“<ref>''Standard,'' 3./4. 5. 1997, Seite 12 in: {{Lit-Ammon: Variantenwörterbuch|A=1}}, Seite 374.</ref>
+:[1] ''[[Schweiz]]:'' „Ihr Seliger zum Beispiel habe sich einmal zu Beginn einer Ohnmacht das ''Joghurt'' über den Kopf geleert und nachher behauptet, sie selber habe das getan“<ref>Schädelin, Klaus: ''Mein Name ist Eugen'', Zürich: Theologischer Verlag Flamberg 1955, Seite 15.</ref>
+:[1] „Seit Jahrtausenden nutzen Menschen die Wirkung von Enzymen: Ohne sie gäbe es keinen ''Joghurt,'' keinen Wein, kein Bier.“<ref>{{Literatur | Autor=Heike Kampe | Titel=Vom Einzeller zur Brennstoffzelle | Sammelwerk=Portal Wissen | WerkErg=Das Forschungsmagazin der Universität Potsdam | Nummer=1/2013 | ISSN=2194-4237 | Seiten=54 }}</ref>
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[ein#Artikel|einen]] [[Becher]] Joghurt, [[ein#Artikel|ein]] [[Schälchen]] Joghurt, [[cremig]]e(-r, -s) Joghurt, [[dickgelegt]]e(-r, -s) Joghurt, [[fest]]e(-r, -s) Joghurt, [[fettarm]]e(-r, -s) Joghurt, [[gerührt]]e(-r, -s) Joghurt, [[lecker]]e(-r, -s) Joghurt, [[löffelfest]]e(-r, -s) Joghurt, [[mild]]e(-r, s) Joghurt, [[probiotisch]]e(-r, -s) Joghurt, [[stichfest]]e(-r, -s) Joghurt, [[wärmebehandelt]]e(-r, -s) Joghurt
+
+{{Wortbildungen}}
+:[1] [[Joghurtbecher]] (''auch'' Joghurt-[[Becher]]), [[Joghurtbereiter]] (''auch'' Joghurt-Bereiter), [[Joghurtcreme]] (''auch'' Joghurt-[[Creme]]), [[Joghurtdressing]] (''auch'' Joghurt-[[Dressing]]), [[Joghurtdrink]] (''auch'' Joghurt-[[Drink]]), [[Joghurterzeugnis]] (''auch'' Joghurt-[[Erzeugnis]]), [[Joghurtgerät]] (''auch'' Joghurt-[[Gerät]]), [[Joghurtgetränk]] (''auch'' Joghurt-[[Getränk]]), [[Joghurtherstellung]] (''auch'' Joghurt-[[Herstellung]]), [[Joghurtkonsum]] (''auch'' Joghurt-[[Konsum]]), [[Joghurtkultur]] (''auch'' Joghurt-[[Kultur]]), [[Joghurtmaschine]] (''auch'' Joghurt-[[Maschine]]), [[Joghurtmischerzeugnis]] (''auch'' Joghurt-[[Mischerzeugnis]]), [[Joghurtprodukt]] (''auch'' Joghurt-[[Produkt]]), [[Joghurtsorte]] (''auch'' Joghurt-[[Sorte]]), [[Joghurtspeise]] (''auch'' Joghurt-[[Speise]]), [[Joghurtumsatz]] (''auch'' Joghurt-[[Umsatz]]), [[Joghurtzubereitungsautomat]] (''auch'' Joghurt-[[Zubereitungsautomat]]), [[Qualitätsjoghurt]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|yoghurt}}, {{Ü|af|joghurt}}
+*{{sq}}: [1] {{Ü|sq|kos}}
+*{{ar}}: [1] {{Üxx5|ar|raub|?????|???}}, {{Üxx5|ar|laban|?????|???}}
+*{{eu}}: [1] {{Ü|eu|jogurt}}
+*{{bs}}: [1] {{Ü|bs|jogurt}} {{m}}
+*{{bg}}: [1] {{Üxx|bg|jogurt|??????}}, {{Üxx|bg|kiselo mljako|?????? ?????}} {{n}}
+*{{zh}}: [1] {{Üxx|zh|suannai|??}}, {{Üxx|zh|suanniúnai|???}}
+:*{{zh-cn}}: [1] {{Üxx|zh|yougé|??}}
+:*{{zh-tw}}: [1] {{Üxx|zh|yougé|??}}
+*{{da}}: [1] {{Ü|da|jogurt}}, {{Ü|da|yoghurt}}
+*{{en}}: [1] {{Ü|en|yoghurt}}, {{Ü|en|yogurt}}, ''[[selten]]:'' {{Ü|en|yoghourt}}
+*{{eo}}: [1] {{Ü|eo|jogurto}}, {{Ü|eo|jahurto}}
+*{{et}}: [1] {{Ü|et|jogurt}}
+*{{fo}}: [1] {{Ü|fo|rómastampur}}, {{Ü|fo|loypingur}}
+*{{fi}}: [1] {{Ü|fi|jogurtti}}, {{Ü|fi|jugurtti}}, ''[[selten]]:'' {{Ü|fi|jukurtti}}
+*{{fr}}: [1] {{Ü|fr|yaourt}} {{m}}; ''[[Belgien]], [[Kanada]], [[Schweiz]]:'' {{Ü|fr|yogourt}} {{m}}; ''[[selten]]:'' {{Ü|fr|yoghourt}} {{m}}
+*{{gl}}: [1] {{Ü|gl|iogur}} {{m}}
+*{{ka}}: [1] {{Üxx|ka|maconi|??????}}
+*{{el}}: [1] {{Üxx|el|yaoúrti|??a???t?}}
+*{{he}}: [1] {{Üxx5|he|yogur?|????????|??????}}
+*{{io}}: [1] {{Ü|io|yogurto}}
+*{{id}}: [1] {{Ü|id|yoghurt}}
+*{{ia}}: [1] {{Ü|ia|yogurt}}
+*{{ga}}: [1] {{Ü|ga|iógart}}
+*{{is}}: [1] {{Ü|is|jógúrt}}
+*{{it}}: [1] {{Ü|it|yogurt}}, {{Ü|it|iogurt}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|?????, yoguruto|?????}}, {{Üxx|ja|???????, hakko nyu|???}}
+*{{yi}}: [1] {{Üxx|yi|yogort|??????}} {{m}}
+*{{ca}}: [1] {{Ü|ca|iogurt}} {{m}}
+|Ü-rechts=
+*{{ko}}: [1] {{Üxx|ko|yogureuteu|????}}
+*{{crh}}: [1] {{Ü|crh|katik}}
+*{{hr}}: [1] {{Ü|hr|jogurt}} {{m}}
+*{{ku}}: [1] {{Üxx|ku|[[mast]]|????}} {{m}}
+*{{la}}: [1] {{Ü|la|iogurtum}}
+*{{lt}}: [1] {{Ü|lt|jogùrtas}}
+*{{nl}}: [1] {{Ü|nl|yoghurt}}, {{Ü|nl|joghurt}}
+*{{dsb}}: [1] {{Ü|dsb|joghurt}} {{m}}, {{Ü|dsb|jogurt}} {{m}}
+*{{no}}: [1] {{Ü|no|jogurt}}, {{Ü|no|yoghurt}}
+*{{hsb}}: [1] {{Ü|hsb|joghurt}}
+*{{oc}}: [1] {{Ü|oc|iaort}} {{m}},  {{Ü|oc|iogort}} {{m}}
+*{{fa}}: [1] {{Üxx|fa|mast|????}}
+*{{pl}}: [1] {{Ü|pl|jogurt}} {{m}}
+*{{pt}}: [1] {{Ü|pt|iogurte}}, {{m}} {{Ü|pt|iogurto}} {{m}}
+*{{rm}}: [1] {{Ü|rm|jogurt}}
+*{{ro}}: [1] {{Ü|ro|iaurt}}
+*{{ru}}: [1] {{Üxx|ru|jogúrt, jógurt|??????}} {{m}}
+*{{sv}}: [1] {{Ü|sv|yoghurt}}, {{Ü|sv|jogurt}}
+*{{sr}}: [1] {{Üxx|sr|[[jogurt]]|??????}} {{m}}
+*{{sh}}: [1] {{Üxx|sh|[[jogurt]]|??????}} {{m}}
+*{{sk}}: [1] {{Ü|sk|jogurt}} {{m}}
+*{{es}}: [1] {{Ü|es|yogur}} {{m}}
+*{{tt}}: [1] {{Ü|tt|yogirt}}
+*{{te}}: [1] {{Üxx|te|perugu|??????}}
+*{{th}}: [1] {{Üxx|th|nom bprîeow|?????????}}, {{Üxx|th|yo koet|????????}}
+*{{cs}}: [1] {{Ü|cs|jogurt}} {{m}}
+*{{tr}}: [1] {{Ü|tr|yogurt}} {{m}}
+*{{tk}}: [1] {{Ü|tk|s?zme}}
+*{{uk}}: [1] {{Üxx|uk|jogurt|??????}}
+*{{hu}}: [1] {{Ü|hu|joghurt}}
+*{{vi}}: [1] {{Ü|vi|s?a chua}}
+*{{cy}}: [1] {{Ü|cy|iogwrt}}
+|Dialekttabelle=
+*Berlinerisch: Joghurt {{Lautschrift|'jog???t}},  {{Lautschrift|'jog????}}
+*Lausitzisch: Joghurt {{Lautschrift|'j?g??t}}, {{Lautschrift|'j?g???}}
+|D-rechts=
+*[[Süddeutschland]]: {{Lautschrift|'jo?k??t}}, {{Pl.}} {{Lautschrift|'jo?k??ts}}<ref name="VWD"/>
+**Bairisch: Joghurt {{Lautschrift|'jok???t}}, {{Lautschrift|'jok????}}
+}}
+
+{{Referenzen}}
+:[1] {{Lit-Duden: Universalwörterbuch|A=6}}, Seite 907
+:[1] {{Lit-Duden: Großes Fremdwörterbuch|A=4}}, Seite 669
+:[1] {{Lit-Ammon: Variantenwörterbuch|A=1}}, Seite 374
+:[1] {{Wikipedia|Joghurt}}
+:[1] {{Ref-DWDS|Joghurt}}
+:[1] {{Ref-Canoo|Joghurt}}
+:[1] {{Ref-UniLeipzig|Joghurt}}
+
+{{Quellen|}}
+
+{{Ähnlichkeiten}}
+:[[Gurt]]
+
+[[Kategorie:Turzismus]]
+
+[[cs:Joghurt]]
+[[en:Joghurt]]
+[[eu:Joghurt]]
+[[fi:Joghurt]]
+[[fr:Joghurt]]
+[[hu:Joghurt]]
+[[io:Joghurt]]
+[[ko:Joghurt]]
+[[ku:Joghurt]]
+[[lb:Joghurt]]
+[[lo:Joghurt]]
+[[nl:Joghurt]]
+[[pl:Joghurt]]
+[[ru:Joghurt]]
+[[sv:Joghurt]]
+[[tr:Joghurt]]
+[[zh:Joghurt]]

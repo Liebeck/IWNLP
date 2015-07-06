@@ -1,0 +1,200 @@
+﻿== Juni ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Juni
+|Nominativ Plural=<small>(die Junis)</small>
+|Genitiv Singular=des Juni<br />des Junis
+|Genitiv Plural=<small>(der Junis)</small>
+|Dativ Singular=dem Juni
+|Dativ Plural=<small>(den Junis)</small>
+|Akkusativ Singular=den Juni
+|Akkusativ Plural=<small>(die Junis)</small>
+}}
+
+{{Worttrennung}}
+:Ju·ni, {{Pl.}} ''selten:'' Ju·nis
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈjuːni}}, {{Pl.}} {{Lautschrift|ˈjuːnis}}
+:{{Hörbeispiele}} {{Audio|De-Juni.ogg|Juni}}, {{Pl.}}
+
+{{Bedeutungen}}
+:[1] der sechste Monat im Jahr
+
+{{Abkürzungen}}
+:[1] [[Jun.]], 6., 06., VI.
+
+{{Herkunft}}
+:von [[lateinisch]]: ''{{Ü|la|Iunius|Iūnius}}'' nach der Göttin [[Juno]] ''({{Ü|la|Iuno|Iūnō}})'' benannt. Das Wort ist seit dem 8. Jahrhundert in der Form „Junius“, seit dem 16. Jahrhundert in der heutigen Form belegt.<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Juni“, Seite 455.</ref>
+
+{{Synonyme}}
+:[1] [[Juno]], [[Sechste]]r, [[Rosenmonat]], ''veraltet:'' [[Brachet]], [[Brachmond]], [[Brachmonat]], [[Rosenmond]]
+
+{{Gegenwörter}}
+:[1] [[Januar]] / [[Jänner]], [[Februar]] / [[Feber]], [[März]], [[April]], [[Mai]], [[Juli]], [[August]], [[September]], [[Oktober]], [[November]], [[Dezember]]
+
+{{Oberbegriffe}}
+:[1] [[Monat]]
+
+{{Beispiele}}
+:[1] Der ''Juni'' folgt auf den Mai.
+
+{{Wortbildungen}}
+:[[Junikäfer]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|junie}}
+*{{sq}}: [1] {{Ü|sq|qershori}}
+*{{ang}}: [1] {{Ü|ang|sēremōnaþ}}
+*{{ar}}: [1] {{Üxx|ar|hazīrān|حزيران}}, {{Üxx|ar|yūnyū|يونيو}}
+*{{an}}: [1] {{Ü|an|chunio}}
+*{{ast}}: [1] {{Ü|ast|xunu}}
+*{{eu}}: [1] {{Ü|eu|ekain}}
+*{{bs}}: [1] {{Ü|bs|juni}}
+*{{bg}}: [1] {{Üxx|bg|juni|юни}}
+*{{zh}}: [1] {{Üxx|zh|liùyuè|六月}}
+*{{da}}: [1] {{Ü|da|juni}}
+*{{en}}: [1] {{Ü|en|June}}
+*{{eo}}: [1] {{Ü|eo|junio}}
+*{{et}}: [1] {{Ü|et|juuni}}
+*{{fo}}: [1] {{Ü|fo|juni}}
+*{{fi}}: [1] {{Ü|fi|kesäkuu}}
+*{{fr}}: [1] {{Ü|fr|juin}}
+*{{fur}}: [1] {{Ü|fur|zugn}}
+*{{fy}}: [1] {{Ü|fy|juny}}, {{Ü|fy|simmermoanne}}
+*{{gd}}: [1] {{Ü|gd|Ògmhìos}}
+*{{gv}}: [1] {{Ü|gv|Mean Souree}}
+*{{gl}}: [1] {{Ü|gl|xuño}}
+*{{ka}}: [1] {{Üxx|ka|ivnisi|ივნისი}}
+*{{el}}: [1] {{Üxx|el|Ioúnios|Ιούνιος}}, {{Üxx|el|Ioúnis|Ιούνης}}
+*{{he}}: [1] {{Üxx|he|iuni|יוני}}
+*{{io}}: [1] {{Ü|io|junio}}
+*{{id}}: [1] {{Ü|id|juni}}
+*{{inh}}: [1] {{Ü|inh|аьтинг}}
+*{{ia}}: [1] {{Ü|ia|junio}}
+*{{ie}}: [1] {{Ü|ie|junio}}
+*{{ga}}: [1] {{Ü|ga|meitheamh}}
+*{{is}}: [1] {{Ü|is|júní}}
+*{{it}}: [1] {{Ü|it|giugno}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|ろくがつ, rokúgatsú|六月}}
+*{{jv}}: [1] {{Ü|jv|juni}}
+*{{kn}}: [1] {{Üxx|kn|jūn|ಜೂನ}}
+*{{csb}}: [1] {{Ü|csb|czerwińc}}
+*{{ca}}: [1] {{Ü|ca|juny}} {{m}}
+*{{ko}}: [1] {{Üxx|ko|yuwol|유월}}
+*{{kw}}: [1] {{Ü|kw|mys metheven}}
+*{{hr}}: [1] {{Ü|hr|lipanj}}
+*{{ku}}: [1] {{Ü|ku|xezîran}}
+*{{la}}: [1] {{Ü|la|Iunius}}
+*{{li}}: [1] {{Ü|li|juni}}
+*{{lt}}: [1] {{Ü|lt|birželis}}
+|Ü-rechts=
+*{{lb}}: [1] {{Ü|lb|Juni}}
+*{{ms}}: [1] {{Ü|ms|jun}}
+*{{ml}}: [1] {{Üxx|ml|जूण्‍, jūṇ‍|ജൂണ്‍}}
+*{{mt}}: [1] {{Ü|mt|Gunju}} {{m}}
+*{{mi}}: [1] {{Ü|mi|Hune}}, {{Ü|mi|Pipiri}}, {{Ü|mi|Mātahi}}, {{Ü|mi|Te toru here o Pipiri}}
+*{{mr}}: [1] {{Üxx|mr|jūn|जून}}
+*{{nl}}: [1] {{Ü|nl|juni}} {{m}}, {{Ü|nl|zomermaand}} {{m}}
+*{{se}}: [1] {{Ü|se|geassemánnu}}
+*{{no}}: [1] {{Ü|no|juni}}
+*{{nov}}: [1] {{Ü|nov|june}}
+*{{oc}}: [1] {{Ü|oc|junh}}
+*{{fa}}: [1] {{Üxx|fa|žū’an|ژوئن}}
+*{{pl}}: [1] {{Ü|pl|czerwiec}}
+*{{pt}}: [1] {{Ü|pt|junho}} {{m}}
+*{{rm}}: [1] {{Ü|rm|zercladur}}
+*{{ro}}: [1] {{Ü|ro|iunie}}
+*{{ru}}: [1] {{Üxx|ru|ijún|июнь}} {{m}}
+*{{sco}}: [1] {{Ü|sco|juin}}
+*{{sv}}: [1] {{Ü|sv|juni}}
+*{{sr}}: [1] {{Üxx|sr|[[jun]]|јун}}
+*{{scn}}: [1] {{Ü|scn|giugnu}}
+*{{sk}}: [1] {{Ü|sk|jún}}
+*{{sl}}: [1] {{Ü|sl|junij}}
+*{{wen}}: [1] {{Ü|wen|junij}}
+*{{es}}: [1] {{Ü|es|junio}} {{m}}
+*{{st}}: [1] {{Ü|st|Phupjane}}
+*{{tl}}: [1] {{Ü|tl|hunyo}}
+*{{tt}}: [1] {{Ü|tt|yün}}
+*{{th}}: [1] {{Üxx|th|mí thù naa jon|มิถุนายน}}
+*{{tpi}}: [1] {{Ü|tpi|jun}}
+*{{cs}}: [1] {{Ü|cs|červen}}
+*{{cv}}: [1] {{Üxx|cv||çěртме}}
+*{{tr}}: [1] {{Ü|tr|haziran}}
+*{{uk}}: [1] {{Üxx|uk|tscherwen|червень}}
+*{{hu}}: [1] {{Ü|hu|június}}
+*{{ur}}: [1] {{Üxx|ur|ğūn|جون}}
+*{{vi}}: [1] {{Ü|vi|tháng sáu}}
+*{{vo}}: [1] {{Ü|vo|yunul}}
+*{{cy}}: [1] {{Ü|cy|mehefin}}
+*{{wa}}: [1] {{Ü|wa|djun}}
+*{{be}}: [1] {{Üxx|be|červień|чэрвень}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Juni}}
+:[1] {{Ref-Grimm|Juni}}
+:[1] {{Ref-DWDS|Juni}}
+:[1] {{Ref-Canoo|Juni}}
+:[1] {{Ref-UniLeipzig|Juni}}
+
+{{Quellen|}}
+
+{{Monate (Deutsch)}}
+
+{{Ähnlichkeiten}}
+:[[jung]], [[jun.]], [[Juli]], [[Juno]], [[Uni]], [[Yoni]]
+
+[[af:Juni]]
+[[ang:Juni]]
+[[ast:Juni]]
+[[az:Juni]]
+[[br:Juni]]
+[[cs:Juni]]
+[[cy:Juni]]
+[[da:Juni]]
+[[el:Juni]]
+[[en:Juni]]
+[[et:Juni]]
+[[eu:Juni]]
+[[fi:Juni]]
+[[fr:Juni]]
+[[ga:Juni]]
+[[gl:Juni]]
+[[hr:Juni]]
+[[hu:Juni]]
+[[hy:Juni]]
+[[id:Juni]]
+[[io:Juni]]
+[[it:Juni]]
+[[ja:Juni]]
+[[jv:Juni]]
+[[kl:Juni]]
+[[ko:Juni]]
+[[ku:Juni]]
+[[lb:Juni]]
+[[ln:Juni]]
+[[lo:Juni]]
+[[lt:Juni]]
+[[lv:Juni]]
+[[mg:Juni]]
+[[nl:Juni]]
+[[nn:Juni]]
+[[no:Juni]]
+[[oc:Juni]]
+[[om:Juni]]
+[[pl:Juni]]
+[[pt:Juni]]
+[[ro:Juni]]
+[[ru:Juni]]
+[[sh:Juni]]
+[[sm:Juni]]
+[[sv:Juni]]
+[[th:Juni]]
+[[tr:Juni]]
+[[uk:Juni]]
+[[uz:Juni]]
+[[zh:Juni]]

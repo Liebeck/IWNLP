@@ -1,0 +1,53 @@
+﻿== angrenzen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=(grenze an)
+|Gegenwart_du=(grenzt an)
+|Gegenwart_er, sie, es=grenzt an
+|1.Vergangenheit_ich=grenzte an
+|Partizip II=angegrenzt
+|Konjunktiv II_ich=grenzte an
+|Imperativ Singular=(grenze an!)
+|Imperativ Plural=(grenzt an!)
+|Hilfsverb=haben
+}}
+
+{{Worttrennung}}
+:an·gren·zen, {{Prät.}} grenz·te an, {{Part.}} an·ge·grenzt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈanˌɡʀɛnʦn̩}}, {{Prät.}} {{Lautschrift|ˌɡʀɛnʦtə ˈan}}, {{Part.}} {{Lautschrift|ˈanɡəˌɡʀɛnʦt}}
+:{{Hörbeispiele}}
+
+{{Bedeutungen}}
+:[1] mit etwas eine gemeinsame Grenze haben
+
+{{Beispiele}}
+:[1] Die Wiese ''grenzt'' an den Wald ''an''.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|être attenant (à)}}, {{Ü|fr|jouxter}}, {{Ü|fr|toucher}}, {{Ü|fr|toucher à}}, être {{Ü|fr|limitrophe}} de
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{sv}}: [1] {{Ü|sv|gränsa till}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|angrenzen}}
+:[1] {{Ref-Canoo|angrenzen}}
+:[1] {{Ref-UniLeipzig|angrenzen}}
+:[1] {{Ref-FreeDictionary|angrenzen}}
+:[1] {{Ref-Duden|angrenzen}}
+:[1] {{Ref-wissen.de|Wörterbuch|angrenzen}}
+:[1] {{Ref-PONS|angrenzen}}
+
+[[chr:angrenzen]]
+[[io:angrenzen]]
+[[it:angrenzen]]
+[[ko:angrenzen]]
+[[mg:angrenzen]]
+[[pl:angrenzen]]
+[[zh:angrenzen]]

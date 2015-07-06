@@ -1,0 +1,56 @@
+﻿== Fötus ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Fötus
+|Nominativ Plural 1=die Föten
+|Nominativ Plural 2=die Fötusse
+|Genitiv Singular=des Fötus<br />selten: des Fötusses
+|Genitiv Plural 1=der Föten
+|Genitiv Plural 2=der Fötusse
+|Dativ Singular=dem Fötus
+|Dativ Plural 1=den Föten
+|Dativ Plural 2=den Fötussen
+|Akkusativ Singular=den Fötus
+|Akkusativ Plural 1=die Föten
+|Akkusativ Plural 2=die Fötusse
+}}
+
+{{Anmerkung}}
+:Sowohl den [[Genitiv]] [[Singular]] ''Fötusses'' als auch die [[Pluralform]]en ''Fötusse'' [[deklarieren|deklariert]] der Duden als selten.<ref>{{Ref-Duden|Fötus}}</ref>
+
+{{Alternative Schreibweisen}}
+:[[Fetus]]
+
+{{Worttrennung}}
+:Fö·tus, {{Pl.1}} Fö·ten, {{Pl.2}} Fö·tus·se
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈføːtʊs}}, {{Pl.1}} {{Lautschrift|ˈføːtn̩}}, {{Pl.2}} {{Lautschrift|ˈføːtʊsə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] [[Embryo]] ab dem dritten Monat einer Schwangerschaft
+
+{{Lemmaverweis|Fetus}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Fötus}}
+:[1] {{Ref-DWDS|Fötus}}
+:[1] {{Ref-Duden|Fötus}}
+:[1] {{Ref-Canoo|Fötus}}
+:[1] {{Ref-UniLeipzig|Fötus}}
+:[1] {{Ref-FreeDictionary|Fötus}}
+
+{{Quellen}}
+
+[[Kategorie:Latinismus]]
+
+[[en:Fötus]]
+[[fr:Fötus]]
+[[io:Fötus]]
+[[ko:Fötus]]
+[[nl:Fötus]]
+[[pl:Fötus]]
+[[ru:Fötus]]
+[[zh:Fötus]]

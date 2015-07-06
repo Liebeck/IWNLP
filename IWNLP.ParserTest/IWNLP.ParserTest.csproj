@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD0649CE-565F-41C3-9A34-D66E11822D83}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IWNLP.ParserTest</RootNamespace>
+    <AssemblyName>IWNLP.ParserTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GenericXMLSerializer">
+      <HintPath>..\packages\GenericXMLSerializer.1.0.0\lib\GenericXMLSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="AdjectiveFlexParserTests.cs" />
+    <Compile Include="AdjectiveTests.cs" />
+    <Compile Include="AppSettingsWrapper.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="NounTests.cs" />
+    <Compile Include="ParserFunctionsTests.cs" />
+    <Compile Include="POSTests.cs" />
+    <Compile Include="PronounTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerbConjugationSyntaxTests.cs" />
+    <Compile Include="VerbRegelmaessigTests.cs" />
+    <Compile Include="VerbSchwachUntrennbarTests.cs" />
+    <Compile Include="VerbTests.cs" />
+    <Compile Include="VerbUnregelmaessigTests.cs" />
+    <Compile Include="WikiPOSTagParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IWNLP.Models\IWNLP.Models.csproj">
+      <Project>{0560a5b6-9ad6-419a-8be1-4e366a70fe4f}</Project>
+      <Name>IWNLP.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IWNLP.Parser\IWNLP.Parser.csproj">
+      <Project>{48e6d6c2-ced6-4114-a452-94bb83d7ae5d}</Project>
+      <Name>IWNLP.Parser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestInput\AdjectiveDeclination\erlesen.txt" />
+    <Content Include="TestInput\AdjectiveDeclination\gelb.txt" />
+    <Content Include="TestInput\AdjectiveDeclination\lecker.txt" />
+    <Content Include="TestInput\AdjectiveDeclination\mittel.txt" />
+    <Content Include="TestInput\AdjectiveDeclination\rot.txt" />
+    <Content Include="TestInput\AdjectiveDeclination\traumlos.txt" />
+    <Content Include="TestInput\Adjectives\doll.txt" />
+    <Content Include="TestInput\Adjectives\einzig.txt" />
+    <Content Include="TestInput\Adjectives\tot.txt" />
+    <Content Include="TestInput\Adjectives\zirkulaer.txt" />
+    <Content Include="TestInput\Nouns\Aas.txt" />
+    <Content Include="TestInput\Nouns\Ablaß.txt" />
+    <Content Include="TestInput\Nouns\Afrikaans.txt" />
+    <Content Include="TestInput\Nouns\Ampelograph.txt" />
+    <Content Include="TestInput\Nouns\Apfelsaeure.txt" />
+    <Content Include="TestInput\Nouns\April.txt" />
+    <Content Include="TestInput\Nouns\Art.txt" />
+    <Content Include="TestInput\Nouns\August.txt" />
+    <Content Include="TestInput\Nouns\Biak.txt" />
+    <Content Include="TestInput\Nouns\Buggy.txt" />
+    <Content Include="TestInput\Nouns\Citronensäure.txt" />
+    <Content Include="TestInput\Nouns\Codex.txt" />
+    <Content Include="TestInput\Nouns\Daguerreotyp.txt" />
+    <Content Include="TestInput\Nouns\Deichgraf.txt" />
+    <Content Include="TestInput\Nouns\Demodex folliculorum.txt" />
+    <Content Include="TestInput\Nouns\ErscheinungDesHerrn.txt" />
+    <Content Include="TestInput\Nouns\Fetus.txt" />
+    <Content Include="TestInput\Nouns\Firewall.txt" />
+    <Content Include="TestInput\Nouns\Fremde.txt" />
+    <Content Include="TestInput\Nouns\Fötus.txt" />
+    <Content Include="TestInput\Nouns\Gelb.txt" />
+    <Content Include="TestInput\Nouns\Güterzug.txt" />
+    <Content Include="TestInput\Nouns\Haendel.txt" />
+    <Content Include="TestInput\Nouns\Hannibal.txt" />
+    <Content Include="TestInput\Nouns\Haus.txt" />
+    <Content Include="TestInput\Nouns\Herz.txt" />
+    <Content Include="TestInput\Nouns\Index.txt" />
+    <Content Include="TestInput\Nouns\Interessenvertretung.txt" />
+    <Content Include="TestInput\Nouns\Joghurt.txt" />
+    <Content Include="TestInput\Nouns\Juni.txt" />
+    <Content Include="TestInput\Nouns\Komputer.txt" />
+    <Content Include="TestInput\Nouns\Konstante.txt" />
+    <Content Include="TestInput\Nouns\Mahr.txt" />
+    <Content Include="TestInput\Nouns\Mai.txt" />
+    <Content Include="TestInput\Nouns\Mail.txt" />
+    <Content Include="TestInput\Nouns\MariaVomSiege.txt" />
+    <Content Include="TestInput\Nouns\Masse.txt" />
+    <Content Include="TestInput\Nouns\Miami.txt" />
+    <Content Include="TestInput\Nouns\Mutter.txt" />
+    <Content Include="TestInput\Nouns\März.txt" />
+    <Content Include="TestInput\Nouns\Niederländisch.txt" />
+    <Content Include="TestInput\Nouns\Nord.txt" />
+    <Content Include="TestInput\Nouns\Nussknacker.txt" />
+    <Content Include="TestInput\Nouns\Pkw.txt" />
+    <Content Include="TestInput\Nouns\Propentricarbonsäure.txt" />
+    <Content Include="TestInput\Nouns\Qualitätsschaumwein.txt" />
+    <Content Include="TestInput\Nouns\Schoss.txt" />
+    <Content Include="TestInput\Nouns\Siebenschläfertag.txt" />
+    <Content Include="TestInput\Nouns\Strasse.txt" />
+    <Content Include="TestInput\Nouns\StVincentUndDieGrenadinen.txt" />
+    <Content Include="TestInput\Nouns\Tag.txt" />
+    <Content Include="TestInput\Nouns\Teppich.txt" />
+    <Content Include="TestInput\Nouns\Thor.txt" />
+    <Content Include="TestInput\Nouns\Tier.txt" />
+    <Content Include="TestInput\Nouns\Tolpatsch.txt" />
+    <Content Include="TestInput\Nouns\Tsunami.txt" />
+    <Content Include="TestInput\Nouns\Tun.txt" />
+    <Content Include="TestInput\Nouns\Vertretung.txt" />
+    <Content Include="TestInput\Nouns\Zeitprozentverfahren.txt" />
+    <Content Include="TestInput\POS\dunkel.txt" />
+    <Content Include="TestInput\POS\wohlgenährt.txt" />
+    <Content Include="TestInput\Pronouns\alles.txt" />
+    <Content Include="TestInput\Pronouns\beide.txt" />
+    <Content Include="TestInput\Pronouns\das.txt" />
+    <Content Include="TestInput\Pronouns\demjenigen.txt" />
+    <Content Include="TestInput\Pronouns\der.txt" />
+    <Content Include="TestInput\Pronouns\er.txt" />
+    <Content Include="TestInput\Pronouns\irgendwelche.txt" />
+    <Content Include="TestInput\Pronouns\kein.txt" />
+    <Content Include="TestInput\Pronouns\sie.txt" />
+    <Content Include="TestInput\Pronouns\welcher.txt" />
+    <Content Include="TestInput\Readme.txt" />
+    <Content Include="TestInput\VerbConjugation\regelmaessig\abspeichern.txt" />
+    <Content Include="TestInput\VerbConjugation\regelmaessig\backen.txt" />
+    <Content Include="TestInput\VerbConjugation\regelmaessig\fluten.txt" />
+    <Content Include="TestInput\VerbConjugation\regelmaessig\liebkosen.txt" />
+    <Content Include="TestInput\VerbConjugation\regelmaessig\waermebehandeln.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\altern.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\bechern.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\beknien.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\iahen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\knien.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\kondolieren.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\mahlen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\missachten.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\normieren.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\oeffnen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\recyclen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\schirmen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\schwaenzeln.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\ueben.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\ueberlappen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\verleumden.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\abmessen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\abschieben1.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\abschieben2.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\auskommen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\behaupten.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\durchixen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\eingeben.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\generalueberholen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\gesundschrumpfen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\gewittern.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\infundieren.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\inStandSetzen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\mahlen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\regnen.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\ueben.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\ueberschreiten.txt" />
+    <Content Include="TestInput\VerbConjugation\Syntax\wiederaufbereiten.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\ablassen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\abmessen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\abwaschen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\anschreien.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\antun.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\beissen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\bersten.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\bieten.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\bitten.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\bringen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\dreschen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\gebieten.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\haben.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\kiesen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\knoepfen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\laden.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\meiden.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\muessen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\Rad fahren.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\sein.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\stehen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\treten.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\tun.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\vortragen.txt" />
+    <Content Include="TestInput\VerbConjugation\unregelmaessig\werden.txt" />
+    <Content Include="TestInput\Verbs\abblättern.txt" />
+    <Content Include="TestInput\Verbs\abbröckeln.txt" />
+    <Content Include="TestInput\Verbs\angrenzen.txt" />
+    <Content Include="TestInput\Verbs\aussaugen.txt" />
+    <Content Include="TestInput\Verbs\aussortieren.txt" />
+    <Content Include="TestInput\Verbs\blinzeln.txt" />
+    <Content Include="TestInput\Verbs\erkälten.txt" />
+    <Content Include="TestInput\Verbs\fladern.txt" />
+    <Content Include="TestInput\Verbs\fläzen.txt" />
+    <Content Include="TestInput\Verbs\fragen.txt" />
+    <Content Include="TestInput\Verbs\helfen.txt" />
+    <Content Include="TestInput\Verbs\hereinkommen.txt" />
+    <Content Include="TestInput\Verbs\kriegen.txt" />
+    <Content Include="TestInput\Verbs\kueren.txt" />
+    <Content Include="TestInput\Verbs\leiden.txt" />
+    <Content Include="TestInput\Verbs\menstruieren.txt" />
+    <Content Include="TestInput\Verbs\nachsalzen.txt" />
+    <Content Include="TestInput\Verbs\piken.txt" />
+    <Content Include="TestInput\Verbs\reinpfeifen.txt" />
+    <Content Include="TestInput\Verbs\rennen.txt" />
+    <Content Include="TestInput\Verbs\rinnen.txt" />
+    <Content Include="TestInput\Verbs\salzen.txt" />
+    <Content Include="TestInput\Verbs\saugen.txt" />
+    <Content Include="TestInput\Verbs\scheren.txt" />
+    <Content Include="TestInput\Verbs\scheuen.txt" />
+    <Content Include="TestInput\Verbs\schwoeren.txt" />
+    <Content Include="TestInput\Verbs\senden.txt" />
+    <Content Include="TestInput\Verbs\speisen.txt" />
+    <Content Include="TestInput\Verbs\stiefeln.txt" />
+    <Content Include="TestInput\Verbs\verheeren.txt" />
+    <Content Include="TestInput\Verbs\versalzen.txt" />
+    <Content Include="TestInput\Verbs\weiterhelfen.txt" />
+    <Content Include="TestInput\Verbs\werden.txt" />
+    <Content Include="TestInput\Verbs\überführen.txt" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

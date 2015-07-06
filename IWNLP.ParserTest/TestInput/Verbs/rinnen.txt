@@ -1,0 +1,93 @@
+﻿{{Siehe auch|[[Rinnen]]}}
+== rinnen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=rinne
+|Gegenwart_du=rinnst
+|Gegenwart_er, sie, es=rinnt
+|1.Vergangenheit_ich=rann
+|Partizip II=geronnen
+|Konjunktiv II_ich=ränne<br />rönne
+|Imperativ Singular=rinn!<br />rinne!
+|Imperativ Plural=rinnt!
+|Hilfsverb=haben
+|Weitere_Konjugationen=rinnen (Konjugation)
+}}
+
+{{Worttrennung}}
+:rin·nen, {{Prät.}} rann, {{Part.}} ge·ron·nen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʀɪnən}}, {{Prät.}} {{Lautschrift|ˈʀan}}, {{Part.}} {{Lautschrift|ɡəˈʀɔnən}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|ɪnən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{intrans.|:}} langsam und in geringer Menge fließen
+:[2] {{intrans.|:}} sich in kleinen Mengen bewegen
+:[3] {{K|intrans.|von [[Behälter]]n}} [[leck]], [[undicht]] sein; [[Flüssigkeit]] [[verlieren]]
+
+{{Herkunft}}
+:[[Erbwort]] von [[mittelhochdeutsch]] ''{{Ü|gmh|rinnen}}'', [[althochdeutsch]] ''{{Ü|goh|rinnan}}'' in der ursprünglichen Bedeutung „(sich) bewegen, in Bewegung setzen, erregt sein“<ref>{{Lit-Duden: Universalwörterbuch|A=6}}, Seite 1399, Eintrag „rinnen“.</ref>
+
+{{Sinnverwandte Wörter}}
+:[1] [[ablaufen]], [[gießen]]
+:[2] [[rieseln]]
+:[3] [[lecken]], [[nässen]]
+
+{{Gegenwörter}}
+:[1] [[hervorquellen]], [[sprudeln]], [[strömen]]
+:[2] [[ausbrechen]], [[explodieren]]
+:[3] [[abdichten]], [[verschließen]]
+
+{{Oberbegriffe}}
+:[1] [[fließen]]
+:[2] [[bewegen]]
+
+{{Unterbegriffe}}
+:[1, 3] [[sickern]], [[tropfen]], [[tröpfeln]]
+
+{{Beispiele}}
+:[1] Wasser ''rinnt'' meine Oberarme herunter.<ref>{{Per-Zeit Online | Online=http://www.zeit.de/2011/32/Schweiz-Wallis/seite-3 | Autor=Rudolf Novotny | Titel= Wallis: Der Städter und sein Alptraum | Nummer=32/2011 | Tag=13 | Monat=August | Jahr=2011 | Zugriff=2014-09-30 }}</ref>
+:[2] Der Reis ''rann'' aus der Packung.
+:[3] Die Tischdecke ist ganz nass geworden, weil die Kanne ''rinnt.''
+
+{{Charakteristische Wortkombinationen}}
+:[2] ''mit [[Satzgegenstand]]:'' [[Sand]], [[Salz]], [[Zucker]] ''rinnt''
+:[3] ''mit [[Satzgegenstand]]:'' ein [[Eimer]], [[Spülkasten]] ''rinnt;'' eine [[Kanne]] ''rinnt''
+
+{{Wortbildungen}}
+:[[abrinnen]], [[ausrinnen]], [[durchrinnen]], [[entrinnen]], [[Gerinne]], [[gerinnen]], [[herabrinnen]], [[herunterrinnen]], [[hinunterrinnen]], [[Rinne]], [[Rinnen]], [[rinnend]], [[Rinnsal]], [[Rinnstein]], [[verrinnen]], [[zerrrinnen]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|flow}}, {{Ü|en|run}}
+*{{fr}}: [1] s'{{Ü|fr|écouler}}
+*{{it}}: [1] {{Ü|it|scorrere}}, {{Ü|it|fluire}}, {{Ü|it|colare}}
+|Ü-rechts=
+*{{ru}}: [1] {{Üt|ru|течь|tjetsch}}, {{Üt|ru|струиться|struitsja}}
+*{{es}}: [1] {{Ü|es|fluir}}
+*{{hu}}: [1] {{Ü|hu|folyás}}
+}}
+
+{{Referenzen}}
+:[1–3] {{Ref-Grimm|rinnen}}
+:[1–3] {{Ref-DWDS|rinnen}}
+:[1–3] {{Ref-Duden|rinnen}}
+:[1, 3] {{Ref-Canoo|rinnen}}
+:[1–3] {{Ref-UniLeipzig|rinnen}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[innen]], [[rennen]]}}
+
+[[en:rinnen]]
+[[fi:rinnen]]
+[[fy:rinnen]]
+[[id:rinnen]]
+[[ko:rinnen]]
+[[ku:rinnen]]
+[[mg:rinnen]]
+[[ru:rinnen]]
+[[zh:rinnen]]

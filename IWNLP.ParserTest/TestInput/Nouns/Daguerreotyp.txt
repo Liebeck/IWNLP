@@ -1,0 +1,54 @@
+﻿== Daguerreotyp ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Daguerreotyp
+|Nominativ Plural=die Daguerreotype
+|Genitiv Singular=des Daguerreotyps<br />''veraltet:'' des Daguerreotypes<ref>{{Lit-Duden: Rechtschreibung|A=5 (3. Abdruck)|Bild=Barricades rue Saint-Maur. Avant l'attaque, 25 juin 1848. Après l’attaque, 26 juin 1848.jpg|250px|1|''Daguerreotyp'' einer Straße in Paris von 1848}}, „Daguerreotyp“, Seite 62.</ref>
+|Genitiv Plural=der Daguerreotype
+|Dativ Singular=dem Daguerreotyp
+|Dativ Plural=den Daguerreotypen
+|Akkusativ Singular=das Daguerreotyp
+|Akkusativ Plural=die Daguerreotype
+}}
+
+{{Worttrennung}}
+:Da·guer·reo·typ, {{Pl.}} Da·guer·reo·ty·pe
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|daɡɛʀoˈtyːp}}, {{Pl.}} {{Lautschrift|daɡɛʀoˈtyːpə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|yːp|Deutsch}}
+
+{{Bedeutungen}}
+:[1] mittels [[Daguerreotypie]] [1] hergestellte [[Fotografie]]
+
+{{Herkunft}}
+:benannt nach dem französischen [[Maler]] [[w:Louis Jacques Mandé Daguerre|Louis Jacques Mandé Daguerre]]<ref>{{Ref-Duden}}.</ref>
+
+{{Synonyme}}
+:[1] [[Daguerreotypie]]
+
+{{Beispiele}}
+:[1] Waldemar sammelt ''Daguerreotype.''
+
+{{Absatz}}
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Duden|Daguerreotyp}}
+:[*] {{Ref-Canoo|Daguerreotyp}}
+:[*] {{Ref-UniLeipzig|Daguerreotyp}}
+
+{{Quellen|}}
+
+{{Ähnlichkeiten}}
+:

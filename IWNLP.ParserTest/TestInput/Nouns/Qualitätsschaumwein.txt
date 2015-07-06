@@ -1,0 +1,45 @@
+﻿== Qualitätsschaumwein ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Qualitätsschaumwein
+|Nominativ Plural=die Qualitätsschaumweine 
+|Genitiv Singular=des Qualitätsschaumweins<br>des Qualitätsschaumweines</br>
+|Genitiv Plural=der  Qualitätsschaumweine
+|Dativ Singular=dem Qualitätsschaumwein
+|Dativ Plural=den  Qualitätsschaumweinen
+|Akkusativ Singular=den Qualitätsschaumwein
+|Akkusativ Plural=die  Qualitätsschaumweine
+}}
+
+{{Worttrennung}}
+:Qua·li·täts·schaum·wein, {{Pl.}} Qua·li·täts·schaum·wei·ne
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|kvaliˈtɛːʦˌʃaʊ̯mvaɪ̯n}}, {{Pl.}} {{Lautschrift|kvaliˈtɛːʦˌʃaʊ̯mvaɪ̯nə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''[[Weinbau]]:'' ein Schaumwein gehobener Qualität, der mit einer amtlichen Prüfnummer versehen ist
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus den Substantiven ''[[Qualität]]'' und ''[[Schaumwein]]'' sowie dem Fugenelement ''[[-s]]''
+
+{{Oberbegriffe}}
+:[1] [[Schaumwein]]
+
+{{Beispiele}}
+:[1] „Für ''Qualitätsschaumwein'' und Qualitätsschaumwein b.A. gelten, je nach Herstellungsverfahren, noch besondere Vorschriften. Außerdem muss der ''Qualitätsschaumwein'' b. A. eine spezielle Prüfung durchlaufen, um die amtliche Prüfnummer zu bekommen.“<ref>http://www.vis.bayern.de/ernaehrung/lebensmittel/gruppen/sekt_perlwein.htm</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}} 
+
+{{Referenzen}}
+:[1] {{Ref-UniLeipzig|Qualitätsschaumwein}}
+:[1] {{Lit-Schoonmaker: Wein-Lexikon}}, Seite 181, Eintrag „Qualitätsschaumwein“
+
+{{Quellen}}

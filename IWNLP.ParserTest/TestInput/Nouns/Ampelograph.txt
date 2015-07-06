@@ -1,0 +1,24 @@
+﻿== Ampelograph ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Ampelograph
+|Nominativ Plural=die Ampelographen
+|Genitiv Singular=des Ampelographen
+|Genitiv Plural=der Ampelographen
+|Dativ Singular=dem Ampelographen
+|Dativ Plural=den Ampelographen
+|Akkusativ Singular=den Ampelographen
+|Akkusativ Plural=die Ampelographen
+}}
+
+{{Worttrennung}}
+:Am·pe·lo·graph, {{Pl.}} Am·pe·lo·gra·phen
+
+{{Grammatische Merkmale}}
+*Alternative Schreibweise von '''[[Ampelograf]]'''
+
+{{Lemmaverweis|Ampelograf}}
+
+{{Referenzen}}
+* {{Lit-Duden: Großes Fremdwörterbuch|A=4}}, Seite 90, Eintrag „Ampelograf, auch …graph“

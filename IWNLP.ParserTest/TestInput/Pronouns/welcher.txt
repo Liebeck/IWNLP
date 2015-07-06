@@ -1,0 +1,216 @@
+﻿== welcher ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Interrogativpronomen|Deutsch}}, {{mf}} ===
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=welcher
+|Wer oder was? (Einzahl f)=welche
+|Wer oder was? (Einzahl n)=welches
+|Wer oder was? (Mehrzahl)=welche
+|Wessen? (Einzahl m)=welches<br />welchen
+|Wessen? (Einzahl f)=welcher
+|Wessen? (Einzahl n)=welches<br />welchen
+|Wessen? (Mehrzahl)=welcher
+|Wem? (Einzahl m)=welchem
+|Wem? (Einzahl f)=welcher
+|Wem? (Einzahl n)=welchem
+|Wem? (Mehrzahl)=welchen
+|Wen? (Einzahl m)=welchen
+|Wen? (Einzahl f)=welche
+|Wen? (Einzahl n)=welches
+|Wen? (Mehrzahl)=welche
+}}
+
+{{Worttrennung}}
+:wel·cher, {{Pl.}} wel·che
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈvɛlçɐ}}, {{Pl.}} {{Lautschrift|ˈvɛlçə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ein [[Interrogativpronomen]] ([[Fragepronomen]])
+::[a] im [[Nominativ]] [[maskulin]]
+::[b] im [[Dativ]] [[feminin]]
+
+{{Weibliche Wortformen}}
+:[[welche]]
+
+<p style="margin-bottom: -0.5em;" title="Neutrale Wortformen">'''Neutrale Wortformen:'''
+:[[welches]]
+
+{{Beispiele}}
+:[1a] ''Welcher'' Idiot hat heute laut aufgeschrien?
+:[1b] ''Welcher'' der Damen soll ich die Blumen geben?
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{grc}}: [1] {{Ü|grc|tis|τίς}}
+*{{ar}}: [1] {{Ü|ar|أي}}
+*{{en}}: [1] {{Ü|en|which}} one
+*{{eo}} [1a] {{Ü|eo|kiu}}
+*{{fr}}: [1] {{Ü|fr|quel}}; ''substantivisch:'' {{Ü|fr|lequel}}
+*{{it}}: [1] {{Ü|it|quale}}
+|Ü-rechts=
+*{{la}}: [1] {{Ü|la|qui}}
+*{{pl}}: [1a] {{Ü|pl|który}}, [1b] {{Ü|pl|której}}
+*{{pt}}: [1] {{Ü|pt|que}}; ''substantivisch:'' {{Ü|pt|qual}}
+*{{ru}}: [1] {{Ü|ru|какой}}
+*{{sv}}: [1] {{Ü|sv|vilken}}
+*{{wen}}:	
+**{{dsb}}: [1a] {{Ü|dsb|kótary}}, [1b] {{Ü|dsb|kótarej}}
+**{{hsb}}: [1a] {{Ü|hsb|kotry}}, [1b] {{Ü|hsb|kotrej}}
+*{{es}}: [1] {{Ü|es|qué}}; ''substantivisch:'' {{Ü|es|cuál}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|welcher}}
+:[1] {{Ref-Canoo|welcher}}
+:[1] {{Ref-UniLeipzig|welcher}}
+
+{{----}}
+
+=== {{Wortart|Relativpronomen|Deutsch}}, {{mf}} ===
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)='''welcher'''
+|Wer oder was? (Einzahl f)=welche
+|Wer oder was? (Einzahl n)=welches
+|Wer oder was? (Mehrzahl)=welche
+|Wessen? (Einzahl m)=(welches)
+|Wessen? (Einzahl f)=welcher
+|Wessen? (Einzahl n)=(welches)
+|Wessen? (Mehrzahl)=welcher
+|Wem? (Einzahl m)=welchem
+|Wem? (Einzahl f)=welcher
+|Wem? (Einzahl n)=welchem
+|Wem? (Mehrzahl)=welchen
+|Wen? (Einzahl m)=welchen
+|Wen? (Einzahl f)=welche
+|Wen? (Einzahl n)=welches
+|Wen? (Mehrzahl)=welche
+}}
+
+{{Worttrennung}}
+:wel·cher, {{Pl.}} wel·che
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈvɛlçɐ}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ein [[Relativpronomen]]
+::[a] im [[Nominativ]] [[maskulin]]
+::[b] im [[Genitiv]] und [[Dativ]] [[feminin]]
+::[c] im [[Genitiv]] [[Plural]]
+
+{{Synonyme}}
+:[1] [[der]]
+
+{{Weibliche Wortformen}}
+:[a] [[welche]]
+
+<p style="margin-bottom: -0.5em;" title="Varianten des Wortes im Neutrum">'''Sächliche Wortformen:'''
+:[a] [[welches]]
+
+{{Beispiele}}
+:[1] Mein Lehrer, ''welcher'' sehr streng ist, hat mich heute gelobt.
+:[1b] Das war die schönste Zeit, ''welcher'' ich mich entsinnen kann.
+:[1b] Meine Lehrerin, ''welcher'' ich zu Dank verpflichtet bin, ist erkrankt.
+:[1c] die Toten, ''welcher'' wir heute gedenken
+
+{{Redewendungen}}
+:[[derjenige, welcher]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|who}}, {{ugs.|:}} {{Ü|en|that}}
+*{{eo}}: [1a] {{Ü|eo|kiu}}
+*{{sr}}: [1] {{Ü|sr|[[koji]]|који}}
+|Ü-rechts=
+*{{dsb}}: [1a] {{Ü|dsb|kótaryž}}, [1b] {{Ü|dsb|kótarejež}} ''Genitiv,'' {{Ü|dsb|kótarejž}} ''Dativ,'' [1c] {{Ü|dsb|kótarychž}}
+*{{hsb}}: [1a] {{Ü|hsb|kotryž}}, [1b] {{Ü|hsb|kotrejež}} ''Genitiv,''  {{Ü|hsb|kotrejž}} ''Dativ,'' [1c] {{Ü|hsb|kotrychž}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|welcher}}
+:[1] {{Ref-Canoo|welcher}}
+:[1] {{Ref-UniLeipzig|welcher}}
+
+{{----}}
+
+=== {{Wortart|Indefinitpronomen|Deutsch}}, {{mf}} und Plural ===
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=''welcher''
+|Wer oder was? (Einzahl f)=welche
+|Wer oder was? (Einzahl n)=welches
+|Wer oder was? (Mehrzahl)=welche
+|Wessen? (Einzahl m)=(welches)
+|Wessen? (Einzahl f)=''welcher''
+|Wessen? (Einzahl n)=(welches)
+|Wessen? (Mehrzahl)=''welcher''
+|Wem? (Einzahl m)=welchem
+|Wem? (Einzahl f)=''welcher''
+|Wem? (Einzahl n)=welchem
+|Wem? (Mehrzahl)=welchen
+|Wen? (Einzahl m)=welchen
+|Wen? (Einzahl f)=welche
+|Wen? (Einzahl n)=welches
+|Wen? (Mehrzahl)=welche
+}}
+
+{{Worttrennung}}
+:{{Pl.}} wel·cher
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈvɛlçɐ}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] [[Indefinitpronomen]] für [[unzählbar]]e Dinge
+::[a] im [[Nominativ]] [[maskulin]]
+::[b] im [[Genitiv]] und [[Dativ]] [[feminin]]
+:[2] [[Indefinitpronomen]] des [[Plural]]s im [[Genitiv]]
+
+{{Synonyme}}
+:[2] [[einiger]] (nicht bei ''[[was für]]'')
+
+{{Weibliche Wortformen}}
+:[1a] [[welche]]
+
+<p style="margin-bottom: -0.5em;" title="Varianten des Wortes im Neutrum">'''Sächliche Wortformen:'''
+:[1a] [[welches]]
+
+{{Beispiele}}
+:[1a] Soll ich Käse mitbringen oder ist noch ''welcher'' im Kühlschrank?
+:[1a] Kannst du mir sagen, was das für ''welcher'' ist?
+:[1b] Ich habe verschiedene Sorten Wolle, mit was für ''welcher'' soll ich nun stricken?
+:[2] Da scheint es ein paar Schnäppchen zu geben – mal sehen, ob ich ''welcher'' habhaft werden kann.
+
+{{Charakteristische Wortkombinationen}}
+:[1, 2] [[was für]] ''welcher''
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1, 2] {{Ü|en|some}}; [2] {{Ü|en|ones}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|welcher}}
+:[1] {{Ref-Canoo|welcher}}
+:[1] {{Ref-UniLeipzig|welcher}}
+
+{{Ähnlichkeiten}}
+:[[welche]], [[welches]], [[Wellchen]], [[welsch]]er, [[Welscher]], [[weich]]er
+
+[[chr:welcher]]
+[[cs:welcher]]
+[[da:welcher]]
+[[el:welcher]]
+[[en:welcher]]
+[[fi:welcher]]
+[[fr:welcher]]
+[[io:welcher]]
+[[ku:welcher]]
+[[mg:welcher]]
+[[pl:welcher]]
+[[zh:welcher]]

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWNLP.Models", "IWNLP.Models\IWNLP.Models.csproj", "{0560A5B6-9AD6-419A-8BE1-4E366A70FE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWNLP.Parser", "IWNLP.Parser\IWNLP.Parser.csproj", "{48E6D6C2-CED6-4114-A452-94BB83D7AE5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWNLP.ParserTest", "IWNLP.ParserTest\IWNLP.ParserTest.csproj", "{BD0649CE-565F-41C3-9A34-D66E11822D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0560A5B6-9AD6-419A-8BE1-4E366A70FE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0560A5B6-9AD6-419A-8BE1-4E366A70FE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0560A5B6-9AD6-419A-8BE1-4E366A70FE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0560A5B6-9AD6-419A-8BE1-4E366A70FE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E6D6C2-CED6-4114-A452-94BB83D7AE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E6D6C2-CED6-4114-A452-94BB83D7AE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E6D6C2-CED6-4114-A452-94BB83D7AE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E6D6C2-CED6-4114-A452-94BB83D7AE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0649CE-565F-41C3-9A34-D66E11822D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0649CE-565F-41C3-9A34-D66E11822D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0649CE-565F-41C3-9A34-D66E11822D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0649CE-565F-41C3-9A34-D66E11822D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

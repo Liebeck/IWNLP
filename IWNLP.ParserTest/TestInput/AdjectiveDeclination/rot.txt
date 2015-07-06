@@ -1,0 +1,8 @@
+﻿== rot (Deklination) ({{Adjektivdeklination|Deutsch}}) ==
+{{Deklinationsseite Adjektiv
+|Positiv-Stamm=rot
+|Komparativ-Stamm=röter
+|Komparativ-Stamm-Alternative=roter
+|Superlativ-Stamm=rötest
+|Superlativ-Stamm-Alternative=rotest
+}}

@@ -1,0 +1,2 @@
+﻿== ablassen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
+{{Deutsch Verb unregelmäßig|1=ab|2=lass|3=ließ|4=ließ|5=gelassen|6=läss|7=-s|vp=sie_werden|zp=sie_sind|gerund=ja}}

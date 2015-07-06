@@ -1,0 +1,86 @@
+﻿== Konstante ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=die Konstante
+|Nominativ Plural=die Konstanten
+|Genitiv Singular=der Konstante
+|Genitiv Plural=der Konstanten
+|Dativ Singular=der Konstante
+|Dativ Plural=den Konstanten
+|Akkusativ Singular=die Konstante
+|Akkusativ Plural=die Konstanten
+}}
+
+{{Deutsch adjektivische Deklination f|Konstante}}
+
+{{Anmerkungen|zur Deklination}}
+:Das Wort wird im Allgemeinen substantivisch dekliniert, fachsprachlich meist adjektivisch.
+
+{{Worttrennung}}
+:Kon·s·tan·te, {{Pl.}} Kon·s·tan·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|kɔnˈstantə}}, {{Pl.}} {{Lautschrift|kɔnˈstantn̩}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|antə|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''allgemein:'' etwas, das sich innerhalb eines bestimmten Zeitraumes oder Zusammenhangs nicht verändert, sondern gleich oder bestehen bleibt
+:[2] ''Informatik:'' [[Speicherplatz]], der nur einmal belegt wird und danach während des gesamten [[Programmablauf]]s nicht verändert werden kann
+
+{{Herkunft}}
+:seit dem 19. Jahrhundert bezeugt; Ableitung von dem Adjektiv ''[[konstant]]'' mit dem Derivatem ''[[-e]]'' <ref>{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, Seite 709, Eintrag „konstant“.</ref>
+
+{{Synonyme}}
+:[2] unveränderlicher [[Speicherplatz]]
+
+{{Gegenwörter}}
+:[1] [[Variable]]
+
+{{Unterbegriffe}}
+:[1] [[Naturkonstante]], [[Proportionalitätskonstante]]
+:[1] ''spezielle Naturkonstanten, Ableitungen zu ‚Konstante‘'': [[Avogadro-Konstante]], [[Dielektrizitätskonstante]], [[Feinstrukturkonstante]], [[Gravitationskonstante]] ''und viele andere''
+:[1] ''spezielle Naturkonstanten'': [[Vakuumlichtgeschwindigkeit]], [[Plancksches Wirkungsquantum]], [[Elementarladung]], ''und viele andere''
+
+{{Beispiele}}
+:[1] Meine Frau und ich kannten uns schon seit der Kindheit. Sie ist eine ''Konstante'' in meinem Leben und war immer für mich da.
+:[1] Indem man im Coulomb-Gesetz die Dielektrizitätskonstante auf einen bestimmten konstanten, einheitenlosen Wert setzt, wird die Ladungseinheit in nur mechanischen Einheiten ausgedrückt, man geht dabei vom MKSA- zum MKS-System über. Auf ähnliche Weise, durch Festlegung der ''Konstanten'' aus bestimmten Naturgesetzen, kommt man zu Größensystemen mit einer beliebig kleinen Zahl verschiedener Einheiten, im äußersten Fall hat man gar keine mehr.
+:[2] Einer Variablen kann der Wert einer Konstanten zugewiesen werden, nicht jedoch umgekehrt.
+
+{{Wortbildungen}}
+:''siehe auch oben bei den Unterbegriffen''
+:[1] [[Abklingkonstante]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|constant}}
+*{{fr}}: [1] {{Ü|fr|constante}} {{f}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|costante}} {{f}}
+*{{ro}}: [1]  {{Ü|ro|constantă}} {{f}}
+*{{sv}}: [1, 2] {{Ü|sv|konstant}}
+*{{es}}: [1] {{Ü|es|constante}} {{f}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Konstante}}
+:[1] {{Ref-DWDS|Konstante}}
+:[1] {{Ref-Canoo|Konstante}}
+:[1] {{Ref-UniLeipzig|Konstante}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Konstanze]]
+
+[[chr:Konstante]]
+[[en:Konstante]]
+[[fi:Konstante]]
+[[hu:Konstante]]
+[[io:Konstante]]
+[[ko:Konstante]]
+[[mg:Konstante]]
+[[pl:Konstante]]
+[[sv:Konstante]]
+[[zh:Konstante]]

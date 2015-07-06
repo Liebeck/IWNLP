@@ -1,0 +1,75 @@
+﻿== Pkw ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{Wortart|Abkürzung|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Pkw
+|Nominativ Plural=die Pkw(s)
+|Genitiv Singular=des Pkw(s)
+|Genitiv Plural=der Pkw(s)
+|Dativ Singular=dem Pkw
+|Dativ Plural=den Pkw(s)
+|Akkusativ Singular=den Pkw
+|Akkusativ Plural=die Pkw(s)
+|Bild=01432Kraków.JPG|250px|1|Pkw
+}}
+
+{{Anmerkung}}
+:Die Abkürzung kann sowohl schwach als auch stark gebeugt werden. Die Formen lauten dementsprechend ''die Pkw'' (schwach) und ''die Pkws'' (stark).
+:Die Abkürzung kann sowohl ''PKW'' als auch ''Pkw'' geschrieben werden. Beide Schreibweisen sind gleichwertig anzusehen.
+
+{{Worttrennung}}
+:Pkw (''auch:'' PKW); {{Pl.}} Pkw(s) (''auch:'' PKW(s))
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈpeːkaveː}}, {{Lautschrift|peːkaˈveː}}
+:{{Hörbeispiele}} {{Audio|De-PKW.ogg|Pkw}}, {{Pl.}} {{Audio|De-PKW.ogg|Pkw}}
+
+{{Bedeutungen}}
+:[1] [[Personenkraftwagen|'''P'''ersonen'''k'''raft'''w'''agen]]
+:[2] [[Postkraftwagen]]
+
+{{Synonyme}}
+:[1] [[Personenkraftwagen]], [[Personenwagen]]
+
+{{Gegenwörter}}
+:[1] [[LKW]]
+
+{{Oberbegriffe}}
+:[1] [[Fahrzeug]], [[Auto]], [[Kraftfahrzeug]], [[Wagen]], [[Kraftwagen]]
+
+{{Unterbegriffe}}
+:[1] [[Benziner]], [[Cabriolet]], [[Diesel]], [[Dreitürer]], [[Familienauto]], [[Fünfsitzer]], [[Fünftürer]], [[Geländewagen]], [[Kleinwagen]], [[Kombi]], [[Kompaktwagen]], [[Kraftwagen]], [[Limousine]], [[Mittelklassewagen]], [[Roadster]], [[Sportwagen]], [[Straßenkreuzer]], [[Viersitzer]], [[Viertürer]], [[Wagen]], [[Zweisitzer]], [[Zweitürer]] und alle Markennamen
+
+{{Beispiele}}
+:[1] Er fährt einen neuen ''PKW.''
+
+{{Wortbildungen}}
+:[1] [[Pkw-Fahrer|Pkw-Fahrer/in]], [[Pkw-Maut]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] ''Br.'' {{Ü|en|motorcar}}, ''Am.'' {{Ü|en|automobile}}
+*{{eo}}: [1] {{Ü|eo|aŭto}}
+*{{fr}}: [1] {{Ü|fr|voiture}} {{f}}, {{Ü|fr|voiture de tourisme}} {{f}}
+*{{it}}: [1] {{Ü|it|macchina}} {{f}}, {{Ü|it|automobile}}, {{Ü|it|autovettura}} {{f}}
+|Ü-rechts=
+*{{ja}}: [1] {{Üxx|ja|じょうようしゃ, jôyôsha|乗用車}}
+*{{ca}}: [1] {{Ü|ca|cotxe}} {{m}}
+*{{sv}}: [1] {{Ü|sv|bil}}
+*{{es}}: [1] {{Ü|es|coche}} {{m}}, {{Ü|es|turismo}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Pkw}}
+:[1] {{Ref-DWDS|Pkw}}
+:[1] {{Ref-Canoo|Pkw}}
+:[1] {{Ref-UniLeipzig|Pkw}}
+:[1] {{Ref-Duden|Pkw}}
+:[1, 2] {{Lit-Koblischke: Kleines Abkürzungsbuch|A=3}}, Seite 101
+
+[[en:Pkw]]
+[[fr:Pkw]]
+[[ja:Pkw]]
+[[ko:Pkw]]
+[[nl:Pkw]]

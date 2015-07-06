@@ -1,0 +1,120 @@
+﻿{{Siehe auch|[[Stiefeln]]}}
+{{Wort der Woche|9|2012}}
+== stiefeln ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=stiefele,<br />stiefle
+|Gegenwart_du=stiefelst
+|Gegenwart_er, sie, es=stiefelt
+|1.Vergangenheit_ich=stiefelte
+|Partizip II=gestiefelt
+|Konjunktiv II_ich=stiefelte
+|Imperativ Singular=stiefele!<br />stiefle!
+|Imperativ Plural=stiefelt!
+|Hilfsverb=sein
+|Hilfsverb2=haben
+|Weitere_Konjugationen=stiefeln (Konjugation)
+}}
+
+{{Worttrennung}}
+:stie·feln, {{Prät.}} stie·fel·te, {{Part.}} ge·stie·felt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʃtiːfl̩n}}, {{Prät.}} {{Lautschrift|ˈʃtiːfl̩tə}}, {{Part.}} {{Lautschrift|ɡəˈʃtiːfl̩t}}
+:{{Hörbeispiele}} {{Audio|De-stiefeln.ogg}}, {{Prät.}} {{Audio|De-stiefelte.ogg|stiefelte}}, {{Part.}} {{Audio|De-gestiefelt.ogg|gestiefelt}}
+
+{{Bedeutungen}}
+:[1] {{intrans.|,}} ''Hilfsverb [[sein]];'' {{ugs.|:}} mit [[raumgreifend]]en [[fest]]en Schritten [[gehen]]
+:[2] {{refl.|,}} ''Hilfsverb [[haben]]; veraltet:'' sich [[Stiefel]] anziehen
+:[3] {{refl.|,}} ''Hilfsverb [[haben]]; [[übertragen]], veraltet:'' sich für etwas bereit machen, sich für etwas [[rüsten]]
+
+{{Herkunft}}
+:Das Verb ''stiefeln'' ist eine Bildung zum Substantiv ''[[Stiefel]],'' die in der zweiten und dritten Bedeutung seit dem 16. Jahrhundert gebräuchlich ist und in der ersten Bedeutung seit dem 18. Jahrhundert Verwendung findet.<ref>{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, unter „Stiefel“, Seite 1361</ref>
+
+{{Gegenwörter}}
+:[1] [[tappen]], [[tapsen]], [[trippeln]]
+
+{{Beispiele}}
+:[1] Cord ''ist'' den ganzen Weg vom Bahnhof bis hierher durch den tiefen Schnee ''gestiefelt.''
+:[1] Ich habe die beiden vorhin in Richtung Strand ''stiefeln'' sehen.
+:[1] Was ''stiefelst'' du denn hier im Dunklen herum?
+:[1] Die Nachbarn ''sind'' gestern durch den Wald ''gestiefelt'' und haben ein gestohlenes Kraftfahrzeug im Unterholz entdeckt.
+:[2] Götz ''stiefelte sich'' und legte seinen Harnisch an.
+:[2] ''Stiefele dich!'' Wir müssen uns beeilen!
+:[2] Zenzi benötigt jeden Tag länger, um ''sich zu stiefeln.''
+:[3] Sie ''stiefeln sich'' zu ihrer Expedition.
+:[3] Wir ''haben uns'' mit allen nötigen Ausrüstungsgegenständen ''gestiefelt.''
+
+{{Wortbildungen}}
+:[[anstiefeln]], [[gestiefelt]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|stiefeln}}
+:[1] {{Ref-Duden|stiefeln}}
+:[1] {{Ref-FreeDictionary|stiefeln}}
+:[1, 2] {{Ref-wissen.de|Wörterbuch|stiefeln}}
+:[1–3] {{Ref-Grimm|stiefeln}}
+:[2] {{Ref-Adelung|stiefeln|id=DS06354}}
+:[*] {{Ref-Canoo|stiefeln}}
+:[*] {{Ref-UniLeipzig|stiefeln}}
+
+{{----}}
+
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Gegenwart_ich=stiefele,<br />stiefle
+|Gegenwart_du=stiefelst
+|Gegenwart_er, sie, es=stiefelt
+|1.Vergangenheit_ich=stiefelte
+|Partizip II=gestiefelt
+|Konjunktiv II_ich=stiefelte
+|Imperativ Singular=stiefele!<br />stiefle!
+|Imperativ Plural=stiefelt!
+|Hilfsverb=haben
+|Weitere_Konjugationen=stiefeln (Konjugation)
+}}
+
+{{Worttrennung}}
+:stie·feln, {{Prät.}} stie·fel·te, {{Part.}} ge·stie·felt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʃtiːfl̩n}}, {{Prät.}} {{Lautschrift|ˈʃtiːfl̩tə}}, {{Part.}} {{Lautschrift|ɡəˈʃtiːfl̩t}}
+:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] {{trans.|;}} ''[[landschaftlich]], veraltet:'' etwas [[stützen]], indem es etwa durch [[Stange]]n versteift wird
+
+{{Herkunft}}
+:Das Verb ''stiefeln'' ist entweder eine Bildung zum Substantiv ''[[Stiefel]]'' ‚[[Stütze]], [[Stange]]<ref>{{Ref-Grimm|stiefeln}}</ref> oder es leitet sich vom Adjektiv ''stief,'' der [[niedersächsisch]]en Form von ''[[steif]],'' ab<ref>{{Ref-Adelung|stiefeln|id=DS06353}}</ref>.
+
+{{Unterbegriffe}}
+:[1] [[stängeln]]
+
+{{Beispiele}}
+:[1] Der Gärtner ''stiefelt'' die Erbsen dieses Jahr frühzeitig.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|stiefeln}}
+:[1] {{Ref-Adelung|stiefeln|id=DS06353}}
+
+{{Quellen}}

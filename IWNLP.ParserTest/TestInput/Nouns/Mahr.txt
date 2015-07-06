@@ -1,0 +1,144 @@
+﻿{{Wort der Woche|7|2012}}
+== Mahr ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=der Mahr
+|Nominativ Singular 2=die Mahr
+|Nominativ Plural=die Mahre
+|Genitiv Singular 1=des Mahrs,<br /> des Mahres<br /><small>''auch:''</small> des Mahren
+|Genitiv Singular 2=der Mahr
+|Genitiv Plural=der Mahre
+|Dativ Singular 1=dem Mahr,<br />dem Mahre<br /><small>''auch:''</small> dem Mahren
+|Dativ Singular 2=der Mahr
+|Dativ Plural=den Mahren
+|Akkusativ Singular 1=den Mahr<br /><small>''auch:''</small> den Mahren
+|Akkusativ Singular 2=die Mahr
+|Akkusativ Plural=die Mahre
+|Bild=Johann Heinrich Füssli 053.jpg|250px|1|Darstellung zweier ''Mahre'' von [[w:Johann Heinrich Füssli|Johann Heinrich Füssli]]
+}}
+
+{{Anmerkung|zur Deklination}}
+:Neben der starken Deklination, die sich in heutigen Wörterbüchern findet<ref name=DWDS>{{Ref-DWDS|Mahr}}</ref><ref name=Duden>{{Ref-Duden|Mahr}}</ref><ref name=Canoo>{{Ref-Canoo|Mahr}}</ref>, wird bei Adelung auch die schwache Deklination angegeben<ref name=Adelung>{{Ref-Adelung|Mahr|id=DM00163}}</ref>.
+
+{{Anmerkung|zum Genus}}
+:In den Wörterbüchern findet sich nur [[Maskulinum]] als Genusangabe<ref name=DWDS/><ref name=Duden/><ref name=Canoo/><ref name=Adelung/><ref>{{Ref-Grimm|Mahr}}</ref>, die Beispielsätze zeigen aber, dass ''Mahr'' auch als [[Femininum]] benutzt wird. Ein Blick auf die [[#Herkunft|Etymologie]] zeigt, dass dieser Dualismus bereits bei Vorformen von ''Mahr'' zu beobachten war.
+
+{{Worttrennung}}
+:Mahr, {{Pl.}} Mah·re
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|maːɐ̯}}, {{Pl.}} {{Lautschrift|ˈmaːʀə}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|aːɐ̯|Deutsch}}
+
+{{Bedeutungen}}
+:[1] (früher als Frauengestalt vorgestelltes) [[Nachtgespenst]], das Schlafende quält, indem es sich nachts auf ihre [[Brust]] setzt; [[Alp]]
+
+{{Herkunft}}{{Anker|Herkunft}}
+:''Mahr'' lässt sich auf das feminine [[althochdeutsch]]e ''mara'' und das sowohl maskuline als auch feminine [[mittelhochdeutsch]]e ''mar'' oder ''mare'' zurückführen. Hierher gehören auch das maskuline (und vielleicht auch feminine) [[mittelniederdeutsch]]e ''mār'' oder ''māre,'' das feminine [[mittelniederländisch]]e ''māre,'' das ebenfalls feminine [[altenglisch]]e ''{{Ü|ang|mare}},'' das [[englisch]]e ''{{Ü|en|mare|(night)mare}},'' das feminine [[altnordisch]]e ''{{Ü|non|mara}}'' und das [[schwedisch]]e ''{{Ü|sv|mara}}.'' Verwandte Formen sind das [[tschechisch]]e ''{{Ü|cs|můra}}'' ‚[[Albe]]‘, die [[russisch]]e Form ''{{Üt|ru|кикимора|kikimora}}'' ‚[[Gespenst]], das nachts aktiv ist; [[Hausgeist]]‘, außerdem das [[serbokroatisch]]-[[kirchenslawisch]]e ''mora'' ‚[[Hexe]]‘ und das [[altirisch]]e ''morīgain'' oder auch ''morrīgain'' ‚Alpkönigin‘. Aus all diesen Formen kann auf ein [[indoeuropäisch]]es feminines ''*morā'' ‚Albe‘ geschlossen werden, das sich mit der Wurzel ''*mer(ə)-'' ‚[[reiben]], [[aufreiben]]‘ in Verbindung bringen lässt.<ref>{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, „Mahr“, Seite 825</ref>
+
+{{Synonyme}}
+:[1] [[Alb]]/[[Alp]], [[Mart]], [[Nachtmahr]]
+
+{{Beispiele}}
+:[1] „In vielen Sagen ist die ''Mahr'' kein Dämon, sondern ein gewöhnliches Weib, das sich nur verzaubert und in der Gestalt des Alp die Männer plagt.“<ref>{{Literatur | Autor=Wolfgang Menzel|Band=Erster Band | Titel=Deutsche Dichtung von der ältesten bis auf die neueste Zeit | Verlag=Adolph Krabbe | Ort= Stuttgart| Jahr=1858 | Seiten=123 | Online=[http://books.google.de/books?id=VEgJAAAAQAAJ&pg=PA123&dq=%22die+Mahr%22&hl=de&ei=WouRTtioOKbc4QTBrMScAQ&sa=X&oi=book_result&ct=result&resnum=9&ved=0CFgQ6AEwCA#v=onepage&q=%22die%20Mahr%22&f=false Online] | Zugriff=2011-10-09}}</ref>
+:[1] „Nach dem Abendeßen darf der Tisch nicht abgenommen werden, vielmehr muß Tischtuch, Schüßel, Löffel und Brod darauf liegen bleiben; denn wenn der Alp oder die ''Mahr'' kommt, und einen gedeckten Tisch findet, sind die Menschen nicht im Bett und das Vieh nicht im Stalle.“<ref>{{Literatur | Autor=Konrad Schwenck | Titel=Die Mythologie der Slawen für Gebildete und die studirende<!--sic!--> Jugend | Verlag=I. D. Sauerländer’s Verlag | Ort=Frankfurt am Main | Jahr=1853 | Seiten=310 | Online=[http://books.google.de/books?id=8wNsrAe-wd0C&pg=PA310&dq=%22die+Mahr%22&hl=de&ei=ro2RTpS3K-qK4gS6w4G7AQ&sa=X&oi=book_result&ct=result&resnum=8&ved=0CFEQ6AEwBzgo#v=onepage&q=%22die%20Mahr%22&f=false Online] | Zugriff=2011-10-09}}</ref>
+:[1] „Der eine von ihnen, der schönste von beiden, hatte aber ein Leid, wogegen er schon Hülfsmittel aller Art angewandt, welches jedoch all diesen Mitteln getrotzt hatte — er litt jede Nacht von der ''Mahr.''“<ref>{{Literatur | Herausgeber=Johann Wilhelm Wolf | Titel=Niederländische Sagen | Verlag=F. a. Brockhaus | Ort=Leipzig | Jahr=1843 | Seiten=344| Online=[http://books.google.de/books?id=iQZBAAAAcAAJ&pg=PA344&dq=%22der+Mahr%22&hl=de&ei=b5eRTtOaD86G-waAmoiGCw&sa=X&oi=book_result&ct=result&resnum=3&ved=0CEEQ6AEwAg#v=onepage&q=%22der%20Mahr%22&f=false Online] | Zugriff=2011-10-09}}</ref>
+:[1] „Hiebei wird vorausgesetzt, dass die Steifheit, vor welcher der Spruch das Pferd behüten soll, von einer ''Mahr'' oder einem Alp herrührt, wie der sogenannte Hexenschuss oder Elfenschuss, dass diese ''Mahr'' aus den Bergen und Wässern, wo sie sich aufhält, dem Mann und seinem Pferde nahe kommen will und dass dieser durch seinen Spruch sie zu ihrer Strafe wieder zurück bannt.“<ref>{{Literatur | Titel=Sitzungsberichte der königl. bayer. Akademie der Wissenschaften zu München | Ort=München | Jahr=1870|Band=Band I | Seiten=520 | Online=[http://books.google.de/books?id=F9QzAAAAMAAJ&pg=PA520&dq=%22einer+Mahr%22&hl=de&ei=85mRTt_TI9Dz-gazhvzWCg&sa=X&oi=book_result&ct=result&resnum=3&ved=0CD4Q6AEwAg#v=onepage&q=%22einer%20Mahr%22&f=false Online] | Zugriff=2011-10-09}}</ref>
+:[1] „Oftmals findet sich auch, daß der ''Mahr'' einem Kinde in der Wiege alles Blut ausgesogen hat“.<ref>{{Literatur | Herausgeber=J. Lehmann|Band=Dreiundzwanzigster Band | Titel=Magazin für die Literatur des Auslandes | Verlag= Verlag von Veit & Comp.| Ort=Berlin | Jahr=1843 | Seiten=542| Online=[http://books.google.de/books?id=CpgZAAAAYAAJ&pg=RA1-PA342&dq=%22der+Mahr%22&hl=de&ei=e5iRTof5O-nl4QTH4OmPAQ&sa=X&oi=book_result&ct=result&resnum=10&ved=0CF4Q6AEwCTgU#v=onepage&q=%22der%20Mahr%22&f=false Online] | Zugriff=2011-10-09}}</ref>
+:[1] „So wurden die Zweige (Tacken, Tocken) desselben wider den ''Mahr'' oder die Mahrte oder das Alpdrücken empfohlen“.<ref>{{Literatur | Autor=Carl Ludwig Willdenow, Friedrich Gottlieb Hayne|Band=Erster Band | Herausgeber=Friedrich Guimpel | Titel=Abbildung der deutschen Holzarten für Forstmänner und Liebhaber der Botanik  | Verlag=Schüppelsche Buchhandlung | Ort=Berlin | Jahr= 1815| Seiten=268 | Online=[http://books.google.de/books?id=U1tHAAAAYAAJ&pg=PA258&dq=%22den+Mahr%22&hl=de&ei=IJyRTrPjJeP34QSe1KyhAQ&sa=X&oi=book_result&ct=result&resnum=1&ved=0CDgQ6AEwAA#v=onepage&q=%22den%20Mahr%22&f=false Online] | Zugriff=2011-10-09}}</ref>
+
+{{Charakteristische Wortkombinationen}}
+:[1] vom ''Mahr/Mahren'' [[drücken|gedrückt]] werden, vom ''Mahr/Mahren'' [[reiten|geritten]] werden
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{la}}: [1] {{Ü|la|incubus}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|mara}}
+*{{ru}}: [1] {{Ü|ru|мара}}
+*{{sv}}: [1] {{Ü|sv|mara}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Mahr}}
+:[1] {{Ref-Grimm|Mahr}}
+:[1] {{Ref-DWDS|Mahr}}
+:[1] {{Ref-Duden|Mahr}}
+:[1] {{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, „Mahr“, Seite 825
+:[*] {{Ref-Canoo|Mahr}}
+:[*] {{Ref-UniLeipzig|Mahr}}
+
+{{Quellen|}}
+
+{{----}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{f}}, {{Wortart|Nachname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular 1=der Mahr<br /><small>(Mahr)</small>
+|Nominativ Singular 2=die Mahr<br /><small>(Mahr)</small>
+|Nominativ Plural=die Mahrs
+|Genitiv Singular 1=des Mahr/<br />des Mahrs<br /><small>(Mahrs)</small>
+|Genitiv Singular 2=der Mahr<br /><small>(Mahrs)</small>
+|Genitiv Plural=der Mahrs
+|Dativ Singular 1=dem Mahr<br /><small>(Mahr)</small>
+|Dativ Singular 2=der Mahr<br /><small>(Mahr)</small>
+|Dativ Plural=den Mahrs
+|Akkusativ Singular 1=den Mahr<br /><small>(Mahr)</small>
+|Akkusativ Singular 2=die Mahr<br /><small>(Mahr)</small>
+|Akkusativ Plural=die Mahrs
+}}
+
+{{Worttrennung}}
+:Mahr, {{Pl.}} Mahrs
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|maːɐ̯}}, {{Pl.}} {{Lautschrift|maːɐ̯s}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|aːɐ̯|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[Nachname]], [[Familienname]]
+
+{{Herkunft}}
+:Der Familienname ''Mahr'' ist eine Kurzform von Namen, die mit ''Mar-'' beginnen.<ref>{{Lit-Gottschald: Deutsche Namenkunde|A=6}}, unter „MAR I“, Seite 341</ref> Diese Namen gehen entweder auf das [[althochdeutsch]]e ''marah'' ‚[[Pferd]]‘, das althochdeutsche ''mari'' ‚[[Meer]]‘ oder das [[gotisch]]e ''mērs'' und das althochdeutsche ''māri'' ‚[[groß]], [[berühmt]], [[herrlich]]‘ zurück.<ref>{{Lit-Gottschald: Deutsche Namenkunde|A=6}}, unter „MAR I“, Seite 340</ref>
+
+{{Namensvarianten}}
+:[1] [[Mähr]], [[Marr]], [[Marre]]
+
+{{Bekannte Namensträger}}
+:[1] [[w:Beate Mahr|Beate Mahr]], [[w:Fred Mahr|Fred Mahr]], [[w:Hans Mahr|Hans Mahr]], [[w:Manfred Mahr|Manfred Mahr]]
+
+{{Beispiele}}
+:[1] Die ''Mahrs'' wurden heute Nacht verhaftet.
+:[1] Bei der ''Mahr'' leben jetzt sieben Personen in der Wohnung.
+:[1] Ist ''Mahr'' noch gar nicht da?
+:[1] Dieses Grundstück gehört ''Mahr'' senior.
+:[1] Des alten ''Mahrs'' Krankheit belastet die ganze Familie.
+:[1] Der neue Wagen der ''Mahrs'' ist schon jetzt – nach vier Tagen – ein Totalschaden.
+:[1] Die kleine ''Mahr'' geht in die Klasse meiner Tochter.
+:[1] Frau ''Mahr'' betreibt ihre Änderungsschneiderei ja gar nicht mehr.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Mahr}}
+:[1] {{Ref-UniLeipzig|Mahr}}
+
+{{Quellen}}
+
+{{Navigationsleiste Anthroponyme}}
+
+{{Ähnlichkeiten}}
+:[[Ahr]], [[fahr]], [[Jahr]], [[Lahr]], [[Maar]], [[Mahd]], [[mahl]], [[Mahl]], [[mahn]], [[mehr]], [[Mehr]], [[Mohr]], [[Tahr]], [[wahr]]
+
+[[fi:Mahr]]
+[[ru:Mahr]]

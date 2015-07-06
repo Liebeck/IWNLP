@@ -1,0 +1,268 @@
+﻿{{Siehe auch|[[der-]]}}
+== der ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Artikel|Deutsch}} ===
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=der
+|Wer oder was? (Einzahl f)=die
+|Wer oder was? (Einzahl n)=das
+|Wer oder was? (Mehrzahl)=die
+|Wessen? (Einzahl m)=des
+|Wessen? (Einzahl f)=der
+|Wessen? (Einzahl n)=des
+|Wessen? (Mehrzahl)=der
+|Wem? (Einzahl m)=dem
+|Wem? (Einzahl f)=der
+|Wem? (Einzahl n)=dem
+|Wem? (Mehrzahl)=den
+|Wen? (Einzahl m)=[[den]]
+|Wen? (Einzahl f)=[[die]]
+|Wen? (Einzahl n)=[[das]]
+|Wen? (Mehrzahl)=[[die]]
+}}
+
+{{Worttrennung}}
+:der, {{Fem.}} die, {{Neutr.}} das, {{Pl.}} die
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|deːɐ̯}}, {{Fem.}} {{Lautschrift|diː}}, {{Neutr.}} {{Lautschrift|das}}, {{Pl.}} {{Lautschrift|diː}}
+:{{Hörbeispiele}} {{Audio|De-der.ogg}}, {{Fem.}} {{Audio|De-die.ogg|die}}, {{Neutr.}} {{Audio|De-das.ogg|das}}, {{Pl.}} {{Audio|De-die.ogg|die}}
+:{{Reime}} {{Reim|eːɐ̯|Deutsch}}
+
+{{Bedeutungen}}
+:[1] definiter Artikel (bestimmtes Geschlechtswort)
+
+{{Abkürzungen}}
+:[[d.]]
+
+{{QS Herkunft|fehlt}}
+
+{{Beispiele}}
+:[1] ''Der'' Mann ist hübsch.
+:[1] ''Die'' Frau hält ''das'' Kind an ''der'' Hand.
+:[1] Wir fuhren mit ''dem'' Auto durch ''die'' Stadt.
+:[1] Er entledigte sich ''der'' Mitwisserin.
+:[1] Sie entledigte sich ''der'' Mitwisser.
+:[1] Es tut ''der'' Frau im Herzen weh, dass der Ring gestohlen wurde.
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{grc}}: [1] {{Üt|grc|ὁ|ho}}
+*{{en}}: [1] {{Ü|en|the}}
+*{{eo}}: [1] {{Ü|eo|la}}
+*{{fr}}: [1] {{Ü|fr|le}}
+*{{el}}: [1] {{Üt|el|ο|o}}
+*{{it}}: [1] {{Ü|it|il}}
+|Ü-rechts=
+*{{ca}}: [1] {{Ü|ca|el}}
+*{{nl}}: [1] {{Ü|nl|de}}
+*{{oc}}: [1] {{Ü|oc|lo}}, ''[[aranesisch]]:'' {{Ü|oc|eth}}
+*{{pt}}: [1] {{Ü|pt|o}}
+*{{es}}: [1] {{Ü|es|el}}
+|Dialekttabelle= 
+*{{bar}}: [1] ''da;'' 
+*Hessisch: [?] ''dè'' 
+*[[Hunsrückisch]]: [?] [[dää]] 
+|D-rechts= 
+*Schwäbisch: "d´r" 
+*Kölsch: [?] ''de''
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Artikel (Wortart)}}
+:[1] {{Ref-DWDS|der}}
+:[1] {{Ref-Canoo|der}}
+:[1] {{Ref-UniLeipzig|der}}
+:[1] {{Ref-FreeDictionary|der}}
+:[1] {{Ref-wissen.de|Wörterbuch|der}}
+:[1] {{Ref-Duden|der_bestimmter_Artikel|der}}
+
+=== {{Wortart|Relativpronomen|Deutsch}}, {{mf}} ===
+{{überarbeiten|alle Bedeutungen belegen oder zu Grundformverweis umwandeln|Deutsch}}
+
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=der
+|Wer oder was? (Einzahl f)=die
+|Wer oder was? (Einzahl n)=das
+|Wer oder was? (Mehrzahl)=die
+|Wessen? (Einzahl m)=dessen
+|Wessen? (Einzahl f)=deren
+|Wessen? (Einzahl n)=dessen
+|Wessen? (Mehrzahl)=deren
+|Wem? (Einzahl m)=dem
+|Wem? (Einzahl f)=der
+|Wem? (Einzahl n)=dem
+|Wem? (Mehrzahl)=denen
+|Wen? (Einzahl m)=den
+|Wen? (Einzahl f)=die
+|Wen? (Einzahl n)=das
+|Wen? (Mehrzahl)=die
+}}
+
+{{Worttrennung}}
+:der, {{Pl.}} die
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|deːɐ̯}}, {{Pl.}} {{Lautschrift|diː}}
+:{{Hörbeispiele}} {{Audio|De-der.ogg}}, {{Pl.}} {{Audio|De-die.ogg|die}}
+:{{Reime}} {{Reim|eːɐ̯|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Nominativ Singular maskulin des Relativpronomens der/die/das
+:[2] Dativ Singular feminin des Relativpronomens der/die/das
+
+{{Synonyme}}
+:[1, 2] ''Singular:'' [[welcher]]
+:[1] ''Plural:'' [[welche]]
+:[2] ''Plural:'' [[welchen]]
+
+{{Beispiele}}
+:[1] Wehe dem Mann, ''der'' mich schlug!
+:[2] Der Frau, ''der'' du dauernd Blumen schickst, gefällt dein Benehmen nicht.
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[er]]
+
+{{Wortbildungen}}
+:[1] [[derjenige]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{ban}}: [1] {{Ü|ban|sane}}
+*{{en}}: [1] {{Ü|en|who}}, {{Ü|en|which}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|qui}}; [2] {{Ü|fr|à}}, {{Ü|fr|qui}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+=== {{Wortart|Demonstrativpronomen|Deutsch}}, {{m}} ===
+{{überarbeiten|alle Bedeutungen belegen oder zu Grundformverweis umwandeln|Deutsch}}
+
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=der
+|Wer oder was? (Einzahl f)=die
+|Wer oder was? (Einzahl n)=das
+|Wer oder was? (Mehrzahl)=die
+|Wessen? (Einzahl m)=dessen
+|Wessen? (Einzahl f)=deren, derer
+|Wessen? (Einzahl n)=dessen
+|Wessen? (Mehrzahl)=deren, derer
+|Wem? (Einzahl m)=dem
+|Wem? (Einzahl f)=der
+|Wem? (Einzahl n)=dem
+|Wem? (Mehrzahl)=denen
+|Wen? (Einzahl m)=den
+|Wen? (Einzahl f)=die
+|Wen? (Einzahl n)=das
+|Wen? (Mehrzahl)=die
+}}
+
+{{Worttrennung}}
+:der
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|deːɐ̯}}, {{Pl.}} {{Lautschrift|diː}}
+:{{Hörbeispiele}} {{Audio|De-der.ogg}}, {{Pl.}} {{Audio|De-die.ogg|die}}
+:{{Reime}} {{Reim|eːɐ̯|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Nominativ Singular maskulin des Demonstrativpronomens der/die/das
+:[2] Dativ Singular feminin des Demonstrativpronomens der/die/das
+
+{{Synonyme}}
+:[1] ''Singular:'' [[dieser]], [[jener]], [[derjenige]]
+:[1] ''Plural:'' [[diese]], [[jene]], [[diejenigen]]
+:[2] Singular: [[dieser]], [[jener]], [[derjenige]]
+:[2] Plural: [[diesen]], [[jenen]], [[denjenigen]]
+
+{{Beispiele}}
+:[1] ''Der'' mag mich bestimmt.
+:[2] ''Der'' habe ich was vorgespielt!
+
+{{Wortbildungen}}
+:[1] [[derjenige]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Abschnitte fehlen|spr=da}}
+
+{{Abschnitte fehlen|spr=is}}
+
+== der ({{Sprache|Latein}}) ==
+=== {{Wortart|Konjugierte Form|Latein}} ===
+
+{{Worttrennung}}
+:der
+
+{{Grammatische Merkmale}}
+*1. Person Plural Konjunktiv Präsens Passiv des Verbs '''[[dare]]'''
+
+{{Grundformverweis|dare}}
+
+== der ({{Sprache|Niederländisch}}) ==
+=== {{Wortart|Artikel|Niederländisch}} ===
+
+{{Worttrennung}}
+:der
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{Audio|Nl-der.ogg}}
+
+{{Grammatische Merkmale}}
+*Genitiv Plural des definiten (bestimmten) Artikels [[de]]
+*Genitiv Weiblich des definiten (bestimmten) Artikels [[de]]
+
+{{Grundformverweis|de}}
+
+{{Abschnitte fehlen|spr=no}}
+
+{{Ähnlichkeiten 2|[[derr]]}}
+
+[[af:der]]
+[[ang:der]]
+[[ar:der]]
+[[ast:der]]
+[[br:der]]
+[[chr:der]]
+[[cs:der]]
+[[da:der]]
+[[el:der]]
+[[en:der]]
+[[es:der]]
+[[eu:der]]
+[[fi:der]]
+[[fj:der]]
+[[fr:der]]
+[[gl:der]]
+[[hu:der]]
+[[id:der]]
+[[io:der]]
+[[is:der]]
+[[it:der]]
+[[ja:der]]
+[[ko:der]]
+[[ku:der]]
+[[la:der]]
+[[lb:der]]
+[[li:der]]
+[[lt:der]]
+[[lv:der]]
+[[mg:der]]
+[[nl:der]]
+[[no:der]]
+[[oc:der]]
+[[pl:der]]
+[[pt:der]]
+[[ru:der]]
+[[sv:der]]
+[[ta:der]]
+[[tr:der]]
+[[vi:der]]
+[[wo:der]]
+[[zh:der]]
