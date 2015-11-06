@@ -3,9 +3,13 @@
 
 {{Deutsch Adjektiv Übersicht
 |Positiv=doll
-|Komparativ=doller<br />''regional:'' döller
-|Superlativ=am dollsten
+|Komparativ=doller
+|Komparativ*=döller
+|Superlativ=dollsten
 }}
+
+{{Anmerkung|zur Komparation}}
+:Die Komparativform ''döller'' wird nur regional verwendet.
 
 {{Worttrennung}}
 :doll, {{Komp.}} dol·ler, {{Sup.}} am dolls·ten
@@ -54,7 +58,7 @@
 :[1] {{Ref-UniLeipzig|doll}}
 :[1] {{Ref-FreeDictionary|doll}}
 
-{{2x----}}
+{{Ähnlichkeiten 1|[[toll]]}}
 
 == doll ({{Sprache|Englisch}}) ==
 === {{Wortart|Substantiv|Englisch}} ===
@@ -69,7 +73,7 @@
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|dɔł}}, {{Pl.}} {{Lautschrift|dɔłz}}
-:{{Hörbeispiele}} {{Audio|En-us-doll.ogg|doll (amerikanisch)}}, {{Pl.}} {{Audio|}}
+:{{Hörbeispiele}} {{Audio|En-us-doll.ogg|spr=us}}, {{Pl.}} {{Audio|}}
 
 {{Bedeutungen}}
 :[1] kleine Figur, die einen Menschen darstellt und meist als Kinderspielzeug verwendet wird; Puppe
@@ -102,8 +106,7 @@
 :[1] {{Ref-Dictionary|doll}}
 :[1] {{Ref-dictcc|doll}}
 
-{{Ähnlichkeiten}}
-:[[dollar]], [[toll]]
+{{Ähnlichkeiten 1|[[dollar]]|spr=en}}
 
 [[ca:doll]]
 [[chr:doll]]

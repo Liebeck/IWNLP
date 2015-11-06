@@ -24,4 +24,10 @@
 :[[Trasse]], [[Gasse]]
 
 [[en:Strasse]]
+[[fi:Strasse]]
 [[fr:Strasse]]
+[[io:Strasse]]
+[[mg:Strasse]]
+[[nl:Strasse]]
+[[pl:Strasse]]
+[[tr:Strasse]]

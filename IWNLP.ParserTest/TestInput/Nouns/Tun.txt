@@ -3,21 +3,24 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Tun
-|Nominativ Plural=die Tune
-|Genitiv Singular=des Tuns<br />des Tunes
-|Genitiv Plural=der Tune
-|Dativ Singular=dem Tun<br />dem Tune
-|Dativ Plural=den Tunen
-|Akkusativ Singular=den Tun
-|Akkusativ Plural=die Tune
+|Genus=m
+|Nominativ Singular=Tun
+|Nominativ Plural=Tune
+|Genitiv Singular=Tuns
+|Genitiv Singular*=Tunes
+|Genitiv Plural=Tune
+|Dativ Singular=Tun
+|Dativ Singular*=Tune
+|Dativ Plural=Tunen
+|Akkusativ Singular=Tun
+|Akkusativ Plural=Tune
 }}
 
 {{Alternative Schreibweisen}}
-:Thun
+:[[Thun]]
 
 {{Worttrennung}}
-: Tun, {{Pl.}} Tu·ne
+:Tun, {{Pl.}} Tu·ne
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|tuːn}}, {{Pl.}} {{Lautschrift|ˈtuːnə}}
@@ -25,7 +28,7 @@
 :{{Reime}} {{Reim|uːn|Deutsch}}
 
 {{Bedeutungen}}
-:[1] großer und schneller, als Speisefisch beliebter Meeresfisch ''(Thunnus)''
+:[1] ''veraltet:'' großer und schneller, als Speisefisch beliebter Meeresfisch ''(Thunnus)''
 
 {{Synonyme}}
 :[1] [[Thunfisch]]
@@ -38,27 +41,23 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-:siehe [[Thunfisch]]
+{{Übersetzungen umleiten|1|Thunfisch|}}
 }}
 
 {{Referenzen}}
-:[1] {{Wikipedia|Thunfische}}
-:[1] {{Ref-Grimm|thun, ''m.''|id=GT04053}}
-:[1] {{Ref-Canoo|Tun}}
-:[1] {{Ref-UniLeipzig|Thun}}
-
-{{----}}
+:[1] [https://books.google.se/books?id=hAk9BQAAQBAJ&pg=PA95&dq=%22tun%22+ein+fisch&hl=de&sa=X&ei=kRNwVcrkE4StswGg-5ygCg&redir_esc=y#v=onepage&q=%22tun%22%20ein%20fisch&f=false Die Fische, von A.E. Brehm]
 
 === {{Wortart|Substantiv|Deutsch}}, {{n}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=das Tun
+|Genus=n
+|Nominativ Singular=Tun
 |Nominativ Plural=—
-|Genitiv Singular=des Tuns
+|Genitiv Singular=Tuns
 |Genitiv Plural=—
-|Dativ Singular=dem Tun
+|Dativ Singular=Tun
 |Dativ Plural=—
-|Akkusativ Singular=das Tun
+|Akkusativ Singular=Tun
 |Akkusativ Plural=—
 }}
 
@@ -71,19 +70,13 @@
 :{{Reime}} {{Reim|uːn|Deutsch}}
 
 {{Bedeutungen}}
-:[1] absichtliche Ausführung oder Unterlassung
+:[1] [[Tat]] oder [[Tätigkeit]]
 
 {{Herkunft}}
-:[[Substantivierung]] des Verbs [[tun]] (=[[Konversion]])
-
-{{Synonyme}}
-:[1] [[Handlungsweise]]
+:[[Substantivierung]] ([[Konversion]]) des Verbs ''[[tun]]''
 
 {{Gegenwörter}}
-:[1] ''andere Substantivierungen von [[tun]]:'' [[Tätigkeit]], [[Tat]]
-
-{{Oberbegriffe}}
-:[1] [[Handlung]]
+:[1] [[Nichtstun]]
 
 {{Beispiele}}
 :[1] Dein ''Tun'' wird nicht ohne Folgen bleiben.
@@ -93,22 +86,20 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|doings}}
+*{{en}}: [1] {{Ü|en|doing}}
 *{{fr}}: [1] {{Ü|fr|}}
 |Ü-rechts=
 *{{it}}: [1] {{Ü|it|}}
-*{{es}}: [1] {{Ü|es|actividades}}
+*{{es}}: [1] {{Ü|es|el hacer}}
 }}
 
 {{Referenzen}}
 :[1] {{Wikipedia|Tun}}
-:[1] {{Ref-Grimm|thun, ''n.''|id=GT04053}}
 :[1] {{Ref-DWDS|Tun}}
 :[1] {{Ref-Canoo|Tun}}
 :[1] {{Ref-UniLeipzig|Tun}}
-
-{{Ähnlichkeiten}}
-:[[tun]]
+:[1] {{Ref-Duden|Tun_Beschaeftigung_Handlung|Tun}}
+:[1] {{Ref-Pons|Tun}}
 
 [[chr:Tun]]
 [[en:Tun]]

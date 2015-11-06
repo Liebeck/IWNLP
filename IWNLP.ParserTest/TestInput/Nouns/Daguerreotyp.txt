@@ -4,12 +4,13 @@
 {{Deutsch Substantiv Übersicht
 |Nominativ Singular=das Daguerreotyp
 |Nominativ Plural=die Daguerreotype
-|Genitiv Singular=des Daguerreotyps<br />''veraltet:'' des Daguerreotypes<ref>{{Lit-Duden: Rechtschreibung|A=5 (3. Abdruck)|Bild=Barricades rue Saint-Maur. Avant l'attaque, 25 juin 1848. Après l’attaque, 26 juin 1848.jpg|250px|1|''Daguerreotyp'' einer Straße in Paris von 1848}}, „Daguerreotyp“, Seite 62.</ref>
+|Genitiv Singular=des Daguerreotyps<br />''veraltet:'' des Daguerreotypes<ref>{{Lit-Duden: Rechtschreibung|A=5 (3. Abdruck)}}, „Daguerreotyp“, Seite 62.</ref>
 |Genitiv Plural=der Daguerreotype
 |Dativ Singular=dem Daguerreotyp
 |Dativ Plural=den Daguerreotypen
 |Akkusativ Singular=das Daguerreotyp
 |Akkusativ Plural=die Daguerreotype
+|Bild=Barricades rue Saint-Maur. Avant l'attaque, 25 juin 1848. Après l’attaque, 26 juin 1848.jpg|250px|1|''Daguerreotyp'' einer Straße in Paris von 1848
 }}
 
 {{Worttrennung}}

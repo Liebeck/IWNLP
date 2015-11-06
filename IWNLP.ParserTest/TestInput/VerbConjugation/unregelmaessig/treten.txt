@@ -1,5 +1,7 @@
 ﻿== treten (Konjugation), Hilfsverb haben ({{Verbkonjugation|Deutsch}}) ==
-{{Deutsch Verb unregelmäßig|2=tret|3=trat|4=trät|5=getreten|6=tritt|7=e-|8=i|vp=ja|zp=ja|gerund=ja|Indikativ Präteritum Aktiv Alternativform (du)=tratest}}
-{{----}}
+
+{{Deutsch Verb unregelmäßig|2=tret|3=trat|4=trät|5=getreten|6=tritt|7=e|8=i|vp=ja|zp=ja|gerund=ja}}
+
 == treten (Konjugation), Hilfsverb sein ({{Verbkonjugation|Deutsch}}) ==
-{{Deutsch Verb unregelmäßig|2=tret|3=trat|4=trät|5=getreten|6=tritt|7=e-|8=i|vp=es_wird|zp=nein|gerund=ja|Hilfsverb=sein|Indikativ Präteritum Aktiv Alternativform (du)=tratest}}
+
+{{Deutsch Verb unregelmäßig|2=tret|3=trat|4=trät|5=getreten|6=tritt|7=e|8=i|vp=es_wird|zp=nein|gerund=ja|Hilfsverb=sein}}

@@ -1,15 +1,7 @@
 ﻿== Biak ({{Sprache|Deutsch}}) ==
 === {{Wortart|Substantiv|Deutsch}}, {{n}} ===
 
-{{Deutsch Substantiv Übersicht
-|Nominativ Singular=(das) Biak
-|Nominativ Plural=<center>–</center>
-|Genitiv Singular=(des) Biaks
-|Genitiv Plural=<center>–</center>
-|Dativ Singular=(dem) Biak
-|Dativ Plural=<center>–</center>
-|Akkusativ Singular=(das) Biak
-|Akkusativ Plural=<center>–</center>
+{{Deutsch Toponym Übersicht
 }}
 
 {{Worttrennung}}
@@ -47,15 +39,7 @@
 
 === {{Wortart|Substantiv|Deutsch}}, {{n}} ===
 
-{{Deutsch Substantiv Übersicht
-|Nominativ Singular=(das) Biak
-|Nominativ Plural=—
-|Genitiv Singular=(des) Biak
-|Genitiv Plural=—
-|Dativ Singular=(dem) Biak
-|Dativ Plural=—
-|Akkusativ Singular=(das) Biak
-|Akkusativ Plural=—
+{{Deutsch Toponym Übersicht
 }}
 
 {{Worttrennung}}

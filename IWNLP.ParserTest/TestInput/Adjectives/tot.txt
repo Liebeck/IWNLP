@@ -3,8 +3,10 @@
 
 {{Deutsch Adjektiv Übersicht
 |Positiv=tot
-|Komparativ=toter<br />töter
-|Superlativ=am totesten<br />am tötesten
+|Komparativ=toter
+|Komparativ*=töter
+|Superlativ=totesten
+|Superlativ*=tötesten
 |Bild=Ratte überfahren HD.JPG|220px|1|Die überfahrene Ratte ist ''tot.''
 }}
 
@@ -15,7 +17,7 @@
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|toːt}}; {{Komp.}} {{Lautschrift|ˈtoːtɐ}}, {{Lautschrift|ˈtøːtɐ}}; {{Sup.}} {{Lautschrift|ˈtoːtəstn̩}}, {{Lautschrift|ˈtøːtəstn̩}}
-:{{Hörbeispiele}} {{Audio|}}
+:{{Hörbeispiele}} {{Audio|De-tot.ogg}}
 :{{Reime}} {{Reim|oːt|Deutsch}}
 
 {{Bedeutungen}}
@@ -46,14 +48,15 @@
 *{{en}}: [1] {{Ü|en|dead}}
 *{{fi}}: [1] {{Ü|fi|kuollut}}
 *{{fr}}: [1] {{Ü|fr|mort}}
-*{{el}}: [1] {{Üxx|el|pethaménos|πεθαμένος}}, {{Üxx|el|nekrós|νεκρός}}
+*{{el}}: [1] {{Üt|el|πεθαμένος|pethaménos}}, {{Üt|el|νεκρός|nekrós}}
 *{{ku}}: [1] {{Ü|ku|mirî}}
 *{{lv}}: [1] {{Ü|lv|miris}}
 *{{nds}}: [1] {{Ü|nds|doot}}
 *{{nl}}: [1] {{Ü|nl|dood}}
 |Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|martwy}}
 *{{pt}}: [1] {{Ü|pt|morto}}
-*{{ru}}: [1] {{Üxx|ru|mjortwuij|мёртвый}}, {{Üxx|ru|umerschij|умерший}}
+*{{ru}}: [1] {{Üt|ru|мёртвый|mjortwuij}}, {{Üt|ru|умерший|umerschij}}
 *{{sc}}: [1] {{Ü|sc|mortu}}
 *{{sv}}: [1] {{Ü|sv|död}}
 *{{es}}: [1] {{Ü|es|muerto}}, {{Ü|es|inánime}}, {{Ü|es|inanimado}}, {{Ü|es|sin vida}}, {{Ü|es|fallecido}}, {{Ü|es|marchito}}
@@ -108,6 +111,7 @@
 [[ca:tot]]
 [[chr:tot]]
 [[cs:tot]]
+[[da:tot]]
 [[el:tot]]
 [[en:tot]]
 [[es:tot]]
@@ -134,13 +138,16 @@
 [[pt:tot]]
 [[ro:tot]]
 [[ru:tot]]
+[[scn:tot]]
 [[sh:tot]]
 [[simple:tot]]
 [[sv:tot]]
 [[ta:tot]]
+[[tg:tot]]
 [[tr:tot]]
 [[uk:tot]]
 [[uz:tot]]
+[[vec:tot]]
 [[vi:tot]]
 [[wa:tot]]
 [[zh:tot]]

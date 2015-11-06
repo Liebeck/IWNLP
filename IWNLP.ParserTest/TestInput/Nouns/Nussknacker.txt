@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Nussknacker
-|Nominativ Plural=die Nussknacker
-|Genitiv Singular=des [[Nussknackers]]
-|Genitiv Plural=der Nussknacker
-|Dativ Singular=dem Nussknacker
-|Dativ Plural=den [[Nussknackern]]
-|Akkusativ Singular=den Nussknacker
-|Akkusativ Plural=die Nussknacker
+|Genus=m
+|Nominativ Singular=Nussknacker
+|Nominativ Plural=Nussknacker
+|Genitiv Singular=Nussknackers
+|Genitiv Plural=Nussknacker
+|Dativ Singular=Nussknacker
+|Dativ Plural=Nussknackern
+|Akkusativ Singular=Nussknacker
+|Akkusativ Plural=Nussknacker
 |Bild=Nut cracker.jpg|250px|1|Nussknacker
 }}
 
@@ -45,6 +46,7 @@
 *{{sv}}: [1] {{Ü|sv|nötknäckare}}
 *{{es}}: [1] {{Ü|es|cascanueces}} {{m}}
 *{{tr}}: [1] {{Ü|tr|çıkarma araçlarının}}
+*{{hu}}: [1] {{Ü|hu|diótörő}}
 *{{vec}}: [1] {{Ü|vec|schissanose}} {{m}}
 }}
 
@@ -59,4 +61,7 @@
 [[fi:Nussknacker]]
 [[hu:Nussknacker]]
 [[io:Nussknacker]]
+[[ko:Nussknacker]]
+[[pl:Nussknacker]]
+[[sv:Nussknacker]]
 [[zh:Nussknacker]]

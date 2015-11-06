@@ -2,28 +2,30 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=bröckele ab<br />bröckle ab<ref name="ug">ungebräuchlich</ref>
-|Gegenwart_du=bröckelst ab<ref name="ug"/>
-|Gegenwart_er, sie, es=bröckelt ab
-|1.Vergangenheit_ich=bröckelte ab<ref name="ug"/>
+|Präsens_ich=bröckele ab
+|Präsens_ich*=bröckle ab
+|Präsens_du=bröckelst ab
+|Präsens_er, sie, es=bröckelt ab
+|Präteritum_ich=bröckelte ab
 |Partizip II=abgebröckelt
-|Konjunktiv II_ich=bröckelte ab<ref name="ug"/>
-|Imperativ Singular=bröckele ab!<br />bröckle ab!<ref name="ug"/>
-|Imperativ Plural=bröckelt ab!<ref name="ug"/>
+|Konjunktiv II_ich=bröckelte ab
+|Imperativ Singular=bröckele ab
+|Imperativ Singular*=bröckle ab
+|Imperativ Plural=bröckelt ab
 |Hilfsverb=haben
-|Hilfsverb2=sein
+|Hilfsverb*=sein
 }}
 
 {{Worttrennung}}
 :ab·brö·ckeln, {{Prät.}} brö·ckel·te ab {{Part.}} ab·ge·brö·ckelt
 
 {{Aussprache}}
-:{{IPA}} {{Lautschrift|ˈapˌbʀœkəln}}, {{Prät.}} {{Lautschrift|ˌbʀœkəltə ˈap}}, {{Part.}} {{Lautschrift|ˈapɡəˌbʀœkəlt}}
+:{{IPA}} {{Lautschrift|ˈapˌbʀœkl̩n}}, {{Prät.}} {{Lautschrift|ˌbʀœkl̩tə ˈap}}, {{Part.}} {{Lautschrift|ˈapɡəˌbʀœkl̩t}}
 :{{Hörbeispiele}} {{Audio|}}
 
 {{Bedeutungen}}
-:[1] {{intrans.|:}} etwas löst sich [[brockenartig]], [[brockenförmig]] ab, bricht stückchenweise auseinander
-:[2] ''[[Ökonomie]], [[Börse]],'' {{intrans.|:}} allmählich heruntergehen: die [[Preis]]e sinken, gehen in den Keller; die [[Börsenkurs]]e [[verfallen]]
+:[1] {{K|intrans.|meist [[unpersönlich]]}} etwas löst sich [[brockenartig]], [[brockenförmig]] ab, bricht stückchenweise auseinander
+:[2] {{K|Ökonomie|Börse|intrans.|meist [[unpersönlich]]}} allmählich heruntergehen: die [[Preis]]e sinken, gehen in den Keller; die [[Börsenkurs]]e [[verfallen]]
 
 {{Herkunft}}
 :[[Derivation]] ([[Ableitung]]) des [[Verb]]s ''[[bröckeln]]'' mit dem Präfix ''[[ab-]]''

@@ -3,14 +3,15 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=kriege, krich
-|Gegenwart_du=kriegst
-|Gegenwart_er, sie, es=kriegt
-|1.Vergangenheit_ich=kriegte
+|Präsens_ich=kriege
+|Präsens_du=kriegst
+|Präsens_er, sie, es=kriegt
+|Präteritum_ich=kriegte
 |Partizip II=gekriegt
 |Konjunktiv II_ich=kriegte
-|Imperativ Singular=krieg(e)!
-|Imperativ Plural=kriegt!
+|Imperativ Singular=kriege
+|Imperativ Singular*=krieg
+|Imperativ Plural=kriegt
 |Hilfsverb=haben
 }}
 
@@ -54,7 +55,7 @@
 :[2] Ich ''krieg’'' dich schon noch!
 :[2] ''Krieg'' mich doch, wenn du kannst!
 :[2] Wir sind uns alle sicher, dass Sie den Verräter ''kriegen.''
-:[3] Indessen ''kriegte'' Oesterreich ganz alleine in Italien. 
+:[3] Indessen ''kriegte'' Oesterreich ganz alleine in Italien.
 
 {{Redewendungen}}
 :[[ein paar kriegen]]; [[krieg mich, ich bin der Frieden]]
@@ -71,7 +72,7 @@
 *{{no}}: [1] {{Ü|no|få}}; [3] {{Ü|no|krige}}
 |Ü-rechts=
 *{{pl}}: [1] {{Ü|pl|dostawać}}
-*{{ru}}: [1] {{Ü|ru|получать}}; [2] {{Ü|ru|хватать}}; [3] {{Ü|ru|вести войну}}
+*{{ru}}: [1] {{Üt|ru|получать|}}; [2] {{Üt|ru|хватать|}}; [3] {{Üt|ru|вести войну|}}
 *{{sv}}: [1] {{Ü|sv|få}}; [2] {{Ü|sv|få tag i}}, {{Ü|sv|få tag på}}; [3] {{Ü|sv|kriga}}, {{Ü|sv|föra krig}}
 *{{es}}: [1] {{Ü|es|obtener}}, {{Ü|es|recibir}}, [2] {{Ü|es|pillar}}
 |Dialekttabelle=

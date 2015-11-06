@@ -38,13 +38,14 @@
 :[1] [[Fahrzeug]], [[Auto]], [[Kraftfahrzeug]], [[Wagen]], [[Kraftwagen]]
 
 {{Unterbegriffe}}
-:[1] [[Benziner]], [[Cabriolet]], [[Diesel]], [[Dreitürer]], [[Familienauto]], [[Fünfsitzer]], [[Fünftürer]], [[Geländewagen]], [[Kleinwagen]], [[Kombi]], [[Kompaktwagen]], [[Kraftwagen]], [[Limousine]], [[Mittelklassewagen]], [[Roadster]], [[Sportwagen]], [[Straßenkreuzer]], [[Viersitzer]], [[Viertürer]], [[Wagen]], [[Zweisitzer]], [[Zweitürer]] und alle Markennamen
+:[1] [[Benziner]], [[Cabriolet]], [[Diesel]], [[Familienauto]], [[Geländewagen]], [[Kleinwagen]], [[Kombi]], [[Kompaktwagen]], [[Limousine]], [[Mittelklassewagen]], [[Roadster]], [[Sportwagen]], [[Straßenkreuzer]] und alle Markennamen
+:[1] ''nach Tür- beziehungsweise Sitzanzahl:'' [[Dreitürer]], [[Fünfsitzer]], [[Fünftürer]], [[Viersitzer]], [[Viertürer]], [[Zweisitzer]], [[Zweitürer]]
 
 {{Beispiele}}
 :[1] Er fährt einen neuen ''PKW.''
 
 {{Wortbildungen}}
-:[1] [[Pkw-Fahrer|Pkw-Fahrer/in]], [[Pkw-Maut]]
+:[1] [[Pkw-Fahrer]]/[[PKW-Fahrer]], [[Pkw-Maut]]/[[PKW-Maut]]
 
 {{Absatz}}
 ==== Übersetzungen ====
@@ -54,7 +55,7 @@
 *{{fr}}: [1] {{Ü|fr|voiture}} {{f}}, {{Ü|fr|voiture de tourisme}} {{f}}
 *{{it}}: [1] {{Ü|it|macchina}} {{f}}, {{Ü|it|automobile}}, {{Ü|it|autovettura}} {{f}}
 |Ü-rechts=
-*{{ja}}: [1] {{Üxx|ja|じょうようしゃ, jôyôsha|乗用車}}
+*{{ja}}: [1] {{Üt|ja|乗用車|じょうようしゃ, jôyôsha}}
 *{{ca}}: [1] {{Ü|ca|cotxe}} {{m}}
 *{{sv}}: [1] {{Ü|sv|bil}}
 *{{es}}: [1] {{Ü|es|coche}} {{m}}, {{Ü|es|turismo}}
@@ -68,8 +69,11 @@
 :[1] {{Ref-Duden|Pkw}}
 :[1, 2] {{Lit-Koblischke: Kleines Abkürzungsbuch|A=3}}, Seite 101
 
+[[chr:Pkw]]
 [[en:Pkw]]
 [[fr:Pkw]]
 [[ja:Pkw]]
 [[ko:Pkw]]
+[[mg:Pkw]]
 [[nl:Pkw]]
+[[pl:Pkw]]

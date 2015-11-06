@@ -2,19 +2,22 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=sauge
-|Gegenwart_du=saugst
-|Gegenwart_er, sie, es=saugt
-|1.Vergangenheit_ich=saugte<br />(sog)
-|Konjunktiv II_ich=saugte<br />(söge)
-|Imperativ Singular=saug!
-|Imperativ Plural=saugt!
-|Partizip II=gesaugt<br />(gesogen)
+|Präsens_ich=sauge
+|Präsens_du=saugst
+|Präsens_er, sie, es=saugt
+|Präteritum_ich=saugte
+|Präteritum_ich*=sog
+|Konjunktiv II_ich=saugte
+|Konjunktiv II_ich*=söge
+|Imperativ Singular=saug
+|Imperativ Plural=saugt
+|Partizip II=gesaugt
+|Partizip II*=gesogen
 |Hilfsverb=haben
 }}
 
 {{Anmerkung}}
-:unregelmäßige Konjugation (in Klammern) nicht in allen Zusammenhängen
+:unregelmäßige Konjugation (sog, söge, gesogen) nicht in allen Zusammenhängen
 
 {{Worttrennung}}
 :sau·gen; {{Prät.}} saug·te, sog; {{Part.}} ge·saugt, ge·so·gen
@@ -38,7 +41,7 @@
 :[1] [[spucken]], [[speien]], [[blasen]], [[pusten]], [[blasen]]
 
 {{Unterbegriffe}}
-:[1] [[aussaugen]], [[einsaugen]], [[festsaugen]], [[leersaugen]], [[vollsaugen]] 
+:[1] [[aussaugen]], [[einsaugen]], [[festsaugen]], [[leersaugen]], [[vollsaugen]]
 :[2] [[ansaugen]], [[absaugen]], [[fortsaugen]], [[staubsaugen]], [[wegsaugen]]
 
 {{Beispiele}}
@@ -60,7 +63,7 @@
 |Ü-rechts=
 *{{pl}}: [1] {{Ü|pl|ssać}}
 *{{ru}}: [1] {{Üt|ru|сосать|sosátʹ}}
-*{{sv}}: [1] {{Ü|sv|suga}}
+*{{sv}}: [1] {{Ü|sv|suga}}, {{Ü|sv|dia}}
 *{{es}}: [1] {{Ü|es|succionar}}
 }}
 

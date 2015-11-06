@@ -1,1 +1,1 @@
-﻿Content of dewiktionary-20141027-pages-articles.xml
+﻿Content of live Wiktionary, as of 2015.11.06

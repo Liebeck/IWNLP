@@ -2,14 +2,15 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=versalze
-|Gegenwart_du=versalzt
-|Gegenwart_er, sie, es=versalzt
-|1.Vergangenheit_ich=versalzte
-|Partizip II=versalzen, versalzt
+|Präsens_ich=versalze
+|Präsens_du=versalzt
+|Präsens_er, sie, es=versalzt
+|Präteritum_ich=versalzte
+|Partizip II=versalzen
+|Partizip II*=versalzt
 |Konjunktiv II_ich=versalzte
-|Imperativ Singular=versalze!
-|Imperativ Plural=versalzt!
+|Imperativ Singular=versalze
+|Imperativ Plural=versalzt
 |Hilfsverb=haben
 }}
 
@@ -34,8 +35,8 @@
 :[2] [[verderben]]
 
 {{Beispiele}}
-:[1] Er hat die Suppe ''versalzen.''
-:[2] Er hat ihm die Freude ''versalzen.''
+:[1] Er hat die Suppe ''versalzt.''
+:[2] Er hat ihm die Freude ''versalzt.''
 :[3] Der Waldboden ist ''versalzen'' und muss daher gekalkt werden.
 
 {{Redewendungen}}
@@ -65,5 +66,7 @@
 [[en:versalzen]]
 [[id:versalzen]]
 [[ko:versalzen]]
+[[pl:versalzen]]
 [[ru:versalzen]]
+[[tg:versalzen]]
 [[zh:versalzen]]

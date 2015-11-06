@@ -2,14 +2,16 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=schwöre
-|Gegenwart_du=schwörst
-|Gegenwart_er, sie, es=schwört
-|1.Vergangenheit_ich=schwor<br />schwur<br />schwörte
+|Präsens_ich=schwöre
+|Präsens_du=schwörst
+|Präsens_er, sie, es=schwört
+|Präteritum_ich=schwor
+|Präteritum_ich*=schwur
+|Präteritum_ich**=schwörte
 |Partizip II=geschworen
 |Konjunktiv II_ich=schwüre
-|Imperativ Singular=schwöre!
-|Imperativ Plural=schwört!
+|Imperativ Singular=schwöre
+|Imperativ Plural=schwört
 |Hilfsverb=haben
 }}
 
@@ -50,7 +52,7 @@
 |Ü-rechts=
 *{{lt}}: [1] {{Ü|lt|prisiekti}}
 *{{pt}}: [1] {{Ü|pt|jurar}}
-*{{ru}}: [1] {{Ü|ru|обещать}}, {{Ü|ru|клясться}}; [2a-2b] {{Ü|ru|клясться}}
+*{{ru}}: [1] {{Üt|ru|обещать|}}, {{Üt|ru|клясться|}}; [2a-2b] {{Üt|ru|клясться|}}
 *{{sv}}: [1] {{Ü|sv|svära}}
 *{{es}}: [1] {{Ü|es|jurar}}
 }}

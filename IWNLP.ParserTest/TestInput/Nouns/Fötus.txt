@@ -15,6 +15,7 @@
 |Akkusativ Plural 1=die Föten
 |Akkusativ Plural 2=die Fötusse
 }}
+[[File:RyuJin in the womb (heart beating).ogg|miniatur|[1] ein elf [[Woche]]n [[alt]]er ''Fötus'' [[aufnehmen|aufgenommen]] in einer [[Ultraschall]]-[[Untersuchung]]]]
 
 {{Anmerkung}}
 :Sowohl den [[Genitiv]] [[Singular]] ''Fötusses'' als auch die [[Pluralform]]en ''Fötusse'' [[deklarieren|deklariert]] der Duden als selten.<ref>{{Ref-Duden|Fötus}}</ref>
@@ -30,7 +31,10 @@
 :{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
 
 {{Bedeutungen}}
-:[1] [[Embryo]] ab dem dritten Monat einer Schwangerschaft
+:[1] [[Embryo]] ab dem dritten [[Monat]] einer [[Schwangerschaft]]
+
+{{Beispiele}}
+:[1] „Man glaubt allgemein, daß der ''Fötus'' ein unbeschwertes Dasein führe, doch gibt es Gründe, dies in Zweifel zu ziehen.“<ref>{{Literatur | Autor= Arthur Koestler | Titel= Die Herren Call-Girls | TitelErg= Ein satirischer Roman |Verlag= Fischer Taschenbuch Verlag| Ort=  Frankfurt/M. |Jahr= 1985| Seiten= 83.|ISBN= 3-596-28168-7|}} Copyright des englischen Originals 1971.</ref>
 
 {{Lemmaverweis|Fetus}}
 
@@ -50,7 +54,9 @@
 [[fr:Fötus]]
 [[io:Fötus]]
 [[ko:Fötus]]
+[[ku:Fötus]]
 [[nl:Fötus]]
 [[pl:Fötus]]
 [[ru:Fötus]]
+[[sv:Fötus]]
 [[zh:Fötus]]

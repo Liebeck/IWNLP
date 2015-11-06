@@ -2,14 +2,17 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Güterzug
-|Nominativ Plural=die Güterzüge
-|Genitiv Singular=des Güterzugs&lt;br /&gt;des Güterzuges
-|Genitiv Plural=der Güterzüge
-|Dativ Singular=dem Güterzug
-|Dativ Plural=den Güterzügen
-|Akkusativ Singular=den Güterzug
-|Akkusativ Plural=die Güterzüge
+|Genus=m
+|Nominativ Singular=Güterzug
+|Nominativ Plural=Güterzüge
+|Genitiv Singular=Güterzuges
+|Genitiv Singular*=Güterzugs
+|Genitiv Plural=Güterzüge
+|Dativ Singular=Güterzug
+|Dativ Singular*=Güterzuge
+|Dativ Plural=Güterzügen
+|Akkusativ Singular=Güterzug
+|Akkusativ Plural=Güterzüge
 |Bild=Güterzug in Lintorf.jpg|300px|1|ein ''Güterzug''
 }}
 
@@ -34,9 +37,9 @@
 
 {{Beispiele}}
 :[1] Durch Göttingen fahren jeden Tag viele ''Güterzüge.''
-:[1] „Ein langer ''Güterzug'' der Canadian Pacific gleitet neben der Straße her.“&lt;ref&gt;{{Literatur | Autor= Geert Mak | Titel-P= Amerika! |TitelErg= Auf der Suche nach dem Land der unbegrenzten Möglichkeiten | Verlag= Siedler | Ort=München | Jahr= 2013 | ISBN= 978-3-88680-0023-6}}, Seite 264.&lt;/ref&gt;
-:[1] „Seit dem Sommer 1945 passieren unaufhörlich ''Güterzüge'' die schlesischen Bahnhöfe.“&lt;ref&gt;{{Literatur | Autor=Hans-Dieter Rutsch |Herausgeber= |Titel= Aus Mechthild wurde Magda |Sammelwerk= Als die Deutschen weg waren. Was nach der Vertreibung geschah: Ostpreußen, Schlesien, Sudetenland | Verlag= Rowohlt Taschenbuch Verlag | Ort= Rheinbek | Jahr=2013 | Auflage= 6. | Seiten= 25-83, Zitat Seite 65.| ISBN= 978-3-499-62204-5}}&lt;/ref&gt;
-:[1] „Im ersten Waggon des ''Güterzugs'', gleich hinter dem Tender, liegt ein Mensch auf Stroh.“&lt;ref&gt;{{Literatur | Autor= E. W. Heine | Titel= Kaiser Wilhelms Wal|TitelErg= Geschichten aus der Weltgeschichte |Verlag= C. Bertelsmann Verlag | Ort= München |Jahr= 2013| Seiten = 117.|ISBN= 978-3-570-10148-3|}}&lt;/ref&gt;
+:[1] „Ein langer ''Güterzug'' der Canadian Pacific gleitet neben der Straße her.“<ref>{{Literatur | Autor= Geert Mak | Titel-P= Amerika! |TitelErg= Auf der Suche nach dem Land der unbegrenzten Möglichkeiten | Verlag= Siedler | Ort=München | Jahr= 2013 | ISBN= 978-3-88680-0023-6}}, Seite 264.</ref>
+:[1] „Seit dem Sommer 1945 passieren unaufhörlich ''Güterzüge'' die schlesischen Bahnhöfe.“<ref>{{Literatur | Autor=Hans-Dieter Rutsch |Herausgeber= |Titel= Aus Mechthild wurde Magda |Sammelwerk= Als die Deutschen weg waren. Was nach der Vertreibung geschah: Ostpreußen, Schlesien, Sudetenland | Verlag= Rowohlt Taschenbuch Verlag | Ort= Rheinbek | Jahr=2013 | Auflage= 6. | Seiten= 25-83, Zitat Seite 65.| ISBN= 978-3-499-62204-5}}</ref>
+:[1] „Im ersten Waggon des ''Güterzugs'', gleich hinter dem Tender, liegt ein Mensch auf Stroh.“<ref>{{Literatur | Autor= E. W. Heine | Titel= Kaiser Wilhelms Wal|TitelErg= Geschichten aus der Weltgeschichte |Verlag= C. Bertelsmann Verlag | Ort= München |Jahr= 2013| Seiten = 117.|ISBN= 978-3-570-10148-3|}}</ref>
 
 {{Absatz}}
 ==== Übersetzungen ====
@@ -44,7 +47,7 @@
 *{{en}}: [1] {{Ü|en|cargo train}}, {{Ü|en|freighttrain}}, {{Ü|en|wagon train}}
 *{{fi}}: [1] {{Ü|fi|tavarajuna}}
 *{{fr}}: [1] {{Ü|fr|train de marchandises}} {{m}}
-*{{ru}}: [1] {{Ü|ru|товарный поезд}}
+*{{ru}}: [1] {{Üt|ru|товарный поезд|}}
 |Ü-rechts=
 *{{sv}}: [1] {{Ü|sv|godståg}} {{n}}
 *{{es}}: [1] {{Ü|es|tren de carga}} {{m}}, {{Ü|es|tren de mercancías}} {{m}}, {{Ü|es|tren carguero}}
@@ -62,7 +65,9 @@
 
 {{Quellen}}
 
+[[hu:Güterzug]]
 [[ko:Güterzug]]
+[[pl:Güterzug]]
 [[pt:Güterzug]]
 [[sv:Güterzug]]
 [[zh:Güterzug]]

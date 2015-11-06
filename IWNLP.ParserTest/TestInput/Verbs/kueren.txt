@@ -3,14 +3,17 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=küre
-|Gegenwart_du=kürst
-|Gegenwart_er, sie, es=kürt
-|1.Vergangenheit_ich=kor (''veraltet''), kürte
-|Partizip II=gekoren (''veraltet''), gekürt
+|Präsens_ich=küre
+|Präsens_du=kürst
+|Präsens_er, sie, es=kürt
+|Präteritum_ich=kürte
+|Präteritum_ich*=kor
+|Partizip II=gekürt
+|Partizip II*=gekoren
 |Konjunktiv II_ich=kürte
-|Imperativ Singular=kür(e)!
-|Imperativ Plural=kürt!
+|Imperativ Singular=küre
+|Imperativ Singular*=kür
+|Imperativ Plural=kürt
 |Hilfsverb=haben
 }}
 
@@ -71,5 +74,8 @@
 [[en:küren]]
 [[id:küren]]
 [[ko:küren]]
+[[ku:küren]]
 [[mg:küren]]
+[[nds:küren]]
+[[pl:küren]]
 [[zh:küren]]

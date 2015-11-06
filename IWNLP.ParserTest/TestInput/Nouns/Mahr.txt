@@ -58,7 +58,7 @@
 *{{la}}: [1] {{Ü|la|incubus}}
 |Ü-rechts=
 *{{pl}}: [1] {{Ü|pl|mara}}
-*{{ru}}: [1] {{Ü|ru|мара}}
+*{{ru}}: [1] {{Üt|ru|мара|}}
 *{{sv}}: [1] {{Ü|sv|mara}}
 }}
 
@@ -140,5 +140,6 @@
 {{Ähnlichkeiten}}
 :[[Ahr]], [[fahr]], [[Jahr]], [[Lahr]], [[Maar]], [[Mahd]], [[mahl]], [[Mahl]], [[mahn]], [[mehr]], [[Mehr]], [[Mohr]], [[Tahr]], [[wahr]]
 
+[[en:Mahr]]
 [[fi:Mahr]]
 [[ru:Mahr]]

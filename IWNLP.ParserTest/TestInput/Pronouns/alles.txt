@@ -1,23 +1,5 @@
 ﻿== alles ({{Sprache|Deutsch}}) ==
 === {{Wortart|Indefinitpronomen|Deutsch}} (mit adjektivischer Deklination) ===
-{{Pronomina-Tabelle|
- Wer oder was? (Einzahl m)=aller
-|Wer oder was? (Einzahl f)=alle
-|Wer oder was? (Einzahl n)=alles
-|Wer oder was? (Mehrzahl)=alle
-|Wessen? (Einzahl m)=alles<br />allen
-|Wessen? (Einzahl f)=aller
-|Wessen? (Einzahl n)=alles<br />allen
-|Wessen? (Mehrzahl)=aller
-|Wem? (Einzahl m)=allem
-|Wem? (Einzahl f)=aller
-|Wem? (Einzahl n)=allem
-|Wem? (Mehrzahl)=allen
-|Wen? (Einzahl m)=allen
-|Wen? (Einzahl f)=alle
-|Wen? (Einzahl n)=alles
-|Wen? (Mehrzahl)=alle
-}}
 
 {{Worttrennung}}
 :al·les

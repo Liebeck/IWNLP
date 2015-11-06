@@ -47,27 +47,28 @@
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
 *{{af}}: [1] {{Ü|af|Nederlands}}
-*{{ar}}: [1] {{Üxx|ar|hūlandiya|هولندية}}
-*{{zh-tw}}: [1] {{Üxx|zh|Hélán yǔ|菏蘭語}}
-*{{zh-cn}}: [1] {{Üxx|zh|Hélán yǔ|菏兰语}}
+*{{ar}}: [1] {{Üt|ar|هولندية|hūlandiya}}
+*{{zh-tw}}: [1] {{Üt|zh|菏蘭語|Hélán yǔ}}
+*{{zh-cn}}: [1] {{Üt|zh|菏兰语|Hélán yǔ}}
 *{{da}}: [1] {{Ü|da|nederlandsk}}
 *{{en}}: [1] {{Ü|en|Dutch}}
 *{{et}}: [1] {{Ü|et|hollandi keel}}
 *{{fi}}: [1] {{Ü|fi|hollanti}}, {{Ü|fi|hollannin kieli}}
 *{{fr}}: [1] {{Ü|fr|néerlandais}}
-*{{el}}: [1] {{Üxx|el|Ollandiká|Ολλανδικά}} {{nPl.}}
-*{{he}}: [1] {{Üxx|he|holandit|הולנדית}}
-*{{hi}}: [1] {{Üxx|hi|Ḍaca bhāṣā|डच भाषा}}
+*{{el}}: [1] {{Üt|el|Ολλανδικά|Ollandiká}} {{nPl.}}
+*{{he}}: [1] {{Üt|he|הולנדית|holandit}}
+*{{hi}}: [1] {{Üt|hi|डच भाषा|Ḍaca bhāṣā}}
 *{{id}}: [1] {{Ü|id|bahasa Belanda}}
-*{{ja}}: [1] {{Üxx|ja|''Oranda''-go|オランダ語}}
+*{{ja}}: [1] {{Üt|ja|オランダ語|''Oranda''-go}}
+*{{ko}}: [1] {{Üt|ko|네덜란드어|Nedeollandeu-eo}}
 |Ü-rechts=
-*{{ko}}: [1] {{Üxx|ko|Nedeollandeu-eo|네덜란드어}}
 *{{kw}}: [1] {{Ü|kw|Iseldiryek}}
+*{{lb}}: [1] {{Ü|lb|Hollännesch}}
 *{{nl}}: [1] {{Ü|nl|Nederlands}}
 *{{dsb}}: [1] {{Ü|dsb|nižozemšćina}}
 *{{se}}: [1] {{Ü|se|hollánddagiella}}
 *{{hsb}}: [1] {{Ü|hsb|nižozemšćina}}, {{Ü|hsb|hollandšćina}}
-*{{ru}}: [1] {{Üxx|ru|niderlandskij jazyk|нидерландский язык}}
+*{{ru}}: [1] {{Üt|ru|нидерландский язык|niderlandskij jazyk}}
 *{{sv}}: [1] {{Ü|sv|nederländska}}, {{Ü|sv|holländska}}
 *{{sl}}: [1] {{Ü|sl|nizozemščina}}
 *{{es}}: [1] {{Ü|es|neerlandés}}

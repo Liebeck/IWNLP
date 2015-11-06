@@ -10,7 +10,7 @@
 |Dativ Plural=—
 |Akkusativ Singular=Thor
 |Akkusativ Plural=—
-|Bild=Johann Heinrich Füssli 011.jpg|200px|1|Johann Heinrich Füssli, Der Kampf des ''Thor'' mit der Schlange des Midgard, 1788
+|Bild=Johann Heinrich Füssli 011.jpg|mini|1|Johann Heinrich Füssli, Der Kampf des ''Thor'' mit der Schlange des Midgard, 1788
 }}
 
 {{Worttrennung}}
@@ -24,7 +24,7 @@
 :[1] skandinavische Form des Namens [[Donar]] (= ein [[germanisch]]er [[Gott]])
 
 {{Herkunft}}
-:altisländisch ''Þórr,'' [[Althochdeutsch|ahd.]] ''Donar,'' gemeingermanisch Þunraz „Donner“
+:altisländisch ''Þórr,'' althochdeutsch ''Donar,'' gemeingermanisch Þunraz „Donner“ {{QS Herkunft|unbelegt}}
 
 {{Synonyme}}
 :[1] [[Donar]]
@@ -33,39 +33,48 @@
 :[1] [[Gottheit]]
 
 {{Beispiele}}
-:[1] ''Thor'' war der erste Sohn des Gottes Odin.
+:[1] Der zweite und nächst Wodan-Odin berühmteste Gott war ''Thor,'' der über Wolken und Regen gebot, sich durch den leuchtenden Blitz und durch den rollenden Donner kund gab, dessen Keil durch die Lüfte fuhr und auf Erden einschlug.<ref>{{Internetquelle|url=https://books.google.se/books?id=3QBgAAAAcAAJ&pg=PA26&dq=thor+gott&hl=sv&sa=X&ei=fzffVO6qHsKqywPUxoG4Bg&ved=0CEYQ6AEwBDgK#v=onepage&q=thor%20gott&f=false|titel=Leben des heiligen Ansgar, Apostels von Dänemark und Schweden|zugriff=2015-02-14}}</ref>
+:[1] Odin hat ''Thors'' Frau Sif die Haare abgeschnitten.
 
 {{Wortbildungen}}
-:[1] [[Thursday]] (englisch für [[Donnerstag]])
-:[1] [[Thorsten]], [[Thorben]]
+:[[Thorsten]], [[Thorben]]
 
 {{Absatz}}
-
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{osx}}: [1] {{Ü|osx|Thunaer}}
 *{{ang}}: [1] {{Ü|ang|þunor}}
 *{{goh}}: [1] {{Ü|goh|Donar}}
 *{{non}}: [1] {{Ü|non|Þórr}}
+*{{osx}}: [1] {{Ü|osx|Thunaer}}
 |Ü-rechts=
-*Urnordisch: [1] [[þunraR]]
 *{{en}}: [1] {{Ü|en|Thor}}
+*{{sv}}: [1] {{Ü|sv|Tor}} 
+*Urnordisch: [1] [[þunraR]]
 }}
 
 {{Referenzen}}
-:[1] {{Wikipedia|Thor}}
-:[*] {{Ref-Canoo|Thor}}
+:[1] {{Ref-Duden|Thor}}
 :[1] {{Ref-UniLeipzig|Thor}}
+:[*] {{Ref-DWDS|Thor}}
+:[*] {{Ref-Canoo|Thor}}
+:[1] {{Wikipedia|Thor}}
+
+{{Quellen}}
 
 {{----}}
 
-=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
-
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 {{Alte Schreibweise|Tor|seit der Reform von 1901}}
 
-{{Ähnlichkeiten}}
-:[[Tor]]
-:''Anagramme:'' [[Hort]]
+{{Beispiele}}
+:[*] „So wie sich ein Mohr nicht weiß waschen läßt, so läßt sich auch mancher ''Thor'' nicht klug machen.“<ref>Matthäus Zeheter: ''Anleitung zur methodischen Behandlung des Unterrichtes in der deutschen Sprache für deutsche Schulen;'' Zweite, verbesserte und vermehrte Auflage; Regensburg, 1837, Seite 106 (bei ''[https://books.google.de/books?id=WvJIAAAAcAAJ&pg=PA106 Google Books]'')</ref>
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+{{Alte Schreibweise|Tor|seit der Reform von 1901}}
+
+{{Ähnlichkeiten 1|[[Tour]], [[Thron]]|Anagramme=[[Hort]]}}
 
 [[el:Thor]]
 [[en:Thor]]
@@ -73,6 +82,7 @@
 [[fr:Thor]]
 [[is:Thor]]
 [[li:Thor]]
+[[nl:Thor]]
 [[no:Thor]]
 [[pl:Thor]]
 [[ru:Thor]]

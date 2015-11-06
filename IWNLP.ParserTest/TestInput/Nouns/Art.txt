@@ -1,18 +1,17 @@
-﻿{{überarbeiten|Refs/Bed. prüfen; Redewendungen formatieren|Deutsch}}
-
-{{Wort der Woche|22|2007}}
+﻿{{Wort der Woche|22|2007}}
 == Art ({{Sprache|Deutsch}}) ==
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Art
-|Nominativ Plural=die Arten
-|Genitiv Singular=der Art
-|Genitiv Plural=der Arten
-|Dativ Singular=der Art
-|Dativ Plural=den Arten
-|Akkusativ Singular=die Art
-|Akkusativ Plural=die Arten
+|Genus=f
+|Nominativ Singular=Art
+|Nominativ Plural=Arten
+|Genitiv Singular=Art
+|Genitiv Plural=Arten
+|Dativ Singular=Art
+|Dativ Plural=Arten
+|Akkusativ Singular=Art
+|Akkusativ Plural=Arten
 |Bild=Origin of Species.jpg|200px|3|[[w:Charles Darwin|Darwins]] Grundlagenwerk zur Evolution aller Lebewesen "'''Die Entstehung der Arten'''" von 1859 hier in der englischen Originalausgabe
 }}
 
@@ -25,30 +24,33 @@
 :{{Reime}} {{Reim|aːɐ̯t|Deutsch}}
 
 {{Bedeutungen}}
-:[1] ''allgemein:'' eine [[Gruppe]] aus einer [[Gesamtheit]], die sich durch besondere [[Merkmal]]e [[auszeichnen|auszeichnet]]
-:[2] ''allgemein im Sinne von'' [[Eigenschaft]], [[Eigenart]]
-:[3] ''[[Biologie]], allgemein:'' eine niedrige Kategorie im System der Lebewesen
-:[3] ''[[Biologie]]:'' die Grundeinheit der [[biologisch]]en [[Systematik]], der [[Unterbegriff]] der [[Gattung]]
+:[1] {{allg.|:}} eine [[Gruppe]] aus einer [[Gesamtheit]], die sich durch besondere [[Merkmal]]e [[auszeichnen|auszeichnet]]
+:[2] {{allg.}} ''im Sinne von'' [[Eigenschaft]], [[Eigenart]]
+:[3] {{Kontext|Biologie}} ({{allg.|}}) eine niedrige Kategorie im System der Lebewesen
+:[4] {{Kontext|Biologie}} die Grundeinheit der [[biologisch]]en [[Systematik]], der [[Unterbegriff]] der [[Gattung]]
+
+{{Herkunft}}
+:mittelhochdeutsch ''art'' „angeborene Eigentümlichkeit, Natur, Herkunft, Art und Weise“, belegt seit dem 12. Jahrhundert; weitere Herkunft unsicher<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Art<sup>1</sup>“, Seite 62.</ref>
 
 {{Synonyme}}
-:[1] [[Sorte]], [[Gattung]]
-:[2] [[Weise]], [[Art und Weise]]
+:[1] [[Gattung]], [[Sorte]]
+:[2] [[Art und Weise]], [[Weise]]
 :[3] [[Spezies]] ([[Species]])
 
 {{Gegenwörter}}
-:[[Unart]], [[Abart]]
+:[[Abart]], [[Unart]]
 
 {{Oberbegriffe}}
 :[2] [[Konzeption]]
 :[3] [[Taxon]]; ''höhere Taxa:'' [[Gattung]], [[Familie]], [[Ordnung]], [[Klasse]], [[Stamm]], [[Reich]]
 
 {{Unterbegriffe}}
-:[1] [[Abfallart]], [[Aktionsart]], [[Lebensart]], [[Mundart]], [[Redensart]], [[Spielart]]
-:[2] [[Bauart]], [[Herstellungsart]], [[Lüftungsart]], [[Maschinenart]]
-:[3] [[Affenart]], [[Baumart]], [[Farnart]], [[Fischart]], [[Hirschart]], [[Hummelart]], [[Hundeart]], [[Insektenart]], [[Katzenart]], [[Moosart]], [[Palmenart]], [[Pflanzenart]], [[Pilzart]], [[Primatenart]], [[Raubtierart]], [[Tierart]], [[Vogelart]], [[Wildart]]
+:[1] [[Abfallart]], [[Aktionsart]], [[Lebensart]], [[Mundart]], [[Redensart]], [[Schriftart]], [[Spielart]]
+:[2] [[Bauart]], [[Bestattungsart]], [[Herstellungsart]], [[Holzart]], [[Kunststoffart]], [[Lüftungsart]], [[Maschinenart]]
+:[3] [[Bakterienart]], [[Pflanzenart]], [[Pilzart]], [[Tierart]], [[Virenart]]
+:[3] [[Affenart]], [[Baumart]], [[Farnart]], [[Fischart]], [[Hirschart]], [[Hummelart]], [[Hundeart]], [[Insektenart]], [[Katzenart]], [[Moosart]], [[Palmenart]], [[Primatenart]], [[Raubtierart]], [[Vogelart]], [[Wildart]]
 :[3] ''untergeordnete Taxa:'' [[Rasse]], [[Unterart]], [[Sorte]], [[Population]], [[Varietät]]
-:[?] [[Abart]], [[Aktionsart]], [[Deckungsart]], [[Denkart]], [[Eigenart]] [[eigenartig]], [[entarten]], [[Fangart]], [[Flugart]], [[Frauenart]], [[Gangart]], [[Jägerart]], [[Kampfart]], [[Kohlart]], [[Landesart]], [[Leitart]], [[Lesart]], [[Machart]], [[Männerart]], [[Mundart]], [[Nutzungsart]], [[Palmart]], [[Rechenart]], [[Rechnungsart]], [[Redensart]], [[Reimart]], [[Satzart]], [[Schreibart]], [[Schliffart]], [[Schriftart]], [[Schwimmart]], [[Seemannsart]], [[Sinnesart]], [[Sportart]], [[Stammart]], [[Stilart]], [[Taktart]], [[Todesart]], [[Tonart]], [[Tuchart]], [[Standart]], [[Unart]], [[unartig]], [[Unterart]], [[Versart]], [[Webart]], [[Wesensart]], [[Wortart]], [[Zahlungsart]], [[Zwillingsart]]
-
+:[?] [[Abart]], [[Aktionsart]], [[Deckungsart]], [[Denkart]], [[Eigenart]], [[entarten]], [[Fangart]], [[Flugart]], [[Frauenart]], [[Gangart]], [[Jägerart]], [[Kampfart]], [[Kohlart]], [[Landesart]], [[Leitart]], [[Lesart]], [[Machart]], [[Männerart]], [[Mundart]], [[Nutzungsart]], [[Palmart]], [[Rechenart]], [[Rechnungsart]], [[Redensart]], [[Reimart]], [[Satzart]], [[Schreibart]], [[Schliffart]], [[Schriftart]], [[Schwimmart]], [[Seemannsart]], [[Sinnesart]], [[Sportart]], [[Stammart]], [[Stilart]], [[Taktart]], [[Todesart]], [[Tonart]], [[Tuchart]], [[Standart]], [[Unart]], [[Unterart]], [[Versart]], [[Webart]], [[Wesensart]], [[Wortart]], [[Zahlungsart]], [[Zwillingsart]]
 
 {{Beispiele}}
 :[1] Wir haben verschiedene ''Arten'' von Reisen im Angebot.
@@ -57,54 +59,62 @@
 :[3] Nach der binären Nomenklatur trägt jede biologische ''Art'' einen zweiteiligen Namen, der aus dem Gattungsnamen und dem eigentlichen Artnamen besteht.
 
 {{Redewendungen}}
-:[1] [[Art und Weise]], für: "Er musste ihr den Unfall auf schonende Art und Weise beibringen.“
-:[1] [[aus der Art schlagen]], für: "Ihr jüngster Sohn ist aus der Art geschlagen.“
-:[1] [[das ist keine Art]]: „das gehört sich so nicht.“
-:[1] [[nicht die feine englische Art sein]], für: "Hooligans sind nicht von feiner englischer Art.“
-:[1] [[nach Art des Hauses]], für: "Karpfen in Biersoße nach Art des Hauses“
+:[[Art und Weise]]
+:[[aus der Art schlagen]]
+:[[das ist keine Art]]
+:[[nach Art des Hauses]]
+:[[nicht die feine englische Art sein]]
 
 {{Charakteristische Wortkombinationen}}
 :[1] diese ''Art'' +Substantiv (z. B. ''diese Art Dinge''), eine Art [[von]]
+:[1] [[eine Art]], [[so eine Art]] (mit unmittelbar folgendem [[Substantiv]] im selben [[Kasus]])
 
 {{Wortbildungen}}
-:[[Artangabe]], [[Artbegriff]], [[Artbezeichnung]], [[Artbildung]], [[arteigen]], [[Artenarmut]], [[Artenbildung]], [[Artenkunde]], [[artenreich]], [[Artenreichtum]], [[Artenrückgang]], Artensatz,  [[Artenschutz]], [[Artenschutzabkommen]], [[Artensterben]], [[Artenvielfalt]], [[Artenzuwachs]], [[Arterhaltung]], [[artfremd]], [[artgemäß]], [[Artgenosse]], [[artgerecht]], [[artgleich]], [[artig]], [[Artigkeit]], [[artenreich]], [[artrein]], [[artverwandt]] 
+:{{Wortbildung|Adjektive}} [[arteigen]], [[artfremd]], [[artgemäß]], [[artgerecht]], [[artgleich]], [[artig]], [[artenreich]], [[artrein]], [[artverwandt]], [[unartig]]
+:{{Wortbildung|Substantive}} [[Artangabe]], [[Artbegriff]], [[Artbezeichnung]], [[Artbildung]], [[Artenarmut]], [[Artenbildung]], [[Artenkunde]], [[Artenreichtum]], [[Artenrückgang]], [[Artensatz]], [[Artenschutz]], [[Artenschutzabkommen]], [[Artensterben]], [[Artenvielfalt]], [[Artenzuwachs]], [[Arterhaltung]], [[Artgenosse]], [[Artigkeit]]
 
-{{Absatz}}
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{bg}}: [3] {{Üxx|bg|wid|вид}}
-*{{en}}: [1] {{Ü|en|kind}}, {{Ü|en|sort}}, {{Ü|en|type}}; [2] {{Ü|en|way}} [3] {{Ü|en|species}}
-*{{fi}}: [1, 3] {{Ü|fi|laji}}, [2] {{Ü|fi|tapa}}
-*{{fr}}: [1] {{Ü|fr|genre}} {{m}}, {{Ü|fr|sorte}} {{f}}, [2] {{Ü|fr|façon}};  [3] {{Ü|fr|espèce}} {{f}}
-*{{it}}: [1] {{Ü|it|genere}} {{m}}, [2] {{Ü|it|maniera}} {{f}}, {{Ü|it|modo}} {{m}}, [3] {{Ü|it|specie}}
-*{{ja}}: [1] {{Üxx|ja|るい, rui|類}}, {{Üxx|ja|しゅるい, shurui|種類}}; [2] {{Üxx|ja|しかた, shikata|仕方}}; [3] {{Üxx|ja|しゅ, shu|種}}
+*{{bg}}: [3] {{Üt|bg|вид|wid}}
+*{{en}}: [1] {{Ü|en|kind}}, {{Ü|en|sort}}, {{Ü|en|type}}; [2] {{Ü|en|way}}; [3] {{Ü|en|species}}
+*{{fi}}: [1, 3] {{Ü|fi|laji}}; [2] {{Ü|fi|tapa}}
+*{{fr}}: [1] {{Ü|fr|genre}} {{m}}, {{Ü|fr|sorte}} {{f}}; [2] {{Ü|fr|façon}}; [3] {{Ü|fr|espèce}} {{f}}
+*{{it}}: [1] {{Ü|it|genere}} {{m}}; [2] {{Ü|it|maniera}} {{f}}, {{Ü|it|modo}} {{m}}; [3] {{Ü|it|specie}}
+*{{ja}}: [1] {{Üt|ja|類|るい, rui}}, {{Üt|ja|種類|しゅるい, shurui}}; [2] {{Üt|ja|仕方|しかた, shikata}}; [3] {{Üt|ja|種|しゅ, shu}}
 *{{ca}}: [1] {{Ü|ca|classe}} {{f}}, {{Ü|ca|mena}} {{f}}, {{Ü|ca|tipus}} {{m}}; [2] {{Ü|ca|manera}}, {{Ü|ca|forma}}; [3] {{Ü|ca|espècie}} {{f}}
-*{{la}}: [2] {{Ü|la|modus}}, [3] {{Ü|la|species}}
+*{{la}}: [2] {{Ü|la|modus}}; [3] {{Ü|la|species}}
 *{{nds}}: [1, 2] [[Soort]], [[Aart]]
 *{{nl}}: [3] {{Ü|nl|soort}}
-*{{oc}}: [1] {{Ü|oc|classa}} {{f}}, {{Ü|oc|categoria}} {{f}}, {{Ü|oc|mena}} {{f}}, {{Ü|oc|tipe}} {{m}}, {{Ü|oc|sòrta}} {{f}}   [2] {{Ü|oc|manièra}} {{f}}, {{Ü|oc|manèra}} ([[aranesisch]]) [3] {{Ü|oc|espècia}} {{f}}
+*{{no}}:
+**{{nb}}: [1-3] {{Ü|nb|art}} {{mf}}
 |Ü-rechts=
-*{{pl}}: [1] {{Ü|pl|rodzaj}} {{m}}, [2] {{Ü|pl|sposób}} {{f}}, [3] {{Ü|pl|gatunek}} {{m}}
+*{{oc}}: [1] {{Ü|oc|classa}} {{f}}, {{Ü|oc|categoria}} {{f}}, {{Ü|oc|mena}} {{f}}, {{Ü|oc|tipe}} {{m}}, {{Ü|oc|sòrta}} {{f}}; [2] {{Ü|oc|manièra}} {{f}}, {{Ü|oc|manèra}} ({{aran.}}) [3] {{Ü|oc|espècia}} {{f}}
+*{{pdc}}: [1] {{Ü|pdc|Satt}}
+*{{pl}}: [1] {{Ü|pl|rodzaj}} {{m}}; [2] {{Ü|pl|sposób}} {{f}}; [3] {{Ü|pl|gatunek}} {{m}}
 *{{pt}}: [1] {{Ü|pt|tipo}} {{m}}, {{Ü|pt|género}}, {{Ü|pt|classe}} {{f}}; [2] {{Ü|pt|forma}} {{f}}, {{Ü|pt|maneira}} {{f}}; [3] {{Ü|pt|espécie}} {{f}};
-*{{ru}}: [1] {{Üxx|ru|wid|вид}}; [2] {{Üxx|ru|wid|вид}}, {{Üxx|ru|sposob|способ}}, {{Üxx|ru|manera|манера}}; [3] {{Üxx|ru|wid|вид}}
-*{{sv}}: [1] {{Ü|sv|typ}}; [2] {{Ü|sv|sätt}}; [3] {{Ü|sv|art}}
+*{{ru}}: [1-3] {{Üt|ru|вид|wid}}; [2] {{Üt|ru|способ|sposob}}, {{Üt|ru|манера|manera}}
+*{{sv}}: [1] {{Ü|sv|typ}} {{u}}; [2] {{Ü|sv|sätt}} {{n}}; [3] {{Ü|sv|art}} {{u}}
 *{{es}}: [1] {{Ü|es|clase}} {{f}}, {{Ü|es|tipo}} {{m}}; [2] {{Ü|es|forma}} {{f}}, {{Ü|es|modo}} {{m}}, {{Ü|es|manera}} {{f}}; [3] {{Ü|es|especie}} {{f}}
-*{{cs}}: [1, 3] {{Ü|cs|druh}} {{m}}, [2] {{Ü|cs|způsob}} {{m}}
-*{{hu}}: [1] {{Ü|hu|fajta}} [2] {{Ü|hu|jelleg}}, {{Ü|hu|magatartás}}, {{Ü|hu|mód}}, {{Ü|hu|viselkedés}} [3] {{Ü|hu|faj}}
-|Dialekttabelle=
-*Bairisch:
-*Kölsch: [[Aat]]
+*{{cs}}: [1, 3] {{Ü|cs|druh}} {{m}}; [2] {{Ü|cs|způsob}} {{m}}
+*{{tr}}: [1, 2] {{Ü|tr|çeşit}}, {{Ü|tr|nevi}}; [3, 4] {{Ü|tr|tür}}
+*{{hu}}: [1] {{Ü|hu|fajta}}; [2] {{Ü|hu|jelleg}}, {{Ü|hu|magatartás}}, {{Ü|hu|mód}}, {{Ü|hu|viselkedés}}; [3] {{Ü|hu|faj}}
+|Dialekttabelle= 
+*Kölsch: [[Aat]] 
 |D-rechts=
-*Ostmitteldeutsch:
 }}
 
 {{Referenzen}}
 :[1, 2] {{Wikipedia|Art}}
-:[3] {{Wikipedia|Art  (Biologie)}}
-:{{Ref-Grimm|Art}}
-:{{Ref-Canoo|Art}}
-:{{Ref-UniLeipzig|Art}}
-:{{Ref-Duden|Art}}
+:[3] {{Wikipedia|Art (Biologie)}}
+:[1, 2] {{Ref-Grimm|Art}}
+:[1–3] {{Ref-Canoo|Art}}
+:[1, 2] {{Ref-UniLeipzig|Art}}
+:[1, 2] {{Ref-FreeDictionary|Art}}
+:[1–4] {{Ref-Duden|Art}}
+
+{{Quellen}}
+
+{{----}}
 
 === {{Wortart|Substantiv|Deutsch}}, {{m}}, {{Wortart|Vorname|Deutsch}} ===
 
@@ -152,7 +162,7 @@
 :[1] {{Ref-babynamespedia|Art}}
 
 {{Ähnlichkeiten}}
-:[[Abt]], [[Akt]], [[alt]], [[Amt]], [[Ara]], [[Are]], [[Arm]], [[arm]], [[Ars]], art, [[Arzt]], [[Ast]], [[aßt]], [[Axt]], [[Bart]], [[Dart]], [[hart]], [[Pop-Art]], [[Op-Art]], [[Ort]], [[Rat]], [[Wart]], [[wart]], [[zart]]
+:[[Acht]], [[Abt]], [[Akt]], [[alt]], [[Amt]], [[Ara]], [[Are]], [[Arm]], [[arm]], [[Ars]], art, [[Arzt]], [[Ast]], [[aßt]], [[Axt]], [[Bart]], [[Dart]], [[hart]], [[Pop-Art]], [[Op-Art]], [[Ort]], [[Rat]], [[Wart]], [[wart]], [[zart]]
 
 [[ar:Art]]
 [[br:Art]]
@@ -161,6 +171,7 @@
 [[cs:Art]]
 [[el:Art]]
 [[en:Art]]
+[[eo:Art]]
 [[fi:Art]]
 [[fj:Art]]
 [[fr:Art]]
@@ -180,4 +191,5 @@
 [[sr:Art]]
 [[sv:Art]]
 [[ta:Art]]
+[[tr:Art]]
 [[zh:Art]]

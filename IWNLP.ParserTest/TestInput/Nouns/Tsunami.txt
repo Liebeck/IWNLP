@@ -1,26 +1,29 @@
-﻿{{siehe auch|[[tsunami]]}}
+﻿{{Siehe auch|[[tsunami]]}}
 == Tsunami ({{Sprache|Deutsch}}) ==
 === {{Wortart|Substantiv|Deutsch}}, {{mf}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular 1=der Tsunami
-|Nominativ Singular 2=die Tsunami
-|Nominativ Plural 1=die Tsunamis
-|Nominativ Plural 2=die Tsunami
-|Genitiv Singular 1=des Tsunamis
-|Genitiv Singular 2=der Tsunami
-|Genitiv Plural 1=der Tsunamis
-|Genitiv Plural 2=der Tsunami
-|Dativ Singular 1=dem Tsunami
-|Dativ Singular 2=der Tsunami
-|Dativ Plural 1=den Tsunamis
-|Dativ Plural 2=den Tsunami
-|Akkusativ Singular 1=den Tsunami
-|Akkusativ Singular 2=die Tsunami
-|Akkusativ Plural 1=die Tsunamis
-|Akkusativ Plural 2=die Tsunami
+|Genus 1=m
+|Genus 2=f
+|Nominativ Singular 1=Tsunami
+|Nominativ Singular 2=Tsunami
+|Nominativ Plural 1=Tsunamis
+|Nominativ Plural 2=Tsunami
+|Genitiv Singular 1=Tsunamis
+|Genitiv Singular 2=Tsunami
+|Genitiv Plural 1=Tsunamis
+|Genitiv Plural 2=Tsunami
+|Dativ Singular 1=Tsunami
+|Dativ Singular 2=Tsunami
+|Dativ Plural 1=Tsunamis
+|Dativ Plural 2=Tsunami
+|Akkusativ Singular 1=Tsunami
+|Akkusativ Singular 2=Tsunami
+|Akkusativ Plural 1=Tsunamis
+|Akkusativ Plural 2=Tsunami
 |Bild=2004-tsunami.jpg|250px|1|auftreffender ''Tsunami''
 }}
+[[File:FBI tsunami video - Pago Pago parking lot - end.ogv|miniatur|[1] [[Wirkung]] eines ''Tsunamis'' auf Amerikanisch-[[Samoa]]]]
 
 {{Worttrennung}}
 :Tsu·na·mi, {{Pl.1}} Tsu·na·mis, {{Pl.2}} Tsu·na·mi
@@ -46,6 +49,7 @@
 :[1] Beim ''Tsunami'' von Weihnachten 2004 kamen Hunderttausende ums Leben.
 :[1] „Stillstehende Züge gehören für Holländer nun mal zu den Schicksalsschlägen, die über die Menschheit hereinbrechen wie ''Tsunamis'' oder Taubenschwärme.“<ref> Annette Birschel: ''Mordsgouda. Als Deutsche unter Holländern.'' Ullstein, Berlin 2011, Zitat Seite 101. ISBN 978-3-548-28201-5.</ref>
 
+{{Absatz}}
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
 *{{af}}: [1] {{Ü|af|tsoenami}}
@@ -54,19 +58,19 @@
 *{{bg}}: [1] {{Üt|bg|цунами|tsunami}}
 *{{zh-tw}}: [1] {{Üt|zh|海嘯|hǎixiào}}
 *{{zh-cn}}: [1] {{Üt|zh|海啸|hǎixiào}}
-:*{{nan}}: [1] {{Ü|nan|hái-tiòng}}
-*{{en}}: [1] {{Ü|en|tsunami#tsunami (Englisch)|tsunami}}
+**{{nan}}: [1] {{Ü|nan|hái-tiòng}}
+*{{en}}: [1] {{Ü|en|tsunami}}
 *{{eo}}: [1] {{Ü|eo|cunamo}}
 *{{fi}}: [1] {{Ü|fi|tsunami}}
-*{{fr}}: [1] {{Ü|fr|tsunami#tsunami (Französisch)|tsunami}} {{m}}
+*{{fr}}: [1] {{Ü|fr|tsunami}} {{m}}
 *{{el}}: [1] {{Üt|el|τσουνάμι|tsounámi}} {{n}}
 *{{gu}}: [1] {{Üt|gu|ત્સુનામી|tsunāmī}}
 *{{he}}: [1] {{Üt|he|צונמי|tzunami}}
 *{{hi}}: [1] {{Üt|hi|सूनामी|sūnāmī}}
-*{{it}}: [1] {{Ü|it|tsunami#tsunami (Italienisch)|tsunami}} {{m}}
+*{{it}}: [1] {{Ü|it|tsunami}} {{m}}
 *{{ga}}: [1] {{Ü|ga|súnámaí}}
 *{{ja}}: [1] {{Üt|ja|津波|つなみ, tsunami}}
-*{{ca}}: [1] {{Ü|ca|tsunami#tsunami (Katalanisch)|tsunami}} {{m}}
+*{{ca}}: [1] {{Ü|ca|tsunami}} {{m}}
 *{{ko}}: [1] {{Üt|ko|해일|haeil}}
 *{{hr}}: [1] {{Ü|hr|cunami}}
 *{{ku}}: [1] {{Ü|ku|tsunamî}}
@@ -77,27 +81,26 @@
 *{{mr}}: [1] {{Üt|mr|त्सुनामी|tsunāmī}}
 *{{mk}}: [1] {{Üt|mk|цунами|cunami}}
 *{{no}}:
-:*{{nb}}: [1] {{Ü|nb|tsunami}} {{m}}
-:*{{nn}}: [1] {{Ü|nn|tsunami}} {{m}}
+**{{nb}}: [1] {{Ü|nb|tsunami}} {{m}}
+**{{nn}}: [1] {{Ü|nn|tsunami}} {{m}}
 *{{fa}}: [1] {{Üt|fa|سونامی|sunāmi}}
-*{{pl}}: [1] {{Ü|pl|tsunami#tsunami (Polnisch)|tsunami}} {{n}}
-*{{pt}}: [1] {{Ü|pt|tsunami#tsunami (Portugiesisch)|tsunami}} {{m}}
-*{{ro}}: [1] {{Ü|ro|tsunami#tsunami (Rumänisch)|tsunami}} {{n}}
+*{{pl}}: [1] {{Ü|pl|tsunami}} {{n}}
+*{{pt}}: [1] {{Ü|pt|tsunami}} {{m}}
+*{{ro}}: [1] {{Ü|ro|tsunami}} {{n}}
 *{{ru}}: [1] {{Üt|ru|цунами|tsunami}} {{n}}
 *{{sk}}: [1] {{Ü|sk|cunami}}
 *{{sl}}: [1] {{Ü|sl|cunami}}
 *{{es}}: [1] {{Ü|es|maremoto}}
 *{{ta}}: [1] {{Üt|ta|சுனாமி|cuṉāmi}}, {{Üt|ta|ஆழிப்பேரலை|āḻippēralai}}
 *{{th}}: [1] {{Üt|th|คลื่นสึนามิ|khleùùn sèunaamī}}
-*{{cs}}: [1] {{Ü|cs|tsunami#tsunami (Tschechisch)|tsunami}} {{n}}, {{Ü|cs|cunami}} {{n}}
+*{{cs}}: [1] {{Ü|cs|tsunami}} {{n}}, {{Ü|cs|cunami}} {{n}}
 *{{uk}}: [1] {{Üt|uk|цунамі|tsunami}}
 *{{vi}}: [1] {{Ü|vi|sóng thần}}
 *{{be}}: [1] {{Üt|be|цунамі|cunami}}
 *{{fy}}: [1] {{Ü|fy|tsûnamy}}
-|Dialekttabelle=
-*Schlesisch:
+|Dialekttabelle= 
+*Niedersächsisch: [1] vleuigolve 
 |D-rechts=
-*Niedersächsisch: [1] vleuigolve
 }}
 
 {{Referenzen}}

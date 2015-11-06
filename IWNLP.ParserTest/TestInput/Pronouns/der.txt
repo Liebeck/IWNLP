@@ -2,22 +2,22 @@
 == der ({{Sprache|Deutsch}}) ==
 === {{Wortart|Artikel|Deutsch}} ===
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=der
-|Wer oder was? (Einzahl f)=die
-|Wer oder was? (Einzahl n)=das
-|Wer oder was? (Mehrzahl)=die
-|Wessen? (Einzahl m)=des
-|Wessen? (Einzahl f)=der
-|Wessen? (Einzahl n)=des
-|Wessen? (Mehrzahl)=der
-|Wem? (Einzahl m)=dem
-|Wem? (Einzahl f)=der
-|Wem? (Einzahl n)=dem
-|Wem? (Mehrzahl)=den
-|Wen? (Einzahl m)=[[den]]
-|Wen? (Einzahl f)=[[die]]
-|Wen? (Einzahl n)=[[das]]
-|Wen? (Mehrzahl)=[[die]]
+|Nominativ Singular m=der
+|Nominativ Singular f=die
+|Nominativ Singular n=das
+|Nominativ Plural=die
+|Genitiv Singular m=des
+|Genitiv Singular f=der
+|Genitiv Singular n=des
+|Genitiv Plural=der
+|Dativ Singular m=dem
+|Dativ Singular f=der
+|Dativ Singular n=dem
+|Dativ Plural=den
+|Akkusativ Singular m=den
+|Akkusativ Singular f=die
+|Akkusativ Singular n=das
+|Akkusativ Plural=die
 }}
 
 {{Worttrennung}}
@@ -51,10 +51,13 @@
 *{{eo}}: [1] {{Ü|eo|la}}
 *{{fr}}: [1] {{Ü|fr|le}}
 *{{el}}: [1] {{Üt|el|ο|o}}
-*{{it}}: [1] {{Ü|it|il}}
+*{{io}}: [1] {{Ü|io|la}}
+*{{ia}}: [1] {{Ü|ia|le}}
 |Ü-rechts=
+*{{it}}: [1] {{Ü|it|il}}
 *{{ca}}: [1] {{Ü|ca|el}}
 *{{nl}}: [1] {{Ü|nl|de}}
+*{{nov}}: [1] {{Ü|nov|li}}
 *{{oc}}: [1] {{Ü|oc|lo}}, ''[[aranesisch]]:'' {{Ü|oc|eth}}
 *{{pt}}: [1] {{Ü|pt|o}}
 *{{es}}: [1] {{Ü|es|el}}
@@ -80,22 +83,22 @@
 {{überarbeiten|alle Bedeutungen belegen oder zu Grundformverweis umwandeln|Deutsch}}
 
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=der
-|Wer oder was? (Einzahl f)=die
-|Wer oder was? (Einzahl n)=das
-|Wer oder was? (Mehrzahl)=die
-|Wessen? (Einzahl m)=dessen
-|Wessen? (Einzahl f)=deren
-|Wessen? (Einzahl n)=dessen
-|Wessen? (Mehrzahl)=deren
-|Wem? (Einzahl m)=dem
-|Wem? (Einzahl f)=der
-|Wem? (Einzahl n)=dem
-|Wem? (Mehrzahl)=denen
-|Wen? (Einzahl m)=den
-|Wen? (Einzahl f)=die
-|Wen? (Einzahl n)=das
-|Wen? (Mehrzahl)=die
+|Nominativ Singular m=der
+|Nominativ Singular f=die
+|Nominativ Singular n=das
+|Nominativ Plural=die
+|Genitiv Singular m=dessen
+|Genitiv Singular f=deren
+|Genitiv Singular n=dessen
+|Genitiv Plural=deren
+|Dativ Singular m=dem
+|Dativ Singular f=der
+|Dativ Singular n=dem
+|Dativ Plural=denen
+|Akkusativ Singular m=den
+|Akkusativ Singular f=die
+|Akkusativ Singular n=das
+|Akkusativ Plural=die
 }}
 
 {{Worttrennung}}
@@ -138,22 +141,22 @@
 {{überarbeiten|alle Bedeutungen belegen oder zu Grundformverweis umwandeln|Deutsch}}
 
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=der
-|Wer oder was? (Einzahl f)=die
-|Wer oder was? (Einzahl n)=das
-|Wer oder was? (Mehrzahl)=die
-|Wessen? (Einzahl m)=dessen
-|Wessen? (Einzahl f)=deren, derer
-|Wessen? (Einzahl n)=dessen
-|Wessen? (Mehrzahl)=deren, derer
-|Wem? (Einzahl m)=dem
-|Wem? (Einzahl f)=der
-|Wem? (Einzahl n)=dem
-|Wem? (Mehrzahl)=denen
-|Wen? (Einzahl m)=den
-|Wen? (Einzahl f)=die
-|Wen? (Einzahl n)=das
-|Wen? (Mehrzahl)=die
+|Nominativ Singular m=der
+|Nominativ Singular f=die
+|Nominativ Singular n=das
+|Nominativ Plural=die
+|Genitiv Singular m=dessen
+|Genitiv Singular f=deren, derer
+|Genitiv Singular n=dessen
+|Genitiv Plural=deren, derer
+|Dativ Singular m=dem
+|Dativ Singular f=der
+|Dativ Singular n=dem
+|Dativ Plural=denen
+|Akkusativ Singular m=den
+|Akkusativ Singular f=die
+|Akkusativ Singular n=das
+|Akkusativ Plural=die
 }}
 
 {{Worttrennung}}
@@ -183,7 +186,7 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|}}
+*{{en}}: [1,2] {{Ü|en|that one}}
 |Ü-rechts=
 *{{fr}}: [1] {{Ü|fr|}}
 *{{es}}: [1] {{Ü|es|}}
@@ -235,13 +238,16 @@
 [[el:der]]
 [[en:der]]
 [[es:der]]
+[[et:der]]
 [[eu:der]]
 [[fi:der]]
 [[fj:der]]
 [[fr:der]]
 [[gl:der]]
 [[hu:der]]
+[[ia:der]]
 [[id:der]]
+[[ie:der]]
 [[io:der]]
 [[is:der]]
 [[it:der]]
@@ -262,6 +268,7 @@
 [[ru:der]]
 [[sv:der]]
 [[ta:der]]
+[[th:der]]
 [[tr:der]]
 [[vi:der]]
 [[wo:der]]

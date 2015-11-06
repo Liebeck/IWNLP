@@ -2,13 +2,14 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Apfelsäure
+|Genus=f
+|Nominativ Singular=Apfelsäure
 |Nominativ Plural= —
-|Genitiv Singular=der Apfelsäure
+|Genitiv Singular=Apfelsäure
 |Genitiv Plural= —
-|Dativ Singular=der Apfelsäure
+|Dativ Singular=Apfelsäure
 |Dativ Plural= —
-|Akkusativ Singular=die Apfelsäure
+|Akkusativ Singular=Apfelsäure
 |Akkusativ Plural= —
 }}
 

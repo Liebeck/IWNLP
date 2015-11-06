@@ -2,20 +2,10 @@
 == St. Vincent und die Grenadinen ({{Sprache|Deutsch}}) ==
 === {{Wortart|Substantiv|Deutsch}}, {{n}}, {{Wortart|Wortverbindung|Deutsch}} ===
 
-{{Deutsch Substantiv Übersicht
-|Nominativ Singular=(das) St. Vincent und die Grenadinen
-|Nominativ Plural=—
-|Genitiv Singular=<small>(des St. Vincent und der Grenadinen)</small><br /><small>(des St. Vincents und der Grenadinen)</small><br /><small>St. Vincents und der Grenadinen</small><br />von St. Vincent und die Grenadinen
-|Genitiv Plural=—
-|Dativ Singular=<small>(dem) St. Vincent und den Grenadinen</small><br />(dem) St. Vincent und die Grenadinen
-|Dativ Plural=—
-|Akkusativ Singular=(das) St. Vincent und die Grenadinen
-|Akkusativ Plural=—
+{{Deutsch Toponym Übersicht
 |Bild 1=LocationSaintVincentAndTheGrenadines.png|250px|1|Lage des Staates ''St. Vincent und die Grenadinen''
 |Bild 2=Flag of Saint Vincent and the Grenadines.svg|250px|1|die Flagge des Staates ''St. Vincent und die Grenadinen''
 }}
-{{Artikel Toponym}}
-
 {{Anmerkung|zur Flexion}}
 :Der [[w:Ständiger Ausschuss für geographische Namen|Ständige Ausschuss für geographische Namen]] gibt in seiner [http://141.74.33.52/stagn/Portals/0/110426_STAATENNAMEN_11.pdf#page=12 Liste der Staatennamen und ihrer Ableitungen im Deutschen] bezüglich des Staates ''St. Vincent und die Grenadinen'' an, dass der Artikel „die“ bei der Flexion der Bezeichnung nicht dekliniert werden solle. Es soll also beispielsweise „von St. Vincent und die Grenadinen“ und nicht „St. Vincents und der Grenadinen“ benutzt werden. Der sonst übliche [[Genitivus possessivus]] sei zu vermeiden.<ref>Ständiger Ausschuss für geographische Namen: „[http://141.74.33.52/stagn/Portals/0/110426_STAATENNAMEN_11.pdf#page=12 Liste der Staatennamen und ihrer Ableitungen im Deutschen]“</ref> Wie eine Reihe der unten aufgeführten Beispielsätze zeigt, werden jedoch selbst in Texten offizieller Stellen die in der Flexionstabelle kleiner dargestellten, flektierten Formen verwendet.
 
@@ -71,7 +61,7 @@
 *{{eo}}: [1] {{Ü|eo|Sankta Vincento kaj Grenadinoj}}
 *{{et}}: [1] {{Ü|et|Saint Vincent ja Grenadiinid}}
 *{{fo}}: [1] {{Ü|fo|St Vinsent og Grenadinoyggjar}}
-*{{fi}}: [1] {{Ü|fi|Saint Vincent ja Grenadiinid}}
+*{{fi}}: [1] {{Ü|fi|Saint Vincent ja Grenadiinit}}
 *{{fr}}: [1] {{Ü|fr|Saint-Vincent-et-les Grenadines}}
 *{{gl}}: [1] {{Ü|gl|San Vicente e Granadinas}}
 *{{el}}: [1] {{Üt|el|Άγιος Βικέντιος και Γρεναδίνες|Ágios Vikéntios kai Grenadínes}}
@@ -86,9 +76,9 @@
 *{{ca}}: [1] {{Ü|ca|Saint Vincent i les Grenadines}}
 *{{rw}}: [1] {{Ü|rw|Mutagatifu Visenti na Gerenadine}}
 *{{kw}}: [1] {{Ü|kw|Sen Vinsent ha'n Ynysow Grenadinek}}
-|Ü-rechts=
 *{{hr}}: [1] {{Ü|hr|Sveti Vincent i Grenadini}}
 *{{ku}}: [1] {{Ü|ku|Saint Vincent û giravên Grenadîn}}
+|Ü-rechts=
 *{{la}}: [1] {{Ü|la|Sanctus Vincentius et Granatinae}}
 *{{lv}}: [1] {{Ü|lv|Sentvinsenta un Grenadīnas}}
 *{{lt}}: [1] {{Ü|lt|Sent Vinsentas ir Grenadinai}}

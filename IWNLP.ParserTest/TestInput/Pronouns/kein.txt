@@ -62,15 +62,17 @@
 {{Ü-Tabelle|Ü-links=
 *{{en}}: [1] {{Ü|en|no}}, {{Ü|en|none}}, [2] {{Ü|en|nobody}}
 *{{fr}}: [1] {{Ü|fr|ne … pas de}}, [2] {{Ü|fr|personne … ne}}, {{Ü|fr|aucun … ne}}
+*{{el}}: [1] {{Üt|el|κανένας|kanénas, kamiá, kanéna|κανένας, καμιά, κανένα}}
 *{{ca}}: [1] {{Ü|ca|cap}}
-*{{oc}}: [1] {{Ü|oc|degun}}
 *{{nl}}: [1] {{Ü|nl|geen}}
-|Ü-rechts=
+*{{oc}}: [1] {{Ü|oc|degun}}
 *{{pl}}: [1, 2] {{Ü|pl|żaden}}
-*{{ru}}: [1] {{Ü|ru|никакой}}; [2] {{Ü|ru|никто}}
+*{{ru}}: [1] {{Üt|ru|никакой|}}; [2] {{Üt|ru|никто|}}
+|Ü-rechts=
 *{{sv}}: [1] {{Ü|sv|ingen}}, {{Ü|sv|inget}}, [2] {{Ü|sv|ingen}}
-*{{dsb}}: [1, 2] {{Ü|dsb|žeden}}
-*{{hsb}}: [1, 2] {{Ü|hsb|žadyn}}
+*{{wen}}
+**{{dsb}}: [1, 2] {{Ü|dsb|žeden}}
+**{{hsb}}: [1, 2] {{Ü|hsb|žadyn}}
 *{{es}}: [1] {{Ü|es|no}}, {{Ü|es|ningún}}, [2] {{Ü|es|ninguno}}
 *{{cs}}: [1] {{Ü|cs|žádný}}, [2] {{Ü|cs|nikdo}}
 *{{tr}}: [1] {{Ü|tr|hiç}}

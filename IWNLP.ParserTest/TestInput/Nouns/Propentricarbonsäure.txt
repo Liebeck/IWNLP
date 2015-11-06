@@ -2,13 +2,14 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die 1,2,3-Propentricarbonsäure
+|Genus=f
+|Nominativ Singular=1,2,3-Propentricarbonsäure
 |Nominativ Plural=—
-|Genitiv Singular=der 1,2,3-Propentricarbonsäure
+|Genitiv Singular=1,2,3-Propentricarbonsäure
 |Genitiv Plural=—
-|Dativ Singular=der 1,2,3-Propentricarbonsäure
+|Dativ Singular=1,2,3-Propentricarbonsäure
 |Dativ Plural=—
-|Akkusativ Singular=die 1,2,3-Propentricarbonsäure
+|Akkusativ Singular=1,2,3-Propentricarbonsäure
 |Akkusativ Plural=—
 |Bild=Aconitsäure.png|250px|1|1,2,3-Propentricarbonsäure
 }}

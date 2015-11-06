@@ -1,3 +1,4 @@
 ﻿== üben (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
 {{Abgeleitete Verben|[[verüben]]}}
+
 {{Deutsch Verb schwach untrennbar|ü|b||e|n|geübt|vp=vp3|zp=0}}

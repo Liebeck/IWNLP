@@ -170,7 +170,7 @@
     <Content Include="TestInput\VerbConjugation\regelmaessig\abspeichern.txt" />
     <Content Include="TestInput\VerbConjugation\regelmaessig\backen.txt" />
     <Content Include="TestInput\VerbConjugation\regelmaessig\fluten.txt" />
-    <Content Include="TestInput\VerbConjugation\regelmaessig\liebkosen.txt" />
+    <Content Include="TestInput\VerbConjugation\schwachUntrennbar\liebkosen.txt" />
     <Content Include="TestInput\VerbConjugation\regelmaessig\waermebehandeln.txt" />
     <Content Include="TestInput\VerbConjugation\schwachUntrennbar\altern.txt" />
     <Content Include="TestInput\VerbConjugation\schwachUntrennbar\bechern.txt" />

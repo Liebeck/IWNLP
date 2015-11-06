@@ -3,16 +3,18 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=sende
-|Gegenwart_du=sendest
-|Gegenwart_er, sie, es=sendet
-|1.Vergangenheit_ich=sendete<br />sandte
-|Partizip II=gesendet<br />gesandt
+|Präsens_ich=sende
+|Präsens_du=sendest
+|Präsens_er, sie, es=sendet
+|Präteritum_ich=sendete
+|Präteritum_ich*=sandte
+|Partizip II=gesendet
+|Partizip II*=gesandt
 |Konjunktiv II_ich=sendete
-|Imperativ Singular=sende!<br />send!
-|Imperativ Plural=sendet!
+|Imperativ Singular=sende
+|Imperativ Singular*=send
+|Imperativ Plural=sendet
 |Hilfsverb=haben
-|Weitere_Konjugationen=senden (Konjugation)
 }}
 
 {{Anmerkung|zu sendete/sandte}}
@@ -50,7 +52,7 @@
 
 {{Wortbildungen}}
 :''[[Konversion]]en:'' [[gesandt]], [[gesendet]], [[Senden]], [[sendend]]
-:''[[Substantiv]]e:'' [[Sendbote]], [[Sendeanlage]], [[Sendeanstalt]], [[Sendeantenne]], [[Sendebereich]], [[Sendeeinrichtung]], [[Sendefolge]], [[Sendegebiet]], [[Sendegerät]], [[Sendehaus]], [[Sendekanal]], [[Sendeleistung]], [[Sendeleiter]], [[Sendemast]], [[Sendeminute]], [[Sendepause]], [[Sendeplan]], [[Sendeplatz]], [[Sendeprogramm]], [[Sender]], [[Senderaum]], [[Senderecht]], [[Sendereihe]], [[Sendesaal]], [[Sendeschluss]], [[Sendestation]], [[Sendestelle]], [[Sendestörung]], [[Sendestrahl]], [[Sendezeichen]], [[Sendezeit]], [[Sendezentrale]], [[Sendling]], [[Sendschreiben]], [[Sendung]] 
+:''[[Substantiv]]e:'' [[Sendbote]], [[Sendeanlage]], [[Sendeanstalt]], [[Sendeantenne]], [[Sendebereich]], [[Sendeeinrichtung]], [[Sendefolge]], [[Sendegebiet]], [[Sendegerät]], [[Sendehaus]], [[Sendekanal]], [[Sendeleistung]], [[Sendeleiter]], [[Sendemast]], [[Sendeminute]], [[Sendepause]], [[Sendeplan]], [[Sendeplatz]], [[Sendeprogramm]], [[Sender]], [[Senderaum]], [[Senderecht]], [[Sendereihe]], [[Sendesaal]], [[Sendeschluss]], [[Sendestation]], [[Sendestelle]], [[Sendestörung]], [[Sendestrahl]], [[Sendezeichen]], [[Sendezeit]], [[Sendezentrale]], [[Sendling]], [[Sendschreiben]], [[Sendung]]
 :''[[Verb]]en:'' [[absenden]], [[aussenden]], [[einsenden]], [[entsenden]], [[nachsenden]], [[übersenden]], [[versenden]], [[zurücksenden]], [[zusenden]]
 
 ==== Übersetzungen ====
@@ -61,13 +63,14 @@
 *{{fi}}: [1, 2] {{Ü|fi|lähettää}}
 *{{fr}}: [1] {{Ü|fr|envoyer}}
 *{{id}}: [1] {{Ü|id|kirim}}
-|Ü-rechts=
 *{{ja}}: [1] {{Üt|ja|送る|おくる, okuru}}
+|Ü-rechts=
 *{{ca}}: [1] {{Ü|ca|enviar}}, {{Ü|ca|trametre}}
-*{{ru}}: [1] {{Ü|ru|слать}}, {{Ü|ru|посылать}}; [2] {{Ü|ru|передавать}}
+*{{ru}}: [1] {{Üt|ru|слать|}}, {{Üt|ru|посылать|}}; [2] {{Üt|ru|передавать|}}
 *{{sv}}: [1] {{Ü|sv|sända}}
 *{{es}}: [1] {{Ü|es|enviar}}, [2] {{Ü|es|emitir}}
 *{{cs}}: [1] {{Ü|cs|posílat}}, [2] {{Ü|cs|vysílat}}
+*{{tr}}: [1] {{Ü|tr|göndermek}}; [2] {{Ü|tr|yayın yapmak}}
 |Dialekttabelle=
 *Alemannisch: senda
 |D-rechts=
@@ -104,4 +107,5 @@
 [[pl:senden]]
 [[pt:senden]]
 [[ru:senden]]
+[[sv:senden]]
 [[zh:senden]]

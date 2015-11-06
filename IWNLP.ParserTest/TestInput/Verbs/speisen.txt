@@ -1,18 +1,18 @@
-﻿{{siehe auch|[[Speisen]]}}
+﻿{{Siehe auch|[[Speisen]]}}
 == speisen ({{Sprache|Deutsch}}) ==
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=speise
-|Gegenwart_du=speist
-|Gegenwart_er, sie, es=speist
-|1.Vergangenheit_ich=speiste
-|Partizip II=gespeist<br />gespiesen
+|Präsens_ich=speise
+|Präsens_du=speist
+|Präsens_er, sie, es=speist
+|Präteritum_ich=speiste
+|Partizip II=gespeist
+|Partizip II*=gespiesen
 |Konjunktiv II_ich=speiste
-|Imperativ Singular=speise!
-|Imperativ Plural=speiset!
+|Imperativ Singular=speise
+|Imperativ Plural=speiset
 |Hilfsverb=haben
-|Weitere_Konjugationen=speisen (Konjugation)
 }}
 
 {{Anmerkung}}
@@ -34,7 +34,7 @@
 {{Herkunft}}
 :mittelhochdeutsch ''spīsen''<ref>{{Lit-Duden: Herkunftswörterbuch|A=5 (neu bearbeitet)}}, Stichwort ''Speise''.</ref>
 
-{{Synonyme}}
+{{Sinnverwandte Wörter}}
 :[1] ''siehe auch:'' [[WikiSaurus:Verben des Essens und Speisens]]
 
 {{Beispiele}}
@@ -67,6 +67,7 @@
 {{Quellen}}
 
 [[chr:speisen]]
+[[da:speisen]]
 [[en:speisen]]
 [[eo:speisen]]
 [[fr:speisen]]

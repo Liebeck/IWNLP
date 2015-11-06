@@ -1,4 +1,4 @@
 ﻿== meiden (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
 {{Abgeleitete Verben|[[vermeiden]]}}
 
-{{Deutsch Verb unregelmäßig|2=meid|3=mied|4=mied|5=gemieden|7=e-|vp=ja|zp=ja|gerund=ja|Indikativ Präteritum Aktiv Alternativform (du)=miedest}}
+{{Deutsch Verb unregelmäßig|2=meid|3=mied|4=mied|5=gemieden|7=e|vp=ja|zp=ja|gerund=ja|}}

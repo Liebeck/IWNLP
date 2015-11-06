@@ -2,16 +2,16 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=fläze
-|Gegenwart_du=fläzt<br />fläzest
-|Gegenwart_er, sie, es=fläzt
-|1.Vergangenheit_ich=fläzte
+|Präsens_ich=fläze
+|Präsens_du=fläzt
+|Präsens_er, sie, es=fläzt
+|Präteritum_ich=fläzte
 |Partizip II=gefläzt
 |Konjunktiv II_ich=fläzte
-|Imperativ Singular=fläz(e)!
-|Imperativ Plural=fläzt!
+|Imperativ Singular=fläze
+|Imperativ Singular*=fläz
+|Imperativ Plural=fläzt
 |Hilfsverb=haben
-|Weitere_Konjugationen=fläzen (Konjugation)
 }}
 
 {{Worttrennung}}
@@ -26,7 +26,7 @@
 :[1] {{ugs.|:}} sich unmanierlich entspannt hinlegen; in nachlässiger Haltung halb sitzen, halb liegen; sich halb setzen, halb legen
 
 {{Herkunft}}
-:von [[Fläz]] „grober, flegelhafter Mensch“, zuerst 1611 bei [[w:Christoph Helvig|Christoph Helvig]], abgeleitet vom Namen des Theologen und Polemikers [[w:Matthias Flacius|Matthias Flacius]]<ref>Meyers Großes Konversations-Lexikon, Band 6. Leipzig 1906, S. 667: Eintrag [http://www.zeno.org/Meyers-1905/A/Fl%C3%A4z „Fläz“]</ref>
+:von [[Fläz]] „grober, flegelhafter Mensch“, zuerst 1611 bei [[w:Christoph Helwig|Christoph Helwig]], abgeleitet vom Namen des Theologen und Polemikers [[w:Matthias Flacius|Matthias Flacius]]<ref>Meyers Großes Konversations-Lexikon, Band 6. Leipzig 1906, S. 667: Eintrag [http://www.zeno.org/Meyers-1905/A/Fl%C3%A4z „Fläz“]</ref>
 
 {{Sinnverwandte Wörter}}
 :[1] sich [[hinlümmeln]], [[hinflegeln]]
@@ -35,6 +35,7 @@
 :[1] Die Lagerleiter ''fläzten'' sich auf ihre Matten, anstatt zu arbeiten.
 :[1] Wie schön, wenn man sich zu Hause ganz ungeniert vor den Fernseher ''fläzen'' kann.
 :[1] Sich auf dem Stuhl ''fläzend,'' eine Kippe im Mundwinkel, bot er das beabsichtigte provokative Bild.
+:[1] „Sich ''fläzen'' und die Arme aufstützen durfte man nicht.“<ref>{{Literatur | Autor= Gerhard Henschel | Titel= Kindheitsroman | TitelErg= | Verlag= Hoffmann und Campe | Ort= Hamburg |Jahr= 2004| Seiten= 189.|ISBN= 3-455-03171-4}}</ref>
 
 {{Charakteristische Wortkombinationen}}
 :[1] sich auf die [[Couch]] ''fläzen,'' sich auf einen [[Stuhl]] ''fläzen,'' sich in einen [[Sessel]] ''fläzen,'' sich ins [[Sofa]] ''fläzen,'' sich vor den [[Fernseher]] ''fläzen''
@@ -53,8 +54,10 @@
 
 {{Referenzen}}
 :[1] {{Ref-DWDS|fläzen}}
-:[1] {{Ref-Canoo|fläzen}}
-:[1] {{Ref-UniLeipzig|fläzen}}
+:[*] {{Ref-Canoo|fläzen}}
+:[*] {{Ref-UniLeipzig|fläzen}}
+:[*] {{Ref-FreeDictionary|fläzen}}
+:[1] {{Ref-Duden|fläzen}}
 
 {{Quellen}}
 

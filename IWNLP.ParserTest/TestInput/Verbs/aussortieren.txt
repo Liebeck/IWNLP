@@ -1,18 +1,19 @@
-﻿== aussortieren ({{Sprache|Deutsch}}) ==
+﻿{{Siehe auch|[[Aussortieren]]}}
+== aussortieren ({{Sprache|Deutsch}}) ==
 {{erweitern|Zuordnung der Übersetzungen prüfen|Deutsch}}
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=sortiere aus<br /><small>Nebensatz:</small> aussortiere
-|Gegenwart_du=sortierst aus<br /><small>Nebensatz:</small> aussortierst
-|Gegenwart_er, sie, es=sortiert aus<br /><small>Nebensatz:</small> aussortiert
-|1.Vergangenheit_ich=sortierte aus<br /><small>Nebensatz:</small> aussortierte
+|Präsens_ich=sortiere aus
+|Präsens_du=sortierst aus
+|Präsens_er, sie, es=sortiert aus
+|Präteritum_ich=sortierte aus
 |Partizip II=aussortiert
-|Konjunktiv II_ich=sortierte aus<br /><small>Nebensatz:</small> aussortierte</center>
-|Imperativ Singular=sortiere aus!<br />sortier aus!
-|Imperativ Plural=sortiert aus!
+|Konjunktiv II_ich=sortierte aus
+|Imperativ Singular=sortiere aus
+|Imperativ Singular*=sortier aus
+|Imperativ Plural=sortiert aus
 |Hilfsverb=haben
-|Weitere_Konjugationen=aussortieren (Konjugation)
 }}
 
 {{Worttrennung}}
@@ -24,32 +25,28 @@
 
 {{Bedeutungen}}
 *{{trans.|:}}
-:[1] (vornehmlich Unbrauchbares, Ungeeignetes, Untaugliches, etc.) sortierend [[entfernen]]
-:[2] (aus einer größeren [[Menge]]) heraussuchen und gesondert beiseite tun
+:[1] aus einer Menge [[entfernen]], was unbrauchbar, ungeeignet oder untauglich ist
+:[2] aus einer größeren [[Menge]] [[heraussuchen]] und gesondert beiseite tun
 
 {{Herkunft}}
 :[[Kompositum]] aus dem [[Präfix]] ''[[aus-]]'' und dem [[Verb]] ''[[sortieren]]''
 
-{{Synonyme}}
-:[1a] [[ausscheiden]], [[aussondern]]
-:[2] [[auslesen]]
-
 {{Sinnverwandte Wörter}}
-:[2] [[ausmustern]], [[ausrangieren]], [[auswählen]]
+:[1] [[ausmisten]], [[ausmustern]], [[ausscheiden]], [[ausrangieren]], [[aussondern]], [[wegschmeißen]]
+:[2] [[auslesen]], [[auswählen]], [[herausklauben]]
 
 {{Oberbegriffe}}
 :[1, 2] [[trennen]]
 
-{{Unterbegriffe}}
-:[1, 2?] [[wegschmeißen]]
-
 {{Beispiele}}
 :[1] „Denn wenn sie einmal verfestigt sind, die persönlichen Orthodoxien, dann heißt es ''aussortieren,'' Ideen verwerfen, ausschließen.“<ref>taz, ''ausgehen und rumstehen - Freizeit ohne Glauben: Badeschaum und Begriffedampf'', 19.10.2004</ref>
-:[2] „Mit einem paradoxen Problem dieses Sommers hat auch er zu kämpfen: Er muss jene Trauben von Hand ''aussortieren,'' die Sonnenbrand erlitten haben.“<ref>Südddeutsche Zeitung, ''Kleine Weinkunde (2) - Die Trauben haben Sonnenbrand'', 02.09.2007</ref>
+:[1] „Mit einem paradoxen Problem dieses Sommers hat auch er zu kämpfen: Er muss jene Trauben von Hand ''aussortieren,'' die Sonnenbrand erlitten haben.“<ref>Südddeutsche Zeitung, ''Kleine Weinkunde (2) - Die Trauben haben Sonnenbrand'', 02.09.2007</ref>
+:[2] Wir können zusammen die Bilder ''aussortieren,'' die für den Artikel interessant sein könnten.
+:[2] Die Personalabteilung ''sortierte'' aus den Spontanbewerbungen diejenigen ''aus,'' die auf die Warteliste kamen.
 
 {{Charakteristische Wortkombinationen}}
-:[1] [[alt]]e [[Klamotte]]n ''aussortieren,'' [[Ausschussware]] ''aussortieren''
-:[2] [[faul]]e [[Frucht|Früchte]] ''aussortieren,'' die besten [[Stück]]e ''aussortieren''
+:[1] [[alt]]e [[Klamotte]]n ''aussortieren,'' [[Ausschussware]] ''aussortieren'', [[Arzneimittel]] ''aussortieren'', [[faul]]e [[Frucht|Früchte]] ''aussortieren''
+:[2] die besten [[Stück]]e ''aussortieren''
 
 {{Wortbildungen}}
 :[[Aussortierer]], [[Aussortierung]]
@@ -63,13 +60,13 @@
 *{{fr}}: [1, 2] {{Ü|fr|retirer}}, {{Ü|fr|trier}}
 *{{it}}: [1, 2] {{Ü|it|scartare}}, {{Ü|it|scegliere}}, {{Ü|it|selezionare}}
 *{{nl}}: [1, 2] {{Ü|nl|uitsorteren}}
+*{{dsb}}: [1, 2] {{Ü|dsb|wubraś}}, {{Ü|dsb|wuběraś}}, {{Ü|dsb|zwuběraś}}
 *{{no}}: [1, 2] {{Ü|no|sortere fra}}, {{Ü|no|sortere ut}}
+|Ü-rechts=
+*{{hsb}}: [1] {{Ü|hsb|wusortěrować}}, {{Ü|hsb|wurjadować}}, [2] {{Ü|hsb|wupytać}}, {{Ü|hsb|wupytować}}, {{Ü|hsb|wuběrać}}, {{Ü|hsb|zwuběrać}}, {{Ü|hsb|wuzběrać}}
 *{{pl}}: [1, 2] {{Ü|pl|wybierać}}, {{Ü|pl|selekcjonować}}
 *{{ru}}: [1, 2] {{Üt|ru|отсортировать|otsortirovat'}}, {{Üt|ru|отобрать|otobrat'}}
-|Ü-rechts=
 *{{sv}}: [1, 2] {{Ü|sv|sortera ut}}
-*{{dsb}}: [1, 2] {{Ü|dsb|wubraś}}, {{Ü|dsb|wuběraś}}, {{Ü|dsb|zwuběraś}}
-*{{hsb}}: [1] {{Ü|hsb|wusortěrować}}, {{Ü|hsb|wurjadować}}, [2] {{Ü|hsb|wupytać}}, {{Ü|hsb|wupytować}}, {{Ü|hsb|wuběrać}}, {{Ü|hsb|zwuběrać}}, {{Ü|hsb|wuzběrać}}
 *{{es}}: [1, 2] {{Ü|es|desechar}}, {{Ü|es|seleccionar}}, {{Ü|es|separar}}
 *{{th}}: [1, 2] {{Üt|th|จำแนกแยกแยะ|jam-nâek yâek yáe}}, {{Üt|th|คัดแยก|kát yâek}}, {{Üt|th|คัดออก|kát òk}}
 *{{cs}}: [1, 2] {{Ü|cs|vytřídit}}, {{Ü|cs|přebírat}}, {{Ü|cs|třídit}}, {{Ü|cs|vybírat}}, {{Ü|cs|vyřadit}}
@@ -82,30 +79,27 @@
 }}
 
 {{Referenzen}}
-:[1] {{Wikipedia|aussortieren}}
 :[1] {{Ref-Grimm|aussortieren}}
-:[1] {{Ref-DWDS|aussortieren}}
-:[1] {{Ref-Canoo|aussortieren}}
-:[1] {{Ref-UniLeipzig|aussortieren}}
+:[1, 2] {{Ref-DWDS|aussortieren}}
+:[1, 2] {{Ref-Canoo|aussortieren}}
+:[*] {{Ref-UniLeipzig|aussortieren}}
 :[1] {{Ref-FreeDictionary|aussortieren}}
 
-{{Referenzen prüfen|Deutsch}}
-
-{{Quellen|}}
+{{Quellen}}
 
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=<center>sortiere aus<br /><small>Nebensatz:</small> aussortiere</center>
-|Gegenwart_du=<center>sortierst aus<br /><small>Nebensatz:</small> aussortierst</center>
-|Gegenwart_er, sie, es=<center>sortiert aus<br /><small>Nebensatz:</small> aussortiert</center>
-|1.Vergangenheit_ich=<center>sortierte aus<br /><small>Nebensatz:</small> aussortierte
-|Partizip II=<center>aussortiert</center>
-|Konjunktiv II_ich=<center>sortierte aus<br /><small>Nebensatz:</small> aussortierte</center>
-|Imperativ Singular=<center>sortiere aus!<br />sortier aus!</center>
-|Imperativ Plural=<center>sortiert aus!</center>
+|Präsens_ich=sortiere aus
+|Präsens_du=sortierst aus
+|Präsens_er, sie, es=sortiert aus
+|Präteritum_ich=sortierte aus
+|Partizip II=aussortiert
+|Konjunktiv II_ich=sortierte aus
+|Imperativ Singular=sortiere aus
+|Imperativ Singular*=sortier aus
+|Imperativ Plural=sortiert aus
 |Hilfsverb=haben
-|Weitere_Konjugationen=aussortieren (Konjugation)
 }}
 
 {{Worttrennung}}
@@ -146,12 +140,10 @@
 
 {{Referenzen prüfen|Deutsch}}
 
-{{Quellen|}}
-
-{{Ähnlichkeiten}}
-:[[Aussortieren]] {{n}}
+{{Quellen}}
 
 [[ko:aussortieren]]
 [[ku:aussortieren]]
 [[pl:aussortieren]]
+[[sv:aussortieren]]
 [[zh:aussortieren]]

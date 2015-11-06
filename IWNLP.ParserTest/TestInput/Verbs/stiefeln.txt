@@ -4,17 +4,18 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=stiefele,<br />stiefle
-|Gegenwart_du=stiefelst
-|Gegenwart_er, sie, es=stiefelt
-|1.Vergangenheit_ich=stiefelte
+|Präsens_ich=stiefele
+|Präsens_ich*=stiefle
+|Präsens_du=stiefelst
+|Präsens_er, sie, es=stiefelt
+|Präteritum_ich=stiefelte
 |Partizip II=gestiefelt
 |Konjunktiv II_ich=stiefelte
-|Imperativ Singular=stiefele!<br />stiefle!
-|Imperativ Plural=stiefelt!
+|Imperativ Singular=stiefele
+|Imperativ Singular*=stiefle
+|Imperativ Plural=stiefelt
 |Hilfsverb=sein
-|Hilfsverb2=haben
-|Weitere_Konjugationen=stiefeln (Konjugation)
+|Hilfsverb*=haben
 }}
 
 {{Worttrennung}}
@@ -73,16 +74,17 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=stiefele,<br />stiefle
-|Gegenwart_du=stiefelst
-|Gegenwart_er, sie, es=stiefelt
-|1.Vergangenheit_ich=stiefelte
+|Präsens_ich=stiefele
+|Präsens_ich*=stiefle
+|Präsens_du=stiefelst
+|Präsens_er, sie, es=stiefelt
+|Präteritum_ich=stiefelte
 |Partizip II=gestiefelt
 |Konjunktiv II_ich=stiefelte
-|Imperativ Singular=stiefele!<br />stiefle!
-|Imperativ Plural=stiefelt!
+|Imperativ Singular=stiefele
+|Imperativ Singular*=stiefle
+|Imperativ Plural=stiefelt
 |Hilfsverb=haben
-|Weitere_Konjugationen=stiefeln (Konjugation)
 }}
 
 {{Worttrennung}}

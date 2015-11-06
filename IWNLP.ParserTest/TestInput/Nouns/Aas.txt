@@ -37,7 +37,7 @@
 :[5] ''nur Plural 2, [[umgangssprachlich]], [[abwertend]]:'' ein [[Tier]], das nicht hört
 
 {{Herkunft}}
-:[1–3] :Zugrunde liegt die [[indoeuropäisch]]e Wurzel ''*ed-'' „essen, fressen“ (vergleiche ''[[essen]],'' vergleiche auch [[litauisch]] ''{{Ü|lt|ḕdesis}}'' „Fraß, Köder“, [[russisch]] ''{{Ü|ru|jasá}}'' und [[altbulgarisch]] ''jasli'' „Krippe“).<ref name="Pfeifer">{{Lit-Pfeifer: Etymologisches Wörterbuch|A=1|V=Akademie-Verlag}} „Aas“, Seite 1</ref><ref name="Kluge">{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Seite 2</ref><ref name ="Walde">{{Lit-Walde: Lateinisches etymologisches Wörterbuch|A=2|Seitenzahl=n289}}, „ēsca“, Seite 260.</ref> Auf diese gehen sowohl [[mittelhochdeutsch]] ''ās'', [[mittelniederländisch]] ''aes,'' [[niederländisch]] ''{{Ü|nl|aas}}'' (von indoeuropäisch ''ēdsom''), [[altenglisch]] ''ǣs'' (über [[westgermanisch]] ''*ǣsa-'') „Aas, als Fraß vornehmlich der Greifvögel, Köder“<ref name=Kluge/> als auch [[lateinisch]] ''{{Üt|la|esca|ēsca}}'' „Speise, Futter, Köder“ (von indoeuropäisch ''*ēdskā'')<ref name="Walde"/> zurück, ebenso  [[althochdeutsch]] (9. Jahrhundert) ''āʒ'', [[altsächsisch]], [[mittelniederdeutsch]], [[altnordisch]] ''āt'', mittelniederländisch ''aet,'' altenglisch ''ǣt'' „Speise, Nahrung, Viehfutter“ (vergleiche ''[[äsen]]''), wie auch altslawisch ''obĕdʐ,'' russisch ''{{Üt|ru|obéd|oбeӘ}}'' „Mittagessen“.<ref name="Pfeifer"/> Die beiden mittelhochdeutschen Formen ''āz'' und ''ās'' fallen im [[Frühneuhochdeutsch]]en<ref name="Pfeifer"/> oder im [[Spätmittelhochdeutsch]]en<ref name="Kluge"/> zu ''as'' „Tiernahrung, Kadaver“ zusammen, wobei sich die heutige Bedeutung durchsetzte, weil bei [[Homonym]]en in der Regel die anstößigere Bedeutung stärker ist. Die Bedeutung „Speise“ ist aber noch in ''[[Obst]]'' und ''[[Aser]]'' „Speisesack des Jägers“ bzw. „Inhalt des Speisesacks, Mahlzeit“<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, „Aser“, Seite 64</ref> enthalten.<ref name="Kluge"/>
+:[1–3] :Zugrunde liegt die [[indoeuropäisch]]e Wurzel ''*ed-'' „essen, fressen“ (vergleiche ''[[essen]],'' vergleiche auch [[litauisch]] ''{{Ü|lt|ḕdesis}}'' „Fraß, Köder“, [[russisch]] ''{{Üt|ru|jasá|}}'' und [[altbulgarisch]] ''jasli'' „Krippe“).<ref name="Pfeifer">{{Lit-Pfeifer: Etymologisches Wörterbuch|A=1|V=Akademie-Verlag}} „Aas“, Seite 1</ref><ref name="Kluge">{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Seite 2</ref><ref name ="Walde">{{Lit-Walde: Lateinisches etymologisches Wörterbuch|A=2|Seitenzahl=n289}}, „ēsca“, Seite 260.</ref> Auf diese gehen sowohl [[mittelhochdeutsch]] ''ās'', [[mittelniederländisch]] ''aes,'' [[niederländisch]] ''{{Ü|nl|aas}}'' (von indoeuropäisch ''ēdsom''), [[altenglisch]] ''ǣs'' (über [[westgermanisch]] ''*ǣsa-'') „Aas, als Fraß vornehmlich der Greifvögel, Köder“<ref name=Kluge/> als auch [[lateinisch]] ''{{Üt|la|esca|ēsca}}'' „Speise, Futter, Köder“ (von indoeuropäisch ''*ēdskā'')<ref name="Walde"/> zurück, ebenso  [[althochdeutsch]] (9. Jahrhundert) ''āʒ'', [[altsächsisch]], [[mittelniederdeutsch]], [[altnordisch]] ''āt'', mittelniederländisch ''aet,'' altenglisch ''ǣt'' „Speise, Nahrung, Viehfutter“ (vergleiche ''[[äsen]]''), wie auch altslawisch ''obĕdʐ,'' russisch ''{{Üt|ru|obéd|oбeӘ}}'' „Mittagessen“.<ref name="Pfeifer"/> Die beiden mittelhochdeutschen Formen ''āz'' und ''ās'' fallen im [[Frühneuhochdeutsch]]en<ref name="Pfeifer"/> oder im [[Spätmittelhochdeutsch]]en<ref name="Kluge"/> zu ''as'' „Tiernahrung, Kadaver“ zusammen, wobei sich die heutige Bedeutung durchsetzte, weil bei [[Homonym]]en in der Regel die anstößigere Bedeutung stärker ist. Die Bedeutung „Speise“ ist aber noch in ''[[Obst]]'' und ''[[Aser]]'' „Speisesack des Jägers“ bzw. „Inhalt des Speisesacks, Mahlzeit“<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, „Aser“, Seite 64</ref> enthalten.<ref name="Kluge"/>
 :Verwandt ist niederländisch ''{{Ü|nl|lokaas}}'' „Köder“.<ref>{{Lit-Bluhme: Etymologisches Wörterbuch}} „Aas“, Seite 139</ref>
 
 :[4] Die Verwendung als Schimpfwort ist bereits im 12. Jahrhundert belegt.<ref name="Pfeifer"/>
@@ -83,7 +83,7 @@
 :[1] ''Aas'' [[anrühren]], [[stinkend]]es Aas
 :[2] ''Aas'' [[fressen]], [[faul]]es ''Aas,'' [[sich]] von ''Aas'' [[ernähren]]
 :[3] mit ''Aas'' [[anlocken]], mit ''Aas'' [[anludern]]
-:[4] [[fein]]es ''Aas,'' [[frech]]es ''Aas,'' so ein ''Aas''
+:[4] [[faul]]es ''Aas'', [[fein]]es ''Aas,'' [[frech]]es ''Aas,'' so ein ''Aas''
 
 {{Wortbildungen}}
 :[[Aasbande]], [[Aasblume]], [[Aasdach]], [[aasen]], [[aasfarbig]], [[Aasfliege]], [[aasfressend]], [[Aasfresser]], [[Aasgeier]], [[Aasgeruch]], [[Aasgestank]], [[Aasgrube]], [[Aasjäger]], [[Aasjägerei]], [[aasig]], [[Aasinsekt]], [[Aaskäfer]], [[Aasknochen]], [[Aaskopf]], [[Aaskrähe]], [[Aasrabe]], [[Aasseite]], [[Aasstück]], [[Aastier]], [[Aasvogel]], [[äsen]]
@@ -91,8 +91,9 @@
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
 *{{af}}: [1] {{Ü|af|aas}}
+*{{sq}}: [1] {{Ü|sq|kërmë}}, {{Ü|sq|stërvinë}}; [4] {{Ü|sq|qelbësirë}}
 *{{bs}}: [1] {{Ü?|bs|lešina}} {{f}}
-*{{bg}}: [1] {{Ü|bg|мърша}} {{f}}
+*{{bg}}: [1] {{Üt|bg|мърша|}} {{f}}
 *{{da}}: [1] {{Ü|da|ådsel}}
 *{{en}}: [1] {{Ü|en|carrion}}, {{Ü|en|carcass}}; [3] {{Ü|en|bait}}; [4] {{Ü|en|beast}}, {{Ü|en|swine}}
 *{{eo}}: [1] {{Ü|eo|kadavraĵo}}, {{Ü|eo|putraĵo}}; [4] {{Ü|eo|fiulo}}; {{Ü|eo|kanajlo}}
@@ -100,17 +101,17 @@
 *{{el}}: [1] {{Üt|el|ψοφίμι|psofími}} {{n}}
 *{{is}}: [1] {{Ü|is|hræ}}
 *{{it}}: [1, 4] {{Ü|it|carogna}} {{f}}; [4] {{Ü|it|vigliacco}} {{m}}
-*{{ja}}: [1] {{Ü|ja|死骸}}、{{Ü|ja|屍骸}}; [3]　{{Ü|ja|おとり}}、{{Ü|ja|餌}}; [4] {{Ü|ja|腐}}, {{Ü|ja|野郎}}
+*{{ja}}: [1] {{Üt|ja|死骸|}}、{{Üt|ja|屍骸|}}; [3]　{{Üt|ja|おとり|}}、{{Üt|ja|餌|}}; [4] {{Üt|ja|腐|}}, {{Üt|ja|野郎|}}
 *{{ca}}: [1] {{Ü|ca|carronya}} {{f}}
 *{{la}}: [1] {{Ü|la|cadaver}}; [4] {{Ü|la|morticinus}}; {{Ü|la|corpus putrefactum}}
 *{{lv}}: [1] {{Ü|lv|maita}}, {{Ü|lv|sprāgonis}}
-*{{nl}}: [1, 4] {{Ü|nl|aas}}; [1] {{Ü|nl|kreng}}
 |Ü-rechts=
+*{{nl}}: [1, 4] {{Ü|nl|aas}}; [1] {{Ü|nl|kreng}}
 *{{no}}: [1] {{Ü|no|åtsel}} {{n}}, [3] {{Ü|no|åte}} {{n}}
 *{{pl}}: [1] {{Ü|pl|padlina}} {{f}}, {{Ü|pl|ścierwo}} {{n}}; [2] {{Ü|pl|ścierwo}} {{n}}; [3] {{Ü|pl|przynęta}} {{f}}; [4] {{Ü|pl|ścierwo}} {{n}}, {{Ü|pl|kanalia}} {{f}}, {{Ü|pl|drań}} {{m}}
 *{{rm}}: [1] {{Ü|rm|capiergna}} {{f}}; [3] {{Ü|rm|coga}} {{f}}
 *{{ro}}: [1] {{Ü|ro|cadavru}} {{n}}, {{Ü|ro|hoit}} {{n}}, {{Ü|ro|stârv}} {{n}} [3] {{Ü|ro|momeală}} {{f}}, [4] {{Ü|ro|golan}} {{m}}
-*{{ru}}: [1] {{Ü|ru|падаль}}; [4] {{Ü|ru|падло}}
+*{{ru}}: [1] {{Üt|ru|падаль|}}; [4] {{Üt|ru|падло|}}
 *{{sv}}: [1] {{Ü|sv|as}}; [3] {{Ü|sv|bete}}; [4] {{Ü|sv|as}}, {{Ü|sv|knöl}}
 *{{sr}}: [1] {{Üt|sr|леш|}}, [3] {{Üt|sr|мамац|}}, [4] {{Üt|sr|лешинар|}}
 *{{sk}}: [1] {{Ü|sk|zdochlina}} {{f}}
@@ -122,15 +123,24 @@
 }}
 
 {{Referenzen}}
-:[1, 2] {{Wikipedia|Aas}}
-:[1, 3, 4] {{Ref-Grimm|Aas}}
-:[1, 2] {{Ref-Adelung|Aas}}
-:[2, 4] {{Ref-DWDS|Aas}}
-:[2, 4] {{Ref-Canoo|Aas}}
-:[2, 4] {{Ref-UniLeipzig|Aas}}
-:[1, 2, 4] {{Ref-FreeDictionary|Aas}}
-:[1, 2, 4, 5] {{Ref-Duden|Aas}}
+:[1] {{Wikipedia}}
+:[1, 3, 4] {{Ref-Grimm}}
+:[1, 4] {{Ref-DWDS}}
+:[1] {{Ref-Canoo}}
+:[*] {{Ref-UniLeipzig}}
+:[1, 4] {{Ref-FreeDictionary}}
+:[1, 2, 4, 5] {{Ref-Duden}}
+:[1, 4] {{Ref-Pons}}
+:[1] {{Ref-wissen.de|Wörterbuch}}
+:[*] {{Ref-MyDict}}
+:[1, 2] {{Ref-Adelung}}
+:[*] {{Ref-Goethe}}
+:[2] {{Ref-Lueger}}
+:[1] {{Ref-Meyers}}
+:[1] {{Ref-Pierer1857}}
+:[*] {{Ref-OWID|elexiko|161650}}
 :[1, 2, 4, 5] {{Lit-Duden: Universalwörterbuch|A=6}}, Seite 77.
+:[1, 4] {{Lit-ÖBV: Österreichisches Wörterbuch|A=39}}, Seite 21
 
 {{Quellen}}
 

@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Codex
-|Nominativ Plural =die Codices
-|Genitiv Singular=des Codex
-|Genitiv Plural =der Codices
-|Dativ Singular=dem Codex
-|Dativ Plural =den Codices
-|Akkusativ Singular=den Codex
-|Akkusativ Plural =die Codices
+|Genus=m
+|Nominativ Singular=Codex
+|Nominativ Plural =Codices
+|Genitiv Singular=Codex
+|Genitiv Plural =Codices
+|Dativ Singular=Codex
+|Dativ Plural =Codices
+|Akkusativ Singular=Codex
+|Akkusativ Plural =Codices
 }}
 
 {{Alternative Schreibweisen}}
@@ -23,4 +24,5 @@
 
 {{Lemmaverweis|Kodex}}
 
+[[en:Codex]]
 [[ko:Codex]]

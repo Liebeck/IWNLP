@@ -2,11 +2,12 @@
 === {{Wortart|Verb|Deutsch}}, {{Wortart|Hilfsverb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=werde
-|Gegenwart_du=wirst
-|Gegenwart_er, sie, es=wird
-|1.Vergangenheit_ich=wurde<br />''(veraltet)'' ward
-|Partizip II=(ge)worden
+|Präsens_ich=werde
+|Präsens_du=wirst
+|Präsens_er, sie, es=wird
+|Präteritum_ich=wurde
+|Präteritum_ich*=ward
+|Partizip II=geworden
 |Konjunktiv II_ich=würde
 |Imperativ Singular=werde
 |Imperativ Plural=werdet
@@ -75,7 +76,7 @@
 *{{la}}: [1, 2, 6] {{Ü|la|fieri}}
 *{{nds}}: [?] {{Ü?|nds|warrn}}
 *{{nl}}: [?] {{Ü?|nl|worden}}, {{Ü|nl|zullen}}, {{Ü|nl|gaan}}
-*{{ru}}: [?] {{Üxx?|ru|stanovitsja|становиться}}
+*{{ru}}: [?] {{Üt?|ru|становиться|stanovitsja}}
 *{{sv}}: [1, 2, 5] {{Ü|sv|bli}}; [2] {{Ü|sv|bliva}}; [3] ''Futur:'' {{Ü|sv|ska}}, {{Ü|sv|komma att}}; [4] {{Ü|sv|ska}} {{Ü|sv|nog}}, {{Ü|sv|bli}} {{Ü|sv|nog}}; [6] {{Ü|sv|varda}}, {{Ü|sv|låta}} {{Ü|sv|något}} {{Ü|sv|bli}}
 *{{es}}: [1] {{Ü|es|devenir}}, {{Ü|es|llegar a ser}}; [3] {{Ü|es|ir a}}
 *{{cs}}: [?] {{Ü?|cs|stát se}}
@@ -105,6 +106,7 @@
 [[fi:werden]]
 [[fr:werden]]
 [[hu:werden]]
+[[hy:werden]]
 [[id:werden]]
 [[io:werden]]
 [[it:werden]]

@@ -2,23 +2,23 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=pike
-|Gegenwart_du=pikst
-|Gegenwart_er, sie, es=pikt
-|1.Vergangenheit_ich=pikte
+|Präsens_ich=pike
+|Präsens_du=pikst
+|Präsens_er, sie, es=pikt
+|Präteritum_ich=pikte
 |Partizip II=gepikt
 |Konjunktiv II_ich=pikte
-|Imperativ Singular=pik!, pike!
-|Imperativ Plural=pikt!
+|Imperativ Singular=pik
+|Imperativ Singular*=pike
+|Imperativ Plural=pikt
 |Hilfsverb=haben
-|Weitere_Konjugationen=piken (Konjugation)
 }}
 
 {{Worttrennung}}
 :pi·ken, {{Prät.}} pik·te, {{Part.}} ge·pikt
 
 {{Aussprache}}
-:{{IPA}} {{Lautschrift|piːkən}}, {{Prät.}} {{Lautschrift|piːktə}}, {{Part.}} {{Lautschrift|ɡəpiːkt}}
+:{{IPA}} {{Lautschrift|ˈpiːkn̩}}, {{Lautschrift|ˈpiːkən}}, {{Prät.}} {{Lautschrift|ˈpiːktə}}, {{Part.}} {{Lautschrift|ɡəˈpiːkt}}
 :{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
 :{{Reime}} {{Reim|iːkn̩|Deutsch}}
 
@@ -36,7 +36,7 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|}}
+*{{en}}: [1] {{Ü|en|prick}}
 *{{fr}}: [1] {{Ü|fr|}}
 |Ü-rechts=
 *{{it}}: [1] {{Ü|it|}}

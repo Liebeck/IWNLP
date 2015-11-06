@@ -26,7 +26,9 @@
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|hɛʁʦ}}, {{Pl.}} {{Lautschrift|ˈhɛʁʦn̩}}
-:{{Hörbeispiele}} {{Audio|De-Herz.ogg|Herz}}, {{Audio|De-at-Herz.ogg|Herz (österreichisch)}}, {{Pl.}} {{Audio|De-Herzen.ogg|Herzen}}, {{Audio|De-at-Herzen.ogg|Herzen (österreichisch)}}
+:{{Hörbeispiele}} 
+::deutsch: {{Audio|De-Herz.ogg}}, {{Pl.}} {{Audio|De-Herzen.ogg|Herzen}}
+::österreichisch: {{Audio|De-at-Herz.ogg}}, {{Pl.}} {{Audio|De-at-Herzen.ogg|Herzen}}
 :{{Reime}} {{Reim|ɛʁʦ|Deutsch}}
 
 {{Bedeutungen}}
@@ -67,6 +69,8 @@
 
 {{Beispiele}}
 :[1] Das ''Herz'' pochte in seiner Brust.
+:[1] Das ''Herz,'' ein faustförmiger Hohlmuskel, zieht sich etwa siebzigmal in der Minute zusammen und pumpt so am Tag bis zu 10.000 Liter durch den Körper.<ref>{{Per-Deutsche Welle | Online=http://dw.de/p/1ES6x  | Autor=Clara Walther | Titel=Medizin - Das Herz: Motor des Lebens | TitelErg=Die Deutsche Herzstiftung präsentiert heute ihren aktuellen Herzbericht. Danach sterben immer weniger Menschen an Herzattacken. Gute Nachrichten! Aber wie ist es zum Beispiel mit gebrochenen Herzen? Gibt es die? | Tag=28 | Monat=01 | Jahr=2015 | Zugriff=2015-05-09 | Kommentar=Bildunterschrift unter Bild 1 }}</ref>
+:[1] Forscher arbeiten daran, menschliche ''Herzen'' im Labor herzustellen, als Ersatzorgane zur Transplantation. Damit das neue ''Herz'' nicht vom Empfänger abgestoßen wird, soll es aus dessen Stammzellen hergestellt werden.<ref>{{Per-Deutsche Welle | Online=http://dw.de/p/19IzU | Autor= | Titel=Medizinforschung - Ein neues Herz aus Stammzellen | TitelErg= | Tag=05 | Monat=08 | Jahr=2013 | Zugriff=2015-05-09 | Kommentar= }}</ref>
 :[2] Mein ''Herz'' verlangt nach dir.
 :[3] Sie malte ein rotes ''Herz'' auf den Umschlag.
 :[4] Kreuz Drei auf ''Herz'' Acht geht nicht.
@@ -81,7 +85,7 @@
 :[[ein Herz aus Stein haben]]
 :[[ein Herz für jemanden haben]], [[ein Herz für etwas haben]]
 :[[ein Herz und eine Seele sein]] → sehr innig miteinander sein
-:[[ein Kind unter dem Herzen tragen]]
+:[[ein Kind unter dem Herzen tragen]] (= [[schwanger]] [[sein]])
 :[[es nicht über das Herz bringen, etwas zu tun]]
 :[[etwas auf dem Herzen haben]]
 :[[etwas aus tiefstem Herzen bedauern]]
@@ -136,8 +140,9 @@
 :[[wes das Herz voll ist, des geht der Mund über]]
 
 {{Charakteristische Wortkombinationen}}
-:[1] [[schlagen]]; [[Kardiologe]]
-:[2] [[brechen]]; [[Seele]]
+:[1] ein [[krank]]es ''Herz'' [[haben]], ein [[künstlich]]es ''Herz,'' ein ([[stark]]) [[pochend]]es ''Herz,'' ein ([[schnell]]/[[langsam]]) [[schlagend]]es ''Herz''
+:[1] {{K|Medizin}} {{Audio|De-jemanden am Herzen operieren.ogg|->}} jemanden am ''Herzen'' [[operieren]], ein ''Herz'' [[transplantieren]], ein ''Herz'' [[verpflanzen]]
+:[1] das ''Herz'' [[pumpen|pumpt]], das ''Herz'' [[schlagen|schlägt]]
 
 {{Wortbildungen}}
 :{{Wortbildung|Adjektive|:}} [[beherzigen]], [[beherzt]], [[edelherzig]], [[engherzig]], [[feigherzig]], [[großherzig]], [[gutherzig]], [[halbherzig]], [[hartherzig]], [[herzallerliebst]], [[herzbeklemmend]], [[herzbrechend]], [[herzerfreuend]], [[herzerfrischend]], [[herzergreifend]], [[herzerquickend]], [[herzerschütternd]], [[herzerweichend]], [[herzensgut]], [[herzgewinnend]], [[herzgeliebt]], [[herzhaft]], [[herzig]], [[herzinnig]], [[herzkrank]], [[herzleidend]], [[herzlich]], [[herzlos]], [[herznah]], [[herzstärkend]], [[herzwirksam]], [[herzzerreißend]], [[hochherzig]], [[kaltherzig]], [[kleinherzig]], [[leichtherzig]], [[mattherzig]], [[mildherzig]], [[offenherzig]], [[schwachherzig]], [[treuherzig]], [[warmherzig]], [[weichherzig]], [[weitherzig]]
@@ -153,8 +158,8 @@
 *{{br}}: [1] {{Ü|br|kalon}}
 *{{bg}}: [1] {{Üt|bg|сърце|sarze}}
 *{{zh}}: [1, 2] {{Üt|zh|心|xīn}}
-:*{{zh-tw}}: [1] {{Üt|zh|心臟|xīnzàng}}
-:*{{zh-cn}}: [1] {{Üt|zh|心脏|xīnzàng}}
+**{{zh-tw}}: [1] {{Üt|zh|心臟|xīnzàng}}
+**{{zh-cn}}: [1] {{Üt|zh|心脏|xīnzàng}}
 *{{en}}: [1–5] {{Ü|en|heart}}
 *{{et}}: [1] {{Ü|et|süda}}
 *{{fo}}: [1] {{Ü|fo|hjarta}} {{n}}
@@ -168,15 +173,14 @@
 *{{ca}}: [1, 2] {{Ü|ca|cor}}
 *{{ku}}: [1]  {{Ü|ku|dil}}
 *{{la}}: [1, 2] {{Ü|la|cor}}
-*{{ltg}}: [1] {{Ü|ltg|sirds}} {{f}}
 *{{lv}}: [1] {{Ü|lv|sirds}} {{f}}
 |Ü-rechts=
 *{{lt}}: [1] {{Ü|lt|širdis}}
 *{{lb}}: [1] {{Ü|lb|Häerz}}
 *{{nl}}: [1] {{Ü|nl|hart}}
 *{{no}}:
-:*{{nb}}: [1, 3] {{Ü|nb|hjerte}} {{n}}, [4] {{Ü|nb|hjerter}} {{m}}
-:*{{nn}}: [1, 3] {{Ü|nn|hjarte}} {{n}}, [4] {{Ü|nn|hjarter}} {{m}}
+**{{nb}}: [1, 3] {{Ü|nb|hjerte}} {{n}}, [4] {{Ü|nb|hjerter}} {{m}}
+**{{nn}}: [1, 3] {{Ü|nn|hjarte}} {{n}}, [4] {{Ü|nn|hjarter}} {{m}}
 *{{oc}}: [1, 2] {{Ü|oc|còr}} {{m}}
 *{{pl}}: [1–3] {{Ü|pl|serce}} {{m}}; [4] {{Ü|pl|kier}} {{m}}
 *{{pt}}: [1–3, 5] {{Ü|pt|coração}} {{m}}; [4] {{Ü|pt|copas}} {{f}}''Pl.''
@@ -187,18 +191,19 @@
 *{{sv}}: [1–3] {{Ü|sv|hjärta}}; [4] {{Ü|sv|hjärter}}; [5] {{Ü|sv|hjärta}}
 *{{sl}}: [1, 3, 4] {{Ü|sl|srce}}
 *{{wen}}
-:*{{dsb}}: [1–3] {{Ü|dsb|wutšoba}}
-:*{{hsb}}: [1–3] {{Ü|hsb|wutroba}}; [4] {{Ü|hsb|čerwjene}}
+**{{dsb}}: [1–3] {{Ü|dsb|wutšoba}}
+**{{hsb}}: [1–3] {{Ü|hsb|wutroba}}; [4] {{Ü|hsb|čerwjene}}
 *{{es}}: [1] {{Ü|es|corazón}} {{m}}
 *{{sw}}: [1] {{Ü|sw|moyo}}
 *{{sux}}: [1, 2] {{Ü|sux|šag}}
 *{{cs}}: [1–5] {{Ü|cs|srdce}} {{n}}
 *{{tr}}: [1] {{Ü|tr|yürek}}, {{Ü|tr|kalp}}; [2] {{Ü|tr|gönül}}; [4] {{Ü|tr|kupa}}
+*{{hu}}: [1–3] {{Ü|hu|szív}} [4] {{Ü|hu|kőr}} (franzözisches Blatt), {{Ü|hu|piros}} (deutsches Blatt)
 *{{cy}}: [1] {{Ü|cy|calon}} {{f}}
 *{{vep}}: [1] {{Ü|vep|südäin}}
-|Dialekttabelle=
-*Kölsch: [1–4] [[Hätz]]
-|D-rechts=
+|Dialekttabelle= 
+*Kölsch: [1–4] [[Hätz]] 
+|D-rechts= 
 *[[Niederpreußisch]]: [1–4] [[Hart]]
 }}
 
@@ -223,6 +228,7 @@
 [[ca:Herz]]
 [[chr:Herz]]
 [[cs:Herz]]
+[[da:Herz]]
 [[el:Herz]]
 [[en:Herz]]
 [[es:Herz]]
@@ -241,9 +247,11 @@
 [[ko:Herz]]
 [[ku:Herz]]
 [[ky:Herz]]
+[[lb:Herz]]
 [[lt:Herz]]
 [[mg:Herz]]
 [[mk:Herz]]
+[[mt:Herz]]
 [[nah:Herz]]
 [[no:Herz]]
 [[pl:Herz]]
@@ -252,6 +260,7 @@
 [[sm:Herz]]
 [[sv:Herz]]
 [[sw:Herz]]
+[[tg:Herz]]
 [[th:Herz]]
 [[tr:Herz]]
 [[ug:Herz]]

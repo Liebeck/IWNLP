@@ -1,23 +1,23 @@
 ﻿== demjenigen ({{Sprache|Deutsch}}) ==
 === {{Wortart|Demonstrativpronomen|Deutsch}}, {{Wortart|Artikel|Deutsch}} ===
 
-{{Pronomina-Tabelle|
- Wer oder was? (Einzahl m)=[[derjenige]]
-|Wer oder was? (Einzahl f)=[[diejenige]]
-|Wer oder was? (Einzahl n)=[[dasjenige]]
-|Wer oder was? (Mehrzahl)=[[diejenigen]]
-|Wessen? (Einzahl m)=[[desjenigen]]
-|Wessen? (Einzahl f)=[[derjenigen]]
-|Wessen? (Einzahl n)=[[desjenigen]]
-|Wessen? (Mehrzahl)=[[derjenigen]]
-|Wem? (Einzahl m)='''demjenigen'''
-|Wem? (Einzahl f)=[[derjenigen]]
-|Wem? (Einzahl n)='''demjenigen'''
-|Wem? (Mehrzahl)=[[denjenigen]]
-|Wen? (Einzahl m)=[[denjenigen]]
-|Wen? (Einzahl f)=[[diejenige]]
-|Wen? (Einzahl n)=[[dasjenige]]
-|Wen? (Mehrzahl)=[[diejenigen]]
+{{Pronomina-Tabelle
+|Nominativ Singular m=derjenige
+|Nominativ Singular f=diejenige
+|Nominativ Singular n=dasjenige
+|Nominativ Plural=diejenigen
+|Genitiv Singular m=desjenigen
+|Genitiv Singular f=derjenigen
+|Genitiv Singular n=desjenigen
+|Genitiv Plural=derjenigen
+|Dativ Singular m=demjenigen
+|Dativ Singular f=derjenigen
+|Dativ Singular n=demjenigen
+|Dativ Plural=denjenigen
+|Akkusativ Singular m=denjenigen
+|Akkusativ Singular f=diejenige
+|Akkusativ Singular n=dasjenige
+|Akkusativ Plural=diejenigen
 }}
 
 {{Anmerkung}}
@@ -57,3 +57,5 @@
 :[1] {{Ref-DWDS|demjenigen}}
 :[1] {{Ref-Canoo|demjenigen}}
 :[1] {{Ref-UniLeipzig|demjenigen}}
+
+[[en:demjenigen]]

@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Vertretung
-|Nominativ Plural=die Vertretungen
-|Genitiv Singular=der Vertretung
-|Genitiv Plural=der Vertretungen
-|Dativ Singular=der Vertretung
-|Dativ Plural=den Vertretungen
-|Akkusativ Singular=die Vertretung
-|Akkusativ Plural=die Vertretungen
+|Genus=f
+|Nominativ Singular=Vertretung
+|Nominativ Plural=Vertretungen
+|Genitiv Singular=Vertretung
+|Genitiv Plural=Vertretungen
+|Dativ Singular=Vertretung
+|Dativ Plural=Vertretungen
+|Akkusativ Singular=Vertretung
+|Akkusativ Plural=Vertretungen
 }}
 
 {{Worttrennung}}
@@ -52,21 +53,21 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{ar}}: [1] {{Ü|ar|التمثيل}}
+*{{ar}}: [1] {{Üt|ar|التمثيل|}}
 *{{ch}}: [1] {{Ü|ch|代表}}
 *{{en}}: [1] {{Ü|en|representative}}; [1]{{Ü|en|proxy}}
 *{{fr}}: [1] {{Ü|fr|représentation}} {{f}}
-*{{ka}}: [1] {{Ü|ka|წარმომადგენლობა}} (tsarmomadgenloba)
-*{{he}}: [1] {{Ü|he|נציגות}} (nezigot)
+*{{ka}}: [1] {{Üt|ka|წარმომადგენლობა|}} (tsarmomadgenloba)
+*{{he}}: [1] {{Üt|he|נציגות|}} (nezigot)
 *{{it}}: [1] {{Ü|it|rappresentazione}}
 |Ü-rechts=
-*{{ja}}: [1] {{Ü|ja|表現}} (hyōgen)
-*{{yi}}: [1] {{Ü|yi|פאַרטרעטונג}} (vartreteng)
+*{{ja}}: [1] {{Üt|ja|表現|}} (hyōgen)
+*{{yi}}: [1] {{Üt|yi|פאַרטרעטונג|}} (vartreteng)
 *{{la}}: [1] {{Ü|la|repraesentatio}}
 *{{nl}}: [1] {{Ü|nl|representatie}}; [1] {{Ü|nl|vertegenwoordiging}}
 *{{pl}}: [1] {{Ü|pl|reprezentacja}}
 *{{es}}: [1] {{Ü|es|representación}}
-*{{sv}}: [1] {{Ü|sv|representation}}
+*{{sv}}: [1] {{Ü|sv|vikariat}} {{n}}; [2] {{Ü|sv|representation}} {{u}}
 }}
 
 {{Referenzen}}
@@ -81,8 +82,11 @@
 [[el:Vertretung]]
 [[en:Vertretung]]
 [[fi:Vertretung]]
+[[fr:Vertretung]]
 [[hu:Vertretung]]
 [[io:Vertretung]]
+[[ku:Vertretung]]
 [[mg:Vertretung]]
 [[pl:Vertretung]]
+[[sv:Vertretung]]
 [[zh:Vertretung]]

@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Masse
-|Nominativ Plural=die Massen
-|Genitiv Singular=der Masse
-|Genitiv Plural=der Massen
-|Dativ Singular=der Masse
-|Dativ Plural=den Massen
-|Akkusativ Singular=die Masse
-|Akkusativ Plural=die Massen
+|Genus=f
+|Nominativ Singular=Masse
+|Nominativ Plural=Massen
+|Genitiv Singular=Masse
+|Genitiv Plural=Massen
+|Dativ Singular=Masse
+|Dativ Plural=Massen
+|Akkusativ Singular=Masse
+|Akkusativ Plural=Massen
 }}
 
 {{Worttrennung}}
@@ -21,9 +22,9 @@
 :{{Reime}} {{Reim|asə|Deutsch}}
 
 {{Bedeutungen}}
-:[1] ''[[Physik]]:'' die Ursache, dass der [[Materie]] [[Trägheit]] und [[Schwere]] (''[[Gravitation]]'') eigen ist; nach der [[Relativitätstheorie]] mit Kraft (''[[Energie]]'') gleichwertig (''[[äquivalent]]'')
+:[1] {{Kontext|Physik}} die Ursache, dass der [[Materie]] [[Trägheit]] und [[Schwere]] (''[[Gravitation]]'') eigen ist; nach der [[Relativitätstheorie]] mit Kraft (''[[Energie]]'') gleichwertig (''[[äquivalent]]'')
 :[2] viele, eine große Menge
-:[3] ''in der Elektronik:'' Referenzpotential, auch Erde oder Grund (kurz GND)
+:[3] {{Kontext|Elektronik}} Referenzpotential, auch Erde oder Grund (kurz GND)
 :[4] ungeformte flüssige, weiche oder zähe Materie
 :[5] ''in Massen:'' in großen [[Menge]]n, [[massenhaft]]
 
@@ -49,20 +50,20 @@
 :[2] [[Zahl]]
 
 {{Unterbegriffe}}
-:[1] [[Auswurfmasse]], [[Auswurfsmasse]], [[Eismasse]], [[Eruptionsmasse]], [[Felsmasse]], [[Felsenmasse]], [[Gehirnmasse]]/[[Hirnmasse]], [[Gesteinsmasse]], [[Landmasse]], [[Lavamasse]], [[Lebendmasse]], [[Leermasse]], [[Leistungsmasse]], [[Luftmasse]], [[Manövriermasse]], [[Pressmasse]], [[Schlammasse]], [[Schneemasse]], [[Wassermasse]], [[Wolkenmasse]]
+:[1] [[Auswurfmasse]], [[Auswurfsmasse]], [[Eismasse]], [[Eruptionsmasse]], [[Felsmasse]], [[Felsenmasse]], [[Gehirnmasse]]/[[Hirnmasse]], [[Gesteinsmasse]], [[Landmasse]], [[Lavamasse]], [[Lebendmasse]], [[Leermasse]], [[Leistungsmasse]], [[Luftmasse]], [[Manövriermasse]], [[Pressmasse]], [[Schlammasse]], [[Schneemasse]], [[Teilmasse]], [[Wassermasse]], [[Wolkenmasse]]
 :[1] ''physikalisch (Teichenphysik):'' [[Ruhemasse]]/[[Ruhmasse]]
 :[1] ''astrophysikalisch:'' [[Erdmasse]], [[Hauptmasse]], [[Jupitermasse]], [[Kernmasse]], [[Mondmasse]], [[Sonnenmasse]]
 :[2, 5] [[Arbeitermasse]], [[Menschenmasse]], [[Volksmasse]]
 :[2] ''rechtlich:'' [[Erbmasse]], [[Erbschaftsmasse]], [[Firmenmasse]], [[Liquidationsmasse]], [[Konkursmasse]], [[Schuldenmasse]], [[Vermögensmasse]]
-:[4] [[Dichtungsmasse]], [[Dübelmasse]], [[Farbmasse]], [[Fettmasse]], [[Füllmasse]], [[Fleischmasse]], [[Gallertmasse]], [[Garniermasse]], [[Geröllmasse]], [[Glasmasse]], [[Kakaomasse]], [[Knetmasse]], [[Leuchtmasse]], [[Modelliermasse]], [[Rohmasse]], [[Spachtelmasse]], [[Teigmasse]], [[Trockenmasse]], [[Vergussmasse]], [[Zuckermasse]]
+:[4] [[Dichtungsmasse]], [[Dübelmasse]], [[Einbettmasse]], [[Farbmasse]], [[Fettmasse]], [[Füllmasse]], [[Fleischmasse]], [[Gallertmasse]], [[Garniermasse]], [[Geröllmasse]], [[Glasmasse]], [[Kakaomasse]], [[Knetmasse]], [[Kunststoffmasse]], [[Leuchtmasse]], [[Modelliermasse]], [[Rohmasse]], [[Spachtelmasse]], [[Teigmasse]], [[Trockenmasse]], [[Vergussmasse]], [[Zuckermasse]]
 :[4] ''biologisch:'' [[Biomasse]], [[Teilungsmasse]]
 
 {{Beispiele}}
-:[1] Die Erde hat eine ''Masse'' von 5,9736 · 10<sup>24</sup> kg.
+:[1] Die Erde hat eine ''Masse'' von 5,9736·10<sup>24</sup> kg.
 :[2] An der Demonstration nahmen ''Massen'' von Menschen teil.
 :[3] Wir messen eine Spannung von 3,3 Volt gegen ''Masse.''
-:[4] Die ''Masse'' muß erst etwas abkühlen (oder sanft/schnell abgekühlt werden) damit sie weiterverarbeitet und danach befördert werden kann. (Glaserei/Gießerei/Walzwerk) 
-:[4] Die ''Masse'' muß erst trocknen, damit sie für die Anwendung bereit ist. (Färberei/Druck) 
+:[4] Die ''Masse'' muss erst etwas abkühlen (oder sanft/schnell abgekühlt werden) damit sie weiterverarbeitet und danach befördert werden kann. (Glaserei/Gießerei/Walzwerk) 
+:[4] Die ''Masse'' muss erst trocknen, damit sie für die Anwendung bereit ist. (Färberei/Druck) 
 :[4] Die zähe ''Masse'' härtet dann aus. (Lebensmittel wie Teig- oder Zuckerwaren)
 :[5] Alkohol in ''Massen'' zu trinken ist ungesund.
 
@@ -70,29 +71,32 @@
 :[1] ''atomar/chemisch:'' die [[molar]]e ''Masse''
 
 {{Wortbildungen}}
-:[[massenfach]], [[massig]], [[massiv]], [[Massiv]]
+:{{Wortbildung|Adjektive}} [[massenfach]], [[massig]], [[massiv]]
+:{{Wortbildung|Substantive}}
+:[[Massiv]]
 :[1] [[Massenanziehung]], [[Massenträgheit]], [[Massepunkt]]/[[Massenpunkt]]
 :[2] [[Massenandrang]], [[Massenauflauf]], [[Massendemonstration]], [[Massenhochzeit]], [[Massenhysterie]], [[Massenkeilerei]], [[Massenpanik]], [[Massentaufe]], [[Massenzahl]]/[[Massezahl]]
-:[2, 5] [[Massenabfertigung]], [[Massenabfüllung]], [[Massenabfütterrung]], [[Massenabsatz]], [[Massenabwanderung]], [[Massenaktion]], [[Massenarbeit]], [[Massenarbeitslosigkeit]], [[Massenarmut]], [[Massenartikel]], [[Massenaufgebot]], [[Massenauflage]], [[Massenaufmarsch]], [[Massenbasis]], [[Massenbedarf]], [[Massenbeförderung]], [[Massenbetrieb]], [[Massenbewegung]], [[Massenblatt]], [[Massendefekt]], [[Massendemonstration]], [[Massendrama]], [[Massendrucksache]], [[Massenelend]], [[Massenentlassung]], [[Massenerzeugung]], [[Massenfabrikation]], [[Massenfach]], [[Massenfertigung]], [[Massengesellschaft]], [[Massengestein]], [[Massenstrom]], [[Massengrab]], [[Massengut]], [[Massenherstellung]], [[Massenhinrichtung]], [[Massenhysterie]], [[Masseninvasion]], [[Massenkarambolage]], [[Massenkommunikation]], [[Massenkonsum]], [[Massenkonsumgut]], [[Massenkundgebung]], [[Massenmord]], [[Massenprodukt]], [[Massenproduktion]], [[Massenschlägerei]], [[Massenspeicher]], [[Massensport]], [[Massensportart]], [[Massenstart]], [[Massensterben]], [[Massenstreik]], [[Massensturz]], [[Massentierhaltung]], [[Massenunfall]], [[Massenvertreibung]], [[Massenware]], [[Massenwirkung]]
+:[2, 5] [[Massenabfertigung]], [[Massenabfüllung]], [[Massenabfütterrung]], [[Massenabsatz]], [[Massenabwanderung]], [[Massenaktion]], [[Massenarbeit]], [[Massenarbeitslosigkeit]], [[Massenarmut]], [[Massenartikel]], [[Massenaufgebot]], [[Massenauflage]], [[Massenaufmarsch]], [[Massenbasis]], [[Massenbedarf]], [[Massenbeförderung]], [[Massenbetrieb]], [[Massenbewegung]], [[Massenblatt]], [[Massendefekt]], [[Massendemonstration]], [[Massendrama]], [[Massendrucksache]], [[Massenelend]], [[Massenentlassung]], [[Massenerzeugung]], [[Massenfabrikation]], [[Massenfach]], [[Massenfertigung]], [[Massengesellschaft]], [[Massengestein]], [[Massenhaltung]], [[Massenstrom]], [[Massengrab]], [[Massengut]], [[Massenherstellung]], [[Massenhinrichtung]], [[Massenhysterie]], [[Masseninvasion]], [[Massenkarambolage]], [[Massenkommunikation]], [[Massenkonsum]], [[Massenkonsumgut]], [[Massenkundgebung]], [[Massenmord]], [[Massenprodukt]], [[Massenproduktion]], [[Massenschlägerei]], [[Massenspeicher]], [[Massensport]], [[Massensportart]], [[Massenstart]], [[Massensterben]], [[Massenstreik]], [[Massensturz]], [[Massentierhaltung]], [[Massenunfall]], [[Massenvertreibung]], [[Massenware]], [[Massenwirkung]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|mass}}, [2] {{Ü|en|bulk}}, {{Ü|en|crowd}}, a {{Ü|en|lot}}, [3] ''britisch:'' {{Ü|en|earth}}, ''amerikanisch:'' {{Ü|en|ground}}
-*{{fr}}: [1] {{Ü|fr|masse}}, [2] (Menschenmenge) {{Ü|fr|foule}}, {{Ü|fr|quantité}}
-|Ü-rechts=
+*{{en}}: [1] {{Ü|en|mass}}; [2] {{Ü|en|bulk}}, {{Ü|en|crowd}}, a {{Ü|en|lot}}, [3] ''britisch:'' {{Ü|en|earth}}, ''amerikanisch:'' {{Ü|en|ground}}
+*{{fr}}: [1] {{Ü|fr|masse}}; [2] (Menschenmenge) {{Ü|fr|foule}}, {{Ü|fr|quantité}}
 *{{ku}}: [1] {{Ü|ku|bariste}}
-*{{sv}}: [1, 2] {{Ü|sv|massa}}; [3] {{Ü|sv|jord}}; [5] {{Ü|sv|mängd}}
-*{{es}}: [1] {{Ü|es|masa}}, [2] {{Ü|es|gran cantidad}}, {{Ü|es|multitud}}, (Menschenmenge) {{Ü|es|muchedumbre}}
+|Ü-rechts=
+*{{sv}}: [1, 2] {{Ü|sv|massa}} {{u}}; [3] {{Ü|sv|jord}} {{u}}; [5] {{Ü|sv|mängd}} {{u}}
+*{{es}}: [1] {{Ü|es|masa}}; [2] {{Ü|es|gran cantidad}}, {{Ü|es|multitud}}, (Menschenmenge) {{Ü|es|muchedumbre}}
+*{{tr}}: [1, 2, 4] {{Ü|tr|kütle}}; [2] {{Ü|tr|güruh}} ({{veraltend}}), {{Ü|tr|kitle}}; [3] {{Ü|tr|toprak}}; [5] {{Ü|tr|sürü}}
 }}
 
 {{Referenzen}}
-:[1, 3] {{Wikipedia|Masse}}
-:[2, 4] {{Ref-DWDS|Masse}}
-:[1, 2, 4, 5] {{Ref-Duden|Masse}}
-:[*] {{Ref-Canoo|Masse}}
-:[*] {{Ref-UniLeipzig|Masse}}
-:[1, 2, 4] {{Ref-FreeDictionary|Masse}}
-:[2, 4, 5] {{Ref-Grimm|Masse}}
+:[1, 3] {{Wikipedia}}
+:[2, 4] {{Ref-DWDS}}
+:[1, 2, 4, 5] {{Ref-Duden}}
+:[*] {{Ref-Canoo}}
+:[*] {{Ref-UniLeipzig}}
+:[1, 2, 4] {{Ref-FreeDictionary}}
+:[2, 4, 5] {{Ref-Grimm}}
 
 {{Quellen}}
 
@@ -116,6 +120,7 @@
 [[pl:Masse]]
 [[pt:Masse]]
 [[ru:Masse]]
+[[sh:Masse]]
 [[sr:Masse]]
 [[sv:Masse]]
 [[tl:Masse]]

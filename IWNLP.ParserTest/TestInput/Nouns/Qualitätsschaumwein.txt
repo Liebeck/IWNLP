@@ -2,22 +2,24 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Qualitätsschaumwein
-|Nominativ Plural=die Qualitätsschaumweine 
-|Genitiv Singular=des Qualitätsschaumweins<br>des Qualitätsschaumweines</br>
-|Genitiv Plural=der  Qualitätsschaumweine
-|Dativ Singular=dem Qualitätsschaumwein
-|Dativ Plural=den  Qualitätsschaumweinen
-|Akkusativ Singular=den Qualitätsschaumwein
-|Akkusativ Plural=die  Qualitätsschaumweine
+|Genus=m
+|Nominativ Singular=Qualitätsschaumwein
+|Nominativ Plural=Qualitätsschaumweine
+|Genitiv Singular=Qualitätsschaumweins
+|Genitiv Singular*=Qualitätsschaumweines
+|Genitiv Plural=Qualitätsschaumweine
+|Dativ Singular=Qualitätsschaumwein
+|Dativ Plural=Qualitätsschaumweinen
+|Akkusativ Singular=Qualitätsschaumwein
+|Akkusativ Plural= Qualitätsschaumweine
 }}
 
 {{Worttrennung}}
-:Qua·li·täts·schaum·wein, {{Pl.}} Qua·li·täts·schaum·wei·ne
+:Qua·li·täts·schaum·wein
 
 {{Aussprache}}
-:{{IPA}} {{Lautschrift|kvaliˈtɛːʦˌʃaʊ̯mvaɪ̯n}}, {{Pl.}} {{Lautschrift|kvaliˈtɛːʦˌʃaʊ̯mvaɪ̯nə}}
-:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{IPA}} {{Lautschrift|kvaliˈtɛːʦˌʃaʊ̯mvaɪ̯n}}
+:{{Hörbeispiele}} {{Audio|}}
 
 {{Bedeutungen}}
 :[1] ''[[Weinbau]]:'' ein Schaumwein gehobener Qualität, der mit einer amtlichen Prüfnummer versehen ist

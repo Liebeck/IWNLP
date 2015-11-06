@@ -5,7 +5,9 @@
 {{Deutsch Adjektiv Übersicht
 |Positiv=dunkel
 |Komparativ=dunkler
-|Superlativ=am dunkelsten
+|Superlativ=dunkelsten
+|Bild 1=Aussicht auf Aarwangen während Dämmerung.jpg|thumb|1|Noch eine [[kurz]]e [[Zeit]] der [[Dämmerung]], dann ist es ''dunkel'' in Aarwangen
+|Bild 2=Dark-roses.jpg|thumb|2|eine ''dunkel''[[rot]]e [[Rose]]
 }}
 
 {{Worttrennung}}
@@ -13,7 +15,9 @@
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|ˈdʊŋkl̩}}, {{Lautschrift|ˈdʊŋkəl}}, {{Komp.}} {{Lautschrift|ˈdʊŋklɐ}}, {{Sup.}} {{Lautschrift|ˈdʊŋkl̩stn̩}}, {{Lautschrift|ˈdʊŋkəlstən}}
-:{{Hörbeispiele}} {{Audio|De-dunkel.ogg}}, {{Audio|De-at-dunkel.ogg|dunkel (österreichisch)}}, {{Komp.}} {{Audio|}}, {{Sup.}} {{Audio|}}
+:{{Hörbeispiele}}
+::deutsch: {{Audio|De-dunkel.ogg}} {{Audio|De-dunkel2.ogg}}, {{Komp.}} {{Audio|De-dunkler.ogg|dunkler}}, {{Sup.}} {{Audio|De-am dunkelsten.ogg|am dunkelsten}}
+::österreichisch: {{Audio|De-at-dunkel.ogg}}, {{Komp.}} {{Audio|}}, {{Sup.}} {{Audio|}}
 :{{Reime}} {{Reim|ʊŋkl̩|Deutsch}}
 
 {{Bedeutungen}}
@@ -26,7 +30,7 @@
 :[7] ''[[Linguistik]]:'' [[Phonetik|phonetisches]] Merkmal der hinteren [[Vokal]]e
 
 {{Herkunft}}
-:althochdeutsch ''[[tunkal]],'' mittelhochdeutsch ''[[tunkel]]''
+:althochdeutsch ''[[tunkal]],'' mittelhochdeutsch ''[[tunkel]]''{{QS_Herkunft|unbelegt}}
 
 {{Synonyme}}
 :[1] [[finster]]
@@ -52,14 +56,13 @@
 :[7] „Neben der Klasse der hinteren (''dunklen'') und vorderen (hellen) Vokalphoneme tritt als dritte Klasse die der labialen vorderen Vokalphoneme, die in der Systemdarstellung zwischen den vorderen und hinteren angeordnet werden.“<ref>Gottfried Meinhold, Eberhard Stock: ''Phonologie der deutschen Gegenwartssprache.'' 2., durchgesehene Auflage. VEB Bibliographisches Institut, Leipzig 1982, Seite 95.</ref>
 
 {{Redewendungen}}
-:[[ein dunkler Punkt]]
-:[[ein Sprung ins Dunkle]]
-:[[dunkel wie im Arsch]]
+:[[ein dunkler Punkt]], [[ein Sprung ins Dunkle]], [[dunkel wie im Arsch]], [[im Dunkeln tappen]]
+
+{{Sprichwörter}}
 :[[im Dunkeln ist gut munkeln]]
-:[[im Dunkeln tappen]]
 
 {{Wortbildungen}}
-:[[Dunkel]], [[dunkeln]], [[Dunkelheit]], [[Dunkeladaption]], [[Dunkelfeld]], [[dunkelhäutig]], [[Dunkelkammer]], [[Dunkelreaktion]], [[Dunkelverarbeitung]], [[Dunkelziffer]],
+:[[Dunkel]], [[dunkeln]], [[Dunkelheit]], [[Dunkeladaption]], [[Dunkelfeld]], [[dunkelhäutig]], [[Dunkelkammer]], [[Dunkelreaktion]], [[Dunkelverarbeitung]], [[Dunkelziffer]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
@@ -67,12 +70,13 @@
 *{{eo}}: [1] {{Ü|eo|malluma}}
 *{{fi}}: [1] {{Ü|fi|tumma}}
 *{{fr}}: [1] {{Ü|fr|foncé}}, {{Ü|fr|ténébreux}}, {{Ü|fr|sombre}}
-*{{ja}}: [1] {{Üxx|ja|くらい, kurai|暗い}}
+*{{ja}}: [1] {{Üt|ja|暗い|くらい, kurai}}
 *{{ca}}: [1, 2] {{Ü|ca|fosc}}
 *{{lus}}:[1, 2] {{Ü|lus|thim}}, [5] {{Ü|lus|mûk}}
 *{{oc}}: [1, 2] {{Ü|oc|escur}}
 |Ü-rechts=
 *{{pl}}: [1, 2] {{Ü|pl|ciemny}}
+*{{pt}}: [1] {{Ü|pt|escuro}}
 *{{sv}}: [1] {{Ü|sv|mörk}}, {{Ü|sv|skum}}; [2] {{Ü|sv|mörk-}}, {{Ü|sv|mörk}}, {{Ü|sv|dunkel}}; [3] {{Ü|sv|mörk}}; [4] {{Ü|sv|dunkel}}; [5] {{Ü|sv|dunkel}}, {{Ü|sv|skum}}; [6] {{Ü|sv|mörk}}, {{Ü|sv|dyster}}
 *{{es}}: [1] {{Ü|es|oscuro}} {{m}}, {{Ü|es|oscura}} {{f}}
 *{{cs}}: [1, 2] {{Ü|cs|tmavý}}; [3] {{Ü|cs|zvučný}}
@@ -81,7 +85,6 @@
 |Dialekttabelle=
 *Bairisch: [?] [[dumpa]]
 |D-rechts=
-*Ostmitteldeutsch:
 }}
 
 {{Referenzen}}
@@ -95,11 +98,12 @@
 
 {{Quellen}}
 
-{{Ähnlichkeiten}}
-:[[Dünkel]], [[Runkel]]
+{{Ähnlichkeiten 1|[[Dünkel]], [[Runkel]]}}
 
 [[ar:dunkel]]
+[[ca:dunkel]]
 [[chr:dunkel]]
+[[da:dunkel]]
 [[el:dunkel]]
 [[en:dunkel]]
 [[et:dunkel]]

@@ -2,13 +2,14 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Citronensäure
+|Genus=f
+|Nominativ Singular=Citronensäure
 |Nominativ Plural=—
-|Genitiv Singular=der Citronensäure
+|Genitiv Singular=Citronensäure
 |Genitiv Plural=—
-|Dativ Singular=der Citronensäure
+|Dativ Singular=Citronensäure
 |Dativ Plural=—
-|Akkusativ Singular=die Citronensäure
+|Akkusativ Singular=Citronensäure
 |Akkusativ Plural=—
 }}
 

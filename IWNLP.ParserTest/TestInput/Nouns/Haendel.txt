@@ -63,19 +63,7 @@
 
 === {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
 
-{{Deutsch Substantiv Übersicht
-|Nominativ Singular 1=der Händel <br /><small>(Händel)</small>
-|Nominativ Singular 2=die Händel<br /> <small>(Händel)</small>
-|Nominativ Plural=die Händels
-|Genitiv Singular 1=des Händel/<br />des Händels<br /><small>(Händels)</small>
-|Genitiv Singular 2=der Händel<br /><small>(Händels)</small>
-|Genitiv Plural=der Händels
-|Dativ Singular 1=dem Händel<br /><small>(Händel)</small>
-|Dativ Singular 2=der Händel<br /><small>(Händel)</small>
-|Dativ Plural=den Händels
-|Akkusativ Singular 1=den Händel<br /><small>(Händel)</small>
-|Akkusativ Singular 2=die Händel<br /><small>(Händel)</small>
-|Akkusativ Plural=die Händels
+{{Deutsch Nachname Übersicht
 }}
 
 {{Aussprache}}
@@ -107,4 +95,6 @@
 [[eo:Händel]]
 [[fi:Händel]]
 [[ko:Händel]]
+[[mg:Händel]]
+[[pl:Händel]]
 [[sv:Händel]]

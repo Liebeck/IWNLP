@@ -4,14 +4,14 @@
 {{Deutsch Adjektiv Übersicht
 |Positiv=einzig
 |Komparativ=—
-|Superlativ=''nur umgangsspachlich:'' einzigste
+|Superlativ=—
 }}
 
 {{Anmerkung|zur Steigerung}}
-:Die Steigerung des Adjektivs ''einzig'' ist umgangssprachlich. Der „Duden - Die deutsche Rechtschreibung“ weist explizit darauf hin, dass dieses Adjektiv nicht gesteigert werden darf.<ref>{{Lit-Duden: Rechtschreibung|A=24}}, Seite 359</ref>
+:Das Adjektiv ''einzig'' ist nicht steigerbar;<ref>Der „Duden - Die deutsche Rechtschreibung“ weist explizit darauf hin, dass dieses Adjektiv nicht gesteigert werden darf. {{Lit-Duden: Rechtschreibung|A=24}}, Seite 359</ref> umgangssprachlich wird jedoch auch die falsche Form ''(der/die/das) einzigste'' verwendet.
 
 {{Worttrennung}}
-:ein·zig, {{Komp.}} —, {{Sup.}} — (ein·zi·ge)
+:ein·zig, {{kSt.}}
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|ˈaɪ̯nʦɪç}}, {{Lautschrift|ˈaɪ̯nʦɪɡə}}
@@ -33,7 +33,7 @@
 :[3] Die Leistung der Schauspieler steht ''einzig'' auf weiter Flur.
 
 {{Charakteristische Wortkombinationen}}
-:''einzig'' und [[allein]]
+:[?] ''einzig'' und [[allein]]
 
 {{Wortbildungen}}
 :[[einzigartig]]

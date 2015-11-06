@@ -2,13 +2,14 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=helfe weiter
-|Gegenwart_du=hilfst weiter
-|Gegenwart_er, sie, es=hilft weiter
-|1.Vergangenheit_ich=half weiter
-|Konjunktiv II_ich=hülfe weiter<br />''selten:'' hälfe weiter
-|Imperativ Singular=hilf weiter!
-|Imperativ Plural=helft weiter!
+|Präsens_ich=helfe weiter
+|Präsens_du=hilfst weiter
+|Präsens_er, sie, es=hilft weiter
+|Präteritum_ich=half weiter
+|Konjunktiv II_ich=hülfe weiter
+|Konjunktiv II_ich*=''selten:'' hälfe weiter
+|Imperativ Singular=hilf weiter
+|Imperativ Plural=helft weiter
 |Partizip II=weitergeholfen
 |Hilfsverb=haben
 }}
@@ -45,3 +46,7 @@
 :[1] {{Ref-wissen.de|Wörterbuch|weiterhelfen}}
 :[*] {{Ref-Canoo|weiterhelfen}}
 :[*] {{Ref-UniLeipzig|weiterhelfen}}
+
+[[en:weiterhelfen]]
+[[ku:weiterhelfen]]
+[[zh:weiterhelfen]]

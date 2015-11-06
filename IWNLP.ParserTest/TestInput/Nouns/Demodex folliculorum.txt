@@ -41,10 +41,10 @@
 {{Absatz}}
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|#Demodex folliculorum_(Englisch)|Demodex folliculorum}}
+*{{en}}: [1] {{Ü|en|Demodex folliculorum}}
 |Ü-rechts=
-*{{nl}}: [1] {{Ü|nl|haarfollikelmijt}}, {{Ü|nl|#Demodex folliculorum_(Niederländisch)|Demodex folliculorum}}
-*{{sv}}: [1] {{Ü|sv|#Demodex folliculorum (Schwedisch)|Demodex folliculorum}}, {{Ü|sv|hårsäckskvalster}}
+*{{nl}}: [1] {{Ü|nl|haarfollikelmijt}}, {{Ü|nl|Demodex folliculorum}}
+*{{sv}}: [1] {{Ü|sv|Demodex folliculorum}}, {{Ü|sv|hårsäckskvalster}}
 }}
 
 {{Referenzen}}

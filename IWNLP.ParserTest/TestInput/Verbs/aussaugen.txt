@@ -2,14 +2,18 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=sauge aus
-|Gegenwart_du=saugst aus
-|Gegenwart_er, sie, es=saugt aus
-|1.Vergangenheit_ich=sog aus, saugte aus
-|Partizip II=ausgesogen, ausgesaugt
-|Konjunktiv II_ich=söge aus, saugte aus
-|Imperativ Singular=sauge aus!
-|Imperativ Plural=saug(e)t aus!
+|Präsens_ich=sauge aus
+|Präsens_du=saugst aus
+|Präsens_er, sie, es=saugt aus
+|Präteritum_ich=sog aus
+|Präteritum_ich*=saugte aus
+|Partizip II=ausgesogen
+|Partizip II*=ausgesaugt
+|Konjunktiv II_ich=söge aus
+|Konjunktiv II_ich*=saugte aus
+|Imperativ Singular=sauge aus
+|Imperativ Plural=saugt aus
+|Imperativ Plural*=sauget aus
 |Hilfsverb=haben
 }}
 
@@ -21,15 +25,18 @@
 :{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
 
 {{Bedeutungen}}
-:[1] Einen Stoff mittels Luftdruck aus einem anderen Stoff entfernen
-:[2] Eine Person/Land arm machen
+:[1] einen Stoff mittels Luftdruck aus einem anderen Stoff entfernen
+:[2] eine Person oder ein Land arm machen, ausbeuten
 
 {{Herkunft}}
-: Ableitung zum Verb [[saugen]] mit dem Präfix (Derivatem) [[aus-]] 
+:Ableitung zum Verb ''[[saugen]]'' mit dem Präfix (Derivatem) ''[[aus-]]''
 
 {{Synonyme}}
 :[1] [[auspumpen]], [[entleeren]], [[evakuieren]]
 :[2] [[ausbeuten]], [[auslaugen]], [[auslutschen]], [[ausnutzen]], [[auffressen]], [[auspressen]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[auslutschen]], [[ausschlürfen]]
 
 {{Gegenwörter}}
 :[1] [[abfüllen]], [[aufblasen]], [[auffüllen]], [[aussaufen]], [[betanken]], [[einfüllen]], [[füllen]]
@@ -43,10 +50,18 @@
 
 {{Beispiele}}
 :[1] Er biss in die Traube, ''saugte'' sie genüsslich ''aus'' und warf die Hülle fort.
-:[2] Die Abgaben an den Fürsten ''saugten'' das Land aus.
+:[1] Soll man wirklich die durch eine Schlange verursachte Bisswunde ''aussaugen?''
+:[1] Es gibt kleine Staubsauger mit Betrieb über den Zigarettenanzünder, um den Wagen schnell mal ''auszusaugen.''
+:[2] Die Abgaben an den Fürsten ''saugten'' das Land ''aus.''
+
+{{Redewendungen}}
+:[2] [[jemanden bis aufs Blut aussaugen]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] etwas ''aussaugen''
 
 {{Wortbildungen}}
-:[1] [[Aussaugung]]
+:[[Aussaugung]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=

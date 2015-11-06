@@ -2,14 +2,14 @@
 === {{Wortart|Verb|Deutsch}}, {{intrans.}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=komme herein
-|Gegenwart_du=kommst herein
-|Gegenwart_er, sie, es=kommt herein
-|1.Vergangenheit_ich=kam herein
+|Präsens_ich=komme herein
+|Präsens_du=kommst herein
+|Präsens_er, sie, es=kommt herein
+|Präteritum_ich=kam herein
 |Partizip II=hereingekommen
 |Konjunktiv II_ich=käme herein
-|Imperativ Singular=komm herein!<br /> (''auch einfach:'' „Herein“!)
-|Imperativ Plural=kommt herein!<br /> (''auch einfach:'' „Herein“!)
+|Imperativ Singular=komm herein
+|Imperativ Plural=kommt herein
 |Hilfsverb=sein
 }}
 
@@ -18,11 +18,11 @@
 
 {{Aussprache}}
 :{{IPA}} {{Lautschrift|hɛˈʀaɪ̯nˌkɔmən}}, {{Prät.}} {{Lautschrift|ˌkaːm hɛˈʀaɪ̯n}}, {{Part.}} {{Lautschrift|hɛˈʀaɪ̯nɡəˌkɔmən}}
-:{{Hörbeispiele}} {{Audio|}}, {{Prät.}} {{Audio|}}, {{Part.}} {{Audio|}}
+:{{Hörbeispiele}} {{Audio|De-hereinkommen.ogg}}, {{Prät.}} {{Audio|De-kam herein.ogg|kam herein}}, {{Part.}} {{Audio|De-hereingekommen.ogg|hereingekommen}}
 
 {{Bedeutungen}}
 :[1] (von innen gesehen) ins [[Innere]] [[gelangen]]
-:[2] [[eingehen]] von [[Ware]]
+:[2] [[ankommen]] einer [[Ware]]nlieferung
 :[3] sich bezahlt machen
 
 {{Abkürzungen}}
@@ -46,24 +46,25 @@
 {{Beispiele}}
 :[1] Bei dem Sturm heute werden wohl noch viele Segler ''hereinkommen.''
 :[2] Es ist viel neue Ware ''hereingekommen.''
+:[3] Wir werden nun schließen; viel ist heute nicht ''hereingekommen.''
 
 {{Wortbildungen}}
 :[[Hereinkommen]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{eu}}: [1] {{Ü|eu|sartu}}, [1] {{Ü|eu|ailegatu}}
-*{{zh-cn}}: [1] {{Üt|zh|进来|jìnlái}}
-*{{zh-tw}}: [1] {{Üt|zh|進來|jìnlái}}
-*{{en}}: [1] {{Ü|en|come in}}
+*{{eu}}: [1] {{Ü|eu|sartu}}, {{Ü|eu|ailegatu}}
+*{{zh}}:
+**{{zh-tw}}: [1] {{Üt|zh|進來|jìnlái}}
+**{{zh-cn}}: [1] {{Üt|zh|进来|jìnlái}}
+*{{en}}: [1] to {{Ü|en|come in}}
 |Ü-rechts=
 *{{ja}}: [1] {{Üt|ja|入る|はいる, hairu}}
 *{{sv}}: [1, 2] {{Ü|sv|komma in}}
 *{{es}}: [1] {{Ü|es|entrar}}
 |Dialekttabelle=
-*Alemannisch:
-|D-rechts=
 *{{nds}}: [1] 'rinkaamen/'rinkoomen, [2] Kaam/Koom in!
+|D-rechts=
 }}
 
 {{Referenzen}}

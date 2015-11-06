@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Interessenvertretung
-|Nominativ Plural=die Interessenvertretungen
-|Genitiv Singular=der Interessenvertretung
-|Genitiv Plural=der Interessenvertretungen
-|Dativ Singular=der Interessenvertretung
-|Dativ Plural=den Interessenvertretungen
-|Akkusativ Singular=die Interessenvertretung
-|Akkusativ Plural=die Interessenvertretungen
+|Genus=f
+|Nominativ Singular=Interessenvertretung
+|Nominativ Plural=Interessenvertretungen
+|Genitiv Singular=Interessenvertretung
+|Genitiv Plural=Interessenvertretungen
+|Dativ Singular=Interessenvertretung
+|Dativ Plural=Interessenvertretungen
+|Akkusativ Singular=Interessenvertretung
+|Akkusativ Plural=Interessenvertretungen
 }}
 
 {{Worttrennung}}
@@ -28,6 +29,7 @@
 
 {{Beispiele}}
 :[1] „Ansonsten hat sich aber die sexuelle Aufklärung dank der zahllosen Illustriertenartikel, Talkshows, Ratgeber, Interessenvertretungen und ''Selbsthilfegruppen'' flächendeckend weit verbreitet.“<ref>Hans Magnus Enzensberger: ''Muss Sex sein, und wenn ja, wie?'' In: ''DER SPIEGEL'' 4, 2012, Seite 116-117, Zitat Seite 116f.</ref>
+:[1] „Während manche Wolfskinder hoffen, dass der Verein ihnen helfen wird, Verwandte in Deutschland zu finden, hoffen andere auf eine wirksame ''Interessenvertretung'' auf politischer Ebene.“<ref>{{Literatur | Autor= Sonya Winterberg | Titel= Wir sind die Wolfskinder |TitelErg= Verlassen in Ostpreußen |Verlag= Piper | Ort= München/Zürich  |Jahr= 2014| Seiten = 276.| ISBN= 978-3-492-30264-7|}}</ref>
 :[2] „Die ''Interessenvertretung'' Selbstbestimmt Leben in Deutschland e.V. - ISL ist eine von behinderten Menschen selbst getragene Organisation und ein Zusammenschluss der Zentren für selbstbestimmtes Leben.“<ref>[http://www.isl-ev.de/ ISL - Selbstbestimmt Leben in Deutschland e.V.] Zugriff 28.1.12.</ref>
 
 ==== Übersetzungen ====

@@ -2,22 +2,24 @@
 === {{Wortart|Indefinitpronomen|Deutsch}}, {{m}}, {{f}}, {{n}} ===
 
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=irgendwelcher
-|Wer oder was? (Einzahl f)=''irgendwelche''
-|Wer oder was? (Einzahl n)=irgendwelches
-|Wer oder was? (Mehrzahl)=''irgendwelche''
-|Wessen? (Einzahl m)=irgendwelches</br>irgendwelchen
-|Wessen? (Einzahl f)=irgendwelcher
-|Wessen? (Einzahl n)=irgendwelches</br>irgendwelchen
-|Wessen? (Mehrzahl)=irgendwelcher
-|Wem? (Einzahl m)=irgendwelchem
-|Wem? (Einzahl f)=irgendwelcher
-|Wem? (Einzahl n)=irgendwelchem
-|Wem? (Mehrzahl)=irgendwelchen
-|Wen? (Einzahl m)=irgendwelchen
-|Wen? (Einzahl f)=''irgendwelche''
-|Wen? (Einzahl n)=irgendwelches
-|Wen? (Mehrzahl)=''irgendwelche''
+|Nominativ Singular m=irgendwelcher
+|Nominativ Singular f=irgendwelche
+|Nominativ Singular n=irgendwelches
+|Nominativ Plural=irgendwelche
+|Genitiv Singular m=irgendwelches
+|Genitiv Singular m*=irgendwelchen
+|Genitiv Singular f=irgendwelcher
+|Genitiv Singular n=irgendwelches
+|Genitiv Singular n*=irgendwelchen
+|Genitiv Plural=irgendwelcher
+|Dativ Singular m=irgendwelchem
+|Dativ Singular f=irgendwelcher
+|Dativ Singular n=irgendwelchem
+|Dativ Plural=irgendwelchen
+|Akkusativ Singular m=irgendwelchen
+|Akkusativ Singular f=irgendwelche
+|Akkusativ Singular n=irgendwelches
+|Akkusativ Plural=irgendwelche
 }}
 
 {{Worttrennung}}
@@ -37,7 +39,7 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|}}
+*{{en}}: [1] {{Ü|en|any}}, {{Ü|en|some}}
 |Ü-rechts=
 *{{fr}}: [1] {{Ü|fr|}}
 }}
@@ -50,4 +52,5 @@
 {{Quellen}}
 
 [[br:irgendwelche]]
+[[en:irgendwelche]]
 [[pl:irgendwelche]]

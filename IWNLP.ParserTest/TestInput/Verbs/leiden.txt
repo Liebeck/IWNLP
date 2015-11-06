@@ -2,14 +2,15 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=leide
-|Gegenwart_du=leidest
-|Gegenwart_er, sie, es=leidet
-|1.Vergangenheit_ich=litt
+|Präsens_ich=leide
+|Präsens_du=leidest
+|Präsens_er, sie, es=leidet
+|Präteritum_ich=litt
 |Partizip II=gelitten
 |Konjunktiv II_ich=litte
-|Imperativ Singular=leide!<br />''selten:'' leid!
-|Imperativ Plural=leidet!
+|Imperativ Singular=leide
+|Imperativ Singular*=''selten:'' leid
+|Imperativ Plural=leidet
 |Hilfsverb=haben
 }}
 
@@ -60,6 +61,7 @@
 |Ü-rechts=
 *{{nl}}: [1] {{Ü|nl|lijden}}
 *{{no}}: [1] {{Ü|no|lide}}
+*{{ru}}: [1] {{Ü|ru|страдать}}
 *{{sv}}: [1] {{Ü|sv|lida}}; [2] {{Ü|sv|tåla}}
 *{{es}}: [1] {{Ü|es|sufrir}}, {{Ü|es|padecer}}; [2] {{Ü|es|soportar}}
 *{{cs}}: [1] {{Ü|cs|trpět}}

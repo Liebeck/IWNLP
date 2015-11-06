@@ -1,1 +1,1 @@
-﻿{{Deutsch Verb regelmäßig|Infinitiv=einteilig|Teil 1=general|überh|o|l|e|n|generalüberholt|Imperativ Präsens Aktiv=0|Präsens Aktiv=0|Präteritum Aktiv=0|Partizip I=0|gerund=0|vp=vp3|zp=zp3}}
+﻿{{Deutsch Verb unregelmäßig|ein|2=geb|3=gab|4=gäb|5=gegeben|6=gib|8=i|vp=sie_werden|zp=sie_sind|gerund=ja}}

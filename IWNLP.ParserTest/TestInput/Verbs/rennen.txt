@@ -2,16 +2,17 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=renne
-|Gegenwart_du=rennst
-|Gegenwart_er, sie, es=rennt
-|1.Vergangenheit_ich=rannte
+|Präsens_ich=renne
+|Präsens_du=rennst
+|Präsens_er, sie, es=rennt
+|Präteritum_ich=rannte
 |Partizip II=gerannt
 |Konjunktiv II_ich=rennte
-|Imperativ Singular=renn!<br />renne!
-|Imperativ Plural=rennt!
+|Imperativ Singular=renn
+|Imperativ Singular*=renne
+|Imperativ Plural=rennt
 |Hilfsverb=sein
-|Weitere_Konjugationen=rennen (Konjugation)
+|Bild=Women 800 m French Athletics Championships 2013 t161139.jpg|thumb|1|{{K|Sport}} [[Frau]]en ''rennen'' in einem [[Leichtathletikwettbewerb]]
 }}
 
 {{Worttrennung}}
@@ -27,6 +28,9 @@
 
 {{Herkunft}}
 :[[Althochdeutsch]] ''rennen'' „laufen [[machen]]“, [[Kausativ]] zu [[rinnen]] <ref>{{Ref-Duden|rennen}}</ref>
+
+{{Synonyme}}
+:[1] [[laufen]]
 
 {{Sinnverwandte Wörter}}
 :[1] [[breschen]], [[eilen]], [[fegen]], [[flitzen]], [[hasten]], [[hetzen]], [[jagen]], [[preschen]], [[rasen]], [[sausen]], [[sprinten]], [[spurten]], [[stürmen]], [[stürzen]], [[wetzen]]
@@ -109,7 +113,9 @@
 [[pl:rennen]]
 [[pt:rennen]]
 [[ru:rennen]]
+[[sv:rennen]]
 [[sw:rennen]]
+[[tg:rennen]]
 [[tr:rennen]]
 [[vi:rennen]]
 [[zh:rennen]]

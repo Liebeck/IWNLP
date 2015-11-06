@@ -1,28 +1,28 @@
-﻿{{erweitern|Man sollte nach Wortarten in Abschnitte trennen, dann wird alles organisierter und klarer.|Deutsch}}
-
-== beide ({{Sprache|Deutsch}}) ==
+﻿== beide ({{Sprache|Deutsch}}) ==
 === {{Wortart|Indefinitpronomen|Deutsch}}, {{Wortart|Numerale|Deutsch}} ===
-{{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=—
-|Wer oder was? (Einzahl f)=—
-|Wer oder was? (Einzahl n)=beides
-|Wer oder was? (Mehrzahl)=beide<br/>beiden
-|Wessen? (Einzahl m)=—
-|Wessen? (Einzahl f)=—
-|Wessen? (Einzahl n)=—
-|Wessen? (Mehrzahl)=beider<br/>beiden
-|Wem? (Einzahl m)=—
-|Wem? (Einzahl f)=—
-|Wem? (Einzahl n)=beidem
-|Wem? (Mehrzahl)=beiden
-|Wen? (Einzahl m)=—
-|Wen? (Einzahl f)=—
-|Wen? (Einzahl n)=beides
-|Wen? (Mehrzahl)=beider<br/>beiden
-}}
-{{Anmerkung}}
-:''Wortart:'' Die Wortart von beide ist verschieden; es kann sowohl als auch Indefinitpronomen ''(Ich habe beides gekauft.; Beide Schwestern haben ein Auto.)'' sowie als Zahlwort ''(Die beiden Autos sind kaputt.)''
-:''Rechtschreibung:'' Das Wort ''beide'' wird nach der neuen Rechtschreibung in allen Fällen kleingeschrieben.
+
+{| class="wikitable float-right hintergrundfarbe2" style="margin:0 0 .2em .4em;"
+! rowspan="2" |  !! [[Hilfe:Singular|Singular]] !! [[Hilfe:Plural|Plural]] !! [[Hilfe:Plural|Plural]]
+|-
+! <small>(sächlich,<br/>nur substantivisch)</small> !!  !! <small>(mit dem bestimmten Artikel<br/>und ähnlichem)</small>
+|-
+! [[Hilfe:Nominativ|Nominativ]]
+| beides || beide || <small>die</small> beiden
+|-
+! [[Hilfe:Genitiv|Genitiv]]
+| beides || beider || <small>der</small> beiden
+|-
+! [[Hilfe:Dativ|Dativ]]
+| beidem || beiden || <small>den</small> beiden
+|-
+! [[Hilfe:Akkusativ|Akkusativ]]
+| beides || beide || <small>die</small> beiden
+|}
+
+{{Anmerkung|Wortart}}
+* ''beide'' wird als [[Indefinitpronomen]] bezeichnet (Ich habe beides gekauft. Beide Schwestern haben ein Auto.), und auch als [[Zahlwort]] (Die beiden Autos sind kaputt.)
+{{Anmerkung|Rechtschreibung}}
+* ''beide'' wird nach der neuen Rechtschreibung kleingeschrieben; im älteren Sprachgebrauch (19. Jahrhundert) wurde es bei substantivischem Gebrauch zuweilen auch großgeschrieben (ich habe aber Beide gesehen!)
 
 {{Worttrennung}}
 :bei·de
@@ -33,37 +33,45 @@
 :{{Reime}} {{Reim|aɪ̯də|Deutsch}}
 
 {{Bedeutungen}}
-:[1] Indefinitpronomen: ''zeigt an, dass es sich nicht nur um ''einen'' der ''zwei'' in Frage kommenden Gegenstände handelt''
-:[2] Numerale: ''steht anstelle von [[zwei]], um anzudeuten, dass die Zweizahl des Gezählten allgemein oder aus dem Vorhererwähnten bekannt ist.''
+:[1] ''Indefinitpronomen: zeigt an, dass es sich nicht nur um einen der zwei in Frage kommenden Gegenstände handelt:'' sowohl der/die/das eine als auch der/die/das andere
+:[2] ''Numerale: betont, dass die Zweizahl des Gezählten allgemein oder aus dem Vorhererwähnten bekannt ist, steht anstelle von:'' [[zwei]]
 
 {{Synonyme}}
+:[1] [[sowohl]] [[als]] [[auch]]
 :[2] (die) [[zwei]]
 
+{{Gegenwörter}}
+:[1] [[kein]]
+:[2] [[ein]], [[drei]], [[vier]]
+
 {{Beispiele}}
-:[1] ''Beide'' Autos sind kaputt.
-:[1, 2] Die ''beiden'' Autos sind kaputt.
+:[1] Wie, ich kann statt Papas auch Mamas Auto benutzen, ''beide'' Autos sind kaputt!
+:[1] Die Eltern sind nicht zu Hause. ''Beide'' müssen arbeiten.
 :[2] Kennst du diese ''beiden?''
+:[2] Ich kann mich nicht entscheiden, ob ich die ''beiden'' da möchte oder doch lieber die drei da.
 
 {{Charakteristische Wortkombinationen}}
 :[1] ''beide'' [[Mal]](e)
 :[2] [[eins|einer]] von ''beiden''
-:[3] die ''beiden''
 
 {{Wortbildungen}}
 :[[beiderlei]], [[beidhändig]], [[beiderseitig]], [[beiderseits]], [[beidseitig]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{grc}}: [1] {{Ü|grc|ἄμφω}}, {{Ü|grc|ἀμφότεροι}}
+*{{grc}}: [1] {{Üt|grc|ἄμφω|ámphō}}, {{Üt|grc|ἀμφότεροι|amphóteroi}}
 *{{en}}: [1] {{Ü|en|both}}; [2] {{Ü|en|two}}
 *{{eo}}: [1] {{Ü|eo|ambaŭ}}
 *{{fi}}: [1] {{Ü|fi|kumpikin}}, {{Ü|fi|molemmat}}
 *{{fr}}: [1, 2] {{Ü|fr|les deux}}
+*{{el}}: [1, 2] {{Üt|el|δύο|ke i dýo|και οι δύο}}, {{Üt|el|αμφότεροι|amfóteri}}
 *{{ja}}: [1] {{Üt|ja|両方の|りょうほうの, ryôhô no}}
+*{{la}}: [1] {{Ü|la|ambo}}
 |Ü-rechts=
-*{{lv}}: [1] {{Ü|lv|abi}} ''m'', {{Ü|lv|abas}} ''f''
+*{{lv}}: [1] {{Ü|lv|abi}} {{m}}, {{Ü|lv|abas}} {{f}}{{}}
 *{{pl}}: [1] {{Ü|pl|oboje}}
-*{{ru}}: [1] {{Ü|ru|оба}}
+*{{pt}}: [1] {{Ü|pt|ambos}}; [2] {{Ü|pt|dois}}
+*{{ru}}: [1] {{Üt|ru|оба|}}
 *{{sv}}: [1, 2] {{Ü|sv|båda}}, {{Ü|sv|bägge}}
 *{{es}}: [1] {{Ü|es|ambos}}
 *{{tr}}: [1] {{Ü|tr|iki}}, {{Ü|tr|her iki}}; [2] {{Ü|tr|ikisi}}
@@ -71,11 +79,13 @@
 }}
 
 {{Referenzen}}
-:[1] {{Ref-DWDS|beide}}
-:[1] {{Ref-Duden|beide}}
+:[1, 2] {{Ref-DWDS|beide}}
+:[1, 2] {{Ref-FreeDictionary}}
+:[1, 2] {{Ref-Duden|beide}}
 
 [[chr:beide]]
 [[da:beide]]
+[[el:beide]]
 [[en:beide]]
 [[eo:beide]]
 [[fi:beide]]

@@ -1,23 +1,28 @@
 ﻿== welcher ({{Sprache|Deutsch}}) ==
 === {{Wortart|Interrogativpronomen|Deutsch}}, {{mf}} ===
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=welcher
-|Wer oder was? (Einzahl f)=welche
-|Wer oder was? (Einzahl n)=welches
-|Wer oder was? (Mehrzahl)=welche
-|Wessen? (Einzahl m)=welches<br />welchen
-|Wessen? (Einzahl f)=welcher
-|Wessen? (Einzahl n)=welches<br />welchen
-|Wessen? (Mehrzahl)=welcher
-|Wem? (Einzahl m)=welchem
-|Wem? (Einzahl f)=welcher
-|Wem? (Einzahl n)=welchem
-|Wem? (Mehrzahl)=welchen
-|Wen? (Einzahl m)=welchen
-|Wen? (Einzahl f)=welche
-|Wen? (Einzahl n)=welches
-|Wen? (Mehrzahl)=welche
+|Nominativ Singular m=welcher
+|Nominativ Singular f=welche
+|Nominativ Singular n=welches
+|Nominativ Plural=welche
+|Genitiv Singular m=welches
+|Genitiv Singular m*=welchen
+|Genitiv Singular f=welcher
+|Genitiv Singular n=welches
+|Genitiv Singular n*=welchen
+|Genitiv Plural=welcher
+|Dativ Singular m=welchem
+|Dativ Singular f=welcher
+|Dativ Singular n=welchem
+|Dativ Plural=welchen
+|Akkusativ Singular m=welchen
+|Akkusativ Singular f=welche
+|Akkusativ Singular n=welches
+|Akkusativ Plural=welche
 }}
+
+{{Anmerkung|zum Genitiv}}
+:Der alternative Genitiv ''welchen'' kann nur mit Substantiven benutzt werden, die den Genitiv mit ''-es/-s'' bilden.<ref>canoo.net „[http://www.canoo.net/services/OnlineGrammar/InflectionRules/FRegeln-P/Besonderheiten/Genitiv-es-en.html Genitiv ''es'' und ''en'']“</ref>
 
 {{Worttrennung}}
 :wel·cher, {{Pl.}} wel·che
@@ -43,8 +48,8 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{grc}}: [1] {{Ü|grc|tis|τίς}}
-*{{ar}}: [1] {{Ü|ar|أي}}
+*{{grc}}: [1] {{Üt|grc|τίς|tis}}
+*{{ar}}: [1] {{Üt|ar|أي|}}
 *{{en}}: [1] {{Ü|en|which}} one
 *{{eo}} [1a] {{Ü|eo|kiu}}
 *{{fr}}: [1] {{Ü|fr|quel}}; ''substantivisch:'' {{Ü|fr|lequel}}
@@ -53,7 +58,7 @@
 *{{la}}: [1] {{Ü|la|qui}}
 *{{pl}}: [1a] {{Ü|pl|który}}, [1b] {{Ü|pl|której}}
 *{{pt}}: [1] {{Ü|pt|que}}; ''substantivisch:'' {{Ü|pt|qual}}
-*{{ru}}: [1] {{Ü|ru|какой}}
+*{{ru}}: [1] {{Üt|ru|какой|}}, {{Üt|ru|который из|}}
 *{{sv}}: [1] {{Ü|sv|vilken}}
 *{{wen}}:	
 **{{dsb}}: [1a] {{Ü|dsb|kótary}}, [1b] {{Ü|dsb|kótarej}}
@@ -66,26 +71,26 @@
 :[1] {{Ref-Canoo|welcher}}
 :[1] {{Ref-UniLeipzig|welcher}}
 
-{{----}}
+{{Quellen}}
 
 === {{Wortart|Relativpronomen|Deutsch}}, {{mf}} ===
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)='''welcher'''
-|Wer oder was? (Einzahl f)=welche
-|Wer oder was? (Einzahl n)=welches
-|Wer oder was? (Mehrzahl)=welche
-|Wessen? (Einzahl m)=(welches)
-|Wessen? (Einzahl f)=welcher
-|Wessen? (Einzahl n)=(welches)
-|Wessen? (Mehrzahl)=welcher
-|Wem? (Einzahl m)=welchem
-|Wem? (Einzahl f)=welcher
-|Wem? (Einzahl n)=welchem
-|Wem? (Mehrzahl)=welchen
-|Wen? (Einzahl m)=welchen
-|Wen? (Einzahl f)=welche
-|Wen? (Einzahl n)=welches
-|Wen? (Mehrzahl)=welche
+|Nominativ Singular m=welcher
+|Nominativ Singular f=welche
+|Nominativ Singular n=welches
+|Nominativ Plural=welche
+|Genitiv Singular m=welches
+|Genitiv Singular f=welcher
+|Genitiv Singular n=welches
+|Genitiv Plural=welcher
+|Dativ Singular m=welchem
+|Dativ Singular f=welcher
+|Dativ Singular n=welchem
+|Dativ Plural=welchen
+|Akkusativ Singular m=welchen
+|Akkusativ Singular f=welche
+|Akkusativ Singular n=welches
+|Akkusativ Plural=welche
 }}
 
 {{Worttrennung}}
@@ -123,10 +128,11 @@
 {{Ü-Tabelle|Ü-links=
 *{{en}}: [1] {{Ü|en|who}}, {{ugs.|:}} {{Ü|en|that}}
 *{{eo}}: [1a] {{Ü|eo|kiu}}
-*{{sr}}: [1] {{Ü|sr|[[koji]]|који}}
+*{{sr}}: [1] {{Üt|sr|који|[[koji]]}}
 |Ü-rechts=
 *{{dsb}}: [1a] {{Ü|dsb|kótaryž}}, [1b] {{Ü|dsb|kótarejež}} ''Genitiv,'' {{Ü|dsb|kótarejž}} ''Dativ,'' [1c] {{Ü|dsb|kótarychž}}
 *{{hsb}}: [1a] {{Ü|hsb|kotryž}}, [1b] {{Ü|hsb|kotrejež}} ''Genitiv,''  {{Ü|hsb|kotrejž}} ''Dativ,'' [1c] {{Ü|hsb|kotrychž}}
+*{{ru}}: [1] {{Ü|ru|который}}
 }}
 
 {{Referenzen}}
@@ -138,22 +144,22 @@
 
 === {{Wortart|Indefinitpronomen|Deutsch}}, {{mf}} und Plural ===
 {{Pronomina-Tabelle
-|Wer oder was? (Einzahl m)=''welcher''
-|Wer oder was? (Einzahl f)=welche
-|Wer oder was? (Einzahl n)=welches
-|Wer oder was? (Mehrzahl)=welche
-|Wessen? (Einzahl m)=(welches)
-|Wessen? (Einzahl f)=''welcher''
-|Wessen? (Einzahl n)=(welches)
-|Wessen? (Mehrzahl)=''welcher''
-|Wem? (Einzahl m)=welchem
-|Wem? (Einzahl f)=''welcher''
-|Wem? (Einzahl n)=welchem
-|Wem? (Mehrzahl)=welchen
-|Wen? (Einzahl m)=welchen
-|Wen? (Einzahl f)=welche
-|Wen? (Einzahl n)=welches
-|Wen? (Mehrzahl)=welche
+|Nominativ Singular m=''welcher''
+|Nominativ Singular f=welche
+|Nominativ Singular n=welches
+|Nominativ Plural=welche
+|Genitiv Singular m=(welches)
+|Genitiv Singular f=''welcher''
+|Genitiv Singular n=(welches)
+|Genitiv Plural=''welcher''
+|Dativ Singular m=welchem
+|Dativ Singular f=''welcher''
+|Dativ Singular n=welchem
+|Dativ Plural=welchen
+|Akkusativ Singular m=welchen
+|Akkusativ Singular f=welche
+|Akkusativ Singular n=welches
+|Akkusativ Plural=welche
 }}
 
 {{Worttrennung}}
@@ -209,7 +215,9 @@
 [[en:welcher]]
 [[fi:welcher]]
 [[fr:welcher]]
+[[hu:welcher]]
 [[io:welcher]]
+[[ja:welcher]]
 [[ku:welcher]]
 [[mg:welcher]]
 [[pl:welcher]]

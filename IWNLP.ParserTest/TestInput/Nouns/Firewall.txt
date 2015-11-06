@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{fm}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Firewall
-|Nominativ Plural=die Firewalls
-|Genitiv Singular=der Firewall
-|Genitiv Plural=der Firewalls
-|Dativ Singular=der Firewall
-|Dativ Plural=den Firewalls
-|Akkusativ Singular=die Firewall
-|Akkusativ Plural=die Firewalls
+|Genus=f
+|Nominativ Singular=Firewall
+|Nominativ Plural=Firewalls
+|Genitiv Singular=Firewall
+|Genitiv Plural=Firewalls
+|Dativ Singular=Firewall
+|Dativ Plural=Firewalls
+|Akkusativ Singular=Firewall
+|Akkusativ Plural=Firewalls
 }}
 
 {{Worttrennung}}
@@ -45,7 +46,7 @@
 |Ü-rechts=
 *{{sv}}: [1] {{Ü|sv|brandvägg}}
 *{{es}}: [1] {{Ü|es|cortafuegos}} {{m}} ''Plural''
-*{{ru}}: [1] {{Ü|ru|файрволл}}, {{Ü|ru|брандмауэр}}
+*{{ru}}: [1] {{Üt|ru|файрволл|}}, {{Üt|ru|брандмауэр|}}
 }}
 
 {{Referenzen}}
@@ -59,6 +60,7 @@
 [[fi:Firewall]]
 [[fr:Firewall]]
 [[hu:Firewall]]
+[[pl:Firewall]]
 [[ru:Firewall]]
 [[sv:Firewall]]
 [[zh:Firewall]]

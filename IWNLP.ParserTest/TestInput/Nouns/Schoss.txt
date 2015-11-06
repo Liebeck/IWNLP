@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Schoss
-|Nominativ Plural=die Schosse
-|Genitiv Singular=des Schosses
-|Genitiv Plural=der Schosse
-|Dativ Singular=dem Schoss
-|Dativ Plural=den Schossen
-|Akkusativ Singular=den Schoss
-|Akkusativ Plural=die Schosse
+|Genus=m
+|Nominativ Singular=Schoss
+|Nominativ Plural=Schosse
+|Genitiv Singular=Schosses
+|Genitiv Plural=Schosse
+|Dativ Singular=Schoss
+|Dativ Plural=Schossen
+|Akkusativ Singular=Schoss
+|Akkusativ Plural=Schosse
 }}
 
 {{Worttrennung}}
@@ -45,5 +46,8 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 {{Schweizer und Liechtensteiner Schreibweise|Schoß}}
 
+[[en:Schoss]]
+[[fi:Schoss]]
 [[io:Schoss]]
+[[mg:Schoss]]
 [[zh:Schoss]]

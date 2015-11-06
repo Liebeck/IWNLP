@@ -35,8 +35,9 @@
 {{Ü-Tabelle|Ü-links=
 *{{en}}: [1] {{Ü|en|}}
 *{{fr}}: [1] {{Ü|fr|}}
-*{{el}}: [1] {{Üxx|el|xéni|ξένη}} {{f}}
+*{{el}}: [1] {{Üt|el|ξένη|xéni}} {{f}}
 |Ü-rechts=
+*{{ru}}: [1] {{Üt?|ru|чужая|}}, {{Üt?|ru|незнакомка|}}, {{Üt?|ru|посторонняя|}}; [2] {{Üt?|ru|чужестранка|}}
 *{{sv}}: [1] {{Ü|sv|främmande kvinna}}; [1, 2] {{Ü|sv|främling}}
 *{{es}}: [1] {{Ü|es|desconocida}} {{f}}, [2] {{Ü|es|extranjera}} {{f}}, {{Ü|es|forastera}} {{f}}
 }}
@@ -52,13 +53,14 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Fremde
+|Genus=f
+|Nominativ Singular=Fremde
 |Nominativ Plural=—
-|Genitiv Singular=der Fremde
+|Genitiv Singular=Fremde
 |Genitiv Plural=—
-|Dativ Singular=der Fremde
+|Dativ Singular=Fremde
 |Dativ Plural=—
-|Akkusativ Singular=die Fremde
+|Akkusativ Singular=Fremde
 |Akkusativ Plural=—
 }}
 
@@ -89,6 +91,7 @@
 *{{fr}}: [1] {{Ü|fr|}}
 |Ü-rechts=
 *{{it}}: [1] {{Ü|it|}}
+*{{ru}}: [1] {{Üt|ru|чужбина|}} {{f}}
 *{{sv}}: [1] {{Ü|sv|främmande land}}
 }}
 
@@ -106,5 +109,6 @@
 [[ko:Fremde]]
 [[ku:Fremde]]
 [[pl:Fremde]]
+[[ru:Fremde]]
 [[sv:Fremde]]
 [[zh:Fremde]]

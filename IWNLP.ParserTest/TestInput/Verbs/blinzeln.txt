@@ -2,16 +2,18 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=blinz(e)le
-|Gegenwart_du=blinzelst
-|Gegenwart_er, sie, es=blinzelt
-|1.Vergangenheit_ich=blinzelte
+|Präsens_ich=blinzle
+|Präsens_ich*=blinzele
+|Präsens_du=blinzelst
+|Präsens_er, sie, es=blinzelt
+|Präteritum_ich=blinzelte
 |Partizip II=geblinzelt
 |Konjunktiv II_ich=blinzelte
-|Imperativ Singular=blinz(e)le!<br /> blinzel!
-|Imperativ Plural=blinzelt!
+|Imperativ Singular=blinzle
+|Imperativ Singular*=blinzele
+|Imperativ Singular*=blinzel
+|Imperativ Plural=blinzelt
 |Hilfsverb=haben
-|Weitere_Konjugationen=blinzeln (Konjugation)
 |Bild=Eye opening and closing.gif|Ein blinzelndes Auge (in Slow-motion)
 }}
 

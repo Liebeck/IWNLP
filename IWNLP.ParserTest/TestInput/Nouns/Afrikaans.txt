@@ -44,12 +44,12 @@
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{ar}}: [1] {{Üxx|ar|afrīqāniya|أفريقانية}}
-*{{hy}}: [1] {{Üxx|hy|Ap`rik`ana|Ափրիքանա}}
+*{{ar}}: [1] {{Üt|ar|أفريقانية|afrīqāniya}}
+*{{hy}}: [1] {{Üt|hy|Ափրիքանա|Ap`rik`ana}}
 *{{az}}: [1] {{Ü|az|afrikaans}} / {{Ü|az|африкаанс}}
 *{{eu}}: [1] Afrikaans
 *{{br}}: [1] Afrikaans
-*{{bg}}: [1] {{Üxx|bg|afrikanski|африкански}}
+*{{bg}}: [1] {{Üt|bg|африкански|afrikanski}}
 *{{da}}: [1] {{Ü|da|afrikaans}}
 *{{en}}: [1] {{Ü|en|Afrikaans}}
 *{{eo}}: [1] {{Ü|eo|Afrikanso}}, {{Ü|eo|Afrikansa lingvo}}
@@ -57,48 +57,49 @@
 *{{fo}}: [1] {{Ü|fo|afríska}}
 *{{fi}}: [1] {{Ü|fi|afrikaans}}
 *{{fr}}: [1] {{Ü|fr|afrikaans}} {{m}}
-*{{el}}: [1] {{Üxx|el|Afrikánika|Αφρικάνικα}} {{nPl.}}
-*{{he}}: [1] {{Üxx|he|aprikans|אפריקאנס}}
-*{{hi}}: [1] {{Üxx|hi|aphrīkāṁs|अफ्रीकांस}}
+*{{el}}: [1] {{Üt|el|Αφρικάνικα|Afrikánika}} {{nPl.}}
+*{{he}}: [1] {{Üt|he|אפריקאנס|aprikans}}
+*{{hi}}: [1] {{Üt|hi|अफ्रीकांस|aphrīkāṁs}}
 *{{id}}: [1] „([[bahasa]]) {{Ü|id|Afrika}}“
 *{{ga}}: [1] {{Ü|ga|Afracáinis}}
 *{{zu}}: [1] {{Ü|zu|Isafrikansi}}
 *{{is}}: [1] {{Ü|is|afríkanska}}
 *{{it}}: [1] {{Ü|it|afrikaans}}
-*{{ja}}: [1] {{Üxx|ja|afurikānsu-go|アフリカーンス語}}
+*{{ja}}: [1] {{Üt|ja|アフリカーンス語|afurikānsu-go}}
 *{{ca}}: [1] {{Ü|ca|afrikaans}}
 *{{hr}}: [1] {{Ü|hr|afrikaans}}
-*{{ku}}: [1] {{Ü|ku|Efrîqî}}
+*{{ku}}: [1] {{Üt|ku|Efrîqî|}}
 *{{lv}}: [1] {{Ü|lv|Afrikandu}}
 *{{lt}}: [1] {{Ü|lt|Afrikansas}}
+*{{lb}}: [1] {{Ü|lb|Afrikaans}}
 *{{ms}}: [1]  „([[bahasa]]) {{Ü|ms|Afrika}}“
 *{{mt}}: [1] {{Ü|mt|Afrikans}}
 |Ü-rechts=
-*{{mk}}: [1] {{Üxx|mk|afrikanski|африкански}}
-*{{ne}}: [1] {{Üxx|ne|aphrikālī|अफ्रिकाली}}
+*{{mk}}: [1] {{Üt|mk|африкански|afrikanski}}
+*{{ne}}: [1] {{Üt|ne|अफ्रिकाली|aphrikālī}}
 *{{nl}}: [1] {{Ü|nl|Afrikaans (Niederländisch)|Afrikaans}} {{n}}
 *{{no}}: [1] {{Ü|no|afrikaans}}
 *{{hsb}}: [1] {{Ü|hsb|afrikaanšćina}}, {{Ü|hsb|afrikaans}}
 *{{oc}}: [1] {{Ü|oc|africans}}
-*{{fa}}: [1] {{Üxx|fa|afrīqāī|آفريقايى}}
-*{{pl}}: [1] {{Ü|pl|afrykanerski}} {{m}}, {{Ü|pl|afrikaans#afrikaans (Polnisch)|afrikaans}} {{m}}
+*{{fa}}: [1] {{Üt|fa|آفريقايى|afrīqāī}}
+*{{pl}}: [1] {{Ü|pl|afrykanerski}} {{m}}, {{Ü|pl|afrikaans}} {{m}}
 *{{pt}}: [1] {{Ü|pt|Africano}}
 *{{ro}}: [1] {{Ü|ro|afrikaans}}
-*{{ru}}: [1] {{Üxx|ru|afrikaans|африкаанс}}
+*{{ru}}: [1] {{Üt|ru|африкаанс|afrikaans}}
 *{{sv}}: [1] {{Ü|sv|afrikaans}}
-*{{sr}}: [1] {{Üxx|sr|[[afrički]]|афрички}}
+*{{sr}}: [1] {{Üt|sr|афрички|[[afrički]]}}
 *{{sk}}: [1] {{Ü|sk|afrikánsky}}
 *{{sl}}: [1] {{Ü|sl|afrikaans}}, {{Ü|sl|afrikanščina}}
 *{{es}}: [1] {{Ü|es|afrikaans}}
 *{{sw}}: [1] {{Ü|sw|Kiafrikans}}
-*{{ta}}: [1] {{Üxx|ta|āppirikkāṉsa|ஆப்பிரிக்கான்ஸ}}
-*{{tt}}: [1] {{Üxx|tt|[[afrikants]]|африканц}}
-*{{th}}: [1] {{Üxx|th||ภาษาอัฟริกาน}}, {{Üxx|th||ภาษาอัฟริกันส์}}
+*{{ta}}: [1] {{Üt|ta|ஆப்பிரிக்கான்ஸ|āppirikkāṉsa}}
+*{{tt}}: [1] {{Üt|tt|африканц|[[afrikants]]}}
+*{{th}}: [1] {{Üt|th|ภาษาอัฟริกาน|}}, {{Üt|th|ภาษาอัฟริกันส์|}}
 *{{cs}}: [1] {{Ü|cs|Afrikánština}} {{f}}, {{Ü|cs|afrikánský}} (Adj.)
 *{{tr}}: [1] {{Ü|tr|Afrikanca}}, {{Ü|tr|Afrikaanca}}
-*{{uk}}: [1] {{Üxx|uk|afrykans|африканс}}
+*{{uk}}: [1] {{Üt|uk|африканс|afrykans}}
 *{{hu}}: [1] {{Ü|hu|afrikánsz}}
-*{{ur}}: [1] {{Üxx|ur|īfrīkānz|ايفريکانز}}
+*{{ur}}: [1] {{Üt|ur|ايفريکانز|īfrīkānz}}
 *{{vi}}: [1] {{Ü|vi|Tiếng Hà lan ở Kếp}}
 *{{cy}}: [1] {{Ü|cy|Affricaneg}}
 *{{fy}}: [1] {{Ü|fy|Afrikaansk}}
@@ -141,14 +142,17 @@
 [[hr:Afrikaans]]
 [[hu:Afrikaans]]
 [[id:Afrikaans]]
+[[io:Afrikaans]]
 [[is:Afrikaans]]
 [[it:Afrikaans]]
+[[ja:Afrikaans]]
 [[km:Afrikaans]]
 [[ko:Afrikaans]]
 [[ku:Afrikaans]]
 [[lb:Afrikaans]]
 [[li:Afrikaans]]
 [[lt:Afrikaans]]
+[[lv:Afrikaans]]
 [[mg:Afrikaans]]
 [[my:Afrikaans]]
 [[nds:Afrikaans]]
@@ -165,3 +169,4 @@
 [[tr:Afrikaans]]
 [[uz:Afrikaans]]
 [[vi:Afrikaans]]
+[[zh:Afrikaans]]

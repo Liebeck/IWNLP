@@ -1,16 +1,17 @@
 ﻿== angrenzen ({{Sprache|Deutsch}}) ==
-=== {{Wortart|Verb|Deutsch}} ===
+=== {{Wortart|Verb|Deutsch}}, unpersönlich ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=(grenze an)
-|Gegenwart_du=(grenzt an)
-|Gegenwart_er, sie, es=grenzt an
-|1.Vergangenheit_ich=grenzte an
+|Präsens_ich=-
+|Präsens_du=-
+|Präsens_er, sie, es=grenzt an
+|Präteritum_ich=grenzte an
 |Partizip II=angegrenzt
 |Konjunktiv II_ich=grenzte an
-|Imperativ Singular=(grenze an!)
-|Imperativ Plural=(grenzt an!)
+|Imperativ Singular=-
+|Imperativ Plural=-
 |Hilfsverb=haben
+|unpersönlich=ja
 }}
 
 {{Worttrennung}}
@@ -21,17 +22,17 @@
 :{{Hörbeispiele}}
 
 {{Bedeutungen}}
-:[1] mit etwas eine gemeinsame Grenze haben
+:[1] {{K|intrans.}} mit etwas eine gemeinsame Grenze haben; benachbart sein
 
 {{Beispiele}}
 :[1] Die Wiese ''grenzt'' an den Wald ''an''.
-
+{{Absatz}}
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{en}}: [1] {{Ü|en|}}
+*{{en}}: [1] {{Ü|en|border on}}, {{Ü|en|abut on}}
 *{{fr}}: [1] {{Ü|fr|être attenant (à)}}, {{Ü|fr|jouxter}}, {{Ü|fr|toucher}}, {{Ü|fr|toucher à}}, être {{Ü|fr|limitrophe}} de
 |Ü-rechts=
-*{{it}}: [1] {{Ü|it|}}
+*{{it}}: [1] {{Ü|it|confinare}}
 *{{sv}}: [1] {{Ü|sv|gränsa till}}
 }}
 

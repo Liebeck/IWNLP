@@ -5,25 +5,27 @@
 === {{Wortart|Verb|Deutsch}}, {{unreg.}}, ''regelmäßig'' ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=schere
-|Gegenwart_du=scherst
-|Gegenwart_er, sie, es=schert
-|1.Vergangenheit_ich=schor, scherte
-|Partizip II=geschoren, geschert
-|Konjunktiv II_ich=schöre, scherte
-|Imperativ Singular=schere!
-|Imperativ Plural=schert!
+|Präsens_ich=schere
+|Präsens_du=scherst
+|Präsens_er, sie, es=schert
+|Präteritum_ich=schor
+|Präteritum_ich*=scherte
+|Partizip II=geschoren
+|Partizip II*=geschert
+|Konjunktiv II_ich=schöre
+|Konjunktiv II_ich*=scherte
+|Imperativ Singular=schere
+|Imperativ Plural=schert
 |Hilfsverb=haben
-|Weitere_Konjugationen=scheren (Konjugation)
 |Bild=Sheep shearing.jpg|250px|1|Ein Schaf ''wird geschoren.''
 }}
 
 {{Anmerkungen}}
 :Dieses Verb wird noch immer stark, aber auch schon schwach konjugiert.
 :In festen Wendungen wird entweder nur die starke oder nur die schwache Form angewendet:
-:– Ich habe ihm das Fell geschoren.
-:– Sie wurden über einen Kamm geschert.
-:– bair.: Diese Leute sind lauter geschert.
+:– Ich habe ihm das Fell ''geschoren.''
+:– Sie wurden über einen Kamm ''geschert.''
+:– ''bairisch:'' Diese Leute sind lauter ''geschert.''
 
 {{Worttrennung}}
 :sche·ren, {{Prät.}} schor, scher·te, {{Part.}} ge·scho·ren, ge·schert
@@ -54,6 +56,9 @@
 :[1] [[rasieren]], [[schneiden]]
 :[2] [[stutzen]]
 
+{{Unterbegriffe}}
+:[1] [[abscheren]], [[glattscheren]], [[kahlscheren]]
+
 {{Beispiele}}
 :[1] Die Schafe müssen ''geschoren'' werden.
 :[1] Heute ''schert'' ihr endlich die Wiese.
@@ -72,12 +77,13 @@
 :[[seinen Weizen scheren]]
 
 {{Wortbildungen}}
-:[[abscheren]], [[glattscheren]], [[kahlscheren]], [[Schere]]
+:[[Schere]], [[Schermesser]], [[Schur]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
+*{{el}}: [1–3] {{Üt|el|κουρεύω|kourévo}}
 *{{pt}}: [1–3] {{Ü|pt|cortar}}, {{Ü|pt|tosquiar}}, {{Ü|pt|barbear}},[5] {{Ü|pt|podar}}
-*{{ru}}: [1–3] {{Ü|ru|стричь}}, [5] {{Ü|ru|подрезать}}
+*{{ru}}: [1–3] {{Üt|ru|стричь|}}, [5] {{Üt|ru|подрезать|}}
 |Ü-rechts=
 *{{es}}: [2] {{Ü|es|rapar}}, {{Ü|es|pelar}}, {{Ü|es|esquilar}}
 *{{tr}}: [1] {{Ü|tr|makaslamak}}
@@ -92,25 +98,25 @@
 :[*] {{Ref-Canoo|scheren}}
 :[*] {{Ref-UniLeipzig|scheren}}
 
-{{----}}
+{{Quellen}}
 
 === {{Wortart|Verb|Deutsch}}, ''überwiegend regelmäßig'' ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=schere
-|Gegenwart_du=scherst
-|Gegenwart_er, sie, es=schert,<br />''veraltend auch:'' schiert
-|1.Vergangenheit_ich=scherte
+|Präsens_ich=schere
+|Präsens_du=scherst
+|Präsens_er, sie, es=schert
+|Präsens_er, sie, es*=schiert
+|Präteritum_ich=scherte
 |Partizip II=geschert
 |Konjunktiv II_ich=scherte
-|Imperativ Singular=schere!
-|Imperativ Plural=schert!
+|Imperativ Singular=schere
+|Imperativ Plural=schert
 |Hilfsverb=haben
-|Weitere_Konjugationen=scheren (Konjugation)
 }}
 
 {{Anmerkungen}}
-:In den in diesem Abschnitt angegebenen Bedeutungen wird das Verb in fast allen Formen nur schwach konjugiert.
+:In den in diesem Abschnitt angegebenen Bedeutungen wird das Verb in fast allen Formen nur schwach konjugiert. Die Gegenwartsform ''schiert'' ist veraltend
 
 {{Worttrennung}}
 :sche·ren, {{Prät.}} scher·te, {{Part.}} ge·schert
@@ -125,7 +131,7 @@
 :[2] {{trans.|,}} {{ugs.|,}} ''zumeist verneint oder in Frageform verwendet:'' jemanden interessieren, jemanden kümmern
 
 {{Herkunft}}
-:dieses Verb geht vermutlich auf die Bedeutungen ‚[[belästigen]]‘ und ‚[[quälen]]‘ des im ersten Abschnitt des Eintrags bereits erwähnten [[mittelhochdeutsch]]en ''schern'' zurück. Möglich ist weiterhin, dass das Verb ''scheren'' im Sinne von ‚sich an einen anderen Ort begeben‘ (siehe nächsten Abschnitt) Einfluss genommen hat.<ref name="Pfeifer 1"></ref> Restlose Klarheit lässt sich in dieser Frage nicht erreichen
+:Dieses Verb geht vermutlich auf die Bedeutungen [[belästigen]] und [[quälen]] des im ersten Abschnitt des Eintrags bereits erwähnten [[mittelhochdeutsch]]en ''schern'' zurück. Möglich ist weiterhin, dass das Verb ''scheren'' im Sinne von ‚sich an einen anderen Ort begeben‘ (siehe nächsten Abschnitt) Einfluss genommen hat.<ref name="Pfeifer 1">{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, „<sup>1</sup>scheren“, Seite 1193</ref> Restlose Klarheit lässt sich in dieser Frage nicht erreichen.
 
 {{Synonyme}}
 :[2] [[interessieren]], [[kümmern]]
@@ -141,6 +147,10 @@
 :[2] Es ''scherte'' ihn nicht, was aus seiner Exfrau wurde.
 :[2] Was die Leute zu ihrem Lebenswandel sagen, ''schert'' Ilka nicht.
 
+{{Redewendungen}}
+:[[jemanden den Teufel scheren]]
+:[[sich den Teufel um etwas scheren]]
+
 {{Charakteristische Wortkombinationen}}
 :[1] sich nicht um etwas/jemanden ''scheren,'' sich einen [[Dreck]]/[[Scheißdreck]] um etwas/jemanden ''scheren,'' sich einen [[Teufel]] um etwas/jemanden ''scheren''
 
@@ -149,7 +159,7 @@
 *{{en}}: [1] {{Ü|en|}}
 *{{fr}}: [1] {{Ü|fr|}}
 |Ü-rechts=
-*{{ru}}: [1] {{Ü|ru|заботиться}}, [2] {{Ü|ru|интересоваться}}
+*{{ru}}: [1] {{Üt|ru|заботиться|}}, [2] {{Üt|ru|интересоваться|}}
 *{{es}}: [1] {{Ü|es|}}
 }}
 
@@ -159,22 +169,21 @@
 :[*] {{Ref-Canoo|scheren}}
 :[*] {{Ref-UniLeipzig|scheren}}
 
-{{----}}
+{{Quellen}}
 
 === {{Wortart|Verb|Deutsch}}, ''regelmäßig'' ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=schere
-|Gegenwart_du=scherst
-|Gegenwart_er, sie, es=schert
-|1.Vergangenheit_ich=scherte
+|Präsens_ich=schere
+|Präsens_du=scherst
+|Präsens_er, sie, es=schert
+|Präteritum_ich=scherte
 |Partizip II=geschert
 |Konjunktiv II_ich=scherte
-|Imperativ Singular=schere!
-|Imperativ Plural=schert!
+|Imperativ Singular=schere
+|Imperativ Plural=schert
 |Hilfsverb=haben
-|Hilfsverb2=sein
-|Weitere_Konjugationen=scheren (Konjugation)
+|Hilfsverb*=sein
 }}
 
 {{Anmerkungen}}
@@ -202,20 +211,20 @@
 {{Sinnverwandte Wörter}}
 :[1] (sich) [[entfernen]], [[fortmachen]], [[trollen]], [[verschwinden]], [[weggehen]]
 
+{{Unterbegriffe}}
+:[1] [[ausscheren]], [[einscheren]], [[fortscheren]], [[herscheren]], [[hinausscheren]], [[wegscheren]]
+
 {{Beispiele}}
 :[1] ''Scher'' dich zum Teufel!
 :[1] Du sollst dich jetzt ins Bett ''scheren!''
 :[1] Er ''hat'' sich endlich an die Arbeit ''geschert.''
-
-{{Wortbildungen}}
-:[[ausscheren]], [[einscheren]], [[fortscheren]], [[herscheren]], [[hinausscheren]], [[wegscheren]]
 
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
 *{{en}}: [1] {{Ü|en|}}
 *{{fr}}: [1] {{Ü|fr|}}
 |Ü-rechts=
-*{{ru}}: [1] {{Ü|ru|убираться}}
+*{{ru}}: [1] {{Üt|ru|убираться|}}
 *{{es}}: [1] {{Ü|es|}}
 }}
 
@@ -225,22 +234,21 @@
 :[*] {{Ref-Canoo|scheren}}
 :[*] {{Ref-UniLeipzig|scheren}}
 
-{{----}}
+{{Quellen}}
 
 === {{Wortart|Verb|Deutsch}}, ''regelmäßig'' ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=schere
-|Gegenwart_du=scherst
-|Gegenwart_er, sie, es=schert
-|1.Vergangenheit_ich=scherte
+|Präsens_ich=schere
+|Präsens_du=scherst
+|Präsens_er, sie, es=schert
+|Präteritum_ich=scherte
 |Partizip II=geschert
 |Konjunktiv II_ich=scherte
-|Imperativ Singular=schere!
-|Imperativ Plural=schert!
+|Imperativ Singular=schere
+|Imperativ Plural=schert
 |Hilfsverb=haben
-|Weitere_Konjugationen=scheren (Konjugation)
-|Bild=Collegiate National Championships 2007 Final Four, Ateneo vs. UST (2065159233).jpg|200px|3|Zwei Spieler scheren einen Gegenspieler
+|Bild=Collegiate National Championships 2007 Final Four, Ateneo vs. UST (2065159233).jpg|200px|3|Zwei Spieler ''scheren'' einen Gegenspieler
 }}
 
 {{Worttrennung}}
@@ -272,28 +280,25 @@
 {{Ü-Tabelle|Ü-links=
 *{{en}}: [1] {{Ü|en|}}
 |Ü-rechts=
-*{{fr}}: [] {{Ü|fr|}}
+*{{fr}}: [1] {{Ü|fr|}}
 }}
 
 {{Referenzen}}
 :[1–3] {{Lit-Duden: Universalwörterbuch|A=4}}, „<sup>3</sup>scheren“, Seite 1369
 :[2, 4] {{Ref-DWDS|scheren}}
 
-{{----}}
-
 === {{Wortart|Verb|Deutsch}}, {{unreg.}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=schere
-|Gegenwart_du=scherst
-|Gegenwart_er, sie, es=schert
-|1.Vergangenheit_ich=schor
+|Präsens_ich=schere
+|Präsens_du=scherst
+|Präsens_er, sie, es=schert
+|Präteritum_ich=schor
 |Partizip II=geschoren
 |Konjunktiv II_ich=schöre
-|Imperativ Singular=schere!
-|Imperativ Plural=schert!
+|Imperativ Singular=schere
+|Imperativ Plural=schert
 |Hilfsverb=haben
-|Weitere_Konjugationen=scheren (Konjugation)
 }}
 
 {{Worttrennung}}
@@ -326,7 +331,7 @@
 {{Referenzen}}
 :[1] {{Lit-Duden: Universalwörterbuch|A=4}}, „<sup>3</sup>scheren“, Seite 1369
 
-{{Quellen|}}
+{{Quellen}}
 
 [[chr:scheren]]
 [[el:scheren]]
@@ -337,9 +342,12 @@
 [[id:scheren]]
 [[io:scheren]]
 [[ko:scheren]]
+[[ku:scheren]]
 [[mg:scheren]]
 [[nl:scheren]]
+[[oc:scheren]]
 [[pl:scheren]]
+[[ru:scheren]]
 [[sv:scheren]]
 [[wa:scheren]]
 [[zh:scheren]]

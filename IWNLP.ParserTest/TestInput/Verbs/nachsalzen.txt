@@ -2,14 +2,16 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=salze nach
-|Gegenwart_du=salzt nach
-|Gegenwart_er, sie, es=salzt nach
-|1.Vergangenheit_ich=salzte nach
+|Präsens_ich=salze nach
+|Präsens_du=salzt nach
+|Präsens_er, sie, es=salzt nach
+|Präteritum_ich=salzte nach
 |Konjunktiv II_ich=salzte nach
-|Imperativ Singular=salz nach!<br />salze nach!
-|Imperativ Plural=salzt nach!
-|Partizip II=nachgesalzen<br />''selten:'' nachgesalzt
+|Imperativ Singular=salz nach
+|Imperativ Singular*=salze nach
+|Imperativ Plural=salzt nach
+|Partizip II=nachgesalzen
+|Partizip II*=''selten:'' nachgesalzt
 |Hilfsverb=haben
 }}
 

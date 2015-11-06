@@ -2,20 +2,16 @@
 === {{Wortart|Substantiv|Deutsch}}, {{f}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=die Konstante
-|Nominativ Plural=die Konstanten
-|Genitiv Singular=der Konstante
-|Genitiv Plural=der Konstanten
-|Dativ Singular=der Konstante
-|Dativ Plural=den Konstanten
-|Akkusativ Singular=die Konstante
-|Akkusativ Plural=die Konstanten
+|Genus=f
+|Nominativ Singular=Konstante
+|Nominativ Plural=Konstanten
+|Genitiv Singular=Konstante
+|Genitiv Plural=Konstanten
+|Dativ Singular=Konstante
+|Dativ Plural=Konstanten
+|Akkusativ Singular=Konstante
+|Akkusativ Plural=Konstanten
 }}
-
-{{Deutsch adjektivische Deklination f|Konstante}}
-
-{{Anmerkungen|zur Deklination}}
-:Das Wort wird im Allgemeinen substantivisch dekliniert, fachsprachlich meist adjektivisch.
 
 {{Worttrennung}}
 :Kon·s·tan·te, {{Pl.}} Kon·s·tan·ten
@@ -41,7 +37,7 @@
 {{Unterbegriffe}}
 :[1] [[Naturkonstante]], [[Proportionalitätskonstante]]
 :[1] ''spezielle Naturkonstanten, Ableitungen zu ‚Konstante‘'': [[Avogadro-Konstante]], [[Dielektrizitätskonstante]], [[Feinstrukturkonstante]], [[Gravitationskonstante]] ''und viele andere''
-:[1] ''spezielle Naturkonstanten'': [[Vakuumlichtgeschwindigkeit]], [[Plancksches Wirkungsquantum]], [[Elementarladung]], ''und viele andere''
+:[1] ''spezielle Naturkonstanten'': [[Vakuumlichtgeschwindigkeit]], [[Plancksches Wirkungsquantum]], [[Elementarladung]], [[Pi]] ''und viele andere''
 
 {{Beispiele}}
 :[1] Meine Frau und ich kannten uns schon seit der Kindheit. Sie ist eine ''Konstante'' in meinem Leben und war immer für mich da.

@@ -2,15 +2,22 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der März
-|Nominativ Plural=die Märze
-|Genitiv Singular=des März<br />des Märzes<br />dichterisch: des Märzen
-|Genitiv Plural=der Märze
-|Dativ Singular=dem März<br />dichterisch: dem Märzen
-|Dativ Plural=den Märzen
-|Akkusativ Singular=den März
-|Akkusativ Plural=die Märze
+|Genus=m
+|Nominativ Singular=März
+|Nominativ Plural=Märze
+|Genitiv Singular=März
+|Genitiv Singular*=Märzes
+|Genitiv Singular**=Märzen
+|Genitiv Plural=Märze
+|Dativ Singular=März
+|Dativ Singular*=Märzen
+|Dativ Plural=Märzen
+|Akkusativ Singular=März
+|Akkusativ Plural=Märze
 }}
+
+{{Anmerkung}}
+:die Form des/dem Märzen ist dichterisch
 
 {{Worttrennung}}
 :März, {{Pl.}} Mär·ze
@@ -84,14 +91,15 @@
 *{{ko}}: [1] {{Üt|ko|삼월|sam.wol}}
 *{{kw}}: [1] {{Ü|kw|mys merth}}
 *{{hr}}: [1] {{Ü|hr|ožujak}}
-*{{ku}}: [1] {{Ü|ku|adar}}
+*{{ku}}: [1] {{Üt|ku|adar|}}
+*{{lo}}: [01] {{Ü|lo|ເດື່ອນມິ້ນາ}}
 *{{la}}: [1] {{Ü|la|martius}} {{m}}
 *{{lv}}: [1] {{Ü|lv|marts}} {{m}}
 *{{li}}: [1] {{Ü|li|miert}}
 *{{lt}}: [1] {{Ü|lt|kovas}} {{m}}
 |Ü-rechts=
 *{{lb}}: [1] {{Ü|lb|Mäerz}}
-*{{ms}}: [1] {{Ü|ms|bulan mac}}
+*{{ms}}: [1] {{Ü?|ms|Mac}}, {{Ü?|ms|مچ}}
 *{{gv}}: [1] {{Ü|gv|Mayrnt}}
 *{{mi}}: [1] {{Ü|mi|Poutū te rangi}}, {{Ü|mi|Maehe}}
 *{{mr}}: [1] {{Üt|mr|मार्च|mārc}}
@@ -111,11 +119,11 @@
 *{{gd}}: [1] {{Ü|gd|Màrt}}
 *{{sv}}: [1] {{Ü|sv|mars}}
 *{{sr}}: [1] {{Üt|sr|март|[[mart]]}} {{m}}
+*{{st}}: [1] {{Ü|st|Hlakubele}}
 *{{scn}}: [1] {{Ü|scn|marzu}} {{m}}
 *{{sk}}: [1] {{Ü|sk|marec}} {{m}}
 *{{sl}}: [1] {{Ü|sl|marec}} {{m}}
 *{{es}}: [1] {{Ü|es|marzo}} {{m}}
-*{{st}}: [1] {{Ü|st|Hlakubele}}
 *{{tl}}: [1] {{Ü|tl|Marso}}
 *{{tt}}: [1] {{Ü|tt|mart}}
 *{{th}}: [1] {{Üt|th|มีนาคม|}}
@@ -177,6 +185,7 @@
 [[ln:März]]
 [[lo:März]]
 [[lt:März]]
+[[lv:März]]
 [[mg:März]]
 [[nl:März]]
 [[nn:März]]
@@ -187,6 +196,7 @@
 [[pt:März]]
 [[ro:März]]
 [[ru:März]]
+[[sl:März]]
 [[sv:März]]
 [[tg:März]]
 [[th:März]]

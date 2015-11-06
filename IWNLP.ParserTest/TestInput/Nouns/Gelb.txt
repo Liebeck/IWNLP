@@ -2,14 +2,19 @@
 === {{Wortart|Substantiv|Deutsch}}, {{n}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=das Gelb
-|Nominativ Plural=die Gelbs <br />(die Gelbtöne)
-|Genitiv Singular=des Gelbs
-|Genitiv Plural=der Gelbs <br />(der Gelbtöne)
-|Dativ Singular=dem Gelb
-|Dativ Plural=den Gelbs <br />(den Gelbtönen)
-|Akkusativ Singular=das Gelb
-|Akkusativ Plural=die Gelbs <br />(die Gelbtöne)
+|Genus=n
+|Nominativ Singular=Gelb
+|Nominativ Plural=Gelbs
+|Nominativ Plural*=Gelbtöne
+|Genitiv Singular=Gelbs
+|Genitiv Plural=Gelbs
+|Genitiv Plural*=Gelbtöne
+|Dativ Singular=Gelb
+|Dativ Plural=Gelbs
+|Dativ Plural*=Gelbtönen
+|Akkusativ Singular=Gelb
+|Akkusativ Plural=Gelbs
+|Akkusativ Plural*=Gelbtöne
 |Bild 1=Zeichen_306_-_Vorfahrtstraße,_StVO_1970.svg|200px|1|Eines der wenigen deutschen Verkehrszeichen mit Gelbanteilen
 |Bild 2=Andwil Oberarnegg Briefkasten.jpg|200px|1|Gelb ist die Farbe vieler Postbetriebe, hier ein Schweizer Briefkasten
 }}
@@ -48,28 +53,28 @@
 {{Absatz}}
 ==== Übersetzungen ====
 {{Ü-Tabelle|Ü-links=
-*{{hy}}: [1] {{Üxx|hy|deghin|դեղին}}
+*{{hy}}: [1] {{Üt|hy|դեղին|deghin}}
 *{{bs}}: [1] {{Ü|bs|žuta}}
-*{{zh-tw}}: [1] {{Üxx|zh|huángsè|黃色}}; [3] {{Üxx|zh|dànhuáng|蛋黃}}, {{Üxx|zh|luǎnhuáng|卵黃}}
-*{{zh-cn}}: [1] {{Üxx|zh|huángsè|黄色}}; [3] {{Üxx|zh|dànhuáng|蛋黄}}, {{Üxx|zh|luǎnhuáng|卵黄}}
+*{{zh-tw}}: [1] {{Üt|zh|黃色|huángsè}}; [3] {{Üt|zh|蛋黃|dànhuáng}}, {{Üt|zh|卵黃|luǎnhuáng}}
+*{{zh-cn}}: [1] {{Üt|zh|黄色|huángsè}}; [3] {{Üt|zh|蛋黄|dànhuáng}}, {{Üt|zh|卵黄|luǎnhuáng}}
 *{{en}}: [1] {{Ü|en|yellow}}; [3] {{Ü|en|yolk}}
 *{{et}}: [1] {{Ü|et|kollane}}
 *{{fi}}: [1] {{Ü|fi|keltainen}}, ''Gelb-, -gelb:'' {{Ü|fi|kelta}}
 *{{fr}}: [1, 3] {{Ü|fr|jaune}} {{m}}
-*{{el}}: [1] {{Üxx|el|kítrinos|κίτρινος}} {{m}}
-*{{he}}: [1] {{Ü|he|צהוב}}
+*{{el}}: [1] {{Üt|el|κίτρινος|kítrinos}} {{m}}
+*{{he}}: [1] {{Üt|he|צהוב|}}
 *{{id}}: [1] {{Ü|id|kuning}}
 *{{is}}: [1] {{Ü|is|gulur}}
 *{{it}}: [1] {{Ü|it|giallo}}; [3] {{Ü|it|rosso}}
 |Ü-rechts=
-*{{ja}}: [1] {{Üxx|ja|きいろ, kiiro|黄色}};　[2] {{Üxx|ja|ierô kâdo|イエローカード}}; [3] {{Üxx|ja|きみ, kimi|黄身}}, {{Üxx|ja|らんおう, ran'ō|卵黄}}
-*{{ko}}: [1] {{Ü|ko|노런색}}
-*{{ku}}: [1] {{Üxx|ku|zerd|زه‌رد}}
+*{{ja}}: [1] {{Üt|ja|黄色|きいろ, kiiro}};　[2] {{Üt|ja|イエローカード|ierô kâdo}}; [3] {{Üt|ja|黄身|きみ, kimi}}, {{Üt|ja|卵黄|らんおう, ran'ō}}
+*{{ko}}: [1] {{Üt|ko|노런색|}}
+*{{ku}}: [1] {{Üt|ku|زه‌رد|zerd}}
 *{{nl}}: [1, 3] {{Ü|nl|geel}}; [3] {{Ü|nl|dooier}}
 *{{no}}: [1] {{Ü|no|gul}}
 *{{pl}}: [1] {{Ü|pl|żółć}} {{f}}, {{Ü|pl|żółtosć}} {{f}}, [2] {{Ü|pl|żółta kartka}} {{f}}, [3] {{Ü|pl|żółtko}} {{n}}
 *{{pt}}: [1] {{Ü|pt|amarelo}} {{m}}
-*{{ru}}: [1] {{Üxx|ru|shólty|жёлтый}}, [3] {{Üxx|ru|sheltók|желток}}
+*{{ru}}: [1] {{Üt|ru|жёлтый|shólty}}, [3] {{Üt|ru|желток|sheltók}}
 *{{sv}}: [1] {{Ü|sv|gul}}; [2] {{Ü|sv|gult kort}}; [3] {{Ü|sv|gula}}
 *{{sl}}: [1] {{Ü|sl|rumena}}
 *{{es}}: [1] {{Ü|es|amarillo}}
@@ -86,6 +91,7 @@
 :[[Gel]], [[Geld]], [[gell]], [[gelt]], [[Gilb]], [[Selb]]
 
 [[chr:Gelb]]
+[[da:Gelb]]
 [[en:Gelb]]
 [[fi:Gelb]]
 [[fr:Gelb]]

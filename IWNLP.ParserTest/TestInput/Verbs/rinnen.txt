@@ -3,16 +3,17 @@
 === {{Wortart|Verb|Deutsch}} ===
 
 {{Deutsch Verb Übersicht
-|Gegenwart_ich=rinne
-|Gegenwart_du=rinnst
-|Gegenwart_er, sie, es=rinnt
-|1.Vergangenheit_ich=rann
+|Präsens_ich=rinne
+|Präsens_du=rinnst
+|Präsens_er, sie, es=rinnt
+|Präteritum_ich=rann
 |Partizip II=geronnen
-|Konjunktiv II_ich=ränne<br />rönne
-|Imperativ Singular=rinn!<br />rinne!
-|Imperativ Plural=rinnt!
+|Konjunktiv II_ich=ränne
+|Konjunktiv II_ich*=rönne
+|Imperativ Singular=rinn
+|Imperativ Singular*=rinne
+|Imperativ Plural=rinnt
 |Hilfsverb=haben
-|Weitere_Konjugationen=rinnen (Konjugation)
 }}
 
 {{Worttrennung}}
@@ -29,7 +30,7 @@
 :[3] {{K|intrans.|von [[Behälter]]n}} [[leck]], [[undicht]] sein; [[Flüssigkeit]] [[verlieren]]
 
 {{Herkunft}}
-:[[Erbwort]] von [[mittelhochdeutsch]] ''{{Ü|gmh|rinnen}}'', [[althochdeutsch]] ''{{Ü|goh|rinnan}}'' in der ursprünglichen Bedeutung „(sich) bewegen, in Bewegung setzen, erregt sein“<ref>{{Lit-Duden: Universalwörterbuch|A=6}}, Seite 1399, Eintrag „rinnen“.</ref>
+:[[mittelhochdeutsch]] ''rinnen'' „[[rennen]], [[schwimmen]], [[triefen]]“ und wie [[althochdeutsch]] ''rinnan'' „[[fließen]], [[laufen]]“, [[gotisch]] „laufen, rennen“, auf eine [[indoeuropäisch]]e Wurzel im Sinn „sich in Bewegung setzen“ zurückgeführt <ref>{{Ref-Duden|rinnen}}</ref><ref>{{Ref-DWDS|rinnen}}</ref>
 
 {{Sinnverwandte Wörter}}
 :[1] [[ablaufen]], [[gießen]]
@@ -67,6 +68,7 @@
 *{{it}}: [1] {{Ü|it|scorrere}}, {{Ü|it|fluire}}, {{Ü|it|colare}}
 |Ü-rechts=
 *{{ru}}: [1] {{Üt|ru|течь|tjetsch}}, {{Üt|ru|струиться|struitsja}}
+*{{sv}}: [1–3] {{Ü|sv|rinna}}
 *{{es}}: [1] {{Ü|es|fluir}}
 *{{hu}}: [1] {{Ü|hu|folyás}}
 }}
@@ -89,5 +91,7 @@
 [[ko:rinnen]]
 [[ku:rinnen]]
 [[mg:rinnen]]
+[[pl:rinnen]]
 [[ru:rinnen]]
+[[sv:rinnen]]
 [[zh:rinnen]]

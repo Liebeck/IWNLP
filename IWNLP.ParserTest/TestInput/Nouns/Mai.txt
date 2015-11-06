@@ -60,27 +60,27 @@
 {{Ü-Tabelle|Ü-links=
 *{{af}}: [1] {{Ü|af|Mei}}
 *{{sq}}: [1] {{Ü|sq|maji}}
-*{{ang}}: [1] {{Ü|ang|þrimilcemōnaþ}}
-*{{ar}}: [1] {{Üxx|ar|nīsān|نيسان}}, {{Üxx|ar|māyū|مايو}}
+*{{ar}}: [1] {{Üt|ar|نيسان|nīsān}}, {{Üt|ar|مايو|māyū}}
 *{{an}}: [1] {{Ü|an|mayo}}
-*{{hy}}: [1] {{Üxx|hy|majis|մայիս}}
+*{{hy}}: [1] {{Üt|hy|մայիս|majis}}
 *{{ast}}: [1] {{Ü|ast|mayu}}
 *{{eu}}: [1] {{Ü|eu|maiatz}}
 *{{bs}}: [1] {{Ü|bs|maj}}, {{Ü|bs|svibanj}}
-*{{bg}}: [1] {{Üxx|bg|mai|май}}
-*{{zh}}: [1] {{Üxx|zh|wǔyuè|五月}}
+*{{bg}}: [1] {{Üt|bg|май|maj}}
+*{{zh}}: [1] {{Üt|zh|五月|wǔyuè}}
 *{{da}}: [1] {{Ü|da|maj}}, {{Ü|da|majmåned}}
 *{{en}}: [1] {{Ü|en|May}}
+**{{ang}}: [1] {{Ü|ang|þrimilcemōnaþ}}
 *{{eo}}: [1] {{Ü|eo|majo}}
 *{{et}}: [1] {{Ü|et|mai}}
 *{{fo}}: [1] {{Ü|fo|mai}}
 *{{fi}}: [1] {{Ü|fi|toukokuu}}
 *{{fr}}: [1] {{Ü|fr|mai}}
 *{{gl}}: [1] {{Ü|gl|maio}}
-*{{ka}}: [1] {{Üxx|ka|maisi|მაისი}}
-*{{el}}: [1] ''Dimotiki:''{{Üxx|el|Máïs|Μάης}}, ''Kathareuusa:'' {{Üxx|el|Máïos|Μάϊος}}
-*{{he}}: [1] {{Üxx|he|mai|מאי}}
-*{{hi}}: [1] {{Üxx|hi|maī|मई}}
+*{{ka}}: [1] {{Üt|ka|მაისი|maisi}}
+*{{el}}: [1] ''Dimotiki:''{{Üt|el|Μάης|Máïs}}, ''Kathareuusa:'' {{Üt|el|Μάϊος|Máïos}}
+*{{he}}: [1] {{Üt|he|מאי|mai}}
+*{{hi}}: [1] {{Üt|hi|मई|maī}}
 *{{io}}: [1] {{Ü|io|mayo}}
 *{{id}}: [1] {{Ü|id|mei}}
 *{{ia}}: [1] {{Ü|ia|maio}}
@@ -90,15 +90,16 @@
 *{{zu}}: [1] {{Ü|zu|Meyi}}
 *{{is}}: [1] {{Ü|is|maí}}
 *{{it}}: [1] {{Ü|it|maggio}} {{m}}
-*{{ja}}: [1] {{Üxx|ja|ごがつ, gogatsu|五月}}
+*{{ja}}: [1] {{Üt|ja|五月|ごがつ, gogatsu}}
 *{{jv}}: [1] {{Ü|jv|mei}}
-*{{kn}}: [1] {{Ü|kn|ಮೇ}} (me)
+*{{kn}}: [1] {{Üt|kn|ಮೇ|me}}
 *{{csb}}: [1] {{Ü|csb|môj}}
 *{{ca}}: [1] {{Ü|ca|maig}} {{m}}
-*{{ko}}: [1] {{Üxx|ko||오월}}
+*{{ko}}: [1] {{Üt|ko|오월|owol}}
 *{{kw}}: [1] {{Ü|kw|mys me}}
 *{{hr}}: [1] {{Ü|hr|svibanj}}
-*{{ku}}: [1] {{Ü|ku|gulan}}
+*{{ku}}: [1] {{Üt|ku|gulan|}}
+*{{lo}}: [01] {{Ü|lo|ເດືອນພຶດສະພາ}}
 *{{la}}: [1] {{Ü|la|Maius}} {{m}}
 *{{li}}: [1] {{Ü|li|mei}}
 |Ü-rechts=
@@ -107,42 +108,43 @@
 *{{ms}}: [1] {{Ü|ms|mei}}
 *{{gv}}: [1] {{Ü|gv|Boaldyn}}
 *{{mi}}: [1] {{Ü|mi|haratua}}
-*{{mr}}: [1] {{Üxx|mr|me|मे}}
+*{{mr}}: [1] {{Üt|mr|मे|me}}
 *{{nl}}: [1] {{Ü|nl|mei}} {{m}}, {{Ü|nl|bloeimaand}} {{m}}
-*{{dsb}}: [1] {{Ü|dsb|maj}}
 *{{no}}: [1] {{Ü|no|mai}}
 *{{nov}}: [1] {{Ü|nov|maye}}
-*{{hsb}}: [1] {{Ü|hsb|meja}}, ''[[veraltend]]:'' {{Ü|hsb|róžownik}}
 *{{oc}}: [1] {{Ü|oc|mai}}
-*{{fa}}: [1] {{Üxx|fa|me|مه}}
+*{{fa}}: [1] {{Üt|fa|مه|me}}
 *{{pl}}: [1] {{Ü|pl|maj}} {{m}}
 *{{pt}}: [1] {{Ü|pt|maio}} {{m}}
-*{{rm}}: [1] {{Ü|rm|matg}}; ''Oberengadinisch:'' [1] {{Ü|rm|meg}}; ''Unterengadinisch:'' [1] {{Ü|rm|mai}}
+*{{rm}}: [1] {{Ü|rm|matg}}, ''Oberengadinisch:'' {{Ü|rm|meg}}, ''Unterengadinisch:'' {{Ü|rm|mai}}
 *{{ro}}: [1] {{Ü|ro|mai}}
-*{{ru}}: [1] {{Üxx|ru|maj|май}} {{m}}
+*{{ru}}: [1] {{Üt|ru|май|maj}} {{m}}
 *{{gd}}: [1] {{Ü|gd|Cèitean}}
 *{{sv}}: [1] {{Ü|sv|maj}}, ''veraltet:'' {{Ü|sv|blomstermånad}}, {{Ü|sv|lövmånad}}
-*{{sr}}: [1] {{Ü|sr|мај}} {{Ü|sr|maj}}
-*{{scn}}: [1] {{Ü|scn|maiu}}
-*{{sk}}: [1] {{Ü|sk|máj#máj (Slowakisch)|máj}} {{m}}
-*{{sl}}: [1] {{Ü|sl|maj}} {{m}}
-*{{es}}: [1] {{Ü|es|mayo}} {{m}}
+*{{sr}}: [1] {{Üt|sr|мај|}} {{Üt|sr|maj|}}
 *{{st}}: [1] {{Ü|st|Motsheanong}}
+*{{scn}}: [1] {{Ü|scn|maiu}}
+*{{sk}}: [1] {{Ü|sk|máj}} {{m}}
+*{{sl}}: [1] {{Ü|sl|maj}} {{m}}
+*{{wen}}:
+**{{dsb}}: [1] {{Ü|dsb|maj}}
+**{{hsb}}: [1] {{Ü|hsb|meja}}, ''[[veraltend]]:'' {{Ü|hsb|róžownik}}
+*{{es}}: [1] {{Ü|es|mayo}} {{m}}
 *{{tl}}: [1] {{Ü|tl|mayo}}
 *{{tt}}: [1] {{Ü|tt|may}}
-*{{th}}: [1] {{Üxx|th||พฤษภาคม}}
+*{{th}}: [1] {{Üt|th|พฤษภาคม|prueksaphākhom}}
 *{{tpi}}: [1] {{Ü|tpi|me}}
-*{{cs}}: [1] {{Ü|cs|květen}} {{m}}, {{Ü|cs|máj#máj (Tschechisch)|máj}} {{m}}
-*{{cv}}: [1] {{Üxx|cv|şu|ҫу}}
+*{{cs}}: [1] {{Ü|cs|květen}} {{m}}, {{Ü|cs|máj}} {{m}}
+*{{cv}}: [1] {{Üt|cv|ҫу|şu}}
 *{{tr}}: [1] {{Ü|tr|mayıs}}
-*{{uk}}: [1] {{Üxx|uk|trawen|травень}}
+*{{uk}}: [1] {{Üt|uk|травень|trawen}}
 *{{hu}}: [1] {{Ü|hu|május}}
-*{{ur}}: [1] {{Üxx|ur|maʾī|مئ}}
+*{{ur}}: [1] {{Üt|ur|مئ|maʾī}}
 *{{vi}}: [1] {{Ü|vi|tháng năm}}
 *{{vo}}: [1] {{Ü|vo|mayul}}
 *{{cy}}: [1] {{Ü|cy|Mai}}
 *{{wa}}: [1] {{Ü|wa|may}}
-*{{be}}: [1] {{Üxx|be|travień|травень}}
+*{{be}}: [1] {{Üt|be|травень|travień}}
 *{{fy}}: [1] {{Ü|fy|maaie}}, {{Ü|fy|blommemoanne}}
 }}
 
@@ -157,10 +159,10 @@
 
 {{Monate (Deutsch)}}
 
-{{2x----}}
+{{Ähnlichkeiten 1||Anagramme=[[Ami]], [[Mia]]}}
 
-== Mai ({{Sprache|Plattdeutsch}}) ==
-=== {{Wortart|Substantiv|Plattdeutsch}}, {{m}} ===
+== Mai ({{Sprache|Niederdeutsch}}) ==
+=== {{Wortart|Substantiv|Niederdeutsch}}, {{m}} ===
 {| style="float:right; border:1px solid #AAAAAA; margin-left:0.5em; margin-bottom:0.5em;" rules="all" cellpadding="3" cellspacing="0"
 ! width="65" bgcolor="#F4F4F4" | [[Hilfe:Kasus|Kasus]]
 ! bgcolor="#FFFFE0" | [[Hilfe:Singular|Singular]]
@@ -236,21 +238,25 @@
 [[ast:Mai]]
 [[az:Mai]]
 [[br:Mai]]
+[[ca:Mai]]
 [[cs:Mai]]
 [[cy:Mai]]
 [[da:Mai]]
 [[dv:Mai]]
 [[el:Mai]]
 [[en:Mai]]
+[[es:Mai]]
 [[et:Mai]]
 [[eu:Mai]]
 [[fi:Mai]]
 [[fr:Mai]]
 [[ga:Mai]]
+[[gd:Mai]]
 [[gl:Mai]]
 [[hr:Mai]]
 [[hu:Mai]]
 [[hy:Mai]]
+[[id:Mai]]
 [[io:Mai]]
 [[it:Mai]]
 [[ja:Mai]]
@@ -273,6 +279,7 @@
 [[pt:Mai]]
 [[ro:Mai]]
 [[ru:Mai]]
+[[sl:Mai]]
 [[sr:Mai]]
 [[sv:Mai]]
 [[th:Mai]]

@@ -2,14 +2,15 @@
 === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
 
 {{Deutsch Substantiv Übersicht
-|Nominativ Singular=der Ampelograph
-|Nominativ Plural=die Ampelographen
-|Genitiv Singular=des Ampelographen
-|Genitiv Plural=der Ampelographen
-|Dativ Singular=dem Ampelographen
-|Dativ Plural=den Ampelographen
-|Akkusativ Singular=den Ampelographen
-|Akkusativ Plural=die Ampelographen
+|Genus=m
+|Nominativ Singular=Ampelograph
+|Nominativ Plural=Ampelographen
+|Genitiv Singular=Ampelographen
+|Genitiv Plural=Ampelographen
+|Dativ Singular=Ampelographen
+|Dativ Plural=Ampelographen
+|Akkusativ Singular=Ampelographen
+|Akkusativ Plural=Ampelographen
 }}
 
 {{Worttrennung}}
