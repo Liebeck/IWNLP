@@ -12,10 +12,10 @@ namespace IWNLP.Models
 
         public bool ConjugationBlockMissing { get; set; }
 
-        public List<String> Gegenwart_Ich { get; set; }
-        public List<String> Gegenwart_Du { get; set; }
-        public List<String> Gegenwart_ErSieEs { get; set; }
-        public List<String> Vergangenheit1_Ich { get; set; }
+        public List<String> Präsens_Ich { get; set; }
+        public List<String> Präsens_Du { get; set; }
+        public List<String> Präsens_ErSieEs { get; set; }
+        public List<String> Präteritum_ich { get; set; }
         public List<String> KonjunktivII_Ich { get; set; }
         public List<String> ImperativSingular { get; set; }
         public List<String> ImperativPlural { get; set; }
@@ -42,10 +42,10 @@ namespace IWNLP.Models
                 && this.Hilfsverb2 == obj.Hilfsverb2
                 && this.WeitereKonjugationen == obj.WeitereKonjugationen
                 && this.WeitereKonjugationen2 == obj.WeitereKonjugationen2
-                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Gegenwart_Ich, obj.Gegenwart_Ich)
-                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Gegenwart_Du, obj.Gegenwart_Du)
-                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Gegenwart_ErSieEs, obj.Gegenwart_ErSieEs)
-                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Vergangenheit1_Ich, obj.Vergangenheit1_Ich)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Präsens_Ich, obj.Präsens_Ich)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Präsens_Du, obj.Präsens_Du)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Präsens_ErSieEs, obj.Präsens_ErSieEs)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Präteritum_ich, obj.Präteritum_ich)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.KonjunktivII_Ich, obj.KonjunktivII_Ich)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.ImperativSingular, obj.ImperativSingular)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.ImperativPlural, obj.ImperativPlural)

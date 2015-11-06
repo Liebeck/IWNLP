@@ -80,21 +80,21 @@ namespace IWNLP.Parser.POSParser
                 }
                 forms[1] = forms[1].Replace("&nbsp;", " ");
                 forms[0] = forms[0].Trim(); // remove spaces
-                if (forms[0].StartsWith("Gegenwart_ich"))
+                if (forms[0].StartsWith("Präsens_ich"))
                 {
-                    verb.Gegenwart_Ich = this.GetForms(forms[1], verb);
+                    verb.Präsens_Ich = this.GetForms(forms[1], verb);
                 }
-                else if (forms[0].StartsWith("Gegenwart_du"))
+                else if (forms[0].StartsWith("Präsens_du"))
                 {
-                    verb.Gegenwart_Du = this.GetForms(forms[1], verb);
+                    verb.Präsens_Du = this.GetForms(forms[1], verb);
                 }
-                else if (forms[0].StartsWith("Gegenwart_er, sie, es"))
+                else if (forms[0].StartsWith("Präsens_er"))
                 {
-                    verb.Gegenwart_ErSieEs = this.GetForms(forms[1], verb);
+                    verb.Präsens_ErSieEs = this.GetForms(forms[1], verb);
                 }
-                else if (forms[0].StartsWith("1.Vergangenheit_ich"))
+                else if (forms[0].StartsWith("Präteritum_ich"))
                 {
-                    verb.Vergangenheit1_Ich = this.GetForms(forms[1], verb);
+                    verb.Präteritum_ich = this.GetForms(forms[1], verb);
                 }
                 else if (forms[0].StartsWith("Konjunktiv II_ich"))
                 {
@@ -161,6 +161,7 @@ namespace IWNLP.Parser.POSParser
                     forms[0].StartsWith("Konjunktiv II_du") ||
                     forms[0].StartsWith("Konjunktiv I_ich") ||
                     forms[0].StartsWith("Partizip I_ich") ||
+                    forms[0].StartsWith("Partizip I") ||
                     forms[0].StartsWith("Indikativ II_ich") ||
                     forms[0].StartsWith("Passiv"))
                 {
@@ -176,7 +177,7 @@ namespace IWNLP.Parser.POSParser
                 else
                 {
                     //throw new ArgumentException();
-                 //   Console.WriteLine("word " + word + "== " + line);
+                    Console.WriteLine("word " + word + "== " + line);
                 }
             }
 
