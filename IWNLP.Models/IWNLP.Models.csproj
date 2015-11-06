@@ -45,6 +45,7 @@
     <Compile Include="Flections\AdjectiveDeclination.cs" />
     <Compile Include="Flections\VerbConjugation.cs" />
     <Compile Include="Noun.cs" />
+    <Compile Include="Nouns\Case.cs" />
     <Compile Include="Nouns\Genus.cs" />
     <Compile Include="Nouns\Inflection.cs" />
     <Compile Include="POS.cs" />

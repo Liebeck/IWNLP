@@ -13,9 +13,6 @@ namespace IWNLP.Parser.POSParser
 
         List<String> blacklist = new List<string>() 
         {
-        "Dirn",
-        "Ma’am",
-        "Glotsche",
         "Oachkatzlschwoaf"
         };
 
@@ -39,6 +36,9 @@ namespace IWNLP.Parser.POSParser
             noun.POS = POS.Noun;
             noun.Text = word;
             noun.Genus = new List<Genus>();
+
+            Dictionary<int, Genus> genusFlexboxMapping = new Dictionary<int, Genus>();
+
             if (wortArtLine.Contains("{{m}}")) { noun.Genus.Add(Genus.Maskulinum); }
             if (wortArtLine.Contains("{{f}}")) { noun.Genus.Add(Genus.Femininum); }
             if (wortArtLine.Contains("{{n}}")) { noun.Genus.Add(Genus.Neutrum); }
@@ -128,7 +128,16 @@ namespace IWNLP.Parser.POSParser
 
                 forms[1] = forms[1].Replace("&nbsp;", " ");
 
-                List<Inflection> inflections = this.GetInflections(forms[1], noun);
+                // retrieve the number from the key, for instance from "|Nominativ Singular 1"
+                
+                Char formNumberRaw = forms[0].Replace("*", String.Empty).Split(new string[]{" "}, StringSplitOptions.RemoveEmptyEntries).Last()[0];
+                int formNumber = 0;
+                if(Char.IsDigit(formNumberRaw))
+                {
+                    formNumber = int.Parse(formNumberRaw.ToString());
+                }
+                
+                
 
 
                 forms[0] = forms[0].Trim(); // remove spaces
@@ -139,6 +148,11 @@ namespace IWNLP.Parser.POSParser
 
                 if (forms[0].StartsWith("Genus")) 
                 {
+                    int genusKey = 0;
+                    if (forms[0].EndsWith("1")) { genusKey = 1; }
+                    else if (forms[0].EndsWith("2")) { genusKey = 2; }
+                    else if (forms[0].EndsWith("3")) { genusKey = 3; }
+
                     Genus genus = Genus.Neutrum;
                     if(forms[1] == "n"){genus = Genus.Neutrum;}
                     else if(forms[1] == "f"){genus = Genus.Femininum;}
@@ -151,28 +165,35 @@ namespace IWNLP.Parser.POSParser
                     {
                         noun.Genus.Add(genus);
                     }
+                    if (genusKey != 0) 
+                    {
+                        genusFlexboxMapping.Add(genusKey, genus);
+                    }
                 }
                 else if (forms[0].StartsWith("Nominativ"))
                 {
+                    List<Inflection> inflections = this.GetInflections(forms[1], noun, Case.Nominative, formNumber, genusFlexboxMapping);
                     if (forms[0].Contains("Singular")) { noun.NominativSingular.AddRange(inflections); }
                     else if (forms[0].Contains("Plural")) { noun.NominativPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
                 else if (forms[0].StartsWith("Genitiv"))
                 {
-
+                    List<Inflection> inflections = this.GetInflections(forms[1], noun, Case.Genitive, formNumber, genusFlexboxMapping);
                     if (forms[0].Contains("Singular")) { noun.GenitivSingular.AddRange(inflections); }
                     else if (forms[0].Contains("Plural")) { noun.GenitivPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
                 else if (forms[0].StartsWith("Dativ"))
                 {
+                    List<Inflection> inflections = this.GetInflections(forms[1], noun, Case.Dative, formNumber, genusFlexboxMapping);
                     if (forms[0].Contains("Singular")) { noun.DativSingular.AddRange(inflections); }
                     else if (forms[0].Contains("Plural")) { noun.DativPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
                 else if (forms[0].StartsWith("Akkusativ"))
                 {
+                    List<Inflection> inflections = this.GetInflections(forms[1], noun, Case.Accusative, formNumber, genusFlexboxMapping);
                     if (forms[0].Contains("Singular")) { noun.AkkusativSingular.AddRange(inflections); }
                     else if (forms[0].Contains("Plural")) { noun.AkkusativPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
@@ -188,7 +209,7 @@ namespace IWNLP.Parser.POSParser
         }
 
 
-        protected List<Inflection> GetInflections(String input, Word word)
+        protected List<Inflection> GetInflections(String input, Word word, Case wordCase, int formNumber, Dictionary<int, Genus> genusDictionary)
         {
             input = input.Trim();
             String[] declensions = input.Split(new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>" }, StringSplitOptions.RemoveEmptyEntries);
@@ -241,6 +262,8 @@ namespace IWNLP.Parser.POSParser
                 }
                 foreach (String finalCombination in combinations)
                 {
+
+                    // TODO: add articles based on genus
                     if (finalCombination.Contains(" "))  // check for article
                     {
                         List<String> articles = new List<string>() { "der", "die", "das", "den", "dem", "des" };

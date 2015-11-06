@@ -44,6 +44,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Häuser"}},
              },
             };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
