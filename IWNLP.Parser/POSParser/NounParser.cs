@@ -137,37 +137,56 @@ namespace IWNLP.Parser.POSParser
                     forms[0] = forms[0].Substring(0, forms[0].Length - 2);
                 }
 
-                if (forms[0].StartsWith("Nominativ"))
+                if (forms[0].StartsWith("Genus")) 
                 {
-                    if (forms[0].EndsWith("Singular")) { noun.NominativSingular.AddRange(inflections); }
-                    else if (forms[0].EndsWith("Plural")) { noun.NominativPlural.AddRange(inflections); }
+                    Genus genus = Genus.Neutrum;
+                    if(forms[1] == "n"){genus = Genus.Neutrum;}
+                    else if(forms[1] == "f"){genus = Genus.Femininum;}
+                    else if(forms[1] == "m"){genus = Genus.Maskulinum;}
+                    else 
+                    {
+                        Console.WriteLine(word + ": error while parsing genus: " + forms[1]);
+                    }
+                    if (!noun.Genus.Contains(genus))
+                    {
+                        noun.Genus.Add(genus);
+                    }
+                }
+                else if (forms[0].StartsWith("Nominativ"))
+                {
+                    if (forms[0].Contains("Singular")) { noun.NominativSingular.AddRange(inflections); }
+                    else if (forms[0].Contains("Plural")) { noun.NominativPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
                 else if (forms[0].StartsWith("Genitiv"))
                 {
-                    if (forms[0].EndsWith("Singular")) { noun.GenitivSingular.AddRange(inflections); }
-                    else if (forms[0].EndsWith("Plural")) { noun.GenitivPlural.AddRange(inflections); }
+
+                    if (forms[0].Contains("Singular")) { noun.GenitivSingular.AddRange(inflections); }
+                    else if (forms[0].Contains("Plural")) { noun.GenitivPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
                 else if (forms[0].StartsWith("Dativ"))
                 {
-                    if (forms[0].EndsWith("Singular")) { noun.DativSingular.AddRange(inflections); }
-                    else if (forms[0].EndsWith("Plural")) { noun.DativPlural.AddRange(inflections); }
+                    if (forms[0].Contains("Singular")) { noun.DativSingular.AddRange(inflections); }
+                    else if (forms[0].Contains("Plural")) { noun.DativPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
                 else if (forms[0].StartsWith("Akkusativ"))
                 {
-                    if (forms[0].EndsWith("Singular")) { noun.AkkusativSingular.AddRange(inflections); }
-                    else if (forms[0].EndsWith("Plural")) { noun.AkkusativPlural.AddRange(inflections); }
+                    if (forms[0].Contains("Singular")) { noun.AkkusativSingular.AddRange(inflections); }
+                    else if (forms[0].Contains("Plural")) { noun.AkkusativPlural.AddRange(inflections); }
                     else { throw new ArgumentException(); }
                 }
+                else if(forms[0] == "Artikel"){}
                 else
                 {
-                    throw new ArgumentException();
+                    Console.WriteLine("Nounparser: forms[0] invalid in " + word + ": " + forms[0]);
+                   // throw new ArgumentException();
                 }
             }
             return noun;
         }
+
 
         protected List<Inflection> GetInflections(String input, Word word)
         {

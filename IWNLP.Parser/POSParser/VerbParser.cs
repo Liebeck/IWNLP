@@ -176,7 +176,7 @@ namespace IWNLP.Parser.POSParser
                 else
                 {
                     //throw new ArgumentException();
-                    Console.WriteLine("word " + word + "== " + line);
+                 //   Console.WriteLine("word " + word + "== " + line);
                 }
             }
 
