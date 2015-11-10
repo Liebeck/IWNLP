@@ -71,12 +71,14 @@ namespace IWNLP.ParserTest
                 NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Güterzüge"}},
                 GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Güterzugs"}, new Inflection(){Article="des", InflectedWord="Güterzuges"}},
                 GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Güterzüge"}},
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Güterzug"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Güterzug"},new Inflection(){ Article ="dem", InflectedWord="Güterzuge"}},
                 DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Güterzügen"}},
                 AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Güterzug"}},
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Güterzüge"}},
              },
             };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1488,6 +1490,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Firewalls"}},
              },
             };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1512,7 +1516,7 @@ namespace IWNLP.ParserTest
                 WiktionaryID = wiktionaryID,
                 NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Mail"},new Inflection(){Article="das", InflectedWord="Mail"}},
                 NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Mails"}},
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Mail"},new Inflection(){Article="der", InflectedWord="Mails"},new Inflection(){Article="des", InflectedWord="Mail"},new Inflection(){Article="des", InflectedWord="Mails"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Mail"},new Inflection(){Article="des", InflectedWord="Mails"}},
                 GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Mails"}},
                 DativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Mail"},new Inflection(){Article="dem", InflectedWord="Mail"}},
                 DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Mails"}},
@@ -1520,6 +1524,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Mails"}},
              },
             };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
