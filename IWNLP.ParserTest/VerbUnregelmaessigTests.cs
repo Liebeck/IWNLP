@@ -1046,6 +1046,40 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void gebären()
+        {
+            String word = "gebären";
+            int wikiID = 71404;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"gebäre"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"gebierst","gebärst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"gebiert","gebärt"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"gebären"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"gebärt"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"gebären"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"gebar"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"gebarst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"gebar"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"gebaren"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"gebart"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"gebaren"},
+                    PartizipII = "geboren",
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
 
     }
 }

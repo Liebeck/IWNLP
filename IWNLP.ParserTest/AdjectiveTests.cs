@@ -361,5 +361,30 @@ namespace IWNLP.ParserTest
             XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void weltgrößte()
+        {
+            String word = "weltgrößte";
+            int wiktionaryID = 411251;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Adjective()
+             {
+
+                Text=word,
+                POS = POS.Adjective,
+                WiktionaryID = wiktionaryID,
+                Superlativ=new List<string>(){"weltgrößter","weltgrößte","weltgrößtes"}
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }

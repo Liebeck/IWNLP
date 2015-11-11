@@ -1209,5 +1209,37 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void erfoltern()
+        {
+            String word = "erfoltern";
+            int wiktionaryID = 498182;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"erfoltere"},
+                Präsens_Du = new List<string>(){"erfolterst"},
+                Präsens_ErSieEs = new List<string>(){"erfoltert"},
+                Präteritum_ich = new List<string>(){"erfolterte"},
+                KonjunktivII_Ich = new List<string>(){"erfolterte"},
+                ImperativSingular = new List<string>(){"erfolter!","erfoltere!"},
+                ImperativPlural = new List<string>(){"erfoltert!"},
+                PartizipII = new List<string>(){"erfoltert"},
+                Hilfsverb = "haben",
+                POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
