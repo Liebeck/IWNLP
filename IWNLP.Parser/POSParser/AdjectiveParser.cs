@@ -118,7 +118,19 @@ namespace IWNLP.Parser.POSParser
                     throw new ArgumentException();
                 }
             }
-
+            // Error handling
+            if(adjective.Superlativ != null && adjective.Superlativ.Any(x => x.StartsWith("am ")))
+            {
+                Console.WriteLine("AdjectiveParser: " + word + " contains a superlative with 'am'");
+            }
+            if (adjective.Superlativ != null && adjective.Superlativ.Any(x => x.Contains("<")))
+            {
+                Console.WriteLine("AdjectiveParser: " + word + " contains a '<'");
+            }
+            if (adjective.Komparativ != null && adjective.Komparativ.Any(x => x.Contains("<")))
+            {
+                Console.WriteLine("AdjectiveParser: " + word + " contains a '<'");
+            }
             return adjective;
         }
 
