@@ -113,6 +113,7 @@ namespace IWNLP.Parser.POSParser
                 {
                     adjective.KeineWeiterenFormen = true;
                 }
+                else if (forms[0] == "am" && (forms[1] == "nein" || forms[1] == "0")) { }
                 else
                 {
                     throw new ArgumentException();
