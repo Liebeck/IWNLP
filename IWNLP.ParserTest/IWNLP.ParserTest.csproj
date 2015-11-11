@@ -109,40 +109,6 @@
     <Content Include="TestInput\VerbConjugation\Syntax\ueben.txt" />
     <Content Include="TestInput\VerbConjugation\Syntax\ueberschreiten.txt" />
     <Content Include="TestInput\VerbConjugation\Syntax\wiederaufbereiten.txt" />
-    <Content Include="TestInput\Verbs\abblättern.txt" />
-    <Content Include="TestInput\Verbs\abbröckeln.txt" />
-    <Content Include="TestInput\Verbs\angrenzen.txt" />
-    <Content Include="TestInput\Verbs\aussaugen.txt" />
-    <Content Include="TestInput\Verbs\aussortieren.txt" />
-    <Content Include="TestInput\Verbs\blinzeln.txt" />
-    <Content Include="TestInput\Verbs\erkälten.txt" />
-    <Content Include="TestInput\Verbs\fladern.txt" />
-    <Content Include="TestInput\Verbs\fläzen.txt" />
-    <Content Include="TestInput\Verbs\fragen.txt" />
-    <Content Include="TestInput\Verbs\helfen.txt" />
-    <Content Include="TestInput\Verbs\hereinkommen.txt" />
-    <Content Include="TestInput\Verbs\kriegen.txt" />
-    <Content Include="TestInput\Verbs\kueren.txt" />
-    <Content Include="TestInput\Verbs\leiden.txt" />
-    <Content Include="TestInput\Verbs\menstruieren.txt" />
-    <Content Include="TestInput\Verbs\nachsalzen.txt" />
-    <Content Include="TestInput\Verbs\piken.txt" />
-    <Content Include="TestInput\Verbs\reinpfeifen.txt" />
-    <Content Include="TestInput\Verbs\rennen.txt" />
-    <Content Include="TestInput\Verbs\rinnen.txt" />
-    <Content Include="TestInput\Verbs\salzen.txt" />
-    <Content Include="TestInput\Verbs\saugen.txt" />
-    <Content Include="TestInput\Verbs\scheren.txt" />
-    <Content Include="TestInput\Verbs\scheuen.txt" />
-    <Content Include="TestInput\Verbs\schwoeren.txt" />
-    <Content Include="TestInput\Verbs\senden.txt" />
-    <Content Include="TestInput\Verbs\speisen.txt" />
-    <Content Include="TestInput\Verbs\stiefeln.txt" />
-    <Content Include="TestInput\Verbs\verheeren.txt" />
-    <Content Include="TestInput\Verbs\versalzen.txt" />
-    <Content Include="TestInput\Verbs\weiterhelfen.txt" />
-    <Content Include="TestInput\Verbs\werden.txt" />
-    <Content Include="TestInput\Verbs\überführen.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
