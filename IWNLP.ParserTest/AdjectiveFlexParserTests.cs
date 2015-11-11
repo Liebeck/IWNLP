@@ -15,9 +15,8 @@ namespace IWNLP.ParserTest
         public void lecker()
         {
             String word = "lecker";
-            String filename = @"..\..\TestInput\AdjectiveDeclination\lecker.txt";
-            String text = Common.ReadFromFile(filename);
             int wikiID = 262980;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -294,9 +293,8 @@ namespace IWNLP.ParserTest
         public void rot()
         {
             String word = "rot";
-            String filename = @"..\..\TestInput\AdjectiveDeclination\rot.txt";
-            String text = Common.ReadFromFile(filename);
             int wikiID = 301714;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -573,9 +571,8 @@ namespace IWNLP.ParserTest
         public void traumlos()
         {
             String word = "traumlos";
-            String filename = @"..\..\TestInput\AdjectiveDeclination\traumlos.txt";
-            String text = Common.ReadFromFile(filename);
             int wikiID = 117700;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -654,9 +651,8 @@ namespace IWNLP.ParserTest
         public void mittel()
         {
             String word = "mittel";
-            String filename = @"..\..\TestInput\AdjectiveDeclination\mittel.txt";
-            String text = Common.ReadFromFile(filename);
             int wikiID = 267415;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
