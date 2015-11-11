@@ -16,9 +16,8 @@ namespace IWNLP.ParserTest
         public void der()
         {
             String word = "der";
-            String filename = @"..\..\TestInput\Pronouns\der.txt";
             int wiktionaryID = 6453;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -100,9 +99,8 @@ namespace IWNLP.ParserTest
         public void das()
         {
             String word = "das";
-            String filename = @"..\..\TestInput\Pronouns\das.txt";
             int wiktionaryID = 11658;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -163,9 +161,8 @@ namespace IWNLP.ParserTest
         public void alles()
         {
             String word = "alles";
-            String filename = @"..\..\TestInput\Pronouns\alles.txt";
             int wiktionaryID = 26240;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -204,9 +201,8 @@ namespace IWNLP.ParserTest
         public void beide()
         {
             String word = "beide";
-            String filename = @"..\..\TestInput\Pronouns\beide.txt";
             int wiktionaryID = 25781;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -236,9 +232,8 @@ namespace IWNLP.ParserTest
         public void kein()
         {
             String word = "kein";
-            String filename = @"..\..\TestInput\Pronouns\kein.txt";
             int wiktionaryID = 17169;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -277,9 +272,8 @@ namespace IWNLP.ParserTest
         public void demjenigen()
         {
             String word = "demjenigen";
-            String filename = @"..\..\TestInput\Pronouns\demjenigen.txt";
             int wiktionaryID = 76995;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -318,9 +312,8 @@ namespace IWNLP.ParserTest
         public void welcher()
         {
             String word = "welcher";
-            String filename = @"..\..\TestInput\Pronouns\welcher.txt";
             int wiktionaryID = 21492;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -403,9 +396,8 @@ namespace IWNLP.ParserTest
         public void irgendwelche()
         {
             String word = "irgendwelche";
-            String filename = @"..\..\TestInput\Pronouns\irgendwelche.txt";
             int wiktionaryID = 281507;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -444,9 +436,8 @@ namespace IWNLP.ParserTest
         public void er()
         {
             String word = "er";
-            String filename = @"..\..\TestInput\Pronouns\er.txt";
             int wiktionaryID = 802;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -485,9 +476,8 @@ namespace IWNLP.ParserTest
         public void sie()
         {
             String word = "sie";
-            String filename = @"..\..\TestInput\Pronouns\sie.txt";
             int wiktionaryID = 19433;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);

@@ -89,10 +89,6 @@
   <ItemGroup>
     <Content Include="TestInput\AdjectiveDeclination\erlesen.txt" />
     <Content Include="TestInput\AdjectiveDeclination\gelb.txt" />
-    <Content Include="TestInput\Adjectives\doll.txt" />
-    <Content Include="TestInput\Adjectives\einzig.txt" />
-    <Content Include="TestInput\Adjectives\tot.txt" />
-    <Content Include="TestInput\Adjectives\zirkulaer.txt" />
     <Content Include="TestInput\POS\dunkel.txt" />
     <Content Include="TestInput\POS\wohlgenährt.txt" />
     <Content Include="TestInput\Pronouns\alles.txt" />
