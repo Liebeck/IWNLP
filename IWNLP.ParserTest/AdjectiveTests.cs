@@ -59,7 +59,7 @@ namespace IWNLP.ParserTest
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"tot"},
                 Komparativ = new List<string>(){"toter", "töter"},
-                 Superlativ = new List<string>(){"am totesten","am tötesten"}
+                 Superlativ = new List<string>(){"totesten","tötesten"}
 
              },
             };
@@ -87,7 +87,7 @@ namespace IWNLP.ParserTest
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"doll"},
                 Komparativ = new List<string>(){"doller", "döller"},
-                 Superlativ = new List<string>(){"am dollsten"}
+                 Superlativ = new List<string>(){"dollsten"}
 
              },
             };
