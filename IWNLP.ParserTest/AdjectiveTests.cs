@@ -17,9 +17,8 @@ namespace IWNLP.ParserTest
         public void zirkulär()
         {
             String word = "zirkulär";
-            String filename = @"..\..\TestInput\Adjectives\zirkulaer.txt";
             int wiktionaryID = 11228;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -44,9 +43,9 @@ namespace IWNLP.ParserTest
         public void tot()
         {
             String word = "tot";
-            String filename = @"..\..\TestInput\Adjectives\tot.txt";
+
             int wiktionaryID = 14223;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -73,9 +72,8 @@ namespace IWNLP.ParserTest
         public void doll()
         {
             String word = "doll";
-            String filename = @"..\..\TestInput\Adjectives\doll.txt";
             int wiktionaryID = 22355;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -102,9 +100,8 @@ namespace IWNLP.ParserTest
         public void einzig()
         {
             String word = "einzig";
-            String filename = @"..\..\TestInput\Adjectives\einzig.txt";
             int wiktionaryID = 80153;
-            String text = Common.ReadFromFile(filename);
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);

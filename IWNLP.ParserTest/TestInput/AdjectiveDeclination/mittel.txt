@@ -1,7 +1,0 @@
-﻿== mittel (Deklination) ({{Adjektivdeklination|Deutsch}}) ==
-{{Deklinationsseite Adjektiv
-|Positiv-Stamm=—
-|Positiv=mittel
-|Komparativ-Stamm=mittler
-|Superlativ-Stamm=mittelst
-}}

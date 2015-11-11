@@ -89,10 +89,6 @@
   <ItemGroup>
     <Content Include="TestInput\AdjectiveDeclination\erlesen.txt" />
     <Content Include="TestInput\AdjectiveDeclination\gelb.txt" />
-    <Content Include="TestInput\AdjectiveDeclination\lecker.txt" />
-    <Content Include="TestInput\AdjectiveDeclination\mittel.txt" />
-    <Content Include="TestInput\AdjectiveDeclination\rot.txt" />
-    <Content Include="TestInput\AdjectiveDeclination\traumlos.txt" />
     <Content Include="TestInput\Adjectives\doll.txt" />
     <Content Include="TestInput\Adjectives\einzig.txt" />
     <Content Include="TestInput\Adjectives\tot.txt" />
