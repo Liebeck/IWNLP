@@ -95,11 +95,19 @@ namespace IWNLP.Parser.POSParser
                 }
                 else if (forms[0].StartsWith("Komparativ"))
                 {
-                    adjective.Komparativ = this.GetForms(forms[1], adjective);
+                    if (adjective.Komparativ == null) 
+                    {
+                        adjective.Komparativ = new List<string>();
+                    }
+                    adjective.Komparativ.AddRange(this.GetForms(forms[1], adjective));
                 }
                 else if (forms[0].StartsWith("Superlativ"))
                 {
-                    adjective.Superlativ = this.GetForms(forms[1], adjective);
+                    if (adjective.Superlativ == null) 
+                    {
+                        adjective.Superlativ = new List<string>();
+                    }
+                    adjective.Superlativ.AddRange(this.GetForms(forms[1], adjective));
                 }
                 else if (forms[0].StartsWith("keine weiteren Formen"))
                 {

@@ -59,8 +59,7 @@ namespace IWNLP.ParserTest
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"tot"},
                 Komparativ = new List<string>(){"toter", "töter"},
-                 Superlativ = new List<string>(){"totesten","tötesten"}
-
+                Superlativ = new List<string>(){"totesten","tötesten"}
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
@@ -114,8 +113,6 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"einzig"},
-                Superlativ = new List<string>(){"einzigste"}
-
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
@@ -141,8 +138,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"gesund"},
-                Superlativ = new List<string>(){"gesünder","gesunder"},
-                Komparativ=new List<string>(){"gesündesten","gesundesten"}
+                Komparativ = new List<string>(){"gesünder","gesunder"},
+                Superlativ=new List<string>(){"gesündesten","gesundesten"}
 
              },
             };
@@ -169,8 +166,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"abgeneigt"},
-                Superlativ = new List<string>(){"abgeneigter"},
-                Komparativ=new List<string>(){"abgeneigtesten"}
+                Komparativ = new List<string>(){"abgeneigter"},
+                Superlativ=new List<string>(){"abgeneigtesten"}
 
              },
             };
@@ -222,8 +219,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"aromatisch"},
-                Superlativ = new List<string>(){"aromatischer"},
-                Komparativ=new List<string>(){"aromatischsten"}
+                Komparativ= new List<string>(){"aromatischer"},
+                Superlativ=new List<string>(){"aromatischsten"}
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
@@ -235,11 +232,12 @@ namespace IWNLP.ParserTest
         public void spielend()
         {
             String word = "spielend";
-            int wiktionaryID = 115740;
+            int wiktionaryID = 166504;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            words = words.Where(x => ((Word)x).POS == POS.Adjective).ToList(); // filter out "spielend" as Partizip I
             List<Models.Word> expectedWords = new List<Models.Word>() 
             {
              new Models.Adjective()
@@ -274,8 +272,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"dumm"},
-                Superlativ = new List<string>(){"dümmer"},
-                Komparativ=new List<string>(){"dümmsten"}
+                Komparativ= new List<string>(){"dümmer"},
+                Superlativ=new List<string>(){"dümmsten"}
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
@@ -301,8 +299,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"karg"},
-                Superlativ = new List<string>(){"karger","kärger"},
-                Komparativ=new List<string>(){"kargsten","kärgsten"}
+                Komparativ= new List<string>(){"karger","kärger"},
+                Superlativ=new List<string>(){"kargsten","kärgsten"}
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
@@ -328,8 +326,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"nass"},
-                Superlativ = new List<string>(){"nasser","nässer"},
-                Komparativ=new List<string>(){"nassesten","nässesten"}
+                Komparativ=new List<string>(){"nasser","nässer"},
+                Superlativ=new List<string>(){"nassesten","nässesten"}
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
@@ -355,8 +353,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"wenig"},
-                Superlativ = new List<string>(){"weniger","minder"},
-                Komparativ=new List<string>(){"wenigsten","mindesten"}
+                Komparativ= new List<string>(){"weniger","minder"},
+                Superlativ=new List<string>(){"wenigsten","mindesten"}
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
