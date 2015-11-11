@@ -144,7 +144,7 @@ namespace IWNLP.ParserTest
         public void Fremde()
         {
             String word = "Fremde";
-            int wiktionaryID = 73942;
+            int wiktionaryID = 150532;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
@@ -211,6 +211,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article ="die", InflectedWord="Codices"}},
              },
             };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -583,7 +585,7 @@ namespace IWNLP.ParserTest
         public void Vertretung()
         {
             String word = "Vertretung";
-            int wiktionaryID = 246368;
+            int wiktionaryID = 246253;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
@@ -999,7 +1001,7 @@ namespace IWNLP.ParserTest
         public void Pkw()
         {
             String word = "Pkw";
-            int wiktionaryID = 2272;
+            int wiktionaryID = 2271;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
@@ -1293,7 +1295,7 @@ namespace IWNLP.ParserTest
         public void Mahr()
         {
             String word = "Mahr";
-            int wiktionaryID = 6505;
+            int wiktionaryID = 262971;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
