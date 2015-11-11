@@ -17,24 +17,41 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void backen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\regelmaessig\backen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "backen";
             int wikiID = 10394;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
             List<VerbConjugation> expectedWords = new List<VerbConjugation>()
             {
                  new VerbConjugation()
                  {
-                   Text = word,
+                    Text = word,
                     WiktionaryID = wikiID,
-                   PräsensAktivIndikativ_Singular1Person = new List<string>(){"backe"},
-                   PräsensAktivIndikativ_Singular2Person = new List<string>(){"backst"},
-                   PräsensAktivIndikativ_Singular3Person = new List<string>(){"backt"},
-                   PräsensAktivIndikativ_Plural1Person = new List<string>(){"backen"},
-                   PräsensAktivIndikativ_Plural2Person = new List<string>(){"backt"},
-                   PräsensAktivIndikativ_Plural3Person = new List<string>(){"backen"},
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"backe"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"bäckst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"bäckt"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"backen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"backt"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"backen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"buk"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"bukst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"buk"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"buken"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"bukt"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"buken"},
+                    PartizipII = "gebacken"
+                 },
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"backe"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"backst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"backt"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"backen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"backt"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"backen"},
                     PräteritumAktivIndikativ_Singular1Person = new List<string>(){"backte"},
                     PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"backtest"},
                     PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"backte"},
@@ -42,7 +59,8 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"backtet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"backten"},
                     PartizipII = "gebackt"
-                 }
+                 },
+
             };
             XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
             XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
@@ -52,10 +70,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void fluten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\regelmaessig\fluten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "fluten";
             int wikiID = 38588;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -106,10 +123,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void abspeichern()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\regelmaessig\abspeichern.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "abspeichern";
             int wikiID = 116558;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
             List<VerbConjugation> expectedWords = new List<VerbConjugation>()
@@ -153,10 +169,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void wärmebehandeln()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\regelmaessig\waermebehandeln.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "wärmebehandeln";
             int wikiID = 132176;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);

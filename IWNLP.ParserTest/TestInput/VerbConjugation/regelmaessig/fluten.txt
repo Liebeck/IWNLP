@@ -1,6 +1,0 @@
-﻿== fluten (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
-=== Hilfsverb „haben“ ===
-{{Deutsch Verb regelmäßig|fl|u|t|e|n|geflutet|zp=zp3|vp=vp3}}
-{{----}}
-=== Hilfsverb „sein“ ===
-{{Deutsch Verb regelmäßig|fl|u|t|e|n|geflutet|zp=zp3|vp=vp3|haben=0}}

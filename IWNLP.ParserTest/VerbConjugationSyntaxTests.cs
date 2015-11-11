@@ -193,13 +193,6 @@ namespace IWNLP.ParserTest
                 {"2. Singular Imperativ Präsens Aktiv", "generalüberhole!"},
                 {"2. Plural Imperativ Präsens Aktiv", "generalüberholt!"},
                 {"Imperativ Präsens Aktiv Höflichkeitsform", "generalüberholen Sie!"}
-
-
-               /*
-                Hauptsatzkonjugation=0|Partizip I=0|vp=vp3|zp=zp3|Nebensatzkonjugation=einteilig|veraltet=0|2. Singular Imperativ Präsens Aktiv=generalüberhole!|2. Plural Imperativ Präsens Aktiv=generalüberholt!|Imperativ Präsens Aktiv Höflichkeitsform=generalüberholen Sie!}}
-                */
-                
-
             };
             Assert.IsTrue(expectedParameters.DictionaryEqual<String, String>(parsedParameters));
         }
