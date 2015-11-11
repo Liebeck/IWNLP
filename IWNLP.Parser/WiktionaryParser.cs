@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace IWNLP.Parser
 {
@@ -328,7 +329,7 @@ namespace IWNLP.Parser
                     wikiPosTags.Add(WikiPOSTagParser.ParsePOSTag(input.Substring(startIndex + 1, endIndex - startIndex - 1)));
                     startIndex = input.IndexOf("|", endIndex + 1);
                 }
-                else 
+                else
                 {
                     break;
                 }
@@ -336,6 +337,34 @@ namespace IWNLP.Parser
             return wikiPosTags;
         }
 
+        public static String GetTextFromPage(String dumpPath, int wiktionaryID)
+        {
+
+            using (XmlReader myReader = XmlReader.Create(dumpPath))
+            {
+                while (myReader.Read())
+                {
+                    if (myReader.NodeType == XmlNodeType.Element && myReader.Name == "page" && myReader.IsStartElement())
+                    {
+                        myReader.ReadToFollowing("title");
+                        myReader.ReadToFollowing("id");
+                        int id = myReader.ReadElementContentAsInt();
+                        if (id == wiktionaryID)
+                        {
+
+                            myReader.ReadToFollowing("revision");
+                            myReader.ReadToFollowing("text");
+                            String text = myReader.ReadElementContentAsString();
+                            return text;
+                        }
+
+                    }
+
+                    var value = myReader.Value;
+                }
+                throw new ArgumentException("Wiktionary ID not found");
+            }
+        }
 
     }
 }
