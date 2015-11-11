@@ -16,10 +16,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void normieren()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\normieren.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "normieren";
             int wikiID = 348925;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -52,10 +51,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void schirmen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\schirmen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "schirmen";
             int wikiID = 156554;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -88,10 +86,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void iahen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\iahen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "iahen";
             int wikiID = 146715;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -125,10 +122,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void bechern()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\bechern.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "bechern";
             int wikiID = 116585;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -161,10 +157,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void verleumden()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\verleumden.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "verleumden";
             int wikiID = 134193;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -197,10 +192,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void öffnen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\oeffnen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "öffnen";
             int wikiID = 21954;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -233,10 +227,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void schwänzeln()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\schwaenzeln.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "schwänzeln";
             int wikiID = 93860;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -269,10 +262,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void überlappen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\ueberlappen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "überlappen";
             int wikiID = 80740;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -305,10 +297,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void kondolieren()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\kondolieren.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "kondolieren";
             int wikiID = 134196;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -341,10 +332,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void altern()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\altern.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "altern";
             int wikiID = 116544;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -377,10 +367,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void mahlen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\mahlen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "mahlen";
             int wikiID = 71410;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -413,10 +402,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void missachten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\missachten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "missachten";
             int wikiID = 148513;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -449,10 +437,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void knien()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\knien.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "knien";
             int wikiID = 295713;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -503,10 +490,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void beknien()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\beknien.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "beknien";
             int wikiID = 295716;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -539,10 +525,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void recyclen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\recyclen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "recyclen";
             int wikiID = 290128;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -575,10 +560,10 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void liebkosen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\schwachUntrennbar\liebkosen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "liebkosen";
             int wikiID = 433737;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
             List<VerbConjugation> expectedWords = new List<VerbConjugation>()
@@ -587,18 +572,18 @@ namespace IWNLP.ParserTest
                  {
                     Text = word,
                     WiktionaryID = wikiID,
-                   PräsensAktivIndikativ_Singular1Person = new List<string>(){"liebkose"},
-                   PräsensAktivIndikativ_Singular2Person = new List<string>(){"liebkost"},
-                   PräsensAktivIndikativ_Singular3Person = new List<string>(){"liebkost","liebkoset"},
-                   PräsensAktivIndikativ_Plural1Person = new List<string>(){"liebkosen"},
-                   PräsensAktivIndikativ_Plural2Person = new List<string>(){"liebkost","liebkoset"},
-                   PräsensAktivIndikativ_Plural3Person = new List<string>(){"liebkosen"},      
-                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"liebkoste","liebkosete"},
-                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"liebkostest","liebkosetest"},
-                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"liebkoste","liebkosete"},
-                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"liebkosten","liebkoseten"},
-                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"liebkostet","liebkosetet"},
-                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"liebkosten","liebkoseten"},
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"liebkose"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"liebkost"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"liebkost"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"liebkosen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"liebkost"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"liebkosen"},      
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"liebkoste"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"liebkostest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"liebkoste"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"liebkosten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"liebkostet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"liebkosten"},
                     PartizipII = "liebkost",
                     PartizipIIAlternativ = "geliebkost"
                  }
