@@ -528,24 +528,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
-            {
-             new Models.Noun()
-             {
-                Text="Miami",
-                POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Neutrum},
-                WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){ new Inflection(){InflectedWord="Miami"}, new Inflection(){ Article="das", InflectedWord="Miami"}},
-                NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){new Inflection(){ Article="des", InflectedWord="Miami"},new Inflection(){ Article="des", InflectedWord="Miamis"},new Inflection(){ InflectedWord="Miamis"}},
-                GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ InflectedWord="Miami"},new Inflection(){ Article="dem", InflectedWord="Miami"}},
-                DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Miami"},new Inflection(){ InflectedWord="Miami"}},
-                AkkusativPlural = new List<Inflection>(),
-             },
-            };
+            List<Models.Word> expectedWords = new List<Models.Word>();
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
             XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
@@ -1037,40 +1020,7 @@ namespace IWNLP.ParserTest
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
-            {
-             new Models.Noun()
-             {
-                Text="Biak",
-                POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Neutrum},
-                WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Biak"},new Inflection(){ Article="das", InflectedWord="Biak"}},
-                NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){InflectedWord="Biaks"},new Inflection(){ Article="des", InflectedWord="Biaks"}},
-                GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Biak"},new Inflection(){ Article="dem", InflectedWord="Biak"}},
-                DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Biak"},new Inflection(){ Article="das", InflectedWord="Biak"}},
-                AkkusativPlural = new List<Inflection>(),
-             },
-             new Models.Noun()
-             {
-                Text="Biak",
-                POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Neutrum},
-                WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Biak"},new Inflection(){ Article="das", InflectedWord="Biak"}},
-                NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){InflectedWord="Biak"},new Inflection(){ Article="des", InflectedWord="Biak"}},
-                GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Biak"},new Inflection(){ Article="dem", InflectedWord="Biak"}},
-                DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Biak"},new Inflection(){ Article="das", InflectedWord="Biak"}},
-                AkkusativPlural = new List<Inflection>(),
-             },
-            };
-
+            List<Models.Word> expectedWords = new List<Models.Word>();
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1570,24 +1520,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
-            {
-             new Models.Noun()
-             {
-                Text=word,
-                POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Neutrum},
-                WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="St. Vincent und die Grenadinen"}, new Inflection(){ InflectedWord="St. Vincent und die Grenadinen"}},
-                NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="St. Vincent und der Grenadinen"}, new Inflection(){ Article="des",InflectedWord="St. Vincents und der Grenadinen"}, new Inflection(){InflectedWord="St. Vincents und der Grenadinen"}, new Inflection(){ InflectedWord="von St. Vincent und die Grenadinen"}},
-                GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="St. Vincent und den Grenadinen"}, new Inflection(){InflectedWord="St. Vincent und den Grenadinen"}, new Inflection(){Article="dem", InflectedWord="St. Vincent und die Grenadinen"}, new Inflection(){InflectedWord="St. Vincent und die Grenadinen"}},
-                DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="St. Vincent und die Grenadinen"}, new Inflection(){InflectedWord="St. Vincent und die Grenadinen"}},
-                AkkusativPlural = new List<Inflection>()
-             },
-            };
+            List<Models.Word> expectedWords = new List<Models.Word>();
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
             XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
