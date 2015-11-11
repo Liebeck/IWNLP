@@ -232,7 +232,7 @@ namespace IWNLP.Parser
             else
             {
                 wordObject = new Word();
-                switch (pronounWikiPosTags.First())
+                switch (wikiPosTags.First())
                 {
                     case WikiPOSTag.Substantiv: wordObject.POS = POS.Noun; break;
                     case WikiPOSTag.Adjektiv: wordObject.POS = POS.Adjective; break;
