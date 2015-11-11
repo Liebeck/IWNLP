@@ -1785,5 +1785,37 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void Ballon()
+        {
+            String word = "Ballon";
+            int wiktionaryID = 2756;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Ballon"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Ballons"},new Inflection(){ Article ="die", InflectedWord="Ballone"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Ballons"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Ballons"},new Inflection(){ Article ="der", InflectedWord="Ballone"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Ballon"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Ballons"},new Inflection(){ Article ="den", InflectedWord="Ballonen"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Ballon"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Ballons"},new Inflection(){ Article ="die", InflectedWord="Ballone"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
