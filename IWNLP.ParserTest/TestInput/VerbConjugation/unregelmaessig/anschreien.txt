@@ -1,5 +1,0 @@
-﻿== anschreien (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
-{{Anmerkung}}
-:Das alternative Partizip Perfekt „angeschrieen“ ist seit der Rechtschreibreform nicht mehr gültig (Amtliches Regelwerk: §19).
-
-{{Deutsch Verb unregelmäßig|an|2=schrei|3=schrie|4=schrie|5=geschrien|8=n|vp=ja|zp=ja|gerund=ja|Partizip+=geschrieen}}

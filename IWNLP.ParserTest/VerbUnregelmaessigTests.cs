@@ -17,10 +17,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void abmessen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\abmessen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "abmessen";
             int wikiID = 156284;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
             List<VerbConjugation> expectedWords = new List<VerbConjugation>()
@@ -64,10 +63,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void bringen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\bringen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "bringen";
             int wikiID = 14885;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -100,10 +98,10 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void stehen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\stehen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "stehen";
             int wikiID = 81594;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
             List<VerbConjugation> expectedWords = new List<VerbConjugation>()
@@ -153,10 +151,10 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Radfahren()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\Rad fahren.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "Rad fahren";
             int wikiID = 162470;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
             List<VerbConjugation> expectedWords = new List<VerbConjugation>()
@@ -200,10 +198,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void antun()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\antun.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "antun";
             int wikiID = 132390;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -248,10 +245,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void ablassen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\ablassen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "ablassen";
             int wikiID = 81479;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -296,10 +292,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void abwaschen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\abwaschen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "abwaschen";
             int wikiID = 156314;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -344,10 +339,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void beissen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\beissen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "beißen";
-            int wikiID = 446056;
+            int wikiID = 15685;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -380,10 +374,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void bersten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\bersten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "bersten";
             int wikiID = 71713;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -416,10 +409,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void muessen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\muessen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "müssen";
             int wikiID = 63053;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -452,10 +444,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void sein()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\sein.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "sein";
             int wikiID = 861;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -488,10 +479,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void haben()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\haben.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "haben";
             int wikiID = 5544;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -524,10 +514,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void werden()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\werden.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "werden";
             int wikiID = 68273;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -543,9 +532,9 @@ namespace IWNLP.ParserTest
                     PräsensAktivIndikativ_Plural1Person = new List<string>(){"werden"},
                     PräsensAktivIndikativ_Plural2Person = new List<string>(){"werdet"},
                     PräsensAktivIndikativ_Plural3Person = new List<string>(){"werden"},
-                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"wurde"},
-                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"wurdest"},
-                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"wurde"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"wurde","ward"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"wurdest","wardst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"wurde","ward"},
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"wurden"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"wurdet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"wurden"},
@@ -560,10 +549,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void vortragen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\vortragen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "vortragen";
             int wikiID = 110380;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -608,10 +596,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void meiden()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\meiden.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "meiden";
             int wikiID = 72159;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -644,10 +631,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void bitten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\bitten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "bitten";
             int wikiID = 15060;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -680,10 +666,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void laden()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\laden.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "laden";
             int wikiID = 72156;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -716,10 +701,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void gebieten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\gebieten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "gebieten";
             int wikiID = 156341;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -752,10 +736,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void dreschen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\dreschen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "dreschen";
             int wikiID = 71394;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -806,10 +789,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void treten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\treten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "treten";
             int wikiID = 158680;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -860,10 +842,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void tun()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\tun.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "tun";
             int wikiID = 17077;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -896,10 +877,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void bieten()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\bieten.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "bieten";
             int wikiID = 15709;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -932,10 +912,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void anschreien()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\anschreien.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "anschreien";
             int wikiID = 295715;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -981,10 +960,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void knöpfen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\knoepfen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "knöpfen";
             int wikiID = 474830;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);
@@ -1018,10 +996,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void kiesen()
         {
-            String filename = @"..\..\TestInput\VerbConjugation\unregelmaessig\kiesen.txt";
-            String text = Common.ReadFromFile(filename);
             String word = "kiesen";
             int wikiID = 161331;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wikiID);

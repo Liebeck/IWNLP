@@ -1,3 +1,0 @@
-﻿== bitten (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
-
-{{Deutsch Verb unregelmäßig|2=bitt|3=bat|4=bät|5=gebeten|7=e|vp=ja|zp=ja|gerund=ja}}

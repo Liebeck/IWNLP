@@ -1,2 +1,0 @@
-﻿== vortragen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
-{{Deutsch Verb unregelmäßig|1=vor|2=trag|3=trug|4=trüg|5=getragen|6=träg|vp=sie_werden|zp=sie_sind|gerund=ja}}

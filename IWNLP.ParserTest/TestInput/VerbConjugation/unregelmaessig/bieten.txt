@@ -1,2 +1,0 @@
-﻿== bieten (Konjugation) ({{Verbkonjugation|Deutsch}})==
-{{Deutsch Verb unregelmäßig|2=biet|3=bot|4=böt|5=geboten|7=e|vp=sie_werden|zp=sie_sind|gerund=ja|Indikativ Präsens (du)=bietest<br>du beutst|Imperativ (du)=biete!<br>beut|Indikativ Präsens (man)=bietet<br><small>er/sie/es</small> beut}}

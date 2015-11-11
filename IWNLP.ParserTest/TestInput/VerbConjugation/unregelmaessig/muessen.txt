@@ -1,2 +1,0 @@
-﻿== müssen (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
-{{Deutsch Verb unregelmäßig|2=müss|3=musste|4=müsst|5=gemusst|6=muss|7=-s|8=n|10=müssen|vp=es_wird|zp=nein|gerund=nein}}

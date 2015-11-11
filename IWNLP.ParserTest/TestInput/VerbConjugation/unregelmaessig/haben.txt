@@ -1,3 +1,0 @@
-﻿== haben (Konjugation) ({{Verbkonjugation|Deutsch}}) ==
-{{Abgeleitete Verben|[[anhaben]], [[durchhaben]], [[liebhaben]], [[mithaben]], [[zurückhaben]]}}
-{{Deutsch Verb unregelmäßig|2=hab|3=hatte|4=hätt|5=gehabt|6=ha|7=em|8=n|vp=sie_werden|zp=nein|gerund=nein}}
