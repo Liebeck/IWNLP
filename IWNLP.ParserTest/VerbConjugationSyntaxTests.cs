@@ -186,11 +186,20 @@ namespace IWNLP.ParserTest
                 {ParameterRegelmaessig.Parameter4, "e"},
                 {ParameterRegelmaessig.Parameter5, "n"},
                 {ParameterRegelmaessig.Parameter6,"generalüberholt"},
-                {ParameterRegelmaessig.ImperativPräsensAktiv, "0"},
-                {ParameterRegelmaessig.PräsensAktiv, "0"},
-                {ParameterRegelmaessig.PräteritumAktiv, "0"},
-                {ParameterRegelmaessig.PartizipI, "0"},
-                {ParameterRegelmaessig.gerund, "0"}
+                {"Hauptsatzkonjugation", "0"},
+                {"Partizip I", "0"},
+                {"Nebensatzkonjugation", "einteilig"},
+                {"veraltet", "0"},
+                {"2. Singular Imperativ Präsens Aktiv", "generalüberhole!"},
+                {"2. Plural Imperativ Präsens Aktiv", "generalüberholt!"},
+                {"Imperativ Präsens Aktiv Höflichkeitsform", "generalüberholen Sie!"}
+
+
+               /*
+                Hauptsatzkonjugation=0|Partizip I=0|vp=vp3|zp=zp3|Nebensatzkonjugation=einteilig|veraltet=0|2. Singular Imperativ Präsens Aktiv=generalüberhole!|2. Plural Imperativ Präsens Aktiv=generalüberholt!|Imperativ Präsens Aktiv Höflichkeitsform=generalüberholen Sie!}}
+                */
+                
+
             };
             Assert.IsTrue(expectedParameters.DictionaryEqual<String, String>(parsedParameters));
         }

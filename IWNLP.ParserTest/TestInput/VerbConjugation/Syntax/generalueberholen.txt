@@ -1,1 +1,1 @@
-﻿{{Deutsch Verb unregelmäßig|ein|2=geb|3=gab|4=gäb|5=gegeben|6=gib|8=i|vp=sie_werden|zp=sie_sind|gerund=ja}}
+﻿{{Deutsch Verb regelmäßig|Infinitiv=einteilig|Teil 1=general|überh|o|l|e|n|generalüberholt|Hauptsatzkonjugation=0|Partizip I=0|vp=vp3|zp=zp3|Nebensatzkonjugation=einteilig|veraltet=0|2. Singular Imperativ Präsens Aktiv=generalüberhole!|2. Plural Imperativ Präsens Aktiv=generalüberholt!|Imperativ Präsens Aktiv Höflichkeitsform=generalüberholen Sie!}}

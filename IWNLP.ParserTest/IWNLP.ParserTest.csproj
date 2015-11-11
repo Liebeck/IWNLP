@@ -91,16 +91,6 @@
     <Content Include="TestInput\AdjectiveDeclination\gelb.txt" />
     <Content Include="TestInput\POS\dunkel.txt" />
     <Content Include="TestInput\POS\wohlgenährt.txt" />
-    <Content Include="TestInput\Pronouns\alles.txt" />
-    <Content Include="TestInput\Pronouns\beide.txt" />
-    <Content Include="TestInput\Pronouns\das.txt" />
-    <Content Include="TestInput\Pronouns\demjenigen.txt" />
-    <Content Include="TestInput\Pronouns\der.txt" />
-    <Content Include="TestInput\Pronouns\er.txt" />
-    <Content Include="TestInput\Pronouns\irgendwelche.txt" />
-    <Content Include="TestInput\Pronouns\kein.txt" />
-    <Content Include="TestInput\Pronouns\sie.txt" />
-    <Content Include="TestInput\Pronouns\welcher.txt" />
     <Content Include="TestInput\Readme.txt" />
     <Content Include="TestInput\VerbConjugation\regelmaessig\abspeichern.txt" />
     <Content Include="TestInput\VerbConjugation\regelmaessig\backen.txt" />
