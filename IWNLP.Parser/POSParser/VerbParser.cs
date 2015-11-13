@@ -82,23 +82,28 @@ namespace IWNLP.Parser.POSParser
                 forms[0] = forms[0].Trim(); // remove spaces
                 if (forms[0].StartsWith("Präsens_ich"))
                 {
-                    verb.Präsens_Ich = this.GetForms(forms[1], verb);
+                    if (verb.Präsens_Ich == null) { verb.Präsens_Ich = new List<string>(); }
+                    verb.Präsens_Ich.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Präsens_du"))
                 {
-                    verb.Präsens_Du = this.GetForms(forms[1], verb);
+                    if (verb.Präsens_Du == null) { verb.Präsens_Du = new List<string>(); }
+                    verb.Präsens_Du.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Präsens_er"))
                 {
-                    verb.Präsens_ErSieEs = this.GetForms(forms[1], verb);
+                    if (verb.Präsens_ErSieEs == null) { verb.Präsens_ErSieEs = new List<string>(); }
+                    verb.Präsens_ErSieEs.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Präteritum_ich"))
                 {
-                    verb.Präteritum_ich = this.GetForms(forms[1], verb);
+                    if (verb.Präteritum_ich == null) { verb.Präteritum_ich = new List<string>(); }
+                    verb.Präteritum_ich.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Konjunktiv II_ich"))
                 {
-                    verb.KonjunktivII_Ich = this.GetForms(forms[1], verb);
+                    if (verb.KonjunktivII_Ich == null) { verb.KonjunktivII_Ich = new List<string>(); }
+                    verb.KonjunktivII_Ich.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Imperativ Singular"))
                 {
@@ -110,7 +115,8 @@ namespace IWNLP.Parser.POSParser
                             extractedForms[j] = extractedForms[j] + "!";
                         }
                     }
-                    verb.ImperativSingular = extractedForms;
+                    if (verb.ImperativSingular == null) { verb.ImperativSingular = new List<string>(); }
+                    verb.ImperativSingular.AddRange(extractedForms);
                 }
                 else if (forms[0].StartsWith("Imperativ Plural"))
                 {
@@ -122,11 +128,13 @@ namespace IWNLP.Parser.POSParser
                             extractedForms[j] = extractedForms[j] + "!";
                         }
                     }
-                    verb.ImperativPlural = extractedForms;
+                    if (verb.ImperativPlural == null) { verb.ImperativPlural = new List<string>(); }
+                    verb.ImperativPlural.AddRange(extractedForms);
                 }
                 else if (forms[0].StartsWith("Partizip II"))
                 {
-                    verb.PartizipII = this.GetForms(forms[1], verb);
+                    if (verb.PartizipII == null) { verb.PartizipII = new List<string>(); }
+                    verb.PartizipII.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Hilfsverb2"))
                 {
