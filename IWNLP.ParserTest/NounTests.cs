@@ -1829,5 +1829,276 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void Riff()
+        {
+            String word = "Riff";
+            int wiktionaryID = 15088;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="Riff"}},
+                NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Riffe"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Riffes"},new Inflection(){ Article="des", InflectedWord="Riffs"}},
+                GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Riffe"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Riff"},new Inflection(){ Article="dem", InflectedWord="Riffe"}},
+                DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Riffen"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Riff"}},
+                AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Riffe"}},
+             },
+                          new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Maskulinum,Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Riff"},new Inflection(){ Article="das", InflectedWord="Riff"}},
+                NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Riffs"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Riffs"},new Inflection(){ Article="des", InflectedWord="Riffs"}},
+                GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Riffs"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Riff"},new Inflection(){ Article="dem", InflectedWord="Riff"}},
+                DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Riffs"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="den", InflectedWord="Riff"},new Inflection(){ Article="das", InflectedWord="Riff"}},
+                AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Riffs"}},
+             }
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Bogen()
+        {
+            String word = "Bogen";
+            int wiktionaryID = 16867;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Bogen"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Bogen"},new Inflection(){ Article ="die", InflectedWord="Bögen"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Bogens"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Bogen"},new Inflection(){ Article ="der", InflectedWord="Bögen"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Bogen"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Bogen"},new Inflection(){ Article ="den", InflectedWord="Bögen"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Bogen"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Bogen"},new Inflection(){ Article ="die", InflectedWord="Bögen"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Renforcé()
+        {
+            String word = "Renforcé";
+            int wiktionaryID = 497419;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Maskulinum,Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Renforcé"},new Inflection(){ Article ="das", InflectedWord="Renforcé"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Renforcés"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Renforcés"},new Inflection(){ Article ="des", InflectedWord="Renforcés"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Renforcés"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Renforcé"},new Inflection(){ Article ="dem", InflectedWord="Renforcé"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Renforcés"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Renforcé"},new Inflection(){ Article ="das", InflectedWord="Renforcé"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Renforcés"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Picknick()
+        {
+            String word = "Picknick";
+            int wiktionaryID = 115173;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Picknick"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Picknicke"},new Inflection(){ Article ="die", InflectedWord="Picknicks"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Picknicks"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Picknicke"},new Inflection(){ Article ="der", InflectedWord="Picknicks"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Picknick"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Picknicken"},new Inflection(){ Article ="den", InflectedWord="Picknicks"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Picknick"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Picknicke"},new Inflection(){ Article ="die", InflectedWord="Picknicks"}},
+             }
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Orden()
+        {
+            String word = "Bogen";
+            int wiktionaryID = 25404;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Orden"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Orden"},new Inflection(){ Article ="die", InflectedWord="Örden"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Ordens"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Orden"},new Inflection(){ Article ="der", InflectedWord="Örden"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Orden"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Orden"},new Inflection(){ Article ="den", InflectedWord="Örden"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Orden"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Orden"},new Inflection(){ Article ="die", InflectedWord="Örden"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Schlot()
+        {
+            String word = "Schlot";
+            int wiktionaryID = 85380;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Schlot"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Schlote"},new Inflection(){ Article ="die", InflectedWord="Schlöte"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Schlotes"}, new Inflection(){Article="des", InflectedWord="Schlots"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Schlote"},new Inflection(){ Article ="der", InflectedWord="Schlöte"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Schlot"},new Inflection(){Article="dem",InflectedWord="Schlote"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Schloten"},new Inflection(){ Article ="den", InflectedWord="Schlöten"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Schlot"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Schlote"},new Inflection(){ Article ="die", InflectedWord="Schlöte"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Admiral()
+        {
+            String word = "Admiral";
+            int wiktionaryID = 11635;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Admiral"}},
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Admirale"},new Inflection(){ Article ="die", InflectedWord="Admiräle"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Admirals"}},
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Admirale"},new Inflection(){ Article ="der", InflectedWord="Admiräle"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Admiral"},new Inflection(){Article="dem",InflectedWord="Admirale"}},
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Admiralen"},new Inflection(){ Article ="den", InflectedWord="Admirälen"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Admiral"}},
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Admirale"},new Inflection(){ Article ="die", InflectedWord="Admiräle"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Brautleute()
+        {
+            String word = "Brautleute";
+            int wiktionaryID = 433358;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                WiktionaryID = wiktionaryID,
+                Genus = new List<Genus>(),
+                NominativSingular =  new List<Inflection>(),
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Brautleute"}},
+                GenitivSingular = new List<Inflection>(),
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Brautleute"}},
+                DativSingular = new List<Inflection>(),
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Brautleuten"}},
+                AkkusativSingular = new List<Inflection>(),
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Brautleute"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
