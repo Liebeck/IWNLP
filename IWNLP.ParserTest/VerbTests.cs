@@ -70,7 +70,6 @@ namespace IWNLP.ParserTest
                 Präteritum_ich = new List<string>(){"erkältete mich"},
                 PartizipII = new List<string>(){"sich erkältet"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen = "erkälten (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -104,7 +103,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"rennt!"},
                 PartizipII = new List<string>(){"gerannt"},
                 Hilfsverb = "sein",
-                WeitereKonjugationen = "rennen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -137,7 +135,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"sortiert aus!"},
                 PartizipII = new List<string>(){"aussortiert"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen = "aussortieren (Konjugation)",
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -153,7 +150,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"sortiert aus!"},
                 PartizipII = new List<string>(){"aussortiert"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen = "aussortieren (Konjugation)",
                 POS = Models.POS.Verb
              }
             };
@@ -218,7 +214,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"pikt!"},
                 PartizipII = new List<string>(){"gepikt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="piken (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -251,7 +246,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"sendet!"},
                 PartizipII = new List<string>(){"gesendet","gesandt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="senden (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -284,7 +278,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"rinnt!"},
                 PartizipII = new List<string>(){"geronnen"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="rinnen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -297,7 +290,7 @@ namespace IWNLP.ParserTest
         public void fläzen()
         {
             String word = "fläzen";
-            int wiktionaryID = 198892;
+            int wiktionaryID = 57154;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
@@ -317,7 +310,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"fläzt!"},
                 PartizipII = new List<string>(){"gefläzt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="fläzen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -350,7 +342,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"überführt!"},
                 PartizipII = new List<string>(){"übergeführt","überführt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="überführen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -383,7 +374,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"speiset!"},
                 PartizipII = new List<string>(){"gespeist","gespiesen"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="speisen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -416,7 +406,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschoren","geschert"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="scheren (Konjugation)",
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -432,7 +421,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschert"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="scheren (Konjugation)",
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -449,7 +437,6 @@ namespace IWNLP.ParserTest
                 PartizipII = new List<string>(){"geschert"},
                 Hilfsverb = "haben",
                 Hilfsverb2="sein",
-                WeitereKonjugationen="scheren (Konjugation)",
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -465,7 +452,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschert"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="scheren (Konjugation)",
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -481,7 +467,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschoren"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="scheren (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -514,7 +499,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"scheut!","scheuet!"},
                 PartizipII = new List<string>(){"gescheut"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="scheuen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -658,7 +642,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"salzt!"},
                 PartizipII = new List<string>(){"gesalzen","gesalzt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="salzen (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -692,7 +675,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"blinzelt!"},
                 PartizipII = new List<string>(){"geblinzelt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="blinzeln (Konjugation)",
                 POS = Models.POS.Verb
              },
             };
@@ -726,7 +708,6 @@ namespace IWNLP.ParserTest
                 PartizipII = new List<string>(){"gestiefelt"},
                 Hilfsverb = "sein",
                 Hilfsverb2="haben",
-                WeitereKonjugationen="stiefeln (Konjugation)",
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -742,7 +723,6 @@ namespace IWNLP.ParserTest
                 ImperativPlural = new List<string>(){"stiefelt!"},
                 PartizipII = new List<string>(){"gestiefelt"},
                 Hilfsverb = "haben",
-                WeitereKonjugationen="stiefeln (Konjugation)",
                 POS = Models.POS.Verb
              }
             };
@@ -853,7 +833,7 @@ namespace IWNLP.ParserTest
         public void küren()
         {
             String word = "küren";
-            int wiktionaryID = 35996;
+            int wiktionaryID = 49173;
             String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
