@@ -38,9 +38,12 @@ namespace IWNLP.ParserTest
                 Präteritum_ich = new List<string>(){"blätterte ab"},
                 PartizipII = new List<string>(){"abgeblättert"},
                 Hilfsverb = "sein",
+                Hilfsverb2="sein",
                 POS = Models.POS.Verb
              },
             };
+            XMLSerializer.Serialize<Models.Word>(expectedWords[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -126,11 +129,11 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 WiktionaryID = wiktionaryID,
-                Präsens_Ich = new List<string>(){"sortiere aus", "aussortiere"},
-                Präsens_Du = new List<string>(){"sortierst aus", "aussortierst"},
-                Präsens_ErSieEs = new List<string>(){"sortiert aus", "aussortiert"},
-                Präteritum_ich = new List<string>(){"sortierte aus", "aussortierte"},
-                KonjunktivII_Ich = new List<string>(){"sortierte aus","aussortierte"},
+                Präsens_Ich = new List<string>(){"sortiere aus"},
+                Präsens_Du = new List<string>(){"sortierst aus"},
+                Präsens_ErSieEs = new List<string>(){"sortiert aus"},
+                Präteritum_ich = new List<string>(){"sortierte aus"},
+                KonjunktivII_Ich = new List<string>(){"sortierte aus"},
                 ImperativSingular = new List<string>(){"sortiere aus!", "sortier aus!"},
                 ImperativPlural = new List<string>(){"sortiert aus!"},
                 PartizipII = new List<string>(){"aussortiert"},
@@ -141,11 +144,11 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 WiktionaryID = wiktionaryID,
-                Präsens_Ich = new List<string>(){"sortiere aus", "aussortiere"},
-                Präsens_Du = new List<string>(){"sortierst aus", "aussortierst"},
-                Präsens_ErSieEs = new List<string>(){"sortiert aus", "aussortiert"},
-                Präteritum_ich = new List<string>(){"sortierte aus", "aussortierte"},
-                KonjunktivII_Ich = new List<string>(){"sortierte aus","aussortierte"},
+                Präsens_Ich = new List<string>(){"sortiere aus"},
+                Präsens_Du = new List<string>(){"sortierst aus"},
+                Präsens_ErSieEs = new List<string>(){"sortiert aus"},
+                Präteritum_ich = new List<string>(){"sortierte aus"},
+                KonjunktivII_Ich = new List<string>(){"sortierte aus"},
                 ImperativSingular = new List<string>(){"sortiere aus!", "sortier aus!"},
                 ImperativPlural = new List<string>(){"sortiert aus!"},
                 PartizipII = new List<string>(){"aussortiert"},
