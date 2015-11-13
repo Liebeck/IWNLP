@@ -63,14 +63,14 @@ namespace IWNLP.ParserTest
              {
                 Text="erkälten",
                 WiktionaryID = wiktionaryID,
-                Präsens_Du = new List<string>(){"erkältest dich"},
-                Präsens_ErSieEs = new List<string>(){"erkältet sich"},
-                Präsens_Ich = new List<string>(){"erkälte mich"},
-                ImperativPlural = new List<string>(){"erkältet euch!"},
-                ImperativSingular = new List<string>(){"erkälte dich!"},
-                KonjunktivII_Ich = new List<string>(){"erkältete mich"},
-                Präteritum_ich = new List<string>(){"erkältete mich"},
-                PartizipII = new List<string>(){"sich erkältet"},
+                Präsens_Ich = new List<string>(){"erkälte"},
+                Präsens_Du = new List<string>(){"erkältest"},
+                Präsens_ErSieEs = new List<string>(){"erkältet"},
+                ImperativPlural = new List<string>(){"erkältet!"},
+                ImperativSingular = new List<string>(){"erkälte!"},
+                KonjunktivII_Ich = new List<string>(){"erkältete"},
+                Präteritum_ich = new List<string>(){"erkältete"},
+                PartizipII = new List<string>(){"erkältet"},
                 Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
@@ -340,9 +340,24 @@ namespace IWNLP.ParserTest
                 Präsens_ErSieEs = new List<string>(){"überführt"},
                 Präteritum_ich = new List<string>(){"überführte"},
                 KonjunktivII_Ich = new List<string>(){"überführte"},
-                ImperativSingular = new List<string>(){"überführe!"},
+                ImperativSingular = new List<string>(){"überführ!","überführe!"},
                 ImperativPlural = new List<string>(){"überführt!"},
-                PartizipII = new List<string>(){"übergeführt","überführt"},
+                PartizipII = new List<string>(){"überführt"},
+                Hilfsverb = new List<string>(){"haben"},
+                POS = Models.POS.Verb
+             },
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"führe über"},
+                Präsens_Du = new List<string>(){"führst über"},
+                Präsens_ErSieEs = new List<string>(){"führt über"},
+                Präteritum_ich = new List<string>(){"führte über"},
+                KonjunktivII_Ich = new List<string>(){"führte über"},
+                ImperativSingular = new List<string>(){"führ über!","überführe!"},
+                ImperativPlural = new List<string>(){"führt über!","überführt!"},
+                PartizipII = new List<string>(){"übergeführt"},
                 Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
@@ -528,8 +543,8 @@ namespace IWNLP.ParserTest
                 Präsens_ErSieEs = new List<string>(){"kommt herein"},
                 Präteritum_ich = new List<string>(){"kam herein"},
                 KonjunktivII_Ich = new List<string>(){"käme herein"},
-                ImperativSingular = new List<string>(){"komm herein!","Herein!"},
-                ImperativPlural = new List<string>(){"kommt herein!","Herein!"},
+                ImperativSingular = new List<string>(){"komm herein!"},
+                ImperativPlural = new List<string>(){"kommt herein!"},
                 PartizipII = new List<string>(){"hereingekommen"},
                 Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
@@ -562,7 +577,7 @@ namespace IWNLP.ParserTest
                 KonjunktivII_Ich = new List<string>(){"fladerte"},
                 ImperativSingular = new List<string>(){"flader!"},
                 ImperativPlural = new List<string>(){"fladert!"},
-                PartizipII = new List<string>(){"gefladert", "g'fladert"},
+                PartizipII = new List<string>(){"gefladert"},
                 Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
@@ -745,7 +760,7 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 WiktionaryID = wiktionaryID,
-                Präsens_Ich = new List<string>(){"kriege","krich"},
+                Präsens_Ich = new List<string>(){"kriege"},
                 Präsens_Du = new List<string>(){"kriegst"},
                 Präsens_ErSieEs = new List<string>(){"kriegt"},
                 Präteritum_ich = new List<string>(){"kriegte"},
@@ -896,7 +911,7 @@ namespace IWNLP.ParserTest
                 KonjunktivII_Ich = new List<string>(){"würde"},
                 ImperativSingular = new List<string>(){"werde!"},
                 ImperativPlural = new List<string>(){"werdet!"},
-                PartizipII = new List<string>(){"worden","geworden"},
+                PartizipII = new List<string>(){"geworden"},
                 Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
              },
@@ -1145,16 +1160,13 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 WiktionaryID = wiktionaryID,
-                Präsens_Ich = new List<string>(){"grenze an"},
-                Präsens_Du = new List<string>(){"grenzt an"},
                 Präsens_ErSieEs = new List<string>(){"grenzt an"},
                 Präteritum_ich = new List<string>(){"grenzte an"},
                 KonjunktivII_Ich = new List<string>(){"grenzte an"},
-                ImperativSingular = new List<string>(){"grenze an!"},
-                ImperativPlural = new List<string>(){"grenzt an!"},
                 PartizipII = new List<string>(){"angegrenzt"},
                 Hilfsverb = new List<string>(){"haben"},
-                POS = Models.POS.Verb
+                POS = Models.POS.Verb,
+                Unpersönlich = true
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
@@ -1177,7 +1189,13 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"verheere"},
+                Präsens_Du = new List<string>(){"verheerst"},
                 Präsens_ErSieEs = new List<string>(){"verheert"},
+                Präteritum_ich = new List<string>(){"verheerte"},
+                KonjunktivII_Ich = new List<string>(){"verheerte"},
+                ImperativSingular = new List<string>(){"verheere!"},
+                ImperativPlural = new List<string>(){"verheert!"},
                 PartizipII = new List<string>(){"verheert"},
                 Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
@@ -1213,6 +1231,35 @@ namespace IWNLP.ParserTest
                 PartizipII = new List<string>(){"erfoltert"},
                 Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void regnen()
+        {
+            String word = "regnen";
+            int wiktionaryID = 18299;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_ErSieEs = new List<string>(){"regnet"},
+                Präteritum_ich = new List<string>(){"regnete"},
+                KonjunktivII_Ich = new List<string>(){"regnete"},
+                PartizipII = new List<string>(){"geregnet"},
+                Hilfsverb = new List<string>(){"haben"},
+                POS = Models.POS.Verb,
+                Unpersönlich = true
              },
             };
             XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
