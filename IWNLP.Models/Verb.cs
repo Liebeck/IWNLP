@@ -20,8 +20,8 @@ namespace IWNLP.Models
         public List<String> ImperativSingular { get; set; }
         public List<String> ImperativPlural { get; set; }
         public List<String> PartizipII { get; set; }
-        public String Hilfsverb { get; set; }
-        public String Hilfsverb2 { get; set; }
+        public List<String> Hilfsverb { get; set; }
+        //public String Hilfsverb2 { get; set; }
         public String WeitereKonjugationen { get; set; }
         public String WeitereKonjugationen2 { get; set; }
 
@@ -38,8 +38,7 @@ namespace IWNLP.Models
             return base.Text == obj.Text
                 && base.WiktionaryID == obj.WiktionaryID
                 && base.POS == obj.POS
-                && this.Hilfsverb == obj.Hilfsverb
-                && this.Hilfsverb2 == obj.Hilfsverb2
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Hilfsverb, obj.Hilfsverb)
                 && this.WeitereKonjugationen == obj.WeitereKonjugationen
                 && this.WeitereKonjugationen2 == obj.WeitereKonjugationen2
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.Präsens_Ich, obj.Präsens_Ich)

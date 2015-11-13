@@ -136,13 +136,14 @@ namespace IWNLP.Parser.POSParser
                     if (verb.PartizipII == null) { verb.PartizipII = new List<string>(); }
                     verb.PartizipII.AddRange(this.GetForms(forms[1], verb));
                 }
-                else if (forms[0].StartsWith("Hilfsverb2"))
-                {
-                    verb.Hilfsverb2 = forms[1];
-                }
+                //else if (forms[0].StartsWith("Hilfsverb2"))
+                //{
+                //    verb.Hilfsverb2 = forms[1];
+                //}
                 else if (forms[0].StartsWith("Hilfsverb"))
                 {
-                    verb.Hilfsverb = forms[1];
+                    if (verb.Hilfsverb == null) { verb.Hilfsverb = new List<string>(); }
+                    verb.Hilfsverb.Add(forms[1]);
                 }
                 else if (forms[0].StartsWith("Weitere_Konjugationen2"))
                 {

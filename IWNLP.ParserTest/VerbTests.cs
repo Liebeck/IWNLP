@@ -37,8 +37,7 @@ namespace IWNLP.ParserTest
                 KonjunktivII_Ich = new List<string>(){"blätterte ab"},
                 Präteritum_ich = new List<string>(){"blätterte ab"},
                 PartizipII = new List<string>(){"abgeblättert"},
-                Hilfsverb = "sein",
-                Hilfsverb2="sein",
+                Hilfsverb = new List<string>(){"sein","haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -72,7 +71,7 @@ namespace IWNLP.ParserTest
                 KonjunktivII_Ich = new List<string>(){"erkältete mich"},
                 Präteritum_ich = new List<string>(){"erkältete mich"},
                 PartizipII = new List<string>(){"sich erkältet"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -105,7 +104,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"renn!", "renne!"},
                 ImperativPlural = new List<string>(){"rennt!"},
                 PartizipII = new List<string>(){"gerannt"},
-                Hilfsverb = "sein",
+                Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
              },
             };
@@ -137,7 +136,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"sortiere aus!", "sortier aus!"},
                 ImperativPlural = new List<string>(){"sortiert aus!"},
                 PartizipII = new List<string>(){"aussortiert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -152,7 +151,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"sortiere aus!", "sortier aus!"},
                 ImperativPlural = new List<string>(){"sortiert aus!"},
                 PartizipII = new List<string>(){"aussortiert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              }
             };
@@ -184,7 +183,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"versalze!"},
                 ImperativPlural = new List<string>(){"versalzt!"},
                 PartizipII = new List<string>(){"versalzen", "versalzt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -216,7 +215,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"pik!","pike!"},
                 ImperativPlural = new List<string>(){"pikt!"},
                 PartizipII = new List<string>(){"gepikt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -248,7 +247,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"sende!","send!"},
                 ImperativPlural = new List<string>(){"sendet!"},
                 PartizipII = new List<string>(){"gesendet","gesandt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -280,7 +279,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"rinn!","rinne!"},
                 ImperativPlural = new List<string>(){"rinnt!"},
                 PartizipII = new List<string>(){"geronnen"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -305,14 +304,14 @@ namespace IWNLP.ParserTest
                 Text=word,
                 WiktionaryID = wiktionaryID,
                 Präsens_Ich = new List<string>(){"fläze"},
-                Präsens_Du = new List<string>(){"fläzt","fläzest"},
+                Präsens_Du = new List<string>(){"fläzt"},
                 Präsens_ErSieEs = new List<string>(){"fläzt"},
                 Präteritum_ich = new List<string>(){"fläzte"},
                 KonjunktivII_Ich = new List<string>(){"fläzte"},
                 ImperativSingular = new List<string>(){"fläz!","fläze!"},
                 ImperativPlural = new List<string>(){"fläzt!"},
                 PartizipII = new List<string>(){"gefläzt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -344,7 +343,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"überführe!"},
                 ImperativPlural = new List<string>(){"überführt!"},
                 PartizipII = new List<string>(){"übergeführt","überführt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -376,7 +375,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"speise!"},
                 ImperativPlural = new List<string>(){"speiset!"},
                 PartizipII = new List<string>(){"gespeist","gespiesen"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -408,7 +407,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"schere!"},
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschoren","geschert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -423,7 +422,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"schere!"},
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -438,8 +437,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"schere!"},
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschert"},
-                Hilfsverb = "haben",
-                Hilfsverb2="sein",
+                Hilfsverb = new List<string>(){"haben","sein"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -454,7 +452,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"schere!"},
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -469,7 +467,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"schere!"},
                 ImperativPlural = new List<string>(){"schert!"},
                 PartizipII = new List<string>(){"geschoren"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -501,7 +499,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"scheue!"},
                 ImperativPlural = new List<string>(){"scheut!","scheuet!"},
                 PartizipII = new List<string>(){"gescheut"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -533,7 +531,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"komm herein!","Herein!"},
                 ImperativPlural = new List<string>(){"kommt herein!","Herein!"},
                 PartizipII = new List<string>(){"hereingekommen"},
-                Hilfsverb = "sein",
+                Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
              },
             };
@@ -565,7 +563,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"flader!"},
                 ImperativPlural = new List<string>(){"fladert!"},
                 PartizipII = new List<string>(){"gefladert", "g'fladert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -579,7 +577,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"flader!"},
                 ImperativPlural = new List<string>(){"fladerd!"},
                 PartizipII = new List<string>(){"gefladerd", "g'fladerd"},
-                Hilfsverb = "homm",
+                Hilfsverb = new List<string>(){"homm"},
                 POS = Models.POS.Verb
              }
             };
@@ -611,8 +609,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"bröckele ab!","bröckle ab!"},
                 ImperativPlural = new List<string>(){"bröckelt ab!"},
                 PartizipII = new List<string>(){"abgebröckelt"},
-                Hilfsverb = "haben",
-                Hilfsverb2="sein",
+                Hilfsverb = new List<string>(){"haben","sein"},
                 POS = Models.POS.Verb
              },
             };
@@ -644,7 +641,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"salz!","salze!"},
                 ImperativPlural = new List<string>(){"salzt!"},
                 PartizipII = new List<string>(){"gesalzen","gesalzt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -677,7 +674,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"blinzele!","blinzle!","blinzel!"},
                 ImperativPlural = new List<string>(){"blinzelt!"},
                 PartizipII = new List<string>(){"geblinzelt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -709,8 +706,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"stiefele!","stiefle!"},
                 ImperativPlural = new List<string>(){"stiefelt!"},
                 PartizipII = new List<string>(){"gestiefelt"},
-                Hilfsverb = "sein",
-                Hilfsverb2="haben",
+                Hilfsverb = new List<string>(){"sein","haben"},
                 POS = Models.POS.Verb
              },
              new Models.Verb()
@@ -725,7 +721,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"stiefele!","stiefle!"},
                 ImperativPlural = new List<string>(){"stiefelt!"},
                 PartizipII = new List<string>(){"gestiefelt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              }
             };
@@ -757,7 +753,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"krieg!","kriege!"},
                 ImperativPlural = new List<string>(){"kriegt!"},
                 PartizipII = new List<string>(){"gekriegt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -790,7 +786,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"frag!","frage!"},
                 ImperativPlural = new List<string>(){"fragt!"},
                 PartizipII = new List<string>(){"gefragt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -822,7 +818,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"leide!","leid!"},
                 ImperativPlural = new List<string>(){"leidet!"},
                 PartizipII = new List<string>(){"gelitten"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -855,7 +851,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"kür!","küre!"},
                 ImperativPlural = new List<string>(){"kürt!"},
                 PartizipII = new List<string>(){"gekürt","gekoren"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -901,7 +897,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"werde!"},
                 ImperativPlural = new List<string>(){"werdet!"},
                 PartizipII = new List<string>(){"worden","geworden"},
-                Hilfsverb = "sein",
+                Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
              },
             };
@@ -933,7 +929,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"hilf!"},
                 ImperativPlural = new List<string>(){"helft!"},
                 PartizipII = new List<string>(){"geholfen"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -965,7 +961,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"menstruiere!","menstruier!"},
                 ImperativPlural = new List<string>(){"menstruiert!"},
                 PartizipII = new List<string>(){"menstruiert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -997,7 +993,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"hilf weiter!"},
                 ImperativPlural = new List<string>(){"helft weiter!"},
                 PartizipII = new List<string>(){"weitergeholfen"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1029,7 +1025,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"salz nach!","salze nach!"},
                 ImperativPlural = new List<string>(){"salzt nach!"},
                 PartizipII = new List<string>(){"nachgesalzen","nachgesalzt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1061,7 +1057,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"saug!"},
                 ImperativPlural = new List<string>(){"saugt!"},
                 PartizipII = new List<string>(){"gesaugt","gesogen"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1093,7 +1089,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"schwöre!"},
                 ImperativPlural = new List<string>(){"schwört!"},
                 PartizipII = new List<string>(){"geschworen"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1125,7 +1121,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"sauge aus!"},
                 ImperativPlural = new List<string>(){"sauget aus!","saugt aus!"},
                 PartizipII = new List<string>(){"ausgesogen","ausgesaugt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1157,7 +1153,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"grenze an!"},
                 ImperativPlural = new List<string>(){"grenzt an!"},
                 PartizipII = new List<string>(){"angegrenzt"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1183,7 +1179,7 @@ namespace IWNLP.ParserTest
                 WiktionaryID = wiktionaryID,
                 Präsens_ErSieEs = new List<string>(){"verheert"},
                 PartizipII = new List<string>(){"verheert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
@@ -1215,7 +1211,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"erfolter!","erfoltere!"},
                 ImperativPlural = new List<string>(){"erfoltert!"},
                 PartizipII = new List<string>(){"erfoltert"},
-                Hilfsverb = "haben",
+                Hilfsverb = new List<string>(){"haben"},
                 POS = Models.POS.Verb
              },
             };
