@@ -1750,5 +1750,37 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void Rauchwaren()
+        {
+            String word = "Rauchwaren";
+            int wiktionaryID = 542369;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                WiktionaryID = wiktionaryID,
+                Genus = new List<Genus>(),
+                NominativSingular =  new List<Inflection>(),
+                NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Rauchwaren"}},
+                GenitivSingular = new List<Inflection>(),
+                GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Rauchwaren"}},
+                DativSingular = new List<Inflection>(),
+                DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Rauchwaren"}},
+                AkkusativSingular = new List<Inflection>(),
+                AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Rauchwaren"}},
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
