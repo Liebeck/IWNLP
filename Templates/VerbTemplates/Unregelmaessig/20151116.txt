@@ -1,0 +1,816 @@
+__ABSCHNITTE_NICHT_BEARBEITEN__
+<noinclude>{{Dokumentation}}</noinclude><onlyinclude>
+:<span style="color:grey">< zurück zu '''[[{{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}]]'''</span>
+
+==== Infinitive und Partizipien ====
+{| width="100%" border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; border:1px solid #aaaaaa" align=left
+|-
+!colspan="3" bgcolor=#CCCCFF|[[Hilfe:Infinitiv|(nichterweiterte) Infinitive]]<!------------------->
+|-
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4 align=center|'''[[Hilfe:Präsens|Infinitiv Präsens]]'''
+|bgcolor=#F4F4F4 align=center|'''[[Hilfe:Perfekt|Infinitiv Perfekt]]'''
+{{!-}}
+|bgcolor=#F4F4F4 align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+{{!}} {{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{!}} {{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} | {{#switch: {{{zr|}}} | ja | 1=
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Zustandsreflexiv{{!}}Zustandsreflexiv]]'''
+{{!}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{5|}}} sein
+{{!}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{5|}}} gewesen sein
+}}
+|
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp= — | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp= — | nein | 0= — }}
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp | nein | 0= — }}
+}}
+{{!-}}
+!colspan="3" bgcolor=#CCCCFF|[[Hilfe:Infinitiv|erweiterte Infinitive]]<!--------------------->
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Aktiv|Aktiv]]'''
+{{!}} {{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1}}}{{#if: {{{Wv|}}} | zu&nbsp; | zu}} | zu&nbsp; }}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }} 
+{{!}} {{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} zu {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>{{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} zu {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} | {{#switch: {{{zr|}}} | ja | 1=
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Zustandsreflexiv{{!}}Zustandsreflexiv]]'''
+{{!}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{5|}}} zu sein
+{{!}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{5|}}} gewesen zu sein
+}}
+|
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} zu werden | es_wird | uvp= — | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden zu sein | es_wird | uvp= — | nein | 0= — }}
+{{!-}}
+{{!}}bgcolor=#F4F4F4 align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} zu sein | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen zu sein | es_ist | uzp | nein | 0= — }}
+}}
+|-
+!colspan="3" bgcolor=#CCCCFF|[[Hilfe:Partizip|Partizipien]]<!------------------------->
+|-
+|bgcolor=#F4F4F4|'''[[Hilfe:Präsens|Präsens Aktiv]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Perfekt|Perfekt Passiv]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Gerundivum|Gerundivum]]'''<br><small>Nur attributive Verwendung</small>
+|-
+| {{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1}}}|}}{{{2}}}end 
+| {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| {{#switch: {{{gerund||}}}| nein | 0= — | ja | 1= {{#if: {{{1|}}}|{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{{1}}}{{#if: {{{Wv|}}} | zu&nbsp; | zu}}|zu&nbsp;}}{{{2|}}}ender, <br>{{#if: {{{1|}}}|{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|sich}}{{{1}}}{{#if: {{{Wv|}}} | zu&nbsp; | zu}}|zu&nbsp;}}{{{2}}}ende... }}
+|-
+|}
+<br style="clear:both;"/>
+
+==== Finite Formen ====
+===== Imperativ =====
+{| width="100%" border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; border:1px solid #aaaaaa" align=left
+|-
+!colspan="7" bgcolor=#CCCCFF{{!}}[[Hilfe:Imperativ|Imperative]]<!----------------------->
+|-
+!bgcolor=#F4F4F4|
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3" bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Präsens Aktiv]]'''
+{{!}}colspan="3" bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Perfekt Aktiv]]'''
+|
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Präsens Aktiv]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Präsens Vorgangspassiv]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Präsens Zustandspassiv]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Perfekt Aktiv]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Perfekt Vorgangspassiv]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Imperativ|Perfekt Zustandspassiv]]'''
+}}
+|-
+{{!}}bgcolor=#F4F4F4|{{small|2. Person Singular}}
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3"{{!}}
+|
+{{!}}colspan="1"{{!}}
+}}
+{{#if: {{{Imperativ (du)|}}} | {{{Imperativ (du)}}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! | {{#if: {{{10|}}} | {{#ifeq: {{{2|}}}n | {{{10|}}} | {{{2}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2si}}{{#if: {{{1|}}}|&nbsp;{{{1}}}|}}!<br/>{{{2}}}e{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2si}}{{#if: {{{1|}}}|&nbsp;{{{1}}}|}}! | {{#ifeq: {{{10|}}} | wissen | wisse{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2si}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! | {{#switch: {{{10|}}} | dürfen|können|mögen|müssen|sollen|wollen=—|#default= —}} }} }} | {{#ifeq: {{{6|}}}| wir | werde{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! | {{#switch:{{{8|}}}|i|in|ni={{{6}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2si}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}!|#default={{{2}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2si}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}!<br>{{{2}}}e{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2si}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! }} }} }} }}
+{{#if: {{{reflexiv|}}} |<!-- kein Eintrag -->|
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{vp|}}}| es_wird | uvp | sie_werden | vp3 | nein | 0= — | ja | 1= ''werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }} }}
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{zp|}}}| es_ist | uzp | sie_sind | zp3 | nein | 0= — | ja | 1= ''sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }} }}
+}}
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3"{{!}}
+|
+{{!}}colspan="1"{{!}}
+}}
+{{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default=''{{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sei|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }}
+{{#if: {{{reflexiv|}}} |<!-- kein Eintrag -->|
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{vp|}}}| es_wird | uvp | sie_werden | vp3 |  nein | 0= — | ja | 1= ''sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden!'' }} }}
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{zp|}}}| es_ist | uzp | sie_sind | zp3 |  nein | 0= — | ja | 1= ''sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen!'' }} }}
+}}
+{{!-}}
+{{!}}bgcolor=#F4F4F4|{{small|2. Person Plural}}
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3"{{!}}
+|
+{{!}}colspan="1"{{!}}
+}}
+{{#if: {{{Imperativ (ihr)|}}} | {{{Imperativ (ihr)}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2pi}}{{#if: {{{1|}}}|&nbsp;{{{1}}}|}}! | {{#if: {{{10|}}} | {{#ifeq: {{{2|}}}n | {{{10|}}} | {{{2}}}t{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2pi}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! | {{#ifeq: {{{10|}}} | wissen | wisset{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2pi}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! | {{#switch: {{{10|}}} | dürfen|können|mögen|müssen|sollen|wollen=—|#default= —}} }} }} | {{{2}}}{{#switch: {{{7|}}}|e|e-|e2=et| #default=t}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2pi}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! }} }}
+{{#if: {{{reflexiv|}}} |<!-- kein Eintrag -->|
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{vp|}}}| es_wird | uvp | sie_werden | vp3 | nein | 0= — | ja | 1= ''werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }} }}
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{zp|}}}| es_ist | uzp | sie_sind | zp3 | nein | 0= — | ja | 1= ''seid {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }} }}
+}}
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3"{{!}}
+|
+{{!}}colspan="1"{{!}}
+}}
+{{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default=''{{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seid|habt }} {{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }}
+{{#if: {{{reflexiv|}}} |<!-- kein Eintrag -->|
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{vp|}}}| es_wird | uvp | sie_werden | vp3 | nein | 0= — | ja | 1= ''seid {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden!'' }} }}
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{zp|}}}| es_ist | uzp | sie_sind | zp3 | nein | 0= — | ja | 1= ''seid {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen!'' }} }}
+}}
+|-
+{{!}}bgcolor=#F4F4F4|{{small|Höflichkeitsform}}
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3"{{!}}
+|
+{{!}}colspan="1"{{!}}
+}}
+{{#if: {{{10|}}} | {{#ifeq: {{{2|}}}n | {{{10|}}} | {{{10}}} Sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3pi}}{{#if: {{{1|}}}|&nbsp;{{{1}}}|}}! | {{#ifeq: {{{10|}}} | wissen | wissen Sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3pi}}{{#if: {{{1|}}}|&nbsp;{{{1}}}|}}! | {{#switch: {{{10|}}} | dürfen|können|mögen|müssen|sollen|wollen=—|#default= —}} }} }} | {{{2}}}en Sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3pi}}{{#if: {{{1|}}} | &nbsp;{{#if: {{{Wv|}}} | {{Str crop|{{{1|}}}|6}} | {{{1|}}}}} }}! }}
+{{#if: {{{reflexiv|}}} |<!-- kein Eintrag -->|
+{{!}}{{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{vp|}}}| es_wird | uvp | sie_werden | vp3 | nein | 0= — | ja | 1= ''werden Sie {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!''}} }}
+{{!}}{{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{zp|}}}| es_ist | uzp | sie_sind | zp3 | nein | 0= — | ja | 1= ''seien Sie {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }} }}
+}}
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3"{{!}}
+|
+{{!}}colspan="1"{{!}}
+}}
+{{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default=''{{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seien|haben }} Sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3pi}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}!'' }}
+{{#if: {{{reflexiv|}}} |<!-- kein Eintrag -->|
+{{!}}{{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{vp|}}}| es_wird | uvp | sie_werden | vp3 | nein | 0= — | ja | 1= ''seien Sie {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden!'' }} }}
+{{!}} {{#switch: {{{10|}}} |dürfen|können|mögen|müssen|sollen|wollen=— |#default={{#switch: {{{zp|}}}| es_ist | uzp | sie_sind | zp3 | nein | 0= — | ja | 1= ''seien Sie {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen!'' }} }}
+}}
+{{!-}}
+|} <br style="clear: both" />
+'''Achtung:''' Die ''kursiven'' Formen sind ungebräuchlich.
+<br style="clear:both;"/>
+
+===== Indikativ und Konjunktiv =====
+{| width="100%" border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; border:1px solid #aaaaaa" align=left
+{{#if: {{{1|}}}|
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="5" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präsens|Präsens]]''' |<!--------------------------------->
+{{!}}colspan="9" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präsens|Präsens]]'''
+}}
+|
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="5" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präsens|Präsens]]''' |
+{{!}}colspan="7" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präsens|Präsens]]'''
+}}
+}}
+|-
+!bgcolor=#CCCCFF width="10%"|'''[[Hilfe:Person|Person]]'''
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}}colspan="4" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Aktiv|Aktiv]]''' |
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Aktiv|Aktiv]]'''
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+}}
+|-
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+!bgcolor=#CCCCFF{{!}}
+!colspan="2" bgcolor=#CCCCFF{{!}}'''[[Hilfe:Hauptsatzkonjugation|Hauptsatzkonjugation]]'''
+!colspan="2" bgcolor=#CCCCFF{{!}}'''[[Hilfe:Nebensatzkonjugation|Nebensatzkonjugation]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="2" bgcolor=#CCCCFF{{!}}
+{{!}}colspan="2" bgcolor=#CCCCFF{{!}}
+}}
+{{!-}}
+}}
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4|'''[[Hilfe:Indikativ|Indikativ]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Singular}}
+| ich {{#if: {{{Indikativ Präsens (ich)|}}} | {{{Indikativ Präsens (ich)}}} | {{#if: {{{10|}}} | {{#switch: {{{10|}}} | dürfen | können | mögen | müssen | sollen | wissen | wollen = {{#if: {{{6|}}} |{{{6}}}|{{{2}}} }} | #default= {{#if: {{{6|}}} |{{{6}}}|{{{2}}}e }} }} | {{{2}}}e }} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| ich {{#if: {{{Konjunktiv Präsens (ich)|}}} | {{{Konjunktiv Präsens (ich)}}} | {{{2}}}e }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{{1|}}}{{#if: {{{Indikativ Präsens (ich)|}}} | {{{Indikativ Präsens (ich)}}} | {{#if: {{{10|}}} | {{#ifeq: {{{2|}}}n | {{{10|}}} | {{{2|}}}e | {{#if: {{{6|}}} | {{{6}}}|{{{2}}}}} }} | {{{2}}}e }} }}
+{{!}} ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Konjunktiv Präsens (ich)|}}} | {{{Konjunktiv Präsens (ich)}}} | {{{2}}}e }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich bin {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich sei {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Singular}}
+| du {{#if: {{{Indikativ Präsens (du)|}}} | {{{Indikativ Präsens (du)}}} | {{#if: {{{6|}}} |{{{6}}}|{{{2}}}}}{{#switch: {{{6|}}} |behält|beläd|berät|brät|enthält|entläd|enträt|erhält|errät|gerät|hält|läd|missrät|rät|überbrät|überhält|überläd|unterhält|verbrät|verhält|verläd|verrät|widerrät|wir= st| #default= {{#ifeq: {{{8|}}}|i| {{#switch: {{{7|}}} |-s=t|e2=|#default=st}} | {{#switch: {{{7|}}}|e|e-=est|-s=t|e2=|#default=st}} }} }} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| du {{#if: {{{Konjunktiv Präsens (du)|}}} | {{{Konjunktiv Präsens (du)}}} | {{{2}}}est }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{Konjunktiv Präsens Alternativform (du)|}}} | ,<br/>du {{{Konjunktiv Präsens Alternativform (du)}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} }}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Indikativ Präsens (du)|}}} | {{{Indikativ Präsens (du)}}} | {{#if: {{{6|}}} |{{{6}}}|{{{2}}}}}{{#switch: {{{6|}}} |behält|beläd|berät|brät|enthält|entläd|enträt|erhält|errät|gerät|hält|läd|missrät|rät|überbrät|überhält|überläd|unterhält|verbrät|verhält|verläd|verrät|widerrät|wir= st| #default= {{#ifeq: {{{8|}}}|i|{{#switch: {{{7|}}}|-s=t|e2=|#default=st}} | {{#switch: {{{7|}}}|e|e-=est|-s=t|e2=|#default=st}} }} }} }}
+{{!}} du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Konjunktiv Präsens (du)|}}} | {{{Konjunktiv Präsens (du)}}} | {{{2}}}est }}{{#if: {{{Konjunktiv Präsens Alternativform (du)|}}} | ,<br/>du {{#if: {{{1|}}}|{{{1|}}}|}}{{{Konjunktiv Präsens Alternativform (du)}}} }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du wirst {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du werdest {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du bist {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du seiest {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}},<br>du seist {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Singular}}
+| {{small|er/sie/es}} {{#if: {{{Indikativ Präsens (man)|}}} | {{{Indikativ Präsens (man)}}} | {{#if: {{{10|}}} | {{#switch: {{{10|}}} | dürfen | können | mögen | müssen | sollen | wissen | wollen = {{#if: {{{6|}}} |{{{6}}}|{{{2}}} }} | #default= {{#ifeq: {{{2|}}}n | {{{10|}}} | {{{2|}}}t | {{#if: {{{6|}}} | {{{6}}}|{{{2}}}}} }} }} | {{#if: {{{6|}}} | {{{6}}}|{{{2}}}}}{{#ifeq: {{{8|}}}|i| {{#switch: {{{7|}}}|e|e-|e2=|#default=t}} | {{#switch: {{{6|}}} |behält|berät|brät|enthält|enträt|erhält|errät|gerät|hält|missrät|rät|überbrät|überhält|unterhält|verbrät|verhält|verrät|widerrät= |wir=d |beläd|entläd|läd|überläd|verläd=t | #default= {{#switch: {{{7|}}}|e|e-=et| #default=t}} }} }} }} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| {{small|er/sie/es}} {{#if: {{{Konjunktiv Präsens (man)|}}} | {{{Konjunktiv Präsens (man)}}} | {{{2}}}e }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} {{small|er/sie/es}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{{1|}}}{{#if: {{{Indikativ Präsens (man)|}}} | {{{Indikativ Präsens (man)}}} | {{#if: {{{10|}}} | {{#ifeq: {{{2|}}}n | {{{10|}}} | {{{2}}}t | {{{6}}} }} | {{#if: {{{6|}}} |{{{6}}}|{{{2}}}}}{{#switch: {{{6|}}} |behält|berät|brät|enthält|enträt|erhält|errät|ficht|gerät|hält|missrät|rät|tritt|überbrät|überhält|unterhält|verbrät|verhält|verrät|widerrät= |wir=d |beläd|entläd|läd|überläd|verläd=t | #default= {{#ifeq: {{{8|}}}|i|{{#switch: {{{7|}}}|e2=|#default=t}}| {{#switch: {{{7|}}}|e|e-=et| #default=t}} }} }} }} }}
+{{!}} {{small|er/sie/es}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{{1|}}}{{#if: {{{Konjunktiv Präsens (man)|}}} | {{{Konjunktiv Präsens (man)}}} | {{{2}}}e }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} wird {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp= es wird {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} werde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp= es werde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} ist {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp= es ist {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} sei {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp= es sei {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Plural}}
+| wir {{#if: {{{Indikativ Präsens (wir)|}}} | {{{Indikativ Präsens (wir)}}} | {{#if: {{{10|}}}| {{{10}}} | {{{2}}}en }} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| wir {{#if: {{{Konjunktiv Präsens (wir)|}}} | {{{Konjunktiv Präsens (wir)}}} | {{{2}}}en }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{#if: {{{Indikativ Präsens (wir)|}}} | {{{Indikativ Präsens (wir)}}} | {{{2}}}en }}
+{{!}} wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{#if: {{{Konjunktiv Präsens (wir)|}}} | {{{Konjunktiv Präsens (wir)}}} | {{{2}}}en }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir sind {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir seien {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Plural}}
+| ihr {{#if: {{{Indikativ Präsens (ihr)|}}} | {{{Indikativ Präsens (ihr)}}} | {{{2}}}{{#switch: {{{7|}}}|e|e-|e2=et| #default=t}} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| ihr {{#if: {{{Konjunktiv Präsens (ihr)|}}} | {{{Konjunktiv Präsens (ihr)}}} | {{{2}}}et }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{#if: {{{Indikativ Präsens (ihr)|}}} | {{{Indikativ Präsens (ihr)}}} | {{{2}}}{{#switch: {{{7|}}}|e|e-|e2=et| #default=t}} }}
+{{!}} ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{#if: {{{Konjunktiv Präsens (ihr)|}}} | {{{Konjunktiv Präsens (ihr)}}} | {{{2}}}et }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1=ihr werdet {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1=ihr werdet {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1=ihr seid {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1=ihr seiet {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Plural}}
+| sie {{#if: {{{Indikativ Präsens (sie)|}}} | {{{Indikativ Präsens (sie)}}} | {{#if: {{{10|}}}|{{#switch: {{{10|}}}|tun=tun|#default={{{10}}} }}|{{{2}}}en}} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| sie {{#if: {{{Konjunktiv Präsens (sie)|}}} | {{{Konjunktiv Präsens (sie)}}} | {{{2}}}en }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Indikativ Präsens (sie)|}}} | {{{Indikativ Präsens (sie)}}} | {{{2}}}en }}
+{{!}} sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Konjunktiv Präsens (sie)|}}} | {{{Konjunktiv Präsens (sie)}}} | {{{2}}}en }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie werden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp= — | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie werden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp= — | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie sind {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie seien {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp | nein | 0= — }}
+}}
+|-
+{{#if: {{{1|}}}|
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="5" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="5" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präteritum|Präteritum]]''' |<!--------------------------------->
+{{!}}colspan="9" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="9" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präteritum|Präteritum]]'''
+}}
+|
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="5" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="5" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präteritum|Präteritum]]''' |
+{{!}}colspan="7" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="7" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Präteritum|Präteritum]]'''
+}}
+}}
+|-
+!bgcolor=#CCCCFF width="10%"|'''[[Hilfe:Person|Person]]'''
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}}colspan="4" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Aktiv|Aktiv]]''' |
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Aktiv|Aktiv]]'''
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+}}
+|-
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+!bgcolor=#CCCCFF{{!}}
+!colspan="2" bgcolor=#CCCCFF{{!}}'''[[Hilfe:Hauptsatzkonjugation|Hauptsatzkonjugation]]'''
+!colspan="2" bgcolor=#CCCCFF{{!}}'''[[Hilfe:Nebensatzkonjugation|Nebensatzkonjugation]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="2" bgcolor=#CCCCFF{{!}}
+{{!}}colspan="2" bgcolor=#CCCCFF{{!}}
+}}
+{{!-}}
+}}
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4|'''[[Hilfe:Indikativ|Indikativ]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Singular}}
+| ich {{{3}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{Indikativ Präteritum Aktiv Alternativform (ich)|}}} | ,<br/>ich {{{Indikativ Präteritum Aktiv Alternativform (ich)|}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} }}
+| ich {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}} | {{{4}}}e }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{9|}}}| ,<br />ich {{{9}}}e{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}| }}| }}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{{1|}}}{{{3}}}{{#if: {{{Indikativ Präteritum Aktiv Alternativform (ich)|}}} | ,<br/>ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{Indikativ Präteritum Aktiv Alternativform (ich)}}} }}
+{{!}} ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{{1|}}}{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}} | {{{4}}}e }}{{#if: {{{9|}}}| ,<br />ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{{1|}}}{{{9}}}e}}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= —| nein | 0= — | ja | 1= ich wurde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= —| nein | 0= — | ja | 1= ich würde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= —| nein | 0= — | ja | 1= ich war {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= —| nein | 0= — | ja | 1= ich wäre {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Singular}}
+| du {{{3}}}{{#switch: {{Str subrev|{{{3|}}}|3|3}} | alt | and | bat | bot | elt | ied | iet | itt | lud | rat | tat= est{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}},<br/>du {{{3}}}st{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} | #default= {{#switch: {{{8|}}}| n|in|ni=st{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} |#default= {{#ifeq:{{{7|}}}|-s| est{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}},<br/>du {{{3}}}{{#switch: {{{3|}}} |erkor|kor= st |#default= t }} | {{#switch: {{{3|}}} |briet|hielt|lud|riet=st| #default= {{#switch: {{{7|}}}| e=est|e-|em=st|e2=| #default=st}} }} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} }}{{#if: {{{Indikativ Präteritum Aktiv Alternativform (du)|}}} | ,<br/>du {{{Indikativ Präteritum Aktiv Alternativform (du)}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} }} }}
+| du {{{4}}}est{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{7|}}}{{{10|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />du {{{4}}}st{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} }} }} }}{{#if: {{{9|}}}|,<br />du {{{9}}}est{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }}{{#if: {{{7|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />du {{{9}}}st{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} }} }} }} }}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{3}}}{{#switch: {{Str subrev|{{{3|}}}|3|3}} | alt | and | bat | bot | elt | ied | iet | itt | lud | rat | tat= est,<br/>du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{3}}}st | #default= {{#switch: {{{8|}}}|n |in |ni=st |#default={{#switch: {{{7|}}}|e=est|e2=|-s={{#switch: {{{3|}}} |erkor|kor= st |#default= t }}|#default=st}} }}{{#if: {{{Indikativ Präteritum Aktiv Alternativform (du)|}}} | ,<br/>du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{Indikativ Präteritum Aktiv Alternativform (du)}}} }}}}
+{{!}} du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{4}}}est{{#if: {{{7|}}}{{{10|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{4}}}st}} }} }}{{#if: {{{9|}}}|,<br />du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{9}}}est{{#if: {{{7|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{9}}}st}}}} }} }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= —| nein | 0= — | ja | 1= du wurdest {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= —| nein | 0= — | ja | 1= du würdest {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= —| nein | 0= — | ja | 1= du warst {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= —| nein | 0= — | ja | 1= du wärest {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}},<br>du wärst {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Singular}}
+| {{small|er/sie/es}} {{{3}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{Indikativ Präteritum Aktiv Alternativform (es)|}}} | ,<br/>{{small|er/sie/es}} {{{Indikativ Präteritum Aktiv Alternativform (es)|}}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} }}
+| {{small|er/sie/es}} {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}} | {{{4}}}e}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{9|}}}| ,<br />{{small|er/sie/es}} {{{9}}}e{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} {{small|er/sie/es}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{{1|}}}{{{3}}}{{#if: {{{Indikativ Präteritum Aktiv Alternativform (es)|}}} | ,<br/>{{small|er/sie/es}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{Indikativ Präteritum Aktiv Alternativform (es)}}} }}
+{{!}} {{small|er/sie/es}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{{1|}}}{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}} | {{{4}}}e }}{{#if: {{{9|}}}| ,<br />{{small|er/sie/es}} {{{1|}}}{{{9}}}e}}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} wurde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp= es wurde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} würde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp= es würde {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} war {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp= es war {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} wäre {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp= es wäre {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | nein | 0= — }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Plural}}
+| wir {{{3}}}{{#switch:{{{8|}}}|n=n|in=n|ni=n|#default=en}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| wir {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}}n | {{{4}}}en}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{9|}}}| ,<br />wir {{{9}}}en{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{{3}}}{{#switch:{{{8|}}}|n=n|in=n|ni=n|#default=en}}
+{{!}} wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}}n | {{{4}}}en }}{{#if: {{{9|}}}| ,<br />wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{{9}}}en}}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= wir wurden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= wir würden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= wir waren {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= wir wären {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Plural}}
+| ihr {{#if: {{{10|}}}|{{#ifeq: {{{2|}}}n | {{{10|}}} | {{{3}}}et | {{{3}}}{{#switch: {{{8|}}}|n |in |ni=t |#default=et }} }} | {{{3}}}{{#switch:{{{8|}}}|n|in|ni=t |#default={{#switch: {{{7|}}} |e |e- |em |e2 = e}}t }} }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| ihr {{{4}}}et{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{7|}}}{{{10|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />ihr {{{4}}}t{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} }} }} }}{{#if: {{{9|}}}|,<br />ihr {{{9}}}et{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }}{{#if: {{{7|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />ihr {{{9}}}t{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} }} }} }} }}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{#if: {{{10|}}}|{{#ifeq: {{{2|}}}n | {{{10|}}} | {{{3}}}et | {{{3}}}t}}|{{{3}}}{{#switch: {{{8|}}}|n |in |ni=t |#default={{#switch: {{{7|}}} |e |e- |em |e2 = e}}t }}}}
+{{!}} ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{{4}}}et{{#if: {{{7|}}}{{{10|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{{4}}}t}} }} }}{{#if: {{{9|}}}|,<br />ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{{9}}}et{{#if: {{{7|}}} | | {{#ifeq: {{{3|}}}|{{{4|}}}| |{{#ifeq: {{{8|}}}|n||,<br />ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1|}}}}}{{{9}}}t}}}} }} }}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= ihr wurdet {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= ihr würdet {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= ihr wart {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= ihr wäret {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}},<br>ihr wärt {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Plural}}
+| sie {{{3}}}{{#switch:{{{8|}}}|n=n|in=n|ni=n|#default=en}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+| sie {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}}n | {{{4}}}en }}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}{{#if: {{{9|}}}| ,<br />sie {{{9}}}en{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}}}
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1|}}}|}}{{{3}}}{{#switch:{{{8|}}}|n=n|in=n|ni=n|#default=en}}
+{{!}} sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie | {{{4}}}n | {{{4}}}en }}{{#if: {{{9|}}}| ,<br />sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}| {{{1|}}}|}}{{{9}}}en}}
+}}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie wurden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie würden {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie waren {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie wären {{#if: {{{1|}}}|{{{1|}}}|}}{{{5}}} | es_ist | uzp | nein | 0= — }}
+}}
+|}
+{| width="100%" border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; border:1px solid #aaaaaa" align=left
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="3" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Perfekt|Perfekt]]''' |<!--------------------------------->
+{{!}}colspan="7" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="7" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Perfekt|Perfekt]]'''
+}}
+|-
+!bgcolor=#CCCCFF width="10%"|[[Hilfe:Person|Person]]
+!colspan="2" bgcolor=#CCCCFF align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+}}
+|-
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4|'''[[Hilfe:Indikativ|Indikativ]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Singular}}
+| ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|bin|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|bin|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sei|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sei|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= —| nein | 0= — | ja | 1= ich bin {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= —| nein | 0= — | ja | 1= ich sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= —| nein | 0= — | ja | 1= ich bin {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= —| nein | 0= — | ja | 1= ich sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Singular}}
+| du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|bist|hast}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|bist|hast}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seist|habest}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#ifeq: {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} | sein |,<br/>du seiest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} }}{{#if: {{{Partizip+|}}} | ,<br/>du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seist|habest}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}}{{#ifeq: {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} | sein | ,<br/>du seiest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }} }} 
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du bist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du seiest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden,<br>du seist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du bist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du seiest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen,<br>du seist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Singular}}
+| {{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|ist|hat}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>{{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|ist|hat}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| {{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sei|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/> {{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sei|habe}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} ist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp= es ist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp= es sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} ist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp= es ist {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp= es sei {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | nein | 0= — }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Plural}} 
+| wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sind|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sind|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seien|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seien|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= wir sind {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= wir seien {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= wir sind {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= wir seien {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Plural}}
+| ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seid|habt}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seid|habt}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seiet|habet}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seiet|habet}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= ihr seid {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= — | es_wird | uvp= — | nein | 0= — | ja | 1= ihr seiet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= ihr seid {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= — | es_ist | uzp= — | nein | 0= — | ja | 1= ihr seiet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Plural}}
+| sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sind|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sind|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seien|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|seien|haben}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie sind {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp= — | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie seien {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp= — | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie sind {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp= — | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie seien {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp= — | nein | 0= — }}
+}}
+|-
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="3" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="3" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Plusquamperfekt|Plusquamperfekt]]''' |<!--------------------------------->
+{{!}}colspan="7" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="7" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Plusquamperfekt|Plusquamperfekt]]'''
+}}
+|-
+!bgcolor=#CCCCFF width="10%"|'''[[Hilfe:Person|Person]]'''
+!colspan="2" bgcolor=#CCCCFF align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}}colspan="2" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+}}
+|-
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4|'''[[Hilfe:Indikativ|Indikativ]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Singular}}
+| ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|war|hatte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|war|hatte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wäre|hätte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ich {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wäre|hätte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich war {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich wäre {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich war {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich wäre {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Singular}}
+| du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|warst|hattest}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|warst|hattest}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wärst|hättest}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#ifeq: {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} | sein | <br/>du wärest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} }}{{#if: {{{Partizip+|}}} | ,<br/>du {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wärst|hättest}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}}{{#ifeq: {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} | sein | ,<br/>du wärest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du warst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden}}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du wärest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden,<br>du wärst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du warst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du wärest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen,<br>du wärst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Singular}}
+| {{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|war|hatte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>{{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|war|hatte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| {{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wäre|hätte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>{{small|er/sie/es}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wäre|hätte}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} war {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp= es war {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} wäre {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp= es wäre {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} war {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp= es war {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} wäre {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp= es wäre {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | nein | 0= — }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Plural}}
+| wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|waren|hatten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|waren|hatten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wären|hätten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>wir {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wären|hätten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir waren {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir wären {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir waren {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir wären {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Plural}}
+| ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wart|hattet}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wart|hattet}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wärt|hättet}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#ifeq: {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} | sein |,<br/>ihr wäret{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} }}{{#if: {{{Partizip+|}}} | ,<br/>ihr {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wärt|hättet}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }} 
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr wart {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr wäret {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden,<br>ihr wärt {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr wart {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr wäret {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen,<br>ihr wärt {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Plural}} 
+| sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|waren|hatten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|waren|hatten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+| sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wären|hätten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}}{{#if: {{{Partizip+|}}} | ,<br/>sie {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|wären|hätten}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie waren {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie wären {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie waren {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie wären {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen | es_ist | uzp | nein | 0= — }}
+}}
+|}
+{| width="100%" border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; border:1px solid #aaaaaa" align=left
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="4" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="4" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Futur|Futur I]]''' |<!--------------------------------->
+{{!}}colspan="10" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="10" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Futur|Futur I]]'''
+}}
+|-
+!bgcolor=#CCCCFF width="10%"|'''[[Hilfe:Person|Person]]'''
+!colspan="3" bgcolor=#CCCCFF align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="3" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}}colspan="3" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+}}
+|-
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4|'''[[Hilfe:Indikativ|Indikativ]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Singular}}
+| ich werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| ich werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| ich würde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Singular}}
+| du wirst{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| du werdest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| du würdest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du wirst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du werdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du würdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du wirst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du werdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du würdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Singular}}
+| {{small|er/sie/es}} wird{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| {{small|er/sie/es}} werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| {{small|er/sie/es}} würde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp= es wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp= es werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp= es würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp= es wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp= es werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp= es würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | nein | 0= — }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Plural}}
+| wir werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| wir werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| wir würden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Plural}}
+| ihr werdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| ihr werdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| ihr würdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr würdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr würdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Plural}} 
+| sie werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| sie werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+| sie würden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{#if: {{{Infinitiv Präsens|}}} | {{{Infinitiv Präsens}}} | {{#if: {{{10|}}}|{{{10}}}|{{{2}}}en}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp | nein | 0= — | ja | 1= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp | nein | 0= — | ja | 1= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3= sie würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden | es_wird | uvp | nein | 0= — | ja | 1= sie würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} werden }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp | nein | 0= — | ja | 1= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp | nein | 0= — | ja | 1= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3= sie würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein | es_ist | uzp | nein | 0= — | ja | 1= sie würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} sein }}
+}}
+|-
+{{#if: {{{reflexiv|}}} |
+{{!}}colspan="4" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="4" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Futur|Futur II]]''' |<!--------------------------------->
+{{!}}colspan="10" bgcolor=#F0F5FF{{!}}<span style="color:#F0F5FF">Text</span>
+{{!-}}
+{{!}}colspan="10" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Futur|Futur II]]'''
+}}
+|-
+!bgcolor=#CCCCFF width="10%"|'''[[Hilfe:Person|Person]]'''
+!colspan="3" bgcolor=#CCCCFF align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}colspan="3" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+{{!}}colspan="3" bgcolor=#CCCCFF align=center{{!}}'''[[Hilfe:Passiv|Zustandspassiv]]'''
+}}
+|-
+|bgcolor=#F4F4F4|
+|bgcolor=#F4F4F4|'''[[Hilfe:Indikativ|Indikativ]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|bgcolor=#F4F4F4|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{#if: {{{reflexiv|}}} ||
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Indikativ|Indikativ]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+{{!}}bgcolor=#F4F4F4{{!}}'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Singular}}
+| ich werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>ich werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| ich werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>ich werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| ich würde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>ich würde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}}  {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ich würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ich würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Singular}}
+| du wirst{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>du wirst{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| du werdest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>du werdest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}}  {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| du würdest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>du würdest{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du wirst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du werdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= du würdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du wirst {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du werdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= du würdest {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Singular}}
+| {{small|er/sie/es}} wird{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>{{small|er/sie/es}} wird{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| {{small|er/sie/es}} werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>{{small|er/sie/es}} werde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| {{small|er/sie/es}} würde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>{{small|er/sie/es}} würde{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp= es wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp= es werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | nein | 0= — }} 
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= {{small|er/sie/es}} würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp= es würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | nein | 0= — }} 
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp= es wird {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | nein | 0= — }} 
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp= es werde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= {{small|er/sie/es}} würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp= es würde {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | nein | 0= — }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|1. Person Plural}}
+| wir werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>wir werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| wir werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>wir werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| wir würden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>wir würden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= wir würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= wir würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|2. Person Plural}}
+| ihr werdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>ihr werdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| ihr werdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>ihr werdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| ihr würdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>ihr würdet{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{vp|}}} | sie_werden | vp3 | es_wird | uvp | nein | 0= — | ja | 1= ihr würdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr werdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+{{!}} {{#switch: {{{zp|}}} | sie_sind | zp3 | es_ist | uzp | nein | 0= — | ja | 1= ihr würdet {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein }}
+}}
+|-
+|bgcolor=#F4F4F4|{{small|3. Person Plural}}
+| sie werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>sie werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| sie werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>sie werden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+| sie würden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}}{{#if: {{{Partizip+|}}} | ,<br/>sie würden{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1}}}|}}{{{Partizip+}}} {{§hs|{{{Hilfsverb|}}}|{{{haben|}}}|sein|haben}} }}
+{{#if: {{{reflexiv|}}} ||
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{vp|}}} | ja | 1 | sie_werden | vp3= sie würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} worden sein | es_wird | uvp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie werden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp | nein | 0= — }}
+{{!}} {{#switch: {{{zp|}}} | ja | 1 | sie_sind | zp3= sie würden {{#if: {{{1|}}}|{{{1}}}|}}{{{5}}} gewesen sein | es_ist | uzp | nein | 0= — }}
+}}
+|-
+|}{{Absatz}}<includeonly>{{#if: {{{10|}}} | [[Kategorie:Verbkonjugation unregelmäßig (Deutsch)]] | {{#ifeq: {{{2|}}}en | {{{5|}}} | [[Kategorie:Verbkonjugation unregelmäßig (Deutsch)]] | {{#ifeq: ge{{{2|}}}en | {{{5|}}} | [[Kategorie:Verbkonjugation unregelmäßig (Deutsch)]] | {{#ifeq: {{{3|}}} | {{{2|}}}te | [[Kategorie:Verbkonjugation regelmäßig (Deutsch)]] | {{#ifeq: {{{3|}}} | {{{2|}}}ete | [[Kategorie:Verbkonjugation regelmäßig (Deutsch)]] | [[Kategorie:Verbkonjugation unregelmäßig (Deutsch)]] }} }} }} }} }}{{#switch: {{{8|}}} |i|in|ni=[[Kategorie:e-i-Wechsel]]}}</includeonly></onlyinclude>

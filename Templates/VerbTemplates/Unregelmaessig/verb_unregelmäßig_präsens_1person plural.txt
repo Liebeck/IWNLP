@@ -1,0 +1,16 @@
+﻿| wir {{#if: {{{Indikativ Präsens (wir)|}}} 
+	| {{{Indikativ Präsens (wir)}}} 
+	| {{#if: {{{10|}}}
+		| {{{10}}} 
+		| {{{2}}}en 
+	   }} 
+}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}
+	{{#if: {{{Indikativ Präsens (wir)|}}} 
+		| {{{Indikativ Präsens (wir)}}} 
+		| {{{2}}}en }}
+
+}}

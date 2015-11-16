@@ -1,0 +1,18 @@
+﻿
+| ihr {{#if: {{{Indikativ Präsens (ihr)|}}} 
+	| {{{Indikativ Präsens (ihr)}}} 
+	| {{{2}}}{{#switch: {{{7|}}}
+		|e|e-|e2=et
+		| #default=t}}
+	}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+	
+	
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{#if: {{{Indikativ Präsens (ihr)|}}} 
+	| {{{Indikativ Präsens (ihr)}}} 
+	| {{{2}}}{{#switch: {{{7|}}}
+		|e|e-|e2=et
+		| #default=t}}
+	}}
+}}

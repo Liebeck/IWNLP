@@ -1,0 +1,19 @@
+﻿| sie {{#if: {{{Indikativ Präsens (sie)|}}} 
+	| {{{Indikativ Präsens (sie)}}} 
+	| {{#if: {{{10|}}}
+		|{{#switch: {{{10|}}}
+			|tun=tun
+			|#default={{{10}}} 
+		   }}
+		 |{{{2}}}en
+	  }} 
+	}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1|}}}|}}
+	{{#if: {{{Indikativ Präsens (sie)|}}} 
+		| {{{Indikativ Präsens (sie)}}} 
+		| {{{2}}}en }}
+}}

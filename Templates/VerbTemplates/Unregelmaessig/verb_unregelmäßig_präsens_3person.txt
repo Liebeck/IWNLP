@@ -1,0 +1,66 @@
+﻿| {{small|er/sie/es}} {{#if: {{{Indikativ Präsens (man)|}}} 
+	| {{{Indikativ Präsens (man)}}} 
+	| {{#if: {{{10|}}} 
+		| {{#switch: {{{10|}}} 
+			| dürfen
+			| können 
+			| mögen
+			| müssen
+			| sollen
+			| wissen
+			| wollen = {{#if: {{{6|}}} 
+						|{{{6}}}
+						|{{{2}}} 
+					  }}
+			  | #default= {{#ifeq: {{{2|}}}n | {{{10|}}} 
+						| {{{2|}}}t
+						| {{#if: {{{6|}}} 
+							| {{{6}}}
+							|{{{2}}}}} 
+							}} 
+			}} 
+		| {{#if: {{{6|}}} 
+			| {{{6}}}
+			|{{{2}}}}}
+			{{#ifeq: {{{8|}}}|i
+				| {{#switch: {{{7|}}}
+					|e|e-|e2=
+					|#default=t}} 
+				| {{#switch: {{{6|}}} 
+					|behält|berät|brät|enthält|enträt|erhält|errät|gerät|hält|missrät|rät|überbrät|überhält|unterhält|verbrät|verhält|verrät|widerrät= |wir=d |beläd|entläd|läd|überläd|verläd=t 
+					| #default= {{#switch: {{{7|}}}
+						|e|e-=et
+						| #default=t}} 
+					}} 
+			}} 
+	}} 
+}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+		
+
+NEBENSATZ
+
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} {{small|er/sie/es}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3s}} {{{1|}}}
+	{{#if: {{{Indikativ Präsens (man)|}}} 
+		| {{{Indikativ Präsens (man)}}} 
+		| {{#if: {{{10|}}} 
+			| {{#ifeq: {{{2|}}}n | {{{10|}}} 
+				| {{{2}}}t 
+				| {{{6}}} }} 
+			| {{#if: {{{6|}}} 
+				|{{{6}}}
+				|{{{2}}}}}
+				{{#switch: {{{6|}}} 
+					|behält|berät|brät|enthält|enträt|erhält|errät|ficht|gerät|hält|missrät|rät|tritt|überbrät|überhält|unterhält|verbrät|verhält|verrät|widerrät= |wir=d |beläd|entläd|läd|überläd|verläd=t 
+					| #default= {{#ifeq: {{{8|}}}|i
+								|{{#switch: {{{7|}}}
+									|e2=
+									|#default=t}}
+								| {{#switch: {{{7|}}}
+									|e|e-=et
+									| #default=t}} 
+								}} 
+				}} 
+		}}
+	}}
+}}

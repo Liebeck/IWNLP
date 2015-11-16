@@ -1,0 +1,31 @@
+| ihr {{#if: {{{10|}}}
+		|{{#ifeq: {{{2|}}}n | {{{10|}}} 
+			| {{{3}}}et
+			| {{{3}}}{{#switch: {{{8|}}}
+					|n |in |ni=t
+					|#default=et 
+				    }} 
+		}}
+		| {{{3}}}{{#switch:{{{8|}}}
+				|n|in|ni=t 
+				|#default={{#switch: {{{7|}}} 
+							|e |e- |em |e2 = e}}t 
+				}} 
+		}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} ihr{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}} {{{1|}}}
+	{{#if: {{{10|}}}
+		|{{#ifeq: {{{2|}}}n | {{{10|}}} 
+			| {{{3}}}et
+			| {{{3}}}t
+		  }}
+		|{{{3}}}{{#switch: {{{8|}}}
+				|n |in |ni=t
+				|#default={{#switch: {{{7|}}} 
+							|e |e- |em |e2 = e}}t 
+				}}
+	}}
+}}

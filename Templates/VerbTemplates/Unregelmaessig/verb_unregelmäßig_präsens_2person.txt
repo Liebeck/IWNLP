@@ -1,0 +1,48 @@
+﻿| du {{#if: {{{Indikativ Präsens (du)|}}} 
+	| {{{Indikativ Präsens (du)}}} 
+	| {{#if: {{{6|}}} 
+		|{{{6}}}
+		|{{{2}}}
+		}}
+		{{#switch: {{{6|}}} 
+			|behält|beläd|berät|brät|enthält|entläd|enträt|erhält|errät|gerät|hält|läd|missrät|rät|überbrät|überhält|überläd|unterhält|verbrät|verhält|verläd|verrät|widerrät|wir= st
+			| #default= {{#ifeq: {{{8|}}}|i|
+				{{#switch: {{{7|}}} 
+					|-s=t
+					|e2=
+					|#default=st}} 
+				| {{#switch: {{{7|}}}
+					|e|e-=est
+					|-s=t
+					|e2=
+					|#default=st}}
+					}} 
+		}} 
+}}{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+
+
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} 
+	{{#if: {{{1|}}}|{{{1|}}}|}}
+	{{#if: {{{Indikativ Präsens (du)|}}} 
+		| {{{Indikativ Präsens (du)}}} 
+		| {{#if: {{{6|}}} 
+			|{{{6}}}
+			|{{{2}}}}}
+			{{#switch: {{{6|}}} 
+			|behält|beläd|berät|brät|enthält|entläd|enträt|erhält|errät|gerät|hält|läd|missrät|rät|überbrät|überhält|überläd|unterhält|verbrät|verhält|verläd|verrät|widerrät|wir= st
+			| #default= {{#ifeq: {{{8|}}}|i
+							|{{#switch: {{{7|}}}
+								|-s=t
+								|e2=
+								|#default=st}} 
+							| {{#switch: {{{7|}}}
+								|e|e-=est
+								|-s=t
+								|e2=
+								|#default=st}} 
+						}} 
+			}} 
+	}}
+}}

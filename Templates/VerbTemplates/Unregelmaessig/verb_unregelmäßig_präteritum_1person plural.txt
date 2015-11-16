@@ -1,0 +1,16 @@
+| wir {{{3}}}{{#switch:{{{8|}}}
+	|n=n
+	|in=n
+	|ni=n
+	|#default=en}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} wir{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{{3}}}
+	{{#switch:{{{8|}}}
+		|n=n
+		|in=n
+		|ni=n
+		|#default=en
+	}}
+}}
