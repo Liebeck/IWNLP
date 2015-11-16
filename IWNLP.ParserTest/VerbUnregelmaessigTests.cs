@@ -720,7 +720,7 @@ namespace IWNLP.ParserTest
                     PräsensAktivIndikativ_Plural2Person = new List<string>(){"gebietet"},
                     PräsensAktivIndikativ_Plural3Person = new List<string>(){"gebieten"},
                     PräteritumAktivIndikativ_Singular1Person = new List<string>(){"gebot"},
-                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"gebotest"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"gebotest","gebotst"},
                     PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"gebot"},
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"geboten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"gebotet"},
