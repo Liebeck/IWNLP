@@ -861,7 +861,7 @@ namespace IWNLP.ParserTest
                     PräsensAktivIndikativ_Plural2Person = new List<string>(){"tut"},
                     PräsensAktivIndikativ_Plural3Person = new List<string>(){"tun"},
                     PräteritumAktivIndikativ_Singular1Person = new List<string>(){"tat"},
-                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"tatst"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"tatest","tatst"},
                     PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"tat"},
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"taten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"tatet"},
