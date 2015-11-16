@@ -166,7 +166,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             if (parameters.ContainsKey("Indikativ Präsens (du)"))
             {
                 parameters["Indikativ Präsens (du)"] = CleanLine(parameters["Indikativ Präsens (du)"]);
-                List<String> multilineFormats = new List<string>() { "<br>du" };
+                List<String> multilineFormats = new List<string>() { "<br>du","<br />du" };
 
                 if (!multilineFormats.Any(x => parameters["Indikativ Präsens (du)"].Contains(x)))
                 {
