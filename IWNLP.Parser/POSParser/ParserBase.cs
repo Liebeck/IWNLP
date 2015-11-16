@@ -238,5 +238,9 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
+        public bool ContainsNonEmpty(Dictionary<String, String> dictionary, String key) 
+        {
+            return dictionary.ContainsKey(key) && !String.IsNullOrEmpty(dictionary[key]);
+        }
     }
 }

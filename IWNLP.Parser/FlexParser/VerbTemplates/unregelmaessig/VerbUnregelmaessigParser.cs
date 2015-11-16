@@ -87,11 +87,12 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 String indicative = String.Empty;
                 if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
                 {
-                    if (condition.Contains(parameters[ParameterUnregelmaessig.Parameter10]))
+                    List<String> exceptionList1 = new List<string>() { "dürfen", "können", "mögen", "müssen", "sollen", "wissen", "wollen" };
+                    if (exceptionList1.Contains(parameters[ParameterUnregelmaessig.Parameter10]))
                     {
                         if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
                         {
-                            indicative = parameters[ParameterUnregelmaessig.Parameter6] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
+                            indicative = parameters[ParameterUnregelmaessig.Parameter6];
                         }
                         else
                         {
@@ -109,21 +110,17 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                             indicative = parameters[ParameterUnregelmaessig.Parameter2] + "e";
                         }
                     }
-
                 }
                 else
                 {
                     indicative = parameters[ParameterUnregelmaessig.Parameter2] + "e";
                 }
                 verb.PräsensAktivIndikativ_Singular1Person.Add(indicative + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
-
-
-
-
             }
             #endregion
             #region Präsens Indikativ Singular 1 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if ((parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+                || (parameters.ContainsKey(ParameterUnregelmaessig.Reflexiv) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Reflexiv])))
             {
                 verb.PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (ich)"))
@@ -135,7 +132,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 else
                 {
                     String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1];
-                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                    if (ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                     {
                         if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                         {
@@ -188,7 +185,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             else
             {
                 String indicative = String.Empty;
-                if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                if (this.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                 {
                     indicative += parameters[ParameterUnregelmaessig.Parameter6];
                 }
@@ -228,7 +225,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             }
             #endregion
             #region Präsens Indikativ Singular 2 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (du)"))
@@ -238,7 +235,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 else
                 {
                     String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1];
-                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                    if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                     {
                         indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter6];
                     }
@@ -306,42 +303,48 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             else
             {
                 String indicative = String.Empty;
-                if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                 {
-                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                    if (condition.Contains(parameters[ParameterUnregelmaessig.Parameter10]))
                     {
-                        indicative = parameters[ParameterUnregelmaessig.Parameter6] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
-                    }
-                    else
-                    {
-                        if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
+                        if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                         {
-                            indicative = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "t";
+                            indicative += parameters[ParameterUnregelmaessig.Parameter6];
                         }
                         else
                         {
-                            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                            indicative += parameters[ParameterUnregelmaessig.Parameter2];
+                        }
+                    }
+                    else // default in switch
+                    {
+                        if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
+                        {
+                            indicative += GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "t";
+                        }
+                        else
+                        {
+                            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                             {
-                                indicative = parameters[ParameterUnregelmaessig.Parameter6] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
+                                indicative += parameters[ParameterUnregelmaessig.Parameter6];
                             }
                             else
                             {
-                                indicative = parameters[ParameterUnregelmaessig.Parameter2];
+                                indicative += parameters[ParameterUnregelmaessig.Parameter2];
                             }
-                        }
-                    }
+                        }                        
+                    }                        
                 }
-                else
+                else // parameter 10 not set
                 {
-                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                    if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                     {
-                        indicative = parameters[ParameterUnregelmaessig.Parameter6];
+                        indicative += parameters[ParameterUnregelmaessig.Parameter6];
                     }
                     else
                     {
-                        indicative = parameters[ParameterUnregelmaessig.Parameter2];
+                        indicative += parameters[ParameterUnregelmaessig.Parameter2];
                     }
-                    // APPEND
                     if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter8) == "i")
                     {
                         switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter7))
@@ -408,7 +411,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 
 
             #region Präsens Indikativ Singular 3 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (man)"))
@@ -418,11 +421,11 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 else
                 {
                     String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1];
-                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                    if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter10))
                     {
                         if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                         {
-                            indicativeNebensatz += GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "t";
+                            indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter2] + "t";
                         }
                         else
                         {
@@ -431,7 +434,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     else
                     {
-                        if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                        if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter6))
                         {
                             indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter6];
                         }
@@ -517,7 +520,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             else
             {
                 String indicative = String.Empty;
-                if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter10))
                 {
                     indicative = parameters[ParameterUnregelmaessig.Parameter10];
                 }
@@ -530,7 +533,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präsens Indikativ Plural 1 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (wir)"))
@@ -571,7 +574,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präsens Indikativ Plural 2 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (ihr)"))
@@ -608,7 +611,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             else
             {
                 String indicative = String.Empty;
-                if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter10))
                 {
                     switch (parameters[ParameterUnregelmaessig.Parameter10])
                     {
@@ -629,16 +632,16 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präsens Indikativ Plural 3 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (sie)"))
                 {
-                    verb.PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters["Indikativ Präsens (sie)"]);
+                    verb.PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präsens (sie)"]);
                 }
                 else
                 {
-                    verb.PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter2] + "en");
+                    verb.PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter2] + "en");
                 }
 
             }
@@ -647,24 +650,42 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #region Präteritum Indikativ Singular 1 Person
             verb.PräteritumAktivIndikativ_Singular1Person = new List<string>();
             verb.PräteritumAktivIndikativ_Singular1Person.Add(parameters[ParameterUnregelmaessig.Parameter3] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (ich)"))
+            {
+                verb.PräteritumAktivIndikativ_Singular1Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (ich)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Singular 1 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>();
-                verb.PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3]);
+                verb.PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3]);
+                if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (ich)"))
+                {
+                    verb.PräteritumAktivIndikativ_Singular1Person.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (ich)"]);
+                }
             }
 
             #endregion
 
             #region Präteritum Indikativ Singular 2 Person
             verb.PräteritumAktivIndikativ_Singular2Person = new List<string>();
-            switch (StrSubrev(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter3), 5, 5))
+            switch (StrSubrev(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter3), 3, 3))
             {
-                case "hielt":
-                    verb.PräteritumAktivIndikativ_Singular2Person.Add(parameters[ParameterUnregelmaessig.Parameter3] + "st" + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+                case "alt":
+                case "and":
+                case "bat":
+                case "bot":
+                case "elt":
+                case "ied":
+                case "iet":
+                case "itt":
+                case "lud":
+                case "rat":
+                case "tat": 
                     verb.PräteritumAktivIndikativ_Singular2Person.Add(parameters[ParameterUnregelmaessig.Parameter3] + "est" + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+                    verb.PräteritumAktivIndikativ_Singular2Person.Add(parameters[ParameterUnregelmaessig.Parameter3] + "st" + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
                     break;
                 default:
                     switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter8))
@@ -722,7 +743,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                             }
                             break;
                     }
-                    if (parameters.ContainsKey("Indikativ Präteritum Aktiv Alternativform (du)"))
+                    if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (du)"))
                     {
                         verb.PräteritumAktivIndikativ_Singular2Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (du)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
                     }
@@ -731,14 +752,24 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präteritum Indikativ Singular 2 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>();
-                switch (StrSubrev(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter3), 5, 5))
+                switch (StrSubrev(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter3), 3, 3))
                 {
-                    case "hielt":
-                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "st");
-                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "est");
+                    case "alt":
+                    case "and":
+                    case "bat":
+                    case "bot":
+                    case "elt":
+                    case "ied":
+                    case "iet":
+                    case "itt":
+                    case "lud":
+                    case "rat":
+                    case "tat":
+                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "est");    
+                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "st");
                         break;
                     default:
                         switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter8))
@@ -746,36 +777,36 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                             case "n":
                             case "in":
                             case "ni":
-                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "st");
+                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "st");
                                 break;
                             default:
                                 switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter7))
                                 {
                                     case "e":
-                                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "est");
+                                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "est");
                                         break;
                                     case "e2":
-                                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3]);
+                                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3]);
                                         break;
                                     case "-s":
                                         switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter3))
                                         {
                                             case "erkor":
                                             case "kor":
-                                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "st");
+                                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "st");
                                                 break;
                                             default:
-                                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "t");
+                                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "t");
                                                 break;
                                         }
                                         break;
                                     default:
-                                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "st");
+                                        verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "st");
                                         break;
                                 }
                                 break;
                         }
-                        if (parameters.ContainsKey("Indikativ Präteritum Aktiv Alternativform (du)"))
+                        if (base.ContainsNonEmpty(parameters,"Indikativ Präteritum Aktiv Alternativform (du)"))
                         {
                             verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (du)"]);
                         }
@@ -789,13 +820,21 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #region Präteritum Indikativ Singular 3 Person
             verb.PräteritumAktivIndikativ_Singular3Person = new List<string>();
             verb.PräteritumAktivIndikativ_Singular3Person.Add(parameters[ParameterUnregelmaessig.Parameter3] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (es)"))
+            {
+                verb.PräteritumAktivIndikativ_Singular3Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (es)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Singular 3 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>();
-                verb.PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3]);
+                verb.PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3]);
+                if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (es)"))
+                {
+                    verb.PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (es)"]);
+                }
             }
 
             #endregion
@@ -817,7 +856,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präteritum Indikativ Plural 1 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>();
                 switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter8))
@@ -825,10 +864,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     case "n":
                     case "in":
                     case "ni":
-                        verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "n");
+                        verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "n");
                         break;
                     default:
-                        verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "en");
+                        verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "en");
                         break;
                 }
             }
@@ -837,7 +876,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 
             #region Präteritum Indikativ Plural 2 Person
             verb.PräteritumAktivIndikativ_Plural2Person = new List<string>();
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+            if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter10))
             {
                 if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                 {
@@ -886,18 +925,18 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präteritum Indikativ Plural 2 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>();
-                if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter10))
                 {
                     if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                     {
-                        verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "et");
+                        verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "et");
                     }
                     else
                     {
-                        verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "t");
+                        verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "t");
                     }
                 }
                 else
@@ -907,7 +946,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         case "n":
                         case "in":
                         case "ni":
-                            verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "t");
+                            verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "t");
                             break;
                         default:
                             switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter7))
@@ -916,10 +955,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                                 case "e-":
                                 case "em":
                                 case "e2":
-                                    verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "et");
+                                    verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "et");
                                     break;
                                 default:
-                                    verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "t");
+                                    verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "t");
                                     break;
                             }
                             break;
@@ -947,7 +986,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #endregion
 
             #region Präteritum Indikativ Plural 3 Person Nebensatzkonjugation
-            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+            if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
                 verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>();
                 switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter8))
@@ -955,10 +994,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     case "n":
                     case "in":
                     case "ni":
-                        verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "n");
+                        verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "n");
                         break;
                     default:
-                        verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter3] + "en");
+                        verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "en");
                         break;
                 }
             }

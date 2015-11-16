@@ -28,5 +28,4 @@ NEBENSATZ:
 																	| {{{2}}}e 
 																}} 
 															}}
-{{!}} ich{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1s}} {{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Konjunktiv Präsens (ich)|}}} | {{{Konjunktiv Präsens (ich)}}} | {{{2}}}e }}
 }}

@@ -29,6 +29,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
         public const String Hilfsverb = "Hilfsverb";
 
         public const String Wv = "Wv";
+
+        public const String Reflexiv = "reflexiv";
         
     }
 }
