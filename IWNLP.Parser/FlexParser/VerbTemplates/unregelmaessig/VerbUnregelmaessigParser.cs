@@ -131,7 +131,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1];
+                    String indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
                     if (ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                     {
                         if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
@@ -234,7 +234,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1];
+                    String indicativeNebensatz = GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1);
                     if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                     {
                         indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter6];
@@ -420,7 +420,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1];
+                    String indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
                     if (base.ContainsNonEmpty(parameters,ParameterUnregelmaessig.Parameter10))
                     {
                         if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
@@ -538,11 +538,11 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>();
                 if (parameters.ContainsKey("Indikativ Präsens (wir)"))
                 {
-                    verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters["Indikativ Präsens (wir)"]);
+                    verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präsens (wir)"]);
                 }
                 else
                 {
-                    verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter2] + "en");
+                    verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter2] + "en");
                 }
             }
             #endregion
@@ -583,7 +583,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicativeNebensatz = parameters[ParameterUnregelmaessig.Parameter1] + parameters[ParameterUnregelmaessig.Parameter2];
+                    String indicativeNebensatz = GetOrEmpty(parameters,ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter2];
                     switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter7))
                     {
                         case "e":
