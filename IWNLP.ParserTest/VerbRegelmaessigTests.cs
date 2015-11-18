@@ -417,6 +417,309 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void verwässern()
+        {
+            String word = "verwässern";
+            int wikiID = 427849;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                   Text = word,
+                    WiktionaryID = wikiID,
+                   PräsensAktivIndikativ_Singular1Person = new List<string>(){"verwässer","verwässere","verwässre"},
+                   PräsensAktivIndikativ_Singular2Person = new List<string>(){"verwässerst"},
+                   PräsensAktivIndikativ_Singular3Person = new List<string>(){"verwässert"},
+                   PräsensAktivIndikativ_Plural1Person = new List<string>(){"verwässern"},
+                   PräsensAktivIndikativ_Plural2Person = new List<string>(){"verwässert"},
+                   PräsensAktivIndikativ_Plural3Person = new List<string>(){"verwässern"},      
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"verwässerte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"verwässertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"verwässerte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"verwässerten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"verwässertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"verwässerten"},
+                    PartizipII = "verwässert"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void einschleppen()
+        {
+            String word = "einschleppen";
+            int wikiID = 428120;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                new VerbConjugation()
+                {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"schleppe ein"},
+                    PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"einschleppe"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"schleppst ein","schleppest ein"},
+                    PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>(){"einschleppst","einschleppest"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"schleppt ein","schleppet ein"},
+                    PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>(){"einschleppt","einschleppet"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"schleppen ein"},
+                    PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"einschleppen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"schleppt ein","schleppet ein"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"einschleppt","einschleppet"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"schleppen ein"},     
+                    PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"einschleppen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"schleppte ein"},
+                    PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"einschleppte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"schlepptest ein"},
+                    PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation  = new List<string>(){"einschlepptest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"schleppte ein"},
+                    PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation  = new List<string>(){"einschleppte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"schleppten ein"},
+                    PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation  = new List<string>(){"einschleppten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"schlepptet ein"},
+                    PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation =  new List<string>(){"einschlepptet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"schleppten ein"},
+                    PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation  = new List<string>(){"einschleppten"},
+                    PartizipII = "eingeschleppt"
+                },
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void bestrafen()
+        {
+            String word = "bestrafen";
+            int wikiID = 429126;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                        Text = word,
+                        WiktionaryID = wikiID,
+                        PräsensAktivIndikativ_Singular1Person = new List<string>(){"bestrafe"},
+                        PräsensAktivIndikativ_Singular2Person = new List<string>(){"bestrafst"},
+                        PräsensAktivIndikativ_Singular3Person = new List<string>(){"bestraft"},
+                        PräsensAktivIndikativ_Plural1Person = new List<string>(){"bestrafen"},
+                        PräsensAktivIndikativ_Plural2Person = new List<string>(){"bestraft"},
+                        PräsensAktivIndikativ_Plural3Person = new List<string>(){"bestrafen"},      
+                        PräteritumAktivIndikativ_Singular1Person = new List<string>(){"bestrafte"},
+                        PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"bestraftest"},
+                        PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"bestrafte"},
+                        PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"bestraften"},
+                        PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"bestraftet"},
+                        PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"bestraften"},
+                        PartizipII = "bestraft"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void stelzen()
+        {
+            String word = "stelzen";
+            int wikiID = 430348;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                        Text = word,
+                        WiktionaryID = wikiID,
+                        PräsensAktivIndikativ_Singular1Person = new List<string>(){"stelze"},
+                        PräsensAktivIndikativ_Singular2Person = new List<string>(){"stelzt"},
+                        PräsensAktivIndikativ_Singular3Person = new List<string>(){"stelzt"},
+                        PräsensAktivIndikativ_Plural1Person = new List<string>(){"stelzen"},
+                        PräsensAktivIndikativ_Plural2Person = new List<string>(){"stelzt"},
+                        PräsensAktivIndikativ_Plural3Person = new List<string>(){"stelzen"},      
+                        PräteritumAktivIndikativ_Singular1Person = new List<string>(){"stelzte"},
+                        PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"stelztest"},
+                        PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"stelzte"},
+                        PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"stelzten"},
+                        PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"stelztet"},
+                        PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"stelzten"},
+                        PartizipII = "gestelzt"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void zu_Grunde_richten()
+        {
+            String word = "zu Grunde richten";
+            int wikiID = 430782;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                        Text = word,
+                        WiktionaryID = wikiID,
+                        PräsensAktivIndikativ_Singular1Person = new List<string>(){"richte zu Grunde"},
+                        PräsensAktivIndikativ_Singular2Person = new List<string>(){"richtest zu Grunde"},
+                        PräsensAktivIndikativ_Singular3Person = new List<string>(){"richtet zu Grunde"},
+                        PräsensAktivIndikativ_Plural1Person = new List<string>(){"richten zu Grunde"},
+                        PräsensAktivIndikativ_Plural2Person = new List<string>(){"richtet zu Grunde"},
+                        PräsensAktivIndikativ_Plural3Person = new List<string>(){"richten zu Grunde"},      
+                        PräteritumAktivIndikativ_Singular1Person = new List<string>(){"richtete zu Grunde"},
+                        PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"richtetest zu Grunde"},
+                        PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"richtete zu Grunde"},
+                        PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"richteten zu Grunde"},
+                        PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"richtetet zu Grunde"},
+                        PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"richteten zu Grunde"},
+                        PartizipII = "zu Grunde gerichtet"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void durchsickern()
+        {
+            String word = "durchsickern";
+            int wikiID = 433338;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                new VerbConjugation()
+                {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"sicker durch","sickere durch","sickre durch"},
+                    PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"durchsicker","durchsickere","durchsickre"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"sickerst durch"},
+                    PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>(){"durchsickerst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"sickert durch"},
+                    PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>(){"durchsickert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"sickern durch"},
+                    PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"durchsickern"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"sickert durch"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"durchsickert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"sickern durch"},     
+                    PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"durchsickern"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"sickerte durch"},
+                    PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"durchsickerte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"sickertest durch"},
+                    PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation  = new List<string>(){"durchsickertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"sickerte durch"},
+                    PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation  = new List<string>(){"durchsickerte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"sickerten durch"},
+                    PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation  = new List<string>(){"durchsickerten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"sickertet durch"},
+                    PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation =  new List<string>(){"durchsickertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"sickerten durch"},
+                    PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation  = new List<string>(){"durchsickerten"},
+                    PartizipII = "durchgesickert"
+                },
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void bewaffnen()
+        {
+            String word = "bewaffnen";
+            int wikiID = 433536;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                        Text = word,
+                        WiktionaryID = wikiID,
+                        PräsensAktivIndikativ_Singular1Person = new List<string>(){"bewaffne"},
+                        PräsensAktivIndikativ_Singular2Person = new List<string>(){"bewaffnest"},
+                        PräsensAktivIndikativ_Singular3Person = new List<string>(){"bewaffnet"},
+                        PräsensAktivIndikativ_Plural1Person = new List<string>(){"bewaffnen"},
+                        PräsensAktivIndikativ_Plural2Person = new List<string>(){"bewaffnet"},
+                        PräsensAktivIndikativ_Plural3Person = new List<string>(){"bewaffnen"},      
+                        PräteritumAktivIndikativ_Singular1Person = new List<string>(){"bewaffnete"},
+                        PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"bewaffnetest"},
+                        PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"bewaffnete"},
+                        PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"bewaffneten"},
+                        PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"bewaffnetet"},
+                        PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"bewaffneten"},
+                        PartizipII = "bewaffnet"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void gliedern()
+        {
+            String word = "gliedern";
+            int wikiID = 436909;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                        Text = word,
+                        WiktionaryID = wikiID,
+                        PräsensAktivIndikativ_Singular1Person = new List<string>(){"glieder","gliedere","gliedre"},
+                        PräsensAktivIndikativ_Singular2Person = new List<string>(){"gliederst"},
+                        PräsensAktivIndikativ_Singular3Person = new List<string>(){"gliedert"},
+                        PräsensAktivIndikativ_Plural1Person = new List<string>(){"gliedern"},
+                        PräsensAktivIndikativ_Plural2Person = new List<string>(){"gliedert"},
+                        PräsensAktivIndikativ_Plural3Person = new List<string>(){"gliedern"},      
+                        PräteritumAktivIndikativ_Singular1Person = new List<string>(){"gliederte"},
+                        PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"gliedertest"},
+                        PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"gliederte"},
+                        PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"gliederten"},
+                        PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"gliedertet"},
+                        PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"gliederten"},
+                        PartizipII = "gegliedert"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
 
     }
 }
