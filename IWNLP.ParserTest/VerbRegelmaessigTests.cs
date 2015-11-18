@@ -721,6 +721,41 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void enteisenen()
+        {
+            String word = "enteisenen";
+            int wikiID = 461339;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                        Text = word,
+                        WiktionaryID = wikiID,
+                        PräsensAktivIndikativ_Singular1Person = new List<string>(){"enteisene"},
+                        PräsensAktivIndikativ_Singular2Person = new List<string>(){"enteisenst"},
+                        PräsensAktivIndikativ_Singular3Person = new List<string>(){"enteisent"},
+                        PräsensAktivIndikativ_Plural1Person = new List<string>(){"enteisenen"},
+                        PräsensAktivIndikativ_Plural2Person = new List<string>(){"enteisent"},
+                        PräsensAktivIndikativ_Plural3Person = new List<string>(){"enteisenen"},      
+                        PräteritumAktivIndikativ_Singular1Person = new List<string>(){"enteisente"},
+                        PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"enteisentest"},
+                        PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"enteisente"},
+                        PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"enteisenten"},
+                        PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"enteisentet"},
+                        PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"enteisenten"},
+                        PartizipII = "enteisent"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
 

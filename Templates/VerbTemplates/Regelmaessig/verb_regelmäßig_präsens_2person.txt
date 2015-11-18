@@ -1,0 +1,50 @@
+﻿| {{{2. Singular Indikativ Präsens Aktiv| 
+	{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|{{{unpersönlich|}}}}}}}}}}}}
+		| —
+		| {{#switch: {{{3}}}
+			| e=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+			| m={{#switch: {{{2}}} 
+					| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}est{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					| #default=du {{{1}}}{{{2}}}{{{3}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				}} 
+			| n={{#switch: {{{2}}} 
+					| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}est{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					| #default=du {{{1}}}{{{2}}}{{{3}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				}} 
+			| r= {{#ifeq: {{{4}}} | l 
+						| du {{{1}}}{{{2}}}{{{3}}}{{{4}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						|du {{{1}}}{{{2}}}{{{3}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				}} 
+			| d | t=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			| s | ß | c | x | z=du {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			| #default=du {{{1}}}{{{2}}}{{{3}}}st{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} | |,<br /><small>''veraltet:''</small> du {{{1}}}{{{2}}}{{{3}}}est{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}}}
+		}}
+}} }}}
+
+
+
+NEBENSATZ
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig 
+	|{{!}} {{{2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation| 
+		{{#if: {{{Präsens|{{{Präsens Aktiv|{{{unpersönlich|}}}}}}}}}
+			| —
+			| {{#switch: {{{3}}} 
+				| e=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}st 
+				| m={{#switch: {{{2}}} 
+						| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}est 
+						| #default=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}st
+					}}
+				| n={{#switch: {{{2}}} 
+						| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}est
+						| #default=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}st
+					}}
+				| r= {{#ifeq: {{{4}}} | l 
+						| du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}st
+						|du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}st}
+					}
+				| d | t=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}st 
+				| s | ß | c | x | z=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+				| #default=du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}st
+					{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} | |,<br /><small>''veraltet:''</small> du {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}est}} }} }} }}}
+ }}

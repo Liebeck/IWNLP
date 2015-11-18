@@ -1,0 +1,80 @@
+﻿| {{{2. Plural Indikativ Präsens Aktiv|
+	{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|{{{unpersönlich|}}}}}}}}}}}}
+		| —
+		| {{#switch: {{{3}}} 
+			| e=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			| m={{#switch: {{{2}}} 
+					| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+					| #default=ihr {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+							| 
+							|,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						}}
+				}}
+			| n={{#switch: {{{2}}} 
+					| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					| #default=ihr {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+							| 
+							|,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						}}
+				}} 
+			| r= {{#ifeq: {{{4}}} | l 
+				| ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				|ihr {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				}} 
+			| d | t=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			| #default=ihr {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+					|
+					|,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				}}
+		}} 
+	}} 
+}}}
+
+
+NEBENSATZ
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig 
+	|{{!}} {{{2. Plural Indikativ Präsens Aktiv Nebensatzkonjugation|
+		{{#if: {{{Präsens|{{{Präsens Aktiv|{{{unpersönlich|}}}}}}}}}
+			| —
+			| {{#switch: {{{3}}} 
+				| e=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t 
+				| m={{#switch: {{{2}}} 
+						| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+						| #default=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+							{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+								|
+								|,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+							}}
+					}} 
+				| n={{#switch: {{{2}}} 
+						| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et 
+						| #default=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+							{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+								|
+								|,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+							}}
+					}}
+				| r= {{#ifeq: {{{4}}} | l 
+					| ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t
+					|ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+						{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+							|
+							|,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+						}}
+					}} 
+				| d | t=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t
+				| #default=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+					{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+					}} 
+			}}
+		}}
+}}}

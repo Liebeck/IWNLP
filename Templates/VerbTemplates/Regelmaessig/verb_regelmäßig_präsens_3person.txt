@@ -1,0 +1,59 @@
+﻿| {{{3. Singular Indikativ Präsens Aktiv|
+	{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|}}}}}}}}} 
+		| —
+		| {{#switch: {{{unpersönlich|}}} 
+			| es= es
+			|#default=<small>er/sie/es</small>}}
+			{{#switch: {{{3}}} 
+				| e= {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+				| m={{#switch: {{{2}}} 
+						| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß= {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						| #default= {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				| n={{#switch: {{{2}}} 
+						| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß= {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						| #default= {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				| r= {{#ifeq: {{{4}}} | l 
+						| {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						|{{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}| }} | }}
+							{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} | |,<br /><small>''veraltet:'' er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} }}
+					}} 
+				| d | t= {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+				| #default= {{{1}}}{{{2}}}{{{3}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+							{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} | |,<br /><small>''veraltet:'' er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}}} 
+			}} 
+	}}
+}}}
+
+
+NEBENSATZ
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig 
+	|{{!}} {{{3. Singular Indikativ Präsens Aktiv Nebensatzkonjugation
+		|{{#if: {{{Präsens|{{{Präsens Aktiv|}}}}}} 
+			| —
+			| {{#switch: {{{unpersönlich|}}} 
+				| es= es
+				|#default=<small>er/sie/es</small>
+				}} 
+				{{#switch: {{{3}}} 
+					| e= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t 
+					| m={{#switch: {{{2}}} 
+							| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et 
+							| #default= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+						}} 
+					| n={{#switch: {{{2}}} 
+							| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et 
+							| #default= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+						}}
+					| r= {{#ifeq: {{{4}}} | l 
+							| {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t
+							|{{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+						}} 
+					| d | t= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t
+					| #default= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}t
+						{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} | |,<br /><small>''veraltet:'' er/sie/es</small> {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et}} 
+				}}
+		}}
+	}}}
+ }}

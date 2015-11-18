@@ -1,0 +1,15 @@
+﻿| {{{1. Plural Indikativ Präsens Aktiv|
+	{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|{{{unpersönlich|}}}}}}}}}}}}
+		| — 
+		| wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}n{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}}} }}}
+
+
+
+NEBENSATZ
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig |
+{{!}} {{{1. Plural Indikativ Präsens Aktiv Nebensatzkonjugation|
+	{{#if: {{{Präsens|{{{Präsens Aktiv|{{{unpersönlich|}}}}}}}}}
+		| —
+		| wir {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+	}}
+}}}
