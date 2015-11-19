@@ -312,7 +312,7 @@ namespace IWNLP.ParserTest
                     PräsensAktivIndikativ_Plural1Person = new List<string>(){"schrumpfen gesund"},
                     PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"gesundschrumpfen"},
                     PräsensAktivIndikativ_Plural2Person = new List<string>(){"schrumpft gesund","schrumpfet gesund"},
-                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"gesundschrumpfet"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"gesundschrumpft","gesundschrumpfet"},
                     PräsensAktivIndikativ_Plural3Person = new List<string>(){"schrumpfen gesund"},      
                     PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"gesundschrumpfen"},
                     PräteritumAktivIndikativ_Singular1Person = new List<string>(){"schrumpfte gesund","schrumpfete gesund"},
@@ -750,6 +750,130 @@ namespace IWNLP.ParserTest
                         PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"enteisenten"},
                         PartizipII = "enteisent"
                  }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void aufatmen()
+        {
+            String word = "aufatmen";
+            int wikiID = 499037;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                new VerbConjugation()
+                {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"atme auf"},
+                    PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"aufatme"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"atmest auf"},
+                    PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>(){"aufatmest"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"atmet auf"},
+                    PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>(){"aufatmet"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"atmen auf"},
+                    PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"aufatmen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"atmet auf"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"aufatmet"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"atmen auf"},     
+                    PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"aufatmen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"atmete auf"},
+                    PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"aufatmete"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"atmetest auf"},
+                    PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation  = new List<string>(){"aufatmetest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"atmete auf"},
+                    PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation  = new List<string>(){"aufatmete"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"atmeten auf"},
+                    PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation  = new List<string>(){"aufatmeten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"atmetet auf"},
+                    PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation =  new List<string>(){"aufatmetet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"atmeten auf"},
+                    PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation  = new List<string>(){"aufatmeten"},
+                    PartizipII = "aufgeatmet"
+                },
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void abschmieren()
+        {
+            String word = "abschmieren";
+            int wikiID = 33866;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                new VerbConjugation()
+                {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"schmiere ab"},
+                    PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"abschmiere"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"schmierst ab"},
+                    PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>(){"abschmierst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"schmiert ab"},
+                    PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>(){"abschmiert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"schmieren ab"},
+                    PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"abschmieren"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"schmiert ab"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"abschmiert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"schmieren ab"},     
+                    PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"abschmieren"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"schmierte ab"},
+                    PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"abschmierte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"schmiertest ab"},
+                    PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation  = new List<string>(){"abschmiertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"schmierte ab"},
+                    PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation  = new List<string>(){"abschmierte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"schmierten ab"},
+                    PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation  = new List<string>(){"abschmierten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"schmiertet ab"},
+                    PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation =  new List<string>(){"abschmiertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"schmierten ab"},
+                    PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation  = new List<string>(){"abschmierten"},
+                    PartizipII = "abgeschmiert"
+                },
+                new VerbConjugation()
+                {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"schmiere ab"},
+                    PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"abschmiere"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"schmierst ab"},
+                    PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>(){"abschmierst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"schmiert ab"},
+                    PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>(){"abschmiert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"schmieren ab"},
+                    PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"abschmieren"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"schmiert ab"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"abschmiert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"schmieren ab"},     
+                    PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"abschmieren"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"schmierte ab"},
+                    PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"abschmierte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"schmiertest ab"},
+                    PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation  = new List<string>(){"abschmiertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"schmierte ab"},
+                    PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation  = new List<string>(){"abschmierte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"schmierten ab"},
+                    PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation  = new List<string>(){"abschmierten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"schmiertet ab"},
+                    PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation =  new List<string>(){"abschmiertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"schmierten ab"},
+                    PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation  = new List<string>(){"abschmierten"},
+                    PartizipII = "abgeschmiert"
+                },
             };
             XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
             XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));

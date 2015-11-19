@@ -11,7 +11,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
     {
         List<String> blacklist = new List<string>() {
             "Flexion:dienstverpflichten" // dump 20151102
-        }; 
+        };
 
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
@@ -79,12 +79,13 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräsensAktivIndikativ_Singular1Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
                     {
                         case "e":
+                            // the check for parameter4 is not necessary
                             String form1 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e";
                             String form2 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4];
                             String form3 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e";
@@ -260,7 +261,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                                         + parameters[ParameterRegelmaessig.Parameter1]
                                         + parameters[ParameterRegelmaessig.Parameter2]
                                         + parameters[ParameterRegelmaessig.Parameter3]
-                                        + parameters[ParameterRegelmaessig.Parameter4]);
+                                        + "e");
                                 }
                                 break;
                             case "d":
@@ -296,7 +297,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräsensAktivIndikativ_Singular2Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -329,7 +330,6 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                             }
                             break;
                         case "n":
-
                             if (condition2.Contains(parameters[ParameterRegelmaessig.Parameter2]))
                             {
                                 verb.PräsensAktivIndikativ_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3]
@@ -421,7 +421,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                 if (parameters.ContainsKey("2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"))
                 {
                     verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>();
-                    verb.PräsensAktivIndikativ_Singular1Person.Add(parameters["1. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"]);
+                    verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(parameters["2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"]);
                 }
                 else
                 {
@@ -490,7 +490,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                                     verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2)
                                         + parameters[ParameterRegelmaessig.Parameter1]
                                         + parameters[ParameterRegelmaessig.Parameter2]
-                                        + parameters[ParameterRegelmaessig.Parameter4]
+                                        + parameters[ParameterRegelmaessig.Parameter3]
                                         + "st");
                                 }
                                 break;
@@ -546,7 +546,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation)))
                 {
                     verb.PräsensAktivIndikativ_Singular3Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -754,7 +754,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräsensAktivIndikativ_Plural1Person = new List<string>();
                     verb.PräsensAktivIndikativ_Plural1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3]
@@ -797,7 +797,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräsensAktivIndikativ_Plural2Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -837,7 +837,6 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                             }
                             break;
                         case "n":
-
                             if (condition2.Contains(parameters[ParameterRegelmaessig.Parameter2]))
                             {
                                 verb.PräsensAktivIndikativ_Plural2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3]
@@ -900,7 +899,6 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                                 );
                             break;
                         default:
-
                             verb.PräsensAktivIndikativ_Plural2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3]
                                 + "t"
                                 + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1)
@@ -1064,7 +1062,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation)))
                 {
                     if (parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich) && parameters[ParameterRegelmaessig.Unpersönlich] == "es")
                     {
@@ -1125,7 +1123,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräteritumAktivIndikativ_Singular1Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -1201,7 +1199,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                                 if (!(parameters.ContainsKey(ParameterRegelmaessig.PräteritumVeraltet) || parameters.ContainsKey(ParameterRegelmaessig.veraltet)))
                                 {
                                     verb.PräteritumAktivIndikativ_Singular1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3]
-                                    + "et"
+                                    + "ete"
                                     + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1)
                                     + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
                                 }
@@ -1380,7 +1378,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräteritumAktivIndikativ_Singular2Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -1636,7 +1634,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation)))
                 {
                     verb.PräteritumAktivIndikativ_Singular3Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -1885,14 +1883,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             #endregion
 
             #region Präteritum Indikativ Plural 1 Person
-            if (parameters.ContainsKey("2. Singular Indikativ Präteritum Aktiv"))
+            if (parameters.ContainsKey("1. Plural Indikativ Präteritum Aktiv"))
             {
                 verb.PräteritumAktivIndikativ_Plural1Person = new List<string>();
-                verb.PräteritumAktivIndikativ_Plural1Person.Add(parameters["2. Singular Indikativ Präteritum Aktiv"]);
+                verb.PräteritumAktivIndikativ_Plural1Person.Add(parameters["1. Plural Indikativ Präteritum Aktiv"]);
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräteritumAktivIndikativ_Plural1Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -2148,7 +2146,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
                 {
                     verb.PräteritumAktivIndikativ_Plural2Person = new List<string>();
                     switch (parameters[ParameterRegelmaessig.Parameter3])
@@ -2164,7 +2162,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                             if (condition.Contains(parameters[ParameterRegelmaessig.Parameter2]))
                             {
                                 verb.PräteritumAktivIndikativ_Plural2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3]
-                                + "eten"
+                                + "etet"
                                 + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1)
                                 + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
                             }
@@ -2404,7 +2402,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             }
             else
             {
-                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv)))
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präteritum) || parameters.ContainsKey(ParameterRegelmaessig.PräteritumAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation)))
                 {
                     if (!(parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich) && parameters[ParameterRegelmaessig.Unpersönlich] == "es"))
                     {

@@ -42,6 +42,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
 
         public const String PräsensVeraltet = "Präsens veraltet";
         public const String PräteritumVeraltet = "Präteritum veraltet";
-        
+
+        public const String Hauptsatzkonjugation = "Hauptsatzkonjugation";
     }
 }
