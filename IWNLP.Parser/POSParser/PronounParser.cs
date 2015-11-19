@@ -59,67 +59,83 @@ namespace IWNLP.Parser.POSParser
 
                     if (forms[0].StartsWith("Wer oder was? (Einzahl m)") || forms[0].StartsWith("Nominativ Singular m"))
                     {
-                        pronoun.WerEinzahlM = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WerEinzahlM == null) { pronoun.WerEinzahlM = new List<string>(); }
+                        pronoun.WerEinzahlM.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wer oder was? (Einzahl f)") || forms[0].StartsWith("Nominativ Singular f"))
                     {
-                        pronoun.WerEinzahlF = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WerEinzahlF == null) { pronoun.WerEinzahlF = new List<string>(); }
+                        pronoun.WerEinzahlF.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wer oder was? (Einzahl n)") || forms[0].StartsWith("Nominativ Singular n"))
                     {
-                        pronoun.WerEinzahlN = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WerEinzahlN == null) { pronoun.WerEinzahlN = new List<string>(); }
+                        pronoun.WerEinzahlN.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wer oder was? (Mehrzahl)") || forms[0].StartsWith("Nominativ Plural"))
                     {
-                        pronoun.WerEinzahlMehrzahl = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WerEinzahlMehrzahl == null) { pronoun.WerEinzahlMehrzahl = new List<string>(); }
+                        pronoun.WerEinzahlMehrzahl.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wessen? (Einzahl m)") || forms[0].StartsWith("Genitiv Singular m"))
                     {
-                        pronoun.WessenEinzahlM = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WessenEinzahlM == null) { pronoun.WessenEinzahlM = new List<string>(); }
+                        pronoun.WessenEinzahlM.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wessen? (Einzahl f)") || forms[0].StartsWith("Genitiv Singular f"))
                     {
-                        pronoun.WessenEinzahlF = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WessenEinzahlF == null) { pronoun.WessenEinzahlF = new List<string>(); }
+                        pronoun.WessenEinzahlF.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wessen? (Einzahl n)") || forms[0].StartsWith("Genitiv Singular n"))
                     {
-                        pronoun.WessenEinzahlN = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WessenEinzahlN == null) { pronoun.WessenEinzahlN = new List<string>(); }
+                        pronoun.WessenEinzahlN.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wessen? (Mehrzahl)") || forms[0].StartsWith("Genitiv Plural"))
                     {
-                        pronoun.WessenEinzahlMehrzahl = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WessenEinzahlMehrzahl == null) { pronoun.WessenEinzahlMehrzahl = new List<string>(); }
+                        pronoun.WessenEinzahlMehrzahl.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wem? (Einzahl m)") || forms[0].StartsWith("Dativ Singular m"))
                     {
-                        pronoun.WemEinzahlM = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WemEinzahlM == null) { pronoun.WemEinzahlM = new List<string>(); }
+                        pronoun.WemEinzahlM.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wem? (Einzahl f)") || forms[0].StartsWith("Dativ Singular f"))
                     {
-                        pronoun.WemEinzahlF = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WemEinzahlF == null) { pronoun.WemEinzahlF = new List<string>(); }
+                        pronoun.WemEinzahlF.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wem? (Einzahl n)") || forms[0].StartsWith("Dativ Singular n"))
                     {
-                        pronoun.WemEinzahlN = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WemEinzahlN == null) { pronoun.WemEinzahlN = new List<string>(); }
+                        pronoun.WemEinzahlN.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wem? (Mehrzahl)") || forms[0].StartsWith("Dativ Plural"))
                     {
-                        pronoun.WemEinzahlMehrzahl = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WemEinzahlMehrzahl == null) { pronoun.WemEinzahlMehrzahl = new List<string>(); }
+                        pronoun.WemEinzahlMehrzahl.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wen? (Einzahl m)") || forms[0].StartsWith("Akkusativ Singular m"))
                     {
-                        pronoun.WenEinzahlM = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WenEinzahlM == null) { pronoun.WenEinzahlM = new List<string>(); }
+                        pronoun.WenEinzahlM.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wen? (Einzahl f)") || forms[0].StartsWith("Akkusativ Singular f"))
                     {
-                        pronoun.WenEinzahlF = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WenEinzahlF == null) { pronoun.WenEinzahlF = new List<string>(); }
+                        pronoun.WenEinzahlF.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wen? (Einzahl n)") || forms[0].StartsWith("Akkusativ Singular n"))
                     {
-                        pronoun.WenEinzahlN = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WenEinzahlN == null) { pronoun.WenEinzahlN = new List<string>(); }
+                        pronoun.WenEinzahlN.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Wen? (Mehrzahl)") || forms[0].StartsWith("Akkusativ Plural"))
                     {
-                        pronoun.WenEinzahlMehrzahl = this.GetForms(forms[1], pronoun);
+                        if (pronoun.WenEinzahlMehrzahl == null) { pronoun.WenEinzahlMehrzahl = new List<string>(); }
+                        pronoun.WenEinzahlMehrzahl.AddRange(this.GetForms(forms[1], pronoun));
                     }
                     else if (forms[0].StartsWith("Weitere Formen"))
                     {
