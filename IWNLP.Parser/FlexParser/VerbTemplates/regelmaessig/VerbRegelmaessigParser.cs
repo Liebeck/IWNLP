@@ -19,6 +19,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             {
                 return null;
             }
+            String truncatedWord = word.Replace("Flexion:", String.Empty);
             String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb regelmäßig|");
             Dictionary<String, String> parameters = new Dictionary<string, string>();
             for (int i = 0; i < inputSplitted.Length; i++)
@@ -34,10 +35,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                 {
                     parameters[ParameterRegelmaessig.Parameter1] = inputSplitted[i++];
                     parameters[ParameterRegelmaessig.Parameter2] = inputSplitted[i++];
-                    if (word.Length > 4)
-                    {
+                    //if (truncatedWord.Length > 4) // there is only the case "Flexion:äsen". "Flexion:äsen" sets parameter 3 as empty value. The documentation says "the parameter 3 should not be set. Correct would be "parameter 3 should be set as empty"
+                    //{
                         parameters[ParameterRegelmaessig.Parameter3] = inputSplitted[i++];
-                    }
+                    //}
                     parameters[ParameterRegelmaessig.Parameter4] = inputSplitted[i++];
                     parameters[ParameterRegelmaessig.Parameter5] = inputSplitted[i++];
                     parameters[ParameterRegelmaessig.Parameter6] = inputSplitted[i];
