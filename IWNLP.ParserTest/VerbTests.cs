@@ -1267,5 +1267,101 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void folgen()
+        {
+            String word = "folgen";
+            int wiktionaryID = 29393;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"folge"},
+                Präsens_Du = new List<string>(){"folgst"},
+                Präsens_ErSieEs = new List<string>(){"folgt"},
+                Präteritum_ich = new List<string>(){"folgte"},
+                KonjunktivII_Ich = new List<string>(){"folgte"},
+                ImperativSingular = new List<string>(){"folge!","folg!"},
+                ImperativPlural = new List<string>(){"folgt!"},
+                PartizipII = new List<string>(){"gefolgt"},
+                Hilfsverb = new List<string>(){"haben","sein"},
+                POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void aufstehen()
+        {
+            String word = "aufstehen";
+            int wiktionaryID = 5711;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"stehe auf"},
+                Präsens_Du = new List<string>(){"stehst auf"},
+                Präsens_ErSieEs = new List<string>(){"steht auf"},
+                Präteritum_ich = new List<string>(){"stand auf"},
+                KonjunktivII_Ich = new List<string>(){"stände auf","stünde auf"},
+                ImperativSingular = new List<string>(){"steh auf!","stehe auf!"},
+                ImperativPlural = new List<string>(){"steht auf!"},
+                PartizipII = new List<string>(){"aufgestanden"},
+                Hilfsverb = new List<string>(){"sein","haben"},
+                POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void schweben()
+        {
+            String word = "schweben";
+            int wiktionaryID = 17426;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"schwebe"},
+                Präsens_Du = new List<string>(){"schwebst"},
+                Präsens_ErSieEs = new List<string>(){"schwebt"},
+                Präteritum_ich = new List<string>(){"schwebte"},
+                KonjunktivII_Ich = new List<string>(){"schwebte"},
+                ImperativSingular = new List<string>(){"schwebe!"},
+                ImperativPlural = new List<string>(){"schwebt!"},
+                PartizipII = new List<string>(){"geschwebt"},
+                Hilfsverb = new List<string>(){"sein","haben"},
+                POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }

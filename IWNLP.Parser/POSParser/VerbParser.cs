@@ -143,7 +143,7 @@ namespace IWNLP.Parser.POSParser
                 else if (forms[0].StartsWith("Hilfsverb"))
                 {
                     if (verb.Hilfsverb == null) { verb.Hilfsverb = new List<string>(); }
-                    verb.Hilfsverb.Add(forms[1]);
+                    verb.Hilfsverb.AddRange(this.GetForms(forms[1], verb));
                 }
                 else if (forms[0].StartsWith("Weitere_Konjugationen2"))
                 {
