@@ -14,25 +14,8 @@ namespace IWNLP.Parser.POSParser
         List<String> blacklist = new List<string>() 
         {
         "Oachkatzlschwoaf",
-        "Riff", // dump 20151102
-        "Schlepptop", // dump 20151102
         "Thüringisch-Obersächsisch",
-        "Queue",// fixed dump 20151102,
-        "Gof",// fixeddump 20151102,
-        "Fünftel",// fixed dump 20151102,
-        "Feature",// fixed dump 20151102,
-        "Ehec",// fixed dump 20151102,
-        "Strippoker",// fixed dump 20151102,
         "Koprolith",
-        "Hundertstel",// fixed dump 20151102,
-        "Ackerbauer",// fixed dump 20151102,
-        "Panterfell",// fixed dump 20151102,
-        "Großbauer",// fixed dump 20151102,
-        "Landerziehungsheim",// fixed dump 20151102,
-        "Neubauer",// fixed dump 20151102,
-        "Hofschranze",// fixed dump 20151102,
-        "Renforcé",// fixed dump 20151102,
-        "Garnichts",// fixed dump 20151102,
         "Finno-Ugrisch",
         "Schottisch-Gälisch",
         "Manx-Gälisch",
@@ -54,7 +37,8 @@ namespace IWNLP.Parser.POSParser
         "Karbadisch-Tscherkessisch",
         "Arkadisch-Kyprisch",
         "Launa-Deutsch",
-        "Tunesisch-Arabisch"
+        "Tunesisch-Arabisch",
+        "Brast"
         };
 
 
