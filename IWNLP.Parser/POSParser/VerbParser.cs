@@ -15,8 +15,8 @@ namespace IWNLP.Parser.POSParser
 
         List<String> blacklist = new List<string>() 
         {
-        "reinpfeifen",
-        "vorstellen"
+        //"reinpfeifen",
+        //"vorstellen"
         };
 
         public Word Parse(String word, String[] text, String wortArtLine)
