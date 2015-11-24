@@ -10,6 +10,7 @@ namespace IWNLP.Models.Nouns
     {
         Maskulinum = 1,
         Femininum = 2,
-        Neutrum = 3
+        Neutrum = 3,
+        Pluralwort = 4
     }
 }

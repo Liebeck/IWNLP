@@ -190,6 +190,7 @@ namespace IWNLP.Parser.POSParser
                     if (forms[1] == "n") { genus = Genus.Neutrum; }
                     else if (forms[1] == "f") { genus = Genus.Femininum; }
                     else if (forms[1] == "m") { genus = Genus.Maskulinum; }
+                    else if (forms[1] == "0") { genus = Genus.Pluralwort; }
                     else
                     {
                         Console.WriteLine(word + ": error while parsing genus: " + forms[1]);
