@@ -441,6 +441,89 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void welche()
+        {
+            String word = "welche";
+            int wiktionaryID = 65693;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+                new Models.Pronoun()
+                {
+                    POS = Models.POS.Pronoun,
+                    Text = word,
+                    WiktionaryID = wiktionaryID,
+                    WerEinzahlM = new List<string>() { "welcher" },
+                    WerEinzahlF = new List<string>() { "welche" },
+                    WerEinzahlN = new List<string>() { "welches" },
+                    WerEinzahlMehrzahl = new List<string>() { "welche" },
+                    WessenEinzahlM = new List<string>() { "welches" },
+                    WessenEinzahlF = new List<string>() { "welcher" },
+                    WessenEinzahlN = new List<string>() { "welches" },
+                    WessenEinzahlMehrzahl = new List<string>() { "welcher" },
+                    WemEinzahlM = new List<string>() { "welchem" },
+                    WemEinzahlF = new List<string>() { "welcher" },
+                    WemEinzahlN = new List<string>() { "welchem" },
+                    WemEinzahlMehrzahl = new List<string>() { "welchen" },
+                    WenEinzahlM = new List<string>() { "welchen" },
+                    WenEinzahlF = new List<string>() { "welche" },
+                    WenEinzahlN = new List<string>() { "welches" },
+                    WenEinzahlMehrzahl = new List<string>() { "welche" }
+                },
+                new Models.Pronoun()
+                {
+                    POS = Models.POS.Pronoun,
+                    Text = word,
+                    WiktionaryID = wiktionaryID,
+                    WerEinzahlM = new List<string>() { "welcher" },
+                    WerEinzahlF = new List<string>() { "welche" },
+                    WerEinzahlN = new List<string>() { "welches" },
+                    WerEinzahlMehrzahl = new List<string>() { "welche" },
+                    WessenEinzahlM = new List<string>() { "welches" },
+                    WessenEinzahlF = new List<string>() { "welcher" },
+                    WessenEinzahlN = new List<string>() { "welches" },
+                    WessenEinzahlMehrzahl = new List<string>() { "welcher" },
+                    WemEinzahlM = new List<string>() { "welchem" },
+                    WemEinzahlF = new List<string>() { "welcher" },
+                    WemEinzahlN = new List<string>() { "welchem" },
+                    WemEinzahlMehrzahl = new List<string>() { "welchen" },
+                    WenEinzahlM = new List<string>() { "welchen" },
+                    WenEinzahlF = new List<string>() { "welche" },
+                    WenEinzahlN = new List<string>() { "welches" },
+                    WenEinzahlMehrzahl = new List<string>() { "welche" }
+                },
+                new Models.Pronoun()
+                {
+                    POS = Models.POS.Pronoun,
+                    Text = word,
+                    WiktionaryID = wiktionaryID,
+                    WerEinzahlM = new List<string>() { "welcher" },
+                    WerEinzahlF = new List<string>() { "welche" },
+                    WerEinzahlN = new List<string>() { "welches" },
+                    WerEinzahlMehrzahl = new List<string>() { "welche" },
+                    WessenEinzahlM = new List<string>() { "welches" },
+                    WessenEinzahlF = new List<string>() { "welcher" },
+                    WessenEinzahlN = new List<string>() { "welches" },
+                    WessenEinzahlMehrzahl = new List<string>() { "welcher" },
+                    WemEinzahlM = new List<string>() { "welchem" },
+                    WemEinzahlF = new List<string>() { "welcher" },
+                    WemEinzahlN = new List<string>() { "welchem" },
+                    WemEinzahlMehrzahl = new List<string>() { "welchen" },
+                    WenEinzahlM = new List<string>() { "welchen" },
+                    WenEinzahlF = new List<string>() { "welche" },
+                    WenEinzahlN = new List<string>() { "welches" },
+                    WenEinzahlMehrzahl = new List<string>() { "welche" }
+                },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
 
     }
 }
