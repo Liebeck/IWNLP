@@ -83,6 +83,7 @@ namespace IWNLP.Parser.POSParser
             input = input.Replace("''nur umgangsspachlich:''", String.Empty).Trim(); // Example: "einzig"
 
             input = input.Replace("''auch:''", String.Empty).Trim(); // Example: "Mahr"
+            input = input.Replace("''militärisch:''", String.Empty).Trim(); // Example: "wegtreten"
             input = input.Replace("''auch einfach:''", String.Empty).Trim(); // Example: "hereinkommen"
             input = input.Replace("[[Hilfe:Dativ-e|''Variante:'']]", String.Empty).Trim(); // Example: "Siebenschläfertag"
             input = input.Replace("Nebensatz:", String.Empty).Trim(); // Example: "aussortieren"

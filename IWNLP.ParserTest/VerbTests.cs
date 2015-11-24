@@ -1395,5 +1395,37 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void wegtreten()
+        {
+            String word = "wegtreten";
+            int wiktionaryID = 151419;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"trete weg"},
+                Präsens_Du = new List<string>(){"trittst weg"},
+                Präsens_ErSieEs = new List<string>(){"tritt weg"},
+                Präteritum_ich = new List<string>(){"trat weg"},
+                KonjunktivII_Ich = new List<string>(){"träte weg"},
+                ImperativSingular = new List<string>(){"tritt weg!","wegtreten!","weggetreten!"},
+                ImperativPlural = new List<string>(){"tretet weg!","wegtreten!","weggetreten!"},
+                PartizipII = new List<string>(){"weggetreten"},
+                Hilfsverb = new List<string>(){"sein"},
+                POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
