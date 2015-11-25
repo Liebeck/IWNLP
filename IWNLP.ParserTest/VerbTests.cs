@@ -1427,5 +1427,37 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void mitteilen()
+        {
+            String word = "mitteilen";
+            int wiktionaryID = 80156;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"teile mit"},
+                Präsens_Du = new List<string>(){"teilst mit"},
+                Präsens_ErSieEs = new List<string>(){"teilt mit"},
+                Präteritum_ich = new List<string>(){"teilte mit"},
+                KonjunktivII_Ich = new List<string>(){"teilte mit"},
+                ImperativSingular = new List<string>(){"teile mit!"},
+                ImperativPlural = new List<string>(){"teilt mit!"},
+                PartizipII = new List<string>(){"mitgeteilt"},
+                Hilfsverb = new List<string>(){"haben"},
+                POS = Models.POS.Verb
+             },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
