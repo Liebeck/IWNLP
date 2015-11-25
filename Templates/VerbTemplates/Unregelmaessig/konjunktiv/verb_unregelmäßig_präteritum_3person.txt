@@ -1,0 +1,19 @@
+| {{small|er/sie/es}} {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+	| {{{4}}} 
+	| {{{4}}}e
+	}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{9|}}}
+	| ,<br />{{small|er/sie/es}} {{{9}}}e{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+}}
+
+
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} {{small|er/sie/es}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3s}} 
+	{{{1|}}}{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+		| {{{4}}} 
+		| {{{4}}}e 
+		}}
+		{{#if: {{{9|}}}
+			| ,<br />{{small|er/sie/es}} {{{1|}}}{{{9}}}e
+		}}
+}}

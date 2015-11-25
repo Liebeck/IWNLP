@@ -433,6 +433,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"mussten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"musstet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"mussten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"müsse"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"müssest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"müsse"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"müssen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"müsset"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"müssen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"müsste"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"müsstest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"müsste"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"müssten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"müsstet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"müssten"},
                     PartizipII = "gemusst"
                  }
             };

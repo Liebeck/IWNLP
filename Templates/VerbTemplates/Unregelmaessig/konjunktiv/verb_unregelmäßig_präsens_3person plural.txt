@@ -1,0 +1,15 @@
+﻿| sie {{#if: {{{Konjunktiv Präsens (sie)|}}} 
+	| {{{Konjunktiv Präsens (sie)}}} 
+	| {{{2}}}en 
+	}}
+	{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} sie{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|3p}} 
+	{{#if: {{{1|}}}|{{{1|}}}|}}
+	{{#if: {{{Konjunktiv Präsens (sie)|}}} 
+		| {{{Konjunktiv Präsens (sie)}}} 
+		| {{{2}}}en 
+	}}
+}}

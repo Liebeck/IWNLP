@@ -1,0 +1,14 @@
+| ich {{#if: {{{Konjunktiv Pr‰sens (ich)|}}} 
+	| {{{Konjunktiv Pr‰sens (ich)}}} 
+	| {{{2}}}e 
+	}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+
+Nebensatz
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} ich{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1s}} 
+	{{#if: {{{1|}}}|{{{1|}}}|}}{{#if: {{{Konjunktiv Pr‰sens (ich)|}}} 
+		| {{{Konjunktiv Pr‰sens (ich)}}} 
+		| {{{2}}}e 
+	}}
+}}

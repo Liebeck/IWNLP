@@ -1,0 +1,15 @@
+﻿| ihr {{#if: {{{Konjunktiv Präsens (ihr)|}}} 
+	| {{{Konjunktiv Präsens (ihr)}}} 
+	| {{{2}}}et
+	}}
+{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+Nebensatz
+
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+{{!}} ihr{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2p}} {{{1|}}}
+	{{#if: {{{Konjunktiv Präsens (ihr)|}}} 
+		| {{{Konjunktiv Präsens (ihr)}}} 
+		| {{{2}}}et 
+	}}
+}}

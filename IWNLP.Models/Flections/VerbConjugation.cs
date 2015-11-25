@@ -40,6 +40,34 @@ namespace IWNLP.Models.Flections
         public List<String> PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation { get; set; }
         public List<String> PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation { get; set; }
 
+        public List<String> PräsensAktivKonjunktiv_Singular1Person { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Singular2Person { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Singular3Person { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Plural1Person { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Plural2Person { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Plural3Person { get; set; }
+
+        public List<String> PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation { get; set; }
+
+        public List<String> PräteritumAktivKonjunktiv_Singular1Person { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Singular2Person { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Singular3Person { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Plural1Person { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Plural2Person { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Plural3Person { get; set; }
+
+        public List<String> PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation { get; set; }
+        public List<String> PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation { get; set; }
+
         public bool Equals(VerbConjugation obj) 
         {
             return this.PartizipII == obj.PartizipII
@@ -68,7 +96,31 @@ namespace IWNLP.Models.Flections
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivIndikativ_Singular3Person, obj.PräteritumAktivIndikativ_Singular3Person)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivIndikativ_Plural1Person, obj.PräteritumAktivIndikativ_Plural1Person)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivIndikativ_Plural2Person, obj.PräteritumAktivIndikativ_Plural2Person)
-                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivIndikativ_Plural3Person, obj.PräteritumAktivIndikativ_Plural3Person);
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivIndikativ_Plural3Person, obj.PräteritumAktivIndikativ_Plural3Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Singular1Person, obj.PräsensAktivKonjunktiv_Singular1Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Singular2Person, obj.PräsensAktivKonjunktiv_Singular2Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Singular3Person, obj.PräsensAktivKonjunktiv_Singular3Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Plural1Person, obj.PräsensAktivKonjunktiv_Plural1Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Plural2Person, obj.PräsensAktivKonjunktiv_Plural2Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Plural3Person, obj.PräsensAktivKonjunktiv_Plural3Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation, obj.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation, obj.PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation, obj.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation, obj.PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation, obj.PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation, obj.PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation, obj.PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation, obj.PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation, obj.PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation, obj.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation, obj.PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation, obj.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Singular1Person, obj.PräteritumAktivKonjunktiv_Singular1Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Singular2Person, obj.PräteritumAktivKonjunktiv_Singular2Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Singular3Person, obj.PräteritumAktivKonjunktiv_Singular3Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Plural1Person, obj.PräteritumAktivKonjunktiv_Plural1Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Plural2Person, obj.PräteritumAktivKonjunktiv_Plural2Person)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.PräteritumAktivKonjunktiv_Plural3Person, obj.PräteritumAktivKonjunktiv_Plural3Person);
         }
     }
 }

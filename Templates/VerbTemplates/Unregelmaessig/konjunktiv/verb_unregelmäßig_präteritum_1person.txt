@@ -1,0 +1,21 @@
+| ich {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+	| {{{4}}} 
+	| {{{4}}}e }}
+{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{9|}}}
+	| ,<br />ich {{{9}}}e{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}| }}
+	|
+}}
+
+Nebensatz
+
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} ich{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1s}} {{{1|}}}
+	{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+		| {{{4}}} 
+		| {{{4}}}e 
+	}}
+	{{#if: {{{9|}}}
+		| ,<br />ich{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1s}} {{{1|}}}{{{9}}}e
+	}}
+}}

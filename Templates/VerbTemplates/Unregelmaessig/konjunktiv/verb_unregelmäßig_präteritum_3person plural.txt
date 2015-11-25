@@ -1,0 +1,19 @@
+| sie {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie
+	| {{{4}}}n 
+	| {{{4}}}en
+}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{9|}}}
+	| ,<br />sie {{{9}}}en{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+}}
+
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}
+	|{{!}} sie{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}|{{{1|}}}|}}
+		{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+			| {{{4}}}n 
+			| {{{4}}}en 
+		}}
+		{{#if: {{{9|}}}
+			| ,<br />sie{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|3p}} {{#if: {{{1|}}}| {{{1|}}}|}}{{{9}}}en
+		}}
+}}

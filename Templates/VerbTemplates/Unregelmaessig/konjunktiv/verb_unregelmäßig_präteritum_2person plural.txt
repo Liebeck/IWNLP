@@ -1,0 +1,51 @@
+| ihr {{{4}}}et{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{7|}}}{{{10|}}} 
+	|
+	| {{#ifeq: {{{3|}}}|{{{4|}}}
+		|
+		|{{#ifeq: {{{8|}}}|n
+			|
+			|,<br />ihr {{{4}}}t{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} 
+			}}
+		}} 
+}}
+{{#if: {{{9|}}}
+	|,<br />ihr {{{9}}}et{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }}
+	{{#if: {{{7|}}} 
+		| 
+		| {{#ifeq: {{{3|}}}|{{{4|}}}
+			|
+			|{{#ifeq: {{{8|}}}|n
+				|
+				|,<br />ihr {{{9}}}t{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} 
+				}}
+			}} 
+	}}
+}}
+
+{{#if: {{{1|}}}{{{reflexiv|}}}
+	|{{!}} ihr{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{{4}}}et
+	{{#if: {{{7|}}}{{{10|}}} 
+		|
+		| {{#ifeq: {{{3|}}}|{{{4|}}}
+			|
+			|{{#ifeq: {{{8|}}}|n
+				|
+				|,<br />ihr{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{{4}}}t
+				}} 
+			}} 
+	}}
+	{{#if: {{{9|}}}
+		|,<br />ihr{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}} {{{1|}}}{{{9}}}et
+			{{#if: {{{7|}}} 
+				| 
+				| {{#ifeq: {{{3|}}}|{{{4|}}}
+					|
+					|{{#ifeq: {{{8|}}}|n
+						|
+						|,<br />ihr{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2p}} {{#if: {{{1|}}}|{{{1|}}}}}{{{9}}}t
+						}}
+					}} 
+			}} 
+	}}
+}}

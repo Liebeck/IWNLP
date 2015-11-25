@@ -91,5 +91,95 @@ namespace IWNLP.ParserTest
             String expected = String.Empty;
             Assert.AreEqual(result, expected);
         }
+
+        [TestMethod]
+        public void StrSub1()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 0, 0);
+            String expected = String.Empty;
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub2()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 0, 1);
+            String expected = "A";
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub3()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 0, 2);
+            String expected = "Au";
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub4()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 0, 3);
+            String expected = "Aut";
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub5()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", -1, 1);
+            String expected = String.Empty;
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub6()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 0, 8);
+            String expected = "Autobahn";
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub7()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 0, 9);
+            String expected = "AutobahnA";
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        public void StrSub8()
+        {
+            ParserBase parserBase = new ParserBase();
+
+            String result = parserBase.StrSub("Autobahn", 1, 2);
+            String expected = "ut";
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void StrSub9()
+        {
+            ParserBase parserBase = new ParserBase();
+            String result = parserBase.StrSub("Autobahn", 2, 10);
+
+        }
+        
     }
 }

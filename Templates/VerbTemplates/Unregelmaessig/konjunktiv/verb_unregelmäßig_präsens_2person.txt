@@ -1,0 +1,21 @@
+| du {{#if: {{{Konjunktiv Pr‰sens (du)|}}} 
+	| {{{Konjunktiv Pr‰sens (du)}}}
+	| {{{2}}}est }}
+{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2s}}
+{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+{{#if: {{{Konjunktiv Pr‰sens Alternativform (du)|}}} 
+	| ,<br/>du {{{Konjunktiv Pr‰sens Alternativform (du)}}}{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}} 
+}}
+
+
+Nebensatz
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} du{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|2s}} 
+	{{#if: {{{1|}}}|{{{1|}}}|}}	{{#if: {{{Konjunktiv Pr‰sens (du)|}}} 
+		| {{{Konjunktiv Pr‰sens (du)}}} 
+		| {{{2}}}est }}
+	{{#if: {{{Konjunktiv Pr‰sens Alternativform (du)|}}} 
+		| ,<br/>du {{#if: {{{1|}}}|{{{1|}}}|}}{{{Konjunktiv Pr‰sens Alternativform (du)}}} 
+	}}
+}}

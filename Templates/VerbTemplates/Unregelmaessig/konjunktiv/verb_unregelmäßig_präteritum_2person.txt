@@ -1,0 +1,51 @@
+﻿| du {{{4}}}est{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+{{#if: {{{7|}}}{{{10|}}} 
+	|
+	| {{#ifeq: {{{3|}}}|{{{4|}}}
+		| |{{#ifeq: {{{8|}}}|n
+			|
+			|,<br />du {{{4}}}st{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} 
+			}} 
+	}} 
+}}
+{{#if: {{{9|}}}
+	|,<br />du {{{9}}}est{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }}
+	{{#if: {{{7|}}} 
+		|
+		| {{#ifeq: {{{3|}}}|{{{4|}}}
+			|
+			|{{#ifeq: {{{8|}}}|n
+				|
+				|,<br />du {{{9}}}st{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}}{{#if: {{{1|}}}|&nbsp;{{{1|}}} }} 
+				}}
+			}} 
+	}}
+}}
+
+NEBENSATZ
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{4}}}est
+	{{#if: {{{7|}}}{{{10|}}} 
+		|
+		| {{#ifeq: {{{3|}}}|{{{4|}}}
+			| 
+			|{{#ifeq: {{{8|}}}|n
+				|
+				|,<br />du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{4}}}st
+				}}
+			}} 
+	}}
+	{{#if: {{{9|}}}
+		|,<br />du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{9}}}est
+			{{#if: {{{7|}}} 
+				|
+				| {{#ifeq: {{{3|}}}|{{{4|}}}
+					|
+					|{{#ifeq: {{{8|}}}|n
+						|
+						|,<br />du{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|2s}} {{{1|}}}{{{9}}}st
+						}}
+					}}
+			}} 
+	}}
+}}

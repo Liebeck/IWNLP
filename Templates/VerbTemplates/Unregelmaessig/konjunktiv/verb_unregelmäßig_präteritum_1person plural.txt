@@ -1,0 +1,20 @@
+| wir {{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+	| {{{4}}}n 
+	| {{{4}}}en
+	}}
+	{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+	
+	{{#if: {{{9|}}}
+		| ,<br />wir {{{9}}}en{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+		}}
+
+{{#if: {{{1|}}}{{{reflexiv|}}}
+	|{{!}} wir{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1p}} {{{1|}}}
+	{{#ifeq: {{Str sub|{{{4}}}|{{Str len|{{{4}}}}}-2|2}} | ie 
+		| {{{4}}}n
+		| {{{4}}}en
+	}}
+	{{#if: {{{9|}}}
+		| ,<br />wir{{Deutsch Verb unregelm‰ﬂig/R|{{{reflexiv|}}}|1p}} {{{1|}}}{{{9}}}en
+	}}
+}}

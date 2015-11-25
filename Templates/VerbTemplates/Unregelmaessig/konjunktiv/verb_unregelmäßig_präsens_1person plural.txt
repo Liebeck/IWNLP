@@ -1,0 +1,14 @@
+﻿| wir {{#if: {{{Konjunktiv Präsens (wir)|}}} 
+	| {{{Konjunktiv Präsens (wir)}}}
+	| {{{2}}}en 
+	}}
+	{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}}{{#if: {{{1|}}}|&nbsp;{{{1|}}}|}}
+
+Nebensatz
+{{#if: {{{1|}}}{{{reflexiv|}}}|
+	{{!}} wir{{Deutsch Verb unregelmäßig/R|{{{reflexiv|}}}|1p}} {{{1|}}}
+	{{#if: {{{Konjunktiv Präsens (wir)|}}} 
+		| {{{Konjunktiv Präsens (wir)}}} 
+		| {{{2}}}en 
+	}}
+}}

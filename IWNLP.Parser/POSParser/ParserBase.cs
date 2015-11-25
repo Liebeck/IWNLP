@@ -239,9 +239,38 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        public bool ContainsNonEmpty(Dictionary<String, String> dictionary, String key) 
+        public bool ContainsNonEmpty(Dictionary<String, String> dictionary, String key)
         {
             return dictionary.ContainsKey(key) && !String.IsNullOrEmpty(dictionary[key]);
+        }
+
+        public String StrSub(String text, int index, int length)
+        {
+            if (index < 0) { return String.Empty; }
+            if (length <= text.Length)
+            {
+                return text.Substring(index, length);
+            }
+            else
+            {
+                if (index == 0)
+                {
+                    String output = String.Empty;
+                    int repeatCount = length / text.Length;
+                    for (int i = 0; i < repeatCount; i++)
+                    {
+                        output += text;
+                    }
+                    int truncatedLength = length % text.Length;
+                    output += text.Substring(0, truncatedLength);
+                    return output;
+                }
+                else
+                {
+                    throw new ArgumentException();
+                }
+
+            }
         }
     }
 }
