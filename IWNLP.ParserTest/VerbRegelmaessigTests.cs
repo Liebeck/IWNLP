@@ -915,6 +915,53 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void knöpfen()
+        {
+            String word = "knöpfen";
+            int wikiID = 474830;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"knöpfe"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"knöpfst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"knöpft"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"knöpfen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"knöpft"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"knöpfen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"knöpfte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"knöpftest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"knöpfte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"knöpften"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"knöpftet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"knöpften"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"knöpfe"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"knöpfest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"knöpfe"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"knöpfen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"knöpfet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"knöpfen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"knöpfte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"knöpftest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"knöpfte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"knöpften"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"knöpftet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"knöpften"},
+                    PartizipII = "geknöpft",
+                    PartizipIIVeraltet="geknöpfet"
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
 
