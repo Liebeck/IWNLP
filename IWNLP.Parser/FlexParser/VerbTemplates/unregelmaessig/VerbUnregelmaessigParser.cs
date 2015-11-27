@@ -1407,18 +1407,18 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             // Nebensatz
             if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter1) || base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Reflexiv))
             {
-                verb.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation = new List<string>();
                 if (base.StrSub(parameters[ParameterUnregelmaessig.Parameter4], parameters[ParameterUnregelmaessig.Parameter4].Length - 2, 2) == "ie")
                 {
-                    verb.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation.Add(this.GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter4] + "n");
+                    verb.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation.Add(this.GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter4] + "n");
                 }
                 else
                 {
-                    verb.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation.Add(this.GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter4] + "en");
+                    verb.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation.Add(this.GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter4] + "en");
                 }
                 if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter9))
                 {
-                    verb.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation.Add(this.GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter9] + "en");
+                    verb.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation.Add(this.GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter9] + "en");
                 }
             }
             #endregion
