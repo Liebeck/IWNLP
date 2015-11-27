@@ -73,6 +73,18 @@ namespace IWNLP.Parser.FlexParser
                 RemoveNBSPandTrim(verb.PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation);
                 RemoveNBSPandTrim(verb.PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation);
                 RemoveNBSPandTrim(verb.PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Singular1Person);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Singular2Person);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Singular3Person);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Plural1Person);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Plural2Person);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Plural3Person);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation);
 
                 RemoveNBSPandTrim(verb.PräteritumAktivIndikativ_Singular1Person);
                 RemoveNBSPandTrim(verb.PräteritumAktivIndikativ_Singular2Person);
@@ -86,6 +98,18 @@ namespace IWNLP.Parser.FlexParser
                 RemoveNBSPandTrim(verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation);
                 RemoveNBSPandTrim(verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation);
                 RemoveNBSPandTrim(verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Singular1Person);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Singular2Person);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Singular3Person);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Plural1Person);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Plural2Person);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Plural3Person);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation);
+                RemoveNBSPandTrim(verb.PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation);
 
                 if (!String.IsNullOrEmpty(verb.PartizipII)) { verb.PartizipII = RemoveNBSPandTrim(verb.PartizipII); }
                 if (!String.IsNullOrEmpty(verb.PartizipIIAlternativ)) { verb.PartizipIIAlternativ = RemoveNBSPandTrim(verb.PartizipIIAlternativ); }            
