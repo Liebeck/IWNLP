@@ -9,9 +9,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
 {
     public class VerbRegelmaessigParser : VerbConjugationParserBase
     {
-        List<String> blacklist = new List<string>() {
-            "Flexion:dienstverpflichten" // dump 20151102
-        };
+        List<String> blacklist = new List<string>() {};
 
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {

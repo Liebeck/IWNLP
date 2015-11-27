@@ -13,11 +13,7 @@ namespace IWNLP.Parser.POSParser
         public bool OutputWrongInflectionForms { get; set; }
 
 
-        List<String> blacklist = new List<string>() 
-        {
-        //"reinpfeifen",
-        //"vorstellen"
-        };
+        List<String> blacklist = new List<string>() {};
 
         public Word Parse(String word, String[] text, String wortArtLine)
         {
