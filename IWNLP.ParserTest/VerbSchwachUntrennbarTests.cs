@@ -40,6 +40,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"normierten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"normiertet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"normierten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"normiere"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"normierest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"normiere"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"normieren"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"normieret"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"normieren"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"normierte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"normiertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"normierte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"normierten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"normiertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"normierten"},
                     PartizipII = "normiert"
                  }
             };
@@ -75,6 +87,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"schirmten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"schirmtet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"schirmten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"schirme"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"schirmest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"schirme"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"schirmen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"schirmet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"schirmen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"schirmte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"schirmtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"schirmte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"schirmten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"schirmtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"schirmten"},
                     PartizipII = "geschirmt"
                  }
             };
@@ -110,6 +134,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"iahten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"iahtet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"iahten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"iahe"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"iahest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"iahe"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"iahen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"iahet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"iahen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"iahte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"iahtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"iahte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"iahten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"iahtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"iahten"},
                     PartizipII = "geiaht",
                     PartizipIIAlternativ = "iaht"
                  }
@@ -146,6 +182,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"becherten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"bechertet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"becherten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"bechere","bechre"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"becherest","bechrest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"bechere","bechre"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"bechern"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"becheret","bechret"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"bechern"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"becherte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"bechertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"becherte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"becherten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"bechertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"becherten"},
                     PartizipII = "gebechert",
                  }
             };
@@ -181,6 +229,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"verleumdeten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"verleumdetet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"verleumdeten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"verleumde"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"verleumdest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"verleumde"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"verleumden"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"verleumdet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"verleumden"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"verleumdete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"verleumdetest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"verleumdete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"verleumdeten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"verleumdetet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"verleumdeten"},
                     PartizipII = "verleumdet",
                  }
             };
@@ -216,6 +276,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"öffneten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"öffnetet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"öffneten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"öffne"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"öffnest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"öffne"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"öffnen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"öffnet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"öffnen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"öffnete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"öffnetest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"öffnete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"öffneten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"öffnetet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"öffneten"},
                     PartizipII = "geöffnet",
                  }
             };
@@ -251,6 +323,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"schwänzelten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"schwänzeltet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"schwänzelten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"schwänzele","schwänzle"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"schwänzelest","schwänzlest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"schwänzele","schwänzle"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"schwänzeln"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"schwänzelet","schwänzlet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"schwänzeln"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"schwänzelte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"schwänzeltest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"schwänzelte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"schwänzelten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"schwänzeltet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"schwänzelten"},
                     PartizipII = "geschwänzelt",
                  }
             };
@@ -286,6 +370,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"überlappten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"überlapptet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"überlappten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"überlappe"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"überlappest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"überlappe"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"überlappen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"überlappet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"überlappen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"überlappte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"überlapptest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"überlappte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"überlappten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"überlapptet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"überlappten"},
                     PartizipII = "überlappt",
                  }
             };
@@ -321,6 +417,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"kondolierten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"kondoliertet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"kondolierten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"kondoliere"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"kondolierest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"kondoliere"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"kondolieren"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"kondolieret"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"kondolieren"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"kondolierte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"kondoliertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"kondolierte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"kondolierten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"kondoliertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"kondolierten"},
                     PartizipII = "kondoliert",
                  }
             };
@@ -329,40 +437,7 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
-        [TestMethod]
-        public void altern()
-        {
-            String word = "altern";
-            int wikiID = 116544;
-            String text = DumpTextCaching.GetTextFromPage(wikiID);
 
-            WiktionaryParser parser = new WiktionaryParser();
-            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
-            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
-            {
-                 new VerbConjugation()
-                 {
-                    Text = word,
-                    WiktionaryID = wikiID,
-                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"alter","altere","altre"},
-                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"alterst"},
-                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"altert"},
-                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"altern"},
-                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"altert"},
-                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"altern"},
-                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"alterte"},
-                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"altertest"},
-                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"alterte"},
-                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"alterten"},
-                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"altertet"},
-                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"alterten"},
-                    PartizipII = "gealtert",
-                 }
-            };
-            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
-            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
-            CollectionAssert.AreEqual(expectedWords, words, "failed");
-        }
 
         [TestMethod]
         public void mahlen()
@@ -391,6 +466,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"mahlten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"mahltet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"mahlten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"mahle"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"mahlest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"mahle"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"mahlen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"mahlet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"mahlen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"mahlte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"mahltest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"mahlte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"mahlten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"mahltet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"mahlten"},
                     PartizipII = "gemahlen",
                  }
             };
@@ -426,6 +513,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"missachteten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"missachtetet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"missachteten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"missachte"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"missachtest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"missachte"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"missachten"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"missachtet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"missachten"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"missachtete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"missachtetest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"missachtete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"missachteten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"missachtetet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"missachteten"},
                     PartizipII = "missachtet"
                  }
             };
@@ -461,6 +560,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"knieten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"knietet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"knieten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"knie"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"kniest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"kniet"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"knien"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"kniet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"knien"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"kniete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"knietest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"kniete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"knieten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"knietet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"knieten"},
                     PartizipII = "gekniet"
                  },
                  new VerbConjugation()
@@ -479,6 +590,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"knieten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"knietet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"knieten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"knie"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"kniest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"kniet"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"knien"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"kniet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"knien"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"kniete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"knietest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"kniete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"knieten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"knietet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"knieten"},
                     PartizipII = "gekniet"
                  }
             };
@@ -514,6 +637,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"beknieten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"beknietet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"beknieten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"beknie"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"bekniest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"bekniet"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"beknien"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"bekniet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"beknien"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"bekniete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"beknietest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"bekniete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"beknieten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"beknietet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"beknieten"},
                     PartizipII = "bekniet"
                  }
             };
@@ -549,6 +684,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"recycleten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"recycletet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"recycleten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"recycle"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"recyclest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"recycle"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"recyclen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"recyclet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"recyclen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"recyclete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"recycletest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"recyclete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"recycleten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"recycletet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"recycleten"},
                     PartizipII = "recyclet"
                  }
             };
@@ -584,6 +731,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"liebkosten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"liebkostet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"liebkosten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"liebkose"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"liebkosest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"liebkose"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"liebkosen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"liebkoset"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"liebkosen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"liebkoste"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"liebkostest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"liebkoste"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"liebkosten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"liebkostet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"liebkosten"},
                     PartizipII = "liebkost",
                     PartizipIIAlternativ = "geliebkost"
                  }
@@ -620,6 +779,18 @@ namespace IWNLP.ParserTest
                     PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"lästerten"},
                     PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"lästertet"},
                     PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"lästerten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"lästere","lästre"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"lästerest","lästrest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"lästere","lästre"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"lästern"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"lästeret","lästret"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"lästern"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"lästerte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"lästertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"lästerte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"lästerten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"lästertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"lästerten"},
                     PartizipII = "gelästert"
                  }
             };

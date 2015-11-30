@@ -1,0 +1,12 @@
+| {{#if: {{{1. Singular Konjunktiv Präsens Aktiv|}}}
+	|ich {{{1. Singular Konjunktiv Präsens Aktiv}}}
+	|{{#switch: {{{3}}} 
+		| e= ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+			,<br /> ich {{{1}}}{{{2}}}{{{4}}}e
+		| r = {{#ifeq: {{{4}}} | l 
+			| ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+			|ich {{{1}}}{{{2}}}{{{3}}}e
+			}}
+		| #default= ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}
+	}}
+}}

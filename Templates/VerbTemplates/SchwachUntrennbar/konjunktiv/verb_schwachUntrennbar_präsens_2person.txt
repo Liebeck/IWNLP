@@ -1,0 +1,12 @@
+| {{#if: {{{2. Singular Konjunktiv Präsens Aktiv|}}}
+	|du {{{2. Singular Konjunktiv Präsens Aktiv}}}
+	|{{#switch: {{{3}}} 
+		| e= du {{{1}}}{{{2}}}{{{3}}}{{{4}}}est
+			,<br />du {{{1}}}{{{2}}}{{{4}}}est
+		| r= {{#ifeq: {{{4}}} | l 
+			| du {{{1}}}{{{2}}}{{{3}}}{{{4}}}est
+			|du {{{1}}}{{{2}}}{{{3}}}est
+			}}
+		| #default=du {{{1}}}{{{2}}}{{{3}}}est
+	}}
+}}

@@ -1,0 +1,12 @@
+| {{#if: {{{3. Singular Konjunktiv Präsens Aktiv|}}}
+	|<small>er/sie/es</small> {{{3. Singular Konjunktiv Präsens Aktiv}}}
+	|{{#switch: {{{3}}} 
+		| e= <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+			,<br /><small>er/sie/es</small> {{{1}}}{{{2}}}{{{4}}}e 
+		| r= {{#ifeq: {{{4}}} | l 
+			| <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+			|<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}e
+			}}
+		| #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}e
+	}}
+}}

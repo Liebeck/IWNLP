@@ -900,6 +900,258 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
             }
             #endregion
+
+            #region Präsens Konjunktiv Singular 1 Person
+            verb.PräsensAktivKonjunktiv_Singular1Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters["1. Singular Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                switch (parameters[ParameterSchwachUntrennbar.Parameter3])
+                {
+                    case "e":
+                        verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
+                        verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
+                        break;
+                    case "r":
+                        if (parameters[ParameterSchwachUntrennbar.Parameter4] == "l")
+                        {
+                            verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
+                        }
+                        else 
+                        {
+                            verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "e");
+                        }
+                        break;
+                    default:
+                        verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4]);
+                        break;
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 2 Person
+            verb.PräsensAktivKonjunktiv_Singular2Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "2. Singular Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters["2. Singular Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                switch (parameters[ParameterSchwachUntrennbar.Parameter3])
+                {
+                    case "e":
+                        verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "est");
+                        verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter4] + "est");
+                        break;
+                    case "r":
+                        if (parameters[ParameterSchwachUntrennbar.Parameter4] == "l")
+                        {
+                            verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "est");
+                        }
+                        else
+                        {
+                            verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "est");
+                        }
+                        break;
+                    default:
+                        verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "est");
+                        break;
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 3 Person
+            verb.PräsensAktivKonjunktiv_Singular3Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "3. Singular Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters["3. Singular Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                switch (parameters[ParameterSchwachUntrennbar.Parameter3])
+                {
+                    case "e":
+                        verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
+                        verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
+                        break;
+                    case "r":
+                        if (parameters[ParameterSchwachUntrennbar.Parameter4] == "l")
+                        {
+                            verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
+                        }
+                        else
+                        {
+                            verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "e");
+                        }
+                        break;
+                    default:
+                        verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "e");
+                        break;
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Plural 1 Person
+            verb.PräsensAktivKonjunktiv_Plural1Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "1. Plural Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Plural1Person.Add(parameters["1. Plural Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                switch (parameters[ParameterSchwachUntrennbar.Parameter3])
+                {
+                    case "r":
+                        if (parameters[ParameterSchwachUntrennbar.Parameter4] == "l")
+                        {
+                            verb.PräsensAktivKonjunktiv_Plural1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "en");
+                        }
+                        else
+                        {
+                            verb.PräsensAktivKonjunktiv_Plural1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "en");
+                        }
+                        break;
+                    default:
+                        verb.PräsensAktivKonjunktiv_Plural1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "n");
+                        break;
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Plural 2 Person
+            verb.PräsensAktivKonjunktiv_Plural2Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "2. Plural Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Plural2Person.Add(parameters["2. Plural Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                switch (parameters[ParameterSchwachUntrennbar.Parameter3])
+                {
+                    case "e":
+                        verb.PräsensAktivKonjunktiv_Plural2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "et");
+                        verb.PräsensAktivKonjunktiv_Plural2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter4] + "et");
+                        break;
+                    case "r":
+                        if (parameters[ParameterSchwachUntrennbar.Parameter4] == "l")
+                        {
+                            verb.PräsensAktivKonjunktiv_Plural2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "et");
+                        }
+                        else
+                        {
+                            verb.PräsensAktivKonjunktiv_Plural2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "et");
+                        }
+                        break;
+                    default:
+                        verb.PräsensAktivKonjunktiv_Plural2Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "et");
+                        break;
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Plural 3 Person
+            verb.PräsensAktivKonjunktiv_Plural3Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "3. Plural Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Plural3Person.Add(parameters["3. Plural Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                switch (parameters[ParameterSchwachUntrennbar.Parameter3])
+                {
+                    case "r":
+                        if (parameters[ParameterSchwachUntrennbar.Parameter4] == "l")
+                        {
+                            verb.PräsensAktivKonjunktiv_Plural3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "en");
+                        }
+                        else
+                        {
+                            verb.PräsensAktivKonjunktiv_Plural3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "en");
+                        }
+                        break;
+                    default:
+                        verb.PräsensAktivKonjunktiv_Plural3Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "n");
+                        break;
+                }
+            }
+            #endregion
+
+
+            #region Präteritum Konjunktiv Singular 1 Person
+            if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präteritum Aktiv"))
+            {
+                verb.PräteritumAktivKonjunktiv_Singular1Person = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Singular1Person.Add(parameters["1. Singular Konjunktiv Präteritum Aktiv"]);
+            }
+            else
+            {
+                verb.PräteritumAktivKonjunktiv_Singular1Person = verb.PräteritumAktivIndikativ_Singular1Person;
+            }
+            #endregion
+
+            #region Präteritum Konjunktiv Singular 2 Person
+            if (base.ContainsNonEmpty(parameters, "2. Singular Indikativ Präteritum Aktiv"))
+            {
+                verb.PräteritumAktivKonjunktiv_Singular2Person = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Singular2Person.Add(parameters["2. Singular Indikativ Präteritum Aktiv"]);
+            }
+            else
+            {
+                verb.PräteritumAktivKonjunktiv_Singular2Person = verb.PräteritumAktivIndikativ_Singular2Person;
+            }
+            #endregion
+
+            #region Präteritum Konjunktiv Singular 3 Person
+            if (base.ContainsNonEmpty(parameters, "3. Singular Indikativ Präteritum Aktiv"))
+            {
+                verb.PräteritumAktivKonjunktiv_Singular3Person = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Singular3Person.Add(parameters["3. Singular Indikativ Präteritum Aktiv"]);
+            }
+            else
+            {
+                verb.PräteritumAktivKonjunktiv_Singular3Person = verb.PräteritumAktivIndikativ_Singular3Person;
+            }
+            #endregion
+
+            #region Präteritum Konjunktiv Plural 1 Person
+            if (base.ContainsNonEmpty(parameters, "1. Plural Konjunktiv Präteritum Aktiv"))
+            {
+                verb.PräteritumAktivKonjunktiv_Plural1Person = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Plural1Person.Add(parameters["1. Plural Konjunktiv Präteritum Aktiv"]);
+            }
+            else
+            {
+                verb.PräteritumAktivKonjunktiv_Plural1Person = verb.PräteritumAktivIndikativ_Plural1Person;
+            }
+            #endregion
+
+            #region Präteritum Konjunktiv Plural 2 Person
+            if (base.ContainsNonEmpty(parameters, "2. Plural Konjunktiv Präteritum Aktiv"))
+            {
+                verb.PräteritumAktivKonjunktiv_Plural2Person = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Plural2Person.Add(parameters["2. Plural Konjunktiv Präteritum Aktiv"]);
+            }
+            else
+            {
+                verb.PräteritumAktivKonjunktiv_Plural2Person = verb.PräteritumAktivIndikativ_Plural2Person;
+            }
+            #endregion
+
+            #region Präteritum Konjunktiv Plural 3 Person
+            if (base.ContainsNonEmpty(parameters, "3. Plural Konjunktiv Präteritum Aktiv"))
+            {
+                verb.PräteritumAktivKonjunktiv_Plural3Person = new List<string>();
+                verb.PräteritumAktivKonjunktiv_Plural3Person.Add(parameters["3. Plural Konjunktiv Präteritum Aktiv"]);
+            }
+            else
+            {
+                verb.PräteritumAktivKonjunktiv_Plural3Person = verb.PräteritumAktivIndikativ_Plural3Person;
+            }
+            #endregion
+
             return verb;
         }
 

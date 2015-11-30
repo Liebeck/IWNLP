@@ -1,0 +1,10 @@
+| {{#if: {{{1. Plural Konjunktiv Präsens Aktiv|}}}
+	|wir {{{1. Plural Konjunktiv Präsens Aktiv}}}
+	|{{#switch: {{{3}}} 
+		| r= {{#ifeq: {{{4}}} | l 
+			| wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}en
+			|wir {{{1}}}{{{2}}}{{{3}}}en
+			}}
+		| #default=wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+	}}
+}}

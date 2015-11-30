@@ -962,6 +962,41 @@ namespace IWNLP.ParserTest
             XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void altern()
+        {
+            String word = "altern";
+            int wikiID = 116544;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"alter","altere","altre"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"alterst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"altert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"altern"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"altert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"altern"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"alterte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"altertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"alterte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"alterten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"altertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"alterten"},
+                    PartizipII = "gealtert",
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
 

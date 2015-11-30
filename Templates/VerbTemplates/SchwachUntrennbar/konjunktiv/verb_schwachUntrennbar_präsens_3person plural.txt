@@ -1,0 +1,10 @@
+| {{#if: {{{3. Plural Konjunktiv Präsens Aktiv|}}}
+	|sie {{{3. Plural Konjunktiv Präsens Aktiv}}}
+	|{{#switch: {{{3}}} 
+		| r= {{#ifeq: {{{4}}} | l 
+			| sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}en
+			|sie {{{1}}}{{{2}}}{{{3}}}en
+			}}
+		| #default=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+	}}
+}}

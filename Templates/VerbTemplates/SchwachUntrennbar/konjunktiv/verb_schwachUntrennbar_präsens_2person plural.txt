@@ -1,0 +1,12 @@
+| {{#if: {{{2. Plural Konjunktiv Präsens Aktiv|}}}
+	|ihr {{{2. Plural Konjunktiv Präsens Aktiv}}}
+	|{{#switch: {{{3}}} 
+		| e= ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et
+			,<br />ihr {{{1}}}{{{2}}}{{{4}}}et 
+		| r= {{#ifeq: {{{4}}} | l
+			| ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et
+			|ihr {{{1}}}{{{2}}}{{{3}}}et
+			}}
+		| #default=ihr {{{1}}}{{{2}}}{{{3}}}et
+	}}
+}}

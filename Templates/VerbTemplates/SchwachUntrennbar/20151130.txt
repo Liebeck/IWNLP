@@ -1,0 +1,594 @@
+__ABSCHNITTE_NICHT_BEARBEITEN__
+<noinclude>
+:<span style="color:grey"> zur [[Vorlage:Deutsch Verb schwach untrennbar/Dokumentation|Dokumentation]] der Vorlage ></span></noinclude>
+:<span style="color:grey">< zurück zu '''[[{{{1}}}{{{2}}}{{{3}}}{{{4}}}n]]'''</span>
+
+==== Infinitive und Partizipien ====
+{| class="wikitable"
+|-
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Infinitiv|(nichterweiterte) Infinitive]]<!------------------->
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Präsens|Infinitiv Präsens]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Perfekt|Infinitiv Perfekt]]'''
+|-
+|style="background-color:#f4f4f4;" align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+| {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{{6}}} {{#if: {{{haben|}}}|sein| haben}}{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} {{#if: {{{haben|}}}|sein| haben}}| }}
+|-
+|style="background-color:#f4f4f4;" align=center|'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+| {{#switch: {{{vp|}}} | vp3= {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} werden| }} | uvp= — | 0= — | #default= {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} werden| }}}}
+| {{#switch: {{{vp|}}} | vp3= {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} worden sein| }} | uvp= — | 0= — | #default= {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} worden sein| }}}}
+|-
+|style="background-color:#f4f4f4;" align=center|'''[[Hilfe:Passiv|Zustandspassiv]]'''
+| {{#switch: {{{zp|}}} | zp3= {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} sein| }} | uzp= — | 0= — | #default= {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} sein| }}}}
+| {{#switch: {{{zp|}}} | zp3= {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} gewesen sein| }} | uzp= — | 0= — | #default= {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} gewesen sein| }}}}
+|-
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Infinitiv|erweiterte Infinitive]]<!--------------------->
+|-
+|style="background-color:#f4f4f4;" align=center|'''[[Hilfe:Aktiv|Aktiv]]'''
+| {{#if: {{{Infinitiv Präsens Aktiv erweitert|}}}|{{{Infinitiv Präsens Aktiv erweitert}}}|zu {{{1}}}{{{2}}}{{{3}}}{{{4}}}n}}
+| {{{6}}} zu {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} zu {{#if: {{{haben|}}}|sein|haben }}| }}
+|-
+|style="background-color:#f4f4f4;" align=center|'''[[Hilfe:Passiv|Vorgangspassiv]]'''
+| {{#switch: {{{vp|}}} | vp3= {{{6}}} zu werden{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} zu werden| }} | uvp= — | 0= — | #default= {{{6}}} zu werden{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} zu werden| }}}}
+| {{#switch: {{{vp|}}} | vp3= {{{6}}} worden zu sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} worden zu sein| }} | uvp= — | 0= — | #default= {{{6}}} worden zu sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} worden zu sein| }}}}
+|-
+|style="background-color:#f4f4f4;" align=center|'''[[Hilfe:Passiv|Zustandspassiv]]'''
+| {{#switch: {{{zp|}}} | zp3= {{{6}}} zu sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} zu sein| }} | uzp= — | 0= — | #default= {{{6}}} zu sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} zu sein| }}}}
+| {{#switch: {{{zp|}}} | zp3= {{{6}}} gewesen zu sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} gewesen zu sein| }} | uzp= — | 0= — | #default= {{{6}}} gewesen zu sein{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}} gewesen zu sein| }}}}
+|-
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Partizip|Partizipien]]<!------------------------->
+|-
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Präsens|Präsens Aktiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Perfekt|Perfekt Passiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Gerundivum|Gerundivum]]'''<br /><small>Nur attributive Verwendung</small>
+|-
+| {{{1}}}{{{2}}}{{{3}}}{{{4}}}nd
+| {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{{Partizip+}}}| }}
+| {{#if: {{{gerund|}}}|—|zu {{{1}}}{{{2}}}{{{3}}}{{{4}}}nder, <br />zu {{{1}}}{{{2}}}{{{3}}}{{{4}}}nde... }}
+|-
+|}
+
+
+==== Finite Formen ====
+===== Imperativ =====
+{| class="wikitable"
+|-
+!colspan="7" style="background-color:#ccccff;"|[[Hilfe:Imperativ|Imperative]]<!----------------------->
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Imperativ|Präsens Aktiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Imperativ|Präsens Vorgangspassiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Imperativ|Präsens Zustandspassiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Imperativ|Perfekt Aktiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Imperativ|Perfekt Vorgangspassiv]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Imperativ|Perfekt Zustandspassiv]]'''
+|-
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| {{#if: {{{2. Singular Imperativ Präsens Aktiv|}}}|{{{2. Singular Imperativ Präsens Aktiv}}}|{{#switch: {{{3}}} | e= {{#ifeq: {{{4}}} | l | {{{1}}}{{{2}}}{{{4}}}e!<br />{{{1}}}{{{2}}}{{{3}}}{{{4}}}!<br />{{{1}}}{{{2}}}{{{3}}}{{{4}}}e| {{{1}}}{{{2}}}{{{3}}}{{{4}}}!<br />{{{1}}}{{{2}}}{{{3}}}{{{4}}}e!<br />{{{1}}}{{{2}}}{{{4}}}e}} | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß={{{1}}}{{{2}}}{{{3}}}e| #default={{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß={{{1}}}{{{2}}}{{{3}}}e| #default={{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e}} | s | ß | x={{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e| z= {{#ifeq: {{{2}}} | ch | {{{1}}}{{{2}}}{{{3}}}e| {{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e}} | r= {{#ifeq: {{{4}}} | l | {{{1}}}{{{2}}}{{{3}}}{{{4}}}!<br />{{{1}}}{{{2}}}{{{3}}}{{{4}}}e|{{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e}} | g= {{#ifeq: {{{2}}} | i | {{{1}}}{{{2}}}{{{3}}}e|{{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e}} | d | t={{{1}}}{{{2}}}{{{3}}}e| #default= {{#ifeq: {{{4}}} | e | {{#switch: {{{2}}} | t | ch={{{1}}}{{{2}}}{{{3}}}e| #default={{{1}}}{{{2}}}{{{3}}}!<br />{{{1}}}{{{2}}}{{{3}}}e}}}}}}}}!
+| {{#if: {{{vp|}}}|—|''werde {{{6}}}!{{#if: {{{Partizip+|}}} | <br /> werde {{{Partizip+}}}!| }}''}}
+| {{#if: {{{zp|}}}|—|''sei {{{6}}}!{{#if: {{{Partizip+|}}} | <br />sei {{{Partizip+}}}!| }}''}}
+| ''{{#if: {{{haben|}}}|sei|habe }} {{{6}}}!{{#if: {{{Partizip+|}}} | <br />{{#if: {{{haben|}}}|sei|habe }} {{{Partizip+}}}!| }}''
+| {{#if: {{{vp|}}}|—|''sei {{{6}}} worden!{{#if: {{{Partizip+|}}} | <br />sei {{{Partizip+}}} worden!| }}''}}
+| {{#if: {{{zp|}}}|—|''sei {{{6}}} gewesen!{{#if: {{{Partizip+|}}} | <br /> sei  {{{Partizip+}}} gewesen!| }}''}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| {{#if: {{{2. Plural Imperativ Präsens Aktiv|}}}|{{{2. Plural Imperativ Präsens Aktiv}}}| {{#switch: {{{3}}} | e={{{1}}}{{{2}}}{{{3}}}{{{4}}}t| m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß={{{1}}}{{{2}}}{{{3}}}et| #default={{{1}}}{{{2}}}{{{3}}}t!<br />{{{1}}}{{{2}}}{{{3}}}et}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß={{{1}}}{{{2}}}{{{3}}}et| #default={{{1}}}{{{2}}}{{{3}}}t!<br />{{{1}}}{{{2}}}{{{3}}}et}} | r= {{#ifeq: {{{4}}} | l | {{{1}}}{{{2}}}{{{3}}}{{{4}}}t|{{{1}}}{{{2}}}{{{3}}}t}} | d | t={{{1}}}{{{2}}}{{{3}}}et| s | ß | x | z={{{1}}}{{{2}}}{{{3}}}t!<br />{{{1}}}{{{2}}}{{{3}}}et| #default= {{#ifeq: {{{4}}} | e | {{#switch: {{{2}}} | t | ch={{{1}}}{{{2}}}{{{3}}}et| #default={{{1}}}{{{2}}}{{{3}}}t}}}}}}}}!
+| {{#if: {{{vp|}}}|—|''werdet {{{6}}}!{{#if: {{{Partizip+|}}} | <br />werdet {{{Partizip+}}}!| }} ''}}
+| {{#if: {{{zp|}}}|—|''seid {{{6}}}!{{#if: {{{Partizip+|}}} | <br />seid {{{Partizip+}}}!| }} ''}}
+| ''{{#if: {{{haben|}}}|seid|habt }} {{{6}}}!{{#if: {{{Partizip+|}}} | <br />{{#if: {{{haben|}}}|seid|habt }} {{{Partizip+}}}!| }}''
+| {{#if: {{{vp|}}}|—|''seid {{{6}}} worden!{{#if: {{{Partizip+|}}} | <br />seid {{{Partizip+}}} worden!| }}''}}
+| {{#if: {{{zp|}}}|—|''seid {{{6}}} gewesen!{{#if: {{{Partizip+|}}} | <br />seid {{{Partizip+}}} gewesen!| }}''}}
+|-
+|style="background-color:#f4f4f4;"|Höflichkeitsform
+| {{{1}}}{{{2}}}{{{3}}}{{{4}}}n Sie!
+| {{#if: {{{vp|}}}|—|''werden Sie {{{6}}}!{{#if: {{{Partizip+|}}} | <br />werden Sie {{{Partizip+}}}!| }}''}}
+| {{#if: {{{zp|}}}|—|''seien Sie {{{6}}}!{{#if: {{{Partizip+|}}} | <br />seien Sie {{{Partizip+}}}!| }}''}}
+| ''{{#if: {{{haben|}}}|seien|haben }} Sie {{{6}}}!{{#if: {{{Partizip+|}}} | <br />{{#if: {{{haben|}}}|seien|haben }} Sie {{{Partizip+}}}!| }}''
+| {{#if: {{{vp|}}}|—|''seien Sie {{{6}}} worden!{{#if: {{{Partizip+|}}} | <br />seien Sie {{{Partizip+}}} worden!| }}''}}
+| {{#if: {{{zp|}}}|—|''seien Sie {{{6}}} gewesen!{{#if: {{{Partizip+|}}} | <br />seien Sie {{{Partizip+}}} gewesen!| }}''}}
+|-
+|}
+*'''Achtung:''' Die ''kursiven'' Formen sind ungebräuchlich.
+
+
+===== Indikativ und Konjunktiv =====
+{| class="wikitable"
+|-
+!colspan="10" style="background-color:#ccccff;"|[[Hilfe:Präsens|Präsens]]<!--------------------------------->
+|-
+!colspan="1" style="background-color:#ccccff;"|
+!colspan="1" style="background-color:#ccccff;"|[[Hilfe:Person|Person]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Aktiv|Aktiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Vorgangspassiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Zustandspassiv]]
+!colspan="2" style="background-color:#ccccff;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 1. Pers.
+| {{#if: {{{1. Singular Indikativ Präsens Aktiv|}}}|ich {{{1. Singular Indikativ Präsens Aktiv}}}|{{#switch: {{{3}}} | e= {{#ifeq: {{{4}}} | l | ich {{{1}}}{{{2}}}{{{4}}}e,<br />ich {{{1}}}{{{2}}}{{{3}}}{{{4}}},<br />ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e | ich {{{1}}}{{{2}}}{{{3}}}{{{4}}},<br />ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e,<br /> ich {{{1}}}{{{2}}}{{{4}}}e}} | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}e | #default=ich {{{1}}}{{{2}}}{{{3}}}, <br />ich {{{1}}}{{{2}}}{{{3}}}e}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}e | #default=ich {{{1}}}{{{2}}}{{{3}}}, <br />ich {{{1}}}{{{2}}}{{{3}}}e}} | r= {{#ifeq: {{{4}}} | l | ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e|ich {{{1}}}{{{2}}}{{{3}}}e}} | d | t=ich {{{1}}}{{{2}}}{{{3}}}e | #default= {{#ifeq: {{{4}}} | e | {{#switch: {{{2}}} | t | ch=ich {{{1}}}{{{2}}}{{{3}}}e | #default=ich {{{1}}}{{{2}}}{{{3}}}e}}}}}}}}
+| {{#if: {{{1. Singular Konjunktiv Präsens Aktiv|}}}|ich {{{1. Singular Konjunktiv Präsens Aktiv}}}|{{#switch: {{{3}}} | e= ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e,<br /> ich {{{1}}}{{{2}}}{{{4}}}e | r = {{#ifeq: {{{4}}} | l | ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e|ich {{{1}}}{{{2}}}{{{3}}}e}} | #default= ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich werde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich werde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich bin {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich bin {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich sei {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich sei {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| {{#if: {{{2. Singular Indikativ Präsens Aktiv|}}}|du {{{2. Singular Indikativ Präsens Aktiv}}}|{{#switch: {{{3}}} | e=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}st | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}est | #default=du {{{1}}}{{{2}}}{{{3}}}st}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}est | #default=du {{{1}}}{{{2}}}{{{3}}}st}} | r= {{#ifeq: {{{4}}} | l | du {{{1}}}{{{2}}}{{{3}}}{{{4}}}st|du {{{1}}}{{{2}}}{{{3}}}st}} | d | t=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}st | s | ß | c | x | z=du {{{1}}}{{{2}}}{{{3}}}t | #default=du {{{1}}}{{{2}}}{{{3}}}st}}}}
+| {{#if: {{{2. Singular Konjunktiv Präsens Aktiv|}}}|du {{{2. Singular Konjunktiv Präsens Aktiv}}}|{{#switch: {{{3}}} | e= du {{{1}}}{{{2}}}{{{3}}}{{{4}}}est,<br />du {{{1}}}{{{2}}}{{{4}}}est | r= {{#ifeq: {{{4}}} | l | du {{{1}}}{{{2}}}{{{3}}}{{{4}}}est|du {{{1}}}{{{2}}}{{{3}}}est}} | #default=du {{{1}}}{{{2}}}{{{3}}}est}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du wirst {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du wirst {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du werdest {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du werdest {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du bist {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du bist {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du seiest {{{6}}},<br />du seist {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du seiest {{{Partizip+}}} | }}{{#if: {{{Partizip+|}}} | ,<br />du seist {{{Partizip+}}} | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 3. Pers.
+| {{#if: {{{3. Singular Indikativ Präsens Aktiv|}}}|<small>er/sie/es</small> {{{3. Singular Indikativ Präsens Aktiv}}}|{{#switch: {{{3}}} | e=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}t | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}et | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}t}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}et | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}t}} | r= {{#ifeq: {{{4}}} | l | <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}t|<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}t}} | d | t=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}t | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}t}}}}
+| {{#if: {{{3. Singular Konjunktiv Präsens Aktiv|}}}|<small>er/sie/es</small> {{{3. Singular Konjunktiv Präsens Aktiv}}}|{{#switch: {{{3}}} | e= <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}e,<br /><small>er/sie/es</small> {{{1}}}{{{2}}}{{{4}}}e | r= {{#ifeq: {{{4}}} | l | <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}e|<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}e}} | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}e}}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> wird {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> wird {{{Partizip+}}} | }} | uvp= es wird {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> es wird {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> wird {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> wird {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> werde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> werde {{{Partizip+}}} | }} | uvp= es werde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> es werde {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> werde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> werde {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> ist {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> ist {{{Partizip+}}} | }} | uzp= es ist {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> es ist {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> ist {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> ist {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> sei {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> sei {{{Partizip+}}} | }} | uzp= es sei {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />es sei {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> sei {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> sei {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 1. Pers.
+| {{#if: {{{1. Plural Indikativ Präsens Aktiv|}}}|wir {{{1. Plural Indikativ Präsens Aktiv}}}|wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}n}}
+| {{#if: {{{1. Plural Konjunktiv Präsens Aktiv|}}}|wir {{{1. Plural Konjunktiv Präsens Aktiv}}}|{{#switch: {{{3}}} | r= {{#ifeq: {{{4}}} | l | wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}en|wir {{{1}}}{{{2}}}{{{3}}}en}} | #default=wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}n}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir werden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir werden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir sind {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir sind {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir seien {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir seien {{{Partizip+}}} | }} }}
+!colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| {{#if: {{{2. Plural Indikativ Präsens Aktiv|}}}|ihr {{{2. Plural Indikativ Präsens Aktiv}}}|{{#switch: {{{3}}} | e=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}et | #default=ihr {{{1}}}{{{2}}}{{{3}}}t}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}et | #default=ihr {{{1}}}{{{2}}}{{{3}}}t}} | r= {{#ifeq: {{{4}}} | l | ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t|ihr {{{1}}}{{{2}}}{{{3}}}t}} | d | t=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t | #default=ihr {{{1}}}{{{2}}}{{{3}}}t}}}}
+| {{#if: {{{2. Plural Konjunktiv Präsens Aktiv|}}}|ihr {{{2. Plural Konjunktiv Präsens Aktiv}}}|{{#switch: {{{3}}} | e= ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et,<br />ihr {{{1}}}{{{2}}}{{{4}}}et | r= {{#ifeq: {{{4}}} | l | ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et|ihr {{{1}}}{{{2}}}{{{3}}}et}} | #default=ihr {{{1}}}{{{2}}}{{{3}}}et}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr werdet {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr werdet {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr seid {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr seid {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr seiet {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr seiet {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 3. Pers.
+| {{#if: {{{3. Plural Indikativ Präsens Aktiv|}}}|sie {{{3. Plural Indikativ Präsens Aktiv}}}|sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}n}}
+| {{#if: {{{3. Plural Konjunktiv Präsens Aktiv|}}}|sie {{{3. Plural Konjunktiv Präsens Aktiv}}}|{{#switch: {{{3}}} | r= {{#ifeq: {{{4}}} | l | sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}en|sie {{{1}}}{{{2}}}{{{3}}}en}} | #default=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}n}}}}
+| {{#switch: {{{vp|}}} | vp3= sie werden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} | }} | uvp= — | 0= — | #default=sie werden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= sie werden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} | }} | uvp= — | 0= — | #default=sie werden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= sie sind {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie sind {{{Partizip+}}} | }} | uzp= — | 0= — | #default=sie sind {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie sind {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= sie seien {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie seien {{{Partizip+}}} | }} | uzp= — | 0= — | #default=sie seien {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie seien {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|colspan="10" style="background-color:#f0f5ff;"|&nbsp;
+|-
+!colspan="10" style="background-color:#ccccff;"|[[Hilfe:Präteritum|Präteritum]]<!------------------------------>
+|-
+!colspan="1" style="background-color:#ccccff;"|
+!colspan="1" style="background-color:#ccccff;"|[[Hilfe:Person|Person]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Aktiv|Aktiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Vorgangspassiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Zustandspassiv]]
+!colspan="2" style="background-color:#ccccff;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 1. Pers.
+| {{#if: {{{1. Singular Indikativ Präteritum Aktiv|}}}|ich {{{1. Singular Indikativ Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}ete | #default=ich {{{1}}}{{{2}}}{{{3}}}te}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}ete | #default=ich {{{1}}}{{{2}}}{{{3}}}te}} | r= {{#ifeq: {{{4}}} | l | ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te|ich {{{1}}}{{{2}}}{{{3}}}te}} | d | t=ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | #default= ich {{{1}}}{{{2}}}{{{3}}}te}}}}
+| {{#if: {{{1. Singular Konjunktiv Präteritum Aktiv|}}}|ich {{{1. Singular Konjunktiv Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}ete | #default=ich {{{1}}}{{{2}}}{{{3}}}te}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}ete | #default=ich {{{1}}}{{{2}}}{{{3}}}te}} | r= {{#ifeq: {{{4}}} | l | ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te|ich {{{1}}}{{{2}}}{{{3}}}te}} | d | t=ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | #default=ich {{{1}}}{{{2}}}{{{3}}}te}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich wurde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich wurde {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich würde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich würde {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich war {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich war {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich wäre {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ich wäre {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| {{#if: {{{2. Singular Indikativ Präteritum Aktiv|}}}|du {{{2. Singular Indikativ Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}test | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}etest | #default=du {{{1}}}{{{2}}}{{{3}}}test}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}etest | #default=du {{{1}}}{{{2}}}{{{3}}}test}} | r= {{#ifeq: {{{4}}} | l | du {{{1}}}{{{2}}}{{{3}}}{{{4}}}test|du {{{1}}}{{{2}}}{{{3}}}test}} | d | t=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}test | #default=du {{{1}}}{{{2}}}{{{3}}}test}}}}
+| {{#if: {{{2. Singular Konjunktiv Präteritum Aktiv|}}}|du {{{2. Singular Konjunktiv Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}test | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}etest | #default=du {{{1}}}{{{2}}}{{{3}}}test}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=du {{{1}}}{{{2}}}{{{3}}}etest | #default=du {{{1}}}{{{2}}}{{{3}}}test}} | r= {{#ifeq: {{{4}}} | l | du {{{1}}}{{{2}}}{{{3}}}{{{4}}}test|du {{{1}}}{{{2}}}{{{3}}}test}} | d | t=du {{{1}}}{{{2}}}{{{3}}}{{{4}}}test | #default=du {{{1}}}{{{2}}}{{{3}}}test}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du wurdest {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du wurdest {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du würdest {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du würdest {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du warst {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du warst {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du wärest {{{6}}},<br />du wärst {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du wärest {{{Partizip+}}} | }}{{#if: {{{Partizip+|}}} | ,<br /> du wärst {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 3. Pers.
+| {{#if: {{{3. Singular Indikativ Präteritum Aktiv|}}}|<small>er/sie/es</small> {{{3. Singular Indikativ Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}ete | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}ete | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}} | r= {{#ifeq: {{{4}}} | l | <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}te|<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}} | d | t=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}}}}
+| {{#if: {{{3. Singular Konjunktiv Präteritum Aktiv|}}}|<small>er/sie/es</small> {{{3. Singular Konjunktiv Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}ete | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}ete | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}} | r= {{#ifeq: {{{4}}} | l | <small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}te|<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}} | d | t=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}{{{4}}}te | #default=<small>er/sie/es</small> {{{1}}}{{{2}}}{{{3}}}te}}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> wurde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wurde {{{Partizip+}}} | }} | uvp= es wurde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />es wurde {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> wurde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wurde {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> würde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} | }} | uvp= es würde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />es würde {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> würde {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> war {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> war {{{Partizip+}}} | }} | uzp= es war {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />es war {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> war {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> war {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> wäre {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wäre {{{Partizip+}}} | }} | uzp= es wäre {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />es wäre {{{Partizip+}}} | }} | 0= — | #default=<small>er/sie/es</small> wäre {{{6}}}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wäre {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 1. Pers.
+| {{#if: {{{1. Plural Indikativ Präteritum Aktiv|}}}|wir {{{1. Plural Indikativ Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=wir {{{1}}}{{{2}}}{{{3}}}eten | #default=wir {{{1}}}{{{2}}}{{{3}}}ten}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=wir {{{1}}}{{{2}}}{{{3}}}eten | #default=wir {{{1}}}{{{2}}}{{{3}}}ten}} | r= {{#ifeq: {{{4}}} | l | wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten|wir {{{1}}}{{{2}}}{{{3}}}ten}} | d | t=wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | #default=wir {{{1}}}{{{2}}}{{{3}}}ten}}}}
+| {{#if: {{{1. Plural Konjunktiv Präteritum Aktiv|}}}|wir {{{1. Plural Konjunktiv Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=wir {{{1}}}{{{2}}}{{{3}}}eten | #default=wir {{{1}}}{{{2}}}{{{3}}}ten}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=wir {{{1}}}{{{2}}}{{{3}}}eten | #default=wir {{{1}}}{{{2}}}{{{3}}}ten}} | r= {{#ifeq: {{{4}}} | l | wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten|wir {{{1}}}{{{2}}}{{{3}}}ten}} | d | t=wir {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | #default=wir {{{1}}}{{{2}}}{{{3}}}ten}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir wurden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir wurden {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir würden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir würden {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir waren {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir waren {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir wären {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />wir wären {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| {{#if: {{{2. Plural Indikativ Präteritum Aktiv|}}}|ihr {{{2. Plural Indikativ Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}tet | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}etet | #default=ihr {{{1}}}{{{2}}}{{{3}}}tet}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}etet | #default=ihr {{{1}}}{{{2}}}{{{3}}}tet}} | r= {{#ifeq: {{{4}}} | l | ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}tet|ihr {{{1}}}{{{2}}}{{{3}}}tet}} | d | t=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}tet | #default=ihr {{{1}}}{{{2}}}{{{3}}}tet}}}}
+| {{#if: {{{2. Plural Konjunktiv Präteritum Aktiv|}}}|ihr {{{2. Plural Konjunktiv Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}tet | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}etet | #default=ihr {{{1}}}{{{2}}}{{{3}}}tet}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ihr {{{1}}}{{{2}}}{{{3}}}etet | #default=ihr {{{1}}}{{{2}}}{{{3}}}tet}} | r= {{#ifeq: {{{4}}} | l | ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}tet|ihr {{{1}}}{{{2}}}{{{3}}}tet}} | d | t=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}tet | #default=ihr {{{1}}}{{{2}}}{{{3}}}tet}}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr wurdet {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr wurdet {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr würdet {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr würdet {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr wart {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr wart {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr wäret {{{6}}},<br />ihr wärt {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />ihr wäret {{{Partizip+}}} | }}{{#if: {{{Partizip+|}}} | ,<br />ihr wärt {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 3. Pers.
+| {{#if: {{{3. Plural Indikativ Präteritum Aktiv|}}}|sie {{{3. Plural Indikativ Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=sie {{{1}}}{{{2}}}{{{3}}}eten | #default=sie {{{1}}}{{{2}}}{{{3}}}ten}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=sie {{{1}}}{{{2}}}{{{3}}}eten | #default=sie {{{1}}}{{{2}}}{{{3}}}ten}} | r= {{#ifeq: {{{4}}} | l | sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten|sie {{{1}}}{{{2}}}{{{3}}}ten}} | d | t=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | #default=sie {{{1}}}{{{2}}}{{{3}}}ten}}}}
+| {{#if: {{{3. Plural Konjunktiv Präteritum Aktiv|}}}|sie {{{3. Plural Konjunktiv Präteritum Aktiv}}}|{{#switch: {{{3}}} | e=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | m={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=sie {{{1}}}{{{2}}}{{{3}}}eten | #default=sie {{{1}}}{{{2}}}{{{3}}}ten}} | n={{#switch: {{{2}}} | b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=sie {{{1}}}{{{2}}}{{{3}}}eten | #default=sie {{{1}}}{{{2}}}{{{3}}}ten}} | r= {{#ifeq: {{{4}}} | l | sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten|sie {{{1}}}{{{2}}}{{{3}}}ten}} | d | t=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}ten | #default=sie {{{1}}}{{{2}}}{{{3}}}ten}}}}
+| {{#switch: {{{vp|}}} | vp3= sie wurden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie wurden {{{Partizip+}}} | }} | uvp= — | 0= — | #default=sie wurden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie wurden {{{Partizip+}}} | }} }}
+| {{#switch: {{{vp|}}} | vp3= sie würden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} | }} | uvp= — | 0= — | #default=sie würden {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= sie waren {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie waren {{{Partizip+}}} | }} | uzp= — | 0= — | #default=sie waren {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie waren {{{Partizip+}}} | }} }}
+| {{#switch: {{{zp|}}} | zp3= sie wären {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie wären {{{Partizip+}}} | }} | uzp= — | 0= — | #default=sie wären {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />sie wären {{{Partizip+}}} | }} }}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|colspan="10" style="background-color:#f0f5ff;"|&nbsp;
+|-
+!colspan="10" style="background-color:#ccccff;"|[[Hilfe:Perfekt|Perfekt]]
+|-
+!colspan="1" style="background-color:#ccccff;"|
+!colspan="1" style="background-color:#ccccff;"|[[Hilfe:Person|Person]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Aktiv|Aktiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Vorgangspassiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Zustandspassiv]]
+!colspan="2" style="background-color:#ccccff;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 1. Pers.
+| {{#if: {{{haben|}}}|ich bin|ich habe }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ich bin|ich habe }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|ich sei|ich habe }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ich sei|ich habe }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich bin {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ich bin {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich sei {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ich sei {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich bin {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ich bin {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich sei {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ich sei {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| {{#if: {{{haben|}}}|du bist|du hast }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|du bist|du hast }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|du seiest {{{6}}},<br />du seist {{{6}}}|du habest {{{6}}} }}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|du seiest {{{Partizip+}}},<br />du seist {{{Partizip+}}}|du habest {{{Partizip+}}}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du bist {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /> du bist {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du seiest {{{6}}} worden,<br />du seist {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /> du seiest {{{Partizip+}}} worden,<br />du seist {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du bist {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />du bist {{{Partizip+}}} gewesen| }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du seiest {{{6}}} gewesen,<br />du seist {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />du seiest {{{Partizip+}}} gewesen,<br />du seist {{{Partizip+}}} gewesen| }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 3. Pers.
+| {{#if: {{{haben|}}}|<small>er/sie/es</small> ist|<small>er/sie/es</small> hat }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|<small>er/sie/es</small> ist {{{Partizip+}}} | <small>er/sie/es</small> hat {{{Partizip+}}}| }}}}
+| {{#if: {{{haben|}}}|<small>er/sie/es</small> sei|<small>er/sie/es</small> habe }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|<small>er/sie/es</small> sei {{{Partizip+}}} | <small>er/sie/es</small> habe {{{Partizip+}}}| }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> ist {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> ist {{{Partizip+}}} worden | }} | uvp= es ist {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />es ist {{{Partizip+}}} worden | }} | 0= — | #default=<small>er/sie/es</small> ist {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> ist {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> sei {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> sei {{{Partizip+}}} worden | }} | uvp= es sei {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />es sei {{{Partizip+}}} worden | }} | 0= — | #default=<small>er/sie/es</small> sei {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> sei {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> ist {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> ist {{{Partizip+}}} gewesen | }} | uzp= es ist {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />es ist {{{Partizip+}}} gewesen | }} | 0= — | #default=<small>er/sie/es</small> ist {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> ist {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> sei {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> sei {{{Partizip+}}} gewesen | }} | uzp= es sei {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />es sei {{{Partizip+}}} gewesen | }} | 0= — | #default=<small>er/sie/es</small> sei {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> sei {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 1. Pers.
+| {{#if: {{{haben|}}}|wir sind|wir haben }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|wir sind|wir haben }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|wir seien|wir haben }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|wir seien|wir haben }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir sind {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />wir sind {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir seien {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />wir seien {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir sind {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />wir sind {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir seien {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />wir seien {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| {{#if: {{{haben|}}}|ihr seid|ihr habt }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ihr seid|ihr habt }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|ihr seiet|ihr habet }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ihr seiet|ihr habet }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr seid {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ihr seid {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr seiet {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ihr seiet {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr seid {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ihr seid {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr seiet {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ihr seiet {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 3. Pers.
+| {{#if: {{{haben|}}}|sie sind|sie haben }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|sie sind|sie haben }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|sie seien|sie haben }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|sie seien|sie haben }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= sie sind {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie sind {{{Partizip+}}} worden | }} | uvp= — | 0= — | #default=sie sind {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie sind {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= sie seien {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie seien {{{Partizip+}}} worden | }} | uvp= — | 0= — | #default=sie seien {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie seien {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie sind {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie sind {{{Partizip+}}} gewesen | }} | uzp= — | 0= — | #default=sie sind {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie sind {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie seien {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie seien {{{Partizip+}}} gewesen | }} | uzp= — | 0= — | #default=sie seien {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie seien {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|colspan="10" style="background-color:#f0f5ff;"|&nbsp;
+|-
+!colspan="10" style="background-color:#ccccff;"|[[Hilfe:Plusquamperfekt|Plusquamperfekt]]
+|-
+!colspan="1" style="background-color:#ccccff;"|
+!colspan="1" style="background-color:#ccccff;"|[[Hilfe:Person|Person]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Aktiv|Aktiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Vorgangspassiv]]
+!colspan="2" style="background-color:#ccccff;"|[[Hilfe:Passiv|Zustandspassiv]]
+!colspan="2" style="background-color:#ccccff;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 1. Pers.
+| {{#if: {{{haben|}}}|ich war|ich hatte }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ich war|ich hatte }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|ich wäre|ich hätte }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ich wäre|ich hätte }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich war {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ich war {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich wäre {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ich wäre {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich war {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ich bin {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich wäre {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ich wäre {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| {{#if: {{{haben|}}}|du warst|du hattest }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|du warst|du hattest }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|du wärest {{{6}}},<br />du wärst {{{6}}}|du hättest {{{6}}} }}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|du wärest {{{Partizip+}}},<br />du wärst {{{Partizip+}}}|du hättest {{{Partizip+}}}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du warst {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />du warst {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du wärest {{{6}}} worden,<br />du wärst {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />du wärest {{{Partizip+}}} worden,<br />du wärst {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du warst {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />du warst {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du wärest {{{6}}} gewesen,<br />du wärst {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />du wärest {{{Partizip+}}} gewesen,<br />du wärst {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Sg. 3. Pers.
+| {{#if: {{{haben|}}}|<small>er/sie/es</small> war|<small>er/sie/es</small> hatte }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|<small>er/sie/es</small> war|<small>er/sie/es</small> hatte }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|<small>er/sie/es</small> wäre|<small>er/sie/es</small> hätte }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|<small>er/sie/es</small> wäre|<small>er/sie/es</small> hätte }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> war {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> war {{{Partizip+}}} worden | }} | uvp= es war {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />es war {{{Partizip+}}} worden | }} | 0= — | #default=<small>er/sie/es</small> war {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> war {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> wäre {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wäre {{{Partizip+}}} worden | }} | uvp= es wäre {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />es wäre {{{Partizip+}}} worden | }} | 0= — | #default=<small>er/sie/es</small> wäre {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wäre {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> war {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> war {{{Partizip+}}} gewesen | }} | uzp= es war {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />es war {{{Partizip+}}} gewesen | }}  | 0= — | #default=<small>er/sie/es</small> war {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> war {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> wäre {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wäre {{{Partizip+}}} gewesen | }}  | uzp= es wäre {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />es wäre {{{Partizip+}}} gewesen | }} | 0= — | #default=<small>er/sie/es</small> wäre {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wäre {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 1. Pers.
+| {{#if: {{{haben|}}}|wir waren|wir hatten }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|wir waren|wir hatten }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|wir wären|wir hätten }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|wir wären|wir hätten }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir waren {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />wir waren {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir wären {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />wir wären {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir waren {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />wir waren {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir wären {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />wir wären {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| {{#if: {{{haben|}}}|ihr wart|ihr hattet }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ihr wart|ihr hattet }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|ihr wäret {{{6}}},<br />ihr wärt {{{6}}}|ihr hättet {{{6}}} }}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|ihr wäret {{{Partizip+}}},<br />ihr wärt {{{Partizip+}}}|ihr hattet {{{Partizip+}}}}} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr wart {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ihr wart {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr wäret {{{6}}} worden,<br />ihr wärt {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />ihr wäret {{{Partizip+}}} worden<br />ihr wärt {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr wart {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ihr wart {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr wäret {{{6}}} gewesen,<br />ihr wärt {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />ihr wäret {{{Partizip+}}} gewesen,<br /> ihr wärt {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|Pl. 3. Pers.
+| {{#if: {{{haben|}}}|sie waren|sie hatten }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|sie waren|sie hatten }} {{{Partizip+}}} | }}
+| {{#if: {{{haben|}}}|sie wären|sie hätten }} {{{6}}}{{#if: {{{Partizip+|}}} | ,<br />{{#if: {{{haben|}}}|sie wären|sie hätten }} {{{Partizip+}}} | }}
+| {{#switch: {{{vp|}}} | vp3= sie waren {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie waren {{{Partizip+}}} worden | }} | uvp= — | 0= — | #default=sie waren {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie waren {{{Partizip+}}} worden | }}}}
+| {{#switch: {{{vp|}}} | vp3= sie wären {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie wären {{{Partizip+}}} worden | }} | uvp= — | 0= — | #default=sie wären {{{6}}} worden{{#if: {{{Partizip+|}}} | ,<br />sie wären {{{Partizip+}}} worden | }} }}
+| {{#switch: {{{zp|}}} | zp3= sie waren {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie waren {{{Partizip+}}} gewesen | }} | uzp= — | 0= — | #default=sie waren {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie waren {{{Partizip+}}} gewesen | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie wären {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie wären {{{Partizip+}}} gewesen | }} | uzp= — | 0= — | #default=sie wären {{{6}}} gewesen{{#if: {{{Partizip+|}}} | ,<br />sie wären {{{Partizip+}}} gewesen | }}}}
+|colspan="2" style="background-color:#f4f4f4;"|
+|-
+|colspan="10" style="background-color:#f0f5ff;"|&nbsp;
+|-
+!colspan="10" style="background-color:#ccccff;"|[[Hilfe:Futur|Futur I]]
+|-
+!colspan="1" style="background-color:#ccccff;"|[[Hilfe:Person|Person]]
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Aktiv|Aktiv]]
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Passiv|Vorgangspassiv]]
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Passiv|Zustandspassiv]]
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|-
+|style="background-color:#f4f4f4;"|Sg. 1. Pers.
+| ich werde {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| ich werde {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| ich würde {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich werde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich werde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich würde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />ich würde {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich werde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich werde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich würde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />ich würde {{{Partizip+}}} sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| du wirst {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| du werdest {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| du würdest {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du wirst {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />du wirst {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du werdest {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />du werdest {{{Partizip+}}} werden | }} }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du würdest {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />du würdest {{{Partizip+}}} werden | }} }}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du wirst {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />du wirst {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du werdest {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />du werdest {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du würdest {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />du würdest {{{Partizip+}}} sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Sg. 3. Pers.
+| <small>er/sie/es</small> wird {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| <small>er/sie/es</small> werde {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| <small>er/sie/es</small> würde {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> wird {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wird {{{Partizip+}}} werden | }} | uvp= es wird {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />es wird {{{Partizip+}}} werden | }} | 0= — | #default=<small>er/sie/es</small> wird {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wird {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> werde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> werde {{{Partizip+}}} werden | }} | uvp= es werde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />es werde {{{Partizip+}}} werden | }} | 0= — | #default=<small>er/sie/es</small> werde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> werde {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> würde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} werden | }} | uvp= es würde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />es würde {{{Partizip+}}} werden | }} | 0= — | #default=<small>er/sie/es</small> würde {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> wird {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wird {{{Partizip+}}} sein | }} | uzp= es wird {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />es wird {{{Partizip+}}} sein | }} | 0= — | #default=<small>er/sie/es</small> wird {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wird {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> werde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> werde {{{Partizip+}}} sein | }} | uzp= es werde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />es werde {{{Partizip+}}} sein | }} | 0= — | #default=<small>er/sie/es</small> werde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> werde {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> würde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} sein | }} | uzp= es würde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />es würde {{{Partizip+}}} sein | }} | 0= — | #default=<small>er/sie/es</small> würde {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 1. Pers.
+| wir werden {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| wir werden {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| wir würden {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir werden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir werden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir würden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />wir würden {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir werden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir werden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir würden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />wir würden {{{Partizip+}}} sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| ihr werdet {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| ihr werdet {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| ihr würdet {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr werdet {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr werdet {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr würdet {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />ihr würdet {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr werdet {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr werdet {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr würdet {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />ihr würdet {{{Partizip+}}} sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 3. Pers.
+| sie werden {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| sie werden {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| sie würden {{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+| {{#switch: {{{vp|}}} | vp3= sie werden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} werden | }} | uvp= — | 0= — | #default=sie werden {{{6}}} werden {{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} werden | }}}}
+| {{#switch: {{{vp|}}} | vp3= sie werden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} werden | }} | uvp= — | 0= — | #default=sie werden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} werden | }} }}
+| {{#switch: {{{vp|}}} | vp3= sie würden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} werden | }} | uvp= — | 0= — | #default=sie würden {{{6}}} werden{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} werden | }} }}
+| {{#switch: {{{zp|}}} | zp3= sie werden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} sein | }} | uzp= — | 0= — | #default=sie werden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie werden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} sein | }} | uzp= — | 0= — | #default=sie werden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie würden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} sein | }} | uzp= — | 0= — | #default=sie würden {{{6}}} sein{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} sein | }}}}
+|-
+|colspan="10" style="background-color:#f0f5ff;"|&nbsp;
+|-
+!colspan="10" style="background-color:#ccccff;"|[[Hilfe:Futur|Futur II]]
+|-
+!colspan="1" style="background-color:#ccccff;"|[[Hilfe:Person|Person]]
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Aktiv|Aktiv]]
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Passiv|Vorgangspassiv]]
+!colspan="3" style="background-color:#ccccff;"|[[Hilfe:Passiv|Zustandspassiv]]
+|-
+|style="background-color:#f4f4f4;"|
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Indikativ|Indikativ]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv I]]'''
+|style="background-color:#f4f4f4;"|'''[[Hilfe:Konjunktiv|Konjunktiv II]]'''
+|-
+|style="background-color:#f4f4f4;"|Sg. 1. Pers.
+| ich werde {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| ich werde {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| ich würde {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />ich würde {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich werde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich werde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=ich würde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />ich würde {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich werde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich werde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />ich werde {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=ich würde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />ich würde {{{Partizip+}}} gewesen sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Sg. 2. Pers.
+| du wirst {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />du wirst {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| du werdest {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />du werdest {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| du würdest {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />du würdest {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du wirst {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />du wirst {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du werdest {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />du werdest {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= —| 0= — | #default=du würdest {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />du würdest {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du wirst {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />du wirst {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du werdest {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />du werdest {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= —| 0= — | #default=du würdest {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />du würdest {{{Partizip+}}} gewesen sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Sg. 3. Pers.
+| <small>er/sie/es</small> wird {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> wird {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| <small>er/sie/es</small> werde {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> werde {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| <small>er/sie/es</small> würde {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br /><small>er/sie/es</small> würde {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> wird {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> wird {{{Partizip+}}} worden sein | }} | uvp= es wird {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> es wird {{{Partizip+}}} worden sein | }} | 0= — | #default=<small>er/sie/es</small> wird {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> wird {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> werde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> werde {{{Partizip+}}} worden sein | }} | uvp= es werde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />es werde {{{Partizip+}}} worden sein | }} | 0= — | #default=<small>er/sie/es</small> werde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> werde {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= <small>er/sie/es</small> würde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> würde {{{Partizip+}}} worden sein | }} | uvp= es würde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />es würde {{{Partizip+}}} worden sein | }} | 0= — | #default=<small>er/sie/es</small> würde {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> würde {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> wird {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> wird {{{Partizip+}}} gewesen sein | }} | uzp= es wird {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />es wird {{{Partizip+}}} gewesen sein | }} | 0= — | #default=<small>er/sie/es</small> wird {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> wird {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> werde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> werde {{{Partizip+}}} gewesen sein | }} | uzp= es werde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />es werde {{{Partizip+}}} gewesen sein | }} | 0= — | #default=<small>er/sie/es</small> werde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> werde {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= <small>er/sie/es</small> würde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> würde {{{Partizip+}}} gewesen sein | }} | uzp= es würde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />es würde {{{Partizip+}}} gewesen sein | }} | 0= — | #default=<small>er/sie/es</small> würde {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br /> <small>er/sie/es</small> würde {{{Partizip+}}} gewesen sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 1. Pers.
+| wir werden {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| wir werden {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| wir würden {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />wir würden {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir werden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir werden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=wir würden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />wir würden {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir werden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir werden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />wir werden {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=wir würden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />wir würden {{{Partizip+}}} gewesen sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 2. Pers.
+| ihr werdet {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| ihr werdet {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| ihr würdet {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />ihr würdet {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr werdet {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr werdet {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= — | uvp= — | 0= — | #default=ihr würdet {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />ihr würdet {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr werdet {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr werdet {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />ihr werdet {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= — | uzp= — | 0= — | #default=ihr würdet {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />ihr würdet {{{Partizip+}}} gewesen sein | }}}}
+|-
+|style="background-color:#f4f4f4;"|Pl. 3. Pers.
+| sie werden {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| sie werden {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| sie würden {{{6}}} {{#if: {{{haben|}}}|sein|haben }}{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} {{#if: {{{haben|}}}|sein|haben }} | }}
+| {{#switch: {{{vp|}}} | vp3= sie werden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} worden sein | }} | uvp= — | 0= — | #default=sie werden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= sie werden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} worden sein | }} | uvp= — | 0= — | #default=sie werden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{vp|}}} | vp3= sie würden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} worden sein | }} | uvp= — | 0= — | #default=sie würden {{{6}}} worden sein{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} worden sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie werden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} gewesen sein | }} | uzp= — | 0= — | #default=sie werden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie werden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} gewesen sein | }} | uzp= — | 0= — | #default=sie werden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />sie werden {{{Partizip+}}} gewesen sein | }}}}
+| {{#switch: {{{zp|}}} | zp3= sie würden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} gewesen sein | }} | uzp= — | 0= — | #default=sie würden {{{6}}} gewesen sein{{#if: {{{Partizip+|}}} | ,<br />sie würden {{{Partizip+}}} gewesen sein | }}}}
+|-
+|}<includeonly>{{#if:{{{unregelmäßig|}}}|[[Kategorie:Verbkonjugation unregelmäßig (Deutsch)]]|[[Kategorie:Verbkonjugation regelmäßig (Deutsch)]]}}</includeonly><noinclude>
+[[Kategorie:Wiktionary:Flexionstabelle (Deutsch)|Verb schwach untrennbar]]</noinclude>
