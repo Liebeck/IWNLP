@@ -9,7 +9,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
 {
     public class VerbRegelmaessigParser : VerbConjugationParserBase
     {
-        List<String> blacklist = new List<string>() {};
+        List<String> blacklist = new List<string>() { };
 
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
@@ -35,7 +35,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                     parameters[ParameterRegelmaessig.Parameter2] = inputSplitted[i++];
                     //if (truncatedWord.Length > 4) // there is only the case "Flexion:äsen". "Flexion:äsen" sets parameter 3 as empty value. The documentation says "the parameter 3 should not be set. Correct would be "parameter 3 should be set as empty"
                     //{
-                        parameters[ParameterRegelmaessig.Parameter3] = inputSplitted[i++];
+                    parameters[ParameterRegelmaessig.Parameter3] = inputSplitted[i++];
                     //}
                     parameters[ParameterRegelmaessig.Parameter4] = inputSplitted[i++];
                     parameters[ParameterRegelmaessig.Parameter5] = inputSplitted[i++];
@@ -2651,6 +2651,200 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                                     }
                                     break;
                             }
+                        }
+                    }
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 1 Person
+            verb.PräsensAktivKonjunktiv_Singular1Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters["1. Singular Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                {
+                    switch (parameters[ParameterRegelmaessig.Parameter3])
+                    {
+                        case "e":
+                            verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            break;
+                        case "r":
+                            if (parameters[ParameterRegelmaessig.Parameter4] == "l")
+                            {
+                                verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            }
+                            else
+                            {
+                                verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            }
+                            break;
+                        default:
+                            verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            break;
+                    }
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 1 Person Nebensatzkonjugation
+            if (parameters.ContainsKey(ParameterRegelmaessig.Nebensatzkonjugation) && parameters[ParameterRegelmaessig.Nebensatzkonjugation] == "einteilig")
+            {
+                if (parameters.ContainsKey("1. Singular Konjunktiv Präsens Aktiv Nebensatzkonjugation"))
+                {
+                    verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation = new List<string>();
+                    verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation.Add(parameters["1. Singular Konjunktiv Präsens Aktiv Nebensatzkonjugation"]);
+                }
+                else
+                {
+                    if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                    {
+                        verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation = new List<string>();
+                        switch (parameters[ParameterRegelmaessig.Parameter3])
+                        {
+                            case "e":
+                                verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e");
+                                verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e");
+                                break;
+                            case "r":
+                                if (parameters[ParameterRegelmaessig.Parameter4] == "l")
+                                {
+                                    verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e");
+                                }
+                                else
+                                {
+                                    verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "e");
+                                }
+                                break;
+                            default:
+                                verb.PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4]);
+                                break;
+                        }
+                    }
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 2 Person
+            verb.PräsensAktivKonjunktiv_Singular2Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "2. Singular Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters["2. Singular Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                {
+                    switch (parameters[ParameterRegelmaessig.Parameter3])
+                    {
+                        case "e":
+                            switch (parameters[ParameterRegelmaessig.Parameter4])
+                            {
+                                case "l":
+                                    verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "st" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                                    verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "est" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                                    break;
+                                case "r":
+                                    verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "st" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                                    if (!(parameters.ContainsKey(ParameterRegelmaessig.PräsensVeraltet) || parameters.ContainsKey(ParameterRegelmaessig.veraltet)))
+                                    {
+                                        verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "est" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                                        verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "est" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                                    }
+                                    break;
+                                default:
+                                    verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "est" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                                    break;
+                            }
+                            break;
+                        case "r":
+                            if (parameters[ParameterRegelmaessig.Parameter4] == "l")
+                            {
+                                verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            }
+                            else
+                            {
+                                verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            }
+                            break;
+                        default:
+                            verb.PräsensAktivKonjunktiv_Singular2Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "est" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            break;
+                    }
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 3 Person
+            verb.PräsensAktivKonjunktiv_Singular3Person = new List<string>();
+            if (base.ContainsNonEmpty(parameters, "3. Singular Konjunktiv Präsens Aktiv"))
+            {
+                verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters["3. Singular Konjunktiv Präsens Aktiv"]);
+            }
+            else
+            {
+                if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Hauptsatzkonjugation) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                {
+                    switch (parameters[ParameterRegelmaessig.Parameter3])
+                    {
+                        case "e":
+                            verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            break;
+                        case "r":
+                            if (parameters[ParameterRegelmaessig.Parameter4] == "l")
+                            {
+                                verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            }
+                            else
+                            {
+                                verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            }
+                            break;
+                        default:
+                            verb.PräsensAktivKonjunktiv_Singular3Person.Add(parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "e" + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2));
+                            break;
+                    }
+                }
+            }
+            #endregion
+
+            #region Präsens Konjunktiv Singular 3 Person Nebensatzkonjugation
+            if (parameters.ContainsKey(ParameterRegelmaessig.Nebensatzkonjugation) && parameters[ParameterRegelmaessig.Nebensatzkonjugation] == "einteilig")
+            {
+                if (parameters.ContainsKey("3. Singular Konjunktiv Präsens Aktiv Nebensatzkonjugation"))
+                {
+                    verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation = new List<string>();
+                    verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation.Add(parameters["3. Singular Konjunktiv Präsens Aktiv Nebensatzkonjugation"]);
+                }
+                else
+                {
+                    if (!(parameters.ContainsKey(ParameterRegelmaessig.Präsens) || parameters.ContainsKey(ParameterRegelmaessig.PräsensAktiv) || parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich)))
+                    {
+                        verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation = new List<string>();
+                        switch (parameters[ParameterRegelmaessig.Parameter3])
+                        {
+                            case "e":
+                                verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e");
+                                verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e");
+                                break;
+                            case "r":
+                                if (parameters[ParameterRegelmaessig.Parameter4] == "l")
+                                {
+                                    verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e");
+                                }
+                                else
+                                {
+                                    verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + "e");
+                                }
+                                break;
+                            default:
+                                verb.PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation.Add(parameters[ParameterRegelmaessig.Teil1] + GetOrEmpty(parameters, ParameterRegelmaessig.Teil2) + parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4]);
+                                break;
                         }
                     }
                 }
