@@ -1,0 +1,59 @@
+| {{{2. Plural Konjunktiv Präsens Aktiv
+	|{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|{{{unpersönlich|}}}}}}}}}}}}
+		| —
+		| {{#switch: {{{3}}} 
+			| e= {{#switch: {{{4}}} 
+				| l= ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				  , <br />ihr {{{1}}}{{{2}}}{{{4}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				| r=ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}t{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{4}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						  ,<br /><small>''veraltet:''</small> ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				| #default= ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+				}} 
+			| r= {{#ifeq: {{{4}}} | l 
+				| ihr {{{1}}}{{{2}}}{{{3}}}{{{4}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				|ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				}} 
+			| #default=ihr {{{1}}}{{{2}}}{{{3}}}et{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			}} 
+	}}
+}}}
+
+
+Nebensatz:
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig |
+	{{!}} {{{2. Plural Konjunktiv Präsens Aktiv Nebensatzkonjugation
+		|{{#if: {{{Präsens|{{{Präsens Aktiv|{{{unpersönlich|}}}}}}}}}
+			| —
+			| {{#switch: {{{3}}}
+				| e= {{#switch: {{{4}}} 
+					| l= ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t
+					       , <br />ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{4}}}et
+						{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+							|
+							|,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}et
+						}}
+					| r=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}t
+						{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+							| 
+							|,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{4}}}et
+							  ,<br /><small>''veraltet:''</small> ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}et
+						}}
+					| #default= ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}et 
+					}} 
+				| r= {{#ifeq: {{{4}}} | l 
+					| ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}et
+					|ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+					}}
+				| #default=ihr {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}et
+				}} 
+		}}
+	}}} 
+}}

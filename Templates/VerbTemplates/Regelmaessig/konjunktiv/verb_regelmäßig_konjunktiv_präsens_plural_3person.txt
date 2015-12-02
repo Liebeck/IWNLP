@@ -1,0 +1,44 @@
+| {{{3. Plural Konjunktiv Präsens Aktiv
+	|{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|}}}}}}}}} 
+		| — 
+		| {{#switch: {{{unpersönlich|}}} 
+			| es = —
+			| #default={{#switch: {{{3}}} 
+						| r= {{#ifeq: {{{4}}} | l 
+							| sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}en{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+							|sie {{{1}}}{{{2}}}{{{3}}}en{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+							}}
+						| e= sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}n{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+							{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+								|
+								|,<br /><small>''veraltet:''</small> sie {{{1}}}{{{2}}}{{{4}}}en{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+								  ,<br /><small>''veraltet:''</small> sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}en{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+							}}
+						| #default=sie {{{1}}}{{{2}}}{{{3}}}{{{4}}}n{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						}} 
+			}}
+	}} 
+}}}
+
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig |
+	{{!}} {{{3. Plural Konjunktiv Präsens Aktiv Nebensatzkonjugation
+		|{{#if: {{{Präsens|{{{Präsens Aktiv|}}}}}}
+			| —
+			| {{#switch: {{{unpersönlich|}}} 
+				| es = — 
+				| #default={{#switch: {{{3}}}
+							| r= {{#ifeq: {{{4}}} | l 
+								| sie {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}en
+								|sie {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}en
+								}}
+							| e= sie {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}n
+								{{#if: {{{Präsens veraltet|{{{veraltet|}}}}}} 
+									|
+									|,<br /><small>''veraltet:''</small> sie {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{4}}}en
+									  ,<br /><small>''veraltet:''</small> sie {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}en
+								}}
+							| #default=sie {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}n}} 
+				}}
+		}} }
+	}} 
+}}

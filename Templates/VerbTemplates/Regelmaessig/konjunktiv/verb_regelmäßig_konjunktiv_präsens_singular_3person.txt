@@ -1,0 +1,33 @@
+| {{{3. Singular Konjunktiv Präsens Aktiv
+	|{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|}}}}}}}}} 
+		| —
+		| {{#switch: {{{unpersönlich|}}} | es= es |#default=<small>er/sie/es</small>}}
+		   {{#switch: {{{3}}} 
+			| e=  {{{1}}}{{{2}}}{{{3}}}{{{4}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				,<br />{{#switch: {{{unpersönlich|}}} | es= es |#default=<small>er/sie/es</small>}} {{{1}}}{{{2}}}{{{4}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+			| r= {{#ifeq: {{{4}}} | l
+				|  {{{1}}}{{{2}}}{{{3}}}{{{4}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				| {{{1}}}{{{2}}}{{{3}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				}}
+			| #default= {{{1}}}{{{2}}}{{{3}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+			}} 
+	}}
+}}}
+
+Nebensatz
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig |
+	{{!}} {{{3. Singular Konjunktiv Präsens Aktiv Nebensatzkonjugation|
+		{{#if: {{{Präsens|{{{Präsens Aktiv|}}}}}} 
+			| —
+			| {{#switch: {{{unpersönlich|}}} | es= es |#default=<small>er/sie/es</small>}} 
+			   {{#switch: {{{3}}} 
+				| e=  {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+					,<br />{{#switch: {{{unpersönlich|}}} | es= es |#default=<small>er/sie/es</small>}} {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{4}}}e
+				| r= {{#ifeq: {{{4}}} | l 
+					|  {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+					| {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}e
+					}}
+				| #default= {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}e 
+				}} 
+		}} }}} 
+}}

@@ -1,0 +1,31 @@
+| {{{1. Singular Konjunktiv Präsens Aktiv
+	|{{#if: {{{Präsens|{{{Präsens Aktiv|{{{Hauptsatzkonjugation|{{{unpersönlich|}}}}}}}}}}}}
+		| —
+		| {{#switch: {{{3}}} 
+			| e= ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				,<br /> ich {{{1}}}{{{2}}}{{{4}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+			| r = {{#ifeq: {{{4}}} | l 
+				| ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				|ich {{{1}}}{{{2}}}{{{3}}}e{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}}}
+			| #default= ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}	
+		}} 
+	}} 
+}}}
+
+Nebensatz:
+{{#switch: {{{Nebensatzkonjugation}}} | einteilig = 
+	{{!}} {{{1. Singular Konjunktiv Präsens Aktiv Nebensatzkonjugation
+		|{{#if: {{{Präsens|{{{Präsens Aktiv|{{{unpersönlich|}}}}}}}}}
+			| —
+			| {{#switch: {{{3}}} 
+				| e= ich {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+					,<br /> ich {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{4}}}e 
+				| r = {{#ifeq: {{{4}}} | l 
+					| ich {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}e
+					|ich {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}e
+					}}
+				| #default= ich {{{Teil 1}}}{{#if:{{{Teil 2|}}}|{{{Teil 2}}}|}}{{{1}}}{{{2}}}{{{3}}}{{{4}}} 
+				}}
+		}} 
+	}}}
+}}

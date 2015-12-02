@@ -1,0 +1,84 @@
+| {{{1. Singular Konjunktiv Präteritum Aktiv
+	|{{#if:{{{Präteritum|{{{Präteritum Aktiv|{{{Hauptsatzkonjugation|{{{unpersönlich|}}}}}}}}}}}}
+		| —
+		|{{#switch: {{{3}}} 
+			| e=ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			| m={{#switch: {{{2}}} 
+				| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}ete{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				| #default=ich {{{1}}}{{{2}}}{{{3}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br /><small>''veraltet:''</small> ich {{{1}}}{{{2}}}{{{3}}}ete{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} }}
+				}} 
+			| n={{#switch: {{{2}}} 
+				| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ich {{{1}}}{{{2}}}{{{3}}}ete{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}} 
+				| #default=ich {{{1}}}{{{2}}}{{{3}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br /><small>''veraltet:''</small> ich {{{1}}}{{{2}}}{{{3}}}ete{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				}} 
+			| r= {{#ifeq: {{{4}}} | l
+				| ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				|ich {{{1}}}{{{2}}}{{{3}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+						|
+						|,<br/> <small>''veraltet:''</small> ich {{{1}}}{{{2}}}{{{3}}}ete{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+					}}
+				}}
+			| d | t=ich {{{1}}}{{{2}}}{{{3}}}{{{4}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+			| #default=ich {{{1}}}{{{2}}}{{{3}}}te{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+				{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+					| 
+					|{{#switch: {{{3}}} 
+						| ä | b | f | g | h | l | s | u | z=,<br/> <small>''veraltet:''</small> ich {{{1}}}{{{2}}}{{{3}}}ete{{#if: {{{Teil 1|}}}|&#32;{{{Teil 1}}}{{#if: {{{Teil 2|}}}|&#32;{{{Teil 2}}}|}}|}}
+						| # default =
+					}}
+				}} 
+			}} 
+	}} 
+}}}
+
+Nebensatz
+{{#ifeq: {{{Nebensatzkonjugation}}} | einteilig |
+	{{!}} {{{1. Singular Konjunktiv Präteritum Aktiv Nebensatzkonjugation
+		|{{#if:{{{Präteritum|{{{Präteritum Aktiv|{{{unpersönlich|}}}}}}}}}
+			| —
+			|{{#switch: {{{3}}}
+				| e=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}te
+				| m={{#switch: {{{2}}}
+					| b | c | ch | d | f | g | j | k | p | s | t | v | w | x | z | ß=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}ete 
+					| #default=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}te
+						{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+							|
+							|,<br /><small>''veraltet:''</small> ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}ete }}
+					}}
+				| n={{#switch: {{{2}}} 
+					| b | c | ch | d | f | g | j | k | m | p | s | t | v | w | x | z | ß=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}ete 
+					| #default=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}te
+						{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+							|
+							|,<br /><small>''veraltet:''</small> ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}ete
+						}}
+					}} 
+				| r= {{#ifeq: {{{4}}} | l 
+					| ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}te
+					|ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}te
+						{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+							|
+							|,<br/> <small>''veraltet:''</small> ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}ete
+						}}
+					}}
+				| d | t=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}{{{4}}}te
+				| #default=ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}te
+					{{#if: {{{Präteritum veraltet|{{{veraltet|}}}}}} 
+						|
+						|{{#switch: {{{3}}} 
+							| ä | b | f | g | h | l | s | u | z=,<br/> <small>''veraltet:''</small> ich  {{{Teil 1}}}{{{Teil 2|}}}{{{1}}}{{{2}}}{{{3}}}ete
+							| # default =
+						}}
+					}} 
+				}} 
+			}}
+		}}}
+}}
