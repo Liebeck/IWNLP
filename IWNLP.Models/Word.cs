@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IWNLP.Models.Nouns;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace IWNLP.Models
     [XmlInclude(typeof(Adjective))]
     [XmlInclude(typeof(Verb))]
     [XmlInclude(typeof(Pronoun))]
+    [XmlInclude(typeof(AdjectivalDeclension))]
     public class Word : Entry
     {
         public List<WikiPOSTag> WikiPOSTags { get; set; }
