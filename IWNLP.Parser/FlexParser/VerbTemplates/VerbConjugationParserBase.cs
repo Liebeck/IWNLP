@@ -24,7 +24,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates
 
         protected String GetWithSpaceOrEmpty(Dictionary<String, String> dictionary, String key)
         {
-            if (dictionary.ContainsKey(key))
+            if (dictionary.ContainsKey(key) && !String.IsNullOrEmpty(dictionary[key]))
             {
                 return " " + dictionary[key];
             }
