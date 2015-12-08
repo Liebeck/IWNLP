@@ -34,10 +34,16 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     parameters[base.GetNextUnnamedParameter(parameters)] = inputSplitted[i];
                 }
             }
+
             if (parameters.Count == 0)
             {
-                System.Diagnostics.Debugger.Break();
+                System.Console.WriteLine("VerbUnregelmaessigParser: " + word + " zero parameters");
             }
+            if((parameters.Count > 1 && parameters.ContainsKey("1") && parameters["1"] == String.Empty))
+            {
+                System.Console.WriteLine("VerbUnregelmaessigParser: " + word + " contains an empty value for '1'");
+            }
+            
             return parameters;
         }
 
