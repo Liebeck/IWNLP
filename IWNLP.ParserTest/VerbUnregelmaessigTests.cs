@@ -1480,6 +1480,91 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void treiben()
+        {
+            String word = "treiben";
+            int wikiID = 71141;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+//            String newText = @"__TOC__ 
+//== treiben (Konjugation), Hilfsverb haben ({{Verbkonjugation|Deutsch}}) ==
+//{{Deutsch Verb unregelmäßig|2=treib|3=trieb|4=trieb|5=getrieben|Hilfsverb=haben|vp=ja|zp=ja|gerund=ja}}
+//{{----}}
+//== treiben (Konjugation), Hilfsverb sein ({{Verbkonjugation|Deutsch}}) ==
+//{{Deutsch Verb unregelmäßig|2=treib|3=trieb|4=trieb|5=getrieben|Hilfsverb=sein|vp=nein|zp=nein|gerund=nein}}";
+//            text = newText;
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"treibe"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"treibst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"treibt"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"treiben"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"treibt"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"treiben"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"trieb"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"triebst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"trieb"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"trieben"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"triebt"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"trieben"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"treibe"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"treibest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"treibe"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"treiben"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"treibet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"treiben"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"triebe"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"triebest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"triebe"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"trieben"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"triebet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"trieben"},
+                    PartizipII = "getrieben",
+                 },
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"treibe"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"treibst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"treibt"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"treiben"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"treibt"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"treiben"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"trieb"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"triebst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"trieb"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"trieben"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"triebt"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"trieben"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"treibe"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"treibest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"treibe"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"treiben"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"treibet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"treiben"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"triebe"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"triebest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"triebe"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"trieben"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"triebet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"trieben"},
+                    PartizipII = "getrieben",
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
 
