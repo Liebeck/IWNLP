@@ -56,8 +56,10 @@
     <Compile Include="FlexParser\VerbTemplates\unregelmaessig\ParameterUnregelmaessig.cs" />
     <Compile Include="FlexParser\VerbTemplates\unregelmaessig\VerbUnregelmaessigParser.cs" />
     <Compile Include="FlexParser\VerbTemplates\VerbConjugationParserBase.cs" />
+    <Compile Include="POSParser\AdjectivalDeclensionParser.cs" />
     <Compile Include="POSParser\AdjectiveParser.cs" />
     <Compile Include="POSParser\NounParser.cs" />
+    <Compile Include="POSParser\ParameterAdjectivalDeclension.cs" />
     <Compile Include="POSParser\ParserBase.cs" />
     <Compile Include="POSParser\PronounParser.cs" />
     <Compile Include="POSParser\VerbParser.cs" />
@@ -78,7 +80,6 @@
       <Name>IWNLP.Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

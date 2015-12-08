@@ -8,23 +8,22 @@ namespace IWNLP.Models.Nouns
 {
     public class AdjectivalDeclension : Word
     {
-        public Genus Genus { get; set; }
-        public String NominativSingular { get; set; }
-        public String NominativPlural { get; set; }
-        public String GenitivSingular { get; set; }
-        public String GenitivPlural { get; set; }
-        public String DativSingular { get; set; }
-        public String DativPlural { get; set; }
-        public String AkkusativSingular { get; set; }
-        public String AkkusativPlural { get; set; }
+        public List<String> NominativSingular { get; set; }
+        public List<String> NominativPlural { get; set; }
+        public List<String> GenitivSingular { get; set; }
+        public List<String> GenitivPlural { get; set; }
+        public List<String> DativSingular { get; set; }
+        public List<String> DativPlural { get; set; }
+        public List<String> AkkusativSingular { get; set; }
+        public List<String> AkkusativPlural { get; set; }
 
-        public Inflection NominativSingularSchwach { get; set; }
-        public Inflection NominativPluralSchwach { get; set; }
-        public Inflection GenitivSingularSchwach { get; set; }
-        public Inflection GenitivPluralSchwach { get; set; }
-        public Inflection DativSingularSchwach { get; set; }
-        public Inflection DativPluralSchwach { get; set; }
-        public Inflection AkkusativSingularSchwach { get; set; }
-        public Inflection AkkusativPluralSchwach { get; set; }
+        public List<Inflection> NominativSingularSchwach { get; set; }
+        public List<Inflection> NominativPluralSchwach { get; set; }
+        public List<Inflection> GenitivSingularSchwach { get; set; }
+        public List<Inflection> GenitivPluralSchwach { get; set; }
+        public List<Inflection> DativSingularSchwach { get; set; }
+        public List<Inflection> DativPluralSchwach { get; set; }
+        public List<Inflection> AkkusativSingularSchwach { get; set; }
+        public List<Inflection> AkkusativPluralSchwach { get; set; }
     }
 }

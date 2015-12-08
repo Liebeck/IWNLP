@@ -53,6 +53,12 @@ namespace IWNLP.Parser.POSParser
             {
                 return null;
             }
+            if (text.Any(x => x.Contains("{{Deutsch adjektivische Deklination"))) 
+            {
+                AdjectivalDeclensionParser adjectivalDeclensionParser = new AdjectivalDeclensionParser();
+                return adjectivalDeclensionParser.Parse(word, text);
+            }
+
             if (!text.Any(x => x.Contains("{{Deutsch Substantiv Übersicht")) || text.Any(x => x.Contains("{{Wortart|Eigenname|Deutsch}}")))
             {
                 return null;
@@ -280,7 +286,7 @@ namespace IWNLP.Parser.POSParser
                     else if (countOpeningBraces > 2)
                     {
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": containts more than 2 braces. at the moment, the parser doesn't support more than 2 braces.");
+                        Console.WriteLine(word.Text + ": contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.");
                     }
                     else
                     {

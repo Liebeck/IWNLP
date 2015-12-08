@@ -1,0 +1,93 @@
+<onlyinclude>
+{| class="wikitable inflection-table float-right hintergrundfarbe2" style="margin:0 0 .5em .4em;" 
+<!-- class="wikitable float-right hintergrundfarbe2" style="margin:0 0 {{#if: {{{Bild 1|}}}{{{Bild|}}} | 1.3em | .2em}} .4em;" -->
+| colspan="3" style="font-weight:bold;" | starke Deklination ohne Artikel
+|-
+!
+! [[Hilfe:Singular|Singular]]
+! [[Hilfe:Plural|Plural]]
+|- 
+! style="text-align:left;" | [[Hilfe:Nominativ|Nominativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Nominativ Singular stark}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Nominativ Plural stark}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Genitiv|Genitiv]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Genitiv Singular stark}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Genitiv Plural stark}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Dativ|Dativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Dativ Singular stark}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Dativ Plural stark}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Akkusativ|Akkusativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Akkusativ Singular stark}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Akkusativ Plural stark}}}}}
+|-
+| colspan="3" style="font-weight:bold;" | schwache Deklination mit bestimmtem Artikel
+|-
+!
+! [[Hilfe:Singular|Singular]]
+! [[Hilfe:Plural|Plural]]
+|-
+! style="text-align:left;" | [[Hilfe:Nominativ|Nominativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Nominativ Singular schwach}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Nominativ Plural schwach}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Genitiv|Genitiv]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Genitiv Singular schwach}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Genitiv Plural schwach}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Dativ|Dativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Dativ Singular schwach}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Dativ Plural schwach}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Akkusativ|Akkusativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Akkusativ Singular schwach}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Akkusativ Plural schwach}}}}}
+|-
+| colspan="3" style="font-weight:bold;" | gemischte Deklination (mit Pronomen, ''»kein«'',&nbsp;…)
+|-
+!
+! [[Hilfe:Singular|Singular]]
+! [[Hilfe:Plural|Plural]]
+|-
+! style="text-align:left;" | [[Hilfe:Nominativ|Nominativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Nominativ Singular gemischt}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Nominativ Plural gemischt}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Genitiv|Genitiv]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Genitiv Singular gemischt}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Genitiv Plural gemischt}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Dativ|Dativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Dativ Singular gemischt}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Dativ Plural gemischt}}}}}
+|-
+! style="text-align:left;" | [[Hilfe:Akkusativ|Akkusativ]]
+| {{#if: {{{kein Singular|}}} |<center>—</center>| {{{Akkusativ Singular gemischt}}}}} || {{#if: {{{kein Plural|}}} |<center>—</center>| {{{Akkusativ Plural gemischt}}}}}
+|}{{#if:{{{Bild 1|}}}{{{Bild|}}}|
+{{{!}} cellspacing="0" cellpadding="0" class="hintergrundfarbe2 rahmenfarbe1" style="float:right; clear:right; margin:0em 0em 1em 1em;  empty-cells:show;"
+<!-- class="wikitable float-right hintergrundfarbe2" style="margin:0 -0.2em .2em .4em;" -->
+{{#if: {{{Bild 1|}}}{{{Bild|}}}|
+{{!}} colspan="10" {{!}} [[Datei:{{{Bild 1|{{{Bild}}}}}}|thumb|center|{{{Bildbreite 1|{{{Bildbreite|{{{1|thumb}}}}}}}}}|[{{{Bildbezug|{{{Bildbezug 1|{{{2|}}}}}}}}}] {{{Bildbeschreibung|{{{Bildbeschreibung 1|{{{3|}}}}}}}}}]]
+{{!-}}
+}}
+{{#if: {{{Bild 2|}}}|
+{{!}} colspan="10" {{!}} [[Datei:{{{Bild 2}}}|thumb|center|{{{Bildbreite|{{{Bildbreite 2|{{{4|thumb}}}}}}}}}|[{{{Bildbezug 2|{{{5|}}}}}}] {{{Bildbeschreibung 2|{{{6|}}}}}}]]
+{{!-}}
+}}
+{{#if: {{{Bild 3|}}}|
+{{!}} colspan="10" {{!}} [[Datei:{{{Bild 3}}}|thumb|center|{{{Bildbreite|{{{Bildbreite 3|{{{7|thumb}}}}}}}}}|[{{{Bildbezug 3|{{{8|}}}}}}] {{{Bildbeschreibung 3|{{{9|}}}}}}]]
+{{!-}}
+}}
+{{#if: {{{Bild 4|}}}|
+{{!}} colspan="10" {{!}} [[Datei:{{{Bild 4}}}|thumb|center|{{{Bildbreite|{{{Bildbreite 4|{{{10|thumb}}}}}}}}}|[{{{Bildbezug 4|{{{11|}}}}}}] {{{Bildbeschreibung 4|{{{12|}}}}}}]]
+{{!-}}
+}}
+{{#if: {{{Bild 5|}}}|
+{{!}} colspan="10" {{!}} [[Datei:{{{Bild 5}}}|thumb|center|{{{Bildbreite|{{{Bildbreite 5|{{{13|thumb}}}}}}}}}|[{{{Bildbezug 5|{{{14|}}}}}}] {{{Bildbeschreibung 5|{{{15|}}}}}}]]
+{{!-}}
+}}
+{{!}}} }}<includeonly><!--
+
+-->{{#if:{{NAMESPACE}}||[[Kategorie:adjektivische Deklination (Deutsch)]]}} {{#if: {{{Bild|}}}{{{Bild 1|}}} | [[Kategorie:Wiktionary:Illustration]]}}<!--
+
+-->{{#if: {{{kein Singular|}}} | [[Kategorie:Pluraletantum (Deutsch)]] [[Kategorie:Pluraletantum]] }}<!--
+-->{{#if: {{{kein Plural|}}} | [[Kategorie:Singularetantum (Deutsch)]] [[Kategorie:Singularetantum]] }}<!--
+-->{{#switch: {{{Nominativ Singular stark}}} | — | - | – = [[Kategorie:Pluraletantum (Deutsch)]] [[Kategorie:Pluraletantum]] }}<!--
+-->{{#switch: {{{Nominativ Plural stark}}} | — | - | – = [[Kategorie:Singularetantum (Deutsch)]] [[Kategorie:Singularetantum]] }}<!--
+--></includeonly></onlyinclude>
+{{Absatz}}
+
+{{Dokumentation}}
+
+[[Kategorie:Wiktionary:Flexionstabelle (Deutsch)|Substantiv adjektivische Deklination]]

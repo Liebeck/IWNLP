@@ -1,0 +1,93 @@
+<onlyinclude>
+{{Deutsch adjektivische Deklination
+|Nominativ Singular stark={{{1}}}
+|Nominativ Plural stark={{{1}}}
+|Genitiv Singular stark={{Flexlink|{{{1}}}r}}
+|Genitiv Plural stark={{Flexlink|{{{1}}}r}}
+|Dativ Singular stark={{Flexlink|{{{1}}}r}}
+|Dativ Plural stark={{Flexlink|{{{1}}}n}}
+|Akkusativ Singular stark={{{1}}}
+|Akkusativ Plural stark={{{1}}}
+|Nominativ Singular schwach=die {{{1}}}
+|Nominativ Plural schwach=die {{Flexlink|{{{1}}}n}}
+|Genitiv Singular schwach=der {{Flexlink|{{{1}}}n}}
+|Genitiv Plural schwach=der {{Flexlink|{{{1}}}n}}
+|Dativ Singular schwach=der {{Flexlink|{{{1}}}n}}
+|Dativ Plural schwach=den {{Flexlink|{{{1}}}n}}
+|Akkusativ Singular schwach=die {{{1}}}
+|Akkusativ Plural schwach=die {{Flexlink|{{{1}}}n}}
+|Nominativ Singular gemischt=eine {{{1}}}
+|Nominativ Plural gemischt=keine {{Flexlink|{{{1}}}n}}
+|Genitiv Singular gemischt=einer {{Flexlink|{{{1}}}n}}
+|Genitiv Plural gemischt=keiner {{Flexlink|{{{1}}}n}}
+|Dativ Singular gemischt=einer {{Flexlink|{{{1}}}n}}
+|Dativ Plural gemischt=keinen {{Flexlink|{{{1}}}n}}
+|Akkusativ Singular gemischt=eine {{{1}}}
+|Akkusativ Plural gemischt=keine {{Flexlink|{{{1}}}n}}
+|Bild={{{Bild|}}}
+|Bildbreite={{{Bildbreite|}}}
+|Bildbezug={{{Bildbezug|}}}
+|Bildbeschreibung={{{Bildbeschreibung|}}}
+|kein Singular={{{kein Singular|}}}
+|kein Plural={{{kein Plural|}}}
+}}</onlyinclude>
+
+{{Absatz}}
+== Verwendung ==
+'''Flexionstabelle für adjektivisch deklinierte weibliche deutsche Substantive''' ([[Weiße]], [[Halbe]] usw.) Für Wortkombinationen aus deklinierbarem Adjektiv und Substantiv (wie [[schwarze Weiße]]) bitte die [[Vorlage:Deutsch adjektivische Deklination]] benutzen
+
+Um die Flexionstabelle in Artikeln anzuzeigen, kopiere bitte einen der folgenden Quelltexte an den Anfang des Artikels und ersetze die drei Punkte durch den Nominativ Singular
+
+Ohne Bild:
+<pre>
+{{Deutsch adjektivische Deklination f|...}}
+</pre>
+
+Mit Bild:
+<pre>
+{{Deutsch adjektivische Deklination f
+|1=...
+|Bild=
+|Bildbreite=
+|Bildbezug=
+|Bildbeschreibung=
+}}
+</pre>
+
+== Parameter ==
+
+{| class="wikitable" 
+! Parameter
+! width="130" | Typ
+! Erklärung
+|-
+| '''1''' (ohne Bild auch unbenannt)
+| Pflichtfeld
+| der Nominativ Singular, z. B. ''Weiße''
+|-
+| '''Bild'''
+| optional
+| Name einer Bilddatei
+|-
+| '''Bildbreite'''
+| optional
+| Angabe der Breite des Bildes. Standard ist 210px.
+|-
+| '''Bildbezug'''
+| optional
+| Auf welche Bedeutung bezieht sich das eingefügte Bild. Angabe der Nummer der Bedeutung.
+|-
+| '''Bildbeschreibung'''
+| optional
+| Text, der unter dem Bild angegeben wird.
+|-
+| '''kein Singular'''
+| optional
+| „ja“, wenn es keine Singularformen gibt
+|-
+| '''kein Plural'''
+| optional
+| „ja“, wenn es keine Pluralformen gibt
+|}
+
+[[Kategorie:Wiktionary:Flexionstabelle (Deutsch)|Substantiv]]
