@@ -1,4 +1,5 @@
 ﻿using IWNLP.Models.Flections;
+using IWNLP.Models.Nouns;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,6 +45,10 @@ namespace IWNLP.Models
             else if (this is Pronoun)
             {
                 return ((Pronoun)this).Equals((Pronoun)obj);
+            }
+            else if (this is AdjectivalDeclension)
+            {
+                return ((AdjectivalDeclension)this).Equals((AdjectivalDeclension)obj);
             }
             return base.Equals(obj);
         }

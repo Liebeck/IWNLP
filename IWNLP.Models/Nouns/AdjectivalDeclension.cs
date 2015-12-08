@@ -25,5 +25,34 @@ namespace IWNLP.Models.Nouns
         public List<Inflection> DativPluralSchwach { get; set; }
         public List<Inflection> AkkusativSingularSchwach { get; set; }
         public List<Inflection> AkkusativPluralSchwach { get; set; }
+
+        public AdjectivalDeclension() 
+        {
+            this.POS = Models.POS.Noun;
+        }
+
+        public bool Equals(AdjectivalDeclension obj)
+        {
+            return base.Text == obj.Text
+                && base.WiktionaryID == obj.WiktionaryID
+                && base.POS == obj.POS
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.NominativSingular, obj.NominativSingular)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.NominativPlural, obj.NominativPlural)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.GenitivSingular, obj.GenitivSingular)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.GenitivPlural, obj.GenitivPlural)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativSingular, obj.DativSingular)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativPlural, obj.DativPlural)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativSingular, obj.AkkusativSingular)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativPlural, obj.AkkusativPlural)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.NominativSingularSchwach, obj.NominativSingularSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.NominativPluralSchwach, obj.NominativPluralSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.GenitivSingularSchwach, obj.GenitivSingularSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.GenitivPluralSchwach, obj.GenitivPluralSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativSingularSchwach, obj.DativSingularSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativPluralSchwach, obj.DativPluralSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativSingularSchwach, obj.AkkusativSingularSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativPluralSchwach, obj.AkkusativPluralSchwach);
+        }
+
     }
 }
