@@ -78,13 +78,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     {
                         verb.PräsensAktivIndikativ_Singular1Person.Add(multipleValues[i].Trim() + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
                     }
-
                 }
-
             }
             else
             {
-
                 String indicative = String.Empty;
                 if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
                 {

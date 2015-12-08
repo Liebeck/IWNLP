@@ -799,5 +799,52 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void brauchen()
+        {
+            String word = "gebraucht";
+            int wikiID = 158652;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"brauche"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"brauchst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"braucht"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"brauchen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"braucht"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"brauchen"},      
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"brauchte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"brauchtest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"brauchte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"brauchten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"brauchtet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"brauchten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"brauche"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"brauchest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"brauche"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"brauchen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"brauchet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"brauchen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"brauchte","bräuchte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"brauchtest","bräuchtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"brauchte","bräuchte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"brauchten","bräuchten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"brauchtet","bräuchtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"brauchten","bräuchten"},
+                    PartizipII = "gebraucht",
+                 }
+            };
+            XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
+            XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }

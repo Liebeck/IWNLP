@@ -38,7 +38,15 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                     parameters["4"] = inputSplitted[i++];
                     parameters["5"] = inputSplitted[i++];
                     parameters[ParameterSchwachUntrennbar.PartizipII] = inputSplitted[i];
+                    if (parameters[ParameterSchwachUntrennbar.PartizipII].StartsWith("6=")) // Special case for "Flexion:brauchen"
+                    {
+                        parameters[ParameterSchwachUntrennbar.PartizipII] = parameters[ParameterSchwachUntrennbar.PartizipII].Substring(2);
+                    }
                 }
+            }
+            if (parameters.Any(x => x.Value.Contains("="))) 
+            {
+                Console.WriteLine("VerbSchwachUntrennbarParser: " + word + " contains '='");
             }
             return parameters;
         }
@@ -1084,7 +1092,19 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular1Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Singular1Person.Add(parameters["1. Singular Konjunktiv Präteritum Aktiv"]);
+                String key = "1. Singular Konjunktiv Präteritum Aktiv";
+                if (!parameters[key].Contains("</br >"))
+                {
+                    verb.PräteritumAktivKonjunktiv_Singular1Person.Add(parameters[key]);
+                }
+                else // example: "Flexion:brauchen"
+                {
+                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        verb.PräteritumAktivKonjunktiv_Singular1Person.Add(multipleValues[i].Trim());
+                    }
+                }
             }
             else
             {
@@ -1093,10 +1113,22 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             #endregion
 
             #region Präteritum Konjunktiv Singular 2 Person
-            if (base.ContainsNonEmpty(parameters, "2. Singular Indikativ Präteritum Aktiv"))
+            if (base.ContainsNonEmpty(parameters, "2. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular2Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Singular2Person.Add(parameters["2. Singular Indikativ Präteritum Aktiv"]);
+                String key = "2. Singular Konjunktiv Präteritum Aktiv";
+                if (!parameters[key].Contains("</br >"))
+                {
+                    verb.PräteritumAktivKonjunktiv_Singular2Person.Add(parameters[key]);
+                }
+                else // example: "Flexion:brauchen"
+                {
+                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        verb.PräteritumAktivKonjunktiv_Singular2Person.Add(multipleValues[i].Trim());
+                    }
+                }
             }
             else
             {
@@ -1105,10 +1137,22 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             #endregion
 
             #region Präteritum Konjunktiv Singular 3 Person
-            if (base.ContainsNonEmpty(parameters, "3. Singular Indikativ Präteritum Aktiv"))
+            if (base.ContainsNonEmpty(parameters, "3. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular3Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Singular3Person.Add(parameters["3. Singular Indikativ Präteritum Aktiv"]);
+                String key = "3. Singular Konjunktiv Präteritum Aktiv";
+                if (!parameters[key].Contains("</br >"))
+                {
+                    verb.PräteritumAktivKonjunktiv_Singular3Person.Add(parameters[key]);
+                }
+                else // example: "Flexion:brauchen"
+                {
+                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        verb.PräteritumAktivKonjunktiv_Singular3Person.Add(multipleValues[i].Trim());
+                    }
+                }
             }
             else
             {
@@ -1120,7 +1164,19 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "1. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural1Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Plural1Person.Add(parameters["1. Plural Konjunktiv Präteritum Aktiv"]);
+                String key = "1. Plural Konjunktiv Präteritum Aktiv";
+                if (!parameters[key].Contains("</br >"))
+                {
+                    verb.PräteritumAktivKonjunktiv_Plural1Person.Add(parameters[key]);
+                }
+                else // example: "Flexion:brauchen"
+                {
+                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        verb.PräteritumAktivKonjunktiv_Plural1Person.Add(multipleValues[i].Trim());
+                    }
+                }
             }
             else
             {
@@ -1132,7 +1188,19 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "2. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural2Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Plural2Person.Add(parameters["2. Plural Konjunktiv Präteritum Aktiv"]);
+                String key = "2. Plural Konjunktiv Präteritum Aktiv";
+                if (!parameters[key].Contains("</br >"))
+                {
+                    verb.PräteritumAktivKonjunktiv_Plural2Person.Add(parameters[key]);
+                }
+                else // example: "Flexion:brauchen"
+                {
+                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        verb.PräteritumAktivKonjunktiv_Plural2Person.Add(multipleValues[i].Trim());
+                    }
+                }
             }
             else
             {
@@ -1144,7 +1212,19 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "3. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural3Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Plural3Person.Add(parameters["3. Plural Konjunktiv Präteritum Aktiv"]);
+                String key = "3. Plural Konjunktiv Präteritum Aktiv";
+                if (!parameters[key].Contains("</br >"))
+                {
+                    verb.PräteritumAktivKonjunktiv_Plural3Person.Add(parameters[key]);
+                }
+                else // example: "Flexion:brauchen"
+                {
+                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        verb.PräteritumAktivKonjunktiv_Plural3Person.Add(multipleValues[i].Trim());
+                    }
+                }
             }
             else
             {
