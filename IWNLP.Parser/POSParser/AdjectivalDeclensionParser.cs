@@ -123,7 +123,20 @@ namespace IWNLP.Parser.POSParser
         protected List<String> GetFormsStark(String input)
         {
             String[] splitSeparator = new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>" };
-            return input.Split(splitSeparator, StringSplitOptions.RemoveEmptyEntries).ToList();
+            List<String> result = input.Split(splitSeparator, StringSplitOptions.RemoveEmptyEntries).ToList();
+            for (int i = 0; i < result.Count; i++) // special case for "Geistlicher Rat"
+            {
+                if (result[i].StartsWith("(") && result[i].EndsWith(")"))
+                {
+                    result[i] = result[i].Substring(0, result[i].Length - 1);
+                    result[i] = result[i].Substring(1);
+                }
+            }
+            if(result.Any(x => x.Contains("{{") || x.Contains("}}") || x.Contains("<") || x.Contains(">") || x.Contains("|") || x.Contains(":") || x.Contains("…") || x.Contains("...") || x.Contains(" ,") || x.Contains(", ") || x.Contains("''") || x.Contains("(") || x.Contains(")")))
+            {
+                Console.WriteLine("AdjectivalDeclensionParser error (contains parenthesis): " + input);
+            }
+            return result;
         }
 
         protected List<Inflection> GetFormsSchwach(String input, String word)
