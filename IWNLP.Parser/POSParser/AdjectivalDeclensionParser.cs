@@ -122,6 +122,7 @@ namespace IWNLP.Parser.POSParser
 
         protected List<String> GetFormsStark(String input)
         {
+            if (input == "—" || input == "-" || input == "–") { return null; }
             String[] splitSeparator = new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>" };
             List<String> result = input.Split(splitSeparator, StringSplitOptions.RemoveEmptyEntries).ToList();
             for (int i = 0; i < result.Count; i++) // special case for "Geistlicher Rat"
@@ -142,6 +143,7 @@ namespace IWNLP.Parser.POSParser
         protected List<Inflection> GetFormsSchwach(String input, String word)
         {
             input = input.Trim();
+            if (input == "—" || input == "-" || input == "–") { return null; }
             String[] splitSeparator = new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>" };
             String[] splits = input.Split(splitSeparator, StringSplitOptions.RemoveEmptyEntries);
             List<Inflection> forms = new List<Inflection>();

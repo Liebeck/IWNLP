@@ -55,6 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AdjectivalDeclensionTests.cs" />
     <Compile Include="AdjectiveFlexParserTests.cs" />
     <Compile Include="AdjectiveTests.cs" />
     <Compile Include="AppSettingsWrapper.cs" />

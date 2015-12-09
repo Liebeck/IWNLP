@@ -151,21 +151,42 @@ namespace IWNLP.ParserTest
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
             List<Models.Word> expectedWords = new List<Models.Word>() 
             {
-             new Models.Noun()
-             {
-                Text="Fremde",
-                POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Femininum},
-                WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Fremde"}},
-                NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Fremde"}},
-                GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Fremde"}},
-                DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Fremde"}},
-                AkkusativPlural = new List<Inflection>(),
-             },
+                new AdjectivalDeclension()
+                {
+                    Text=word,
+                    WiktionaryID = wiktionaryID,
+                    NominativSingular = new List<string>(){"Fremde"},
+                    GenitivSingular=new List<string>(){"Fremder"},
+                    DativSingular=new List<string>(){"Fremder"},
+                    AkkusativSingular=new List<string>(){"Fremde"},
+                    NominativPlural=new List<string>(){"Fremde"},
+                    GenitivPlural=new List<string>(){"Fremder"},
+                    DativPlural=new List<string>(){"Fremden"},
+                    AkkusativPlural=new List<string>(){"Fremde"},
+                    NominativSingularSchwach=new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Fremde"}},
+                    GenitivSingularSchwach=new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Fremden"}},
+                    DativSingularSchwach=new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Fremden"}},
+                    AkkusativSingularSchwach=new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Fremde"}},
+                    NominativPluralSchwach=new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Fremden"}},
+                    GenitivPluralSchwach=new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Fremden"}},
+                    DativPluralSchwach=new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Fremden"}},
+                    AkkusativPluralSchwach=new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Fremden"}},
+                },
+                new Models.Noun()
+                {
+                    Text=word,
+                    POS = POS.Noun,
+                    Genus = new List<Genus>(){Genus.Femininum},
+                    WiktionaryID = wiktionaryID,
+                    NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Fremde"}},
+                    NominativPlural = new List<Inflection>(),
+                    GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Fremde"}},
+                    GenitivPlural = new List<Inflection>(),
+                    DativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Fremde"}},
+                    DativPlural = new List<Inflection>(),
+                    AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Fremde"}},
+                    AkkusativPlural = new List<Inflection>(),
+                },
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
             XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
@@ -486,8 +507,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(),
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -531,8 +552,8 @@ namespace IWNLP.ParserTest
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
             List<Models.Word> expectedWords = new List<Models.Word>();
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -668,8 +689,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Maie"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1009,8 +1030,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Pkw"},new Inflection(){ Article="die", InflectedWord="Pkws"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1145,8 +1166,8 @@ namespace IWNLP.ParserTest
              },
             };
 
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1178,8 +1199,8 @@ namespace IWNLP.ParserTest
              },
             };
 
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1271,8 +1292,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Mahre"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
         [TestMethod]
@@ -1434,7 +1455,7 @@ namespace IWNLP.ParserTest
         }
 
         [TestMethod]
-        public void DemodexFolliculorum() 
+        public void DemodexFolliculorum()
         {
 
             String word = "Demodex folliculorum";
@@ -1444,8 +1465,8 @@ namespace IWNLP.ParserTest
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
             List<Models.Word> expectedWords = new List<Models.Word>();
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1476,8 +1497,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>()
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1508,8 +1529,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>()
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1523,8 +1544,8 @@ namespace IWNLP.ParserTest
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
             List<Models.Word> expectedWords = new List<Models.Word>();
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1555,8 +1576,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(),
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1587,8 +1608,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(),
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1619,8 +1640,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Teppiche"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1651,8 +1672,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Buggys"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1683,8 +1704,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Händel"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1715,8 +1736,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Feten"},new Inflection(){ Article ="die", InflectedWord="Fetusse"}},
              },
             };
-            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
-            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"4.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
