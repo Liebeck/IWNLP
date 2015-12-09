@@ -20,7 +20,9 @@ namespace IWNLP.Models
         NUM = 9,
         PRT = 10,
         X = 11,
-        Point = 12
+        Point = 12,
         //Other = 100
+
+        AdjectivalDeclension = 30
     }
 }
