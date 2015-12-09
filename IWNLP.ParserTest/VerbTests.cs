@@ -884,7 +884,24 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>();
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Verb()
+             {
+                Text=word,
+                WiktionaryID = wiktionaryID,
+                Präsens_Ich = new List<string>(){"pfeife rein"},
+                Präsens_Du = new List<string>(){"pfeifst rein"},
+                Präsens_ErSieEs = new List<string>(){"pfeift rein"},
+                Präteritum_ich = new List<string>(){"pfiff rein"},
+                KonjunktivII_Ich = new List<string>(){"pfiffe rein"},
+                ImperativSingular = new List<string>(){"pfeif rein!"},
+                ImperativPlural = new List<string>(){"pfeift rein!"},
+                PartizipII = new List<string>(){"reingepfiffen"},
+                Hilfsverb = new List<string>(){"haben"},
+                POS = Models.POS.Verb
+             },
+            };
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
