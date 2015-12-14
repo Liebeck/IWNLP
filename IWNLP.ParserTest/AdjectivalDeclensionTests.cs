@@ -285,5 +285,43 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void Beschäftigter()
+        {
+            String word = "Beschäftigter";
+            int wiktionaryID = 137120;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+                new AdjectivalDeclension()
+                {
+                    Text=word,
+                    WiktionaryID = wiktionaryID,
+                    NominativSingular = new List<string>(){"Beschäftigter"},
+                    GenitivSingular=new List<string>(){"Beschäftigten"},
+                    DativSingular=new List<string>(){"Beschäftigtem"},
+                    AkkusativSingular=new List<string>(){"Beschäftigten"},
+                    NominativPlural=new List<string>(){"Beschäftigte"},
+                    GenitivPlural=new List<string>(){"	Beschäftigter"},
+                    DativPlural=new List<string>(){"Beschäftigten"},
+                    AkkusativPlural=new List<string>(){"Beschäftigte"},
+                    NominativSingularSchwach=new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Beschäftigte"}},
+                    GenitivSingularSchwach=new List<Inflection>(){new Inflection(){ Article="des", InflectedWord="Beschäftigten"}},
+                    DativSingularSchwach=new List<Inflection>(){new Inflection(){ Article="dem", InflectedWord="Beschäftigten"}},
+                    AkkusativSingularSchwach=new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Beschäftigten"}},
+                    NominativPluralSchwach=new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Beschäftigten"}},
+                    GenitivPluralSchwach=new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Beschäftigten"}},
+                    DativPluralSchwach=new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Beschäftigten"}},
+                    AkkusativPluralSchwach=new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Beschäftigten"}},
+                },
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
