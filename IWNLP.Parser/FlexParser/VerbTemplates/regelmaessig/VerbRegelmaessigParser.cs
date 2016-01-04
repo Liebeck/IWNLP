@@ -9,7 +9,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
 {
     public class VerbRegelmaessigParser : VerbConjugationParserBase
     {
-        List<String> blacklist = new List<string>() { };
+        List<String> blacklist = new List<string>() 
+        {
+        "Flexion:wischen"
+        };
 
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
