@@ -1,1 +1,8 @@
 /packages/GenericXMLSerializer.1.0.0
+IWNLP.Models/bin/*
+IWNLP.Models/obj/*
+IWNLP.Parser/bin/*
+IWNLP.Parser/obj/*
+IWNLP.ParserTest/bin/*
+IWNLP.ParserTest/obj/*
+IWNLP.v11.suo
