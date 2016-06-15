@@ -11,6 +11,9 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
     {
 
         List<String> blacklist = new List<string>() {
+            "Flexion:husten",
+            "Flexion:verweigern",
+            "Flexion:uzen"
         };
 
         public Dictionary<String, String> ParseParameters(String[] input, String word)
@@ -32,6 +35,11 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else
                 {
+                    if(String.IsNullOrEmpty(inputSplitted[i]))
+                    {
+                        Console.WriteLine("VerbSchwachUntrennbarParser: " + word + " parsing arguments, possible empty parameter");
+                        break;
+                    }
                     parameters["1"] = inputSplitted[i++];
                     parameters["2"] = inputSplitted[i++];
                     parameters["3"] = inputSplitted[i++];

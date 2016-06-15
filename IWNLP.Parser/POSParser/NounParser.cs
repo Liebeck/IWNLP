@@ -38,7 +38,8 @@ namespace IWNLP.Parser.POSParser
         "Arkadisch-Kyprisch",
         "Launa-Deutsch",
         "Tunesisch-Arabisch",
-        "Brast"
+        "Brast",
+        "Avis"
         };
 
 

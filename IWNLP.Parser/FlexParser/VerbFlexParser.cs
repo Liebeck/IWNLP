@@ -13,11 +13,19 @@ namespace IWNLP.Parser.FlexParser
 {
     public class VerbFlexParser : ParserBase
     {
+        List<String> blacklist = new List<string>() {
+            "Flexion:anbaggern",
+        };
+
         VerbRegelmaessigParser regelmaessigVerbParser = new VerbRegelmaessigParser();
         VerbSchwachUntrennbarParser schwachUntrennbarParser = new VerbSchwachUntrennbarParser();
         VerbUnregelmaessigParser unregelmaessigVerbParser = new VerbUnregelmaessigParser();
         public List<VerbConjugation> Parse(String word, String[] text)
         {
+            if (blacklist.Contains(word))
+            {
+                return null;
+            }
             Stats.Instance.VerbsTotal++;
             List<VerbConjugation> verbs = new List<VerbConjugation>();
             List<String> conjugationBeginText = new List<string>() { "{{Deutsch Verb regelmäßig|", "{{Deutsch Verb schwach untrennbar|", "{{Deutsch Verb unregelmäßig|" };

@@ -93,7 +93,12 @@ namespace IWNLP.Parser
                 }
                 else if (subArrayLanguageBlock.Any(x => x.Contains("({{Verbkonjugation|Deutsch}})")))
                 {
-                    words.AddRange(verbFlexParser.Parse(word, subArrayLanguageBlock));
+                    List<Models.Flections.VerbConjugation> verbConjugations = verbFlexParser.Parse(word, subArrayLanguageBlock);
+                    if (verbConjugations != null)
+                    {
+                        words.AddRange(verbConjugations);
+                    }
+
 
                 }
                 if ((i + 1) < languageBlockBegin.Count)
