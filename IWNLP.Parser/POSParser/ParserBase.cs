@@ -88,6 +88,7 @@ namespace IWNLP.Parser.POSParser
         {
             input = input.Replace("<ref name=\"ug\"/>", String.Empty).Trim(); // Example: "abbröckeln"
             input = input.Replace("<ref name=\"owb\"/>", String.Empty).Trim(); // Example: "Flexion:rauschen"
+            input = input.Replace("<ref name=owb/>", String.Empty).Trim(); // Example: "Flexion:rauschen"
             input = RemoveBetween(input, "<ref", "</ref>").Trim(); // Example: "Deichgraf", "abbröckeln"
             input = RemoveBetween(input, "<!--", "-->").Trim();
             input = input.Replace("<small>", String.Empty);
