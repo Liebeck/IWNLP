@@ -263,7 +263,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (values[i].Contains(",") || values[i].Contains("<") || values[i].Contains(">") || values[i].Contains("''"))
                 {
-                    Console.WriteLine("Error Verb Unregelmäßig: " + values[i]);
+                    Console.WriteLine("Error Verb Flexparser: " + values[i]);
                 }
                 if (values[i].Contains("&nbsp;"))
                 {
