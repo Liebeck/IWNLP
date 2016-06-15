@@ -295,7 +295,26 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             if (parameters.ContainsKey("2. Singular Indikativ Präsens Aktiv"))
             {
                 verb.PräsensAktivIndikativ_Singular2Person = new List<string>();
-                verb.PräsensAktivIndikativ_Singular2Person.Add(parameters["2. Singular Indikativ Präsens Aktiv"]);
+                if (parameters["2. Singular Indikativ Präsens Aktiv"].Contains("<br >") || parameters["2. Singular Indikativ Präsens Aktiv"].Contains("<br />"))
+                {
+                    String[] multipleValues = parameters["2. Singular Indikativ Präsens Aktiv"].Split(new String[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                    for (int i = 0; i < multipleValues.Length; i++)
+                    {
+                        if (multipleValues[i].StartsWith("du ")) 
+                        {
+                            multipleValues[i] = multipleValues[i].Substring(3);
+                        }
+                        if (multipleValues[i].EndsWith(","))
+                        {
+                            multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                        }
+                        verb.PräsensAktivIndikativ_Singular2Person.Add(multipleValues[i].Trim());
+                    }
+                }
+                else 
+                {
+                    verb.PräsensAktivIndikativ_Singular2Person.Add(parameters["2. Singular Indikativ Präsens Aktiv"]);
+                }
             }
             else
             {
