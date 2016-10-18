@@ -31,13 +31,11 @@ namespace IWNLP.Parser.FlexParser
                 {
                     Common.PrintError(word, String.Format("AdjectiveFlexParser: Error in: {0}||{1}", word, text[i]));
                 }
-
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
                 if (line.EndsWith("}}"))
                 {
                     line = line.Substring(0, line.Length - 2);// remove end of block, if it is in the same line
                 }
-
                 line = base.CleanLine(line);
                 String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                 List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
@@ -45,10 +43,6 @@ namespace IWNLP.Parser.FlexParser
                 {
                     continue;
                 }
-
-
-
-
                 forms[0] = forms[0].Trim(); // remove spaces
                 if (forms[0].EndsWith("1") || forms[0].EndsWith("2") || forms[0].EndsWith("3") || forms[0].EndsWith("4"))
                 {
@@ -122,7 +116,6 @@ namespace IWNLP.Parser.FlexParser
                 {
                     adjectiveDeclination.Positiv = forms[1];
                 }
-
                 else
                 {
                     Common.PrintError(word, String.Format("AdjectiveFlexParser: unknown parameter {0}={1}", word, line));
@@ -133,9 +126,7 @@ namespace IWNLP.Parser.FlexParser
             {
                 System.Diagnostics.Debugger.Break();
             }
-
             return adjectiveDeclination;
-
         }
 
         protected void CreateFlexions(AdjectiveDeclination ad)

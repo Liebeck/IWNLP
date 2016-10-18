@@ -64,8 +64,6 @@ namespace IWNLP.Parser.POSParser
                 int conjugationBlockBeginIndex = conjugationBlockBeginIndices[i];
                 int conjugationBlockEndIndex = input.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= conjugationBlockBeginIndex && x.Content.EndsWith("}}")).Select(x => x.Index).First();
                 String[] subArrayDefinitionBlock = Common.GetSubArray(input, conjugationBlockBeginIndex, conjugationBlockEndIndex);
-
-
                 if (subArrayDefinitionBlock[0].StartsWith("{{Deutsch adjektivische Deklination m"))
                 {
                     Stats.Instance.AdjectivalDeclensionM++;
@@ -93,8 +91,6 @@ namespace IWNLP.Parser.POSParser
         public AdjectivalDeclension Parse(String word, Dictionary<String, String> parameters)
         {
             AdjectivalDeclension item = new AdjectivalDeclension();
-
-
             if (!parameters.ContainsKey(ParameterAdjectivalDeclension.KeinSingular))
             {
                 item.NominativSingular = this.GetFormsStark(parameters["Nominativ Singular stark"]);
@@ -133,9 +129,9 @@ namespace IWNLP.Parser.POSParser
                     result[i] = result[i].Substring(1);
                 }
             }
-            if(result.Any(x => x.Contains("{{") || x.Contains("}}") || x.Contains("<") || x.Contains(">") || x.Contains("|") || x.Contains(":") || x.Contains("…") || x.Contains("...") || x.Contains(" ,") || x.Contains(", ") || x.Contains("''") || x.Contains("(") || x.Contains(")")))
+            if (result.Any(x => x.Contains("{{") || x.Contains("}}") || x.Contains("<") || x.Contains(">") || x.Contains("|") || x.Contains(":") || x.Contains("…") || x.Contains("...") || x.Contains(" ,") || x.Contains(", ") || x.Contains("''") || x.Contains("(") || x.Contains(")")))
             {
-                Common.PrintError( String.Format("AdjectivalDeclensionParser: error (contains parenthesis): {0}", input));
+                Common.PrintError(String.Format("AdjectivalDeclensionParser: error (contains parenthesis): {0}", input));
             }
             return result;
         }
@@ -190,22 +186,22 @@ namespace IWNLP.Parser.POSParser
         {
             AdjectivalDeclension item = new AdjectivalDeclension()
             {
-                NominativSingular = new List<String>(){parameters["1"] + "r"},
-                GenitivSingular = new List<String>(){parameters["1"] + "n"},
-                DativSingular = new List<String>(){parameters["1"] + "m"},
-                AkkusativSingular = new List<String>(){parameters["1"] + "n"},
-                NominativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] }},
-                GenitivSingularSchwach = new List<Inflection>(){new Inflection() { Article = "des", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                DativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "dem", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                AkkusativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                NominativPlural = new List<String>(){parameters["1"]},
-                GenitivPlural = new List<String>(){parameters["1"] + "r"},
-                DativPlural = new List<String>(){parameters["1"] + "n"},
-                AkkusativPlural = new List<String>(){parameters["1"]},
-                NominativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                GenitivPluralSchwach = new List<Inflection>(){new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                DativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                AkkusativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
+                NominativSingular = new List<String>() { parameters["1"] + "r" },
+                GenitivSingular = new List<String>() { parameters["1"] + "n" },
+                DativSingular = new List<String>() { parameters["1"] + "m" },
+                AkkusativSingular = new List<String>() { parameters["1"] + "n" },
+                NominativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] } },
+                GenitivSingularSchwach = new List<Inflection>() { new Inflection() { Article = "des", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                DativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "dem", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                AkkusativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                NominativPlural = new List<String>() { parameters["1"] },
+                GenitivPlural = new List<String>() { parameters["1"] + "r" },
+                DativPlural = new List<String>() { parameters["1"] + "n" },
+                AkkusativPlural = new List<String>() { parameters["1"] },
+                NominativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                GenitivPluralSchwach = new List<Inflection>() { new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                DativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                AkkusativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
             };
             return item;
         }
@@ -214,22 +210,22 @@ namespace IWNLP.Parser.POSParser
         {
             AdjectivalDeclension item = new AdjectivalDeclension()
             {
-                NominativSingular = new List<String>(){parameters["1"]},
-                GenitivSingular = new List<String>(){parameters["1"] + "r"},
-                DativSingular = new List<String>(){parameters["1"] + "r"},
-                AkkusativSingular = new List<String>(){parameters["1"]},
-                NominativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1]}},
-                GenitivSingularSchwach = new List<Inflection>(){new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                DativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                AkkusativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1]}},
-                NominativPlural = new List<String>(){parameters["1"]},
-                GenitivPlural = new List<String>(){parameters["1"] + "r"},
-                DativPlural = new List<String>(){parameters["1"] + "n"},
-                AkkusativPlural = new List<String>(){parameters["1"]},
-                NominativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                GenitivPluralSchwach = new List<Inflection>(){new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                DativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                AkkusativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
+                NominativSingular = new List<String>() { parameters["1"] },
+                GenitivSingular = new List<String>() { parameters["1"] + "r" },
+                DativSingular = new List<String>() { parameters["1"] + "r" },
+                AkkusativSingular = new List<String>() { parameters["1"] },
+                NominativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] } },
+                GenitivSingularSchwach = new List<Inflection>() { new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                DativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                AkkusativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] } },
+                NominativPlural = new List<String>() { parameters["1"] },
+                GenitivPlural = new List<String>() { parameters["1"] + "r" },
+                DativPlural = new List<String>() { parameters["1"] + "n" },
+                AkkusativPlural = new List<String>() { parameters["1"] },
+                NominativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                GenitivPluralSchwach = new List<Inflection>() { new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                DativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                AkkusativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
             };
             return item;
         }
@@ -238,28 +234,24 @@ namespace IWNLP.Parser.POSParser
         {
             AdjectivalDeclension item = new AdjectivalDeclension()
             {
-                NominativSingular = new List<String>(){parameters["1"] + "s"},
-                GenitivSingular = new List<String>(){parameters["1"] + "n"},
-                DativSingular = new List<String>(){parameters["1"] + "m"},
-                AkkusativSingular = new List<String>(){parameters["1"] + "s"},
-                NominativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "das", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] }},
-                GenitivSingularSchwach = new List<Inflection>(){new Inflection() { Article = "des", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" }},
-                DativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "dem", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                AkkusativSingularSchwach = new List<Inflection>(){new Inflection() { Article = "das", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1]}},
-                NominativPlural = new List<String>(){parameters["1"]},
-                GenitivPlural = new List<String>(){parameters["1"] + "r"},
-                DativPlural = new List<String>(){parameters["1"] + "n"},
+                NominativSingular = new List<String>() { parameters["1"] + "s" },
+                GenitivSingular = new List<String>() { parameters["1"] + "n" },
+                DativSingular = new List<String>() { parameters["1"] + "m" },
+                AkkusativSingular = new List<String>() { parameters["1"] + "s" },
+                NominativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "das", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] } },
+                GenitivSingularSchwach = new List<Inflection>() { new Inflection() { Article = "des", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                DativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "dem", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                AkkusativSingularSchwach = new List<Inflection>() { new Inflection() { Article = "das", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] } },
+                NominativPlural = new List<String>() { parameters["1"] },
+                GenitivPlural = new List<String>() { parameters["1"] + "r" },
+                DativPlural = new List<String>() { parameters["1"] + "n" },
                 AkkusativPlural = new List<String>() { parameters["1"] },
-                NominativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                GenitivPluralSchwach = new List<Inflection>(){new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
-                DativPluralSchwach = new List<Inflection>(){new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n"}},
+                NominativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                GenitivPluralSchwach = new List<Inflection>() { new Inflection() { Article = "der", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
+                DativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "den", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
                 AkkusativPluralSchwach = new List<Inflection>() { new Inflection() { Article = "die", InflectedWord = parameters[ParameterAdjectivalDeclension.Parameter1] + "n" } },
             };
             return item;
         }
-
-
-
     }
-
 }
