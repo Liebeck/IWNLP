@@ -341,6 +341,10 @@ namespace IWNLP.Parser
                 }
                 else
                 {
+                    if (input.Substring(startIndex + 1) == "Abkürzung (Deutsch)}} ===") 
+                    {
+                        wikiPosTags.Add(WikiPOSTag.Abkürzung);
+                    }
                     break;
                 }
             }
