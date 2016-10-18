@@ -29,6 +29,7 @@ namespace IWNLP.Parser.POSParser
                     Common.PrintError(word, String.Format("Verb Parser: No definition block: {0}", word));
                 }
                 verb.ConjugationBlockMissing = true;
+                Stats.Instance.VerbsTotal++;
                 return verb;
             }
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Verb Übersicht") || x.Content.Contains("{{ Deutsch Verb Übersicht")).Select(x => x.Index).First();
@@ -168,6 +169,7 @@ namespace IWNLP.Parser.POSParser
                     Common.PrintError(word, String.Format("word {0}=={1}", word, line));
                 }
             }
+            Stats.Instance.VerbsTotal++;
             return verb;
         }
 

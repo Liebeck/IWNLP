@@ -11,16 +11,20 @@ namespace IWNLP.Parser
     /// </summary>
     public class Stats
     {
-        public int VerbsTotal { get; set; }
-        public int VerbsRegular { get; set; }
-        public int VerbsIrregular { get; set; }
-        public int VerbsWeakInseparable { get; set; }
+        public int VerbsConjugationTotal { get; set; }
+        public int VerbsConjugationRegular { get; set; }
+        public int VerbsConjugationIrregular { get; set; }
+        public int VerbsConjugationWeakInseparable { get; set; }
 
         public int AdjectivalDeclension { get; set; }
         public int AdjectivalDeclensionM { get; set; }
         public int AdjectivalDeclensionN { get; set; }
         public int AdjectivalDeclensionF { get; set; }
-        
+
+        public int NounsTotal { get; set; }
+        public int AdjectivesTotal { get; set; }
+        public int VerbsTotal { get; set; }
+
         private static Stats instance; 
 
         private Stats() { }

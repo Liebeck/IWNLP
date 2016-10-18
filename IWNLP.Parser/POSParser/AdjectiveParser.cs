@@ -21,6 +21,7 @@ namespace IWNLP.Parser.POSParser
                 {
                     Common.PrintError(word, String.Format("AdjectiveParser: No definition block: {0}", word));
                 }
+                Stats.Instance.AdjectivesTotal++;
                 return adjective;
             }
             // Silbentrennung Yoursmile
@@ -125,6 +126,7 @@ namespace IWNLP.Parser.POSParser
             {
                 Common.PrintError(word, String.Format("AdjectiveParser: contains a '<' {0}", word));
             }
+            Stats.Instance.AdjectivesTotal++;
             return adjective;
         }
 

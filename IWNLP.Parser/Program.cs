@@ -15,15 +15,12 @@ namespace IWNLP.Parser
     {
         static void Main(string[] args)
         {
-
             //Console.OutputEncoding = Encoding.UTF8;
             WiktionaryParser parser = new WiktionaryParser();
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-
             List<String> titles = new List<string>();
-
             List<Entry> allWords = new List<Entry>();
             using (XmlReader myReader = XmlReader.Create(AppSettingsWrapper.WiktionaryDumpPath))
             {
@@ -41,28 +38,19 @@ namespace IWNLP.Parser
                             myReader.ReadToFollowing("revision");
                             myReader.ReadToFollowing("text");
                             String text = myReader.ReadElementContentAsString();
-
                             List<Entry> entries = parser.ParseText(title, text, id);
                             if (entries != null)
                             {
                                 allWords.AddRange(entries);
                             }
-
                         }
-
                         var value = myReader.Value;
                     }
                 }
             }
-
-            //var countVerbs = allWords.OfType<Verb>().Count();
-            //var countNouns = allWords.OfType<Noun>().Count();
-            //var countAdjectives = allWords.OfType<Adjective>().Count();
-
-            //var breakpoint = 5;
             Console.WriteLine("Dump parsed in " + (stopwatch.ElapsedMilliseconds / 1000) + " seconds");
 
-            //var stats = Stats.Instance;
+            var stats = Stats.Instance;
 
             XMLSerializer.Serialize<List<Entry>>(allWords.Where(x => !x.ParserError).ToList(), AppSettingsWrapper.ParsedOutputPath);
             

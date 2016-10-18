@@ -220,6 +220,7 @@ namespace IWNLP.Parser.POSParser
                     Common.PrintError(word, String.Format("NounParser: forms[0] invalid in {0}: {1}", word, forms[0]));
                 }
             }
+            Stats.Instance.NounsTotal++;
             return noun;
         }
 

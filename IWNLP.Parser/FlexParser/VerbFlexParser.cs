@@ -26,11 +26,10 @@ namespace IWNLP.Parser.FlexParser
             {
                 return null;
             }
-            Stats.Instance.VerbsTotal++;
+            Stats.Instance.VerbsConjugationTotal++;
             List<VerbConjugation> verbs = new List<VerbConjugation>();
             List<String> conjugationBeginText = new List<string>() { "{{Deutsch Verb regelmäßig|", "{{Deutsch Verb schwach untrennbar|", "{{Deutsch Verb unregelmäßig|" };
             List<int> conjugationBlockBeginIndices = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.StartsWith(conjugationBeginText[0]) || x.Content.StartsWith(conjugationBeginText[1]) || x.Content.StartsWith(conjugationBeginText[2])).Select(x => x.Index).ToList();
-
             for (int i = 0; i < conjugationBlockBeginIndices.Count; i++)
             {
                 int conjugationBlockBeginIndex = conjugationBlockBeginIndices[i];
@@ -38,7 +37,7 @@ namespace IWNLP.Parser.FlexParser
                 String[] subArrayDefinitionBlock = Common.GetSubArray(text, conjugationBlockBeginIndex, conjugationBlockEndIndex);
                 if (subArrayDefinitionBlock[0].Contains("{{Deutsch Verb regelmäßig|"))
                 {
-                    Stats.Instance.VerbsRegular++;
+                    Stats.Instance.VerbsConjugationRegular++;
                     VerbConjugation conjugation = regelmaessigVerbParser.Parse(word, subArrayDefinitionBlock);
                     if (conjugation != null) // workaround blacklist
                     {
@@ -47,7 +46,7 @@ namespace IWNLP.Parser.FlexParser
                 }
                 else if (subArrayDefinitionBlock[0].Contains("{{Deutsch Verb schwach untrennbar|")) 
                 {
-                    Stats.Instance.VerbsWeakInseparable++;
+                    Stats.Instance.VerbsConjugationWeakInseparable++;
                     VerbConjugation conjugation = schwachUntrennbarParser.Parse(word, subArrayDefinitionBlock);
                     if (conjugation != null) // workaround blacklist
                     {
@@ -56,7 +55,7 @@ namespace IWNLP.Parser.FlexParser
                 }
                 else if (subArrayDefinitionBlock[0].Contains("{{Deutsch Verb unregelmäßig|"))
                 {
-                    Stats.Instance.VerbsIrregular++;
+                    Stats.Instance.VerbsConjugationIrregular++;
                     VerbConjugation conjugation = unregelmaessigVerbParser.Parse(word, subArrayDefinitionBlock);
                     if (conjugation != null) // workaround blacklist
                     {
