@@ -153,6 +153,11 @@ namespace IWNLP.Parser
         /// <returns></returns>
         protected Word ParseDefinitionTextBlock(String word, String[] text)
         {
+            if (GlobalBlacklist.GlobalBlackList.Contains(word))
+            {
+                return null;
+            }
+
             Word wordObject = null;
 
             bool deutschesWort = !text.Any(x => x.StartsWith("{{Schweizer und Liechtensteiner Schreibweise"));
