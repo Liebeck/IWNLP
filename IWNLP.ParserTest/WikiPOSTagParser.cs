@@ -92,7 +92,31 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWikiPOSTags, parsedWikiPOSTags, "failed");
         }
 
+        [TestMethod]
+        public void Abkürzung1()
+        {
+            String input = "=== {{Wortart|Abkürzung|Deutsch}} ===";
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.WikiPOSTag> parsedWikiPOSTags = parser.GetWikiPosTags(input);
+            List<Models.WikiPOSTag> expectedWikiPOSTags = new List<Models.WikiPOSTag>() 
+            {
+                WikiPOSTag.Abkürzung
+            };
+            CollectionAssert.AreEqual(expectedWikiPOSTags, parsedWikiPOSTags, "failed");
+        }
 
+        [TestMethod]
+        public void Abkürzung2()
+        {
+            String input = "=== {{Wortart|Abkürzung (Deutsch)}} ===";
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.WikiPOSTag> parsedWikiPOSTags = parser.GetWikiPosTags(input);
+            List<Models.WikiPOSTag> expectedWikiPOSTags = new List<Models.WikiPOSTag>() 
+            {
+                WikiPOSTag.Abkürzung
+            };
+            CollectionAssert.AreEqual(expectedWikiPOSTags, parsedWikiPOSTags, "failed");
+        }
 
 
     }
