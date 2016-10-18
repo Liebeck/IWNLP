@@ -18,21 +18,17 @@ namespace IWNLP.Parser
         AdjectiveFlexParser adjectiveFlexParser;
         VerbFlexParser verbFlexParser;
         PronounParser pronounParser;
-
-        public Dictionary<WikiPOSTag, int> counter = new Dictionary<WikiPOSTag, int>();
-        public Dictionary<WikiPOSTag, List<String>> counter2 = new Dictionary<WikiPOSTag, List<String>>();
         List<WikiPOSTag> pronounWikiPosTags = new List<WikiPOSTag>() 
         {
-                WikiPOSTag.Demonstrativpronomen,
-                WikiPOSTag.Indefinitpronomen,
-                WikiPOSTag.Interrogativpronomen,
-                WikiPOSTag.Personalpronomen,
-                WikiPOSTag.Possessivpronomen,
-                WikiPOSTag.Reflexivpronomen,
-                WikiPOSTag.Relativpronomen,
-                WikiPOSTag.Reziprokpronomen
-            };
-
+            WikiPOSTag.Demonstrativpronomen,
+            WikiPOSTag.Indefinitpronomen,
+            WikiPOSTag.Interrogativpronomen,
+            WikiPOSTag.Personalpronomen,
+            WikiPOSTag.Possessivpronomen,
+            WikiPOSTag.Reflexivpronomen,
+            WikiPOSTag.Relativpronomen,
+            WikiPOSTag.Reziprokpronomen
+        };
 
         public WiktionaryParser()
         {
@@ -47,20 +43,16 @@ namespace IWNLP.Parser
         public List<Entry> ParseText(String word, String textInput, int wikiID)
         {
             textInput = ParserBase.RemoveBetween(textInput, "<!--", "-->");
-
-
             String[] text = textInput.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
             if (text.Any(x => x.Contains("{{Neuer Eintrag}}")))
             {
                 return null;
             }
             List<Entry> words = new List<Entry>();
-
             // Find all "==" blocks and process them separately
             List<int> languageBlockBegin = text.Select((content, index) => new { Content = content.Trim(), Index = index })
                 .Where(x => x.Content.StartsWith("==") && !x.Content.StartsWith("===") && x.Content.EndsWith("==") && !x.Content.EndsWith("==="))
                 .Select(x => x.Index).ToList();
-
             int startIndexLanguageBlock = 0;
             for (int i = 0; i < languageBlockBegin.Count; i++)
             {
@@ -89,7 +81,6 @@ namespace IWNLP.Parser
                     {
                         Common.PrintError(word, String.Format("WiktionaryParser: Adjective declination error: {0}", word));
                     }
-
                 }
                 else if (subArrayLanguageBlock.Any(x => x.Contains("({{Verbkonjugation|Deutsch}})")))
                 {
@@ -98,14 +89,11 @@ namespace IWNLP.Parser
                     {
                         words.AddRange(verbConjugations);
                     }
-
-
                 }
                 if ((i + 1) < languageBlockBegin.Count)
                 {
                     startIndexLanguageBlock = languageBlockBegin[i + 1];
                 }
-
             }
             foreach (Entry wordEntry in words)
             {
@@ -128,7 +116,6 @@ namespace IWNLP.Parser
         {
             List<Word> words = new List<Word>();
             // Find all "===" blocks and process them separately
-
             List<int> wortdefinitionBlockIndices = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.StartsWith("===") && x.Content.EndsWith("===") && !x.Content.StartsWith("====") && !x.Content.EndsWith("====")).Select(x => x.Index).ToList(); // Auf einer Seite kann mehr als ein Wort stehen, z.B. bei "Fremde"
             int startIndexDefinitionBlock = 0;
             for (int i = 0; i < wortdefinitionBlockIndices.Count; i++)
@@ -157,12 +144,8 @@ namespace IWNLP.Parser
             {
                 return null;
             }
-
             Word wordObject = null;
-
             bool deutschesWort = !text.Any(x => x.StartsWith("{{Schweizer und Liechtensteiner Schreibweise"));
-            //deutschesWort &= !text.Any(x => x.StartsWith("*Alternative Schreibweise zu"));
-            //deutschesWort &= !text.Any(x => x.StartsWith("*Alternative Schreibweise von"));
             deutschesWort &= !text.Any(x => x.StartsWith("{{Alte Schreibweise"));
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Deklinierte Form|Deutsch}}"));
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Konjugierte Form|Deutsch}}"));
@@ -170,35 +153,13 @@ namespace IWNLP.Parser
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Partizip II|Deutsch}}"));
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Redewendung|Deutsch}}"));
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Merkspruch|Deutsch}}"));
-
             deutschesWort &= text.Any(x => x.Contains("{{Wortart|"));
-
-            //text.Any(x => x.Contains("{{Wortart|")) &&
-            //if (text.Any(x => x.Contains("{{Wortart|Vorname|Deutsch}}")) && text.Any(x => x.Contains("Deutsch Substantiv"))) 
-            //{
-            //    System.Diagnostics.Debugger.Break();
-            //}
-
             if (!deutschesWort)
             {
                 return null;
             }
-
             String posTagLine = text.Single(x => x.Contains("{{Wortart|"));
             List<WikiPOSTag> wikiPosTags = this.GetWikiPosTags(posTagLine);
-
-            //foreach (WikiPOSTag wortartParsed in wikiPosTags)
-            //{
-            //    if (!counter.ContainsKey(wortartParsed))
-            //    {
-            //        counter[wortartParsed] = 0;
-            //        counter2[wortartParsed] = new List<String>();
-            //    }
-            //    counter[wortartParsed] = counter[wortartParsed] + 1;
-            //    counter2[wortartParsed].Add(word);
-            //}
-
-
             if (wikiPosTags.Contains(WikiPOSTag.Substantiv))
             {
                 return nounParser.Parse(word, text, posTagLine);
@@ -341,7 +302,7 @@ namespace IWNLP.Parser
                 }
                 else
                 {
-                    if (input.Substring(startIndex + 1) == "Abkürzung (Deutsch)}} ===") 
+                    if (input.Substring(startIndex + 1) == "Abkürzung (Deutsch)}} ===")
                     {
                         wikiPosTags.Add(WikiPOSTag.Abkürzung);
                     }
@@ -353,7 +314,6 @@ namespace IWNLP.Parser
 
         public static String GetTextFromPage(String dumpPath, int wiktionaryID)
         {
-
             using (XmlReader myReader = XmlReader.Create(dumpPath))
             {
                 while (myReader.Read())
@@ -365,20 +325,16 @@ namespace IWNLP.Parser
                         int id = myReader.ReadElementContentAsInt();
                         if (id == wiktionaryID)
                         {
-
                             myReader.ReadToFollowing("revision");
                             myReader.ReadToFollowing("text");
                             String text = myReader.ReadElementContentAsString();
                             return text;
                         }
-
                     }
-
                     var value = myReader.Value;
                 }
                 throw new ArgumentException("Wiktionary ID not found");
             }
         }
-
     }
 }

@@ -15,12 +15,10 @@ namespace IWNLP.Parser
         public int VerbsConjugationRegular { get; set; }
         public int VerbsConjugationIrregular { get; set; }
         public int VerbsConjugationWeakInseparable { get; set; }
-
         public int AdjectivalDeclension { get; set; }
         public int AdjectivalDeclensionM { get; set; }
         public int AdjectivalDeclensionN { get; set; }
         public int AdjectivalDeclensionF { get; set; }
-
         public int NounsTotal { get; set; }
         public int AdjectivesTotal { get; set; }
         public int VerbsTotal { get; set; }
