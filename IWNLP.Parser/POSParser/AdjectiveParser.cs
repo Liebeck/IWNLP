@@ -11,13 +11,10 @@ namespace IWNLP.Parser.POSParser
     {
         public Word Parse(String word, String[] text, String wortArtLine)
         {
-
             // https://de.wiktionary.org/wiki/Vorlage:Deklinationsseite_Adjektiv
-
             Adjective adjective = new Adjective();
             adjective.Text = word;
             adjective.POS = POS.Adjective;
-
             if (!(text.Select((content, index) => new { Content = content.Trim(), Index = index }).Any(x => x.Content.Contains("{{Deutsch Adjektiv Übersicht"))))
             {
                 if (base.OutputDefinitionBlockMissing)
@@ -26,7 +23,6 @@ namespace IWNLP.Parser.POSParser
                 }
                 return adjective;
             }
-
             // Silbentrennung Yoursmile
             //if(text.Any(x => x.Contains("{{Worttrennung}}")))
             //{
@@ -70,7 +66,6 @@ namespace IWNLP.Parser.POSParser
                 {
                     Common.PrintError(word, String.Format("AdjectiveParser: Error in: {0} || {1}", word, text[i]));
                 }
-
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
                 if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
 
@@ -79,8 +74,6 @@ namespace IWNLP.Parser.POSParser
                     continue; // Skip "Bild"-line
                 }
                 line = base.CleanLine(line);
-
-
                 String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                 List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                 if (forms.Length == 1 || (forms.Length == 2 && (noValue.Contains(forms[1].Trim()))))  // No value given
@@ -145,18 +138,15 @@ namespace IWNLP.Parser.POSParser
                 String cleaned = declension.Replace("[[", String.Empty).Replace("]]", String.Empty); // remove braces for internal links with the same name
                 cleaned = RemoveBetween(declension, "[", "]").Trim();
                 cleaned = cleaned.Replace("/", String.Empty); // fix for missplaced '/' of "<br">
-
                 List<String> combinations = new List<string>();
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains("''"))
                 {
                     word.ParserError = true;
                     Common.PrintError(word.Text, String.Format("AdjectiveParser: contains parenthesis: {0}", word.Text));
                     return allForms;
-
                 }
                 if (!cleaned.Contains("("))
                 {
-
                     allForms.Add(cleaned);
                 }
                 else
@@ -165,8 +155,6 @@ namespace IWNLP.Parser.POSParser
                     int countClosingBraces = cleaned.Count(x => x == ')');
                     if (countOpeningBraces != countClosingBraces)
                     {
-
-
                         word.ParserError = true;
                         Common.PrintError(word.Text, String.Format("AdjectiveParser: braces do not match: {0}", word.Text));
                         return allForms;
@@ -185,7 +173,6 @@ namespace IWNLP.Parser.POSParser
                         allForms.AddRange(this.CreateAllFormsFromBraces(cleaned));
                     }
                 }
-
             }
             return allForms;
         }

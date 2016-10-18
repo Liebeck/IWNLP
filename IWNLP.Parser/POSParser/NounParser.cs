@@ -10,7 +10,6 @@ namespace IWNLP.Parser.POSParser
 {
     public class NounParser : ParserBase
     {
-
         List<String> blacklist = new List<string>() 
         {
         "Oachkatzlschwoaf",
@@ -42,8 +41,6 @@ namespace IWNLP.Parser.POSParser
         "Avis"
         };
 
-
-
         public Word Parse(String word, String[] text, String wortArtLine)
         {
             if (blacklist.Contains(word))
@@ -54,12 +51,11 @@ namespace IWNLP.Parser.POSParser
             {
                 return null;
             }
-            if (text.Any(x => x.Contains("{{Deutsch adjektivische Deklination"))) 
+            if (text.Any(x => x.Contains("{{Deutsch adjektivische Deklination")))
             {
                 AdjectivalDeclensionParser adjectivalDeclensionParser = new AdjectivalDeclensionParser();
                 return adjectivalDeclensionParser.Parse(word, text);
             }
-
             if (!text.Any(x => x.Contains("{{Deutsch Substantiv Übersicht")) || text.Any(x => x.Contains("{{Wortart|Eigenname|Deutsch}}")))
             {
                 return null;
@@ -68,20 +64,14 @@ namespace IWNLP.Parser.POSParser
             noun.POS = POS.Noun;
             noun.Text = word;
             noun.Genus = new List<Genus>();
-
             Dictionary<int, Genus> genusFlexboxMapping = new Dictionary<int, Genus>();
-
             if (wortArtLine.Contains("{{m}}")) { noun.Genus.Add(Genus.Maskulinum); }
             if (wortArtLine.Contains("{{f}}")) { noun.Genus.Add(Genus.Femininum); }
             if (wortArtLine.Contains("{{n}}")) { noun.Genus.Add(Genus.Neutrum); }
             if (wortArtLine.Contains("{{nm}}")) { noun.Genus = noun.Genus.Union(new List<Genus>() { Genus.Neutrum, Genus.Maskulinum }).ToList(); }
             else if (wortArtLine.Contains("{{mf}}") || wortArtLine.Contains("{{fm}}")) { noun.Genus = noun.Genus.Union(new List<Genus>() { Genus.Maskulinum, Genus.Femininum }).ToList(); }
             else if (wortArtLine.Contains("{{nf}}") || wortArtLine.Contains("{{fn}}")) { noun.Genus = noun.Genus.Union(new List<Genus>() { Genus.Neutrum, Genus.Femininum }).ToList(); }
-
             bool wortArtLineGenusIgnored = false; // ignore the specified genus if a line also starts with |Genus
-
-
-
             noun.NominativSingular = new List<Inflection>();
             noun.NominativPlural = new List<Inflection>();
             noun.GenitivSingular = new List<Inflection>();
@@ -131,7 +121,6 @@ namespace IWNLP.Parser.POSParser
                 {
                     Common.PrintError(word, String.Format("NounParser: Error in {0} || {1}", word, text[i]));
                 }
-
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
                 if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
 
@@ -139,17 +128,14 @@ namespace IWNLP.Parser.POSParser
                 {
                     continue; // Skip "Bild"-line
                 }
-                if (String.IsNullOrEmpty(line)) 
+                if (String.IsNullOrEmpty(line))
                 {
                     Common.PrintError(word, String.Format("NounParser: Empty line in {0}", word));
                     continue;
                 }
                 line = base.CleanLine(line);
-
-
                 String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                 List<String> noPluralForms = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
-
                 if (forms.Length == 1) // no Plural
                 {
                     continue;
@@ -162,9 +148,7 @@ namespace IWNLP.Parser.POSParser
                         continue;
                     }
                 }
-
                 forms[1] = forms[1].Replace("&nbsp;", " ");
-
                 // retrieve the number from the key, for instance from "|Nominativ Singular 1"
                 int formNumber = 0;
                 if (forms[0] != ("Genus"))
@@ -175,17 +159,11 @@ namespace IWNLP.Parser.POSParser
                         formNumber = int.Parse(formNumberRaw.ToString());
                     }
                 }
-
-
-
-
-
                 forms[0] = forms[0].Trim(); // remove spaces
                 if (!forms[0].Contains("Genus") && (forms[0].EndsWith("1") || forms[0].EndsWith("2") || forms[0].EndsWith("3") || forms[0].EndsWith("4")))
                 {
                     forms[0] = forms[0].Substring(0, forms[0].Length - 2);
                 }
-
                 if (forms[0].StartsWith("Genus"))
                 {
                     if (!wortArtLineGenusIgnored)
@@ -197,7 +175,6 @@ namespace IWNLP.Parser.POSParser
                     if (forms[0].EndsWith("1")) { genusKey = 1; }
                     else if (forms[0].EndsWith("2")) { genusKey = 2; }
                     else if (forms[0].EndsWith("3")) { genusKey = 3; }
-
                     Genus genus = Genus.Neutrum;
                     if (forms[1] == "n") { genus = Genus.Neutrum; }
                     else if (forms[1] == "f") { genus = Genus.Femininum; }
@@ -241,12 +218,10 @@ namespace IWNLP.Parser.POSParser
                 else
                 {
                     Common.PrintError(word, String.Format("NounParser: forms[0] invalid in {0}: {1}", word, forms[0]));
-                    // throw new ArgumentException();
                 }
             }
             return noun;
         }
-
 
         protected List<Inflection> GetInflections(String input, Word word, Case wordCase, int formNumber, Dictionary<int, Genus> genusDictionary, bool plural)
         {
@@ -267,11 +242,9 @@ namespace IWNLP.Parser.POSParser
                     Common.PrintError(word.Text, String.Format("NounParser: contains parenthesis: {0}", word.Text));
                     word.ParserError = true;
                     return inflections;
-
                 }
                 if (!cleaned.Contains("("))
                 {
-
                     combinations.Add(cleaned);
                 }
                 else
@@ -280,7 +253,6 @@ namespace IWNLP.Parser.POSParser
                     int countClosingBraces = cleaned.Count(x => x == ')');
                     if (countOpeningBraces != countClosingBraces)
                     {
-
                         word.ParserError = true;
                         Common.PrintError(word.Text, String.Format("NounParser: braces do not match: {0}", word.Text));
                         return inflections;
@@ -304,7 +276,6 @@ namespace IWNLP.Parser.POSParser
                     List<String> articles = new List<string>() { "der", "die", "das", "den", "dem", "des" };
                     if (genusDictionary.Count > 0) // the case is specified in the template
                     {
-
                         String article = String.Empty;
                         if (plural)
                         {
@@ -314,7 +285,6 @@ namespace IWNLP.Parser.POSParser
                                 case Case.Accusative: article = "die"; break;
                                 case Case.Genitive: article = "der"; break;
                                 case Case.Dative: article = "den"; break;
-
                             }
                         }
                         else
@@ -324,11 +294,6 @@ namespace IWNLP.Parser.POSParser
                             {
                                 formNumber = 0;
                             }
-                            //if (!genusDictionary.ContainsKey(formNumber))
-                            //{
-                            //    Console.WriteLine(word.Text + " key not found");
-                            //    break;
-                            //}
                             Genus genus = genusDictionary[formNumber];
                             switch (genus)
                             {
@@ -348,7 +313,6 @@ namespace IWNLP.Parser.POSParser
                                         case Case.Accusative: article = "die"; break;
                                         case Case.Genitive:
                                         case Case.Dative: article = "der"; break;
-
                                     }
                                     break;
                                 case Genus.Neutrum:
@@ -358,7 +322,6 @@ namespace IWNLP.Parser.POSParser
                                         case Case.Accusative: article = "das"; break;
                                         case Case.Genitive: article = "des"; break;
                                         case Case.Dative: article = "dem"; break;
-
                                     }
                                     break;
                             }
@@ -373,10 +336,7 @@ namespace IWNLP.Parser.POSParser
                     {
                         if (finalCombination.Contains(" "))  // check for article
                         {
-
-
                             String firstWord = finalCombination.Substring(0, finalCombination.IndexOf(" "));
-
                             if (articles.Contains(firstWord))
                             {
                                 String rest = finalCombination.Substring(finalCombination.IndexOf(" ") + 1).Trim();

@@ -69,7 +69,6 @@ namespace IWNLP.Parser.POSParser
                     stringBuilder.Append(input.Substring(index));
                     return stringBuilder.ToString();
                 }
-
                 stringBuilder.Append(input.Substring(index, beginStartText - index));
                 int endStartText = input.IndexOf(endText, beginStartText);
                 index = endStartText + endText.Length;
@@ -101,10 +100,7 @@ namespace IWNLP.Parser.POSParser
             input = input.Replace("(''veraltet'')", String.Empty).Trim(); // Example: "küren"
             input = input.Replace("''(veraltet)''", String.Empty).Trim(); // Example: "werden"
             input = input.Replace("''veraltet:''", String.Empty).Trim();
-
-
             input = input.Replace("{{va.|:}}", String.Empty).Trim(); // Example: Teppich
-
             input = input.Replace("''veraltend auch:''", String.Empty).Trim(); // Example: "scheren"
             input = input.Replace("''(selten)''", String.Empty).Trim(); // Example: "erkälten"
             input = input.Replace("''selten:''", String.Empty).Trim(); // Example: "Fetus"
@@ -116,14 +112,12 @@ namespace IWNLP.Parser.POSParser
             input = input.Replace("''dialektal auch:''", String.Empty).Trim(); // Example: "fladern"
             input = input.Replace("''regional:''", String.Empty).Trim(); // Example: "doll"
             input = input.Replace("''nur umgangsspachlich:''", String.Empty).Trim(); // Example: "einzig"
-
             input = input.Replace("''auch:''", String.Empty).Trim(); // Example: "Mahr"
             input = input.Replace("''militärisch:''", String.Empty).Trim(); // Example: "wegtreten"
             input = input.Replace("''auch einfach:''", String.Empty).Trim(); // Example: "hereinkommen"
             input = input.Replace("[[Hilfe:Dativ-e|''Variante:'']]", String.Empty).Trim(); // Example: "Siebenschläfertag"
             input = input.Replace("Nebensatz:", String.Empty).Trim(); // Example: "aussortieren"
-
-            // remove braces for internal links with the same name
+            // replace braces for internal links with the same name
             if (input.Contains("[[") && input.Contains("]]") && input.Contains("|"))
             {
                 String firstPart = input.Substring(0, input.IndexOf("[["));
@@ -135,9 +129,6 @@ namespace IWNLP.Parser.POSParser
             {
                 input = input.Replace("[[", String.Empty).Replace("]]", String.Empty);
             }
-
-
-
             return input;
         }
 
@@ -145,7 +136,6 @@ namespace IWNLP.Parser.POSParser
         {
             List<String> allForms = new List<string>();
             List<String> removedOptionals = new List<string>();
-
             String startText = "(";
             String endText = ")";
             int braceCounter = 0;
@@ -189,7 +179,6 @@ namespace IWNLP.Parser.POSParser
                 Common.PrintError(String.Format("ParserBase error with '!': {0}", input));
             }
             return allForms;
-
         }
 
         protected String StrRightC(String input, int length)
@@ -247,7 +236,6 @@ namespace IWNLP.Parser.POSParser
                 return String.Empty;
             }
             return input.Substring(input.Length - offsetFromRight, length);
-
         }
 
         public String RemoveNBSPandTrim(String value)

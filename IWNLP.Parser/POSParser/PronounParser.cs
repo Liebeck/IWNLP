@@ -9,7 +9,6 @@ namespace IWNLP.Parser.POSParser
 {
     public class PronounParser : ParserBase
     {
-
         List<String> blacklist = new List<string>() 
         {
             "einige",
@@ -23,7 +22,6 @@ namespace IWNLP.Parser.POSParser
             }
             Pronoun pronoun = new Pronoun();
             pronoun.Text = word;
-
             if (wortArtLine.Contains("{{Wortart|Artikel|Deutsch}}") && !wortArtLine.Contains("{{Wortart|Demonstrativpronomen|Deutsch}}"))
             {
                 pronoun.POS = POS.DET;
@@ -34,8 +32,6 @@ namespace IWNLP.Parser.POSParser
             }
             if (text.Any(x => x.Contains("{{Pronomina-Tabelle")))
             {
-
-
                 int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Pronomina-Tabelle")).Select(x => x.Index).First();
                 int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart + 1 && x.Content.EndsWith("}}")).Select(x => x.Index).First();
                 for (int i = flexionSubstantivStart + 1; i < flexionSubstantivEnd; i++)
@@ -50,14 +46,9 @@ namespace IWNLP.Parser.POSParser
                         Common.PrintError(word, String.Format("PronounParser: error in {0} || {1}", word, text[i]));
                         text[i] = "|" + text[i];
                     }
-
-
-
                     String line = text[i].Substring(1).Trim(); // Skip leading "|"
                     if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
                     line = base.CleanLine(line);
-
-
                     String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                     List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                     if (forms.Length == 1 || (forms.Length == 2 && (noValue.Contains(forms[1].Trim()))))  // No value given
@@ -66,7 +57,6 @@ namespace IWNLP.Parser.POSParser
                     }
                     forms[1] = forms[1].Replace("&nbsp;", " ");
                     forms[0] = forms[0].Trim(); // remove spaces
-
                     if (forms[0].StartsWith("Wer oder was? (Einzahl m)") || forms[0].StartsWith("Nominativ Singular m"))
                     {
                         if (pronoun.WerEinzahlM == null) { pronoun.WerEinzahlM = new List<string>(); }
@@ -163,7 +153,6 @@ namespace IWNLP.Parser.POSParser
                     this.AddTemplateDeutschPersonalpronomen3(pronoun);
                 }
             }
-
             return pronoun;
         }
 
@@ -213,30 +202,21 @@ namespace IWNLP.Parser.POSParser
                 {
                     cleaned = cleaned.Substring(0, cleaned.Length - 2);
                 }
-
-
                 int countOpeningBraces = cleaned.Count(x => x == '(');
                 if (countOpeningBraces == 1 && cleaned.StartsWith("(") && cleaned.EndsWith(")"))
                 {
                     cleaned = cleaned.Substring(1, cleaned.Length - 2).Trim();
                 }
-
-
                 List<String> combinations = new List<string>();
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains("''") || cleaned.Contains("(") || cleaned.Contains(")"))
                 {
                     word.ParserError = true;
                     Common.PrintError(word.Text, String.Format("PronounParser: contains parenthesis {0}", word.Text));
                     return allForms;
-
                 }
-
                 allForms.Add(cleaned);
-
-
             }
             return allForms;
         }
-
     }
 }
