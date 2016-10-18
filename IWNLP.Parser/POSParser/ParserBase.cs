@@ -186,7 +186,7 @@ namespace IWNLP.Parser.POSParser
             if (allForms.Contains("!")) // special case for "angrenzen", fixed at 20.4.2015. can be removed after next dump
             {
                 allForms.Remove("!");
-                System.Console.WriteLine("ParserBase error with '!': " + input);
+                Common.PrintError(String.Format("ParserBase error with '!': {0}", input));
             }
             return allForms;
 
@@ -265,7 +265,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (values[i].Contains(",") || values[i].Contains("<") || values[i].Contains(">") || values[i].Contains("''"))
                 {
-                    Console.WriteLine("Error Verb Flexparser: " + values[i]);
+                    Common.PrintError(String.Format("Error Verb Flexparser: {0}", values[i]));
                 }
                 if (values[i].Contains("&nbsp;"))
                 {

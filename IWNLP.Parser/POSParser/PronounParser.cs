@@ -47,7 +47,7 @@ namespace IWNLP.Parser.POSParser
                     }
                     if (!text[i].StartsWith("|"))
                     {
-                        Console.WriteLine("Error in: " + word + " || " + text[i]);
+                        Common.PrintError(word, String.Format("PronounParser: error in {0} || {1}", word, text[i]));
                         text[i] = "|" + text[i];
                     }
 
@@ -226,7 +226,7 @@ namespace IWNLP.Parser.POSParser
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains("''") || cleaned.Contains("(") || cleaned.Contains(")"))
                 {
                     word.ParserError = true;
-                    Console.WriteLine("Pronoun parser error (contains parenthesis): " + word.Text);
+                    Common.PrintError(word.Text, String.Format("PronounParser: contains parenthesis {0}", word.Text));
                     return allForms;
 
                 }

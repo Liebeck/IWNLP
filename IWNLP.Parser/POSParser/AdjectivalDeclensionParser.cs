@@ -135,7 +135,7 @@ namespace IWNLP.Parser.POSParser
             }
             if(result.Any(x => x.Contains("{{") || x.Contains("}}") || x.Contains("<") || x.Contains(">") || x.Contains("|") || x.Contains(":") || x.Contains("…") || x.Contains("...") || x.Contains(" ,") || x.Contains(", ") || x.Contains("''") || x.Contains("(") || x.Contains(")")))
             {
-                Console.WriteLine("AdjectivalDeclensionParser error (contains parenthesis): " + input);
+                Common.PrintError( String.Format("AdjectivalDeclensionParser: error (contains parenthesis): {0}", input));
             }
             return result;
         }
@@ -158,7 +158,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains(":") || cleaned.Contains("…") || cleaned.Contains("...") || cleaned.Contains(" ,") || cleaned.Contains(", ") || cleaned.Contains("''") || cleaned.Contains("(") || cleaned.Contains(")"))
                 {
-                    Console.WriteLine("AdjectivalDeclensionParser error (contains parenthesis): " + word);
+                    Common.PrintError(word, String.Format("AdjectivalDeclensionParser error (contains parenthesis): {0}", word));
                 }
                 forms.Add(ParseInflectionWithArticle(cleaned, word));
             }
@@ -181,7 +181,7 @@ namespace IWNLP.Parser.POSParser
             }
             else
             {
-                Console.WriteLine("AdjectivalDeclensionParser: " + word + " article not found");
+                Common.PrintError(word, String.Format("AdjectivalDeclensionParser: {0} article not found", word));
                 return null;
             }
         }

@@ -15,7 +15,7 @@ namespace IWNLP.Parser.FlexParser
             AdjectiveDeclination adjectiveDeclination = new AdjectiveDeclination();
             if (!(text.Select((content, index) => new { Content = content.Trim(), Index = index }).Any(x => x.Content.Contains("{{Deklinationsseite Adjektiv"))))
             {
-                Console.WriteLine("AdjectiveFlexParser Parser: No definition block: " + word);
+                Common.PrintError(word, String.Format("AdjectiveFlexParser: No definition block: {0}", word));
                 return null;
             }
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deklinationsseite Adjektiv")).Select(x => x.Index).First();
@@ -29,7 +29,7 @@ namespace IWNLP.Parser.FlexParser
                 }
                 if (!text[i].StartsWith("|") && !text[i].StartsWith("Positiv-Stamm"))
                 {
-                    Console.WriteLine("Error in: " + word + " || " + text[i]);
+                    Common.PrintError(word, String.Format("AdjectiveFlexParser: Error in: {0}||{1}", word, text[i]));
                 }
 
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
@@ -104,7 +104,7 @@ namespace IWNLP.Parser.FlexParser
                     adjectiveDeclination.EEndung = true;
                     if (forms[1] != "1")
                     {
-                        System.Console.WriteLine("AdjectiveFlexParser-e-Endung wrong value: " + word + " = " + line);
+                        Common.PrintError(word, String.Format("AdjectiveFlexParser: e-Endung wrong value {0}={1}", word, line));
                     }
                 }
                 else if (forms[0].StartsWith("Prädikativ"))
@@ -115,7 +115,7 @@ namespace IWNLP.Parser.FlexParser
                     }
                     else
                     {
-                        System.Console.WriteLine("AdjectiveFlexParser-Prädikativ wrong value: " + word + " = " + line);
+                        Common.PrintError(word, String.Format("AdjectiveFlexParser: Prädikativ wrong value {0}={1}", word, line));
                     }
                 }
                 else if (forms[0].StartsWith("Positiv"))
@@ -125,7 +125,7 @@ namespace IWNLP.Parser.FlexParser
 
                 else
                 {
-                    System.Console.WriteLine("AdjectiveFlexParser unknown parameter: " + word + " = " + line);
+                    Common.PrintError(word, String.Format("AdjectiveFlexParser: unknown parameter {0}={1}", word, line));
                 }
             }
             CreateFlexions(adjectiveDeclination);

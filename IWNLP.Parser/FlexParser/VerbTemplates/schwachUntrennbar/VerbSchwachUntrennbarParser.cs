@@ -37,7 +37,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 {
                     if(String.IsNullOrEmpty(inputSplitted[i]))
                     {
-                        Console.WriteLine("VerbSchwachUntrennbarParser: " + word + " parsing arguments, possible empty parameter");
+                        Common.PrintError(word, String.Format("VerbSchwachUntrennbarParser: {0} parsing arguments, possible empty parameter", word));
                         break;
                     }
                     parameters["1"] = inputSplitted[i++];
@@ -54,7 +54,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             }
             if (parameters.Any(x => x.Value.Contains("="))) 
             {
-                Console.WriteLine("VerbSchwachUntrennbarParser: " + word + " contains '='");
+                Common.PrintError(word, String.Format("VerbSchwachUntrennbarParser: {0} contains '='", word));
             }
             return parameters;
         }

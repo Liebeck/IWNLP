@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
-    public class AdjectiveParser: ParserBase
+    public class AdjectiveParser : ParserBase
     {
-        public Word Parse(String word, String[] text, String wortArtLine) 
+        public Word Parse(String word, String[] text, String wortArtLine)
         {
 
             // https://de.wiktionary.org/wiki/Vorlage:Deklinationsseite_Adjektiv
@@ -18,11 +18,11 @@ namespace IWNLP.Parser.POSParser
             adjective.Text = word;
             adjective.POS = POS.Adjective;
 
-            if(!(text.Select((content, index) => new { Content = content.Trim(), Index = index }).Any(x => x.Content.Contains("{{Deutsch Adjektiv Übersicht"))))
+            if (!(text.Select((content, index) => new { Content = content.Trim(), Index = index }).Any(x => x.Content.Contains("{{Deutsch Adjektiv Übersicht"))))
             {
-                if (base.OutputDefinitionBlockMissing) 
+                if (base.OutputDefinitionBlockMissing)
                 {
-                    Console.WriteLine("Adjective Parser: No definition block: " + word);
+                    Common.PrintError(word, String.Format("AdjectiveParser: No definition block: {0}", word));
                 }
                 return adjective;
             }
@@ -49,13 +49,13 @@ namespace IWNLP.Parser.POSParser
             //            {
             //                Console.WriteLine(String.Format("* [[{0}]]: {1}", word, superlativ));
             //            }
-                        
+
             //        }
             //        //
             //    }
-                
+
             //}
-            
+
 
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Adjektiv Übersicht") || x.Content.Contains("{{ Deutsch Adjektiv Übersicht")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart + 1 && x.Content.EndsWith("}}")).Select(x => x.Index).First();
@@ -68,7 +68,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 if (!text[i].StartsWith("|"))
                 {
-                    Console.WriteLine("Error in: " + word + " || " + text[i]);
+                    Common.PrintError(word, String.Format("AdjectiveParser: Error in: {0} || {1}", word, text[i]));
                 }
 
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
@@ -95,7 +95,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 else if (forms[0].StartsWith("Komparativ"))
                 {
-                    if (adjective.Komparativ == null) 
+                    if (adjective.Komparativ == null)
                     {
                         adjective.Komparativ = new List<string>();
                     }
@@ -103,7 +103,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 else if (forms[0].StartsWith("Superlativ"))
                 {
-                    if (adjective.Superlativ == null) 
+                    if (adjective.Superlativ == null)
                     {
                         adjective.Superlativ = new List<string>();
                     }
@@ -120,17 +120,17 @@ namespace IWNLP.Parser.POSParser
                 }
             }
             // Error handling
-            if(adjective.Superlativ != null && adjective.Superlativ.Any(x => x.StartsWith("am ")))
+            if (adjective.Superlativ != null && adjective.Superlativ.Any(x => x.StartsWith("am ")))
             {
-                Console.WriteLine("AdjectiveParser: " + word + " contains a superlative with 'am'");
+                Common.PrintError(word, String.Format("AdjectiveParser: contains a superlative with 'am' {0}", word));
             }
             if (adjective.Superlativ != null && adjective.Superlativ.Any(x => x.Contains("<")))
             {
-                Console.WriteLine("AdjectiveParser: " + word + " contains a '<'");
+                Common.PrintError(word, String.Format("AdjectiveParser: contains a '<' {0}", word));
             }
             if (adjective.Komparativ != null && adjective.Komparativ.Any(x => x.Contains("<")))
             {
-                Console.WriteLine("AdjectiveParser: " + word + " contains a '<'");
+                Common.PrintError(word, String.Format("AdjectiveParser: contains a '<' {0}", word));
             }
             return adjective;
         }
@@ -150,7 +150,7 @@ namespace IWNLP.Parser.POSParser
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains("''"))
                 {
                     word.ParserError = true;
-                    Console.WriteLine("AdjeciveParser error (contains parenthesis): " + word.Text);
+                    Common.PrintError(word.Text, String.Format("AdjectiveParser: contains parenthesis: {0}", word.Text));
                     return allForms;
 
                 }
@@ -166,9 +166,9 @@ namespace IWNLP.Parser.POSParser
                     if (countOpeningBraces != countClosingBraces)
                     {
 
- 
+
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": braces do not match");
+                        Common.PrintError(word.Text, String.Format("AdjectiveParser: braces do not match: {0}", word.Text));
                         return allForms;
                     }
                     if (countOpeningBraces == 1 && cleaned.StartsWith("(") && cleaned.EndsWith(")"))
@@ -178,7 +178,7 @@ namespace IWNLP.Parser.POSParser
                     else if (countOpeningBraces > 2)
                     {
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": containts more than 2 braces. at the moment, the parser doesn't support more than 2 braces.");
+                        Common.PrintError(word.Text, String.Format("AdjectiveParser: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.: {0}", word.Text));
                     }
                     else
                     {

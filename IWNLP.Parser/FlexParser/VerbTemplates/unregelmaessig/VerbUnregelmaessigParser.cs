@@ -37,7 +37,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 
             if (parameters.Count == 0)
             {
-                System.Console.WriteLine("VerbUnregelmaessigParser: " + word + " zero parameters");
+                Common.PrintError(word, String.Format("VerbUnregelmaessigParser: {0} zero parameters", word));
             }
             return parameters;
         }

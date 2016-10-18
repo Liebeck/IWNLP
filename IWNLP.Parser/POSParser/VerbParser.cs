@@ -31,7 +31,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (base.OutputDefinitionBlockMissing)
                 {
-                    Console.WriteLine("Verb Parser: No definition block: " + word);
+                    Common.PrintError(word, String.Format("Verb Parser: No definition block: {0}", word));
                 }
                 verb.ConjugationBlockMissing = true;
                 return verb;
@@ -48,7 +48,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 if (!text[i].StartsWith("|"))
                 {
-                    Console.WriteLine("Error in: " + word + " || " + text[i]);
+                    Common.PrintError(word, String.Format("Error in: {0} || {1}", word, text[i]));
                 }
 
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
@@ -66,7 +66,7 @@ namespace IWNLP.Parser.POSParser
 
                 if (line.Contains("<ref name"))
                 {
-                    Console.WriteLine("Verb contains '<ref name':" + word);
+                    Common.PrintError(word, String.Format("Verb contains '<ref name': {0}", word));
                 }
                 String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                 List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
@@ -172,7 +172,7 @@ namespace IWNLP.Parser.POSParser
                 {
                     if (OutputWrongInflectionForms)
                     {
-                        Console.WriteLine("word " + word + "== " + line);
+                        Common.PrintError(word, String.Format("VerbParser: Wrong inflection form: {0}=={1}", word, line));
                     }
                 }
                 else if (forms[0].StartsWith("Weitere Konjugationen"))
@@ -182,7 +182,7 @@ namespace IWNLP.Parser.POSParser
                 else
                 {
                     //throw new ArgumentException();
-                    Console.WriteLine("word " + word + "== " + line);
+                    Common.PrintError(word, String.Format("word {0}=={1}", word, line));
                 }
             }
 
@@ -219,7 +219,7 @@ namespace IWNLP.Parser.POSParser
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains(":") || cleaned.Contains("''"))
                 {
                     word.ParserError = true;
-                    Console.WriteLine("VerbParser error (contains parenthesis): " + word.Text);
+                    Common.PrintError(word.Text, String.Format("VerbParser error (contains parenthesis): {0}", word.Text));
                     return allForms;
 
                 }
@@ -235,7 +235,7 @@ namespace IWNLP.Parser.POSParser
                     if (countOpeningBraces != countClosingBraces)
                     {
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": braces do not match");
+                        Common.PrintError(word.Text, String.Format("{0}: braces to not match", word.Text));
                         return allForms;
                     }
                     if (countOpeningBraces == 1 && cleaned.StartsWith("(") && cleaned.EndsWith(")"))
@@ -245,7 +245,7 @@ namespace IWNLP.Parser.POSParser
                     else if (countOpeningBraces > 2)
                     {
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.");
+                        Common.PrintError(word.Text, String.Format("{0}: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.", word.Text));
                     }
                     else
                     {
@@ -256,7 +256,7 @@ namespace IWNLP.Parser.POSParser
             }
             if (allForms.Count == 0)
             {
-                Console.WriteLine("VerbParser: zero forms extracted: " + word.Text + "| " + input);
+                Common.PrintError(word.Text, String.Format("VerbParser: zero forms extracted: {0}| {1}", word.Text, input));
                 //return null; 
 
             } // Example: "reinpfeifen", Example "verheeren"

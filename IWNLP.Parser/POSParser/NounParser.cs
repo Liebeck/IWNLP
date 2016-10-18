@@ -129,7 +129,7 @@ namespace IWNLP.Parser.POSParser
                 if (text[i].StartsWith("<!--")) { continue; } // skip comments
                 if (!text[i].StartsWith("|"))
                 {
-                    Console.WriteLine("Error in: " + word + " || " + text[i]);
+                    Common.PrintError(word, String.Format("NounParser: Error in {0} || {1}", word, text[i]));
                 }
 
                 String line = text[i].Substring(1).Trim(); // Skip leading "|"
@@ -141,7 +141,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 if (String.IsNullOrEmpty(line)) 
                 {
-                    Console.WriteLine(String.Format("Empty line in {0}", word));
+                    Common.PrintError(word, String.Format("NounParser: Empty line in {0}", word));
                     continue;
                 }
                 line = base.CleanLine(line);
@@ -205,7 +205,7 @@ namespace IWNLP.Parser.POSParser
                     else if (forms[1] == "0") { genus = Genus.Pluralwort; }
                     else
                     {
-                        Console.WriteLine(word + ": error while parsing genus: " + forms[1]);
+                        Common.PrintError(word, String.Format("NounParser: error while parsing genus: {0}", forms[1]));
                     }
                     if (!noun.Genus.Contains(genus))
                     {
@@ -240,7 +240,7 @@ namespace IWNLP.Parser.POSParser
                 else if (forms[0] == "Artikel") { }
                 else
                 {
-                    Console.WriteLine("Nounparser: forms[0] invalid in " + word + ": " + forms[0]);
+                    Common.PrintError(word, String.Format("NounParser: forms[0] invalid in {0}: {1}", word, forms[0]));
                     // throw new ArgumentException();
                 }
             }
@@ -264,7 +264,7 @@ namespace IWNLP.Parser.POSParser
                 List<String> combinations = new List<string>();
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains(":") || cleaned.Contains("…") || cleaned.Contains("...") || cleaned.Contains(" ,") || cleaned.Contains(", ") || cleaned.Contains("''"))
                 {
-                    Console.WriteLine("NounParser error (contains parenthesis): " + word.Text);
+                    Common.PrintError(word.Text, String.Format("NounParser: contains parenthesis: {0}", word.Text));
                     word.ParserError = true;
                     return inflections;
 
@@ -282,7 +282,7 @@ namespace IWNLP.Parser.POSParser
                     {
 
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": braces do not match");
+                        Common.PrintError(word.Text, String.Format("NounParser: braces do not match: {0}", word.Text));
                         return inflections;
                     }
                     if (countOpeningBraces == 1 && cleaned.StartsWith("(") && cleaned.EndsWith(")"))
@@ -292,7 +292,7 @@ namespace IWNLP.Parser.POSParser
                     else if (countOpeningBraces > 2)
                     {
                         word.ParserError = true;
-                        Console.WriteLine(word.Text + ": contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.");
+                        Common.PrintError(word.Text, String.Format("NounParser: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.: {0}", word.Text));
                     }
                     else
                     {

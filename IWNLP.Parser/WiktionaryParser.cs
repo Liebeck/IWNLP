@@ -83,11 +83,11 @@ namespace IWNLP.Parser
                     }
                     catch (InvalidOperationException invalid)
                     {
-                        Console.WriteLine("single-line adcjective declination: " + word);
+                        Common.PrintError(word, String.Format("WiktionaryParser: single-line adcjective declination: {0}", word));
                     }
                     catch
                     {
-                        Console.WriteLine("Adjective declination error: " + word);
+                        Common.PrintError(word, String.Format("WiktionaryParser: Adjective declination error: {0}", word));
                     }
 
                 }
@@ -211,7 +211,7 @@ namespace IWNLP.Parser
                 }
                 catch
                 {
-                    Console.WriteLine("adjectiveparser error: " + word);
+                    Common.PrintError(word, String.Format("WiktionaryParser: adjectiveparser error: {0}", word));
                     return null;
                 }
             }
@@ -223,7 +223,7 @@ namespace IWNLP.Parser
                 }
                 catch
                 {
-                    Console.WriteLine("verbparser error: " + word);
+                    Common.PrintError(word, String.Format("WiktionaryParser: verbparser error: {0}", word));
                     return null;
                 }
             }
@@ -235,7 +235,7 @@ namespace IWNLP.Parser
                 }
                 catch
                 {
-                    Console.WriteLine("pronoun parser error: " + word);
+                    Common.PrintError(word, String.Format("WiktionaryParser: pronoun parser error: {0}", word));
                     return null;
                 }
             }
