@@ -15,7 +15,18 @@ namespace IWNLP.Parser
 
         public static List<String> SuppressError = new List<string>()
         {
-
+            // fixed after 20161001 dump
+            "Brandschutzgitter",
+            "Seiner Majestät Schiff",
+            "Glockenkurve",
+            "dersaufen",
+            "gestikulieren",
+            "lobbyieren",
+            "hereinbrechen",
+            "verglimmen",
+            "Flexion:butterig",
+            "Flexion:unumstritten",
+            "dersäufen"
         };
     }
 }
