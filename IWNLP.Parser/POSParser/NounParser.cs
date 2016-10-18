@@ -139,6 +139,11 @@ namespace IWNLP.Parser.POSParser
                 {
                     continue; // Skip "Bild"-line
                 }
+                if (String.IsNullOrEmpty(line)) 
+                {
+                    Console.WriteLine(String.Format("Empty line in {0}", word));
+                    continue;
+                }
                 line = base.CleanLine(line);
 
 
