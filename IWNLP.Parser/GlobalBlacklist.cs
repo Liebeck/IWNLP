@@ -12,5 +12,10 @@ namespace IWNLP.Parser
         {
            
         };
+
+        public static List<String> SuppressError = new List<string>()
+        {
+
+        };
     }
 }

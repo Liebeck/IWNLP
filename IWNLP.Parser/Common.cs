@@ -10,8 +10,22 @@ namespace IWNLP.Parser
     {
         public static String[] GetSubArray(String[] input, int startIndex, int lastLineIndex)
         {
-            int length = lastLineIndex - startIndex +1;
+            int length = lastLineIndex - startIndex + 1;
             return input.Skip(startIndex).Take(length).ToArray();
+        }
+
+        public static void PrintError(String word, String message)
+        {
+            if (!GlobalBlacklist.SuppressError.Contains(word))
+            {
+                Console.WriteLine(message);
+            }
+        }
+
+        public static void PrintError(String message)
+        {
+            Console.WriteLine(message);
+
         }
     }
 }
