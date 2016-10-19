@@ -5,8 +5,8 @@ install:
   - ps: Start-FileDownload 'https://dumps.wikimedia.org/dewiktionary/20161001/dewiktionary-20161001-pages-articles.xml.bz2'
   - 7z e dewiktionary-20161001-pages-articles.xml.bz2 -oC:\
   
-  - DEL /Q "App.config"
-  - rename "App.AppVeyor.config" "App.config"
+  - DEL /Q "IWNLP.ParserTest/App.config"
+  - rename "IWNLP.ParserTest/App.AppVeyor.config" "IWNLP.ParserTest/App.config"
   
 cache:
   - dewiktionary-20161001-pages-articles.xml.bz2
