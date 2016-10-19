@@ -147,7 +147,10 @@ namespace IWNLP.Parser
             Word wordObject = null;
             bool deutschesWort = !text.Any(x => x.StartsWith("{{Schweizer und Liechtensteiner Schreibweise"));
             deutschesWort &= !text.Any(x => x.StartsWith("{{Alte Schreibweise"));
-            deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Deklinierte Form|Deutsch}}"));
+            if(text.Any(x => x.Contains("{{Wortart|Deklinierte Form|Deutsch}}")))
+            {
+                deutschesWort &= text.Any(x => x.Contains("{{Wortart|Artikel|Deutsch}}")); // special case for 'das'
+            }
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Konjugierte Form|Deutsch}}"));
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Sprichwort|Deutsch}}"));
             deutschesWort &= !text.Any(x => x.Contains("{{Wortart|Partizip II|Deutsch}}"));
