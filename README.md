@@ -14,3 +14,17 @@ More details can be found at www.iwnlp.com
 IWNLP.Parser.exe "c:\\dewiktionary-latest-pages-articles.xml" "c:\\parsedIWNLP_latest.xml"
 ```
 * Follow the steps from [IWNLP.Lemmatizer](https://github.com/Liebeck/IWNLP.Lemmatizer) to create the lemmatization mapping 
+
+# Citation
+Please include the following reference if you use IWNLP in your work:
+``` bash
+@InProceedings{liebeck-conrad:2015:ACL-IJCNLP,
+  author    = {Liebeck, Matthias  and  Conrad, Stefan},
+  title     = {IWNLP: Inverse Wiktionary for Natural Language Processing},
+  booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)},
+  year      = {2015},
+  publisher = {Association for Computational Linguistics},
+  pages     = {414--418},
+  url       = {http://www.aclweb.org/anthology/P15-2068}
+}
+```
