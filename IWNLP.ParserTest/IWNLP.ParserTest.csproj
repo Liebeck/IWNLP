@@ -74,6 +74,7 @@
     <Compile Include="WikiPOSTagParser.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.AppVeyor.config" />
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
