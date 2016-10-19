@@ -3,4 +3,4 @@ before_build:
   
 install:
   - ps: Start-FileDownload 'https://dumps.wikimedia.org/dewiktionary/20161001/dewiktionary-20161001-pages-articles.xml.bz2'
-  - 7z dewiktionary-20161001-pages-articles.xml.bz2
+  - 7z e dewiktionary-20161001-pages-articles.xml.bz2
