@@ -1,9 +1,15 @@
+environment:
+  DUMP_URL: https://dumps.wikimedia.org/dewiktionary/20161001/dewiktionary-20161001-pages-articles.xml.bz2
+  DOWNLOAD_PATH: C:\dewiktionary-20161001-pages-articles.xml.bz2
+  
+
 before_build:
   - nuget restore
   
 install:
-  - ps: Start-FileDownload 'https://dumps.wikimedia.org/dewiktionary/20161001/dewiktionary-20161001-pages-articles.xml.bz2'
-  - 7z e dewiktionary-20161001-pages-articles.xml.bz2 -oC:\
+  - if not exist %DOWNLOAD_PATH% appveyor DownloadFile "%DUMP_URL%" -FileName %DOWNLOAD_PATH%
+  
+  - 7z e %DOWNLOAD_PATH% -oC:\
   
   - DEL /Q "C:\projects\iwnlp\IWNLP.ParserTest\App.config"
   - rename "C:\projects\iwnlp\IWNLP.ParserTest\App.AppVeyor.config" "C:\projects\iwnlp\IWNLP.ParserTest\App.config"
