@@ -6,11 +6,11 @@ IWNLP is a dictionary-based lemmatizer for the German language. It is based on t
 More details can be found at www.iwnlp.com
 
 # How to run IWNLP
-# Clone the project and build it
-# Download https://dumps.wikimedia.org/dewiktionary/latest/dewiktionary-latest-pages-articles.xml.bz2
-# Unpack dewiktionary-latest-pages-articles.xml.bz2
-# Start IWNLP.Parser.exe with two parameters: Path to the unzipped file, path to the export file. For instance
+* Clone the project and build it
+* Download https://dumps.wikimedia.org/dewiktionary/latest/dewiktionary-latest-pages-articles.xml.bz2
+* Unpack dewiktionary-latest-pages-articles.xml.bz2
+* Start IWNLP.Parser.exe with two parameters: Path to the unzipped file, path to the export file. For instance
 ``` bash
 IWNLP.Parser.exe "c:\\dewiktionary-latest-pages-articles.xml" "c:\\parsedIWNLP_latest.xml"
 ```
-# Follow the steps from [IWNLP.Lemmatizer](https://github.com/Liebeck/IWNLP.Lemmatizer) to create the lemmatization mapping 
+* Follow the steps from [IWNLP.Lemmatizer](https://github.com/Liebeck/IWNLP.Lemmatizer) to create the lemmatization mapping 
