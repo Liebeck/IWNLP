@@ -127,28 +127,6 @@ namespace IWNLP.ParserTest
                     WenEinzahlF = new List<string>(){"die"},
                     WenEinzahlN = new List<string>(){"das"},
                     WenEinzahlMehrzahl = new List<string>(){"die"},
-                },
-                new Models.Pronoun()
-                {
-                    POS = Models.POS.Pronoun,
-                    Text = word,
-                    WiktionaryID = wiktionaryID,
-                    WerEinzahlM = new List<string>(){"der"},
-                    WerEinzahlF = new List<string>(){"die"},
-                    WerEinzahlN = new List<string>(){"das"},
-                    WerEinzahlMehrzahl = new List<string>(){"die"},
-                    WessenEinzahlM = new List<string>(){"dessen"},
-                    WessenEinzahlF = new List<string>(){"deren"},
-                    WessenEinzahlN = new List<string>(){"dessen"},
-                    WessenEinzahlMehrzahl = new List<string>(){"deren"},
-                    WemEinzahlM = new List<string>(){"dem"},
-                    WemEinzahlF = new List<string>(){"der"},
-                    WemEinzahlN = new List<string>(){"dem"},
-                    WemEinzahlMehrzahl = new List<string>(){"denen"},
-                    WenEinzahlM = new List<string>(){"den"},
-                    WenEinzahlF = new List<string>(){"die"},
-                    WenEinzahlN = new List<string>(){"das"},
-                    WenEinzahlMehrzahl = new List<string>(){"die"},
                 }
             };
             XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory,"3.txt"));
