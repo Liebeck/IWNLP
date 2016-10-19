@@ -12,7 +12,7 @@ install:
   - 7z e %DOWNLOAD_PATH% -oC:\
   
   - DEL /Q "C:\projects\iwnlp\IWNLP.ParserTest\App.config"
-  - rename "C:\projects\iwnlp\IWNLP.ParserTest\App.AppVeyor.config" "C:\projects\iwnlp\IWNLP.ParserTest\App.config"
+  - rename "C:\projects\iwnlp\IWNLP.ParserTest\App.AppVeyor.config" "App.config"
   
 cache:
   - C:\dewiktionary-20161001-pages-articles.xml.bz2
