@@ -928,7 +928,7 @@ namespace IWNLP.ParserTest
                 KonjunktivII_Ich = new List<string>(){"würde"},
                 ImperativSingular = new List<string>(){"werde!"},
                 ImperativPlural = new List<string>(){"werdet!"},
-                PartizipII = new List<string>(){"geworden"},
+                PartizipII = new List<string>(){"geworden", "worden"},
                 Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
              },
