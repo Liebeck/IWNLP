@@ -1368,7 +1368,7 @@ namespace IWNLP.ParserTest
                 Präsens_ErSieEs = new List<string>(){"schwebt"},
                 Präteritum_ich = new List<string>(){"schwebte"},
                 KonjunktivII_Ich = new List<string>(){"schwebte"},
-                ImperativSingular = new List<string>(){"schwebe!"},
+                ImperativSingular = new List<string>(){"schwebe!", "schweb!"},
                 ImperativPlural = new List<string>(){"schwebt!"},
                 PartizipII = new List<string>(){"geschwebt"},
                 Hilfsverb = new List<string>(){"sein","haben"},
