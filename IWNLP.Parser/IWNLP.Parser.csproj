@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppSettingsWrapper.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="FlexParser\AdjectiveFlexParser.cs" />
     <Compile Include="FlexParser\VerbFlexParser.cs" />
