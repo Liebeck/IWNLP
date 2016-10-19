@@ -17,5 +17,10 @@ namespace IWNLP.ParserTest
         {
             get { return System.Configuration.ConfigurationManager.AppSettings["UnitTestDumpDirectory"]; }
         }
+
+        public static bool SuppressDumps
+        {
+            get { return bool.Parse(System.Configuration.ConfigurationManager.AppSettings["SuppressDumps"].ToString()); }
+        }
     }
 }
