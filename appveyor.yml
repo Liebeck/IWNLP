@@ -3,7 +3,10 @@ before_build:
   
 install:
   - ps: Start-FileDownload 'https://dumps.wikimedia.org/dewiktionary/20161001/dewiktionary-20161001-pages-articles.xml.bz2'
-  - 7z e dewiktionary-20161001-pages-articles.xml.bz2
+  - 7z e dewiktionary-20161001-pages-articles.xml.bz2 -oC:\
+  
+  - DEL /Q "App.config"
+  - rename "App.AppVeyor.config" "App.config"
   
 cache:
   - dewiktionary-20161001-pages-articles.xml.bz2
