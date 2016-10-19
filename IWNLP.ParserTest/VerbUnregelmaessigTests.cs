@@ -1104,6 +1104,36 @@ namespace IWNLP.ParserTest
                     PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"dräschet","dräscht"},
                     PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"dräschen"},
                     PartizipII = "gedroschen"
+                 },
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"dresche"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"dreschst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"drescht"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"dreschen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"drescht"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"dreschen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"dreschte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"dreschtest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"dreschte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"dreschten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"dreschtet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"dreschten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"dresche"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"dreschest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"dresche"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"dreschen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"dreschet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"dreschen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"dreschte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"dreschtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"dreschte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"dreschten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"dreschtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"dreschten"},
+                    PartizipII = "gedrescht"
                  }
             };
             XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));
