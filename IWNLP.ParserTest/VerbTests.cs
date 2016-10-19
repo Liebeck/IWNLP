@@ -1464,7 +1464,7 @@ namespace IWNLP.ParserTest
                 Präsens_ErSieEs = new List<string>(){"teilt mit"},
                 Präteritum_ich = new List<string>(){"teilte mit"},
                 KonjunktivII_Ich = new List<string>(){"teilte mit"},
-                ImperativSingular = new List<string>(){"teile mit!"},
+                ImperativSingular = new List<string>(){"teile mit!", "teil mit!"},
                 ImperativPlural = new List<string>(){"teilt mit!"},
                 PartizipII = new List<string>(){"mitgeteilt"},
                 Hilfsverb = new List<string>(){"haben"},
