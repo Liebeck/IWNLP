@@ -56,25 +56,11 @@ namespace IWNLP.Parser.POSParser
 
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Adjektiv Übersicht") || x.Content.Contains("{{ Deutsch Adjektiv Übersicht")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart + 1 && x.Content.EndsWith("}}")).Select(x => x.Index).First();
-            for (int i = flexionSubstantivStart + 1; i < flexionSubstantivEnd; i++)
+            String[] definition = Common.GetSubArray(text, flexionSubstantivStart + 1, flexionSubstantivEnd - 1);
+            List<String> cleanedLines = base.GetCleanedMultilineDefintionBlock(definition, word, "NounParser");
+            for (int i = 0; i < cleanedLines.Count; i++)
             {
-                text[i] = text[i].Trim();
-                if (text[i].StartsWith("<!--"))
-                {
-                    continue; // skip comments
-                }
-                if (!text[i].StartsWith("|"))
-                {
-                    Common.PrintError(word, String.Format("AdjectiveParser: Error in: {0} || {1}", word, text[i]));
-                }
-                String line = text[i].Substring(1).Trim(); // Skip leading "|"
-                if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
-
-                if (line.StartsWith("Bild"))
-                {
-                    continue; // Skip "Bild"-line
-                }
-                line = base.CleanLine(line);
+                String line = cleanedLines[i];
                 String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                 List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                 if (forms.Length == 1 || (forms.Length == 2 && (noValue.Contains(forms[1].Trim()))))  // No value given
