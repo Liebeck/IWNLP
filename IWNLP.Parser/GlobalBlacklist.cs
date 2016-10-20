@@ -8,7 +8,7 @@ namespace IWNLP.Parser
 {
     public class GlobalBlacklist
     {
-        public static List<String> GlobalBlacklist = new List<string>()
+        public static List<String> Blacklist = new List<string>()
         {
             "Oachkatzlschwoaf",
             "Thüringisch-Obersächsisch",

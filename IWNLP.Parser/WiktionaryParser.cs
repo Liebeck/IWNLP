@@ -42,7 +42,7 @@ namespace IWNLP.Parser
 
         public List<Entry> ParseText(String word, String textInput, int wikiID)
         {
-            if (GlobalBlacklist.GlobalBlacklist.Contains(word))
+            if (GlobalBlacklist.Blacklist.Contains(word))
             {
                 return null;
             }
