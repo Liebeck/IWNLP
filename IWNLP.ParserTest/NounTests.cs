@@ -256,18 +256,18 @@ namespace IWNLP.ParserTest
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Maskulinum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Index"},new Inflection(){ Article ="der", InflectedWord="Index"},new Inflection(){ Article ="der", InflectedWord="Index"}},
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Index"},new Inflection(){ Article ="der", InflectedWord="Index"}},
                 NominativPlural = new List<Inflection>(){new Inflection(){ Article ="die", InflectedWord="Indizes"},new Inflection(){ Article ="die", InflectedWord="Indices"},new Inflection(){ Article ="die", InflectedWord="Indexe"}},
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Index"},new Inflection(){ Article ="des", InflectedWord="Indexes"},new Inflection(){ Article ="des", InflectedWord="Indicis"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Index"},new Inflection(){ Article ="des", InflectedWord="Indexes"}},
                 GenitivPlural = new List<Inflection>(){new Inflection(){ Article ="der", InflectedWord="Indizes"}, new Inflection(){ Article ="der", InflectedWord="Indices"},new Inflection(){ Article ="der", InflectedWord="Indexe"}},
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Index"},new Inflection(){ Article ="dem", InflectedWord="Index"},new Inflection(){ Article ="dem", InflectedWord="Indexe"},new Inflection(){ Article ="dem", InflectedWord="Indici"},new Inflection(){ Article ="dem", InflectedWord="Indice"}},
-                DativPlural = new List<Inflection>(){new Inflection(){ Article ="den", InflectedWord="Indizes"},new Inflection(){ Article ="den", InflectedWord="Indices"},new Inflection(){ Article ="den", InflectedWord="Indicibus"},new Inflection(){ Article ="den", InflectedWord="Indexen"}},
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Index"},new Inflection(){ Article ="den", InflectedWord="Index"},new Inflection(){ Article ="den", InflectedWord="Indicem"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Index"},new Inflection(){ Article ="dem", InflectedWord="Index"},new Inflection(){ Article ="dem", InflectedWord="Indexe"}},
+                DativPlural = new List<Inflection>(){new Inflection(){ Article ="den", InflectedWord="Indizes"},new Inflection(){ Article ="den", InflectedWord="Indices"},new Inflection(){ Article ="den", InflectedWord="Indexen"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Index"},new Inflection(){ Article ="den", InflectedWord="Index"}},
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article ="die", InflectedWord="Indizes"},new Inflection(){ Article ="die", InflectedWord="Indices"},new Inflection(){ Article ="die", InflectedWord="Indexe"}},
              },
             };
-
-
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
