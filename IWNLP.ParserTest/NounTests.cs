@@ -911,20 +911,20 @@ namespace IWNLP.ParserTest
              {
                 Text="Tag",
                 POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Maskulinum, Genus.Neutrum},
+                Genus = new List<Genus>(){Genus.Neutrum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="Tag"},new Inflection(){ Article="der", InflectedWord="Tag"}},
+                NominativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="Tag"}},
                 NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tags"}},
                 GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Tags"}},
                 GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tags"}},
                 DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Tag"}},
                 DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Tags"}},
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Tag"},new Inflection(){ Article="den", InflectedWord="Tag"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Tag"}},
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tags"}},
              },
             };
-
-
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
