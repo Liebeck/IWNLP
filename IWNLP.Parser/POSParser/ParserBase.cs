@@ -83,6 +83,34 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
+        protected List<String> GetCleanedMultilineDefintionBlock(String[] lines, String word, String parserName) 
+        {
+            List<String> cleanedLines = new List<string>();
+            for (int i = 0; i < lines.Length; i++) 
+            {
+                String line = lines[i].Trim();
+                if (line.StartsWith("<!--")) { continue; } // skip comments
+                if (!line.StartsWith("|"))
+                {
+                    Common.PrintError(word, String.Format("{0}: Error in {1} || {2}", parserName, word, line));
+                }
+                line = line.Substring(1).Trim(); // Skip leading "|"
+                if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
+                if (line.StartsWith("Bild"))
+                {
+                    continue; // Skip "Bild"-line
+                }
+                if (String.IsNullOrEmpty(line))
+                {
+                    Common.PrintError(word, String.Format("{0}: Empty line in {1}", parserName, word));
+                    continue;
+                }
+                line = this.CleanLine(line);
+                cleanedLines.Add(line);
+            }
+            return cleanedLines;
+        }
+
         protected String CleanLine(String input)
         {
             input = input.Replace("<ref name=\"ug\"/>", String.Empty).Trim(); // Example: "abbröckeln"
