@@ -502,6 +502,46 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void einige()
+        {
+            String word = "einige";
+            int wiktionaryID = 5706;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+                new Models.Pronoun()
+                {
+                    POS = Models.POS.Pronoun,
+                    Text = word,
+                    WiktionaryID = wiktionaryID,
+                    WerEinzahlM = new List<string>() { "einiger" },
+                    WerEinzahlF = new List<string>() { "einige" },
+                    WerEinzahlN = new List<string>() { "einiges" },
+                    WerEinzahlMehrzahl = new List<string>() { "einige" },
+                    WessenEinzahlM = new List<string>() { "einiges" },
+                    WessenEinzahlF = new List<string>() { "einiger" },
+                    WessenEinzahlN = new List<string>() { "einiges" },
+                    WessenEinzahlMehrzahl = new List<string>() { "einiger" },
+                    WemEinzahlM = new List<string>() { "einigem" },
+                    WemEinzahlF = new List<string>() { "einiger" },
+                    WemEinzahlN = new List<string>() { "einigem" },
+                    WemEinzahlMehrzahl = new List<string>() { "einigen" },
+                    WenEinzahlM = new List<string>() { "einigen" },
+                    WenEinzahlF = new List<string>() { "einige" },
+                    WenEinzahlN = new List<string>() { "einiges" },
+                    WenEinzahlMehrzahl = new List<string>() { "einige" }
+                },
+
+            };
+            XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
+            XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
 
     }
 }

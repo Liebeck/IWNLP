@@ -13,7 +13,6 @@ namespace IWNLP.Parser
             "Oachkatzlschwoaf",
             "Avis",
             "Arabischer Frühling", // contains Lautschrift template
-            "einige",
             "Flexion:anbaggern",
             "Flexion:husten",
             "Flexion:verweigern",
