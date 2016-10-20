@@ -9,17 +9,8 @@ namespace IWNLP.Parser.POSParser
 {
     public class PronounParser : ParserBase
     {
-        List<String> blacklist = new List<string>() 
-        {
-            "einige",
-        };
-
         public Word Parse(String word, String[] text, String wortArtLine)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             Pronoun pronoun = new Pronoun();
             pronoun.Text = word;
             if (wortArtLine.Contains("{{Wortart|Artikel|Deutsch}}") && !wortArtLine.Contains("{{Wortart|Demonstrativpronomen|Deutsch}}"))

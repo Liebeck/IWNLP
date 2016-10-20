@@ -9,17 +9,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
 {
     public class VerbRegelmaessigParser : VerbConjugationParserBase
     {
-        List<String> blacklist = new List<string>() 
-        {
-        "Flexion:wischen"
-        };
-
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             String truncatedWord = word.Replace("Flexion:", String.Empty);
             String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb regelmäßig|");
             Dictionary<String, String> parameters = new Dictionary<string, string>();

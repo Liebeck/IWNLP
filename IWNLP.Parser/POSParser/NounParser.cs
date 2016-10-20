@@ -10,43 +10,8 @@ namespace IWNLP.Parser.POSParser
 {
     public class NounParser : ParserBase
     {
-        List<String> blacklist = new List<string>() 
-        {
-        "Oachkatzlschwoaf",
-        "Thüringisch-Obersächsisch",
-        "Koprolith",
-        "Finno-Ugrisch",
-        "Schottisch-Gälisch",
-        "Manx-Gälisch",
-        "Irisch-Gälisch",
-        "Ulster-Irisch",
-        "Munster-Irisch",
-        "Connacht-Irisch",
-        "Judeo-Spanisch",
-        "Neu-Norwegisch",
-        "Pennsylvania-Deutsch",
-        "Karatschai-Balkarisch",
-        "Komi-Permjakisch",
-        "Komi-Syrjänisch",
-        "Marokkanisch-Arabisch",
-        "Ägyptisch-Arabisch",
-        "Proto-Germanisch",
-        "Algerisch-Arabisch",
-        "Libysch-Arabisch",
-        "Karbadisch-Tscherkessisch",
-        "Arkadisch-Kyprisch",
-        "Launa-Deutsch",
-        "Tunesisch-Arabisch",
-        "Brast",
-        "Avis"
-        };
-
         public Word Parse(String word, String[] text, String wortArtLine)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             if (wortArtLine.Contains("ohne feste Deklination") || wortArtLine.Contains("{{Wortart|Nachname|Deutsch}}") || wortArtLine.Contains("{{Wortart|Vorname|Deutsch}}") || wortArtLine.Contains("{{Wortart|Toponym|Deutsch}}") || wortArtLine.Contains("{{Wortart|Buchstabe|Deutsch}}"))
             {
                 return null;

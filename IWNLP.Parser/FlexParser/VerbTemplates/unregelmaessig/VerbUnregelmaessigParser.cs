@@ -9,14 +9,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 {
     public class VerbUnregelmaessigParser : VerbConjugationParserBase
     {
-        List<String> blacklist = new List<string>() { }; // currently empty
-
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb unregelmäßig|");
             Dictionary<String, String> parameters = new Dictionary<string, string>();
             for (int i = 0; i < inputSplitted.Length; i++)

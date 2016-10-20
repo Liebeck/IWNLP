@@ -9,17 +9,8 @@ namespace IWNLP.Parser.POSParser
 {
     public class AdjectivalDeclensionParser : ParserBase
     {
-        List<String> blacklist = new List<string>() 
-        {
-            "Arabischer Frühling" // contains Lautschrift template
-        };
-
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             String truncatedWord = word.Replace("Flexion:", String.Empty);
             String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch adjektivische Deklination");
             if (inputSplitted[0] == String.Empty)

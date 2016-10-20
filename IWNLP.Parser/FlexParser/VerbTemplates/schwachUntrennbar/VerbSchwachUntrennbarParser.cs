@@ -9,19 +9,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
 {
     public class VerbSchwachUntrennbarParser : VerbConjugationParserBase
     {
-
-        List<String> blacklist = new List<string>() {
-            "Flexion:husten",
-            "Flexion:verweigern",
-            "Flexion:uzen"
-        };
-
         public Dictionary<String, String> ParseParameters(String[] input, String word)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb schwach untrennbar|");
             Dictionary<String, String> parameters = new Dictionary<string, string>();
             for (int i = 0; i < inputSplitted.Length; i++)

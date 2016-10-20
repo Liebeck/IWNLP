@@ -11,14 +11,9 @@ namespace IWNLP.Parser.POSParser
     {
         //{{Deutsch Verb Übersicht
         public bool OutputWrongInflectionForms { get; set; }
-        List<String> blacklist = new List<string>() { };
 
         public Word Parse(String word, String[] text, String wortArtLine)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             Verb verb = new Verb();
             verb.Text = word;
             verb.POS = POS.Verb;
