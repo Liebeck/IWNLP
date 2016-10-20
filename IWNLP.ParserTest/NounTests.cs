@@ -2202,5 +2202,42 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void NatalerDeutsch()
+        {
+            String word = "Nataler Deutsch";
+            int wiktionaryID = 73408;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Neutrum,Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="des", InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ Article ="des", InflectedWord="Nataler Deutschs"},
+                    new Inflection(){ InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ InflectedWord="Nataler Deutschs"},
+                    new Inflection(){ Article ="des", InflectedWord="Nataler Deutschen"}
+                },
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Nataler Deutsch"},new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                AkkusativPlural = new List<Inflection>(),
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
