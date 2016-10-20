@@ -298,8 +298,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article ="die", InflectedWord="Massen"}},
              },
             };
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));}
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -781,8 +781,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Auguste"}},
              },
             };
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));}
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -813,8 +813,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(),
              },
             };
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));}
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -845,8 +845,8 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(),
              },
             };
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));
-            XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<Models.Word>((Models.Word)words[0], System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));}
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1608,7 +1608,7 @@ namespace IWNLP.ParserTest
                 AkkusativPlural = new List<Inflection>(),
              },
             };
-            if(!AppSettingsWrapper.SuppressDumps){if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}}
+            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));}
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
