@@ -38,10 +38,6 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 
         public VerbConjugation Parse(String word, String[] input)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             return this.Parse(word, this.ParseParameters(input, word));
         }
 

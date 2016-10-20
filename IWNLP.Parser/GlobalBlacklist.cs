@@ -44,10 +44,11 @@ namespace IWNLP.Parser
             "Avis",
             "Arabischer Frühling", // contains Lautschrift template
             "einige",
-            "Flexion:anbaggern",
-            "Flexion:husten",
-            "Flexion:verweigern",
-            "Flexion:uzen",
+            //"Flexion:anbaggern",
+            //"Flexion:husten",
+            //"Flexion:verweigern",
+            //"Flexion:uzen",
+            //"Flexion:wischen",
             // fixed after 20161001 dump
             "Brandschutzgitter",
             "Seiner Majestät Schiff",

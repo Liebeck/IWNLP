@@ -45,10 +45,6 @@ namespace IWNLP.Parser.POSParser
 
         public AdjectivalDeclension Parse(String word, String[] input)
         {
-            if (blacklist.Contains(word))
-            {
-                return null;
-            }
             List<int> conjugationBlockBeginIndices = input.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.StartsWith("{{Deutsch adjektivische Deklination")).Select(x => x.Index).ToList();
             for (int i = 0; i < conjugationBlockBeginIndices.Count; i++)
             {
