@@ -8,12 +8,7 @@ namespace IWNLP.Parser
 {
     public class GlobalBlacklist
     {
-        public static List<String> GlobalBlackList = new List<string>()
-        {
-           
-        };
-
-        public static List<String> SuppressError = new List<string>()
+        public static List<String> GlobalBlacklist = new List<string>()
         {
             "Oachkatzlschwoaf",
             "Thüringisch-Obersächsisch",
@@ -44,11 +39,15 @@ namespace IWNLP.Parser
             "Avis",
             "Arabischer Frühling", // contains Lautschrift template
             "einige",
-            //"Flexion:anbaggern",
-            //"Flexion:husten",
-            //"Flexion:verweigern",
-            //"Flexion:uzen",
-            //"Flexion:wischen",
+            "Flexion:anbaggern",
+            "Flexion:husten",
+            "Flexion:verweigern",
+            "Flexion:uzen",
+            "Flexion:wischen",           
+        };
+
+        public static List<String> SuppressError = new List<string>()
+        {
             // fixed after 20161001 dump
             "Brandschutzgitter",
             "Seiner Majestät Schiff",
@@ -61,7 +60,6 @@ namespace IWNLP.Parser
             "Flexion:butterig",
             "Flexion:unumstritten",
             "dersäufen",
-            
         };
     }
 }

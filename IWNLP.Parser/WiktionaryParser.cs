@@ -42,6 +42,10 @@ namespace IWNLP.Parser
 
         public List<Entry> ParseText(String word, String textInput, int wikiID)
         {
+            if (GlobalBlacklist.GlobalBlacklist.Contains(word))
+            {
+                return null;
+            }
             textInput = ParserBase.RemoveBetween(textInput, "<!--", "-->");
             String[] text = textInput.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
             if (text.Any(x => x.Contains("{{Neuer Eintrag}}")))
@@ -140,10 +144,6 @@ namespace IWNLP.Parser
         /// <returns></returns>
         protected Word ParseDefinitionTextBlock(String word, String[] text)
         {
-            if (GlobalBlacklist.GlobalBlackList.Contains(word))
-            {
-                return null;
-            }
             Word wordObject = null;
             bool deutschesWort = !text.Any(x => x.StartsWith("{{Schweizer und Liechtensteiner Schreibweise"));
             deutschesWort &= !text.Any(x => x.StartsWith("{{Alte Schreibweise"));
