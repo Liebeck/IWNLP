@@ -147,7 +147,7 @@ namespace IWNLP.Parser.POSParser
                     else if (forms[1] == "0") { genus = Genus.Pluralwort; }
                     else
                     {
-                        Common.PrintError(word, String.Format("NounParser: error while parsing genus: {0}", forms[1]));
+                        Common.PrintError(word, String.Format("NounParser: error while parsing genus in {0}: {1}", word, forms[1]));
                     }
                     if (!noun.Genus.Contains(genus))
                     {
