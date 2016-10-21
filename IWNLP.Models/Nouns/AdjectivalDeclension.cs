@@ -17,23 +17,23 @@ namespace IWNLP.Models.Nouns
         public List<String> AkkusativSingular { get; set; }
         public List<String> AkkusativPlural { get; set; }
 
-        public List<Inflection> NominativSingularSchwach { get; set; }
-        public List<Inflection> NominativPluralSchwach { get; set; }
-        public List<Inflection> GenitivSingularSchwach { get; set; }
-        public List<Inflection> GenitivPluralSchwach { get; set; }
-        public List<Inflection> DativSingularSchwach { get; set; }
-        public List<Inflection> DativPluralSchwach { get; set; }
-        public List<Inflection> AkkusativSingularSchwach { get; set; }
-        public List<Inflection> AkkusativPluralSchwach { get; set; }
+        public List<String> NominativSingularSchwach { get; set; }
+        public List<String> NominativPluralSchwach { get; set; }
+        public List<String> GenitivSingularSchwach { get; set; }
+        public List<String> GenitivPluralSchwach { get; set; }
+        public List<String> DativSingularSchwach { get; set; }
+        public List<String> DativPluralSchwach { get; set; }
+        public List<String> AkkusativSingularSchwach { get; set; }
+        public List<String> AkkusativPluralSchwach { get; set; }
 
-        public List<Inflection> NominativSingularGemischt { get; set; }
-        public List<Inflection> NominativPluralGemischt { get; set; }
-        public List<Inflection> GenitivSingularGemischt { get; set; }
-        public List<Inflection> GenitivPluralGemischt { get; set; }
-        public List<Inflection> DativSingularGemischt { get; set; }
-        public List<Inflection> DativPluralGemischt { get; set; }
-        public List<Inflection> AkkusativSingularGemischt { get; set; }
-        public List<Inflection> AkkusativPluralGemischt { get; set; }
+        public List<String> NominativSingularGemischt { get; set; }
+        public List<String> NominativPluralGemischt { get; set; }
+        public List<String> GenitivSingularGemischt { get; set; }
+        public List<String> GenitivPluralGemischt { get; set; }
+        public List<String> DativSingularGemischt { get; set; }
+        public List<String> DativPluralGemischt { get; set; }
+        public List<String> AkkusativSingularGemischt { get; set; }
+        public List<String> AkkusativPluralGemischt { get; set; }
 
         public AdjectivalDeclension() 
         {
