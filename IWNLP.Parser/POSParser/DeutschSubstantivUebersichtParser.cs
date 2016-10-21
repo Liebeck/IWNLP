@@ -1,4 +1,5 @@
 ﻿using IWNLP.Models;
+using IWNLP.Models.Nouns;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,49 @@ namespace IWNLP.Parser.POSParser
 {
     public class DeutschSubstantivUebersichtParser : ParserBase
     {
-        public Word Parse(String word, String[] text) 
+        public Word Parse(String word, String[] text)
         {
             List<String> cleanedTemplateBlock = this.GetCleanedTemplateBlock(word, text);
-            return null;
+            cleanedTemplateBlock = cleanedTemplateBlock.Where(x => !x.Equals("{{Deutsch Substantiv Übersicht -sch")).ToList();
+            if (cleanedTemplateBlock.Count > 0)
+            {
+                Common.PrintError(word, String.Format("DeutschSubstantivUebersichtParser: {0} contains additional parameters that are not implemented yet", word));
+                return null;
+            }
+            Noun noun = new Models.Noun()
+            {
+                Text = word,
+                POS = POS.Noun,
+                Genus = new List<Genus>() { Genus.Neutrum },
+                NominativSingular = new List<Inflection>(){ 
+                    new Inflection(){ Article ="das", InflectedWord=word},
+                    new Inflection(){ InflectedWord=word},
+                    new Inflection(){ Article ="das", InflectedWord=String.Format("{0}e", word)},
+                },
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="des", InflectedWord=word},
+                    new Inflection(){ Article ="des", InflectedWord=String.Format("{0}s", word)},
+                    new Inflection(){ InflectedWord=word},
+                    new Inflection(){ InflectedWord=String.Format("{0}s", word)},
+                    new Inflection(){ Article ="des", InflectedWord=String.Format("{0}en", word)}
+                },
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="dem", InflectedWord=word},
+                    new Inflection(){ InflectedWord=word},
+                    new Inflection() { Article = "dem", InflectedWord = String.Format("{0}en", word)},
+                },
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="das", InflectedWord=word},
+                    new Inflection(){ InflectedWord=word},
+                    new Inflection(){ Article ="das", InflectedWord=String.Format("{0}e", word)}
+                },
+                AkkusativPlural = new List<Inflection>(),
+            };
+            Stats.Instance.NounsDeutschSubstantivUebersichtSchTotal++;
+            return noun;
         }
 
         public List<String> GetCleanedTemplateBlock(String word, String[] text)
