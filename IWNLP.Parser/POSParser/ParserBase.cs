@@ -90,7 +90,8 @@ namespace IWNLP.Parser.POSParser
             {
                 String line = lines[i].Trim();
                 if (line.StartsWith("<!--")) { continue; } // skip comments
-                if (!line.StartsWith("|"))
+                if (line == "}}") { continue; }
+                if (!line.StartsWith("|") && !line.StartsWith("{{"))
                 {
                     Common.PrintError(word, String.Format("{0}: Error in {1} || {2}", parserName, word, line));
                 }
