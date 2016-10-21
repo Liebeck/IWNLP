@@ -100,7 +100,10 @@ namespace IWNLP.Parser.POSParser
                     Common.PrintError(word, String.Format("{0}: Empty line in {1}", parserName, word));
                     continue;
                 }
-                line = line.Substring(1).Trim(); // Skip leading "|"
+                if (!line.StartsWith("{{")) // special case for 'Vorlage:Deutsch Substantiv Übersicht -sch'
+                {
+                    line = line.Substring(1).Trim(); // Skip leading "|"
+                }
                 if (line.StartsWith("Bild"))
                 {
                     continue; // Skip "Bild"-line
