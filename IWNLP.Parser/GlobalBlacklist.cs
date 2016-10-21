@@ -19,6 +19,8 @@ namespace IWNLP.Parser
             "Flexion:uzen",
             "Flexion:wischen",           
             "Seiner Majestät Schiff", // fixed after 20161001 dump
+            "chemisches Element", // fixed after 20161001 dump
+            "Wunderbares"
         };
 
         public static List<String> SuppressError = new List<string>()
