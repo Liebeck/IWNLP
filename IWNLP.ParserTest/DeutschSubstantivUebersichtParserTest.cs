@@ -92,7 +92,8 @@ namespace IWNLP.ParserTest
                 GenitivPlural = new List<Inflection>(),
                 DativSingular = new List<Inflection>(){
                     new Inflection(){ Article ="dem", InflectedWord="Launa-Deutsch"},
-                    new Inflection(){ InflectedWord="Launa-Deutschen"}},
+                    new Inflection(){ InflectedWord="Launa-Deutsch"},
+                    new Inflection(){ Article ="dem", InflectedWord="Launa-Deutschen"}},
                 DativPlural = new List<Inflection>(),
                 AkkusativSingular = new List<Inflection>(){
                     new Inflection(){ Article ="das", InflectedWord="Launa-Deutsch"},
