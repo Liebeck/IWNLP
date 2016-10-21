@@ -60,6 +60,7 @@
     <Compile Include="AdjectiveTests.cs" />
     <Compile Include="AppSettingsWrapper.cs" />
     <Compile Include="Common.cs" />
+    <Compile Include="DeutschSubstantivUebersichtParserTest.cs" />
     <Compile Include="DumpTextCaching.cs" />
     <Compile Include="NounTests.cs" />
     <Compile Include="ParserFunctionsTests.cs" />
