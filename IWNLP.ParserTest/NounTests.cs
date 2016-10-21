@@ -2219,7 +2219,9 @@ namespace IWNLP.ParserTest
                 POS = POS.Noun,
                 Genus = new List<Genus>(){ Genus.Neutrum,Genus.Maskulinum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ InflectedWord="Nataler Deutsch"}},
                 NominativPlural = new List<Inflection>(),
                 GenitivSingular = new List<Inflection>(){
                     new Inflection(){ Article ="des", InflectedWord="Nataler Deutsch"},
@@ -2229,9 +2231,15 @@ namespace IWNLP.ParserTest
                     new Inflection(){ Article ="des", InflectedWord="Nataler Deutschen"}
                 },
                 GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Nataler Deutsch"},new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="dem", InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ Article ="dem", InflectedWord="Nataler Deutschen"},
+                },
                 DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                AkkusativSingular = new List<Inflection>(){ 
+                    new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ InflectedWord="Nataler Deutsche"}},
                 AkkusativPlural = new List<Inflection>(),
              },
             };
