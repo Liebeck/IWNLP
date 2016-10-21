@@ -248,5 +248,52 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [Ignore]
+        [TestMethod]
+        public void Hessisch()
+        {
+            String word = "Hessisch";
+            int wiktionaryID = 74231;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text="Hessisch",
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="das", InflectedWord="Hessisch"},
+                    new Inflection(){ InflectedWord="Hessisch"},
+                    new Inflection(){ Article="das", InflectedWord="Hessische"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article="des", InflectedWord="Hessisch"},
+                    new Inflection(){ InflectedWord="Hessisch"},
+                    new Inflection(){ Article="des", InflectedWord="Hessischs"},
+                    new Inflection(){ InflectedWord="Hessischs"},
+                    new Inflection(){ Article="des", InflectedWord="Hessischen"}},
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="dem", InflectedWord="Hessisch"},
+                    new Inflection(){ InflectedWord="Hessisch"},
+                    new Inflection(){ Article="dem", InflectedWord="Hessischen"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="das", InflectedWord="Hessisch"},
+                    new Inflection(){ InflectedWord="Hessisch"},
+                    new Inflection(){ Article="das", InflectedWord="Hessische"}},
+                AkkusativPlural = new List<Inflection>(),
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
