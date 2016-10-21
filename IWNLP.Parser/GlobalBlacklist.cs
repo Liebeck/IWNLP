@@ -34,6 +34,8 @@ namespace IWNLP.Parser
             "Flexion:butterig",
             "Flexion:unumstritten",
             "dersäufen",
+            "Unserdeutsch", // fixed after 20161001 dump
+            "Hessisch",// fixed after 20161001 dump
         };
     }
 }
