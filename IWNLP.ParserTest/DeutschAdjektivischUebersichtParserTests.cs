@@ -44,6 +44,14 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Bekannten"},
                     DativPluralSchwach=new List<String>(){"Bekannten"},
                     AkkusativPluralSchwach=new List<String>(){"Bekannten"},
+                    NominativSingularGemischt=new List<string>(){"Bekannter"},
+                    GenitivSingularGemischt=new List<string>(){"Bekannten"},
+                    DativSingularGemischt=new List<string>(){"Bekannten"},
+                    AkkusativSingularGemischt=new List<string>(){"Bekannten"},
+                    NominativPluralGemischt=new List<string>(){"Bekannten"},
+                    GenitivPluralGemischt=new List<string>(){"Bekannten"},
+                    DativPluralGemischt=new List<string>(){"Bekannten"},
+                    AkkusativPluralGemischt=new List<string>(){"Bekannten"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -82,6 +90,14 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Geistlichen Räte"},
                     DativPluralSchwach=new List<String>(){"Geistlichen Räten"},
                     AkkusativPluralSchwach=new List<String>(){"Geistlichen Räte"},
+                    NominativSingularGemischt=new List<string>(){"Geistlicher Rat"},
+                    GenitivSingularGemischt=new List<string>(){"Geistlicher Rats","Geistlicher Rates"},
+                    DativSingularGemischt=new List<string>(){"Geistlicher Rat"},
+                    AkkusativSingularGemischt=new List<string>(){"Geistlicher Rat"},
+                    NominativPluralGemischt=new List<string>(){"Geistlicher Räte"},
+                    GenitivPluralGemischt=new List<string>(){"Geistlicher Räte"},
+                    DativPluralGemischt=new List<string>(){"Geistlicher Räten"},
+                    AkkusativPluralGemischt=new List<string>(){"Geistlicher Räte"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -112,6 +128,10 @@ namespace IWNLP.ParserTest
                     GenitivSingularSchwach=new List<String>(){"Neuen"},
                     DativSingularSchwach=new List<String>(){"Neuen"},
                     AkkusativSingularSchwach=new List<String>(){"Neue"},
+                    NominativSingularGemischt=new List<string>(){},
+                    GenitivSingularGemischt=new List<string>(){},
+                    DativSingularGemischt=new List<string>(){},
+                    AkkusativSingularGemischt=new List<string>(){},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -142,6 +162,10 @@ namespace IWNLP.ParserTest
                     GenitivSingularSchwach=new List<String>(){"Inneren","Innern"},
                     DativSingularSchwach=new List<String>(){"Inneren","Innern"},
                     AkkusativSingularSchwach=new List<String>(){"Innere"},
+                    NominativSingularGemischt=new List<string>(){"Inneres"},
+                    GenitivSingularGemischt=new List<string>(){"Inneren", "Innern"},
+                    DativSingularGemischt=new List<string>(){"Inneren","Innern"},
+                    AkkusativSingularGemischt=new List<string>(){"Inneres"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -172,6 +196,10 @@ namespace IWNLP.ParserTest
                     GenitivSingularSchwach=new List<String>(){"Deutschen Ecks"},
                     DativSingularSchwach=new List<String>(){"Deutschen Eck"},
                     AkkusativSingularSchwach=new List<String>(){"Deutsche Eck"},
+                    NominativSingularGemischt=new List<string>(){"Deutsches Eck"},
+                    GenitivSingularGemischt=new List<string>(){"Deutschen Ecks"},
+                    DativSingularGemischt=new List<string>(){"Deutschen Eck"},
+                    AkkusativSingularGemischt=new List<string>(){"Deutsches Eck"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -202,6 +230,10 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Gebrannten Wasser"},
                     DativPluralSchwach=new List<String>(){"Gebrannten Wassern"},
                     AkkusativPluralSchwach=new List<String>(){"Gebrannten Wasser"},
+                    NominativPluralGemischt=new List<string>(){"Gebrannten Wasser"},
+                    GenitivPluralGemischt=new List<string>(){"Gebrannten Wasser"},
+                    DativPluralGemischt=new List<string>(){"Gebrannten Wassern"},
+                    AkkusativPluralGemischt=new List<string>(){"Gebrannten Wasser"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -240,6 +272,14 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Gelben"},
                     DativPluralSchwach=new List<String>(){"Gelben"},
                     AkkusativPluralSchwach=new List<String>(){"Gelben"},
+                    NominativSingularGemischt=new List<string>(){"Gelbes"},
+                    GenitivSingularGemischt=new List<string>(){"Gelben"},
+                    DativSingularGemischt=new List<string>(){"Gelben"},
+                    AkkusativSingularGemischt=new List<string>(){"Gelbes"},
+                    NominativPluralGemischt=new List<string>(){"Gelben"},
+                    GenitivPluralGemischt=new List<string>(){"Gelben"},
+                    DativPluralGemischt=new List<string>(){"Gelben"},
+                    AkkusativPluralGemischt=new List<string>(){"Gelben"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -278,6 +318,14 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Asozialen"},
                     DativPluralSchwach=new List<String>(){"Asozialen"},
                     AkkusativPluralSchwach=new List<String>(){"Asozialen"},
+                    NominativSingularGemischt=new List<string>(){"Asoziale"},
+                    GenitivSingularGemischt=new List<string>(){"Asozialen"},
+                    DativSingularGemischt=new List<string>(){"Asozialen"},
+                    AkkusativSingularGemischt=new List<string>(){"Asoziale"},
+                    NominativPluralGemischt=new List<string>(){"Asozialen"},
+                    GenitivPluralGemischt=new List<string>(){"Asozialen"},
+                    DativPluralGemischt=new List<string>(){"Asozialen"},
+                    AkkusativPluralGemischt=new List<string>(){"Asozialen"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -316,6 +364,14 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Beschäftigten"},
                     DativPluralSchwach=new List<String>(){"Beschäftigten"},
                     AkkusativPluralSchwach=new List<String>(){"Beschäftigten"},
+                    NominativSingularGemischt=new List<string>(){"Beschäftigter"},
+                    GenitivSingularGemischt=new List<string>(){"Beschäftigten"},
+                    DativSingularGemischt=new List<string>(){"Beschäftigten"},
+                    AkkusativSingularGemischt=new List<string>(){"Beschäftigten"},
+                    NominativPluralGemischt=new List<string>(){"Beschäftigten"},
+                    GenitivPluralGemischt=new List<string>(){"Beschäftigten"},
+                    DativPluralGemischt=new List<string>(){"Beschäftigten"},
+                    AkkusativPluralGemischt=new List<string>(){"Beschäftigten"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
