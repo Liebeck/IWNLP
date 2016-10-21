@@ -122,11 +122,13 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 POS = POS.Noun,
-                Genus = new List<Genus>(){ Genus.Neutrum,Genus.Maskulinum},
+                Genus = new List<Genus>(){ Genus.Neutrum},
                 WiktionaryID = wiktionaryID,
                 NominativSingular = new List<Inflection>(){
                     new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},
-                    new Inflection(){ InflectedWord="Nataler Deutsch"}},
+                    new Inflection(){ InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ Article ="das", InflectedWord="Nataler Deutsche"},
+                },
                 NominativPlural = new List<Inflection>(),
                 GenitivSingular = new List<Inflection>(){
                     new Inflection(){ Article ="des", InflectedWord="Nataler Deutsch"},
