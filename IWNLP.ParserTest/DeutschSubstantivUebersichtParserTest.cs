@@ -155,5 +155,51 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void Niederländisch()
+        {
+            String word = "Niederländisch";
+            int wiktionaryID = 1047;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text="Niederländisch",
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="das", InflectedWord="Niederländisch"},
+                    new Inflection(){ InflectedWord="Niederländisch"},
+                    new Inflection(){ Article="das", InflectedWord="Niederländische"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article="des", InflectedWord="Niederländisch"},
+                    new Inflection(){ InflectedWord="Niederländisch"},
+                    new Inflection(){ Article="des", InflectedWord="Niederländischs"},
+                    new Inflection(){ InflectedWord="Niederländischs"},
+                    new Inflection(){ Article="des", InflectedWord="Niederländischen"}},
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="dem", InflectedWord="Niederländisch"},
+                    new Inflection(){ InflectedWord="Niederländisch"},
+                    new Inflection(){ Article="dem", InflectedWord="Niederländischen"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="das", InflectedWord="Niederländisch"},
+                    new Inflection(){ InflectedWord="Niederländisch"},
+                    new Inflection(){ Article="das", InflectedWord="Niederländische"}},
+                AkkusativPlural = new List<Inflection>(),
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
