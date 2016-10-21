@@ -17,7 +17,7 @@ namespace IWNLP.ParserTest
     {
 
         [TestMethod]
-        public void DeutschSubstantivUebersichtParser_Parameter_OneLine() 
+        public void DeutschSubstantivUebersichtParser_Parameter_OneLine()
         {
             DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
 
@@ -96,7 +96,8 @@ namespace IWNLP.ParserTest
                 DativPlural = new List<Inflection>(),
                 AkkusativSingular = new List<Inflection>(){
                     new Inflection(){ Article ="das", InflectedWord="Launa-Deutsch"},
-                    new Inflection(){ InflectedWord="Launa-Deutsche"}
+                    new Inflection(){ InflectedWord="Launa-Deutsch"},
+                    new Inflection(){ Article ="das", InflectedWord="Launa-Deutsche"}
                 },
                 AkkusativPlural = new List<Inflection>(),
              },
@@ -143,7 +144,8 @@ namespace IWNLP.ParserTest
                 DativPlural = new List<Inflection>(),
                 AkkusativSingular = new List<Inflection>(){ 
                     new Inflection(){ Article ="das", InflectedWord="Nataler Deutsch"},
-                    new Inflection(){ InflectedWord="Nataler Deutsche"}},
+                    new Inflection(){ InflectedWord="Nataler Deutsch"},
+                    new Inflection(){ Article ="das", InflectedWord="Nataler Deutsche"}},
                 AkkusativPlural = new List<Inflection>(),
              },
             };
