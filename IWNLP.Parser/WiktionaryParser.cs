@@ -18,7 +18,7 @@ namespace IWNLP.Parser
         AdjectiveFlexParser adjectiveFlexParser;
         VerbFlexParser verbFlexParser;
         PronounParser pronounParser;
-        DeutschSubstantivUebersichtParser deutschSubstantivUebersicht;
+        DeutschSubstantivUebersichtSchParser deutschSubstantivUebersicht;
         List<WikiPOSTag> pronounWikiPosTags = new List<WikiPOSTag>() 
         {
             WikiPOSTag.Demonstrativpronomen,
@@ -39,7 +39,7 @@ namespace IWNLP.Parser
             adjectiveFlexParser = new AdjectiveFlexParser();
             verbFlexParser = new VerbFlexParser();
             pronounParser = new PronounParser();
-            deutschSubstantivUebersicht = new DeutschSubstantivUebersichtParser();
+            deutschSubstantivUebersicht = new DeutschSubstantivUebersichtSchParser();
         }
 
         public List<Entry> ParseText(String word, String textInput, int wikiID)

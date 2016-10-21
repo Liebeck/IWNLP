@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
-    public class DeutschSubstantivUebersichtParser : ParserBase
+    public class DeutschSubstantivUebersichtSchParser : ParserBase
     {
         public Word Parse(String word, String[] text)
         {

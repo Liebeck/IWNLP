@@ -19,7 +19,7 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void DeutschSubstantivUebersichtParser_Parameter_OneLine()
         {
-            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+            DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
 
             String[] lines = new string[]
             {
@@ -32,7 +32,7 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLines()
         {
-            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+            DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
 
             String[] lines = new string[]
             {
@@ -46,7 +46,7 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLinesWithImage()
         {
-            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+            DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
 
             String[] lines = new string[]
             {
