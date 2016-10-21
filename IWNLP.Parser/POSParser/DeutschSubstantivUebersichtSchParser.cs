@@ -13,7 +13,6 @@ namespace IWNLP.Parser.POSParser
         public Word Parse(String word, String[] text)
         {
             List<String> cleanedTemplateBlock = this.GetCleanedTemplateBlock(word, text);
-            cleanedTemplateBlock = cleanedTemplateBlock.Where(x => !x.Equals("{{Deutsch Substantiv Übersicht -sch")).ToList();
             if (cleanedTemplateBlock.Count > 0)
             {
                 Common.PrintError(word, String.Format("DeutschSubstantivUebersichtParser: {0} contains additional parameters that are not implemented yet", word));
@@ -61,6 +60,7 @@ namespace IWNLP.Parser.POSParser
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart && x.Content.EndsWith("}}")).Select(x => x.Index).First();
             String[] definition = Common.GetSubArray(text, flexionSubstantivStart, flexionSubstantivEnd);
             List<String> cleanedLines = base.GetCleanedMultilineDefintionBlock(definition, word, "DeutschSubstantivUebersichtParser");
+            cleanedLines = cleanedLines.Where(x => !x.Equals("{{Deutsch Substantiv Übersicht -sch")).ToList();
             return cleanedLines;
         }
 
