@@ -20,6 +20,11 @@ namespace IWNLP.Parser.POSParser
             {
                 Common.PrintError(word, "Obsolete template '{{Deutsch adjektivische Deklination' is being used.");
             }
+            if (text.Any(x => x.Contains("{{Deutsch adjektivisch Übersicht")))
+            {
+                DeutschAdjektivischUebersichtParser adjektivischUebersichtParser = new DeutschAdjektivischUebersichtParser();
+                return adjektivischUebersichtParser.Parse(word, text);
+            }
             if (!text.Any(x => x.Contains("{{Deutsch Substantiv Übersicht")) || text.Any(x => x.Contains("{{Wortart|Eigenname|Deutsch}}")))
             {
                 return null;
