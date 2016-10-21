@@ -2,6 +2,7 @@
 using IWNLP.Models;
 using IWNLP.Models.Nouns;
 using IWNLP.Parser;
+using IWNLP.Parser.POSParser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,49 @@ namespace IWNLP.ParserTest
     [TestClass]
     public class DeutschSubstantivUebersichtParserTest
     {
+
+        [TestMethod]
+        public void DeutschSubstantivUebersichtParser_Parameter_OneLine() 
+        {
+            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+
+            String[] lines = new string[]
+            {
+                "{{Deutsch Substantiv Übersicht -sch}}"
+            };
+            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Launa-Deutsch", lines);
+            Assert.AreEqual(1, cleanedTemplateBlock.Count);
+        }
+
+        [TestMethod]
+        public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLines()
+        {
+            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+
+            String[] lines = new string[]
+            {
+                "{{Deutsch Substantiv Übersicht -sch",
+                "}}"
+            };
+            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Albanisch", lines);
+            Assert.AreEqual(1, cleanedTemplateBlock.Count);
+        }
+
+        [TestMethod]
+        public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLinesWithImage()
+        {
+            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+
+            String[] lines = new string[]
+            {
+                "{{Deutsch Substantiv Übersicht -sch",
+                "|Bild=New-Map-Francophone_World.PNG|mini|1|Länder mit ''Französisch'' als Muttersprache (blau), Verwaltungssprache (blau), Verkehrssprache (hellblau), Minderheitensprache (grün)",
+                "}}"
+            };
+            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Französisch", lines);
+            Assert.AreEqual(1, cleanedTemplateBlock.Count);
+        }
+
 
         [TestMethod]
         public void LaunaDeutsch()
