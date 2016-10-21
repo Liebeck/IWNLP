@@ -26,6 +26,15 @@ namespace IWNLP.Models.Nouns
         public List<Inflection> AkkusativSingularSchwach { get; set; }
         public List<Inflection> AkkusativPluralSchwach { get; set; }
 
+        public List<Inflection> NominativSingularGemischt { get; set; }
+        public List<Inflection> NominativPluralGemischt { get; set; }
+        public List<Inflection> GenitivSingularGemischt { get; set; }
+        public List<Inflection> GenitivPluralGemischt { get; set; }
+        public List<Inflection> DativSingularGemischt { get; set; }
+        public List<Inflection> DativPluralGemischt { get; set; }
+        public List<Inflection> AkkusativSingularGemischt { get; set; }
+        public List<Inflection> AkkusativPluralGemischt { get; set; }
+
         public AdjectivalDeclension() 
         {
             this.POS = Models.POS.Noun;
@@ -51,7 +60,15 @@ namespace IWNLP.Models.Nouns
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativSingularSchwach, obj.DativSingularSchwach)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativPluralSchwach, obj.DativPluralSchwach)
                 && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativSingularSchwach, obj.AkkusativSingularSchwach)
-                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativPluralSchwach, obj.AkkusativPluralSchwach);
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativPluralSchwach, obj.AkkusativPluralSchwach)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.NominativSingularGemischt, obj.NominativSingularGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.NominativPluralGemischt, obj.NominativPluralGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.GenitivSingularGemischt, obj.GenitivSingularGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.GenitivPluralGemischt, obj.GenitivPluralGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativSingularGemischt, obj.DativSingularGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.DativPluralGemischt, obj.DativPluralGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativSingularGemischt, obj.AkkusativSingularGemischt)
+                && EnumerableUnorderedEqual.IsUnorderedEnumerableEqual(this.AkkusativPluralGemischt, obj.AkkusativPluralGemischt);
         }
 
     }
