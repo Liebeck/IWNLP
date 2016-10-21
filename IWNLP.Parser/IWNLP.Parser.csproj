@@ -56,7 +56,6 @@
     <Compile Include="FlexParser\VerbTemplates\unregelmaessig\VerbUnregelmaessigParser.cs" />
     <Compile Include="FlexParser\VerbTemplates\VerbConjugationParserBase.cs" />
     <Compile Include="GlobalBlacklist.cs" />
-    <Compile Include="POSParser\AdjectivalDeclensionParser.cs" />
     <Compile Include="POSParser\AdjectiveParser.cs" />
     <Compile Include="POSParser\DeutschAdjektivischUebersichtParser.cs" />
     <Compile Include="POSParser\DeutschSubstantivUebersichtSchParser.cs" />
