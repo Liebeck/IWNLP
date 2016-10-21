@@ -20,6 +20,7 @@ namespace IWNLP.Parser
         public int AdjectivalDeclensionN { get; set; }
         public int AdjectivalDeclensionF { get; set; }
         public int NounsTotal { get; set; }
+        public int NounsDeutschSubstantivUebersichtSchTotal { get; set; }
         public int AdjectivesTotal { get; set; }
         public int VerbsTotal { get; set; }
 
