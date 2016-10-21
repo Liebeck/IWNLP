@@ -58,6 +58,27 @@ namespace IWNLP.ParserTest
             Assert.AreEqual(1, cleanedTemplateBlock.Count);
         }
 
+        [TestMethod]
+        public void DeutschSubstantivUebersichtParser_Parameter_WithGenus()
+        {
+            DeutschSubstantivUebersichtParser parser = new DeutschSubstantivUebersichtParser();
+            String[] lines = new string[]
+            {
+                "{{Deutsch Substantiv Übersicht -sch",
+                "|Genus=n",
+                "|Nominativ Singular=Unserdeutsch",
+                "|Nominativ Plural=—",
+                "|Genitiv Singular=Unserdeutschs",
+                "|Genitiv Plural=—",
+                "|Dativ Singular=Unserdeutsch",
+                "|Dativ Plural=—",
+                "|Akkusativ Singular=Unserdeutsch",
+                "|Akkusativ Plural=—",
+                "}}"
+            };
+            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Unserdeutsch", lines);
+            Assert.AreEqual(10, cleanedTemplateBlock.Count);
+        }
 
         [TestMethod]
         public void LaunaDeutsch()
