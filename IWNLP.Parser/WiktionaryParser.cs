@@ -18,6 +18,7 @@ namespace IWNLP.Parser
         AdjectiveFlexParser adjectiveFlexParser;
         VerbFlexParser verbFlexParser;
         PronounParser pronounParser;
+        DeutschSubstantivUebersichtParser deutschSubstantivUebersicht;
         List<WikiPOSTag> pronounWikiPosTags = new List<WikiPOSTag>() 
         {
             WikiPOSTag.Demonstrativpronomen,
@@ -38,6 +39,7 @@ namespace IWNLP.Parser
             adjectiveFlexParser = new AdjectiveFlexParser();
             verbFlexParser = new VerbFlexParser();
             pronounParser = new PronounParser();
+            deutschSubstantivUebersicht = new DeutschSubstantivUebersichtParser();
         }
 
         public List<Entry> ParseText(String word, String textInput, int wikiID)
@@ -165,7 +167,15 @@ namespace IWNLP.Parser
             List<WikiPOSTag> wikiPosTags = this.GetWikiPosTags(posTagLine);
             if (wikiPosTags.Contains(WikiPOSTag.Substantiv))
             {
-                return nounParser.Parse(word, text, posTagLine);
+                if (text.Any(x => x.Contains("{{Deutsch Substantiv Übersicht -sch")))
+                {
+                    return deutschSubstantivUebersicht.Parse(word, text);
+                }
+                else 
+                {
+                    return nounParser.Parse(word, text, posTagLine);
+                }
+                
             }
             else if (wikiPosTags.Contains(WikiPOSTag.Adjektiv))
             {
