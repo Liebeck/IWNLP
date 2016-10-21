@@ -18,8 +18,7 @@ namespace IWNLP.Parser.POSParser
             }
             if (text.Any(x => x.Contains("{{Deutsch adjektivische Deklination")))
             {
-                AdjectivalDeclensionParser adjectivalDeclensionParser = new AdjectivalDeclensionParser();
-                return adjectivalDeclensionParser.Parse(word, text);
+                Common.PrintError(word, "Obsolete template '{{Deutsch adjektivische Deklination' is being used.");
             }
             if (!text.Any(x => x.Contains("{{Deutsch Substantiv Übersicht")) || text.Any(x => x.Contains("{{Wortart|Eigenname|Deutsch}}")))
             {

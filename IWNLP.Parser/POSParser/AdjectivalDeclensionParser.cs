@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
+    [Obsolete("The template '{{Deutsch adjektivische Deklination is' is obsolete", true)]
     public class AdjectivalDeclensionParser : ParserBase
     {
         public Dictionary<String, String> ParseParameters(String[] input, String word)
