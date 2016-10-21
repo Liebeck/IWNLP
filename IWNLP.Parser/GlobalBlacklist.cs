@@ -18,13 +18,13 @@ namespace IWNLP.Parser
             "Flexion:verweigern",
             "Flexion:uzen",
             "Flexion:wischen",           
+            "Seiner Majestät Schiff", // fixed after 20161001 dump
         };
 
         public static List<String> SuppressError = new List<string>()
         {
             // fixed after 20161001 dump
             "Brandschutzgitter",
-            "Seiner Majestät Schiff",
             "Glockenkurve",
             "dersaufen",
             "gestikulieren",
