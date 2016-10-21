@@ -202,5 +202,51 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void UlsterIrisch()
+        {
+            String word = "Ulster-Irisch";
+            int wiktionaryID = 122925;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text="Ulster-Irisch",
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="das", InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ Article="das", InflectedWord="Ulster-Irische"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article="des", InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ Article="des", InflectedWord="Ulster-Irischs"},
+                    new Inflection(){ InflectedWord="Ulster-Irischs"},
+                    new Inflection(){ Article="des", InflectedWord="Ulster-Irischen"}},
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="dem", InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ Article="dem", InflectedWord="Ulster-Irischen"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){ Article="das", InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ InflectedWord="Ulster-Irisch"},
+                    new Inflection(){ Article="das", InflectedWord="Ulster-Irische"}},
+                AkkusativPlural = new List<Inflection>(),
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
