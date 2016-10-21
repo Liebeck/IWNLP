@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace IWNLP.ParserTest
 {
     [TestClass]
-    public class AdjectivalDeclensionTests
+    public class DeutschAdjektivischUebersichtParserTests
     {
         [TestMethod]
         public void Bekannter()
