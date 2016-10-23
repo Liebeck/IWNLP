@@ -21,7 +21,8 @@ namespace IWNLP.Parser
             "Seiner Majestät Schiff", // fixed after 20161020 dump
             "chemisches Element", // fixed after 20161020 dump
             "Wunderbares", // fixed after 20161020 dump
-            "Brauner Knollenblätterpilz" // fixed after 20161020 dump
+            "Brauner Knollenblätterpilz", // fixed after 20161020 dump
+            "Neues" // fixed after 20161020 dump
         };
 
         public static List<String> SuppressError = new List<string>()
@@ -39,6 +40,7 @@ namespace IWNLP.Parser
             "dersäufen",
             "Unserdeutsch", // fixed after 20161020 dump
             "Hessisch",// fixed after 20161020 dump
+
         };
     }
 }
