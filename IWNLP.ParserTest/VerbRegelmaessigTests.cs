@@ -86,8 +86,8 @@ namespace IWNLP.ParserTest
                  },
 
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -163,8 +163,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "geflutet"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -233,8 +233,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "abgespeichert"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -256,8 +256,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "wärmebehandelt"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -287,8 +287,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "geregnet"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -358,8 +358,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "durchgeixt"
                  },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -385,8 +385,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "gewittert"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -456,8 +456,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "gesundgeschrumpft"
                  },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -503,8 +503,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "in Stand gesetzt"
                  },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -574,8 +574,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "zufriedengestellt"
                  },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -621,8 +621,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "verwässert"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -692,8 +692,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "eingeschleppt"
                 },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -739,8 +739,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "bestraft"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -786,8 +786,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "gestelzt"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -833,8 +833,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "zu Grunde gerichtet"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -904,8 +904,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "durchgesickert"
                 },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -951,8 +951,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "bewaffnet"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -998,8 +998,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "gegliedert"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1045,8 +1045,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "enteisent"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1116,8 +1116,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "aufgeatmet"
                 },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1241,8 +1241,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "abgeschmiert"
                 },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1288,8 +1288,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "geäst"
                 },
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1336,8 +1336,8 @@ namespace IWNLP.ParserTest
                     PartizipIIVeraltet="geknöpfet"
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1383,8 +1383,8 @@ namespace IWNLP.ParserTest
                     PartizipII = "gealtert",
                  }
             };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -1481,6 +1481,54 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void rauschen()
+        {
+            String word = "rauschen";
+            int wikiID = 562628;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"rausche"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"rauschst","rauscht"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"rauscht"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"rauschen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"rauscht"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"rauschen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"rauschte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"rauschtest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"rauschte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"rauschten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"rauschtet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"rauschten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"rausche"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"rauschest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"rausche"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"rauschen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"rauschet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"rauschen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"rauschte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"rauschtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"rauschte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"rauschten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"rauschtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"rauschten"},
+                    PartizipII = "gerauscht",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
 
