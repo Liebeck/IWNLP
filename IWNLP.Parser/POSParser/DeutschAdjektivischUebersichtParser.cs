@@ -43,13 +43,13 @@ namespace IWNLP.Parser.POSParser
                 item.DativSingularGemischt = new List<String>();
                 item.AkkusativSingularGemischt = new List<String>();
                 item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>(){"r", String.Empty, "s"}));
-                item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "n", "r", "n"}));
-                item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "m", "r", "m" }));
+                item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivSingularStark, parameters, new List<String>() { "n", "r", "n"}));
+                item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativSingularStark, parameters, new List<String>() { "m", "r", "m" }));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.DativSingularStarkStern)) 
                 {
                     item.DativSingular.Add(parameters[ParameterAdjektivischUebersichtParser.DativSingularStarkStern]);
                 }
-                item.AkkusativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "n", String.Empty, "s" }));
+                item.AkkusativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularStark, parameters, new List<String>() { "n", String.Empty, "s" }));
                 // Schwach
                 item.NominativSingularSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativSingularSchwach, parameters, String.Empty));
                 item.GenitivSingularSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivSingularSchwach, parameters, "n"));
@@ -92,17 +92,17 @@ namespace IWNLP.Parser.POSParser
                 item.DativPluralGemischt = new List<String>();
                 item.AkkusativPluralGemischt = new List<String>();
                 item.NominativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { String.Empty, String.Empty, String.Empty }));
-                item.GenitivPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { "r", "r", "r" }));
-                item.DativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { "n", "n", "n" }));
-                item.AkkusativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { String.Empty, String.Empty, String.Empty }));
+                item.GenitivPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivPluralStark, parameters, new List<String>() { "r", "r", "r" }));
+                item.DativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativPluralStark, parameters, new List<String>() { "n", "n", "n" }));
+                item.AkkusativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativPluralStark, parameters, new List<String>() { String.Empty, String.Empty, String.Empty }));
                 // Schwach
                 item.NominativPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativPluralSchwach, parameters, "n"));
-                item.GenitivPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativPluralSchwach, parameters, "n"));
+                item.GenitivPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivPluralSchwach, parameters, "n"));
                 item.DativPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.DativPluralSchwach, parameters, "n"));
                 item.AkkusativPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.AkkusativPluralSchwach, parameters, "n"));
                 // Gemischt
                 item.NominativPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativPluralGemischt, parameters, "n"));
-                item.GenitivPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativPluralGemischt, parameters, "n"));
+                item.GenitivPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivPluralGemischt, parameters, "n"));
                 item.DativPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.DativPluralGemischt, parameters, "n"));
                 item.AkkusativPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.AkkusativPluralGemischt, parameters, "n"));
             }
