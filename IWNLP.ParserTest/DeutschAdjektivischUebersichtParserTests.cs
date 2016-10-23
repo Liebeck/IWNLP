@@ -39,7 +39,7 @@ namespace IWNLP.ParserTest
                     NominativSingularSchwach=new List<String>(){"Bekannte"},
                     GenitivSingularSchwach=new List<String>(){"Bekannten"},
                     DativSingularSchwach=new List<String>(){"Bekannten"},
-                    AkkusativSingularSchwach=new List<String>(){"Bekannten"},
+                    AkkusativSingularSchwach=new List<String>(){"Bekannte"},
                     NominativPluralSchwach=new List<String>(){"Bekannten"},
                     GenitivPluralSchwach=new List<String>(){"Bekannten"},
                     DativPluralSchwach=new List<String>(){"Bekannten"},
