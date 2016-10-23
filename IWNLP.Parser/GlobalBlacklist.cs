@@ -11,7 +11,6 @@ namespace IWNLP.Parser
         public static List<String> Blacklist = new List<string>()
         {
             "Oachkatzlschwoaf",
-            "Avis",
             "Arabischer Frühling", // contains Lautschrift template
             "Flexion:anbaggern",
             "Flexion:husten",
