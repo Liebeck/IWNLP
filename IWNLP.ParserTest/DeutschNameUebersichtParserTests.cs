@@ -189,5 +189,60 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void Gott()
+        {
+            String word = "Gott";
+            int wiktionaryID = 5189;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){Article="der", InflectedWord="Gott"},
+                    new Inflection(){InflectedWord="Gott"}},
+                NominativPlural = new List<Inflection>()
+                {
+                    new Inflection(){ Article="die", InflectedWord="Götter"}
+                },
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){Article="des", InflectedWord="Gott"},
+                    new Inflection(){ InflectedWord="Gotts"},
+                    new Inflection(){ InflectedWord="Gottes"}
+                },
+                GenitivPlural = new List<Inflection>()
+                {
+                    new Inflection(){ Article="der", InflectedWord="Götter"}
+                },
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){Article="dem", InflectedWord="Gott"},
+                    new Inflection(){InflectedWord="Gott"},
+                    new Inflection(){InflectedWord="Gotte"}},
+                DativPlural = new List<Inflection>()
+                {
+                    new Inflection(){ Article="den", InflectedWord="Göttern"}
+                },
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){Article="den", InflectedWord="Gott"},
+                    new Inflection(){InflectedWord="Gott"}},
+                AkkusativPlural = new List<Inflection>()
+                {
+                    new Inflection(){ Article="die", InflectedWord="Götter"}
+                },
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
