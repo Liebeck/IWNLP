@@ -18,10 +18,10 @@ namespace IWNLP.Parser
             "Flexion:verweigern",
             "Flexion:uzen",
             "Flexion:wischen",           
-            "Seiner Majestät Schiff", // fixed after 20161001 dump
-            "chemisches Element", // fixed after 20161001 dump
-            "Wunderbares",
-            "Brauner Knollenblätterpilz"
+            "Seiner Majestät Schiff", // fixed after 20161020 dump
+            "chemisches Element", // fixed after 20161020 dump
+            "Wunderbares", // fixed after 20161020 dump
+            "Brauner Knollenblätterpilz" // fixed after 20161020 dump
         };
 
         public static List<String> SuppressError = new List<string>()
@@ -37,8 +37,8 @@ namespace IWNLP.Parser
             "Flexion:butterig",
             "Flexion:unumstritten",
             "dersäufen",
-            "Unserdeutsch", // fixed after 20161001 dump
-            "Hessisch",// fixed after 20161001 dump
+            "Unserdeutsch", // fixed after 20161020 dump
+            "Hessisch",// fixed after 20161020 dump
         };
     }
 }
