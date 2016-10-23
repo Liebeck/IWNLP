@@ -83,7 +83,7 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        protected List<String> GetCleanedMultilineDefintionBlock(String[] lines, String word, String parserName) 
+        protected List<String> GetCleanedMultilineDefinitionBlock(String[] lines, String word, String parserName) 
         {
             List<String> cleanedLines = new List<string>();
             for (int i = 0; i < lines.Length; i++) 

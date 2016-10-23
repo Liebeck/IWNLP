@@ -30,7 +30,7 @@ namespace IWNLP.Parser.POSParser
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Verb Übersicht") || x.Content.Contains("{{ Deutsch Verb Übersicht")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart + 1 && x.Content.EndsWith("}}")).Select(x => x.Index).First();
             String[] definition = Common.GetSubArray(text, flexionSubstantivStart + 1, flexionSubstantivEnd - 1);
-            List<String> cleanedLines = base.GetCleanedMultilineDefintionBlock(definition, word, "NounParser");
+            List<String> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "NounParser");
             for (int i = 0; i < cleanedLines.Count; i++)
             {
                 String line = cleanedLines[i];

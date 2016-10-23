@@ -59,7 +59,7 @@ namespace IWNLP.Parser.POSParser
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Substantiv Übersicht -sch")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart && x.Content.EndsWith("}}")).Select(x => x.Index).First();
             String[] definition = Common.GetSubArray(text, flexionSubstantivStart, flexionSubstantivEnd);
-            List<String> cleanedLines = base.GetCleanedMultilineDefintionBlock(definition, word, "DeutschSubstantivUebersichtParser");
+            List<String> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "DeutschSubstantivUebersichtParser");
             cleanedLines = cleanedLines.Where(x => !x.Equals("{{Deutsch Substantiv Übersicht -sch")).ToList();
             return cleanedLines;
         }
