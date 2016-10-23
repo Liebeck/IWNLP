@@ -58,6 +58,7 @@
     <Compile Include="GlobalBlacklist.cs" />
     <Compile Include="POSParser\AdjectiveParser.cs" />
     <Compile Include="POSParser\DeutschAdjektivischUebersichtParser.cs" />
+    <Compile Include="POSParser\DeutschNameUebersichtParser.cs" />
     <Compile Include="POSParser\DeutschSubstantivUebersichtSchParser.cs" />
     <Compile Include="POSParser\NounParser.cs" />
     <Compile Include="POSParser\ParameterAdjectivalDeclension.cs" />
