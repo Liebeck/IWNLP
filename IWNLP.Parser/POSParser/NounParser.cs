@@ -128,6 +128,7 @@ namespace IWNLP.Parser.POSParser
                     if (forms[0].EndsWith("1")) { genusKey = 1; }
                     else if (forms[0].EndsWith("2")) { genusKey = 2; }
                     else if (forms[0].EndsWith("3")) { genusKey = 3; }
+                    else if (forms[0].EndsWith("4")) { genusKey = 4; }
                     Genus genus = Genus.Neutrum;
                     if (forms[1] == "n") { genus = Genus.Neutrum; }
                     else if (forms[1] == "f") { genus = Genus.Femininum; }
