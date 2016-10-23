@@ -78,13 +78,25 @@ namespace IWNLP.ParserTest
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Maskulinum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Nord"},new Inflection(){InflectedWord="Nord"}},
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){Article ="der", InflectedWord="Nord"},
+                    new Inflection(){InflectedWord="Nord"}
+                },
                 NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Nord"},new Inflection(){Article="des", InflectedWord="Nords"},new Inflection(){InflectedWord="Nords"}, new Inflection(){ InflectedWord="Nord"}},
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="des", InflectedWord="Nord"},
+                    new Inflection(){InflectedWord="Nords"}
+                },
                 GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Nord"},new Inflection(){InflectedWord="Nord"}},
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){Article ="dem", InflectedWord="Nord"},
+                    new Inflection(){InflectedWord="Nord"}
+                },
                 DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Nord"},new Inflection(){InflectedWord="Nord"}},
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){Article ="den", InflectedWord="Nord"},
+                    new Inflection(){InflectedWord="Nord"}
+                },
                 AkkusativPlural = new List<Inflection>(),
              },
             };
@@ -110,13 +122,26 @@ namespace IWNLP.ParserTest
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Neutrum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Afrikaans"}, new Inflection(){Article="das", InflectedWord="Afrikaans"}},
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){Article="das", InflectedWord="Afrikaans"},
+                    new Inflection(){InflectedWord="Afrikaans"},
+                },
                 NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Afrikaans"}},
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){Article="des", InflectedWord="Afrikaans"},
+                    new Inflection(){Article="des", InflectedWord="Afrikaans’"},
+                    new Inflection(){InflectedWord="Afrikaans’"}
+                },
                 GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ InflectedWord="Afrikaans"}, new Inflection(){ Article="dem", InflectedWord="Afrikaans"}},
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){Article="dem", InflectedWord="Afrikaans"},
+                    new Inflection(){InflectedWord="Afrikaans"},
+                },
                 DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ InflectedWord="Afrikaans"}, new Inflection(){Article="das", InflectedWord="Afrikaans"}},
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){Article="das", InflectedWord="Afrikaans"},
+                    new Inflection(){InflectedWord="Afrikaans"}, 
+                },
                 AkkusativPlural = new List<Inflection>(),
              },
             };
@@ -142,13 +167,21 @@ namespace IWNLP.ParserTest
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Femininum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Maria vom Siege"}, new Inflection(){ InflectedWord="Maria vom Siege"}},
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){Article="die", InflectedWord="Maria vom Siege"},
+                    new Inflection(){InflectedWord="Maria vom Siege"}},
                 NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Maria vom Siege"}, new Inflection(){InflectedWord="Maria vom Siege"}},
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){Article="der", InflectedWord="Maria vom Siege"}
+                },
                 GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Maria vom Siege"}, new Inflection(){InflectedWord="Maria vom Siege"}},
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){Article="der", InflectedWord="Maria vom Siege"},
+                    new Inflection(){InflectedWord="Maria vom Siege"}},
                 DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="die", InflectedWord="Maria vom Siege"}, new Inflection(){InflectedWord="Maria vom Siege"}},
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){Article="die", InflectedWord="Maria vom Siege"},
+                    new Inflection(){InflectedWord="Maria vom Siege"}},
                 AkkusativPlural = new List<Inflection>()
              },
             };
