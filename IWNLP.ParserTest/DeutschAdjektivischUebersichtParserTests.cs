@@ -380,5 +380,39 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void ArabischerFruehling()
+        {
+            String word = "Arabischer Frühling";
+            int wiktionaryID = 267863;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+                new AdjectivalDeclension()
+                {
+                    Text=word,
+                    WiktionaryID = wiktionaryID,
+                    NominativSingular = new List<string>(){"Arabischer Frühling"},
+                    GenitivSingular=new List<string>(){"Arabischen Frühlings"},
+                    DativSingular=new List<string>(){"Arabischem Frühling"},
+                    AkkusativSingular=new List<string>(){"Arabischen Frühling"},
+                    NominativSingularSchwach=new List<String>(){"Arabische Frühling"},
+                    GenitivSingularSchwach=new List<String>(){"Arabischen Frühlings"},
+                    DativSingularSchwach=new List<String>(){"Arabischen Frühling"},
+                    AkkusativSingularSchwach=new List<String>(){"Arabischen Frühling"},
+                    NominativSingularGemischt=new List<string>(){"Arabischer Frühling"},
+                    GenitivSingularGemischt=new List<string>(){"Arabischen Frühlings"},
+                    DativSingularGemischt=new List<string>(){"Arabischen Frühling"},
+                    AkkusativSingularGemischt=new List<string>(){"Arabischen Frühling"},
+                },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
