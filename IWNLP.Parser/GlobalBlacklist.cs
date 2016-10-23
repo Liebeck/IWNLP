@@ -28,6 +28,11 @@ namespace IWNLP.Parser
             "Tadig", // fixed after 20161020 dump
             "Unserdeutsch", // fixed after 20161020 dump
             "Hessisch",// fixed after 20161020 dump
+            "Portokosten", // fixed after 20161020 dump
+            "Abokosten", // fixed after 20161020 dump
+            "Rocky Mountains", // fixed after 20161020 dump
+            "Shetlandinseln", // fixed after 20161020 dump
+            "Manx", // fixed after 20161020 dump
         };
     }
 }
