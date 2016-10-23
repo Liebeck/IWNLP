@@ -27,35 +27,21 @@ namespace IWNLP.Parser.POSParser
 
         public AdjectivalDeclension Parse(String word, Dictionary<String, String> parameters)
         {
-            AdjectivalDeclension item = new AdjectivalDeclension()
-            {
-                NominativSingular = new List<String>(),
-                GenitivSingular = new List<String>(),
-                DativSingular = new List<String>(),
-                AkkusativSingular = new List<String>(),
-                NominativPlural = new List<String>(),
-                GenitivPlural = new List<String>(),
-                DativPlural = new List<String>(),
-                AkkusativPlural = new List<String>(),
-                NominativSingularSchwach = new List<String>(),
-                GenitivSingularSchwach = new List<String>(),
-                DativSingularSchwach = new List<String>(),
-                AkkusativSingularSchwach = new List<String>(),
-                NominativPluralSchwach = new List<String>(),
-                GenitivPluralSchwach = new List<String>(),
-                DativPluralSchwach = new List<String>(),
-                AkkusativPluralSchwach = new List<String>(),
-                NominativSingularGemischt = new List<String>(),
-                GenitivSingularGemischt = new List<String>(),
-                DativSingularGemischt = new List<String>(),
-                AkkusativSingularGemischt = new List<String>(),
-                NominativPluralGemischt = new List<String>(),
-                GenitivPluralGemischt = new List<String>(),
-                DativPluralGemischt = new List<String>(),
-                AkkusativPluralGemischt = new List<String>(),
-            };
+            AdjectivalDeclension item = new AdjectivalDeclension();
             if (!parameters.ContainsKey(ParameterAdjektivischUebersichtParser.KeinSingular))
             {
+                item.NominativSingular = new List<String>();
+                item.GenitivSingular = new List<String>();
+                item.DativSingular = new List<String>();
+                item.AkkusativSingular = new List<String>();
+                item.NominativSingularSchwach = new List<String>();
+                item.GenitivSingularSchwach = new List<String>();
+                item.DativSingularSchwach = new List<String>();
+                item.AkkusativSingularSchwach = new List<String>();
+                item.NominativSingularGemischt = new List<String>();
+                item.GenitivSingularGemischt = new List<String>();
+                item.DativSingularGemischt = new List<String>();
+                item.AkkusativSingularGemischt = new List<String>();
                 item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>(){"r", String.Empty, "s"}));
                 item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "n", "r", "n"}));
                 item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "m", "r", "m" }));
@@ -93,6 +79,18 @@ namespace IWNLP.Parser.POSParser
             }
             if (!parameters.ContainsKey(ParameterAdjektivischUebersichtParser.KeinPlural))
             {
+                item.NominativPlural = new List<String>();
+                item.GenitivPlural = new List<String>();
+                item.DativPlural = new List<String>();
+                item.AkkusativPlural = new List<String>();
+                item.NominativPluralSchwach = new List<String>();
+                item.GenitivPluralSchwach = new List<String>();
+                item.DativPluralSchwach = new List<String>();
+                item.AkkusativPluralSchwach = new List<String>();
+                item.NominativPluralGemischt = new List<String>();
+                item.GenitivPluralGemischt = new List<String>();
+                item.DativPluralGemischt = new List<String>();
+                item.AkkusativPluralGemischt = new List<String>();
                 item.NominativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { String.Empty, String.Empty, String.Empty }));
                 item.GenitivPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { "r", "r", "r" }));
                 item.DativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { "n", "n", "n" }));
