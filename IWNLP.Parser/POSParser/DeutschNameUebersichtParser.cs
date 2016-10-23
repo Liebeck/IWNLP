@@ -61,7 +61,8 @@ namespace IWNLP.Parser.POSParser
             noun.NominativPlural = this.GetPlural(new List<String>() { ParameterNameUebersichtParser.NominativPlural, ParameterNameUebersichtParser.NominativPlural1 },
                                                   new List<String>() { ParameterNameUebersichtParser.NominativPlural2, ParameterNameUebersichtParser.NominativPlural2Stern },
                                                   new List<String>() { ParameterNameUebersichtParser.NominativPlural3, ParameterNameUebersichtParser.NominativPlural3Stern },
-                                                  parameters);
+                                                  parameters,
+                                                  new List<String>() { "die", "die", "die" });
             noun.GenitivSingular = new List<Inflection>();
             noun.GenitivSingular.Add(new Inflection()
             {
@@ -117,13 +118,13 @@ namespace IWNLP.Parser.POSParser
             }
             if (base.ContainsNonEmpty(parameters, ParameterNameUebersichtParser.GenitivStern))
             {
-                Console.WriteLine(String.Format("Add unit test: {0}", word));
                 noun.GenitivSingular.Add(new Inflection() { InflectedWord = parameters[ParameterNameUebersichtParser.GenitivStern] });
             }
             noun.GenitivPlural = this.GetPlural(new List<String>() { ParameterNameUebersichtParser.GenitivPlural, ParameterNameUebersichtParser.GenitivPlural1 },
-                                                  new List<String>() { ParameterNameUebersichtParser.GenitivPlural2, ParameterNameUebersichtParser.GenitivPlural2Stern },
-                                                  new List<String>() { ParameterNameUebersichtParser.GenitivPlural3, ParameterNameUebersichtParser.GenitivPlural3Stern },
-                                                  parameters);
+                                                new List<String>() { ParameterNameUebersichtParser.GenitivPlural2, ParameterNameUebersichtParser.GenitivPlural2Stern },
+                                                new List<String>() { ParameterNameUebersichtParser.GenitivPlural3, ParameterNameUebersichtParser.GenitivPlural3Stern },
+                                                parameters,
+                                                new List<String>() { "der", "die", "die" });
             noun.DativSingular = new List<Inflection>() 
             {
                 new Inflection() {
@@ -136,18 +137,18 @@ namespace IWNLP.Parser.POSParser
             };
             if (base.ContainsNonEmpty(parameters, ParameterNameUebersichtParser.DativStern))
             {
-                Console.WriteLine(String.Format("Add unit test: {0}", word));
+                Console.WriteLine(String.Format("DeutschAdjektivischUebersichtParser: Add unit test: {0}", word));
                 noun.DativSingular.Add(new Inflection() { InflectedWord = parameters[ParameterNameUebersichtParser.DativStern] });
             }
             if (base.ContainsNonEmpty(parameters, ParameterNameUebersichtParser.DativSingularStern))
             {
-                Console.WriteLine(String.Format("Add unit test: {0}", word));
                 noun.DativSingular.Add(new Inflection() { InflectedWord = parameters[ParameterNameUebersichtParser.DativSingularStern] });
             }
             noun.DativPlural = this.GetPlural(new List<String>() { ParameterNameUebersichtParser.DativPlural, ParameterNameUebersichtParser.DativPlural1 },
                                                   new List<String>() { ParameterNameUebersichtParser.DativPlural2, ParameterNameUebersichtParser.DativPlural2Stern },
                                                   new List<String>() { ParameterNameUebersichtParser.DativPlural3, ParameterNameUebersichtParser.DativPlural3Stern },
-                                                  parameters);
+                                                  parameters,
+                                                  new List<String>() { "den", "die", "die" });
             noun.AkkusativSingular = new List<Inflection>()
             {
                 new Inflection() 
@@ -162,13 +163,14 @@ namespace IWNLP.Parser.POSParser
             };
             if (base.ContainsNonEmpty(parameters, ParameterNameUebersichtParser.AkkusativStern))
             {
-                Console.WriteLine(String.Format("Add unit test: {0}", word));
+                Console.WriteLine(String.Format("DeutschAdjektivischUebersichtParser: Add unit test 4: {0}", word));
                 noun.AkkusativSingular.Add(new Inflection() { InflectedWord = parameters[ParameterNameUebersichtParser.AkkusativStern] });
             }
             noun.AkkusativPlural = this.GetPlural(new List<String>() { ParameterNameUebersichtParser.AkkusativPlural, ParameterNameUebersichtParser.AkkusativPlural1 },
                                                   new List<String>() { ParameterNameUebersichtParser.AkkusativPlural2, ParameterNameUebersichtParser.AkkusativPlural2Stern },
                                                   new List<String>() { ParameterNameUebersichtParser.AkkusativPlural3, ParameterNameUebersichtParser.AkkusativPlural3Stern },
-                                                  parameters);
+                                                  parameters,
+                                                  new List<String>() { "die", "die", "die" }); ;
             return noun;
         }
 
@@ -196,20 +198,20 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        protected List<Inflection> GetPlural(List<String> keys1, List<String> keys2, List<String> keys3, Dictionary<String, String> parameters)
+        protected List<Inflection> GetPlural(List<String> keys1, List<String> keys2, List<String> keys3, Dictionary<String, String> parameters, List<String> genus)
         {
             List<Inflection> inflection = new List<Inflection>();
             if (base.ContainsNonEmpty(parameters, keys1[0]))
             {
-                inflection.Add(new Inflection() { Article = "die", InflectedWord = parameters[keys1[0]] });
+                inflection.Add(new Inflection() { Article = genus[0], InflectedWord = parameters[keys1[0]] });
             }
             else if (base.ContainsNonEmpty(parameters, keys1[1]))
             {
-                inflection.Add(new Inflection() { Article = "die", InflectedWord = parameters[keys1[1]] });
+                inflection.Add(new Inflection() { Article = genus[0], InflectedWord = parameters[keys1[1]] });
             }
             if (base.ContainsNonEmpty(parameters, keys2[0]))
             {
-                inflection.Add(new Inflection() { Article = "die", InflectedWord = parameters[keys2[0]] });
+                inflection.Add(new Inflection() { Article = genus[1], InflectedWord = parameters[keys2[0]] });
                 if (base.ContainsNonEmpty(parameters, keys2[1]))
                 {
                     inflection.Add(new Inflection() { InflectedWord = parameters[keys2[1]] });
@@ -217,7 +219,7 @@ namespace IWNLP.Parser.POSParser
             }
             if (base.ContainsNonEmpty(parameters, keys3[0]))
             {
-                inflection.Add(new Inflection() { Article = "die", InflectedWord = parameters[keys3[0]] });
+                inflection.Add(new Inflection() { Article = genus[2], InflectedWord = parameters[keys3[0]] });
                 if (base.ContainsNonEmpty(parameters, keys3[1]))
                 {
                     inflection.Add(new Inflection() { InflectedWord = parameters[keys3[1]] });
