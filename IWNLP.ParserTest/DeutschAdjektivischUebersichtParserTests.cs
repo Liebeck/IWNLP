@@ -353,7 +353,7 @@ namespace IWNLP.ParserTest
                     DativSingular=new List<string>(){"Beschäftigtem"},
                     AkkusativSingular=new List<string>(){"Beschäftigten"},
                     NominativPlural=new List<string>(){"Beschäftigte"},
-                    GenitivPlural=new List<string>(){"	Beschäftigter"},
+                    GenitivPlural=new List<string>(){"Beschäftigter"},
                     DativPlural=new List<string>(){"Beschäftigten"},
                     AkkusativPlural=new List<string>(){"Beschäftigte"},
                     NominativSingularSchwach=new List<String>(){"Beschäftigte"},
