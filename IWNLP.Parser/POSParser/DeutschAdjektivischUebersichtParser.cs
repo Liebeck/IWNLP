@@ -44,6 +44,10 @@ namespace IWNLP.Parser.POSParser
                 item.AkkusativSingularGemischt = new List<String>();
                 item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>(){"r", String.Empty, "s"}));
                 item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivSingularStark, parameters, new List<String>() { "n", "r", "n"}));
+                if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.GenitivSingularStarkStern))
+                {
+                    item.GenitivSingular.Add(parameters[ParameterAdjektivischUebersichtParser.GenitivSingularStarkStern]);
+                }
                 item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativSingularStark, parameters, new List<String>() { "m", "r", "m" }));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.DativSingularStarkStern)) 
                 {
@@ -181,6 +185,7 @@ namespace IWNLP.Parser.POSParser
             public const String NominativSingularStark = "Nominativ Singular stark";
             public const String NominativPluralStark = "Nominativ Plural stark";
             public const String GenitivSingularStark = "Genitiv Singular stark";
+            public const String GenitivSingularStarkStern = "Genitiv Singular stark*";
             public const String GenitivPluralStark = "Genitiv Plural stark";
             public const String DativSingularStark = "Dativ Singular stark";
             public const String DativSingularStarkStern = "Dativ Singular stark*";
