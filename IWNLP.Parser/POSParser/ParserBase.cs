@@ -275,7 +275,7 @@ namespace IWNLP.Parser.POSParser
             return value.Replace("&nbsp;", " ").Trim();
         }
 
-        public void RemoveNBSPandTrim(List<String> values)
+        public void RemoveNBSPandTrim(List<String> values, String word)
         {
             if (values == null)
             {
@@ -285,7 +285,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (values[i].Contains(",") || values[i].Contains("<") || values[i].Contains(">") || values[i].Contains("''"))
                 {
-                    Common.PrintError(String.Format("Error Verb Flexparser: {0}", values[i]));
+                    Common.PrintError(String.Format("Error Verb Flexparser: {0}, {1}", word, values[i]));
                 }
                 if (values[i].Contains("&nbsp;"))
                 {
