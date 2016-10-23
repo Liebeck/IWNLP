@@ -56,7 +56,7 @@ namespace IWNLP.Parser.POSParser
             };
             if (!parameters.ContainsKey(ParameterAdjektivischUebersichtParser.KeinSingular))
             {
-                item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>(){"m", String.Empty, "s"}));
+                item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>(){"r", String.Empty, "s"}));
                 item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "n", "r", "n"}));
                 item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>() { "m", "r", "m" }));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.DativSingularStarkStern)) 
