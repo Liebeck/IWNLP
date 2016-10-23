@@ -36,6 +36,11 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                     parameters[ParameterRegelmaessig.Parameter6] = inputSplitted[i];
                 }
             }
+            if (parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich) && String.IsNullOrEmpty(parameters[ParameterRegelmaessig.Unpersönlich])) 
+            {
+                //Common.PrintError(word, String.Format("VerbRegelmaessigParser: unpersönlich no value: {0}", word));
+                parameters.Remove(ParameterRegelmaessig.Unpersönlich);
+            }
             return parameters;
         }
 
