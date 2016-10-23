@@ -1607,6 +1607,52 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void verfaelschen()
+        {
+            String word = "verfälschen";
+            int wikiID = 664061;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"verfälsche"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"verfälschst","verfälscht"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"verfälscht"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"verfälschen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"verfälscht"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"verfälschen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"verfälschte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"verfälschtest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"verfälschte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"verfälschten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"verfälschtet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"verfälschten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"verfälsche"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"verfälschest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"verfälsche"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"verfälschen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"verfälschet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"verfälschen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"verfälschte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"verfälschtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"verfälschte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"verfälschten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"verfälschtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"verfälschten"},
+                    PartizipII = "verfälscht",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
 
