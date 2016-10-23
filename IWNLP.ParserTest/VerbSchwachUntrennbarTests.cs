@@ -846,5 +846,52 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void verweigern()
+        {
+            String word = "verweigern";
+            int wikiID = 148493;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"verweiger","verweigere","verweigre"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"verweigerst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"verweigert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"verweigern"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"verweigert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"verweigern"},      
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"verweigerte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"verweigertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"verweigerte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"verweigerten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"verweigertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"verweigerten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"verweigere","verweigre"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"verweigerest","verweigrest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"verweigere","verweigre"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"verweigern"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"verweigeret","verweigret"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"verweigern"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"verweigerte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"verweigertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"verweigerte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"verweigerten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"verweigertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"verweigerten"},
+                    PartizipII = "verweigert",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
