@@ -31,7 +31,7 @@ namespace IWNLP.Parser
             "Rocky Mountains", // fixed after 20161020 dump
             "Shetlandinseln", // fixed after 20161020 dump
             "Manx", // fixed after 20161020 dump
-            "Flexion:verwehren", // fixed after 20161020 dump,
+            "Flexion:verwehren", // fixed after 20161020 dump
             "Flexion:gestatten", // fixed after 20161020 dump
         };
     }

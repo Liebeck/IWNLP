@@ -17,6 +17,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             {
                 if (inputSplitted[i].Contains("="))
                 {
+                    inputSplitted[i] = base.CleanLine(inputSplitted[i]);
                     String[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
                     String key = keyValuePair[0].Trim();
                     String value = keyValuePair[1].Trim();
