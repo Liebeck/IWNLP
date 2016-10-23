@@ -2180,5 +2180,70 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void Avis()
+        {
+            String word = "Avis";
+            int wiktionaryID = 617129;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){ Genus.Neutrum,Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+
+                NominativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="der", InflectedWord="Avis"},
+                    new Inflection(){ Article ="das", InflectedWord="Avis"},
+                    new Inflection(){ Article ="der", InflectedWord="Avis"},
+                    new Inflection(){ Article ="das", InflectedWord="Avis"}
+                },
+                NominativPlural = new List<Inflection>(){
+                    new Inflection(){ Article ="die", InflectedWord="Avis"},
+                    new Inflection(){ Article ="die", InflectedWord="Avise"},
+                },
+                GenitivSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="des", InflectedWord="Avis"},
+                    new Inflection(){ Article ="des", InflectedWord="Avis"},
+                    new Inflection(){ Article ="des", InflectedWord="Avises"},
+                    new Inflection(){ Article ="des", InflectedWord="Avises"},
+                },
+                GenitivPlural = new List<Inflection>(){
+                    new Inflection(){ Article ="der", InflectedWord="Avis"},
+                    new Inflection(){ Article ="der", InflectedWord="Avise"},
+                },
+                DativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="dem", InflectedWord="Avis"},
+                    new Inflection(){ Article ="dem", InflectedWord="Avis"},
+                    new Inflection(){ Article ="dem", InflectedWord="Avis"},
+                    new Inflection(){ Article ="dem", InflectedWord="Avis"},
+                },
+                DativPlural = new List<Inflection>(){
+                    new Inflection(){ Article ="den", InflectedWord="Avis"},
+                    new Inflection(){ Article ="den", InflectedWord="Avisen"},
+                },
+                AkkusativSingular = new List<Inflection>(){
+                    new Inflection(){ Article ="den", InflectedWord="Avis"},
+                    new Inflection(){ Article ="das", InflectedWord="Avis"},
+                    new Inflection(){ Article ="den", InflectedWord="Avis"},
+                    new Inflection(){ Article ="das", InflectedWord="Avis"},
+                },
+                AkkusativPlural = new List<Inflection>(){
+                    new Inflection(){ Article ="die", InflectedWord="Avis"},
+                    new Inflection(){ Article ="die", InflectedWord="Avise"},
+                },
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
