@@ -1,4 +1,8 @@
-﻿using IWNLP.Parser.POSParser;
+﻿using GenericXMLSerializer;
+using IWNLP.Models;
+using IWNLP.Models.Nouns;
+using IWNLP.Parser;
+using IWNLP.Parser.POSParser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -55,6 +59,102 @@ namespace IWNLP.ParserTest
             };
             List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
             Assert.AreEqual(1, cleanedTemplateBlock.Count);
+        }
+
+        [TestMethod]
+        public void Nord()
+        {
+            String word = "Nord";
+            int wiktionaryID = 21287;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Maskulinum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Nord"},new Inflection(){InflectedWord="Nord"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Nord"},new Inflection(){Article="des", InflectedWord="Nords"},new Inflection(){InflectedWord="Nords"}, new Inflection(){ InflectedWord="Nord"}},
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Nord"},new Inflection(){InflectedWord="Nord"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Nord"},new Inflection(){InflectedWord="Nord"}},
+                AkkusativPlural = new List<Inflection>(),
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void Afrikaans()
+        {
+            String word = "Afrikaans";
+            int wiktionaryID = 2134;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text="Afrikaans",
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Neutrum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){new Inflection(){ InflectedWord="Afrikaans"}, new Inflection(){Article="das", InflectedWord="Afrikaans"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Afrikaans"}},
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){ new Inflection(){ InflectedWord="Afrikaans"}, new Inflection(){ Article="dem", InflectedWord="Afrikaans"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ InflectedWord="Afrikaans"}, new Inflection(){Article="das", InflectedWord="Afrikaans"}},
+                AkkusativPlural = new List<Inflection>(),
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
+        [TestMethod]
+        public void MariaVomSiege()
+        {
+            String word = "Maria vom Siege";
+            int wiktionaryID = 164603;
+            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
+            List<Models.Word> expectedWords = new List<Models.Word>() 
+            {
+             new Models.Noun()
+             {
+                Text=word,
+                POS = POS.Noun,
+                Genus = new List<Genus>(){Genus.Femininum},
+                WiktionaryID = wiktionaryID,
+                NominativSingular = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Maria vom Siege"}, new Inflection(){ InflectedWord="Maria vom Siege"}},
+                NominativPlural = new List<Inflection>(),
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Maria vom Siege"}, new Inflection(){InflectedWord="Maria vom Siege"}},
+                GenitivPlural = new List<Inflection>(),
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Maria vom Siege"}, new Inflection(){InflectedWord="Maria vom Siege"}},
+                DativPlural = new List<Inflection>(),
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="die", InflectedWord="Maria vom Siege"}, new Inflection(){InflectedWord="Maria vom Siege"}},
+                AkkusativPlural = new List<Inflection>()
+             },
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
     }
 }
