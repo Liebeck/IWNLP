@@ -20,34 +20,31 @@ namespace IWNLP.ParserTest
         public void DeutschSubstantivUebersichtParser_Parameter_OneLine()
         {
             DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
-
             String[] lines = new string[]
             {
                 "{{Deutsch Substantiv Übersicht -sch}}"
             };
             List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Launa-Deutsch", lines);
-            Assert.AreEqual(1, cleanedTemplateBlock.Count);
+            Assert.AreEqual(0, cleanedTemplateBlock.Count);
         }
 
         [TestMethod]
         public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLines()
         {
             DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
-
             String[] lines = new string[]
             {
                 "{{Deutsch Substantiv Übersicht -sch",
                 "}}"
             };
             List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Albanisch", lines);
-            Assert.AreEqual(1, cleanedTemplateBlock.Count);
+            Assert.AreEqual(0, cleanedTemplateBlock.Count);
         }
 
         [TestMethod]
         public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLinesWithImage()
         {
             DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
-
             String[] lines = new string[]
             {
                 "{{Deutsch Substantiv Übersicht -sch",
@@ -55,7 +52,7 @@ namespace IWNLP.ParserTest
                 "}}"
             };
             List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Französisch", lines);
-            Assert.AreEqual(1, cleanedTemplateBlock.Count);
+            Assert.AreEqual(0, cleanedTemplateBlock.Count);
         }
 
 
