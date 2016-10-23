@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/github/Liebeck/IWNLP)](https://ci.appveyor.com/project/Liebeck/IWNLP)
 # IWNLP
 IWNLP is a dictionary-based lemmatizer for the German language. It is based on the German edition of Wiktionary. IWNLP consists of two parts:
 * IWNLP: A parser for the German edition of Wiktionary
