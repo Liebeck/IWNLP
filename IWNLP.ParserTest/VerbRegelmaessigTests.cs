@@ -1387,6 +1387,53 @@ namespace IWNLP.ParserTest
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt"));}
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void gaertnern()
+        {
+            String word = "gärtnern";
+            int wikiID = 679948;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"gärtner","gärtnere"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"gärtnerst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"gärtnert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"gärtnern"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"gärtnert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"gärtnern"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"gärtnerte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"gärtnertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"gärtnerte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"gärtnerten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"gärtnertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"gärtnerten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"gärtnere"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"gärtnerst"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"gärtnere"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"gärtnern"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"gärtnert"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"gärtnern"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"gärtnerte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"gärtnertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"gärtnerte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"gärtnerten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"gärtnertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"gärtnerten"},
+                    PartizipII = "gegärtnert",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
 
