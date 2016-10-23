@@ -16,7 +16,7 @@ namespace IWNLP.Parser
 
         public static void PrintError(String word, String message)
         {
-            if (!GlobalBlacklist.SuppressError.Contains(word))
+            if (!GlobalBlacklist.Blacklist.Contains(word))
             {
                 Console.WriteLine(message);
             }

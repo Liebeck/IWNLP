@@ -27,10 +27,6 @@ namespace IWNLP.Parser
             "Schutzbefohlener", // fixed after 20161020 dump
             "Weiße", // fixed after 20161020 dump
             "Tadig", // fixed after 20161020 dump
-        };
-
-        public static List<String> SuppressError = new List<string>()
-        {
             "Unserdeutsch", // fixed after 20161020 dump
             "Hessisch",// fixed after 20161020 dump
         };
