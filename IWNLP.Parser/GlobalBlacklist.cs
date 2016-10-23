@@ -14,7 +14,6 @@ namespace IWNLP.Parser
             "Arabischer Frühling", // contains Lautschrift template
             "Flexion:anbaggern",
             "Flexion:husten",
-            "Flexion:verweigern",
             "Flexion:uzen",
             "Flexion:wischen",           
             "Seiner Majestät Schiff", // fixed after 20161020 dump
