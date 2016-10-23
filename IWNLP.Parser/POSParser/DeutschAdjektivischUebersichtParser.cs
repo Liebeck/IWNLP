@@ -20,7 +20,7 @@ namespace IWNLP.Parser.POSParser
             }
             catch (Exception ex)
             {
-                Common.PrintError(word, "Errors while parsing the parameters");
+                Common.PrintError(word, String.Format("DeutschAdjektivischUebersichtParser: Errors while parsing the parameters: {0}", word));
                 return null;
             }
         }
