@@ -22,7 +22,9 @@ namespace IWNLP.Parser
             "chemisches Element", // fixed after 20161020 dump
             "Wunderbares", // fixed after 20161020 dump
             "Brauner Knollenblätterpilz", // fixed after 20161020 dump
-            "Neues" // fixed after 20161020 dump
+            "Neues", // fixed after 20161020 dump
+            "Unparteiischer", // fixed after 20161020 dump
+            "Schutzbefohlener", // fixed after 20161020 dump
         };
 
         public static List<String> SuppressError = new List<string>()
