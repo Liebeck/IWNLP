@@ -171,6 +171,14 @@ namespace IWNLP.ParserTest
                     GenitivPluralSchwach=new List<String>(){"Fremden"},
                     DativPluralSchwach=new List<String>(){"Fremden"},
                     AkkusativPluralSchwach=new List<String>(){"Fremden"},
+                    NominativSingularGemischt=new List<string>(){"Fremde"},
+                    GenitivSingularGemischt=new List<string>(){"Fremden"},
+                    DativSingularGemischt=new List<string>(){"Fremden"},
+                    AkkusativSingularGemischt=new List<string>(){"Fremde"},
+                    NominativPluralGemischt=new List<string>(){"Fremden"},
+                    GenitivPluralGemischt=new List<string>(){"Fremden"},
+                    DativPluralGemischt=new List<string>(){"Fremden"},
+                    AkkusativPluralGemischt=new List<string>(){"Fremden"},
                 },
                 new Models.Noun()
                 {
