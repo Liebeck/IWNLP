@@ -1434,6 +1434,53 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
+
+        [TestMethod]
+        public void formen()
+        {
+            String word = "formen";
+            int wikiID = 682157;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"form","forme"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"formst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"formt"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"formen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"formt"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"formen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"formte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"formtest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"formte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"formten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"formtet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"formten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"forme"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"formest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"forme"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"formen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"formet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"formen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"formte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"formtest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"formte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"formten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"formtet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"formten"},
+                    PartizipII = "geformt",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
 
