@@ -2970,10 +2970,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             #endregion
 
             #region Präsens Konjunktiv Plural 1 Person
-            if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präsens Aktiv"))
+            if (base.ContainsNonEmpty(parameters, "1. Plural Konjunktiv Präsens Aktiv"))
             {
                 verb.PräsensAktivKonjunktiv_Plural1Person = new List<string>();
-                verb.PräsensAktivKonjunktiv_Plural1Person.Add(parameters["1. Singular Konjunktiv Präsens Aktiv"]);
+                verb.PräsensAktivKonjunktiv_Plural1Person.Add(parameters["1. Plural Konjunktiv Präsens Aktiv"]);
             }
             else
             {
