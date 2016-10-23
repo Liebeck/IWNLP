@@ -15,7 +15,7 @@ namespace IWNLP.Parser
             "Flexion:anbaggern",
             "Flexion:husten",
             "Flexion:uzen",
-            "Flexion:wischen",           
+            "Flexion:wischen", // fixed after 20161020 dump          
             "Seiner Majestät Schiff", // fixed after 20161020 dump
             "chemisches Element", // fixed after 20161020 dump
             "Wunderbares", // fixed after 20161020 dump
