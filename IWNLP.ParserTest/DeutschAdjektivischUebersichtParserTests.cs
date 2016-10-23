@@ -128,10 +128,10 @@ namespace IWNLP.ParserTest
                     GenitivSingularSchwach=new List<String>(){"Neuen"},
                     DativSingularSchwach=new List<String>(){"Neuen"},
                     AkkusativSingularSchwach=new List<String>(){"Neue"},
-                    NominativSingularGemischt=new List<string>(){},
-                    GenitivSingularGemischt=new List<string>(){},
-                    DativSingularGemischt=new List<string>(){},
-                    AkkusativSingularGemischt=new List<string>(){},
+                    NominativSingularGemischt=new List<string>(){"Neues"},
+                    GenitivSingularGemischt=new List<string>(){"Neuen"},
+                    DativSingularGemischt=new List<string>(){"Neuen"},
+                    AkkusativSingularGemischt=new List<string>(){"Neues"},
                 },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
