@@ -1559,6 +1559,54 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [Ignore] // fixed after 20161020 dump
+        [TestMethod]
+        public void wischen()
+        {
+            String word = "wischen";
+            int wikiID = 476612;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"wische"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"wischst","wischt"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"wischt","wischet"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"wischen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"wischt","wischet"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"wischen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"wischte","wischete"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"wischtest","wischetest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"wischte","wischete"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"wischten","wischeten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"wischtet","wischetet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"wischten","wischeten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"wische"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"wischest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"wische"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"wischen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"wischet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"wischen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"wischte","wischete"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"wischtest","wischetest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"wischte","wischete"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"wischten","wischeten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"wischtet","wischetet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"wischten","wischeten"},
+                    PartizipII = "gewischt",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
 
