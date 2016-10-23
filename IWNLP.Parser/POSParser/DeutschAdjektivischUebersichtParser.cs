@@ -76,7 +76,7 @@ namespace IWNLP.Parser.POSParser
                 {
                     item.DativSingularSchwach.Add(parameters[ParameterAdjektivischUebersichtParser.DativSingularSchwachStern]);
                 }
-                item.AkkusativSingularSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.AkkusativSingularSchwach, parameters, String.Empty));
+                item.AkkusativSingularSchwach.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularSchwach, parameters, new List<String>() { "n", String.Empty, String.Empty }));
                 // Gemischt
                 item.NominativSingularGemischt.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularGemischt, parameters, new List<String>() { "r", String.Empty, "s"}));
                 item.GenitivSingularGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivSingularGemischt, parameters, "n"));
