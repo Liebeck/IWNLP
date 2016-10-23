@@ -1435,13 +1435,13 @@ namespace IWNLP.ParserTest
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Femininum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Erscheinung des Herrn"}, new Inflection(){ InflectedWord="Erscheinung des Herrn"}},
+                NominativSingular = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Erscheinung des Herrn"}},
                 NominativPlural = new List<Inflection>(),
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Erscheinung des Herrn"}, new Inflection(){InflectedWord="Erscheinung des Herrn"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Erscheinung des Herrn"}},
                 GenitivPlural = new List<Inflection>(),
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Erscheinung des Herrn"}, new Inflection(){InflectedWord="Erscheinung des Herrn"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article="der", InflectedWord="Erscheinung des Herrn"}},
                 DativPlural = new List<Inflection>(),
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="die", InflectedWord="Erscheinung des Herrn"}, new Inflection(){InflectedWord="Erscheinung des Herrn"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="die", InflectedWord="Erscheinung des Herrn"}},
                 AkkusativPlural = new List<Inflection>()
              },
             };
