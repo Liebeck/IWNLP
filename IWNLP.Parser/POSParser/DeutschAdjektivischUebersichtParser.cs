@@ -201,7 +201,7 @@ namespace IWNLP.Parser.POSParser
             public const String AkkusativSingularSchwach = "Akkusativ Singular schwach";
             public const String AkkusativPluralSchwach = "Akkusativ Plural schwach";
 
-            public const String NominativSingularGemischt = "Nominativ Singular Gemischt";
+            public const String NominativSingularGemischt = "Nominativ Singular gemischt";
             public const String NominativPluralGemischt = "Nominativ Plural gemischt";
             public const String GenitivSingularGemischt = "Genitiv Singular gemischt";
             public const String GenitivSingularGemischtStern = "Genitiv Singular gemischt*";
