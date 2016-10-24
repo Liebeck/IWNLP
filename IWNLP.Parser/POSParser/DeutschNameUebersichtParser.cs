@@ -170,7 +170,8 @@ namespace IWNLP.Parser.POSParser
                                                   new List<String>() { ParameterNameUebersichtParser.AkkusativPlural2, ParameterNameUebersichtParser.AkkusativPlural2Stern },
                                                   new List<String>() { ParameterNameUebersichtParser.AkkusativPlural3, ParameterNameUebersichtParser.AkkusativPlural3Stern },
                                                   parameters,
-                                                  new List<String>() { "die", "die", "die" }); ;
+                                                  new List<String>() { "die", "die", "die" });
+            Stats.Instance.NounsDeutschNameUebersichtTotal++;
             return noun;
         }
 

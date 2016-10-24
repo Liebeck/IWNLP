@@ -110,6 +110,7 @@ namespace IWNLP.Parser.POSParser
                 item.DativPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.DativPluralGemischt, parameters, "n"));
                 item.AkkusativPluralGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.AkkusativPluralGemischt, parameters, "n"));
             }
+            Stats.Instance.AdjectivalDeclensionDeutschAdjektivischUebersichtTotal++;
             return item;
         }
 
