@@ -68,6 +68,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stats.cs" />
+    <Compile Include="StatsWriter.cs" />
     <Compile Include="WiktionaryParser.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,7 +24,6 @@ namespace IWNLP.Parser
             String wiktionaryDumpPath = args[0];
             String parsedOutputPath = args[1];
 
-
             //Console.OutputEncoding = Encoding.UTF8;
             WiktionaryParser parser = new WiktionaryParser();
 
@@ -59,8 +58,8 @@ namespace IWNLP.Parser
                 }
             }
             Console.WriteLine("Dump parsed in " + (stopwatch.ElapsedMilliseconds / 1000) + " seconds");
-            var stats = Stats.Instance;
             XMLSerializer.Serialize<List<Entry>>(allWords.Where(x => !x.ParserError).ToList(), parsedOutputPath);
+            StatsWriter.Write(wiktionaryDumpPath, parsedOutputPath, String.Format("{0}.txt", parsedOutputPath));
 
         }
     }
