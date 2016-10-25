@@ -17,7 +17,7 @@ IWNLP.Parser.exe "c:\\dewiktionary-latest-pages-articles.xml" "c:\\parsedIWNLP_l
 * Follow the steps from [IWNLP.Lemmatizer](https://github.com/Liebeck/IWNLP.Lemmatizer) to create the lemmatization mapping 
 
 # Citation
-Please include the following BibTex if you use IWNLP in your work:
+Please include the following BibTeX if you use IWNLP in your work:
 ``` bash
 @InProceedings{liebeck-conrad:2015:ACL-IJCNLP,
   author    = {Liebeck, Matthias  and  Conrad, Stefan},
