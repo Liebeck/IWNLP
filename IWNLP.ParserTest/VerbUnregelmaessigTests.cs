@@ -1667,6 +1667,43 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [TestMethod]
+        public void schwären()
+        {
+            String word = "schwären";
+            int wikiID = 737670;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"schwärt"},
+                    PräteritumAktivIndikativ_Singular3Person = new List<string>(){"schwärte"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"schwäre"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"schwärte"},
+                    PartizipII = "geschwärt"
+                 },
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"schwiert","schwieret"},
+                    PräteritumAktivIndikativ_Singular3Person = new List<string>(){"schwäre"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"schwor"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"schwöre"},
+                    PartizipII = "geschworen"
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
 
