@@ -1595,6 +1595,78 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+        [Ignore] // currently not fixed in Wiktionary as of 20170508
+        [TestMethod]
+        public void reinwaschen()
+        {
+            String word = "reinwaschen";
+            int wikiID = 707715;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"wasche rein"},
+                    PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"reinwasche"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"wäschst rein","wäscht rein"},
+                    PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>(){"reinwäschst", "reinwäscht"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"wäscht rein"},
+                    PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation = new List<string>(){"reinwäscht"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"waschen rein"},
+                    PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation = new List<string>(){"reinwaschen"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"wascht rein"},
+                    PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>(){"reinwascht"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"waschen rein"},
+                    PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>(){"reinwaschen"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"wusch rein"},
+                    PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>(){"reinwusch"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"wuschst rein"},
+                    PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation  = new List<string>(){"reinwuschst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"wusch rein"},
+                    PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation  = new List<string>(){"reinwusch"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"wuschen rein"},
+                    PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation  = new List<string>(){"reinwuschen"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"wuscht rein"},
+                    PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation =  new List<string>(){"reinwuscht"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"wuschen rein"},
+                    PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation  = new List<string>(){"reinwuschen"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"wasche rein"},
+                    PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation = new List<string>(){"reinwasche"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"waschest rein"},
+                    PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation = new List<string>(){"reinwaschest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"wasche rein"},
+                    PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation = new List<string>(){"reinwasche"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"waschen rein"},
+                    PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation = new List<string>(){"reinwaschen"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"waschet rein"},
+                    PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation = new List<string>(){"reinwaschet"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"waschen rein"},
+                    PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation = new List<string>(){"reinwaschen"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"wüsche rein"},
+                    PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation = new List<string>(){"reinwüsche"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"wüschest rein","wüschst rein"},
+                    PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation = new List<string>(){"reinwüschest","reinwüschst"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"wüsche rein"},
+                    PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation = new List<string>(){"reinwüsche"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"wüschen rein"},
+                    PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation = new List<string>(){"reinwüschen"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"wüschet rein","wüscht rein"},
+                    PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation = new List<string>(){"reinwüschet","reinwüscht"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"wüschen rein"},
+                    PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation = new List<string>(){"reinwüschen"},
+                    PartizipII = "reingewaschen",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
+
     }
 }
 
