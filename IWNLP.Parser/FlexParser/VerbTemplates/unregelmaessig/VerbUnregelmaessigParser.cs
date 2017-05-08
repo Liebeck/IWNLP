@@ -273,7 +273,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             if (parameters.ContainsKey("Indikativ Präsens (man)"))
             {
                 parameters["Indikativ Präsens (man)"] = CleanLine(parameters["Indikativ Präsens (man)"]);
-                List<String> multilineFormats = new List<string>() { "<br />er/sie/es", "<br>er/sie/es" };
+                List<String> multilineFormats = new List<string>() { "<br />er/sie/es", "<br>er/sie/es", "<br />" };
 
                 if (!multilineFormats.Any(x => parameters["Indikativ Präsens (man)"].Contains(x)))
                 {

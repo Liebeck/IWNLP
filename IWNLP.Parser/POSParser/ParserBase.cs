@@ -20,6 +20,7 @@ namespace IWNLP.Parser.POSParser
         {
             bool multiline = input.Length > 1;
             String firstLine = input[0];
+            if (firstLine.Contains("{{small|er/sie/es}}")) { firstLine = firstLine.Replace("{{small|er/sie/es}}", String.Empty); } // Example: "Flexion:schwären"
             if (firstLine.EndsWith("\r\n")) { firstLine = firstLine.Substring(0, firstLine.Length - 2); }
             if (firstLine.EndsWith("\n\r")) { firstLine = firstLine.Substring(0, firstLine.Length - 2); }
             if (firstLine.EndsWith("\n")) { firstLine = firstLine.Substring(0, firstLine.Length - 1); }
