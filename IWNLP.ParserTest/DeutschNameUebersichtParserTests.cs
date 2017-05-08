@@ -317,7 +317,7 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Femininum},
+                Genus = new List<Genus>(){Genus.Pluralwort},
                 WiktionaryID = wiktionaryID,
                 NominativSingular = new List<Inflection>(),
                 NominativPlural = new List<Inflection>(){new Inflection(){Article="die", InflectedWord="Manx"}},
