@@ -279,7 +279,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"rinn!","rinne!"},
                 ImperativPlural = new List<string>(){"rinnt!"},
                 PartizipII = new List<string>(){"geronnen"},
-                Hilfsverb = new List<string>(){"haben"},
+                Hilfsverb = new List<string>(){"sein"},
                 POS = Models.POS.Verb
              },
             };
