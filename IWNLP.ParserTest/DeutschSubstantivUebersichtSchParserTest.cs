@@ -246,7 +246,6 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
-        [Ignore]
         [TestMethod]
         public void Hessisch()
         {

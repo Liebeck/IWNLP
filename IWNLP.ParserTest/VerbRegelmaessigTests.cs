@@ -1559,7 +1559,6 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
-        [Ignore] // fixed after 20161020 dump
         [TestMethod]
         public void wischen()
         {
