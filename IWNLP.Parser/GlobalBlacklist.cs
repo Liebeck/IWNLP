@@ -13,7 +13,12 @@ namespace IWNLP.Parser
             "Oachkatzlschwoaf",
             "Flexion:anbaggern",
             "Flexion:husten",
-            "Flexion:uzen"
+            "Flexion:uzen",
+            "Wirtschaftsforschungsinstitut", // fixed after 20170501 dump
+            "einhalten", // fixed after 20170501 dump
+            "Pflichtgefühl", // fixed after 20170501 dump
+            "vollscheißen", // fixed after 20170501 dump
+            "Flexion:raumhoch", // fixed after 20170501 dump
         };
     }
 }
