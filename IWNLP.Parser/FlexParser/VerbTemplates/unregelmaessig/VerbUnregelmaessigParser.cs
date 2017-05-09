@@ -877,6 +877,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         break;
                 }
             }
+            if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (wir)"))
+            {
+                if (verb.PräteritumAktivIndikativ_Plural1Person == null)
+                {
+                    verb.PräteritumAktivIndikativ_Plural1Person = new List<string>();
+                }
+                verb.PräteritumAktivIndikativ_Plural1Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (wir)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Plural 1 Person Nebensatzkonjugation
@@ -895,6 +903,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         default:
                             verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "en");
                             break;
+                    }
+                    if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (wir)"))
+                    {
+                        verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (wir)"]);
                     }
                 }
             }
@@ -951,6 +963,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                 }
             }
+            if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (ihr)"))
+            {
+                if (verb.PräteritumAktivIndikativ_Plural2Person == null)
+                {
+                    verb.PräteritumAktivIndikativ_Plural2Person = new List<string>();
+                }
+                verb.PräteritumAktivIndikativ_Plural2Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (ihr)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Plural 2 Person Nebensatzkonjugation
@@ -993,10 +1013,18 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                                         break;
                                 }
                                 break;
-
                         }
                     }
+                    if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (ihr)"))
+                    {
+                        if (verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation == null)
+                        {
+                            verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>();
+                        }
+                        verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (ihr)"]);
+                    }
                 }
+
             }
             #endregion
 
@@ -1016,6 +1044,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         break;
                 }
             }
+            if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (sie)"))
+            {
+                if (verb.PräteritumAktivIndikativ_Plural3Person == null)
+                {
+                    verb.PräteritumAktivIndikativ_Plural3Person = new List<string>();
+                }
+                verb.PräteritumAktivIndikativ_Plural3Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (sie)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Plural 3 Person Nebensatzkonjugation
@@ -1034,6 +1070,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         default:
                             verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter3] + "en");
                             break;
+                    }
+                    if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (sie)"))
+                    {
+                        if (verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation == null)
+                        {
+                            verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>();
+                        }
+                        verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (sie)"]);
                     }
                 }
             }
