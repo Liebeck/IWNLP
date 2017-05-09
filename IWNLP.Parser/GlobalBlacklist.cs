@@ -19,7 +19,8 @@ namespace IWNLP.Parser
             "Pflichtgefühl", // fixed after 20170501 dump
             "vollscheißen", // fixed after 20170501 dump
             "Flexion:raumhoch", // fixed after 20170501 dump
-            "Flexion:reinwaschen"
+            "Flexion:reinwaschen",
+            "Helles" // fixed after 20170501 dump
         };
     }
 }
