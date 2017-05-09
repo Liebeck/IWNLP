@@ -1704,6 +1704,53 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
+
+        [TestMethod]
+        public void beschwören()
+        {
+            String word = "beschwören";
+            int wikiID = 703309;
+            String text = DumpTextCaching.GetTextFromPage(wikiID);
+
+            WiktionaryParser parser = new WiktionaryParser();
+            List<Models.Entry> words = parser.ParseText(word, text, wikiID);
+            List<VerbConjugation> expectedWords = new List<VerbConjugation>()
+            {
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"beschwöre"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"beschwörst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"beschwört"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"beschwören"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"beschwört"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"beschwören"},
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"beschwor", "beschwur"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"beschworst", "beschwurst"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"beschwor", "beschwur"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"beschworen", "beschwuren"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"beschwort", "beschwurt"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"beschworen", "beschwuren"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"beschwöre"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"beschwörest"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"beschwöre"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"beschwören"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"beschwöret"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"beschwören"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"beschwöre", "beschwüre"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"beschwörest", "beschwörst", "beschwürest", "beschwürst"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"beschwöre", "beschwüre"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"beschwören", "beschwüren"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"beschwöret", "beschwört", "beschwüret", "beschwürt"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"beschwören", "beschwüren"},
+                    PartizipII = "beschworen",
+                 }
+            };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
+            CollectionAssert.AreEqual(expectedWords, words, "failed");
+        }
     }
 }
 
