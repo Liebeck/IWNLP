@@ -1693,8 +1693,8 @@ namespace IWNLP.ParserTest
                     Text = word,
                     WiktionaryID = wikiID,
                     PräsensAktivIndikativ_Singular3Person = new List<string>(){"schwiert","schwieret"},
-                    PräteritumAktivIndikativ_Singular3Person = new List<string>(){"schwäre"},
-                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"schwor"},
+                    PräteritumAktivIndikativ_Singular3Person = new List<string>(){"schwor"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"schwäre"},
                     PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"schwöre"},
                     PartizipII = "geschworen"
                  }
