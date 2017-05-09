@@ -18,19 +18,13 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
         public const String Parameter8 = "8";
         public const String Parameter9 = "9";
         public const String Parameter10 = "10";
-
         public const String VP = "vp";
         public const String ZP = "zp";
-
         public const String gerund = "gerund";
-
         public const String PartizipPlus = "Partizip+";
-
         public const String Hilfsverb = "Hilfsverb";
-
         public const String Wv = "Wv";
-
         public const String Reflexiv = "reflexiv";
-        
+        public const String Unpersönlich = "unpersönlich";
     }
 }
