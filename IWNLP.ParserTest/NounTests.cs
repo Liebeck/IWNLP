@@ -25,7 +25,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -57,7 +57,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -89,7 +89,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -119,7 +119,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -149,7 +149,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
                 new AdjectivalDeclension()
                 {
@@ -224,7 +224,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -256,7 +256,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -288,7 +288,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -335,7 +335,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -394,7 +394,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -425,7 +425,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -497,7 +497,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -529,7 +529,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -574,7 +574,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -604,7 +604,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -634,7 +634,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -679,7 +679,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -711,7 +711,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -741,7 +741,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -771,7 +771,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -807,7 +807,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -838,7 +838,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -885,7 +885,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -930,7 +930,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -960,7 +960,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1004,7 +1004,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1035,7 +1035,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1065,7 +1065,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1095,7 +1095,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1128,7 +1128,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1161,7 +1161,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1191,7 +1191,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1221,11 +1221,11 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
-                 
+
                 Text=word,
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Maskulinum, Genus.Femininum},
@@ -1253,11 +1253,11 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
-                 
+
                 Text=word,
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Maskulinum},
@@ -1284,7 +1284,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1315,11 +1315,11 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
-                 
+
                 Text=word,
                 POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Maskulinum, Genus.Femininum},
@@ -1346,7 +1346,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1379,7 +1379,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1427,7 +1427,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1478,7 +1478,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1510,7 +1510,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1542,7 +1542,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1574,7 +1574,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1606,7 +1606,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1638,7 +1638,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1670,7 +1670,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1702,7 +1702,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1749,7 +1749,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1796,7 +1796,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1828,7 +1828,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1860,7 +1860,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1892,7 +1892,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1924,7 +1924,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1956,7 +1956,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -1988,7 +1988,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -2020,7 +2020,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -2067,7 +2067,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -2099,7 +2099,7 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
+            List<Models.Word> expectedWords = new List<Models.Word>()
             {
              new Models.Noun()
              {
@@ -2154,6 +2154,5 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
-
     }
 }
