@@ -87,6 +87,11 @@ namespace IWNLP.Parser.POSParser
             for (int i = 0; i < cleanedLines.Count; i++)
             {
                 String line = cleanedLines[i];
+                if (String.IsNullOrEmpty(line))
+                {
+                    Console.WriteLine("Empty line in " + word);
+                    continue;
+                }
                 String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
                 List<String> noPluralForms = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                 if (forms.Length == 1) // no Plural

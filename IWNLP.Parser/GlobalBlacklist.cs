@@ -14,13 +14,17 @@ namespace IWNLP.Parser
             "Flexion:anbaggern",
             "Flexion:husten",
             "Flexion:uzen",
-            "Wirtschaftsforschungsinstitut", // fixed after 20170501 dump
-            "einhalten", // fixed after 20170501 dump
-            "Pflichtgefühl", // fixed after 20170501 dump
-            "vollscheißen", // fixed after 20170501 dump
-            "Flexion:raumhoch", // fixed after 20170501 dump
             "Flexion:reinwaschen",
-            "Helles" // fixed after 20170501 dump
+            "Antonello",
+            "Ackerschotendotter", // fixed after 20180920 dump
+            "Flexion:watschen",// fixed after 20180920 dump
+            "Mittelstadt",// fixed after 20180920 dump
+            "Chassid",// fixed after 20180920 dump
+            "entmilitarisiert",// fixed after 20180920 dump
+            "Gams",
+            "Flexion:weiterverwenden",
+            "variatio delectat",
+            "Flexion:an sein"
         };
     }
 }
