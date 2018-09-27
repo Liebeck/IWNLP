@@ -218,6 +218,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     verb.PräsensAktivIndikativ_Singular2Person.Add(indicative + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
                 }
+                if (parameters.ContainsKey("Indikativ Präsens Alternativform (du)"))
+                {
+                    verb.PräsensAktivIndikativ_Singular2Person.Add(parameters["Indikativ Präsens Alternativform (du)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+                }
             }
             #endregion
             #region Präsens Indikativ Singular 2 Person Nebensatzkonjugation
@@ -241,7 +245,6 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         {
                             indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter2];
                         }
-
                         if (condition2.Contains(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter6)))
                         {
                             indicativeNebensatz += "st";
@@ -272,6 +275,11 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         }
                         verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(indicativeNebensatz);
                     }
+                    if (parameters.ContainsKey("Indikativ Präsens Alternativform (du)"))
+                    {
+                        verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präsens Alternativform (du)"]);
+                    }
+
                 }
             }
             #endregion
