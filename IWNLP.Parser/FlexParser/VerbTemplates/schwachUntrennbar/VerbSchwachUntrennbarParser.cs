@@ -25,7 +25,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else
                 {
-                    if(String.IsNullOrEmpty(inputSplitted[i]))
+                    if (String.IsNullOrEmpty(inputSplitted[i]))
                     {
                         Common.PrintError(word, String.Format("VerbSchwachUntrennbarParser: {0} parsing arguments, possible empty parameter", word));
                         break;
@@ -42,7 +42,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                     }
                 }
             }
-            if (parameters.Any(x => x.Value.Contains("="))) 
+            if (parameters.Any(x => x.Value.Contains("=")))
             {
                 Common.PrintError(word, String.Format("VerbSchwachUntrennbarParser: {0} contains '='", word));
             }
@@ -922,7 +922,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                         {
                             verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + parameters[ParameterSchwachUntrennbar.Parameter4] + "e");
                         }
-                        else 
+                        else
                         {
                             verb.PräsensAktivKonjunktiv_Singular1Person.Add(parameters[ParameterSchwachUntrennbar.Parameter1] + parameters[ParameterSchwachUntrennbar.Parameter2] + parameters[ParameterSchwachUntrennbar.Parameter3] + "e");
                         }
@@ -1093,7 +1093,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >ich", ",</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Singular1Person.Add(multipleValues[i].Trim());
@@ -1117,7 +1117,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >du", ",</br >","</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Singular2Person.Add(multipleValues[i].Trim());
@@ -1141,7 +1141,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >{{small|er/sie/es}}", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Singular3Person.Add(multipleValues[i].Trim());
@@ -1165,7 +1165,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >wir", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Plural1Person.Add(multipleValues[i].Trim());
@@ -1189,7 +1189,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >ihr", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Plural2Person.Add(multipleValues[i].Trim());
@@ -1213,7 +1213,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >sie", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Plural3Person.Add(multipleValues[i].Trim());
