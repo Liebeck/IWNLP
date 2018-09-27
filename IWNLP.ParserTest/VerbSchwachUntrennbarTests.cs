@@ -802,7 +802,7 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void brauchen()
         {
-            String word = "gebraucht";
+            String word = "brauchen";
             int wikiID = 158652;
             String text = DumpTextCaching.GetTextFromPage(wikiID);
 
@@ -892,6 +892,5 @@ namespace IWNLP.ParserTest
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(words.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_2.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
-
     }
 }
