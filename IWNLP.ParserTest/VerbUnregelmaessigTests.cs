@@ -1595,7 +1595,7 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
-        [Ignore] // currently not fixed in Wiktionary as of 20170508
+        //[Ignore] // currently not fixed in Wiktionary as of 20170508
         [TestMethod]
         public void reinwaschen()
         {

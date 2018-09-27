@@ -1116,7 +1116,7 @@ namespace IWNLP.ParserTest
                 Präsens_Ich = new List<string>(){"schwöre"},
                 Präsens_Du = new List<string>(){"schwörst"},
                 Präsens_ErSieEs = new List<string>(){"schwört"},
-                Präteritum_ich = new List<string>(){"schwor","schwur","schwörte"},
+                Präteritum_ich = new List<string>(){"schwor","schwur"},
                 KonjunktivII_Ich = new List<string>(){"schwüre"},
                 ImperativSingular = new List<string>(){"schwöre!"},
                 ImperativPlural = new List<string>(){"schwört!"},
@@ -1435,7 +1435,7 @@ namespace IWNLP.ParserTest
                 ImperativSingular = new List<string>(){"tritt weg!","wegtreten!","weggetreten!"},
                 ImperativPlural = new List<string>(){"tretet weg!","wegtreten!","weggetreten!"},
                 PartizipII = new List<string>(){"weggetreten"},
-                Hilfsverb = new List<string>(){"sein"},
+                Hilfsverb = new List<string>(){"sein","haben"},
                 POS = Models.POS.Verb
              },
             };
