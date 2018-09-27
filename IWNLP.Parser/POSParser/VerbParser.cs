@@ -142,6 +142,7 @@ namespace IWNLP.Parser.POSParser
                     }
                 }
                 else if (forms[0].StartsWith("Weitere Konjugationen")) { }
+                else if (forms[0].StartsWith("Flexion")) { }
                 else
                 {
                     Common.PrintError(word, String.Format("word {0}=={1}", word, line));
