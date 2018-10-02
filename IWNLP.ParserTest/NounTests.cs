@@ -816,15 +816,22 @@ namespace IWNLP.ParserTest
                 Genus = new List<Genus>(){Genus.Neutrum},
                 WiktionaryID = wiktionaryID,
                 NominativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="Gelb"}},
-                NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Gelbs"},new Inflection(){ Article="die", InflectedWord="Gelbtöne"}},
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Gelbs"}},
-                GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Gelbs"},new Inflection(){ Article="der", InflectedWord="Gelbtöne"}},
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Gelb"}},
-                DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Gelbs"},new Inflection(){ Article="den", InflectedWord="Gelbtönen"}},
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Gelb"}},
-                AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Gelbs"},new Inflection(){ Article="die", InflectedWord="Gelbtöne"}},
+                NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Gelbs"},
+                                                         new Inflection(){ Article="die", InflectedWord="Gelb"}},
+                GenitivSingular = new List<Inflection>(){new Inflection(){ Article="des", InflectedWord="Gelbs"},
+                                                         new Inflection(){ Article="des", InflectedWord="Gelb"}},
+                GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Gelbs"},
+                                                       new Inflection(){ Article="der", InflectedWord="Gelb"}},
+                DativSingular = new List<Inflection>(){new Inflection(){ Article="dem", InflectedWord="Gelb"}},
+                DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Gelbs"},
+                                                     new Inflection(){ Article="den", InflectedWord="Gelb"}},
+                AkkusativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="Gelb"}},
+                AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Gelbs"},
+                                                         new Inflection(){ Article="die", InflectedWord="Gelb"}},
              },
             };
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
+            if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
