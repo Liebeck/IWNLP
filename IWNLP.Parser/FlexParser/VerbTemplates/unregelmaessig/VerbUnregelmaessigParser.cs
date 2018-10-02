@@ -676,6 +676,11 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 {
                     verb.PräteritumAktivIndikativ_Singular1Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (ich)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
                 }
+                if (base.ContainsNonEmpty(parameters, "11"))
+                {
+                    verb.PräteritumAktivIndikativ_Singular1Person.Add(parameters["11"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+                }
+                
             }
             #endregion
 
@@ -689,6 +694,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (ich)"))
                     {
                         verb.PräteritumAktivIndikativ_Singular1Person.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (ich)"]);
+                    }
+                    if (base.ContainsNonEmpty(parameters, "11"))
+                    {
+                        verb.PräteritumAktivIndikativ_Singular1Person.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["11"]);
                     }
                 }
             }
@@ -774,6 +783,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         {
                             verb.PräteritumAktivIndikativ_Singular2Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (du)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
                         }
+                        if (base.ContainsNonEmpty(parameters, "11"))
+                        {
+                            verb.PräteritumAktivIndikativ_Singular2Person.Add(parameters["11"] + "st" + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+                        }
                         break;
                 }
             }
@@ -840,6 +853,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                             {
                                 verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (du)"]);
                             }
+                            if (base.ContainsNonEmpty(parameters, "11"))
+                            {
+                                verb.PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["11"] + "st");
+                            }
                             break;
                     }
                 }
@@ -854,6 +871,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             {
                 verb.PräteritumAktivIndikativ_Singular3Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (es)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
             }
+            if (base.ContainsNonEmpty(parameters, "11"))
+            {
+                verb.PräteritumAktivIndikativ_Singular3Person.Add(parameters["11"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Singular 3 Person Nebensatzkonjugation
@@ -864,6 +885,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (es)"))
                 {
                     verb.PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (es)"]);
+                }
+                if (base.ContainsNonEmpty(parameters, "11"))
+                {
+                    verb.PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["11"]);
                 }
             }
 
@@ -893,6 +918,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 verb.PräteritumAktivIndikativ_Plural1Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (wir)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
             }
+            if (base.ContainsNonEmpty(parameters, "11"))
+            {
+                if (verb.PräteritumAktivIndikativ_Plural1Person == null)
+                {
+                    verb.PräteritumAktivIndikativ_Plural1Person = new List<string>();
+                }
+                verb.PräteritumAktivIndikativ_Plural1Person.Add(parameters["11"] + "en" + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Plural 1 Person Nebensatzkonjugation
@@ -915,6 +948,10 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     if (base.ContainsNonEmpty(parameters, "Indikativ Präteritum Aktiv Alternativform (wir)"))
                     {
                         verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (wir)"]);
+                    }
+                    if (base.ContainsNonEmpty(parameters, "11"))
+                    {
+                        verb.PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["11"] + "en");
                     }
                 }
             }
@@ -979,6 +1016,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 verb.PräteritumAktivIndikativ_Plural2Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (ihr)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
             }
+            if (base.ContainsNonEmpty(parameters, "11"))
+            {
+                if (verb.PräteritumAktivIndikativ_Plural2Person == null)
+                {
+                    verb.PräteritumAktivIndikativ_Plural2Person = new List<string>();
+                }
+                verb.PräteritumAktivIndikativ_Plural2Person.Add(parameters["11"] + "t" + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Plural 2 Person Nebensatzkonjugation
@@ -1031,6 +1076,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         }
                         verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (ihr)"]);
                     }
+                    if (base.ContainsNonEmpty(parameters, "11"))
+                    {
+                        if (verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation == null)
+                        {
+                            verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation = new List<string>();
+                        }
+                        verb.PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["11"] + "t");
+                    }
                 }
 
             }
@@ -1060,6 +1113,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 verb.PräteritumAktivIndikativ_Plural3Person.Add(parameters["Indikativ Präteritum Aktiv Alternativform (sie)"] + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
             }
+            if (base.ContainsNonEmpty(parameters, "11"))
+            {
+                if (verb.PräteritumAktivIndikativ_Plural3Person == null)
+                {
+                    verb.PräteritumAktivIndikativ_Plural3Person = new List<string>();
+                }
+                verb.PräteritumAktivIndikativ_Plural3Person.Add(parameters["11"] + "en" +GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
+            }
             #endregion
 
             #region Präteritum Indikativ Plural 3 Person Nebensatzkonjugation
@@ -1086,6 +1147,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                             verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>();
                         }
                         verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["Indikativ Präteritum Aktiv Alternativform (sie)"]);
+                    }
+                    if (base.ContainsNonEmpty(parameters, "11"))
+                    {
+                        if (verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation == null)
+                        {
+                            verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation = new List<string>();
+                        }
+                        verb.PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation.Add(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters["11"] + "en");
                     }
                 }
             }
