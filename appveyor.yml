@@ -1,6 +1,6 @@
 environment:
-  DUMP_URL: https://dumps.wikimedia.org/dewiktionary/20180920/dewiktionary-20180920-pages-articles.xml.bz2
-  DOWNLOAD_PATH: C:\dewiktionary-20180920-pages-articles.xml.bz2
+  DUMP_URL: https://dumps.wikimedia.org/dewiktionary/20181001/dewiktionary-20181001-pages-articles.xml.bz2
+  DOWNLOAD_PATH: C:\dewiktionary-20181001-pages-articles.xml.bz2
   
 
 before_build:
@@ -13,4 +13,4 @@ install:
   - rename "C:\projects\iwnlp\IWNLP.ParserTest\App.AppVeyor.config" "App.config"
   
 cache:
-  - C:\dewiktionary-20180920-pages-articles.xml.bz2
+  - C:\dewiktionary-20181001-pages-articles.xml.bz2
