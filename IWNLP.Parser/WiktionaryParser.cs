@@ -79,7 +79,11 @@ namespace IWNLP.Parser
                 {
                     try
                     {
-                        words.Add(adjectiveFlexParser.Parse(word, subArrayLanguageBlock));
+                        var parsedWord = adjectiveFlexParser.Parse(word, subArrayLanguageBlock);
+                        if (parsedWord != null)
+                        {
+                            words.Add(parsedWord);
+                        }
                     }
                     catch (InvalidOperationException invalid)
                     {

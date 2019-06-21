@@ -47,10 +47,18 @@ namespace IWNLP.Parser
                             myReader.ReadToFollowing("revision");
                             myReader.ReadToFollowing("text");
                             String text = myReader.ReadElementContentAsString();
-                            List<Entry> entries = parser.ParseText(title, text, id);
-                            if (entries != null)
+                            try
                             {
-                                allWords.AddRange(entries);
+                                List<Entry> entries = parser.ParseText(title, text, id);
+                                if (entries != null)
+                                {
+                                    allWords.AddRange(entries);
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(String.Format("Exception for entry: {0}", title));
+                                Console.WriteLine(ex.ToString());
                             }
                         }
                         var value = myReader.Value;
@@ -60,7 +68,6 @@ namespace IWNLP.Parser
             Console.WriteLine("Dump parsed in " + (stopwatch.ElapsedMilliseconds / 1000) + " seconds");
             XMLSerializer.Serialize<List<Entry>>(allWords.Where(x => !x.ParserError).ToList(), parsedOutputPath);
             StatsWriter.Write(wiktionaryDumpPath, parsedOutputPath, String.Format("{0}.txt", parsedOutputPath));
-
         }
     }
 }
