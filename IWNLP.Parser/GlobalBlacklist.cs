@@ -18,7 +18,16 @@ namespace IWNLP.Parser
             "Gams",
             "Flexion:weiterverwenden",
             "variatio delectat",
-            "Flexion:an sein"
+            "Flexion:an sein",
+            "Flexion:unterbewerten",
+            "Flexion:unterbezahlen",
+            "Flexion:unterbesetzen",
+            "Flexion:unterbelichten",
+            "Flexion:überbelichten",
+            "Flexion:überbewerten",
+            "Flexion:überbetonen",
+            "Flexion:zuleimen",
+            "Flexion:heben/Gerundivum",
         };
     }
 }
