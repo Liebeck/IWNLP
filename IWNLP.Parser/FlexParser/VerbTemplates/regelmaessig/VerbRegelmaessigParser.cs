@@ -3257,7 +3257,21 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular1Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Singular1Person.Add(parameters["1. Singular Konjunktiv Präteritum Aktiv"]);
+                string[] multipleValues = parameters["1. Singular Konjunktiv Präteritum Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < multipleValues.Length; i++)
+                {
+                    if (multipleValues[i].StartsWith("ich "))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(4);
+                    }
+
+                    if (multipleValues[i].EndsWith(","))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                    }
+
+                    verb.PräteritumAktivKonjunktiv_Singular1Person.Add(multipleValues[i].Trim());
+                }
             }
             else
             {
@@ -3278,10 +3292,24 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             #endregion
 
             #region Präteritum Konjunktiv Singular 2 Person
-            if (base.ContainsNonEmpty(parameters, "2. Singular Indikativ Präteritum Aktiv"))
+            if (base.ContainsNonEmpty(parameters, "2. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular2Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Singular2Person.Add(parameters["2. Singular Indikativ Präteritum Aktiv"]);
+                string[] multipleValues = parameters["2. Singular Konjunktiv Präteritum Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < multipleValues.Length; i++)
+                {
+                    if (multipleValues[i].StartsWith("du "))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(3);
+                    }
+
+                    if (multipleValues[i].EndsWith(","))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                    }
+
+                    verb.PräteritumAktivKonjunktiv_Singular2Person.Add(multipleValues[i].Trim());
+                }
             }
             else
             {
@@ -3302,10 +3330,24 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             #endregion
 
             #region Präteritum Konjunktiv Singular 3 Person
-            if (base.ContainsNonEmpty(parameters, "3. Singular Indikativ Präteritum Aktiv"))
+            if (base.ContainsNonEmpty(parameters, "3. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular3Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Singular3Person.Add(parameters["3. Singular Indikativ Präteritum Aktiv"]);
+                string[] multipleValues = parameters["3. Singular Konjunktiv Präteritum Aktiv"].Split(new string[] { ",</br >{{small|er/sie/es}}", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < multipleValues.Length; i++)
+                {
+                    if (multipleValues[i].StartsWith("du "))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(3);
+                    }
+
+                    if (multipleValues[i].EndsWith(","))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                    }
+
+                    verb.PräteritumAktivKonjunktiv_Singular3Person.Add(multipleValues[i].Trim());
+                }
             }
             else
             {
@@ -3329,7 +3371,21 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             if (base.ContainsNonEmpty(parameters, "1. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural1Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Plural1Person.Add(parameters["1. Plural Konjunktiv Präteritum Aktiv"]);
+                string[] multipleValues = parameters["1. Plural Konjunktiv Präteritum Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < multipleValues.Length; i++)
+                {
+                    if (multipleValues[i].StartsWith("wir "))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(4);
+                    }
+
+                    if (multipleValues[i].EndsWith(","))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                    }
+
+                    verb.PräteritumAktivKonjunktiv_Plural1Person.Add(multipleValues[i].Trim());
+                }
             }
             else
             {
@@ -3353,7 +3409,21 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             if (base.ContainsNonEmpty(parameters, "2. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural2Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Plural2Person.Add(parameters["2. Plural Konjunktiv Präteritum Aktiv"]);
+                string[] multipleValues = parameters["2. Plural Konjunktiv Präteritum Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < multipleValues.Length; i++)
+                {
+                    if (multipleValues[i].StartsWith("ihr "))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(4);
+                    }
+
+                    if (multipleValues[i].EndsWith(","))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                    }
+
+                    verb.PräteritumAktivKonjunktiv_Plural2Person.Add(multipleValues[i].Trim());
+                }
             }
             else
             {
@@ -3377,7 +3447,21 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             if (base.ContainsNonEmpty(parameters, "3. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural3Person = new List<string>();
-                verb.PräteritumAktivKonjunktiv_Plural3Person.Add(parameters["3. Plural Konjunktiv Präteritum Aktiv"]);
+                string[] multipleValues = parameters["3. Plural Konjunktiv Präteritum Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < multipleValues.Length; i++)
+                {
+                    if (multipleValues[i].StartsWith("sie "))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(4);
+                    }
+
+                    if (multipleValues[i].EndsWith(","))
+                    {
+                        multipleValues[i] = multipleValues[i].Substring(0, multipleValues[i].Length - 1);
+                    }
+
+                    verb.PräteritumAktivKonjunktiv_Plural3Person.Add(multipleValues[i].Trim());
+                }
             }
             else
             {
