@@ -95,6 +95,42 @@ namespace IWNLP.ParserTest
                 },
                 AkkusativPlural = new List<Inflection>(),
              },
+             new Models.Noun()
+             {
+                 Text=word,
+                 POS = POS.Noun,
+                 Genus = new List<Genus>(){Genus.Maskulinum},
+                 WiktionaryID = wiktionaryID,
+                 NominativSingular = new List<Inflection>(){
+                     new Inflection(){Article ="der", InflectedWord="Nord"},
+                 },
+                 NominativPlural = new List<Inflection>()
+                 {
+                     new Inflection(){Article ="die", InflectedWord="Norde"},
+                 },
+                 GenitivSingular = new List<Inflection>(){
+                     new Inflection(){ Article ="des", InflectedWord="Nords"},
+                     new Inflection(){ Article ="des", InflectedWord="Nordes"},
+                 },
+                 GenitivPlural = new List<Inflection>()
+                 {
+                     new Inflection(){Article ="der", InflectedWord="Norde"},
+                 },
+                 DativSingular = new List<Inflection>(){
+                     new Inflection(){Article ="dem", InflectedWord="Nord"},
+                 },
+                 DativPlural = new List<Inflection>()
+                 {
+                     new Inflection(){Article ="den", InflectedWord="Norden"},
+                 },
+                 AkkusativSingular = new List<Inflection>(){
+                     new Inflection(){Article ="den", InflectedWord="Nord"},
+                 },
+                 AkkusativPlural = new List<Inflection>()
+                 {
+                     new Inflection(){Article ="die", InflectedWord="Norde"},
+                 },
+             },
             };
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt")); }
@@ -204,16 +240,14 @@ namespace IWNLP.ParserTest
                 Genus = new List<Genus>(){Genus.Maskulinum},
                 WiktionaryID = wiktionaryID,
                 NominativSingular = new List<Inflection>(){
-                    new Inflection(){Article="der", InflectedWord="Gott"},
-                    new Inflection(){InflectedWord="Gott"}},
+                    new Inflection(){Article="der", InflectedWord="Gott"}},
                 NominativPlural = new List<Inflection>()
                 {
                     new Inflection(){ Article="die", InflectedWord="Götter"}
                 },
                 GenitivSingular = new List<Inflection>(){
-                    new Inflection(){Article="des", InflectedWord="Gott"},
-                    new Inflection(){ InflectedWord="Gotts"},
-                    new Inflection(){ InflectedWord="Gottes"}
+                    new Inflection(){Article="des", InflectedWord="Gottes"},
+                    new Inflection(){Article="des", InflectedWord="Gotts"},
                 },
                 GenitivPlural = new List<Inflection>()
                 {
@@ -221,15 +255,15 @@ namespace IWNLP.ParserTest
                 },
                 DativSingular = new List<Inflection>(){
                     new Inflection(){Article="dem", InflectedWord="Gott"},
-                    new Inflection(){InflectedWord="Gott"},
-                    new Inflection(){InflectedWord="Gotte"}},
+                    new Inflection(){Article="dem", InflectedWord="Gotte"},
+                },
                 DativPlural = new List<Inflection>()
                 {
                     new Inflection(){ Article="den", InflectedWord="Göttern"}
                 },
                 AkkusativSingular = new List<Inflection>(){
                     new Inflection(){Article="den", InflectedWord="Gott"},
-                    new Inflection(){InflectedWord="Gott"}},
+                },
                 AkkusativPlural = new List<Inflection>()
                 {
                     new Inflection(){ Article="die", InflectedWord="Götter"}

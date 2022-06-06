@@ -55,8 +55,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"tot"},
-                Komparativ = new List<string>(){"toter", "töter"},
-                Superlativ = new List<string>(){"totesten","tötesten"}
+                Komparativ = new List<string>(){"toter"},
+                Superlativ = new List<string>(){"totesten"}
              },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -350,8 +350,8 @@ namespace IWNLP.ParserTest
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
                 Positiv=new List<string>(){"wenig"},
-                Komparativ= new List<string>(){"weniger","minder"},
-                Superlativ=new List<string>(){"wenigsten","mindesten"}
+                Komparativ= new List<string>(){"weniger"},
+                Superlativ=new List<string>(){"wenigsten"}
              },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
@@ -376,7 +376,7 @@ namespace IWNLP.ParserTest
                 Text=word,
                 POS = POS.Adjective,
                 WiktionaryID = wiktionaryID,
-                Superlativ=new List<string>(){"weltgrößter","weltgrößte","weltgrößtes"}
+                Superlativ=new List<string>(){"weltgrößte"}
              },
             };
             if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}

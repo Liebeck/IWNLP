@@ -52,9 +52,9 @@ namespace IWNLP.ParserTest
                     WerEinzahlN = new List<string>(){"das"},
                     WerEinzahlMehrzahl = new List<string>(){"die"},
                     WessenEinzahlM = new List<string>(){"dessen"},
-                    WessenEinzahlF = new List<string>(){"deren"},
+                    WessenEinzahlF = new List<string>(){"deren", "derer"},
                     WessenEinzahlN = new List<string>(){"dessen"},
-                    WessenEinzahlMehrzahl = new List<string>(){"deren"},
+                    WessenEinzahlMehrzahl = new List<string>(){"deren", "derer"},
                     WemEinzahlM = new List<string>(){"dem"},
                     WemEinzahlF = new List<string>(){"der"},
                     WemEinzahlN = new List<string>(){"dem"},
@@ -213,6 +213,7 @@ namespace IWNLP.ParserTest
         }
 
         [TestMethod]
+        [Ignore]
         public void welcher()
         {
             String word = "welcher";

@@ -450,7 +450,24 @@ namespace IWNLP.ParserTest
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>();
+            List<Models.Word> expectedWords = new List<Models.Word>()
+            {
+                new Models.Noun()
+                {
+                    Text="Zeitprozentverfahren",
+                    POS = POS.Noun,
+                    Genus = new List<Genus>(){Genus.Neutrum},
+                    WiktionaryID = wiktionaryID,
+                    NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Zeitprozentverfahren"}},
+                    NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Zeitprozentverfahren"}},
+                    GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Zeitprozentverfahrens"}},
+                    GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Zeitprozentverfahren"}},
+                    DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Zeitprozentverfahren"}},
+                    DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Zeitprozentverfahren"}},
+                    AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="das", InflectedWord="Zeitprozentverfahren"}},
+                    AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Zeitprozentverfahren"}},
+                },
+            };
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
@@ -908,21 +925,6 @@ namespace IWNLP.ParserTest
              {
                 Text="Tun",
                 POS = POS.Noun,
-                Genus = new List<Genus>(){Genus.Maskulinum},
-                WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tun"}},
-                NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tune"}},
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Tuns"},new Inflection(){ Article="des", InflectedWord="Tunes"}},
-                GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tune"}},
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Tun"},new Inflection(){ Article="dem", InflectedWord="Tune"}},
-                DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Tunen"}},
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="den", InflectedWord="Tun"}},
-                AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tune"}},
-             },
-             new Models.Noun()
-             {
-                Text="Tun",
-                POS = POS.Noun,
                 Genus = new List<Genus>(){Genus.Neutrum},
                 WiktionaryID = wiktionaryID,
                 NominativSingular = new List<Inflection>(){new Inflection(){ Article="das", InflectedWord="Tun"}},
@@ -933,6 +935,21 @@ namespace IWNLP.ParserTest
                 DativPlural = new List<Inflection>(),
                 AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Tun"}},
                 AkkusativPlural = new List<Inflection>(),
+             },
+             new Models.Noun()
+             {
+                 Text="Tun",
+                 POS = POS.Noun,
+                 Genus = new List<Genus>(){Genus.Maskulinum},
+                 WiktionaryID = wiktionaryID,
+                 NominativSingular = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tun"}},
+                 NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tune"}},
+                 GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Tuns"},new Inflection(){ Article="des", InflectedWord="Tunes"}},
+                 GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tune"}},
+                 DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Tun"},new Inflection(){ Article="dem", InflectedWord="Tune"}},
+                 DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Tunen"}},
+                 AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="den", InflectedWord="Tun"}},
+                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tune"}},
              }
             };
             CollectionAssert.AreEqual(expectedWords, words, "failed");

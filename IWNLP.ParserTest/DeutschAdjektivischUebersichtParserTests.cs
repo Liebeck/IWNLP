@@ -203,39 +203,6 @@ namespace IWNLP.ParserTest
             CollectionAssert.AreEqual(expectedWords, words, "failed");
         }
 
-        [TestMethod]
-        public void GebrannteWasser()
-        {
-            string word = "Gebrannte Wasser";
-            int wiktionaryID = 272460;
-            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
-
-            WiktionaryParser parser = new WiktionaryParser();
-            List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
-            List<Models.Word> expectedWords = new List<Models.Word>() 
-            {
-                new AdjectivalDeclension()
-                {
-                    Text=word,
-                    WiktionaryID = wiktionaryID,
-                    NominativPlural=new List<string>(){"Gebrannte Wasser"},
-                    GenitivPlural=new List<string>(){"Gebrannter Wasser"},
-                    DativPlural=new List<string>(){"Gebrannten Wassern"},
-                    AkkusativPlural=new List<string>(){"Gebrannte Wasser"},
-                    NominativPluralSchwach=new List<string>(){"Gebrannten Wasser"},
-                    GenitivPluralSchwach=new List<string>(){"Gebrannten Wasser"},
-                    DativPluralSchwach=new List<string>(){"Gebrannten Wassern"},
-                    AkkusativPluralSchwach=new List<string>(){"Gebrannten Wasser"},
-                    NominativPluralGemischt=new List<string>(){"Gebrannten Wasser"},
-                    GenitivPluralGemischt=new List<string>(){"Gebrannten Wasser"},
-                    DativPluralGemischt=new List<string>(){"Gebrannten Wassern"},
-                    AkkusativPluralGemischt=new List<string>(){"Gebrannten Wasser"},
-                },
-            };
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt"));}
-            if(!AppSettingsWrapper.SuppressDumps){XMLSerializer.Serialize<List<Models.Word>>(expectedWords, System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "4.txt"));}
-            CollectionAssert.AreEqual(expectedWords, words, "failed");
-        }
 
         [TestMethod]
         public void Gelbes()
