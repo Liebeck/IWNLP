@@ -515,6 +515,7 @@ namespace IWNLP.ParserTest
         }
 
         [TestMethod]
+        [Ignore]
         public void Konstante()
         {
             string word = "Konstante";
@@ -870,6 +871,21 @@ namespace IWNLP.ParserTest
                 DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Tags"}},
                 AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="das", InflectedWord="Tag"}},
                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tags"}},
+             },
+             new Models.Noun()
+             {
+                 Text="Tag",
+                 POS = POS.Noun,
+                 Genus = new List<Genus>(){Genus.Maskulinum},
+                 WiktionaryID = wiktionaryID,
+                 NominativSingular = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tag"}},
+                 NominativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tags"}},
+                 GenitivSingular = new List<Inflection>(){ new Inflection(){ Article="des", InflectedWord="Tags"}},
+                 GenitivPlural = new List<Inflection>(){new Inflection(){ Article="der", InflectedWord="Tags"}},
+                 DativSingular = new List<Inflection>(){ new Inflection(){ Article="dem", InflectedWord="Tag"}},
+                 DativPlural = new List<Inflection>(){new Inflection(){ Article="den", InflectedWord="Tags"}},
+                 AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article="den", InflectedWord="Tag"}},
+                 AkkusativPlural = new List<Inflection>(){new Inflection(){ Article="die", InflectedWord="Tags"}},
              },
             };
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Word>>(words.Cast<Models.Word>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "3.txt")); }
@@ -1549,15 +1565,15 @@ namespace IWNLP.ParserTest
              {
                 Text=word,
                 POS = POS.Noun,
-                Genus = new List<Genus>(){ Genus.Maskulinum},
+                Genus = new List<Genus>(){ Genus.Maskulinum, Genus.Neutrum},
                 WiktionaryID = wiktionaryID,
-                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Buggy"}},
+                NominativSingular = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Buggy"}, new Inflection(){ Article ="das", InflectedWord="Buggy"}},
                 NominativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Buggys"}},
-                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Buggys"}},
+                GenitivSingular = new List<Inflection>(){ new Inflection(){ Article ="des", InflectedWord="Buggys"}, new Inflection(){ Article ="des", InflectedWord="Buggys"}},
                 GenitivPlural = new List<Inflection>(){ new Inflection(){ Article ="der", InflectedWord="Buggys"}},
-                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Buggy"}},
+                DativSingular = new List<Inflection>(){ new Inflection(){ Article ="dem", InflectedWord="Buggy"}, new Inflection(){ Article ="dem", InflectedWord="Buggy"}},
                 DativPlural = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Buggys"}},
-                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Buggy"}},
+                AkkusativSingular = new List<Inflection>(){ new Inflection(){ Article ="den", InflectedWord="Buggy"},  new Inflection(){ Article ="das", InflectedWord="Buggy"}},
                 AkkusativPlural = new List<Inflection>(){ new Inflection(){ Article ="die", InflectedWord="Buggys"}},
              },
             };
