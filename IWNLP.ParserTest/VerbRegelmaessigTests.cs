@@ -615,6 +615,36 @@ namespace IWNLP.ParserTest
                     PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"verwässertet"},
                     PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"verwässerten"},
                     PartizipII = "verwässert"
+                 },
+                 new VerbConjugation()
+                 {
+                    Text = word,
+                    WiktionaryID = wikiID,
+                    PräsensAktivIndikativ_Singular1Person = new List<string>(){"verwässer","verwässere","verwässre"},
+                    PräsensAktivIndikativ_Singular2Person = new List<string>(){"verwässerst"},
+                    PräsensAktivIndikativ_Singular3Person = new List<string>(){"verwässert"},
+                    PräsensAktivIndikativ_Plural1Person = new List<string>(){"verwässern"},
+                    PräsensAktivIndikativ_Plural2Person = new List<string>(){"verwässert"},
+                    PräsensAktivIndikativ_Plural3Person = new List<string>(){"verwässern"},      
+                    PräteritumAktivIndikativ_Singular1Person = new List<string>(){"verwässerte"},
+                    PräteritumAktivIndikativ_Singular2Person  = new List<string>(){"verwässertest"},
+                    PräteritumAktivIndikativ_Singular3Person  = new List<string>(){"verwässerte"},
+                    PräteritumAktivIndikativ_Plural1Person  = new List<string>(){"verwässerten"},
+                    PräteritumAktivIndikativ_Plural2Person =  new List<string>(){"verwässertet"},
+                    PräteritumAktivIndikativ_Plural3Person  = new List<string>(){"verwässerten"},
+                    PräsensAktivKonjunktiv_Singular1Person = new List<string>(){"verwässere","verwässre"},
+                    PräsensAktivKonjunktiv_Singular2Person = new List<string>(){"verwässerst"},
+                    PräsensAktivKonjunktiv_Singular3Person = new List<string>(){"verwässere","verwässre"},
+                    PräsensAktivKonjunktiv_Plural1Person = new List<string>(){"verwässern"},
+                    PräsensAktivKonjunktiv_Plural2Person = new List<string>(){"verwässert"},
+                    PräsensAktivKonjunktiv_Plural3Person = new List<string>(){"verwässern"},
+                    PräteritumAktivKonjunktiv_Singular1Person = new List<string>(){"verwässerte"},
+                    PräteritumAktivKonjunktiv_Singular2Person = new List<string>(){"verwässertest"},
+                    PräteritumAktivKonjunktiv_Singular3Person = new List<string>(){"verwässerte"},
+                    PräteritumAktivKonjunktiv_Plural1Person = new List<string>(){"verwässerten"},
+                    PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"verwässertet"},
+                    PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"verwässerten"},
+                    PartizipII = "verwässert"
                  }
             };
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
@@ -1329,7 +1359,6 @@ namespace IWNLP.ParserTest
                     PräteritumAktivKonjunktiv_Plural2Person = new List<string>(){"knöpftet"},
                     PräteritumAktivKonjunktiv_Plural3Person = new List<string>(){"knöpften"},
                     PartizipII = "geknöpft",
-                    PartizipIIVeraltet="geknöpfet"
                  }
             };
             if (!AppSettingsWrapper.SuppressDumps) { XMLSerializer.Serialize<List<Models.Entry>>(expectedWords.Cast<Models.Entry>().ToList(), System.IO.Path.Combine(AppSettingsWrapper.UnitTestDumpDirectory, "verb_1.txt")); }
