@@ -3,14 +3,12 @@ using IWNLP.Models.Nouns;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
     public class NounParser : ParserBase
     {
-        public Word Parse(String word, String[] text, String wortArtLine)
+        public Word Parse(string word, string[] text, string wortArtLine)
         {
             if (wortArtLine.Contains("ohne feste Deklination") || wortArtLine.Contains("{{Wortart|Nachname|Deutsch}}") || wortArtLine.Contains("{{Wortart|Vorname|Deutsch}}") || wortArtLine.Contains("{{Wortart|Toponym|Deutsch}}") || wortArtLine.Contains("{{Wortart|Buchstabe|Deutsch}}"))
             {
@@ -82,18 +80,18 @@ namespace IWNLP.Parser.POSParser
 
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Substantiv Übersicht")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart + 1 && x.Content.EndsWith("}}")).Select(x => x.Index).First();
-            String[] definition = Common.GetSubArray(text, flexionSubstantivStart + 1, flexionSubstantivEnd - 1);
-            List<String> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "NounParser");
+            string[] definition = Common.GetSubArray(text, flexionSubstantivStart + 1, flexionSubstantivEnd - 1);
+            List<string> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "NounParser");
             for (int i = 0; i < cleanedLines.Count; i++)
             {
-                String line = cleanedLines[i];
-                if (String.IsNullOrEmpty(line))
+                string line = cleanedLines[i];
+                if (string.IsNullOrEmpty(line))
                 {
                     Console.WriteLine("Empty line in " + word);
                     continue;
                 }
-                String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
-                List<String> noPluralForms = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
+                string[] forms = line.Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
+                List<string> noPluralForms = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                 if (forms.Length == 1) // no Plural
                 {
                     continue;
@@ -111,8 +109,8 @@ namespace IWNLP.Parser.POSParser
                 int formNumber = 0;
                 if (forms[0] != ("Genus"))
                 {
-                    Char formNumberRaw = forms[0].Replace("*", String.Empty).Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).Last()[0];
-                    if (Char.IsDigit(formNumberRaw))
+                    char formNumberRaw = forms[0].Replace("*", string.Empty).Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).Last()[0];
+                    if (char.IsDigit(formNumberRaw))
                     {
                         formNumber = int.Parse(formNumberRaw.ToString());
                     }
@@ -141,7 +139,7 @@ namespace IWNLP.Parser.POSParser
                     else if (forms[1] == "0") { genus = Genus.Pluralwort; }
                     else
                     {
-                        Common.PrintError(word, String.Format("NounParser: error while parsing genus in {0}: {1}", word, forms[1]));
+                        Common.PrintError(word, string.Format("NounParser: error while parsing genus in {0}: {1}", word, forms[1]));
                     }
                     if (!noun.Genus.Contains(genus))
                     {
@@ -176,30 +174,30 @@ namespace IWNLP.Parser.POSParser
                 else if (forms[0] == "Artikel") { }
                 else
                 {
-                    Common.PrintError(word, String.Format("NounParser: forms[0] invalid in {0}: {1}", word, forms[0]));
+                    Common.PrintError(word, string.Format("NounParser: forms[0] invalid in {0}: {1}", word, forms[0]));
                 }
             }
             Stats.Instance.Nouns++;
             return noun;
         }
 
-        protected List<Inflection> GetInflections(String input, Word word, Case wordCase, int formNumber, Dictionary<int, Genus> genusDictionary, bool plural)
+        protected List<Inflection> GetInflections(string input, Word word, Case wordCase, int formNumber, Dictionary<int, Genus> genusDictionary, bool plural)
         {
             input = input.Trim();
-            String[] declensions = input.Split(new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>" }, StringSplitOptions.RemoveEmptyEntries);
+            string[] declensions = input.Split(new string[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>" }, StringSplitOptions.RemoveEmptyEntries);
             List<Inflection> inflections = new List<Inflection>();
-            foreach (String declension in declensions)
+            foreach (string declension in declensions)
             {
-                String cleaned = RemoveBetween(declension, "[", "]").Trim();
-                cleaned = cleaned.Replace("/", String.Empty); // fix for missplaced '/' of "<br">
+                string cleaned = RemoveBetween(declension, "[", "]").Trim();
+                cleaned = cleaned.Replace("/", string.Empty); // fix for missplaced '/' of "<br">
                 if (cleaned.EndsWith(","))  // sometimes a comma is also used to separate forms, but it might also be inside on an inflection. therefore it's not possible to split by a comma as well.
                 {
                     cleaned = cleaned.Substring(0, cleaned.Length - 1);
                 }
-                List<String> combinations = new List<string>();
+                List<string> combinations = new List<string>();
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains(":") || cleaned.Contains("…") || cleaned.Contains("...") || cleaned.Contains(" ,") || cleaned.Contains(", ") || cleaned.Contains("''"))
                 {
-                    Common.PrintError(word.Text, String.Format("NounParser: contains parenthesis: {0}", word.Text));
+                    Common.PrintError(word.Text, string.Format("NounParser: contains parenthesis: {0}", word.Text));
                     word.ParserError = true;
                     return inflections;
                 }
@@ -214,7 +212,7 @@ namespace IWNLP.Parser.POSParser
                     if (countOpeningBraces != countClosingBraces)
                     {
                         word.ParserError = true;
-                        Common.PrintError(word.Text, String.Format("NounParser: braces do not match: {0}", word.Text));
+                        Common.PrintError(word.Text, string.Format("NounParser: braces do not match: {0}", word.Text));
                         return inflections;
                     }
                     if (countOpeningBraces == 1 && cleaned.StartsWith("(") && cleaned.EndsWith(")"))
@@ -224,19 +222,19 @@ namespace IWNLP.Parser.POSParser
                     else if (countOpeningBraces > 2)
                     {
                         word.ParserError = true;
-                        Common.PrintError(word.Text, String.Format("NounParser: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.: {0}", word.Text));
+                        Common.PrintError(word.Text, string.Format("NounParser: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.: {0}", word.Text));
                     }
                     else
                     {
                         combinations.AddRange(this.CreateAllFormsFromBraces(cleaned));
                     }
                 }
-                foreach (String finalCombination in combinations)
+                foreach (string finalCombination in combinations)
                 {
-                    List<String> articles = new List<string>() { "der", "die", "das", "den", "dem", "des" };
+                    List<string> articles = new List<string>() { "der", "die", "das", "den", "dem", "des" };
                     if (genusDictionary.Count > 0) // the case is specified in the template
                     {
-                        String article = String.Empty;
+                        string article = string.Empty;
                         if (plural)
                         {
                             switch (wordCase)
@@ -296,10 +294,10 @@ namespace IWNLP.Parser.POSParser
                     {
                         if (finalCombination.Contains(" "))  // check for article
                         {
-                            String firstWord = finalCombination.Substring(0, finalCombination.IndexOf(" "));
+                            string firstWord = finalCombination.Substring(0, finalCombination.IndexOf(" "));
                             if (articles.Contains(firstWord))
                             {
-                                String rest = finalCombination.Substring(finalCombination.IndexOf(" ") + 1).Trim();
+                                string rest = finalCombination.Substring(finalCombination.IndexOf(" ") + 1).Trim();
                                 inflections.Add(new Inflection()
                                 {
                                     Article = firstWord,

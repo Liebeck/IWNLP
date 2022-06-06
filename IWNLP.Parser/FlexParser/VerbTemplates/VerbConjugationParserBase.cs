@@ -1,15 +1,11 @@
 ﻿using IWNLP.Parser.POSParser;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.FlexParser.VerbTemplates
 {
     public class VerbConjugationParserBase : ParserBase
     {
-        protected String GetNextUnnamedParameter(Dictionary<String, String> dict)
+        protected string GetNextUnnamedParameter(Dictionary<string, string> dict)
         {
             int i = 1;
             while (dict.ContainsKey(i.ToString()))
@@ -22,22 +18,22 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates
 
  
 
-        protected String GetWithSpaceOrEmpty(Dictionary<String, String> dictionary, String key)
+        protected string GetWithSpaceOrEmpty(Dictionary<string, string> dictionary, string key)
         {
-            if (dictionary.ContainsKey(key) && !String.IsNullOrEmpty(dictionary[key]))
+            if (dictionary.ContainsKey(key) && !string.IsNullOrEmpty(dictionary[key]))
             {
                 return " " + dictionary[key];
             }
-            return String.Empty;
+            return string.Empty;
         }
 
-        protected String GetOrEmpty(Dictionary<String, String> dictionary, String key)
+        protected string GetOrEmpty(Dictionary<string, string> dictionary, string key)
         {
             if (dictionary.ContainsKey(key))
             {
                 return dictionary[key];
             }
-            return String.Empty;
+            return string.Empty;
         }
 
     }

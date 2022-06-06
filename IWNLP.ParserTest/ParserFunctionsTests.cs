@@ -1,10 +1,6 @@
 ﻿using IWNLP.Parser.POSParser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.ParserTest
 {
@@ -17,8 +13,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 1, 1);
-            String expected = "9";
+            string result = parserBase.StrSubrev("123456789", 1, 1);
+            string expected = "9";
             Assert.AreEqual(result, expected);
         }
 
@@ -27,8 +23,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 2, 1);
-            String expected = "8";
+            string result = parserBase.StrSubrev("123456789", 2, 1);
+            string expected = "8";
             Assert.AreEqual(result, expected);
         }
 
@@ -37,8 +33,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 20, 1);
-            String expected = String.Empty;
+            string result = parserBase.StrSubrev("123456789", 20, 1);
+            string expected = string.Empty;
             Assert.AreEqual(result, expected);
         }
 
@@ -47,8 +43,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 2, 0);
-            String expected = "8";
+            string result = parserBase.StrSubrev("123456789", 2, 0);
+            string expected = "8";
             Assert.AreEqual(result, expected);
         }
 
@@ -57,8 +53,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 2, 2);
-            String expected = "89";
+            string result = parserBase.StrSubrev("123456789", 2, 2);
+            string expected = "89";
             Assert.AreEqual(result, expected);
         }
 
@@ -67,8 +63,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 2, 3);
-            String expected = String.Empty;
+            string result = parserBase.StrSubrev("123456789", 2, 3);
+            string expected = string.Empty;
             Assert.AreEqual(result, expected);
         }
 
@@ -77,8 +73,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("123456789", 5, 5);
-            String expected = "56789";
+            string result = parserBase.StrSubrev("123456789", 5, 5);
+            string expected = "56789";
             Assert.AreEqual(result, expected);
         }
 
@@ -87,8 +83,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSubrev("war", 5, 5);
-            String expected = String.Empty;
+            string result = parserBase.StrSubrev("war", 5, 5);
+            string expected = string.Empty;
             Assert.AreEqual(result, expected);
         }
 
@@ -97,8 +93,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 0, 0);
-            String expected = String.Empty;
+            string result = parserBase.StrSub("Autobahn", 0, 0);
+            string expected = string.Empty;
             Assert.AreEqual(result, expected);
         }
 
@@ -107,8 +103,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 0, 1);
-            String expected = "A";
+            string result = parserBase.StrSub("Autobahn", 0, 1);
+            string expected = "A";
             Assert.AreEqual(result, expected);
         }
 
@@ -117,8 +113,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 0, 2);
-            String expected = "Au";
+            string result = parserBase.StrSub("Autobahn", 0, 2);
+            string expected = "Au";
             Assert.AreEqual(result, expected);
         }
 
@@ -127,8 +123,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 0, 3);
-            String expected = "Aut";
+            string result = parserBase.StrSub("Autobahn", 0, 3);
+            string expected = "Aut";
             Assert.AreEqual(result, expected);
         }
 
@@ -137,8 +133,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", -1, 1);
-            String expected = String.Empty;
+            string result = parserBase.StrSub("Autobahn", -1, 1);
+            string expected = string.Empty;
             Assert.AreEqual(result, expected);
         }
 
@@ -147,8 +143,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 0, 8);
-            String expected = "Autobahn";
+            string result = parserBase.StrSub("Autobahn", 0, 8);
+            string expected = "Autobahn";
             Assert.AreEqual(result, expected);
         }
 
@@ -157,8 +153,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 0, 9);
-            String expected = "AutobahnA";
+            string result = parserBase.StrSub("Autobahn", 0, 9);
+            string expected = "AutobahnA";
             Assert.AreEqual(result, expected);
         }
 
@@ -167,8 +163,8 @@ namespace IWNLP.ParserTest
         {
             ParserBase parserBase = new ParserBase();
 
-            String result = parserBase.StrSub("Autobahn", 1, 2);
-            String expected = "ut";
+            string result = parserBase.StrSub("Autobahn", 1, 2);
+            string expected = "ut";
             Assert.AreEqual(result, expected);
         }
 
@@ -177,7 +173,7 @@ namespace IWNLP.ParserTest
         public void StrSub9()
         {
             ParserBase parserBase = new ParserBase();
-            String result = parserBase.StrSub("Autobahn", 2, 10);
+            string result = parserBase.StrSub("Autobahn", 2, 10);
 
         }
         

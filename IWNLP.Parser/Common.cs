@@ -1,20 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser
 {
     public class Common
     {
-        public static String[] GetSubArray(String[] input, int startIndex, int lastLineIndex)
+        public static string[] GetSubArray(string[] input, int startIndex, int lastLineIndex)
         {
             int length = lastLineIndex - startIndex + 1;
             return input.Skip(startIndex).Take(length).ToArray();
         }
 
-        public static void PrintError(String word, String message)
+        public static void PrintError(string word, string message)
         {
             if (!GlobalBlacklist.Blacklist.Contains(word))
             {
@@ -22,7 +19,7 @@ namespace IWNLP.Parser
             }
         }
 
-        public static void PrintError(String message)
+        public static void PrintError(string message)
         {
             Console.WriteLine(message);
 

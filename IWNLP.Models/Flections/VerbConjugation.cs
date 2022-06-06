@@ -1,72 +1,69 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Models.Flections
 {
     public class VerbConjugation:Entry
     {
-        public String PartizipII { get; set; }
-        public String PartizipIIAlternativ { get; set; }
-        public String PartizipIIVeraltet { get; set; }
+        public string PartizipII { get; set; }
+        public string PartizipIIAlternativ { get; set; }
+        public string PartizipIIVeraltet { get; set; }
 
-        public List<String> PräsensAktivIndikativ_Singular1Person { get; set; }
-        public List<String> PräsensAktivIndikativ_Singular2Person { get; set; }
-        public List<String> PräsensAktivIndikativ_Singular3Person { get; set; }
-        public List<String> PräsensAktivIndikativ_Plural1Person { get; set; }
-        public List<String> PräsensAktivIndikativ_Plural2Person { get; set; }
-        public List<String> PräsensAktivIndikativ_Plural3Person { get; set; }
+        public List<string> PräsensAktivIndikativ_Singular1Person { get; set; }
+        public List<string> PräsensAktivIndikativ_Singular2Person { get; set; }
+        public List<string> PräsensAktivIndikativ_Singular3Person { get; set; }
+        public List<string> PräsensAktivIndikativ_Plural1Person { get; set; }
+        public List<string> PräsensAktivIndikativ_Plural2Person { get; set; }
+        public List<string> PräsensAktivIndikativ_Plural3Person { get; set; }
 
-        public List<String> PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivIndikativ_Singular3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivIndikativ_Plural1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivIndikativ_Plural2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivIndikativ_Plural3Person_Nebensatzkonjugation { get; set; }
 
-        public List<String> PräteritumAktivIndikativ_Singular1Person { get; set; }
-        public List<String> PräteritumAktivIndikativ_Singular2Person { get; set; }
-        public List<String> PräteritumAktivIndikativ_Singular3Person { get; set; }
-        public List<String> PräteritumAktivIndikativ_Plural1Person { get; set; }
-        public List<String> PräteritumAktivIndikativ_Plural2Person { get; set; }
-        public List<String> PräteritumAktivIndikativ_Plural3Person { get; set; }
+        public List<string> PräteritumAktivIndikativ_Singular1Person { get; set; }
+        public List<string> PräteritumAktivIndikativ_Singular2Person { get; set; }
+        public List<string> PräteritumAktivIndikativ_Singular3Person { get; set; }
+        public List<string> PräteritumAktivIndikativ_Plural1Person { get; set; }
+        public List<string> PräteritumAktivIndikativ_Plural2Person { get; set; }
+        public List<string> PräteritumAktivIndikativ_Plural3Person { get; set; }
 
-        public List<String> PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivIndikativ_Singular1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivIndikativ_Singular2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivIndikativ_Singular3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivIndikativ_Plural1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivIndikativ_Plural2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivIndikativ_Plural3Person_Nebensatzkonjugation { get; set; }
 
-        public List<String> PräsensAktivKonjunktiv_Singular1Person { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Singular2Person { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Singular3Person { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Plural1Person { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Plural2Person { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Plural3Person { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Singular1Person { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Singular2Person { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Singular3Person { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Plural1Person { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Plural2Person { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Plural3Person { get; set; }
 
-        public List<String> PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Singular1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Singular2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Singular3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Plural1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Plural2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräsensAktivKonjunktiv_Plural3Person_Nebensatzkonjugation { get; set; }
 
-        public List<String> PräteritumAktivKonjunktiv_Singular1Person { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Singular2Person { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Singular3Person { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Plural1Person { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Plural2Person { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Plural3Person { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Singular1Person { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Singular2Person { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Singular3Person { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Plural1Person { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Plural2Person { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Plural3Person { get; set; }
 
-        public List<String> PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation { get; set; }
-        public List<String> PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Singular1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Singular2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Singular3Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Plural1Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Plural2Person_Nebensatzkonjugation { get; set; }
+        public List<string> PräteritumAktivKonjunktiv_Plural3Person_Nebensatzkonjugation { get; set; }
 
         public bool Equals(VerbConjugation obj) 
         {

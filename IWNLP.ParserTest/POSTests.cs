@@ -1,8 +1,8 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using IWNLP.Models;
 using IWNLP.Parser;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
-using IWNLP.Models;
 using System.Linq;
 
 namespace IWNLP.ParserTest

@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IWNLP.ParserTest
+﻿namespace IWNLP.ParserTest
 {
     public class AppSettingsWrapper
     {
-        public static String WiktionaryDumpPath
+        public static string WiktionaryDumpPath
         {
             get { return System.Configuration.ConfigurationManager.AppSettings["WiktionaryDumpPath"]; }
         }
 
-        public static String UnitTestDumpDirectory
+        public static string UnitTestDumpDirectory
         {
             get { return System.Configuration.ConfigurationManager.AppSettings["UnitTestDumpDirectory"]; }
         }

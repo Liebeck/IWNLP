@@ -2,25 +2,23 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 {
     public class VerbUnregelmaessigParser : VerbConjugationParserBase
     {
-        public Dictionary<String, String> ParseParameters(String[] input, String word)
+        public Dictionary<string, string> ParseParameters(string[] input, string word)
         {
-            String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb unregelmäßig|");
-            Dictionary<String, String> parameters = new Dictionary<string, string>();
+            string[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb unregelmäßig|");
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
             for (int i = 0; i < inputSplitted.Length; i++)
             {
                 if (inputSplitted[i].Contains("="))
                 {
                     inputSplitted[i] = base.CleanLine(inputSplitted[i]);
-                    String[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
-                    String key = keyValuePair[0].Trim();
-                    String value = keyValuePair[1].Trim();
+                    string[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
+                    string key = keyValuePair[0].Trim();
+                    string value = keyValuePair[1].Trim();
                     parameters[key] = value;
                 }
                 else // also keep empty values
@@ -32,21 +30,21 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
 
             if (parameters.Count == 0)
             {
-                Common.PrintError(word, String.Format("VerbUnregelmaessigParser: {0} zero parameters", word));
+                Common.PrintError(word, string.Format("VerbUnregelmaessigParser: {0} zero parameters", word));
             }
             return parameters;
         }
 
-        public VerbConjugation Parse(String word, String[] input)
+        public VerbConjugation Parse(string word, string[] input)
         {
             return this.Parse(word, this.ParseParameters(input, word));
         }
 
-        public VerbConjugation Parse(String word, Dictionary<String, String> parameters)
+        public VerbConjugation Parse(string word, Dictionary<string, string> parameters)
         {
             VerbConjugation verb = new VerbConjugation();
-            List<String> condition = new List<string>() { "dürfen", "können", "mögen", "müssen", "sollen", "wissen", "wollen" };
-            List<String> condition2 = new List<string>() { "behält", "beläd", "berät", "brät", "enthält", "entläd", "enträt", "erhält", "errät", "gerät", "hält", "läd", "missrät", "rät", "überbrät", "überhält", "überläd", "unterhält", "verbrät", "verhält", "verläd", "verrät", "widerrät", "wir" };
+            List<string> condition = new List<string>() { "dürfen", "können", "mögen", "müssen", "sollen", "wissen", "wollen" };
+            List<string> condition2 = new List<string>() { "behält", "beläd", "berät", "brät", "enthält", "entläd", "enträt", "erhält", "errät", "gerät", "hält", "läd", "missrät", "rät", "überbrät", "überhält", "überläd", "unterhält", "verbrät", "verhält", "verläd", "verrät", "widerrät", "wir" };
 
             verb.PartizipII = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter5];
             if (parameters.ContainsKey(ParameterUnregelmaessig.PartizipPlus))
@@ -65,7 +63,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     else // example: "Flexion:tun"
                     {
-                        String[] multipleValues = parameters["Indikativ Präsens (ich)"].Split(new String[] { "<br />ich" }, StringSplitOptions.RemoveEmptyEntries);
+                        string[] multipleValues = parameters["Indikativ Präsens (ich)"].Split(new string[] { "<br />ich" }, StringSplitOptions.RemoveEmptyEntries);
                         for (int i = 0; i < multipleValues.Length; i++)
                         {
                             verb.PräsensAktivIndikativ_Singular1Person.Add(multipleValues[i].Trim() + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
@@ -74,13 +72,13 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicative = String.Empty;
-                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
+                    string indicative = string.Empty;
+                    if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter10) && !string.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter10]))
                     {
-                        List<String> exceptionList1 = new List<string>() { "dürfen", "können", "mögen", "müssen", "sollen", "wissen", "wollen" };
+                        List<string> exceptionList1 = new List<string>() { "dürfen", "können", "mögen", "müssen", "sollen", "wissen", "wollen" };
                         if (exceptionList1.Contains(parameters[ParameterUnregelmaessig.Parameter10]))
                         {
-                            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !string.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
                             {
                                 indicative = parameters[ParameterUnregelmaessig.Parameter6];
                             }
@@ -91,7 +89,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                         }
                         else
                         {
-                            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
+                            if (parameters.ContainsKey(ParameterUnregelmaessig.Parameter6) && !string.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter6]))
                             {
                                 indicative = parameters[ParameterUnregelmaessig.Parameter6];
                             }
@@ -114,8 +112,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             #region Präsens Indikativ Singular 1 Person Nebensatzkonjugation
             if (!(parameters.ContainsKey(ParameterUnregelmaessig.Unpersönlich)))
             {
-                if ((parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
-                || (parameters.ContainsKey(ParameterUnregelmaessig.Reflexiv) && !String.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Reflexiv])))
+                if ((parameters.ContainsKey(ParameterUnregelmaessig.Parameter1) && !string.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Parameter1]))
+                || (parameters.ContainsKey(ParameterUnregelmaessig.Reflexiv) && !string.IsNullOrEmpty(parameters[ParameterUnregelmaessig.Reflexiv])))
                 {
                     verb.PräsensAktivIndikativ_Singular1Person_Nebensatzkonjugation = new List<string>();
                     if (parameters.ContainsKey("Indikativ Präsens (ich)"))
@@ -124,7 +122,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     else
                     {
-                        String indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
+                        string indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
                         if (ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                         {
                             if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
@@ -133,7 +131,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                             }
                             else
                             {
-                                if (!String.IsNullOrEmpty(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter6)))
+                                if (!string.IsNullOrEmpty(GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter6)))
                                 {
                                     indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter6];
                                 }
@@ -161,7 +159,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 if (parameters.ContainsKey("Indikativ Präsens (du)"))
                 {
                     parameters["Indikativ Präsens (du)"] = CleanLine(parameters["Indikativ Präsens (du)"]);
-                    List<String> multilineFormats = new List<string>() { "<br>du", "<br />du" };
+                    List<string> multilineFormats = new List<string>() { "<br>du", "<br />du" };
 
                     if (!multilineFormats.Any(x => parameters["Indikativ Präsens (du)"].Contains(x)))
                     {
@@ -169,8 +167,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     else // example: "Flexion:bieten"
                     {
-                        parameters["Indikativ Präsens (du)"] = parameters["Indikativ Präsens (du)"].Replace(",", String.Empty);
-                        String[] multipleValues = parameters["Indikativ Präsens (du)"].Split(multilineFormats.ToArray(), StringSplitOptions.RemoveEmptyEntries);
+                        parameters["Indikativ Präsens (du)"] = parameters["Indikativ Präsens (du)"].Replace(",", string.Empty);
+                        string[] multipleValues = parameters["Indikativ Präsens (du)"].Split(multilineFormats.ToArray(), StringSplitOptions.RemoveEmptyEntries);
                         for (int i = 0; i < multipleValues.Length; i++)
                         {
                             verb.PräsensAktivIndikativ_Singular2Person.Add(multipleValues[i].Trim() + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
@@ -179,7 +177,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicative = String.Empty;
+                    string indicative = string.Empty;
                     if (this.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                     {
                         indicative += parameters[ParameterUnregelmaessig.Parameter6];
@@ -236,7 +234,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     else
                     {
-                        String indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
+                        string indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
                         if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter6))
                         {
                             indicativeNebensatz += parameters[ParameterUnregelmaessig.Parameter6];
@@ -290,7 +288,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             if (parameters.ContainsKey("Indikativ Präsens (man)"))
             {
                 parameters["Indikativ Präsens (man)"] = CleanLine(parameters["Indikativ Präsens (man)"]);
-                List<String> multilineFormats = new List<string>() { "<br />er/sie/es", "<br>er/sie/es", "<br />" };
+                List<string> multilineFormats = new List<string>() { "<br />er/sie/es", "<br>er/sie/es", "<br />" };
 
                 if (!multilineFormats.Any(x => parameters["Indikativ Präsens (man)"].Contains(x)))
                 {
@@ -298,8 +296,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else // example: "Flexion:gebieten"
                 {
-                    parameters["Indikativ Präsens (man)"] = parameters["Indikativ Präsens (man)"].Replace(",", String.Empty);
-                    String[] multipleValues = parameters["Indikativ Präsens (man)"].Split(multilineFormats.ToArray(), StringSplitOptions.RemoveEmptyEntries);
+                    parameters["Indikativ Präsens (man)"] = parameters["Indikativ Präsens (man)"].Replace(",", string.Empty);
+                    string[] multipleValues = parameters["Indikativ Präsens (man)"].Split(multilineFormats.ToArray(), StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräsensAktivIndikativ_Singular3Person.Add(multipleValues[i].Trim() + GetWithSpaceOrEmpty(parameters, ParameterUnregelmaessig.Parameter1));
@@ -308,7 +306,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
             }
             else
             {
-                String indicative = String.Empty;
+                string indicative = string.Empty;
                 if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                 {
                     if (condition.Contains(parameters[ParameterUnregelmaessig.Parameter10]))
@@ -427,7 +425,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
+                    string indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1);
                     if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                     {
                         if (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter2) + "n" == GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter10))
@@ -527,7 +525,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicative = String.Empty;
+                    string indicative = string.Empty;
                     if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                     {
                         indicative = parameters[ParameterUnregelmaessig.Parameter10];
@@ -569,7 +567,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicative = parameters[ParameterUnregelmaessig.Parameter2];
+                    string indicative = parameters[ParameterUnregelmaessig.Parameter2];
                     switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter7))
                     {
                         case "e":
@@ -598,7 +596,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                     }
                     else
                     {
-                        String indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter2];
+                        string indicativeNebensatz = GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter1) + parameters[ParameterUnregelmaessig.Parameter2];
                         switch (GetOrEmpty(parameters, ParameterUnregelmaessig.Parameter7))
                         {
                             case "e":
@@ -626,7 +624,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.unregelmaessig
                 }
                 else
                 {
-                    String indicative = String.Empty;
+                    string indicative = string.Empty;
                     if (base.ContainsNonEmpty(parameters, ParameterUnregelmaessig.Parameter10))
                     {
                         switch (parameters[ParameterUnregelmaessig.Parameter10])

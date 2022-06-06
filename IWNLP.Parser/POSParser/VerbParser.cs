@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
@@ -12,7 +10,7 @@ namespace IWNLP.Parser.POSParser
         //{{Deutsch Verb Übersicht
         public bool OutputWrongInflectionForms { get; set; }
 
-        public Word Parse(String word, String[] text, String wortArtLine)
+        public Word Parse(string word, string[] text, string wortArtLine)
         {
             Verb verb = new Verb();
             verb.Text = word;
@@ -21,7 +19,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (base.OutputDefinitionBlockMissing)
                 {
-                    Common.PrintError(word, String.Format("Verb Parser: No definition block: {0}", word));
+                    Common.PrintError(word, string.Format("Verb Parser: No definition block: {0}", word));
                 }
                 verb.ConjugationBlockMissing = true;
                 Stats.Instance.VerbsTotal++;
@@ -29,17 +27,17 @@ namespace IWNLP.Parser.POSParser
             }
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch Verb Übersicht") || x.Content.Contains("{{ Deutsch Verb Übersicht")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart + 1 && x.Content.EndsWith("}}")).Select(x => x.Index).First();
-            String[] definition = Common.GetSubArray(text, flexionSubstantivStart + 1, flexionSubstantivEnd - 1);
-            List<String> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "NounParser");
+            string[] definition = Common.GetSubArray(text, flexionSubstantivStart + 1, flexionSubstantivEnd - 1);
+            List<string> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "NounParser");
             for (int i = 0; i < cleanedLines.Count; i++)
             {
-                String line = cleanedLines[i];
+                string line = cleanedLines[i];
                 if (line.Contains("<ref name"))
                 {
-                    Common.PrintError(word, String.Format("Verb contains '<ref name': {0}", word));
+                    Common.PrintError(word, string.Format("Verb contains '<ref name': {0}", word));
                 }
-                String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
-                List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
+                string[] forms = line.Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
+                List<string> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                 if (forms.Length == 1 || (forms.Length == 2 && (noValue.Contains(forms[1]))))  // No value given
                 {
                     continue;
@@ -73,7 +71,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 else if (forms[0].StartsWith("Imperativ Singular"))
                 {
-                    List<String> extractedForms = this.GetForms(forms[1], verb);
+                    List<string> extractedForms = this.GetForms(forms[1], verb);
                     for (int j = 0; j < extractedForms.Count; j++)
                     {
                         if (!extractedForms[j].EndsWith("!"))
@@ -86,7 +84,7 @@ namespace IWNLP.Parser.POSParser
                 }
                 else if (forms[0].StartsWith("Imperativ Plural"))
                 {
-                    List<String> extractedForms = this.GetForms(forms[1], verb);
+                    List<string> extractedForms = this.GetForms(forms[1], verb);
                     for (int j = 0; j < extractedForms.Count; j++)
                     {
                         if (!extractedForms[j].EndsWith("!"))
@@ -105,7 +103,7 @@ namespace IWNLP.Parser.POSParser
                 else if (forms[0].StartsWith("Hilfsverb"))
                 {
                     if (verb.Hilfsverb == null) { verb.Hilfsverb = new List<string>(); }
-                    verb.Hilfsverb.AddRange(this.GetForms(forms[1].Replace(":", String.Empty), verb)); // special case for certain verbs, where the auxiliary verb depends on the meaning of the verb. See [[wandeln]]
+                    verb.Hilfsverb.AddRange(this.GetForms(forms[1].Replace(":", string.Empty), verb)); // special case for certain verbs, where the auxiliary verb depends on the meaning of the verb. See [[wandeln]]
                 }
                 else if (forms[0].StartsWith("Weitere_Konjugationen2"))
                 {
@@ -138,32 +136,32 @@ namespace IWNLP.Parser.POSParser
                 {
                     if (OutputWrongInflectionForms)
                     {
-                        Common.PrintError(word, String.Format("VerbParser: Wrong inflection form: {0}=={1}", word, line));
+                        Common.PrintError(word, string.Format("VerbParser: Wrong inflection form: {0}=={1}", word, line));
                     }
                 }
                 else if (forms[0].StartsWith("Weitere Konjugationen")) { }
                 else if (forms[0].StartsWith("Flexion")) { }
                 else
                 {
-                    Common.PrintError(word, String.Format("word {0}=={1}", word, line));
+                    Common.PrintError(word, string.Format("word {0}=={1}", word, line));
                 }
             }
             Stats.Instance.VerbsTotal++;
             return verb;
         }
 
-        protected List<String> GetForms(String input, Word word)
+        protected List<string> GetForms(string input, Word word)
         {
             input = input.Trim();
-            input = input.Replace("[[", String.Empty).Replace("]]", String.Empty).Trim(); // remove braces for internal links with the same name
+            input = input.Replace("[[", string.Empty).Replace("]]", string.Empty).Trim(); // remove braces for internal links with the same name
             input = RemoveBetween(input, "[", "]").Trim();
             input = input.Replace("„", string.Empty);
             input = input.Replace("“", string.Empty).Trim();
-            String[] declensions = input.Split(new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>", "<br >", "," }, StringSplitOptions.RemoveEmptyEntries);
-            List<String> allForms = new List<String>();
-            foreach (String declension in declensions)
+            string[] declensions = input.Split(new string[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>", "<br >", "," }, StringSplitOptions.RemoveEmptyEntries);
+            List<string> allForms = new List<string>();
+            foreach (string declension in declensions)
             {
-                String cleaned = declension.Trim();
+                string cleaned = declension.Trim();
                 // special case for "fragen"
                 if (cleaned.StartsWith("''"))
                 {
@@ -175,13 +173,13 @@ namespace IWNLP.Parser.POSParser
                 }
                 if (cleaned.Contains("(selten)"))  // example gelten
                 {
-                    cleaned = cleaned.Replace("(selten)", String.Empty);
+                    cleaned = cleaned.Replace("(selten)", string.Empty);
                 }
-                List<String> combinations = new List<string>();
+                List<string> combinations = new List<string>();
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains(":") || cleaned.Contains("''"))
                 {
                     word.ParserError = true;
-                    Common.PrintError(word.Text, String.Format("VerbParser error (contains parenthesis): {0}", word.Text));
+                    Common.PrintError(word.Text, string.Format("VerbParser error (contains parenthesis): {0}", word.Text));
                     return allForms;
                 }
                 if (!cleaned.Contains("("))
@@ -195,7 +193,7 @@ namespace IWNLP.Parser.POSParser
                     if (countOpeningBraces != countClosingBraces)
                     {
                         word.ParserError = true;
-                        Common.PrintError(word.Text, String.Format("{0}: braces to not match", word.Text));
+                        Common.PrintError(word.Text, string.Format("{0}: braces to not match", word.Text));
                         return allForms;
                     }
                     if (countOpeningBraces == 1 && cleaned.StartsWith("(") && cleaned.EndsWith(")"))
@@ -205,7 +203,7 @@ namespace IWNLP.Parser.POSParser
                     else if (countOpeningBraces > 2)
                     {
                         word.ParserError = true;
-                        Common.PrintError(word.Text, String.Format("{0}: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.", word.Text));
+                        Common.PrintError(word.Text, string.Format("{0}: contains more than 2 braces. at the moment, the parser doesn't support more than 2 braces.", word.Text));
                     }
                     else
                     {
@@ -216,7 +214,7 @@ namespace IWNLP.Parser.POSParser
             }
             if (allForms.Count == 0)
             {
-                Common.PrintError(word.Text, String.Format("VerbParser: zero forms extracted: {0}| {1}", word.Text, input));
+                Common.PrintError(word.Text, string.Format("VerbParser: zero forms extracted: {0}| {1}", word.Text, input));
             } // Example: "reinpfeifen", Example "verheeren"
             return allForms;
         }

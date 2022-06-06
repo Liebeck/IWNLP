@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Models
 {
@@ -23,9 +21,9 @@ namespace IWNLP.Models
                 return false;
             }
 
-            Dictionary<Object, int> expectedDictionary = CreateCountDictionary(enumerable1);
-            Dictionary<Object, int> resultDictionary = CreateCountDictionary(enumerable2);
-            foreach (Object key in expectedDictionary.Keys)
+            Dictionary<object, int> expectedDictionary = CreateCountDictionary(enumerable1);
+            Dictionary<object, int> resultDictionary = CreateCountDictionary(enumerable2);
+            foreach (object key in expectedDictionary.Keys)
             {
                 int expectedCount;
                 expectedDictionary.TryGetValue(key, out expectedCount);
@@ -39,10 +37,10 @@ namespace IWNLP.Models
             return true;
         }
 
-        private static Dictionary<Object, int> CreateCountDictionary(System.Collections.IEnumerable collection)
+        private static Dictionary<object, int> CreateCountDictionary(System.Collections.IEnumerable collection)
         {
-            Dictionary<Object, int> dictionary = new Dictionary<object, int>();
-            foreach (Object obj in collection)
+            Dictionary<object, int> dictionary = new Dictionary<object, int>();
+            foreach (object obj in collection)
             {
                 int objectCount;
                 dictionary.TryGetValue(obj, out objectCount);

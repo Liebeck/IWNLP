@@ -1,61 +1,59 @@
 ﻿using IWNLP.Models;
+using IWNLP.Models.Nouns;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using IWNLP.Models.Nouns;
 
 namespace IWNLP.Parser.POSParser
 {
     public class DeutschAdjektivischUebersichtParser : ParserBase
     {
-        public Word Parse(String word, String[] text)
+        public Word Parse(string word, string[] text)
         {
             try
             {
-                List<String> cleanedTemplateBlock = this.GetCleanedTemplateBlock(word, text);
-                Dictionary<String, String> parameters = this.ParseParameters(cleanedTemplateBlock, word);
+                List<string> cleanedTemplateBlock = this.GetCleanedTemplateBlock(word, text);
+                Dictionary<string, string> parameters = this.ParseParameters(cleanedTemplateBlock, word);
                 return this.Parse(word, parameters);
             }
             catch (Exception ex)
             {
-                Common.PrintError(word, String.Format("DeutschAdjektivischUebersichtParser: Errors while parsing the parameters: {0}", word));
+                Common.PrintError(word, string.Format("DeutschAdjektivischUebersichtParser: Errors while parsing the parameters: {0}", word));
                 return null;
             }
         }
 
-        public AdjectivalDeclension Parse(String word, Dictionary<String, String> parameters)
+        public AdjectivalDeclension Parse(string word, Dictionary<string, string> parameters)
         {
             AdjectivalDeclension item = new AdjectivalDeclension();
             if (!parameters.ContainsKey(ParameterAdjektivischUebersichtParser.KeinSingular))
             {
-                item.NominativSingular = new List<String>();
-                item.GenitivSingular = new List<String>();
-                item.DativSingular = new List<String>();
-                item.AkkusativSingular = new List<String>();
-                item.NominativSingularSchwach = new List<String>();
-                item.GenitivSingularSchwach = new List<String>();
-                item.DativSingularSchwach = new List<String>();
-                item.AkkusativSingularSchwach = new List<String>();
-                item.NominativSingularGemischt = new List<String>();
-                item.GenitivSingularGemischt = new List<String>();
-                item.DativSingularGemischt = new List<String>();
-                item.AkkusativSingularGemischt = new List<String>();
-                item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<String>(){"r", String.Empty, "s"}));
-                item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivSingularStark, parameters, new List<String>() { "n", "r", "n"}));
+                item.NominativSingular = new List<string>();
+                item.GenitivSingular = new List<string>();
+                item.DativSingular = new List<string>();
+                item.AkkusativSingular = new List<string>();
+                item.NominativSingularSchwach = new List<string>();
+                item.GenitivSingularSchwach = new List<string>();
+                item.DativSingularSchwach = new List<string>();
+                item.AkkusativSingularSchwach = new List<string>();
+                item.NominativSingularGemischt = new List<string>();
+                item.GenitivSingularGemischt = new List<string>();
+                item.DativSingularGemischt = new List<string>();
+                item.AkkusativSingularGemischt = new List<string>();
+                item.NominativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularStark, parameters, new List<string>(){"r", string.Empty, "s"}));
+                item.GenitivSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivSingularStark, parameters, new List<string>() { "n", "r", "n"}));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.GenitivSingularStarkStern))
                 {
                     item.GenitivSingular.Add(parameters[ParameterAdjektivischUebersichtParser.GenitivSingularStarkStern]);
                 }
-                item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativSingularStark, parameters, new List<String>() { "m", "r", "m" }));
+                item.DativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativSingularStark, parameters, new List<string>() { "m", "r", "m" }));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.DativSingularStarkStern)) 
                 {
                     item.DativSingular.Add(parameters[ParameterAdjektivischUebersichtParser.DativSingularStarkStern]);
                 }
-                item.AkkusativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularStark, parameters, new List<String>() { "n", String.Empty, "s" }));
+                item.AkkusativSingular.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularStark, parameters, new List<string>() { "n", string.Empty, "s" }));
                 // Schwach
-                item.NominativSingularSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativSingularSchwach, parameters, String.Empty));
+                item.NominativSingularSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativSingularSchwach, parameters, string.Empty));
                 item.GenitivSingularSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivSingularSchwach, parameters, "n"));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.GenitivSingularSchwachStern))
                 {
@@ -66,9 +64,9 @@ namespace IWNLP.Parser.POSParser
                 {
                     item.DativSingularSchwach.Add(parameters[ParameterAdjektivischUebersichtParser.DativSingularSchwachStern]);
                 }
-                item.AkkusativSingularSchwach.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularSchwach, parameters, new List<String>() { "n", String.Empty, String.Empty }));
+                item.AkkusativSingularSchwach.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularSchwach, parameters, new List<string>() { "n", string.Empty, string.Empty }));
                 // Gemischt
-                item.NominativSingularGemischt.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularGemischt, parameters, new List<String>() { "r", String.Empty, "s"}));
+                item.NominativSingularGemischt.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.NominativSingularGemischt, parameters, new List<string>() { "r", string.Empty, "s"}));
                 item.GenitivSingularGemischt.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivSingularGemischt, parameters, "n"));
                 if (parameters.ContainsKey(ParameterAdjektivischUebersichtParser.GenitivSingularSchwachStern))
                 {
@@ -79,26 +77,26 @@ namespace IWNLP.Parser.POSParser
                 {
                     item.DativSingularGemischt.Add(parameters[ParameterAdjektivischUebersichtParser.DativSingularSchwachStern]);
                 }
-                item.AkkusativSingularGemischt.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularGemischt, parameters, new List<String>() { "n", String.Empty, "s" }));
+                item.AkkusativSingularGemischt.Add(GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativSingularGemischt, parameters, new List<string>() { "n", string.Empty, "s" }));
             }
             if (!parameters.ContainsKey(ParameterAdjektivischUebersichtParser.KeinPlural))
             {
-                item.NominativPlural = new List<String>();
-                item.GenitivPlural = new List<String>();
-                item.DativPlural = new List<String>();
-                item.AkkusativPlural = new List<String>();
-                item.NominativPluralSchwach = new List<String>();
-                item.GenitivPluralSchwach = new List<String>();
-                item.DativPluralSchwach = new List<String>();
-                item.AkkusativPluralSchwach = new List<String>();
-                item.NominativPluralGemischt = new List<String>();
-                item.GenitivPluralGemischt = new List<String>();
-                item.DativPluralGemischt = new List<String>();
-                item.AkkusativPluralGemischt = new List<String>();
-                item.NominativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<String>() { String.Empty, String.Empty, String.Empty }));
-                item.GenitivPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivPluralStark, parameters, new List<String>() { "r", "r", "r" }));
-                item.DativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativPluralStark, parameters, new List<String>() { "n", "n", "n" }));
-                item.AkkusativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativPluralStark, parameters, new List<String>() { String.Empty, String.Empty, String.Empty }));
+                item.NominativPlural = new List<string>();
+                item.GenitivPlural = new List<string>();
+                item.DativPlural = new List<string>();
+                item.AkkusativPlural = new List<string>();
+                item.NominativPluralSchwach = new List<string>();
+                item.GenitivPluralSchwach = new List<string>();
+                item.DativPluralSchwach = new List<string>();
+                item.AkkusativPluralSchwach = new List<string>();
+                item.NominativPluralGemischt = new List<string>();
+                item.GenitivPluralGemischt = new List<string>();
+                item.DativPluralGemischt = new List<string>();
+                item.AkkusativPluralGemischt = new List<string>();
+                item.NominativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.NominativPluralStark, parameters, new List<string>() { string.Empty, string.Empty, string.Empty }));
+                item.GenitivPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.GenitivPluralStark, parameters, new List<string>() { "r", "r", "r" }));
+                item.DativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.DativPluralStark, parameters, new List<string>() { "n", "n", "n" }));
+                item.AkkusativPlural.Add(this.GetEntryStark(ParameterAdjektivischUebersichtParser.AkkusativPluralStark, parameters, new List<string>() { string.Empty, string.Empty, string.Empty }));
                 // Schwach
                 item.NominativPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.NominativPluralSchwach, parameters, "n"));
                 item.GenitivPluralSchwach.Add(this.GetFormSchwach(ParameterAdjektivischUebersichtParser.GenitivPluralSchwach, parameters, "n"));
@@ -116,7 +114,7 @@ namespace IWNLP.Parser.POSParser
 
 
 
-        protected String GetEntryStark(String key, Dictionary<String, String> parameters, List<String> suffixes)
+        protected string GetEntryStark(string key, Dictionary<string, string> parameters, List<string> suffixes)
         {
             if (parameters.ContainsKey(key))
             {
@@ -130,7 +128,7 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        protected String GetFormSchwach(String key, Dictionary<String, String> parameters, String suffix) 
+        protected string GetFormSchwach(string key, Dictionary<string, string> parameters, string suffix) 
         {
             if (parameters.ContainsKey(key))
             {
@@ -138,40 +136,40 @@ namespace IWNLP.Parser.POSParser
             }
             else 
             {
-                return String.Format("{0}{1}", parameters[ParameterAdjektivischUebersichtParser.Stamm], suffix);
+                return string.Format("{0}{1}", parameters[ParameterAdjektivischUebersichtParser.Stamm], suffix);
             }
         }
 
-        protected String GetFormStark(String genus, String stamm, List<String> suffixes)
+        protected string GetFormStark(string genus, string stamm, List<string> suffixes)
         {
             switch (genus)
             {
-                case "m": return String.Format("{0}{1}", stamm, suffixes[0]);
-                case "f": return String.Format("{0}{1}", stamm, suffixes[1]);
-                case "n": return String.Format("{0}{1}", stamm, suffixes[2]);
+                case "m": return string.Format("{0}{1}", stamm, suffixes[0]);
+                case "f": return string.Format("{0}{1}", stamm, suffixes[1]);
+                case "n": return string.Format("{0}{1}", stamm, suffixes[2]);
                 default:
                     throw new ArgumentException();
             }
         }
 
-        public List<String> GetCleanedTemplateBlock(String word, String[] text)
+        public List<string> GetCleanedTemplateBlock(string word, string[] text)
         {
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deutsch adjektivisch Übersicht")).Select(x => x.Index).First();
             int flexionSubstantivEnd = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Index >= flexionSubstantivStart && x.Content.EndsWith("}}")).Select(x => x.Index).First();
-            String[] definition = Common.GetSubArray(text, flexionSubstantivStart, flexionSubstantivEnd);
-            List<String> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "DeutschAdjektivischUebersichtParser");
+            string[] definition = Common.GetSubArray(text, flexionSubstantivStart, flexionSubstantivEnd);
+            List<string> cleanedLines = base.GetCleanedMultilineDefinitionBlock(definition, word, "DeutschAdjektivischUebersichtParser");
             cleanedLines = cleanedLines.Where(x => !x.Equals("{{Deutsch adjektivisch Übersicht")).ToList();
             return cleanedLines;
         }
 
-        public Dictionary<String, String> ParseParameters(List<String> input, String word)
+        public Dictionary<string, string> ParseParameters(List<string> input, string word)
         {
-            Dictionary<String, String> parameters = new Dictionary<string, string>();
-            foreach (String line in input)
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
+            foreach (string line in input)
             {
-                String[] keyValuePair = line.Split(new char[] { '=' });
-                String key = keyValuePair[0].Trim();
-                String value = keyValuePair[1].Trim();
+                string[] keyValuePair = line.Split(new char[] { '=' });
+                string key = keyValuePair[0].Trim();
+                string value = keyValuePair[1].Trim();
                 parameters[key] = value;
             }
             return parameters;
@@ -179,42 +177,42 @@ namespace IWNLP.Parser.POSParser
 
         public class ParameterAdjektivischUebersichtParser
         {
-            public const String KeinSingular = "kein Singular";
-            public const String KeinPlural = "kein Plural";
-            public const String Stamm = "Stamm";
-            public const String Genus = "Genus";
-            public const String NominativSingularStark = "Nominativ Singular stark";
-            public const String NominativPluralStark = "Nominativ Plural stark";
-            public const String GenitivSingularStark = "Genitiv Singular stark";
-            public const String GenitivSingularStarkStern = "Genitiv Singular stark*";
-            public const String GenitivPluralStark = "Genitiv Plural stark";
-            public const String DativSingularStark = "Dativ Singular stark";
-            public const String DativSingularStarkStern = "Dativ Singular stark*";
-            public const String DativPluralStark = "Dativ Plural stark";
-            public const String AkkusativSingularStark = "Akkusativ Singular stark";
-            public const String AkkusativPluralStark = "Akkusativ Plural stark";
+            public const string KeinSingular = "kein Singular";
+            public const string KeinPlural = "kein Plural";
+            public const string Stamm = "Stamm";
+            public const string Genus = "Genus";
+            public const string NominativSingularStark = "Nominativ Singular stark";
+            public const string NominativPluralStark = "Nominativ Plural stark";
+            public const string GenitivSingularStark = "Genitiv Singular stark";
+            public const string GenitivSingularStarkStern = "Genitiv Singular stark*";
+            public const string GenitivPluralStark = "Genitiv Plural stark";
+            public const string DativSingularStark = "Dativ Singular stark";
+            public const string DativSingularStarkStern = "Dativ Singular stark*";
+            public const string DativPluralStark = "Dativ Plural stark";
+            public const string AkkusativSingularStark = "Akkusativ Singular stark";
+            public const string AkkusativPluralStark = "Akkusativ Plural stark";
 
-            public const String NominativSingularSchwach = "Nominativ Singular schwach";
-            public const String NominativPluralSchwach = "Nominativ Plural schwach";
-            public const String GenitivSingularSchwach = "Genitiv Singular schwach";
-            public const String GenitivSingularSchwachStern = "Genitiv Singular schwach*";
-            public const String GenitivPluralSchwach = "Genitiv Plural schwach";
-            public const String DativSingularSchwach = "Dativ Singular schwach";
-            public const String DativSingularSchwachStern = "Dativ Singular schwach*";
-            public const String DativPluralSchwach = "Dativ Plural schwach";
-            public const String AkkusativSingularSchwach = "Akkusativ Singular schwach";
-            public const String AkkusativPluralSchwach = "Akkusativ Plural schwach";
+            public const string NominativSingularSchwach = "Nominativ Singular schwach";
+            public const string NominativPluralSchwach = "Nominativ Plural schwach";
+            public const string GenitivSingularSchwach = "Genitiv Singular schwach";
+            public const string GenitivSingularSchwachStern = "Genitiv Singular schwach*";
+            public const string GenitivPluralSchwach = "Genitiv Plural schwach";
+            public const string DativSingularSchwach = "Dativ Singular schwach";
+            public const string DativSingularSchwachStern = "Dativ Singular schwach*";
+            public const string DativPluralSchwach = "Dativ Plural schwach";
+            public const string AkkusativSingularSchwach = "Akkusativ Singular schwach";
+            public const string AkkusativPluralSchwach = "Akkusativ Plural schwach";
 
-            public const String NominativSingularGemischt = "Nominativ Singular gemischt";
-            public const String NominativPluralGemischt = "Nominativ Plural gemischt";
-            public const String GenitivSingularGemischt = "Genitiv Singular gemischt";
-            public const String GenitivSingularGemischtStern = "Genitiv Singular gemischt*";
-            public const String GenitivPluralGemischt = "Genitiv Plural gemischt";
-            public const String DativSingularGemischt = "Dativ Singular gemischt";
-            public const String DativSingularGemischtStern = "Dativ Singular gemischt*";
-            public const String DativPluralGemischt = "Dativ Plural gemischt";
-            public const String AkkusativSingularGemischt = "Akkusativ Singular gemischt";
-            public const String AkkusativPluralGemischt = "Akkusativ Plural gemischt";
+            public const string NominativSingularGemischt = "Nominativ Singular gemischt";
+            public const string NominativPluralGemischt = "Nominativ Plural gemischt";
+            public const string GenitivSingularGemischt = "Genitiv Singular gemischt";
+            public const string GenitivSingularGemischtStern = "Genitiv Singular gemischt*";
+            public const string GenitivPluralGemischt = "Genitiv Plural gemischt";
+            public const string DativSingularGemischt = "Dativ Singular gemischt";
+            public const string DativSingularGemischtStern = "Dativ Singular gemischt*";
+            public const string DativPluralGemischt = "Dativ Plural gemischt";
+            public const string AkkusativSingularGemischt = "Akkusativ Singular gemischt";
+            public const string AkkusativPluralGemischt = "Akkusativ Plural gemischt";
         }
     }
 }

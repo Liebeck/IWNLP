@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.ParserTest
 {
     public static class Common
     {
-        public static String ReadFromFile(String relativePath)
+        public static string ReadFromFile(string relativePath)
         {
             string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), relativePath);
 
             return File.ReadAllText(path);
         }
 
-        public static String[] ReadLinesFromFile(String relativePath)
+        public static string[] ReadLinesFromFile(string relativePath)
         {
             string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), relativePath);
 

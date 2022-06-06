@@ -3,7 +3,6 @@ using IWNLP.Models.Nouns;
 using IWNLP.Parser;
 using IWNLP.Parser.POSParser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -17,11 +16,11 @@ namespace IWNLP.ParserTest
         public void DeutschSubstantivUebersichtParser_Parameter_OneLine()
         {
             DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
-            String[] lines = new string[]
+            string[] lines = new string[]
             {
                 "{{Deutsch Substantiv Übersicht -sch}}"
             };
-            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Launa-Deutsch", lines);
+            List<string> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Launa-Deutsch", lines);
             Assert.AreEqual(0, cleanedTemplateBlock.Count);
         }
 
@@ -29,12 +28,12 @@ namespace IWNLP.ParserTest
         public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLines()
         {
             DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
-            String[] lines = new string[]
+            string[] lines = new string[]
             {
                 "{{Deutsch Substantiv Übersicht -sch",
                 "}}"
             };
-            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Albanisch", lines);
+            List<string> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Albanisch", lines);
             Assert.AreEqual(0, cleanedTemplateBlock.Count);
         }
 
@@ -42,13 +41,13 @@ namespace IWNLP.ParserTest
         public void DeutschSubstantivUebersichtParser_Parameter_TwoLinesLinesWithImage()
         {
             DeutschSubstantivUebersichtSchParser parser = new DeutschSubstantivUebersichtSchParser();
-            String[] lines = new string[]
+            string[] lines = new string[]
             {
                 "{{Deutsch Substantiv Übersicht -sch",
                 "|Bild=New-Map-Francophone_World.PNG|mini|1|Länder mit ''Französisch'' als Muttersprache (blau), Verwaltungssprache (blau), Verkehrssprache (hellblau), Minderheitensprache (grün)",
                 "}}"
             };
-            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Französisch", lines);
+            List<string> cleanedTemplateBlock = parser.GetCleanedTemplateBlock("Französisch", lines);
             Assert.AreEqual(0, cleanedTemplateBlock.Count);
         }
 
@@ -56,9 +55,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void LaunaDeutsch()
         {
-            String word = "Launa-Deutsch";
+            string word = "Launa-Deutsch";
             int wiktionaryID = 478362;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -105,9 +104,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void NatalerDeutsch()
         {
-            String word = "Nataler Deutsch";
+            string word = "Nataler Deutsch";
             int wiktionaryID = 73408;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -154,9 +153,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Niederländisch()
         {
-            String word = "Niederländisch";
+            string word = "Niederländisch";
             int wiktionaryID = 1047;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -200,9 +199,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void UlsterIrisch()
         {
-            String word = "Ulster-Irisch";
+            string word = "Ulster-Irisch";
             int wiktionaryID = 122925;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -246,9 +245,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Hessisch()
         {
-            String word = "Hessisch";
+            string word = "Hessisch";
             int wiktionaryID = 74231;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);

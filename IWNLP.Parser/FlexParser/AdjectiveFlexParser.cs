@@ -3,19 +3,17 @@ using IWNLP.Parser.POSParser;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.FlexParser
 {
     public class AdjectiveFlexParser : ParserBase
     {
-        public AdjectiveDeclination Parse(String word, String[] text)
+        public AdjectiveDeclination Parse(string word, string[] text)
         {
             AdjectiveDeclination adjectiveDeclination = new AdjectiveDeclination();
             if (!(text.Select((content, index) => new { Content = content.Trim(), Index = index }).Any(x => x.Content.Contains("{{Deklinationsseite Adjektiv"))))
             {
-                Common.PrintError(word, String.Format("AdjectiveFlexParser: No definition block: {0}", word));
+                Common.PrintError(word, string.Format("AdjectiveFlexParser: No definition block: {0}", word));
                 return null;
             }
             int flexionSubstantivStart = text.Select((content, index) => new { Content = content.Trim(), Index = index }).Where(x => x.Content.Contains("{{Deklinationsseite Adjektiv")).Select(x => x.Index).First();
@@ -29,16 +27,16 @@ namespace IWNLP.Parser.FlexParser
                 }
                 if (!text[i].StartsWith("|") && !text[i].StartsWith("Positiv-Stamm"))
                 {
-                    Common.PrintError(word, String.Format("AdjectiveFlexParser: Error in: {0}||{1}", word, text[i]));
+                    Common.PrintError(word, string.Format("AdjectiveFlexParser: Error in: {0}||{1}", word, text[i]));
                 }
-                String line = text[i].Substring(1).Trim(); // Skip leading "|"
+                string line = text[i].Substring(1).Trim(); // Skip leading "|"
                 if (line.EndsWith("}}"))
                 {
                     line = line.Substring(0, line.Length - 2);// remove end of block, if it is in the same line
                 }
                 line = base.CleanLine(line);
-                String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
-                List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
+                string[] forms = line.Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
+                List<string> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                 if (forms.Length == 1 || (forms.Length == 2 && (noValue.Contains(forms[1]))))  // No value given
                 {
                     continue;
@@ -98,7 +96,7 @@ namespace IWNLP.Parser.FlexParser
                     adjectiveDeclination.EEndung = true;
                     if (forms[1] != "1")
                     {
-                        Common.PrintError(word, String.Format("AdjectiveFlexParser: e-Endung wrong value {0}={1}", word, line));
+                        Common.PrintError(word, string.Format("AdjectiveFlexParser: e-Endung wrong value {0}={1}", word, line));
                     }
                 }
                 else if (forms[0].StartsWith("Prädikativ"))
@@ -109,7 +107,7 @@ namespace IWNLP.Parser.FlexParser
                     }
                     else
                     {
-                        Common.PrintError(word, String.Format("AdjectiveFlexParser: Prädikativ wrong value {0}={1}", word, line));
+                        Common.PrintError(word, string.Format("AdjectiveFlexParser: Prädikativ wrong value {0}={1}", word, line));
                     }
                 }
                 else if (forms[0].StartsWith("Positiv"))
@@ -118,11 +116,11 @@ namespace IWNLP.Parser.FlexParser
                 }
                 else
                 {
-                    Common.PrintError(word, String.Format("AdjectiveFlexParser: unknown parameter {0}={1}", word, line));
+                    Common.PrintError(word, string.Format("AdjectiveFlexParser: unknown parameter {0}={1}", word, line));
                 }
             }
             CreateFlexions(adjectiveDeclination);
-            if (!String.IsNullOrEmpty(adjectiveDeclination.SuperlativStammOhneE) && !String.IsNullOrEmpty(adjectiveDeclination.SuperlativStammAlternative))
+            if (!string.IsNullOrEmpty(adjectiveDeclination.SuperlativStammOhneE) && !string.IsNullOrEmpty(adjectiveDeclination.SuperlativStammAlternative))
             {
                 System.Diagnostics.Debugger.Break();
             }
@@ -132,9 +130,9 @@ namespace IWNLP.Parser.FlexParser
         protected void CreateFlexions(AdjectiveDeclination ad)
         {
             #region POSITIV Deklination
-            if (ad.PositivStamm != "<center>—</center>" && !String.IsNullOrEmpty(ad.PositivStamm))
+            if (ad.PositivStamm != "<center>—</center>" && !string.IsNullOrEmpty(ad.PositivStamm))
             {
-                String newForm = ad.PositivStamm;
+                string newForm = ad.PositivStamm;
                 if (!ad.EEndung)
                 {
                     newForm += "e";
@@ -206,7 +204,7 @@ namespace IWNLP.Parser.FlexParser
                 ad.PositivPluralAkkusativGemischt.Add(newForm + "n");
 
             }
-            if (String.IsNullOrEmpty(ad.Positiv))
+            if (string.IsNullOrEmpty(ad.Positiv))
             {
                 switch (StrRightC(ad.PositivStamm, 2))
                 {
@@ -296,7 +294,7 @@ namespace IWNLP.Parser.FlexParser
             }
             #endregion
             #region KOMPARATIV Deklination
-            if (!String.IsNullOrEmpty(ad.KomparativStamm))
+            if (!string.IsNullOrEmpty(ad.KomparativStamm))
             {
                 ad.KomparativMaskulinumNominativStark.Add(ad.KomparativStamm + "er");
                 ad.KomparativFemininumNominativStark.Add(ad.KomparativStamm + "e");
@@ -360,7 +358,7 @@ namespace IWNLP.Parser.FlexParser
                 ad.KomparativNeutrumAkkusativGemischt.Add(ad.KomparativStamm + "es");
                 ad.KomparativPluralAkkusativGemischt.Add(ad.KomparativStamm + "en");
 
-                if (!String.IsNullOrEmpty(ad.KomparativStammOhneE) || !String.IsNullOrEmpty(ad.KomparativStammAlternative))
+                if (!string.IsNullOrEmpty(ad.KomparativStammOhneE) || !string.IsNullOrEmpty(ad.KomparativStammAlternative))
                 {
                     ad.KomparativMaskulinumNominativStark.Add(ad.KomparativStammOhneE + ad.KomparativStammAlternative + "er");
                     ad.KomparativFemininumNominativStark.Add(ad.KomparativStammOhneE + ad.KomparativStammAlternative + "e");
@@ -428,7 +426,7 @@ namespace IWNLP.Parser.FlexParser
             }
             #endregion
             #region SUPERLATIV Deklination
-            if (!String.IsNullOrEmpty(ad.SuperlativStamm))
+            if (!string.IsNullOrEmpty(ad.SuperlativStamm))
             {
                 ad.SuperlativMaskulinumNominativStark.Add(ad.SuperlativStamm + "er");
                 ad.SuperlativFemininumNominativStark.Add(ad.SuperlativStamm + "e");
@@ -492,7 +490,7 @@ namespace IWNLP.Parser.FlexParser
                 ad.SuperlativNeutrumAkkusativGemischt.Add(ad.SuperlativStamm + "es");
                 ad.SuperlativPluralAkkusativGemischt.Add(ad.SuperlativStamm + "en");
 
-                if (!String.IsNullOrEmpty(ad.SuperlativStammOhneE) || !String.IsNullOrEmpty(ad.SuperlativStammAlternative))
+                if (!string.IsNullOrEmpty(ad.SuperlativStammOhneE) || !string.IsNullOrEmpty(ad.SuperlativStammAlternative))
                 {
                     ad.SuperlativMaskulinumNominativStark.Add(ad.SuperlativStammOhneE + ad.SuperlativStammAlternative + "er");
                     ad.SuperlativFemininumNominativStark.Add(ad.SuperlativStammOhneE + ad.SuperlativStammAlternative + "e");
@@ -556,7 +554,7 @@ namespace IWNLP.Parser.FlexParser
                     ad.SuperlativNeutrumAkkusativGemischt.Add(ad.SuperlativStammOhneE + ad.SuperlativStammAlternative + "es");
                     ad.SuperlativPluralAkkusativGemischt.Add(ad.SuperlativStammOhneE + ad.SuperlativStammAlternative + "en");
                 }
-                if (!String.IsNullOrEmpty(ad.SuperlativStammAlternative2))
+                if (!string.IsNullOrEmpty(ad.SuperlativStammAlternative2))
                 {
                     ad.SuperlativMaskulinumNominativStark.Add(ad.SuperlativStammAlternative2 + "er");
                     ad.SuperlativFemininumNominativStark.Add(ad.SuperlativStammAlternative2 + "e");

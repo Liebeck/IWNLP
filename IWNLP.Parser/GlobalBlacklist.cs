@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace IWNLP.Parser
 {
     public class GlobalBlacklist
     {
-        public static List<String> Blacklist = new List<string>()
+        public static List<string> Blacklist = new List<string>()
         {
             "Oachkatzlschwoaf",
             "Flexion:husten",

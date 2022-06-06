@@ -2,7 +2,6 @@
 using IWNLP.Models.Nouns;
 using IWNLP.Parser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -14,9 +13,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Haus()
         {
-            String word = "Haus";
+            string word = "Haus";
             int wiktionaryID = 1119;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -46,9 +45,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Güterzug()
         {
-            String word = "Güterzug";
+            string word = "Güterzug";
             int wiktionaryID = 151293;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -78,9 +77,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Joghurt()
         {
-            String word = "Joghurt";
+            string word = "Joghurt";
             int wiktionaryID = 23051;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -108,9 +107,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void April()
         {
-            String word = "April";
+            string word = "April";
             int wiktionaryID = 720;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -138,9 +137,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Fremde()
         {
-            String word = "Fremde";
+            string word = "Fremde";
             int wiktionaryID = 150532;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -158,14 +157,14 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Fremder"},
                     DativPlural=new List<string>(){"Fremden"},
                     AkkusativPlural=new List<string>(){"Fremde"},
-                    NominativSingularSchwach=new List<String>(){"Fremde"},
-                    GenitivSingularSchwach=new List<String>(){"Fremden"},
-                    DativSingularSchwach=new List<String>(){"Fremden"},
-                    AkkusativSingularSchwach=new List<String>(){"Fremde"},
-                    NominativPluralSchwach=new List<String>(){"Fremden"},
-                    GenitivPluralSchwach=new List<String>(){"Fremden"},
-                    DativPluralSchwach=new List<String>(){"Fremden"},
-                    AkkusativPluralSchwach=new List<String>(){"Fremden"},
+                    NominativSingularSchwach=new List<string>(){"Fremde"},
+                    GenitivSingularSchwach=new List<string>(){"Fremden"},
+                    DativSingularSchwach=new List<string>(){"Fremden"},
+                    AkkusativSingularSchwach=new List<string>(){"Fremde"},
+                    NominativPluralSchwach=new List<string>(){"Fremden"},
+                    GenitivPluralSchwach=new List<string>(){"Fremden"},
+                    DativPluralSchwach=new List<string>(){"Fremden"},
+                    AkkusativPluralSchwach=new List<string>(){"Fremden"},
                     NominativSingularGemischt=new List<string>(){"Fremde"},
                     GenitivSingularGemischt=new List<string>(){"Fremden"},
                     DativSingularGemischt=new List<string>(){"Fremden"},
@@ -200,9 +199,9 @@ namespace IWNLP.ParserTest
         public void Hannibal() // Eigenname
         {
 
-            String word = "Hannibal";
+            string word = "Hannibal";
             int wiktionaryID = 454497;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -213,9 +212,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Codex()
         {
-            String word = "Codex";
+            string word = "Codex";
             int wiktionaryID = 33616;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -245,9 +244,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Index()
         {
-            String word = "Index";
+            string word = "Index";
             int wiktionaryID = 5086;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -277,9 +276,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Masse()
         {
-            String word = "Masse";
+            string word = "Masse";
             int wiktionaryID = 17171;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -310,9 +309,9 @@ namespace IWNLP.ParserTest
         public void Strasse()
         {
             // Schweizer und Liechtensteiner Schreibweise
-            String word = "Strasse";
+            string word = "Strasse";
             int wiktionaryID = 18409;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -324,9 +323,9 @@ namespace IWNLP.ParserTest
         public void Schoss()
         {
             // 2 entries, one is "{{Schweizer und Liechtensteiner Schreibweise"
-            String word = "Schoss";
+            string word = "Schoss";
             int wiktionaryID = 37410;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -355,9 +354,9 @@ namespace IWNLP.ParserTest
         public void Thor()
         {
             // 2 entries: alte Schreibweise und Eigenname
-            String word = "Thor";
+            string word = "Thor";
             int wiktionaryID = 18441;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -369,9 +368,9 @@ namespace IWNLP.ParserTest
         public void Ablaß()
         {
             // 2 entries: Toponym und Nachname
-            String word = "Ablaß";
+            string word = "Ablaß";
             int wiktionaryID = 20198;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -383,9 +382,9 @@ namespace IWNLP.ParserTest
         public void Citronensäure()
         {
             // contains "*Alternative Schreibweise von"
-            String word = "Citronensäure";
+            string word = "Citronensäure";
             int wiktionaryID = 82973;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -414,9 +413,9 @@ namespace IWNLP.ParserTest
         public void Ampelograph()
         {
             // contains "*Alternative Schreibweise von"
-            String word = "Ampelograph";
+            string word = "Ampelograph";
             int wiktionaryID = 263917;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -445,9 +444,9 @@ namespace IWNLP.ParserTest
         public void Zeitprozentverfahren()
         {
             // no definition, only "*Alternative Schreibweise zu"
-            String word = "Zeitprozentverfahren";
+            string word = "Zeitprozentverfahren";
             int wiktionaryID = 4930;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -459,9 +458,9 @@ namespace IWNLP.ParserTest
         public void Tolpatsch()
         {
             // no definition, only "{{Alte Schreibweise"
-            String word = "Tolpatsch";
+            string word = "Tolpatsch";
             int wiktionaryID = 5679;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -473,9 +472,9 @@ namespace IWNLP.ParserTest
         public void Komputer()
         {
             // no definition, only "{{Alte Schreibweise"
-            String word = "Komputer";
+            string word = "Komputer";
             int wiktionaryID = 9414;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -486,9 +485,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Propentricarbonsäure()
         {
-            String word = "1,2,3-Propentricarbonsäure";
+            string word = "1,2,3-Propentricarbonsäure";
             int wiktionaryID = 44684;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -518,9 +517,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Konstante()
         {
-            String word = "Konstante";
+            string word = "Konstante";
             int wiktionaryID = 92957;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -548,9 +547,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Miami()
         {
-            String word = "Miami";
+            string word = "Miami";
             int wiktionaryID = 300285;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -563,9 +562,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Interessenvertretung()
         {
-            String word = "Interessenvertretung";
+            string word = "Interessenvertretung";
             int wiktionaryID = 269932;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -593,9 +592,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Vertretung()
         {
-            String word = "Vertretung";
+            string word = "Vertretung";
             int wiktionaryID = 246253;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -623,9 +622,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Mutter()
         {
-            String word = "Mutter";
+            string word = "Mutter";
             int wiktionaryID = 1053;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -668,9 +667,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Mai()
         {
-            String word = "Mai";
+            string word = "Mai";
             int wiktionaryID = 721;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -700,9 +699,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Juni()
         {
-            String word = "Juni";
+            string word = "Juni";
             int wiktionaryID = 722;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -730,9 +729,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Art()
         {
-            String word = "Art";
+            string word = "Art";
             int wiktionaryID = 2853;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -760,9 +759,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void August()
         {
-            String word = "August";
+            string word = "August";
             int wiktionaryID = 724;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -796,9 +795,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Gelb()
         {
-            String word = "Gelb";
+            string word = "Gelb";
             int wiktionaryID = 938;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -834,9 +833,9 @@ namespace IWNLP.ParserTest
         public void Tag()
         {
             // Mit Hinweis auf Bedeutungen in [1,2]
-            String word = "Tag";
+            string word = "Tag";
             int wiktionaryID = 2110;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -881,9 +880,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Tun()
         {
-            String word = "Tun";
+            string word = "Tun";
             int wiktionaryID = 33169;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -926,9 +925,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Tier()
         {
-            String word = "Tier";
+            string word = "Tier";
             int wiktionaryID = 3622;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -956,9 +955,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Pkw()
         {
-            String word = "Pkw";
+            string word = "Pkw";
             int wiktionaryID = 2271;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -988,9 +987,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Biak()
         {
-            String word = "Biak";
+            string word = "Biak";
             int wiktionaryID = 56588;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
             List<Models.Word> expectedWords = new List<Models.Word>();
@@ -1000,9 +999,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Deichgraf()
         {
-            String word = "Deichgraf";
+            string word = "Deichgraf";
             int wiktionaryID = 121425;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1031,9 +1030,9 @@ namespace IWNLP.ParserTest
         public void Daguerreotyp()
         {
             // contains ''veraltet:'' Tag in Multiline <ref> Tag
-            String word = "Daguerreotyp";
+            string word = "Daguerreotyp";
             int wiktionaryID = 319160;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1061,9 +1060,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Qualitätsschaumwein()
         {
-            String word = "Qualitätsschaumwein";
+            string word = "Qualitätsschaumwein";
             int wiktionaryID = 446941;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1091,9 +1090,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Nussknacker()
         {
-            String word = "Nussknacker";
+            string word = "Nussknacker";
             int wiktionaryID = 96434;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1124,9 +1123,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Aas()
         {
-            String word = "Aas";
+            string word = "Aas";
             int wiktionaryID = 1901;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1157,9 +1156,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void März()
         {
-            String word = "März";
+            string word = "März";
             int wiktionaryID = 719;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1187,9 +1186,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Herz()
         {
-            String word = "Herz";
+            string word = "Herz";
             int wiktionaryID = 6505;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1217,9 +1216,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Mahr()
         {
-            String word = "Mahr";
+            string word = "Mahr";
             int wiktionaryID = 262971;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1249,9 +1248,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Fötus()
         {
-            String word = "Fötus";
+            string word = "Fötus";
             int wiktionaryID = 15449;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1280,9 +1279,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Siebenschläfertag()
         {
-            String word = "Siebenschläfertag";
+            string word = "Siebenschläfertag";
             int wiktionaryID = 445847;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1311,9 +1310,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Tsunami()
         {
-            String word = "Tsunami";
+            string word = "Tsunami";
             int wiktionaryID = 10854;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1342,9 +1341,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Firewall()
         {
-            String word = "Firewall";
+            string word = "Firewall";
             int wiktionaryID = 37559;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1375,9 +1374,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Mail()
         {
-            String word = "Mail";
+            string word = "Mail";
             int wiktionaryID = 43059;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1408,9 +1407,9 @@ namespace IWNLP.ParserTest
         public void DemodexFolliculorum()
         {
 
-            String word = "Demodex folliculorum";
+            string word = "Demodex folliculorum";
             int wiktionaryID = 10958;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1423,9 +1422,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void ErscheinungDesHerrn()
         {
-            String word = "Erscheinung des Herrn";
+            string word = "Erscheinung des Herrn";
             int wiktionaryID = 426428;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1457,9 +1456,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void StVincentUndDieGrenadinen()
         {
-            String word = "St. Vincent und die Grenadinen";
+            string word = "St. Vincent und die Grenadinen";
             int wiktionaryID = 39047;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1474,9 +1473,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Apfelsäure()
         {
-            String word = "Apfelsäure";
+            string word = "Apfelsäure";
             int wiktionaryID = 84434;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1506,9 +1505,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Teppich()
         {
-            String word = "Teppich";
+            string word = "Teppich";
             int wiktionaryID = 15585;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1538,9 +1537,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Buggy()
         {
-            String word = "Buggy";
+            string word = "Buggy";
             int wiktionaryID = 75742;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1570,9 +1569,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Haendel()
         {
-            String word = "Händel";
+            string word = "Händel";
             int wiktionaryID = 123473;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1602,9 +1601,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Fetus()
         {
-            String word = "Fetus";
+            string word = "Fetus";
             int wiktionaryID = 15451;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1634,9 +1633,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Ballon()
         {
-            String word = "Ballon";
+            string word = "Ballon";
             int wiktionaryID = 2756;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1666,9 +1665,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Rauchwaren()
         {
-            String word = "Rauchwaren";
+            string word = "Rauchwaren";
             int wiktionaryID = 542369;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1698,9 +1697,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Zehntel()
         {
-            String word = "Zehntel";
+            string word = "Zehntel";
             int wiktionaryID = 522431;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1745,9 +1744,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Riff()
         {
-            String word = "Riff";
+            string word = "Riff";
             int wiktionaryID = 15088;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1792,9 +1791,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Bogen()
         {
-            String word = "Bogen";
+            string word = "Bogen";
             int wiktionaryID = 16867;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1824,9 +1823,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Renforcé()
         {
-            String word = "Renforcé";
+            string word = "Renforcé";
             int wiktionaryID = 497419;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1856,9 +1855,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Picknick()
         {
-            String word = "Picknick";
+            string word = "Picknick";
             int wiktionaryID = 115173;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1888,9 +1887,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Orden()
         {
-            String word = "Bogen";
+            string word = "Bogen";
             int wiktionaryID = 25404;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1920,9 +1919,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Schlot()
         {
-            String word = "Schlot";
+            string word = "Schlot";
             int wiktionaryID = 85380;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1952,9 +1951,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Admiral()
         {
-            String word = "Admiral";
+            string word = "Admiral";
             int wiktionaryID = 11635;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -1984,9 +1983,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Brautleute()
         {
-            String word = "Brautleute";
+            string word = "Brautleute";
             int wiktionaryID = 433358;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -2016,9 +2015,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Queue()
         {
-            String word = "Queue";
+            string word = "Queue";
             int wiktionaryID = 85371;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -2063,9 +2062,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Fünftel()
         {
-            String word = "Fünftel";
+            string word = "Fünftel";
             int wiktionaryID = 216311;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -2095,9 +2094,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Avis()
         {
-            String word = "Avis";
+            string word = "Avis";
             int wiktionaryID = 617129;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);

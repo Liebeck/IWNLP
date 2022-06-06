@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Models
 {
@@ -12,18 +9,18 @@ namespace IWNLP.Models
 
         public bool ConjugationBlockMissing { get; set; }
 
-        public List<String> Präsens_Ich { get; set; }
-        public List<String> Präsens_Du { get; set; }
-        public List<String> Präsens_ErSieEs { get; set; }
-        public List<String> Präteritum_ich { get; set; }
-        public List<String> KonjunktivII_Ich { get; set; }
-        public List<String> ImperativSingular { get; set; }
-        public List<String> ImperativPlural { get; set; }
-        public List<String> PartizipII { get; set; }
-        public List<String> Hilfsverb { get; set; }
+        public List<string> Präsens_Ich { get; set; }
+        public List<string> Präsens_Du { get; set; }
+        public List<string> Präsens_ErSieEs { get; set; }
+        public List<string> Präteritum_ich { get; set; }
+        public List<string> KonjunktivII_Ich { get; set; }
+        public List<string> ImperativSingular { get; set; }
+        public List<string> ImperativPlural { get; set; }
+        public List<string> PartizipII { get; set; }
+        public List<string> Hilfsverb { get; set; }
         //public String Hilfsverb2 { get; set; }
-        public String WeitereKonjugationen { get; set; }
-        public String WeitereKonjugationen2 { get; set; }
+        public string WeitereKonjugationen { get; set; }
+        public string WeitereKonjugationen2 { get; set; }
 
 
         private bool unpersönlich = false;

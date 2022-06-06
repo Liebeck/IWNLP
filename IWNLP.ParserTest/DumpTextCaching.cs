@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Xml;
 
 namespace IWNLP.ParserTest
@@ -13,11 +9,11 @@ namespace IWNLP.ParserTest
     /// </summary>
     public class DumpTextCaching
     {
-        protected Dictionary<int, String> wiktionaryPages = new Dictionary<int, string>();
+        protected Dictionary<int, string> wiktionaryPages = new Dictionary<int, string>();
 
         private static DumpTextCaching instance;
 
-        private DumpTextCaching(String wiktionaryDumpPath)
+        private DumpTextCaching(string wiktionaryDumpPath)
         {
             using (XmlReader myReader = XmlReader.Create(wiktionaryDumpPath))
             {
@@ -30,7 +26,7 @@ namespace IWNLP.ParserTest
                         int id = myReader.ReadElementContentAsInt();
                         myReader.ReadToFollowing("revision");
                         myReader.ReadToFollowing("text");
-                        String text = myReader.ReadElementContentAsString();
+                        string text = myReader.ReadElementContentAsString();
                         wiktionaryPages.Add(id, text);
                     }
                     //var value = myReader.Value;
@@ -38,7 +34,7 @@ namespace IWNLP.ParserTest
             }
         }
 
-        public static String GetTextFromPage(int wiktionaryID) 
+        public static string GetTextFromPage(int wiktionaryID) 
         {
             return DumpTextCaching.Instance.wiktionaryPages[wiktionaryID];
         }

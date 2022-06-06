@@ -17,15 +17,15 @@ namespace IWNLP.Parser
                 Console.WriteLine("First argument: Input path to 'dewiktionary-XXX-pages-articles.xml'");
                 Console.WriteLine("Second argument: Output path to 'parsedIWNLP_XXX.xml'");
             }
-            String wiktionaryDumpPath = args[0];
-            String parsedOutputPath = args[1];
+            string wiktionaryDumpPath = args[0];
+            string parsedOutputPath = args[1];
 
             //Console.OutputEncoding = Encoding.UTF8;
             WiktionaryParser parser = new WiktionaryParser();
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            List<String> titles = new List<string>();
+            List<string> titles = new List<string>();
             List<Entry> allWords = new List<Entry>();
             using (XmlReader myReader = XmlReader.Create(wiktionaryDumpPath))
             {
@@ -34,7 +34,7 @@ namespace IWNLP.Parser
                     if (myReader.NodeType == XmlNodeType.Element && myReader.Name == "page" && myReader.IsStartElement())
                     {
                         myReader.ReadToFollowing("title");
-                        String title = myReader.ReadElementContentAsString();
+                        string title = myReader.ReadElementContentAsString();
                         titles.Add(title);
                         if (!title.Contains(":") || title.StartsWith("Flexion:"))
                         {
@@ -42,7 +42,7 @@ namespace IWNLP.Parser
                             int id = myReader.ReadElementContentAsInt();
                             myReader.ReadToFollowing("revision");
                             myReader.ReadToFollowing("text");
-                            String text = myReader.ReadElementContentAsString();
+                            string text = myReader.ReadElementContentAsString();
                             try
                             {
                                 List<Entry> entries = parser.ParseText(title, text, id);
@@ -53,7 +53,7 @@ namespace IWNLP.Parser
                             }
                             catch (Exception ex)
                             {
-                                Console.WriteLine(String.Format("Exception for entry: {0}", title));
+                                Console.WriteLine(string.Format("Exception for entry: {0}", title));
                                 Console.WriteLine(ex.ToString());
                             }
                         }
@@ -63,7 +63,7 @@ namespace IWNLP.Parser
             }
             Console.WriteLine("Dump parsed in " + (stopwatch.ElapsedMilliseconds / 1000) + " seconds");
             XMLSerializer.Serialize<List<Entry>>(allWords.Where(x => !x.ParserError).ToList(), parsedOutputPath);
-            StatsWriter.Write(wiktionaryDumpPath, parsedOutputPath, String.Format("{0}.txt", parsedOutputPath));
+            StatsWriter.Write(wiktionaryDumpPath, parsedOutputPath, string.Format("{0}.txt", parsedOutputPath));
         }
     }
 }

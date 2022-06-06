@@ -1,10 +1,6 @@
 ﻿using IWNLP.Models.Flections;
 using IWNLP.Models.Nouns;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace IWNLP.Models
@@ -14,7 +10,7 @@ namespace IWNLP.Models
     [XmlInclude(typeof(VerbConjugation))]
     public class Entry
     {
-        public String Text { get; set; }
+        public string Text { get; set; }
         public int WiktionaryID { get; set; }
         
         [XmlIgnore]

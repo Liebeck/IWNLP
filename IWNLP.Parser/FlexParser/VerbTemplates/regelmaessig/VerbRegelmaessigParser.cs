@@ -1,27 +1,24 @@
 ﻿using IWNLP.Models.Flections;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
 {
     public class VerbRegelmaessigParser : VerbConjugationParserBase
     {
-        public Dictionary<String, String> ParseParameters(String[] input, String word)
+        public Dictionary<string, string> ParseParameters(string[] input, string word)
         {
-            String truncatedWord = word.Replace("Flexion:", String.Empty);
-            String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb regelmäßig|");
-            Dictionary<String, String> parameters = new Dictionary<string, string>();
+            string truncatedWord = word.Replace("Flexion:", string.Empty);
+            string[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb regelmäßig|");
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
             for (int i = 0; i < inputSplitted.Length; i++)
             {
                 if (inputSplitted[i].Contains("="))
                 {
                     inputSplitted[i] = base.CleanLine(inputSplitted[i]);
-                    String[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
-                    String key = keyValuePair[0].Trim();
-                    String value = keyValuePair[1].Trim();
+                    string[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
+                    string key = keyValuePair[0].Trim();
+                    string value = keyValuePair[1].Trim();
                     parameters[key] = value;
                 }
                 else
@@ -37,7 +34,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                     parameters[ParameterRegelmaessig.Parameter6] = inputSplitted[i];
                 }
             }
-            if (parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich) && String.IsNullOrEmpty(parameters[ParameterRegelmaessig.Unpersönlich])) 
+            if (parameters.ContainsKey(ParameterRegelmaessig.Unpersönlich) && string.IsNullOrEmpty(parameters[ParameterRegelmaessig.Unpersönlich])) 
             {
                 //Common.PrintError(word, String.Format("VerbRegelmaessigParser: unpersönlich no value: {0}", word));
                 parameters.Remove(ParameterRegelmaessig.Unpersönlich);
@@ -45,12 +42,12 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
             return parameters;
         }
 
-        public VerbConjugation Parse(String word, String[] input)
+        public VerbConjugation Parse(string word, string[] input)
         {
             return this.Parse(word, this.ParseParameters(input, word));
         }
 
-        public VerbConjugation Parse(String word, Dictionary<String, String> parameters)
+        public VerbConjugation Parse(string word, Dictionary<string, string> parameters)
         {
             VerbConjugation verb = new VerbConjugation();
             verb.PartizipII = parameters[ParameterRegelmaessig.Parameter6];
@@ -63,16 +60,16 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                 verb.PartizipIIVeraltet = parameters[ParameterRegelmaessig.PartizipVeraltet];
             }
 
-            List<String> condition = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "p", "s", "t", "v", "w", "x", "z", "ß" };
-            List<String> condition2 = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "m", "p", "s", "t", "v", "w", "x", "z", "ß" };
-            List<String> condition3 = new List<string>() { "ä", "b", "f", "g", "h", "l", "s", "u", "z" };
+            List<string> condition = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "p", "s", "t", "v", "w", "x", "z", "ß" };
+            List<string> condition2 = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "m", "p", "s", "t", "v", "w", "x", "z", "ß" };
+            List<string> condition3 = new List<string>() { "ä", "b", "f", "g", "h", "l", "s", "u", "z" };
             #region Präsens Indikativ Singular 1 Person
             if (parameters.ContainsKey("1. Singular Indikativ Präsens Aktiv"))
             {
                 verb.PräsensAktivIndikativ_Singular1Person = new List<string>();
                 if (parameters["1. Singular Indikativ Präsens Aktiv"].Contains("<br >") || parameters["1. Singular Indikativ Präsens Aktiv"].Contains("<br />"))
                 {
-                    String[] multipleValues = parameters["1. Singular Indikativ Präsens Aktiv"].Split(new String[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters["1. Singular Indikativ Präsens Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         if (multipleValues[i].StartsWith("du ")) 
@@ -101,9 +98,9 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                     {
                         case "e":
                             // the check for parameter4 is not necessary
-                            String form1 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e";
-                            String form2 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4];
-                            String form3 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e";
+                            string form1 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter4] + "e";
+                            string form2 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4];
+                            string form3 = parameters[ParameterRegelmaessig.Parameter1] + parameters[ParameterRegelmaessig.Parameter2] + parameters[ParameterRegelmaessig.Parameter3] + parameters[ParameterRegelmaessig.Parameter4] + "e";
                             form1 += GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2);
                             form2 += GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2);
                             form3 += GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil1) + GetWithSpaceOrEmpty(parameters, ParameterRegelmaessig.Teil2);
@@ -310,7 +307,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                 verb.PräsensAktivIndikativ_Singular2Person = new List<string>();
                 if (parameters["2. Singular Indikativ Präsens Aktiv"].Contains("<br >") || parameters["2. Singular Indikativ Präsens Aktiv"].Contains("<br />"))
                 {
-                    String[] multipleValues = parameters["2. Singular Indikativ Präsens Aktiv"].Split(new String[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters["2. Singular Indikativ Präsens Aktiv"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         if (multipleValues[i].StartsWith("du ")) 
@@ -457,7 +454,7 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig
                     verb.PräsensAktivIndikativ_Singular2Person_Nebensatzkonjugation = new List<string>();
                     if (parameters["2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"].Contains("<br >") || parameters["2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"].Contains("<br />"))
                     {
-                        String[] multipleValues = parameters["2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"].Split(new String[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                        string[] multipleValues = parameters["2. Singular Indikativ Präsens Aktiv Nebensatzkonjugation"].Split(new string[] { "</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
                         for (int i = 0; i < multipleValues.Length; i++)
                         {
                             if (multipleValues[i].StartsWith("du "))

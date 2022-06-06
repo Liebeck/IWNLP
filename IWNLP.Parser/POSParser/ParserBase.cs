@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
@@ -16,11 +15,11 @@ namespace IWNLP.Parser.POSParser
             set { outputDefinitionBlockMissing = value; }
         }
 
-        protected String[] SplitTemplateInput(String[] input, String templateStart)
+        protected string[] SplitTemplateInput(string[] input, string templateStart)
         {
             bool multiline = input.Length > 1;
-            String firstLine = input[0];
-            if (firstLine.Contains("{{small|er/sie/es}}")) { firstLine = firstLine.Replace("{{small|er/sie/es}}", String.Empty); } // Example: "Flexion:schwären"
+            string firstLine = input[0];
+            if (firstLine.Contains("{{small|er/sie/es}}")) { firstLine = firstLine.Replace("{{small|er/sie/es}}", string.Empty); } // Example: "Flexion:schwären"
             if (firstLine.EndsWith("\r\n")) { firstLine = firstLine.Substring(0, firstLine.Length - 2); }
             if (firstLine.EndsWith("\n\r")) { firstLine = firstLine.Substring(0, firstLine.Length - 2); }
             if (firstLine.EndsWith("\n")) { firstLine = firstLine.Substring(0, firstLine.Length - 1); }
@@ -29,19 +28,19 @@ namespace IWNLP.Parser.POSParser
             if (firstLine.EndsWith("}}")) { firstLine = firstLine.Substring(0, firstLine.Length - 2); }
             // Cite: https://en.wikipedia.org/wiki/Help:Template
             //Whitespace characters (spaces, tabs, returns) are stripped from the beginnings and ends of named parameter names and values, but not from the middle: thus {{ ... | myparam = this is a test }} has the same effect as {{ ... |myparam=this is a test}}. This does not apply to unnamed parameters, where the whitespace characters are preserved.
-            List<String> inputLines = firstLine.Split(new char[] { '|' }).Select(x => x).ToList();
+            List<string> inputLines = firstLine.Split(new char[] { '|' }).Select(x => x).ToList();
             if (multiline)
             {
                 for (int i = 1; i < input.Length; i++)
                 {
-                    String line = input[i].Trim();
+                    string line = input[i].Trim();
                     if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
                     if (line.StartsWith("|"))
                     {
                         line = line.Substring(1);   // Skip leading "|"
                     }
                     line = this.CleanLine(line).Trim();
-                    if (!String.IsNullOrEmpty(line))
+                    if (!string.IsNullOrEmpty(line))
                     {
                         inputLines.Add(line);
                     }
@@ -50,7 +49,7 @@ namespace IWNLP.Parser.POSParser
             return inputLines.ToArray();
         }
 
-        public static String RemoveBetween(String input, String startText, String endText)
+        public static string RemoveBetween(string input, string startText, string endText)
         {
             if (!input.Contains(startText))
             {
@@ -84,22 +83,22 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        protected List<String> GetCleanedMultilineDefinitionBlock(String[] lines, String word, String parserName) 
+        protected List<string> GetCleanedMultilineDefinitionBlock(string[] lines, string word, string parserName) 
         {
-            List<String> cleanedLines = new List<string>();
+            List<string> cleanedLines = new List<string>();
             for (int i = 0; i < lines.Length; i++) 
             {
-                String line = lines[i].Trim();
+                string line = lines[i].Trim();
                 if (line.StartsWith("<!--")) { continue; } // skip comments
                 if (line == "}}") { continue; }
                 if (!line.StartsWith("|") && !line.StartsWith("{{"))
                 {
-                    Common.PrintError(word, String.Format("{0}: Error in {1} || {2}", parserName, word, line));
+                    Common.PrintError(word, string.Format("{0}: Error in {1} || {2}", parserName, word, line));
                 }
                 if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
-                if (String.IsNullOrEmpty(line))
+                if (string.IsNullOrEmpty(line))
                 {
-                    Common.PrintError(word, String.Format("{0}: Empty line in {1}", parserName, word));
+                    Common.PrintError(word, string.Format("{0}: Empty line in {1}", parserName, word));
                     continue;
                 }
                 if (!line.StartsWith("{{")) // special case for 'Vorlage:Deutsch Substantiv Übersicht -sch'
@@ -116,61 +115,61 @@ namespace IWNLP.Parser.POSParser
             return cleanedLines;
         }
 
-        protected String CleanLine(String input)
+        protected string CleanLine(string input)
         {
-            input = input.Replace("<ref name=\"ug\"/>", String.Empty).Trim(); // Example: "abbröckeln"
-            input = input.Replace("<ref name=\"owb\"/>", String.Empty).Trim(); // Example: "Flexion:rauschen"
-            input = input.Replace("<ref name=owb/>", String.Empty).Trim(); // Example: "Flexion:rauschen"
+            input = input.Replace("<ref name=\"ug\"/>", string.Empty).Trim(); // Example: "abbröckeln"
+            input = input.Replace("<ref name=\"owb\"/>", string.Empty).Trim(); // Example: "Flexion:rauschen"
+            input = input.Replace("<ref name=owb/>", string.Empty).Trim(); // Example: "Flexion:rauschen"
             input = RemoveBetween(input, "<ref", "</ref>").Trim(); // Example: "Deichgraf", "abbröckeln"
             input = RemoveBetween(input, "<!--", "-->").Trim();
-            input = input.Replace("<small>", String.Empty);
-            input = input.Replace("</small>", String.Empty);
-            input = input.Replace("<center>", String.Empty);
-            input = input.Replace("</center>", String.Empty);
-            input = input.Replace("[[ungebr.]]", String.Empty); // Example: "abblättern"
-            input = input.Replace("<sup>", String.Empty);
-            input = input.Replace("</sup>", String.Empty);
-            input = input.Replace("(''veraltet'')", String.Empty).Trim(); // Example: "küren"
-            input = input.Replace("''(veraltet)''", String.Empty).Trim(); // Example: "werden"
-            input = input.Replace("''veraltet:''", String.Empty).Trim();
-            input = input.Replace("{{va.|:}}", String.Empty).Trim(); // Example: Teppich
-            input = input.Replace("''veraltend auch:''", String.Empty).Trim(); // Example: "scheren"
-            input = input.Replace("''(selten)''", String.Empty).Trim(); // Example: "erkälten"
-            input = input.Replace("''selten:''", String.Empty).Trim(); // Example: "Fetus"
-            input = input.Replace("selten:", String.Empty).Trim(); // Example: "Fötus"
-            input = input.Replace("''(selten gebraucht)''", String.Empty).Trim(); // Example: "menstruieren"
-            input = input.Replace("''mundartlich:''", String.Empty).Trim(); // Example: "Herz"
-            input = input.Replace("dichterisch:", String.Empty).Trim(); // Example: "März"
-            input = input.Replace("''poetisch:''", String.Empty).Trim(); // Example: "scheuen"
-            input = input.Replace("''dialektal auch:''", String.Empty).Trim(); // Example: "fladern"
-            input = input.Replace("''regional:''", String.Empty).Trim(); // Example: "doll"
-            input = input.Replace("''nur umgangsspachlich:''", String.Empty).Trim(); // Example: "einzig"
-            input = input.Replace("''auch:''", String.Empty).Trim(); // Example: "Mahr"
-            input = input.Replace("''militärisch:''", String.Empty).Trim(); // Example: "wegtreten"
-            input = input.Replace("''auch einfach:''", String.Empty).Trim(); // Example: "hereinkommen"
-            input = input.Replace("[[Hilfe:Dativ-e|''Variante:'']]", String.Empty).Trim(); // Example: "Siebenschläfertag"
-            input = input.Replace("Nebensatz:", String.Empty).Trim(); // Example: "aussortieren"
+            input = input.Replace("<small>", string.Empty);
+            input = input.Replace("</small>", string.Empty);
+            input = input.Replace("<center>", string.Empty);
+            input = input.Replace("</center>", string.Empty);
+            input = input.Replace("[[ungebr.]]", string.Empty); // Example: "abblättern"
+            input = input.Replace("<sup>", string.Empty);
+            input = input.Replace("</sup>", string.Empty);
+            input = input.Replace("(''veraltet'')", string.Empty).Trim(); // Example: "küren"
+            input = input.Replace("''(veraltet)''", string.Empty).Trim(); // Example: "werden"
+            input = input.Replace("''veraltet:''", string.Empty).Trim();
+            input = input.Replace("{{va.|:}}", string.Empty).Trim(); // Example: Teppich
+            input = input.Replace("''veraltend auch:''", string.Empty).Trim(); // Example: "scheren"
+            input = input.Replace("''(selten)''", string.Empty).Trim(); // Example: "erkälten"
+            input = input.Replace("''selten:''", string.Empty).Trim(); // Example: "Fetus"
+            input = input.Replace("selten:", string.Empty).Trim(); // Example: "Fötus"
+            input = input.Replace("''(selten gebraucht)''", string.Empty).Trim(); // Example: "menstruieren"
+            input = input.Replace("''mundartlich:''", string.Empty).Trim(); // Example: "Herz"
+            input = input.Replace("dichterisch:", string.Empty).Trim(); // Example: "März"
+            input = input.Replace("''poetisch:''", string.Empty).Trim(); // Example: "scheuen"
+            input = input.Replace("''dialektal auch:''", string.Empty).Trim(); // Example: "fladern"
+            input = input.Replace("''regional:''", string.Empty).Trim(); // Example: "doll"
+            input = input.Replace("''nur umgangsspachlich:''", string.Empty).Trim(); // Example: "einzig"
+            input = input.Replace("''auch:''", string.Empty).Trim(); // Example: "Mahr"
+            input = input.Replace("''militärisch:''", string.Empty).Trim(); // Example: "wegtreten"
+            input = input.Replace("''auch einfach:''", string.Empty).Trim(); // Example: "hereinkommen"
+            input = input.Replace("[[Hilfe:Dativ-e|''Variante:'']]", string.Empty).Trim(); // Example: "Siebenschläfertag"
+            input = input.Replace("Nebensatz:", string.Empty).Trim(); // Example: "aussortieren"
             // replace braces for internal links with the same name
             if (input.Contains("[[") && input.Contains("]]") && input.Contains("|"))
             {
-                String firstPart = input.Substring(0, input.IndexOf("[["));
+                string firstPart = input.Substring(0, input.IndexOf("[["));
                 input = input.Substring(input.IndexOf("|") + 1);
-                input = input.Replace("]]", String.Empty);
+                input = input.Replace("]]", string.Empty);
                 input = firstPart + input;
             }
             else
             {
-                input = input.Replace("[[", String.Empty).Replace("]]", String.Empty);
+                input = input.Replace("[[", string.Empty).Replace("]]", string.Empty);
             }
             return input;
         }
 
-        public List<String> CreateAllFormsFromBraces(String input)
+        public List<string> CreateAllFormsFromBraces(string input)
         {
-            List<String> allForms = new List<string>();
-            List<String> removedOptionals = new List<string>();
-            String startText = "(";
-            String endText = ")";
+            List<string> allForms = new List<string>();
+            List<string> removedOptionals = new List<string>();
+            string startText = "(";
+            string endText = ")";
             int braceCounter = 0;
             StringBuilder stringBuilder = new StringBuilder();
             int index = 0;
@@ -184,23 +183,23 @@ namespace IWNLP.Parser.POSParser
                 }
                 stringBuilder.Append(input.Substring(index, beginStartText - index));
                 int endStartText = input.IndexOf(")", beginStartText);
-                String removed = input.Substring(beginStartText + startText.Length, endStartText - beginStartText - endText.Length).Trim();
+                string removed = input.Substring(beginStartText + startText.Length, endStartText - beginStartText - endText.Length).Trim();
                 removedOptionals.Add(removed);
                 stringBuilder.Append("{" + (braceCounter++) + "}");
                 index = endStartText + ")".Length;
             }
-            String formatString = stringBuilder.ToString();
+            string formatString = stringBuilder.ToString();
             if (removedOptionals.Count == 1)
             {
-                allForms.Add(String.Format(formatString, String.Empty).Trim());
-                allForms.Add(String.Format(formatString, removedOptionals[0]).Trim());
+                allForms.Add(string.Format(formatString, string.Empty).Trim());
+                allForms.Add(string.Format(formatString, removedOptionals[0]).Trim());
             }
             else if (removedOptionals.Count == 2)
             {
-                allForms.Add(String.Format(formatString, String.Empty, String.Empty).Trim());
-                allForms.Add(String.Format(formatString, String.Empty, removedOptionals[1]).Trim());
-                allForms.Add(String.Format(formatString, removedOptionals[0], String.Empty).Trim());
-                allForms.Add(String.Format(formatString, removedOptionals[0], removedOptionals[1]).Trim());
+                allForms.Add(string.Format(formatString, string.Empty, string.Empty).Trim());
+                allForms.Add(string.Format(formatString, string.Empty, removedOptionals[1]).Trim());
+                allForms.Add(string.Format(formatString, removedOptionals[0], string.Empty).Trim());
+                allForms.Add(string.Format(formatString, removedOptionals[0], removedOptionals[1]).Trim());
             }
             else
             {
@@ -209,16 +208,16 @@ namespace IWNLP.Parser.POSParser
             if (allForms.Contains("!")) // special case for "angrenzen", fixed at 20.4.2015. can be removed after next dump
             {
                 allForms.Remove("!");
-                Common.PrintError(String.Format("ParserBase error with '!': {0}", input));
+                Common.PrintError(string.Format("ParserBase error with '!': {0}", input));
             }
             return allForms;
         }
 
-        protected String StrRightC(String input, int length)
+        protected string StrRightC(string input, int length)
         {
-            if (String.IsNullOrEmpty(input))
+            if (string.IsNullOrEmpty(input))
             {
-                return String.Empty;
+                return string.Empty;
             }
             if (input.Length >= length)
             {
@@ -230,11 +229,11 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        protected String StrCrop(String input, int length)
+        protected string StrCrop(string input, int length)
         {
-            if (String.IsNullOrEmpty(input))
+            if (string.IsNullOrEmpty(input))
             {
-                return String.Empty;
+                return string.Empty;
             }
             if (input.Length >= length)
             {
@@ -246,37 +245,37 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        public String StrSubrev(String input, int offsetFromRight, int length)
+        public string StrSubrev(string input, int offsetFromRight, int length)
         {
             if (length == 0)
             {
                 length = 1;
             }
-            if (String.IsNullOrEmpty(input))
+            if (string.IsNullOrEmpty(input))
             {
-                return String.Empty;
+                return string.Empty;
             }
             if (offsetFromRight < length)
             {
-                return String.Empty;
+                return string.Empty;
             }
             if (offsetFromRight - length > input.Length)
             {
-                return String.Empty;
+                return string.Empty;
             }
             if (length > input.Length)
             {
-                return String.Empty;
+                return string.Empty;
             }
             return input.Substring(input.Length - offsetFromRight, length);
         }
 
-        public String RemoveNBSPandTrim(String value)
+        public string RemoveNBSPandTrim(string value)
         {
             return value.Replace("&nbsp;", " ").Trim();
         }
 
-        public void RemoveNBSPandTrim(List<String> values, String word)
+        public void RemoveNBSPandTrim(List<string> values, string word)
         {
             if (values == null)
             {
@@ -286,7 +285,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (values[i].Contains(",") || values[i].Contains("<") || values[i].Contains(">") || values[i].Contains("''"))
                 {
-                    Common.PrintError(String.Format("Error Verb Flexparser: {0}, {1}", word, values[i]));
+                    Common.PrintError(string.Format("Error Verb Flexparser: {0}, {1}", word, values[i]));
                 }
                 if (values[i].Contains("&nbsp;"))
                 {
@@ -295,14 +294,14 @@ namespace IWNLP.Parser.POSParser
             }
         }
 
-        public bool ContainsNonEmpty(Dictionary<String, String> dictionary, String key)
+        public bool ContainsNonEmpty(Dictionary<string, string> dictionary, string key)
         {
-            return dictionary.ContainsKey(key) && !String.IsNullOrEmpty(dictionary[key]);
+            return dictionary.ContainsKey(key) && !string.IsNullOrEmpty(dictionary[key]);
         }
 
-        public String StrSub(String text, int index, int length)
+        public string StrSub(string text, int index, int length)
         {
-            if (index < 0) { return String.Empty; }
+            if (index < 0) { return string.Empty; }
             if (length <= text.Length)
             {
                 return text.Substring(index, length);
@@ -311,7 +310,7 @@ namespace IWNLP.Parser.POSParser
             {
                 if (index == 0)
                 {
-                    String output = String.Empty;
+                    string output = string.Empty;
                     int repeatCount = length / text.Length;
                     for (int i = 0; i < repeatCount; i++)
                     {

@@ -2,14 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.POSParser
 {
     public class PronounParser : ParserBase
     {
-        public Word Parse(String word, String[] text, String wortArtLine)
+        public Word Parse(string word, string[] text, string wortArtLine)
         {
             Pronoun pronoun = new Pronoun();
             pronoun.Text = word;
@@ -34,14 +32,14 @@ namespace IWNLP.Parser.POSParser
                     }
                     if (!text[i].StartsWith("|"))
                     {
-                        Common.PrintError(word, String.Format("PronounParser: error in {0} || {1}", word, text[i]));
+                        Common.PrintError(word, string.Format("PronounParser: error in {0} || {1}", word, text[i]));
                         text[i] = "|" + text[i];
                     }
-                    String line = text[i].Substring(1).Trim(); // Skip leading "|"
+                    string line = text[i].Substring(1).Trim(); // Skip leading "|"
                     if (line.EndsWith("}}")) { line = line.Substring(0, line.Length - 2); } // remove end of block, if it is in the same line
                     line = base.CleanLine(line);
-                    String[] forms = line.Split(new String[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
-                    List<String> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
+                    string[] forms = line.Split(new string[] { "=" }, StringSplitOptions.RemoveEmptyEntries);
+                    List<string> noValue = new List<string>() { "—", "-", "—", "–", "–", "—", "?" };
                     if (forms.Length == 1 || (forms.Length == 2 && (noValue.Contains(forms[1].Trim()))))  // No value given
                     {
                         continue;
@@ -167,14 +165,14 @@ namespace IWNLP.Parser.POSParser
             pronoun.WenEinzahlMehrzahl = new List<string>() { "sie" };
         }
 
-        protected List<String> GetForms(String input, Word word)
+        protected List<string> GetForms(string input, Word word)
         {
             input = input.Trim();
-            String[] declensions = input.Split(new String[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>", "," }, StringSplitOptions.RemoveEmptyEntries);
-            List<String> allForms = new List<String>();
-            foreach (String declension in declensions)
+            string[] declensions = input.Split(new string[] { "&lt;br /&gt;", "<br>", "<br />", "<br/>", "</br>", "," }, StringSplitOptions.RemoveEmptyEntries);
+            List<string> allForms = new List<string>();
+            foreach (string declension in declensions)
             {
-                String cleaned = declension.Replace("[[", String.Empty).Replace("]]", String.Empty); // remove braces for internal links with the same name
+                string cleaned = declension.Replace("[[", string.Empty).Replace("]]", string.Empty); // remove braces for internal links with the same name
                 cleaned = RemoveBetween(declension, "[", "]").Trim();
                 if (cleaned.StartsWith("'''")) // example "das"
                 {
@@ -198,11 +196,11 @@ namespace IWNLP.Parser.POSParser
                 {
                     cleaned = cleaned.Substring(1, cleaned.Length - 2).Trim();
                 }
-                List<String> combinations = new List<string>();
+                List<string> combinations = new List<string>();
                 if (cleaned.Contains("{{") || cleaned.Contains("}}") || cleaned.Contains("<") || cleaned.Contains(">") || cleaned.Contains("|") || cleaned.Contains("''") || cleaned.Contains("(") || cleaned.Contains(")"))
                 {
                     word.ParserError = true;
-                    Common.PrintError(word.Text, String.Format("PronounParser: contains parenthesis {0}", word.Text));
+                    Common.PrintError(word.Text, string.Format("PronounParser: contains parenthesis {0}", word.Text));
                     return allForms;
                 }
                 allForms.Add(cleaned);

@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Models.Nouns
 {
     public class Inflection
     {
-        public String Article { get; set; }
-        public String InflectedWord { get; set; }
+        public string Article { get; set; }
+        public string InflectedWord { get; set; }
 
         public override bool Equals(object obj)
         {
@@ -23,9 +19,9 @@ namespace IWNLP.Models.Nouns
 
         public override string ToString()
         {
-            if (!String.IsNullOrEmpty(this.Article))
+            if (!string.IsNullOrEmpty(this.Article))
             {
-                return String.Format("{0} {1}", this.Article, this.InflectedWord);
+                return string.Format("{0} {1}", this.Article, this.InflectedWord);
             }
             else
             {

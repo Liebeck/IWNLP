@@ -3,7 +3,6 @@ using IWNLP.Models.Nouns;
 using IWNLP.Parser;
 using IWNLP.Parser.POSParser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -16,8 +15,8 @@ namespace IWNLP.ParserTest
         public void DeutschNameUebersichtParser_Parameter_TwoLines()
         {
             DeutschNameUebersichtParser parser = new DeutschNameUebersichtParser();
-            String word = "Maria vom Siege";
-            String[] lines = new string[]
+            string word = "Maria vom Siege";
+            string[] lines = new string[]
             {
                 "{{Deutsch Name Übersicht",
                 "|Genus=f",
@@ -26,7 +25,7 @@ namespace IWNLP.ParserTest
                 "|Bild 2=NtraSradelasVictorias0001.JPG|160px|2|“Maria vom Siege“ bei einer Prozession in Lima, Peru",
                 "}}"
             };
-            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
+            List<string> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
             Assert.AreEqual(2, cleanedTemplateBlock.Count);
         }
 
@@ -34,12 +33,12 @@ namespace IWNLP.ParserTest
         public void DeutschNameUebersichtParser_Parameter_OneLineTwoParameters()
         {
             DeutschNameUebersichtParser parser = new DeutschNameUebersichtParser();
-            String word = "Hindi";
-            String[] lines = new string[]
+            string word = "Hindi";
+            string[] lines = new string[]
             {
                 "{{Deutsch Name Übersicht|Genus=n}}"
             };
-            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
+            List<string> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
             Assert.AreEqual(1, cleanedTemplateBlock.Count);
         }
 
@@ -47,23 +46,23 @@ namespace IWNLP.ParserTest
         public void DeutschNameUebersichtParser_Parameter_OneLine()
         {
             DeutschNameUebersichtParser parser = new DeutschNameUebersichtParser();
-            String word = "Hindi";
-            String[] lines = new string[]
+            string word = "Hindi";
+            string[] lines = new string[]
             {
                 "{{Deutsch Name Übersicht",
                 "|Genus=m",
                 "}}"
             };
-            List<String> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
+            List<string> cleanedTemplateBlock = parser.GetCleanedTemplateBlock(word, lines);
             Assert.AreEqual(1, cleanedTemplateBlock.Count);
         }
 
         [TestMethod]
         public void Nord()
         {
-            String word = "Nord";
+            string word = "Nord";
             int wiktionaryID = 21287;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -105,9 +104,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Afrikaans()
         {
-            String word = "Afrikaans";
+            string word = "Afrikaans";
             int wiktionaryID = 2134;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -150,9 +149,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void MariaVomSiege()
         {
-            String word = "Maria vom Siege";
+            string word = "Maria vom Siege";
             int wiktionaryID = 164603;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -190,9 +189,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Gott()
         {
-            String word = "Gott";
+            string word = "Gott";
             int wiktionaryID = 5189;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -245,9 +244,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Manx()
         {
-            String word = "Manx";
+            string word = "Manx";
             int wiktionaryID = 32045;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);

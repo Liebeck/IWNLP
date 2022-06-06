@@ -1,17 +1,16 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Xml.Serialization;
 
 namespace IWNLP.Parser
 {
     public class XMLSerializer
     {
-        public static void Serialize<T>(T data, String path) where T : class
+        public static void Serialize<T>(T data, string path) where T : class
         {
             Serialize<T>(data, path, "root");
         }
 
-        public static void Serialize<T>(T data, String path, String xmlRootAttributeName) where T : class
+        public static void Serialize<T>(T data, string path, string xmlRootAttributeName) where T : class
         {
             using (FileStream stream = new FileStream(path, FileMode.Create))
             {
@@ -20,7 +19,7 @@ namespace IWNLP.Parser
             }
         }
 
-        public static T Deserialize<T>(String path, String xmlRootAttributeName) where T : class
+        public static T Deserialize<T>(string path, string xmlRootAttributeName) where T : class
         {
             using (FileStream stream = new FileStream(path, FileMode.Open))
             {
@@ -29,7 +28,7 @@ namespace IWNLP.Parser
             }
         }
 
-        public static T Deserialize<T>(String path) where T : class
+        public static T Deserialize<T>(string path) where T : class
         {
             return Deserialize<T>(path, "root");
         }        

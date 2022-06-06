@@ -1,33 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Models
 {
     public class Pronoun : Word
     {
 
-        public List<String> WerEinzahlM { get; set; }
-        public List<String> WerEinzahlF { get; set; }
-        public List<String> WerEinzahlN { get; set; }
-        public List<String> WerEinzahlMehrzahl { get; set; }
+        public List<string> WerEinzahlM { get; set; }
+        public List<string> WerEinzahlF { get; set; }
+        public List<string> WerEinzahlN { get; set; }
+        public List<string> WerEinzahlMehrzahl { get; set; }
 
-        public List<String> WessenEinzahlM { get; set; }
-        public List<String> WessenEinzahlF { get; set; }
-        public List<String> WessenEinzahlN { get; set; }
-        public List<String> WessenEinzahlMehrzahl { get; set; }
+        public List<string> WessenEinzahlM { get; set; }
+        public List<string> WessenEinzahlF { get; set; }
+        public List<string> WessenEinzahlN { get; set; }
+        public List<string> WessenEinzahlMehrzahl { get; set; }
 
-        public List<String> WemEinzahlM { get; set; }
-        public List<String> WemEinzahlF { get; set; }
-        public List<String> WemEinzahlN { get; set; }
-        public List<String> WemEinzahlMehrzahl { get; set; }
+        public List<string> WemEinzahlM { get; set; }
+        public List<string> WemEinzahlF { get; set; }
+        public List<string> WemEinzahlN { get; set; }
+        public List<string> WemEinzahlMehrzahl { get; set; }
 
-        public List<String> WenEinzahlM { get; set; }
-        public List<String> WenEinzahlF { get; set; }
-        public List<String> WenEinzahlN { get; set; }
-        public List<String> WenEinzahlMehrzahl { get; set; }
+        public List<string> WenEinzahlM { get; set; }
+        public List<string> WenEinzahlF { get; set; }
+        public List<string> WenEinzahlN { get; set; }
+        public List<string> WenEinzahlMehrzahl { get; set; }
 
         public bool Equals(Pronoun obj)
         {

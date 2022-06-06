@@ -4,8 +4,6 @@ using IWNLP.Parser.POSParser;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace IWNLP.Parser
@@ -44,14 +42,14 @@ namespace IWNLP.Parser
             deutschNameUebersicht = new DeutschNameUebersichtParser();
         }
 
-        public List<Entry> ParseText(String word, String textInput, int wikiID)
+        public List<Entry> ParseText(string word, string textInput, int wikiID)
         {
             if (GlobalBlacklist.Blacklist.Contains(word))
             {
                 return null;
             }
             textInput = ParserBase.RemoveBetween(textInput, "<!--", "-->");
-            String[] text = textInput.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
+            string[] text = textInput.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
             if (text.Any(x => x.Contains("{{Neuer Eintrag}}")))
             {
                 return null;
@@ -65,7 +63,7 @@ namespace IWNLP.Parser
             for (int i = 0; i < languageBlockBegin.Count; i++)
             {
                 int lastLineLanguageBlock = ((i < languageBlockBegin.Count - 1) ? (languageBlockBegin[i + 1]) : (text.Length)) - 1;
-                String[] subArrayLanguageBlock = Common.GetSubArray(text, startIndexLanguageBlock, lastLineLanguageBlock);
+                string[] subArrayLanguageBlock = Common.GetSubArray(text, startIndexLanguageBlock, lastLineLanguageBlock);
                 // only parse German text blocks
                 if (subArrayLanguageBlock.Any(x => x.Contains("({{Sprache|Deutsch}})")))
                 {
@@ -87,11 +85,11 @@ namespace IWNLP.Parser
                     }
                     catch (InvalidOperationException invalid)
                     {
-                        Common.PrintError(word, String.Format("WiktionaryParser: single-line adcjective declination: {0}", word));
+                        Common.PrintError(word, string.Format("WiktionaryParser: single-line adcjective declination: {0}", word));
                     }
                     catch
                     {
-                        Common.PrintError(word, String.Format("WiktionaryParser: Adjective declination error: {0}", word));
+                        Common.PrintError(word, string.Format("WiktionaryParser: Adjective declination error: {0}", word));
                     }
                 }
                 else if (subArrayLanguageBlock.Any(x => x.Contains("({{Verbkonjugation|Deutsch}})")))
@@ -124,7 +122,7 @@ namespace IWNLP.Parser
         /// <param name="word"></param>
         /// <param name="text"></param>
         /// <returns></returns>
-        protected List<Word> ParseLanguageBlock(String word, String[] text)
+        protected List<Word> ParseLanguageBlock(string word, string[] text)
         {
             List<Word> words = new List<Word>();
             // Find all "===" blocks and process them separately
@@ -133,7 +131,7 @@ namespace IWNLP.Parser
             for (int i = 0; i < wortdefinitionBlockIndices.Count; i++)
             {
                 int lastLineFromDefinitionBlock = ((i < wortdefinitionBlockIndices.Count - 1) ? (wortdefinitionBlockIndices[i + 1]) : (text.Length - 1)) - 1;
-                String[] subArrayDefinitionBlock = Common.GetSubArray(text, startIndexDefinitionBlock, lastLineFromDefinitionBlock);
+                string[] subArrayDefinitionBlock = Common.GetSubArray(text, startIndexDefinitionBlock, lastLineFromDefinitionBlock);
                 Word parsedWord = ParseDefinitionTextBlock(word, subArrayDefinitionBlock);
                 if (parsedWord != null)
                 {
@@ -150,7 +148,7 @@ namespace IWNLP.Parser
         /// <param name="word"></param>
         /// <param name="text"></param>
         /// <returns></returns>
-        protected Word ParseDefinitionTextBlock(String word, String[] text)
+        protected Word ParseDefinitionTextBlock(string word, string[] text)
         {
             Word wordObject = null;
             bool deutschesWort = !text.Any(x => x.StartsWith("{{Schweizer und Liechtensteiner Schreibweise"));
@@ -169,7 +167,7 @@ namespace IWNLP.Parser
             {
                 return null;
             }
-            String posTagLine = text.Single(x => x.Contains("{{Wortart|"));
+            string posTagLine = text.Single(x => x.Contains("{{Wortart|"));
             List<WikiPOSTag> wikiPosTags = this.GetWikiPosTags(posTagLine);
             if (wikiPosTags.Contains(WikiPOSTag.Substantiv))
             {
@@ -195,7 +193,7 @@ namespace IWNLP.Parser
                 }
                 catch
                 {
-                    Common.PrintError(word, String.Format("WiktionaryParser: adjectiveparser error: {0}", word));
+                    Common.PrintError(word, string.Format("WiktionaryParser: adjectiveparser error: {0}", word));
                     return null;
                 }
             }
@@ -207,7 +205,7 @@ namespace IWNLP.Parser
                 }
                 catch
                 {
-                    Common.PrintError(word, String.Format("WiktionaryParser: verbparser error: {0}", word));
+                    Common.PrintError(word, string.Format("WiktionaryParser: verbparser error: {0}", word));
                     return null;
                 }
             }
@@ -219,7 +217,7 @@ namespace IWNLP.Parser
                 }
                 catch
                 {
-                    Common.PrintError(word, String.Format("WiktionaryParser: pronoun parser error: {0}", word));
+                    Common.PrintError(word, string.Format("WiktionaryParser: pronoun parser error: {0}", word));
                     return null;
                 }
             }
@@ -311,7 +309,7 @@ namespace IWNLP.Parser
             return wordObject;
         }
 
-        public List<WikiPOSTag> GetWikiPosTags(String input)
+        public List<WikiPOSTag> GetWikiPosTags(string input)
         {
             List<WikiPOSTag> wikiPosTags = new List<WikiPOSTag>();
             int startIndex = input.IndexOf("|");
@@ -335,7 +333,7 @@ namespace IWNLP.Parser
             return wikiPosTags;
         }
 
-        public static String GetTextFromPage(String dumpPath, int wiktionaryID)
+        public static string GetTextFromPage(string dumpPath, int wiktionaryID)
         {
             using (XmlReader myReader = XmlReader.Create(dumpPath))
             {
@@ -350,7 +348,7 @@ namespace IWNLP.Parser
                         {
                             myReader.ReadToFollowing("revision");
                             myReader.ReadToFollowing("text");
-                            String text = myReader.ReadElementContentAsString();
+                            string text = myReader.ReadElementContentAsString();
                             return text;
                         }
                     }

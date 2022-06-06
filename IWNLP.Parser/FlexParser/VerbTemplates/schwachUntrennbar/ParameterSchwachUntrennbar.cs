@@ -1,32 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
 {
     public class ParameterSchwachUntrennbar
     {
-        public const String Parameter1 = "1";
-        public const String Parameter2 = "2";
-        public const String Parameter3 = "3";
-        public const String Parameter4 = "4";
+        public const string Parameter1 = "1";
+        public const string Parameter2 = "2";
+        public const string Parameter3 = "3";
+        public const string Parameter4 = "4";
 
-        public const String Verbfragment = "Verbfragment";
+        public const string Verbfragment = "Verbfragment";
 
-        public const String PartizipII = "Partizip II";
+        public const string PartizipII = "Partizip II";
 
-        public const String VP = "vp";
-        public const String ZP = "zp";
+        public const string VP = "vp";
+        public const string ZP = "zp";
 
-        public const String haben = "haben";
-        public const String gerund = "gerund";
+        public const string haben = "haben";
+        public const string gerund = "gerund";
 
-        public const String PartizipPlus = "Partizip+";
+        public const string PartizipPlus = "Partizip+";
 
-        public const String Unregelmäßig = "unregelmäßig";
-
- 
+        public const string Unregelmäßig = "unregelmäßig";
     }
 }

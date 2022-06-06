@@ -2,32 +2,30 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
 {
     public class VerbSchwachUntrennbarParser : VerbConjugationParserBase
     {
-        public Dictionary<String, String> ParseParameters(String[] input, String word)
+        public Dictionary<string, string> ParseParameters(string[] input, string word)
         {
-            String[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb schwach untrennbar|");
-            Dictionary<String, String> parameters = new Dictionary<string, string>();
+            string[] inputSplitted = base.SplitTemplateInput(input, "{{Deutsch Verb schwach untrennbar|");
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
             for (int i = 0; i < inputSplitted.Length; i++)
             {
                 if (inputSplitted[i].Contains("="))
                 {
                     inputSplitted[i] = base.CleanLine(inputSplitted[i]);
-                    String[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
-                    String key = keyValuePair[0].Trim();
-                    String value = keyValuePair[1].Trim();
+                    string[] keyValuePair = inputSplitted[i].Split(new char[] { '=' });
+                    string key = keyValuePair[0].Trim();
+                    string value = keyValuePair[1].Trim();
                     parameters[key] = value;
                 }
                 else
                 {
-                    if (String.IsNullOrEmpty(inputSplitted[i]))
+                    if (string.IsNullOrEmpty(inputSplitted[i]))
                     {
-                        Common.PrintError(word, String.Format("VerbSchwachUntrennbarParser: {0} parsing arguments, possible empty parameter", word));
+                        Common.PrintError(word, string.Format("VerbSchwachUntrennbarParser: {0} parsing arguments, possible empty parameter", word));
                         break;
                     }
                     parameters["1"] = inputSplitted[i++];
@@ -44,17 +42,17 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             }
             if (parameters.Any(x => x.Value.Contains("=")))
             {
-                Common.PrintError(word, String.Format("VerbSchwachUntrennbarParser: {0} contains '='", word));
+                Common.PrintError(word, string.Format("VerbSchwachUntrennbarParser: {0} contains '='", word));
             }
             return parameters;
         }
 
-        public VerbConjugation Parse(String word, String[] input)
+        public VerbConjugation Parse(string word, string[] input)
         {
             return this.Parse(word, this.ParseParameters(input, word));
         }
 
-        public VerbConjugation Parse(String word, Dictionary<String, String> parameters)
+        public VerbConjugation Parse(string word, Dictionary<string, string> parameters)
         {
             VerbConjugation verb = new VerbConjugation();
             verb.PartizipII = parameters[ParameterSchwachUntrennbar.PartizipII];
@@ -62,8 +60,8 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             {
                 verb.PartizipIIAlternativ = parameters[ParameterSchwachUntrennbar.PartizipPlus];
             }
-            List<String> condition = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "p", "s", "t", "v", "w", "x", "z", "ß" };
-            List<String> condition2 = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "m", "p", "s", "t", "v", "w", "x", "z", "ß" };
+            List<string> condition = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "p", "s", "t", "v", "w", "x", "z", "ß" };
+            List<string> condition2 = new List<string>() { "b", "c", "ch", "d", "f", "g", "j", "k", "m", "p", "s", "t", "v", "w", "x", "z", "ß" };
             #region Präsens Indikativ Singular 1 Person
             verb.PräsensAktivIndikativ_Singular1Person = new List<string>();
             if (parameters.ContainsKey("1. Singular Indikativ Präsens Aktiv"))
@@ -1086,14 +1084,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "1. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular1Person = new List<string>();
-                String key = "1. Singular Konjunktiv Präteritum Aktiv";
+                string key = "1. Singular Konjunktiv Präteritum Aktiv";
                 if (!parameters[key].Contains("</br >"))
                 {
                     verb.PräteritumAktivKonjunktiv_Singular1Person.Add(parameters[key]);
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >ich", ",</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters[key].Split(new string[] { ",</br >ich", ",</br >", "<br />" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Singular1Person.Add(multipleValues[i].Trim());
@@ -1110,14 +1108,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "2. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular2Person = new List<string>();
-                String key = "2. Singular Konjunktiv Präteritum Aktiv";
+                string key = "2. Singular Konjunktiv Präteritum Aktiv";
                 if (!parameters[key].Contains("</br >"))
                 {
                     verb.PräteritumAktivKonjunktiv_Singular2Person.Add(parameters[key]);
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >du", ",</br >","</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters[key].Split(new string[] { ",</br >du", ",</br >","</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Singular2Person.Add(multipleValues[i].Trim());
@@ -1134,14 +1132,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "3. Singular Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Singular3Person = new List<string>();
-                String key = "3. Singular Konjunktiv Präteritum Aktiv";
+                string key = "3. Singular Konjunktiv Präteritum Aktiv";
                 if (!parameters[key].Contains("</br >"))
                 {
                     verb.PräteritumAktivKonjunktiv_Singular3Person.Add(parameters[key]);
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >{{small|er/sie/es}}", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters[key].Split(new string[] { ",</br >{{small|er/sie/es}}", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Singular3Person.Add(multipleValues[i].Trim());
@@ -1158,14 +1156,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "1. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural1Person = new List<string>();
-                String key = "1. Plural Konjunktiv Präteritum Aktiv";
+                string key = "1. Plural Konjunktiv Präteritum Aktiv";
                 if (!parameters[key].Contains("</br >"))
                 {
                     verb.PräteritumAktivKonjunktiv_Plural1Person.Add(parameters[key]);
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >wir", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters[key].Split(new string[] { ",</br >wir", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Plural1Person.Add(multipleValues[i].Trim());
@@ -1182,14 +1180,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "2. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural2Person = new List<string>();
-                String key = "2. Plural Konjunktiv Präteritum Aktiv";
+                string key = "2. Plural Konjunktiv Präteritum Aktiv";
                 if (!parameters[key].Contains("</br >"))
                 {
                     verb.PräteritumAktivKonjunktiv_Plural2Person.Add(parameters[key]);
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >ihr", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters[key].Split(new string[] { ",</br >ihr", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Plural2Person.Add(multipleValues[i].Trim());
@@ -1206,14 +1204,14 @@ namespace IWNLP.Parser.FlexParser.VerbTemplates.schwachUntrennbar
             if (base.ContainsNonEmpty(parameters, "3. Plural Konjunktiv Präteritum Aktiv"))
             {
                 verb.PräteritumAktivKonjunktiv_Plural3Person = new List<string>();
-                String key = "3. Plural Konjunktiv Präteritum Aktiv";
+                string key = "3. Plural Konjunktiv Präteritum Aktiv";
                 if (!parameters[key].Contains("</br >"))
                 {
                     verb.PräteritumAktivKonjunktiv_Plural3Person.Add(parameters[key]);
                 }
                 else // example: "Flexion:brauchen"
                 {
-                    String[] multipleValues = parameters[key].Split(new String[] { ",</br >sie", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] multipleValues = parameters[key].Split(new string[] { ",</br >sie", ",</br >", "</br >" }, StringSplitOptions.RemoveEmptyEntries);
                     for (int i = 0; i < multipleValues.Length; i++)
                     {
                         verb.PräteritumAktivKonjunktiv_Plural3Person.Add(multipleValues[i].Trim());

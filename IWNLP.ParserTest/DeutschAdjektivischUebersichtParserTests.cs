@@ -1,7 +1,6 @@
 ﻿using IWNLP.Models.Nouns;
 using IWNLP.Parser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -13,9 +12,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Bekannter()
         {
-            String word = "Bekannter";
+            string word = "Bekannter";
             int wiktionaryID = 123174;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -33,14 +32,14 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Bekannter"},
                     DativPlural=new List<string>(){"Bekannten"},
                     AkkusativPlural=new List<string>(){"Bekannte"},
-                    NominativSingularSchwach=new List<String>(){"Bekannte"},
-                    GenitivSingularSchwach=new List<String>(){"Bekannten"},
-                    DativSingularSchwach=new List<String>(){"Bekannten"},
-                    AkkusativSingularSchwach=new List<String>(){"Bekannten"},
-                    NominativPluralSchwach=new List<String>(){"Bekannten"},
-                    GenitivPluralSchwach=new List<String>(){"Bekannten"},
-                    DativPluralSchwach=new List<String>(){"Bekannten"},
-                    AkkusativPluralSchwach=new List<String>(){"Bekannten"},
+                    NominativSingularSchwach=new List<string>(){"Bekannte"},
+                    GenitivSingularSchwach=new List<string>(){"Bekannten"},
+                    DativSingularSchwach=new List<string>(){"Bekannten"},
+                    AkkusativSingularSchwach=new List<string>(){"Bekannten"},
+                    NominativPluralSchwach=new List<string>(){"Bekannten"},
+                    GenitivPluralSchwach=new List<string>(){"Bekannten"},
+                    DativPluralSchwach=new List<string>(){"Bekannten"},
+                    AkkusativPluralSchwach=new List<string>(){"Bekannten"},
                     NominativSingularGemischt=new List<string>(){"Bekannter"},
                     GenitivSingularGemischt=new List<string>(){"Bekannten"},
                     DativSingularGemischt=new List<string>(){"Bekannten"},
@@ -59,9 +58,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void GeistlicherRat()
         {
-            String word = "Geistlicher Rat";
+            string word = "Geistlicher Rat";
             int wiktionaryID = 175534;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -79,14 +78,14 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Geistlicher Räte"},
                     DativPlural=new List<string>(){"Geistlichen Räten"},
                     AkkusativPlural=new List<string>(){"Geistliche Räte"},
-                    NominativSingularSchwach=new List<String>(){"Geistliche Rat"},
-                    GenitivSingularSchwach=new List<String>(){"Geistlichen Rats","Geistlichen Rates"},
-                    DativSingularSchwach=new List<String>(){"Geistlichen Rat"},
-                    AkkusativSingularSchwach=new List<String>(){"Geistlichen Rat"},
-                    NominativPluralSchwach=new List<String>(){"Geistlichen Räte"},
-                    GenitivPluralSchwach=new List<String>(){"Geistlichen Räte"},
-                    DativPluralSchwach=new List<String>(){"Geistlichen Räten"},
-                    AkkusativPluralSchwach=new List<String>(){"Geistlichen Räte"},
+                    NominativSingularSchwach=new List<string>(){"Geistliche Rat"},
+                    GenitivSingularSchwach=new List<string>(){"Geistlichen Rats","Geistlichen Rates"},
+                    DativSingularSchwach=new List<string>(){"Geistlichen Rat"},
+                    AkkusativSingularSchwach=new List<string>(){"Geistlichen Rat"},
+                    NominativPluralSchwach=new List<string>(){"Geistlichen Räte"},
+                    GenitivPluralSchwach=new List<string>(){"Geistlichen Räte"},
+                    DativPluralSchwach=new List<string>(){"Geistlichen Räten"},
+                    AkkusativPluralSchwach=new List<string>(){"Geistlichen Räte"},
                     NominativSingularGemischt=new List<string>(){"Geistlicher Rat"},
                     GenitivSingularGemischt=new List<string>(){"Geistlichen Rats","Geistlichen Rates"},
                     DativSingularGemischt=new List<string>(){"Geistlichen Rat"},
@@ -105,9 +104,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Neues()
         {
-            String word = "Neues";
+            string word = "Neues";
             int wiktionaryID = 276441;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -121,10 +120,10 @@ namespace IWNLP.ParserTest
                     GenitivSingular=new List<string>(){"Neuen"},
                     DativSingular=new List<string>(){"Neuem"},
                     AkkusativSingular=new List<string>(){"Neues"},
-                    NominativSingularSchwach=new List<String>(){"Neue"},
-                    GenitivSingularSchwach=new List<String>(){"Neuen"},
-                    DativSingularSchwach=new List<String>(){"Neuen"},
-                    AkkusativSingularSchwach=new List<String>(){"Neue"},
+                    NominativSingularSchwach=new List<string>(){"Neue"},
+                    GenitivSingularSchwach=new List<string>(){"Neuen"},
+                    DativSingularSchwach=new List<string>(){"Neuen"},
+                    AkkusativSingularSchwach=new List<string>(){"Neue"},
                     NominativSingularGemischt=new List<string>(){"Neues"},
                     GenitivSingularGemischt=new List<string>(){"Neuen"},
                     DativSingularGemischt=new List<string>(){"Neuen"},
@@ -139,9 +138,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Inneres()
         {
-            String word = "Inneres";
+            string word = "Inneres";
             int wiktionaryID = 262083;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -155,10 +154,10 @@ namespace IWNLP.ParserTest
                     GenitivSingular=new List<string>(){"Inneren","Innern"},
                     DativSingular=new List<string>(){"Innerem"},
                     AkkusativSingular=new List<string>(){"Inneres"},
-                    NominativSingularSchwach=new List<String>(){"Innere"},
-                    GenitivSingularSchwach=new List<String>(){"Inneren","Innern"},
-                    DativSingularSchwach=new List<String>(){"Inneren","Innern"},
-                    AkkusativSingularSchwach=new List<String>(){"Innere"},
+                    NominativSingularSchwach=new List<string>(){"Innere"},
+                    GenitivSingularSchwach=new List<string>(){"Inneren","Innern"},
+                    DativSingularSchwach=new List<string>(){"Inneren","Innern"},
+                    AkkusativSingularSchwach=new List<string>(){"Innere"},
                     NominativSingularGemischt=new List<string>(){"Inneres"},
                     GenitivSingularGemischt=new List<string>(){"Inneren", "Innern"},
                     DativSingularGemischt=new List<string>(){"Inneren","Innern"},
@@ -173,9 +172,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void DeutschesEck()
         {
-            String word = "Deutsches Eck";
+            string word = "Deutsches Eck";
             int wiktionaryID = 26385;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -189,10 +188,10 @@ namespace IWNLP.ParserTest
                     GenitivSingular=new List<string>(){"Deutschen Ecks"},
                     DativSingular=new List<string>(){"Deutschem Eck"},
                     AkkusativSingular=new List<string>(){"Deutsches Eck"},
-                    NominativSingularSchwach=new List<String>(){"Deutsche Eck"},
-                    GenitivSingularSchwach=new List<String>(){"Deutschen Ecks"},
-                    DativSingularSchwach=new List<String>(){"Deutschen Eck"},
-                    AkkusativSingularSchwach=new List<String>(){"Deutsche Eck"},
+                    NominativSingularSchwach=new List<string>(){"Deutsche Eck"},
+                    GenitivSingularSchwach=new List<string>(){"Deutschen Ecks"},
+                    DativSingularSchwach=new List<string>(){"Deutschen Eck"},
+                    AkkusativSingularSchwach=new List<string>(){"Deutsche Eck"},
                     NominativSingularGemischt=new List<string>(){"Deutsches Eck"},
                     GenitivSingularGemischt=new List<string>(){"Deutschen Ecks"},
                     DativSingularGemischt=new List<string>(){"Deutschen Eck"},
@@ -207,9 +206,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void GebrannteWasser()
         {
-            String word = "Gebrannte Wasser";
+            string word = "Gebrannte Wasser";
             int wiktionaryID = 272460;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -223,10 +222,10 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Gebrannter Wasser"},
                     DativPlural=new List<string>(){"Gebrannten Wassern"},
                     AkkusativPlural=new List<string>(){"Gebrannte Wasser"},
-                    NominativPluralSchwach=new List<String>(){"Gebrannten Wasser"},
-                    GenitivPluralSchwach=new List<String>(){"Gebrannten Wasser"},
-                    DativPluralSchwach=new List<String>(){"Gebrannten Wassern"},
-                    AkkusativPluralSchwach=new List<String>(){"Gebrannten Wasser"},
+                    NominativPluralSchwach=new List<string>(){"Gebrannten Wasser"},
+                    GenitivPluralSchwach=new List<string>(){"Gebrannten Wasser"},
+                    DativPluralSchwach=new List<string>(){"Gebrannten Wassern"},
+                    AkkusativPluralSchwach=new List<string>(){"Gebrannten Wasser"},
                     NominativPluralGemischt=new List<string>(){"Gebrannten Wasser"},
                     GenitivPluralGemischt=new List<string>(){"Gebrannten Wasser"},
                     DativPluralGemischt=new List<string>(){"Gebrannten Wassern"},
@@ -241,9 +240,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Gelbes()
         {
-            String word = "Gelbes";
+            string word = "Gelbes";
             int wiktionaryID = 23615;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -261,14 +260,14 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Gelber"},
                     DativPlural=new List<string>(){"Gelben"},
                     AkkusativPlural=new List<string>(){"Gelbe"},
-                    NominativSingularSchwach=new List<String>(){"Gelbe"},
-                    GenitivSingularSchwach=new List<String>(){"Gelben"},
-                    DativSingularSchwach=new List<String>(){"Gelben"},
-                    AkkusativSingularSchwach=new List<String>(){"Gelbe"},
-                    NominativPluralSchwach=new List<String>(){"Gelben"},
-                    GenitivPluralSchwach=new List<String>(){"Gelben"},
-                    DativPluralSchwach=new List<String>(){"Gelben"},
-                    AkkusativPluralSchwach=new List<String>(){"Gelben"},
+                    NominativSingularSchwach=new List<string>(){"Gelbe"},
+                    GenitivSingularSchwach=new List<string>(){"Gelben"},
+                    DativSingularSchwach=new List<string>(){"Gelben"},
+                    AkkusativSingularSchwach=new List<string>(){"Gelbe"},
+                    NominativPluralSchwach=new List<string>(){"Gelben"},
+                    GenitivPluralSchwach=new List<string>(){"Gelben"},
+                    DativPluralSchwach=new List<string>(){"Gelben"},
+                    AkkusativPluralSchwach=new List<string>(){"Gelben"},
                     NominativSingularGemischt=new List<string>(){"Gelbes"},
                     GenitivSingularGemischt=new List<string>(){"Gelben"},
                     DativSingularGemischt=new List<string>(){"Gelben"},
@@ -287,9 +286,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Asoziale()
         {
-            String word = "Asoziale";
+            string word = "Asoziale";
             int wiktionaryID = 326483;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -307,14 +306,14 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Asozialer"},
                     DativPlural=new List<string>(){"Asozialen"},
                     AkkusativPlural=new List<string>(){"Asoziale"},
-                    NominativSingularSchwach=new List<String>(){"Asoziale"},
-                    GenitivSingularSchwach=new List<String>(){"Asozialen"},
-                    DativSingularSchwach=new List<String>(){"Asozialen"},
-                    AkkusativSingularSchwach=new List<String>(){"Asoziale"},
-                    NominativPluralSchwach=new List<String>(){"Asozialen"},
-                    GenitivPluralSchwach=new List<String>(){"Asozialen"},
-                    DativPluralSchwach=new List<String>(){"Asozialen"},
-                    AkkusativPluralSchwach=new List<String>(){"Asozialen"},
+                    NominativSingularSchwach=new List<string>(){"Asoziale"},
+                    GenitivSingularSchwach=new List<string>(){"Asozialen"},
+                    DativSingularSchwach=new List<string>(){"Asozialen"},
+                    AkkusativSingularSchwach=new List<string>(){"Asoziale"},
+                    NominativPluralSchwach=new List<string>(){"Asozialen"},
+                    GenitivPluralSchwach=new List<string>(){"Asozialen"},
+                    DativPluralSchwach=new List<string>(){"Asozialen"},
+                    AkkusativPluralSchwach=new List<string>(){"Asozialen"},
                     NominativSingularGemischt=new List<string>(){"Asoziale"},
                     GenitivSingularGemischt=new List<string>(){"Asozialen"},
                     DativSingularGemischt=new List<string>(){"Asozialen"},
@@ -333,9 +332,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void Beschäftigter()
         {
-            String word = "Beschäftigter";
+            string word = "Beschäftigter";
             int wiktionaryID = 137120;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -353,14 +352,14 @@ namespace IWNLP.ParserTest
                     GenitivPlural=new List<string>(){"Beschäftigter"},
                     DativPlural=new List<string>(){"Beschäftigten"},
                     AkkusativPlural=new List<string>(){"Beschäftigte"},
-                    NominativSingularSchwach=new List<String>(){"Beschäftigte"},
-                    GenitivSingularSchwach=new List<String>(){"Beschäftigten"},
-                    DativSingularSchwach=new List<String>(){"Beschäftigten"},
-                    AkkusativSingularSchwach=new List<String>(){"Beschäftigten"},
-                    NominativPluralSchwach=new List<String>(){"Beschäftigten"},
-                    GenitivPluralSchwach=new List<String>(){"Beschäftigten"},
-                    DativPluralSchwach=new List<String>(){"Beschäftigten"},
-                    AkkusativPluralSchwach=new List<String>(){"Beschäftigten"},
+                    NominativSingularSchwach=new List<string>(){"Beschäftigte"},
+                    GenitivSingularSchwach=new List<string>(){"Beschäftigten"},
+                    DativSingularSchwach=new List<string>(){"Beschäftigten"},
+                    AkkusativSingularSchwach=new List<string>(){"Beschäftigten"},
+                    NominativPluralSchwach=new List<string>(){"Beschäftigten"},
+                    GenitivPluralSchwach=new List<string>(){"Beschäftigten"},
+                    DativPluralSchwach=new List<string>(){"Beschäftigten"},
+                    AkkusativPluralSchwach=new List<string>(){"Beschäftigten"},
                     NominativSingularGemischt=new List<string>(){"Beschäftigter"},
                     GenitivSingularGemischt=new List<string>(){"Beschäftigten"},
                     DativSingularGemischt=new List<string>(){"Beschäftigten"},
@@ -379,9 +378,9 @@ namespace IWNLP.ParserTest
         [TestMethod]
         public void ArabischerFruehling()
         {
-            String word = "Arabischer Frühling";
+            string word = "Arabischer Frühling";
             int wiktionaryID = 267863;
-            String text = DumpTextCaching.GetTextFromPage(wiktionaryID);
+            string text = DumpTextCaching.GetTextFromPage(wiktionaryID);
 
             WiktionaryParser parser = new WiktionaryParser();
             List<Models.Entry> words = parser.ParseText(word, text, wiktionaryID);
@@ -395,10 +394,10 @@ namespace IWNLP.ParserTest
                     GenitivSingular=new List<string>(){"Arabischen Frühlings"},
                     DativSingular=new List<string>(){"Arabischem Frühling"},
                     AkkusativSingular=new List<string>(){"Arabischen Frühling"},
-                    NominativSingularSchwach=new List<String>(){"Arabische Frühling"},
-                    GenitivSingularSchwach=new List<String>(){"Arabischen Frühlings"},
-                    DativSingularSchwach=new List<String>(){"Arabischen Frühling"},
-                    AkkusativSingularSchwach=new List<String>(){"Arabischen Frühling"},
+                    NominativSingularSchwach=new List<string>(){"Arabische Frühling"},
+                    GenitivSingularSchwach=new List<string>(){"Arabischen Frühlings"},
+                    DativSingularSchwach=new List<string>(){"Arabischen Frühling"},
+                    AkkusativSingularSchwach=new List<string>(){"Arabischen Frühling"},
                     NominativSingularGemischt=new List<string>(){"Arabischer Frühling"},
                     GenitivSingularGemischt=new List<string>(){"Arabischen Frühlings"},
                     DativSingularGemischt=new List<string>(){"Arabischen Frühling"},
