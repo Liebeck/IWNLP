@@ -1,12 +1,8 @@
-﻿using GenericXMLSerializer;
-using IWNLP.Models;
-using IWNLP.Parser.POSParser;
+﻿using IWNLP.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace IWNLP.Parser

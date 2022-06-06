@@ -1,13 +1,9 @@
-﻿using GenericXMLSerializer;
-using IWNLP.Models.Flections;
+﻿using IWNLP.Models.Flections;
 using IWNLP.Parser;
-using IWNLP.Parser.FlexParser.VerbTemplates.regelmaessig;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.ParserTest
 {

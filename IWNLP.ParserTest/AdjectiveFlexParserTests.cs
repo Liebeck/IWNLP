@@ -1,10 +1,8 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using IWNLP.Parser.FlexParser;
-using IWNLP.Models.Flections;
+﻿using IWNLP.Models.Flections;
 using IWNLP.Parser;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
-using GenericXMLSerializer;
 
 namespace IWNLP.ParserTest
 {

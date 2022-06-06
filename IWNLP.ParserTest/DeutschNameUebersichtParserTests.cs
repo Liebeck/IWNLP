@@ -1,5 +1,4 @@
-﻿using GenericXMLSerializer;
-using IWNLP.Models;
+﻿using IWNLP.Models;
 using IWNLP.Models.Nouns;
 using IWNLP.Parser;
 using IWNLP.Parser.POSParser;
@@ -7,8 +6,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IWNLP.ParserTest
 {

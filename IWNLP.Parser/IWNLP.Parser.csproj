@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GenericXMLSerializer">
-      <HintPath>..\packages\GenericXMLSerializer.1.0.0\lib\GenericXMLSerializer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -71,6 +68,7 @@
     <Compile Include="Stats.cs" />
     <Compile Include="StatsWriter.cs" />
     <Compile Include="WiktionaryParser.cs" />
+    <Compile Include="XMLSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
